@@ -26101,7 +26101,7 @@ msgstr "Pfade_ffekte ..."
 
 #: ../src/verbs.cpp:2858
 msgid "Manage, edit, and apply path effects"
-msgstr "Pfadeffekte verwakten, bearbeiten und anwenden"
+msgstr "Pfadeffekte verwalten, bearbeiten und anwenden"
 
 #: ../src/verbs.cpp:2859
 msgid "Filter _Editor..."
