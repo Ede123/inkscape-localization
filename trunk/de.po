@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2015-05-18 12:45+0200\n"
+"POT-Creation-Date: 2015-07-06 10:27+0200\n"
 "PO-Revision-Date: 2015-04-27 04:39+0100\n"
 "Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
 "Language-Team: \n"
@@ -3359,1033 +3359,1033 @@ msgstr "Stoff (Bitmap"
 msgid "Old paint (bitmap)"
 msgstr "Alte Farbe (Bitmap)"
 
-#. Symbols: ./MapSymbolsNPS.svg
+#. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:2
-msgctxt "Symbol"
-msgid "United States National Park Service Map Symbols"
-msgstr "United States National Park Service Map Symbole"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:3 ../share/symbols/symbols.h:4
-msgctxt "Symbol"
-msgid "Airport"
-msgstr "Flughafen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:5 ../share/symbols/symbols.h:6
-msgctxt "Symbol"
-msgid "Amphitheatre"
-msgstr "Amphitheater"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:7 ../share/symbols/symbols.h:8
-msgctxt "Symbol"
-msgid "Bicycle Trail"
-msgstr "Bike Trail"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:9 ../share/symbols/symbols.h:10
-msgctxt "Symbol"
-msgid "Boat Launch"
-msgstr "Schiffsstapellauf"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:11 ../share/symbols/symbols.h:12
-msgctxt "Symbol"
-msgid "Boat Tour"
-msgstr "Schiffrundfahrt"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:13 ../share/symbols/symbols.h:14
-msgctxt "Symbol"
-msgid "Bus Stop"
-msgstr "Bushaltestelle"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:15 ../share/symbols/symbols.h:16
-msgctxt "Symbol"
-msgid "Campfire"
-msgstr "Grillplatz"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:17 ../share/symbols/symbols.h:18
-msgctxt "Symbol"
-msgid "Campground"
-msgstr "Campingplatz"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:19 ../share/symbols/symbols.h:20
-msgctxt "Symbol"
-msgid "CanoeAccess"
-msgstr "Kanu Zugang"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:21 ../share/symbols/symbols.h:22
-msgctxt "Symbol"
-msgid "Crosscountry Ski Trail"
-msgstr "Skitouren Route"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:23 ../share/symbols/symbols.h:24
-msgctxt "Symbol"
-msgid "Downhill Skiing"
-msgstr "Abfahrtsski"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:25 ../share/symbols/symbols.h:26
-msgctxt "Symbol"
-msgid "Drinking Water"
-msgstr "Trinkwasser"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:27 ../share/symbols/symbols.h:28
-#: ../share/symbols/symbols.h:172 ../share/symbols/symbols.h:173
-msgctxt "Symbol"
-msgid "First Aid"
-msgstr "Erste Hilfe"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:29 ../share/symbols/symbols.h:30
-msgctxt "Symbol"
-msgid "Fishing"
-msgstr "Angeln"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:31 ../share/symbols/symbols.h:32
-msgctxt "Symbol"
-msgid "Food Service"
-msgstr "Essensservice"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:33 ../share/symbols/symbols.h:34
-msgctxt "Symbol"
-msgid "Four Wheel Drive Road"
-msgstr "Weg für geländegängie Fahrzeuge"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:35 ../share/symbols/symbols.h:36
-msgctxt "Symbol"
-msgid "Gas Station"
-msgstr "Tankstelle"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:37 ../share/symbols/symbols.h:38
-msgctxt "Symbol"
-msgid "Golfing"
-msgstr "Golfen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:39 ../share/symbols/symbols.h:40
-msgctxt "Symbol"
-msgid "Horseback Riding"
-msgstr "Pferdereiten"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:41 ../share/symbols/symbols.h:42
-msgctxt "Symbol"
-msgid "Hospital"
-msgstr "Hospital"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:43 ../share/symbols/symbols.h:44
-msgctxt "Symbol"
-msgid "Ice Skating"
-msgstr "Eislaufen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:45 ../share/symbols/symbols.h:46
-#: ../share/symbols/symbols.h:206 ../share/symbols/symbols.h:207
-msgctxt "Symbol"
-msgid "Information"
-msgstr "Information"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:47 ../share/symbols/symbols.h:48
-msgctxt "Symbol"
-msgid "Litter Receptacle"
-msgstr "Mülleimer"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:49 ../share/symbols/symbols.h:50
-msgctxt "Symbol"
-msgid "Lodging"
-msgstr "Unterkunft"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:51 ../share/symbols/symbols.h:52
-msgctxt "Symbol"
-msgid "Marina"
-msgstr "Hafen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:53 ../share/symbols/symbols.h:54
-msgctxt "Symbol"
-msgid "Motorbike Trail"
-msgstr "Motorradstrecke"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:55 ../share/symbols/symbols.h:56
-msgctxt "Symbol"
-msgid "Radiator Water"
-msgstr "Kühlwasser"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:57 ../share/symbols/symbols.h:58
-msgctxt "Symbol"
-msgid "Recycling"
-msgstr "Recycling"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:59 ../share/symbols/symbols.h:60
-#: ../share/symbols/symbols.h:258 ../share/symbols/symbols.h:259
-msgctxt "Symbol"
-msgid "Parking"
-msgstr "Parken"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:61 ../share/symbols/symbols.h:62
-msgctxt "Symbol"
-msgid "Pets On Leash"
-msgstr "Hunde anleinen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:63 ../share/symbols/symbols.h:64
-msgctxt "Symbol"
-msgid "Picnic Area"
-msgstr "Rastplatz"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:65 ../share/symbols/symbols.h:66
-msgctxt "Symbol"
-msgid "Post Office"
-msgstr "Postfiliale"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:67 ../share/symbols/symbols.h:68
-msgctxt "Symbol"
-msgid "Ranger Station"
-msgstr "Ranger Station"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:69 ../share/symbols/symbols.h:70
-msgctxt "Symbol"
-msgid "RV Campground"
-msgstr "Wohnmobil-Stellplatz"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:71 ../share/symbols/symbols.h:72
-msgctxt "Symbol"
-msgid "Restrooms"
-msgstr "WC"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:73 ../share/symbols/symbols.h:74
-msgctxt "Symbol"
-msgid "Sailing"
-msgstr "Segeln"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:75 ../share/symbols/symbols.h:76
-msgctxt "Symbol"
-msgid "Sanitary Disposal Station"
-msgstr "Abwasserentsorgung"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:77 ../share/symbols/symbols.h:78
-msgctxt "Symbol"
-msgid "Scuba Diving"
-msgstr "Tauchen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:79 ../share/symbols/symbols.h:80
-msgctxt "Symbol"
-msgid "Self Guided Trail"
-msgstr "Selbstgeführter Wanderweg"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:81 ../share/symbols/symbols.h:82
-msgctxt "Symbol"
-msgid "Shelter"
-msgstr "Unterstand"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:83 ../share/symbols/symbols.h:84
-msgctxt "Symbol"
-msgid "Showers"
-msgstr "Duschen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:85 ../share/symbols/symbols.h:86
-msgctxt "Symbol"
-msgid "Sledding"
-msgstr "Schlitten"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:87 ../share/symbols/symbols.h:88
-msgctxt "Symbol"
-msgid "SnowmobileTrail"
-msgstr "Schneemobilweg"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:89 ../share/symbols/symbols.h:90
-msgctxt "Symbol"
-msgid "Stable"
-msgstr "Stall"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:91 ../share/symbols/symbols.h:92
-msgctxt "Symbol"
-msgid "Store"
-msgstr "Laden"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:93 ../share/symbols/symbols.h:94
-msgctxt "Symbol"
-msgid "Swimming"
-msgstr "Schwimmen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:95 ../share/symbols/symbols.h:96
-#: ../share/symbols/symbols.h:162 ../share/symbols/symbols.h:163
-msgctxt "Symbol"
-msgid "Telephone"
-msgstr "Telefon"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:97 ../share/symbols/symbols.h:98
-msgctxt "Symbol"
-msgid "Emergency Telephone"
-msgstr "Notruf"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100
-msgctxt "Symbol"
-msgid "Trailhead"
-msgstr "Ausgangspunkt eines Wanderweges"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:101 ../share/symbols/symbols.h:102
-msgctxt "Symbol"
-msgid "Wheelchair Accessible"
-msgstr "Barrierefreier Zugang"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:103 ../share/symbols/symbols.h:104
-msgctxt "Symbol"
-msgid "Wind Surfing"
-msgstr "Windsurfen"
-
-#. Symbols: ./MapSymbolsNPS.svg
-#: ../share/symbols/symbols.h:105
-msgctxt "Symbol"
-msgid "Blank"
-msgstr "Leer"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:106
-msgctxt "Symbol"
-msgid "Flow Chart Shapes"
-msgstr "Flussdiagrammformen"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:107
-msgctxt "Symbol"
-msgid "Process"
-msgstr "Verarbeitung"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:108
-msgctxt "Symbol"
-msgid "Input/Output"
-msgstr "Eingabe/Ausgabe"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:109
-msgctxt "Symbol"
-msgid "Document"
-msgstr "Dokument"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:110
-msgctxt "Symbol"
-msgid "Manual Operation"
-msgstr "Manueller Betrieb"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:111
-msgctxt "Symbol"
-msgid "Preparation"
-msgstr "Vorbereitung"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:112
-msgctxt "Symbol"
-msgid "Merge"
-msgstr "Zusammenführen"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:113
-msgctxt "Symbol"
-msgid "Decision"
-msgstr "Entscheidung"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:114
-msgctxt "Symbol"
-msgid "Magnetic Tape"
-msgstr "Magnetband"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:115
-msgctxt "Symbol"
-msgid "Display"
-msgstr "Anzeige"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:116
-msgctxt "Symbol"
-msgid "Auxiliary Operation"
-msgstr "Hilfsoperation"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:117
-msgctxt "Symbol"
-msgid "Manual Input"
-msgstr "Manuelle Eingabe"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:118
-msgctxt "Symbol"
-msgid "Extract"
-msgstr "Extrahieren"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:119
-msgctxt "Symbol"
-msgid "Terminal/Interrupt"
-msgstr "Terminal/Unterbrechung"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:120
-msgctxt "Symbol"
-msgid "Punched Card"
-msgstr "Lochkarte"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:121
-msgctxt "Symbol"
-msgid "Punch Tape"
-msgstr "Lochstreifen"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:122
-msgctxt "Symbol"
-msgid "Online Storage"
-msgstr "Online-Speicher"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:123
-msgctxt "Symbol"
-msgid "Keying"
-msgstr "Freistellung"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:124
-msgctxt "Symbol"
-msgid "Sort"
-msgstr "Sortieren"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:125
-msgctxt "Symbol"
-msgid "Connector"
-msgstr "Objektverbinder"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:126
-msgctxt "Symbol"
-msgid "Off-Page Connector"
-msgstr "Seitenübergreifender Objektverbinder"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:127
-msgctxt "Symbol"
-msgid "Transmittal Tape"
-msgstr "Übertragungsband"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:128
-msgctxt "Symbol"
-msgid "Communication Link"
-msgstr "Kommunikationsverbindung"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:129
-msgctxt "Symbol"
-msgid "Collate"
-msgstr "Abgleichen"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:130
-msgctxt "Symbol"
-msgid "Comment/Annotation"
-msgstr "Kommentar/Anmerkung"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:131
-msgctxt "Symbol"
-msgid "Core"
-msgstr "Kern"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:132
-msgctxt "Symbol"
-msgid "Predefined Process"
-msgstr "Vorgegebener Prozess"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:133
-msgctxt "Symbol"
-msgid "Magnetic Disk (Database)"
-msgstr "Magnetplatte (Datenbank)"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:134
-msgctxt "Symbol"
-msgid "Magnetic Drum (Direct Access)"
-msgstr "Magnettrommel (Direktzugriff)"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:135
-msgctxt "Symbol"
-msgid "Offline Storage"
-msgstr "Offline-Speicher"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:136
-msgctxt "Symbol"
-msgid "Logical Or"
-msgstr "Logisches Oder"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:137
-msgctxt "Symbol"
-msgid "Logical And"
-msgstr "Logisches Und"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:138
-msgctxt "Symbol"
-msgid "Delay"
-msgstr "Verzögerung"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:139
-msgctxt "Symbol"
-msgid "Loop Limit Begin"
-msgstr "Schleifen Limit Anfang"
-
-#. Symbols: ./FlowSymbols.svg
-#: ../share/symbols/symbols.h:140
-msgctxt "Symbol"
-msgid "Loop Limit End"
-msgstr "Schleifen Limit Ende"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:141
-msgctxt "Symbol"
-msgid "Word Balloons"
-msgstr "Sprechblasen"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:142
-msgctxt "Symbol"
-msgid "Thought Balloon"
-msgstr "Denkblase"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:143
-msgctxt "Symbol"
-msgid "Dream Speaking"
-msgstr "Traumsprache"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:144
-msgctxt "Symbol"
-msgid "Rounded Balloon"
-msgstr "Abgerundete Blase"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:145
-msgctxt "Symbol"
-msgid "Squared Balloon"
-msgstr "Quadratische Blase"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:146
-msgctxt "Symbol"
-msgid "Over the Phone"
-msgstr "Telefonisch"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:147
-msgctxt "Symbol"
-msgid "Hip Balloon"
-msgstr "Hip Balloon"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:148
-msgctxt "Symbol"
-msgid "Circle Balloon"
-msgstr "Kreisblase"
-
-#. Symbols: ./BalloonSymbols.svg
-#: ../share/symbols/symbols.h:149
-msgctxt "Symbol"
-msgid "Exclaim Balloon"
-msgstr "Ausrufeblase"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:150
-msgctxt "Symbol"
-msgid "Logic Symbols"
-msgstr "Logische Symbole"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:151
-msgctxt "Symbol"
-msgid "Xnor Gate"
-msgstr "XNOR-Gatter"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:152
-msgctxt "Symbol"
-msgid "Xor Gate"
-msgstr "XOR-Gatter"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:153
-msgctxt "Symbol"
-msgid "Nor Gate"
-msgstr "NOR-Gatter"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:154
-msgctxt "Symbol"
-msgid "Or Gate"
-msgstr "Oder-Gatter"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:155
-msgctxt "Symbol"
-msgid "Nand Gate"
-msgstr "NAND-Gatter"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:156
-msgctxt "Symbol"
-msgid "And Gate"
-msgstr "Und-Gatter"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:157
-msgctxt "Symbol"
-msgid "Buffer"
-msgstr "Puffer"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:158
-msgctxt "Symbol"
-msgid "Not Gate"
-msgstr "Nicht-Gatter"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:159
-msgctxt "Symbol"
-msgid "Buffer Small"
-msgstr "Kleiner Puffer"
-
-#. Symbols: ./LogicSymbols.svg
-#: ../share/symbols/symbols.h:160
-msgctxt "Symbol"
-msgid "Not Gate Small"
-msgstr "Kleines Nicht-Gatter"
-
-#. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:161
 msgctxt "Symbol"
 msgid "AIGA Symbol Signs"
 msgstr "AIGA-Symbolzeichen"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:164 ../share/symbols/symbols.h:165
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:3 ../share/symbols/symbols.h:4
+#: ../share/symbols/symbols.h:281 ../share/symbols/symbols.h:282
+msgctxt "Symbol"
+msgid "Telephone"
+msgstr "Telefon"
+
+#. Symbols: ./AigaSymbols.svg
+#: ../share/symbols/symbols.h:5 ../share/symbols/symbols.h:6
 msgctxt "Symbol"
 msgid "Mail"
 msgstr "Post"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:166 ../share/symbols/symbols.h:167
+#: ../share/symbols/symbols.h:7 ../share/symbols/symbols.h:8
 msgctxt "Symbol"
 msgid "Currency Exchange"
 msgstr "Geldwechsel"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:168 ../share/symbols/symbols.h:169
+#: ../share/symbols/symbols.h:9 ../share/symbols/symbols.h:10
 msgctxt "Symbol"
 msgid "Currency Exchange - Euro"
 msgstr "Geldwechsel - Euro"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:170 ../share/symbols/symbols.h:171
+#: ../share/symbols/symbols.h:11 ../share/symbols/symbols.h:12
 msgctxt "Symbol"
 msgid "Cashier"
 msgstr "Kassierer"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:174 ../share/symbols/symbols.h:175
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:13 ../share/symbols/symbols.h:14
+#: ../share/symbols/symbols.h:213 ../share/symbols/symbols.h:214
+msgctxt "Symbol"
+msgid "First Aid"
+msgstr "Erste Hilfe"
+
+#. Symbols: ./AigaSymbols.svg
+#: ../share/symbols/symbols.h:15 ../share/symbols/symbols.h:16
 msgctxt "Symbol"
 msgid "Lost and Found"
 msgstr "Fundbüro"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:176 ../share/symbols/symbols.h:177
+#: ../share/symbols/symbols.h:17 ../share/symbols/symbols.h:18
 msgctxt "Symbol"
 msgid "Coat Check"
 msgstr "Garderobe"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:178 ../share/symbols/symbols.h:179
+#: ../share/symbols/symbols.h:19 ../share/symbols/symbols.h:20
 msgctxt "Symbol"
 msgid "Baggage Lockers"
 msgstr "Gepäckschließfächer"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:180 ../share/symbols/symbols.h:181
+#: ../share/symbols/symbols.h:21 ../share/symbols/symbols.h:22
 msgctxt "Symbol"
 msgid "Escalator"
 msgstr "Rolltreppe"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:182 ../share/symbols/symbols.h:183
+#: ../share/symbols/symbols.h:23 ../share/symbols/symbols.h:24
 msgctxt "Symbol"
 msgid "Escalator Down"
 msgstr "Rolltreppe abwärts"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:184 ../share/symbols/symbols.h:185
+#: ../share/symbols/symbols.h:25 ../share/symbols/symbols.h:26
 msgctxt "Symbol"
 msgid "Escalator Up"
 msgstr "Rolltreppe aufwärts"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:186 ../share/symbols/symbols.h:187
+#: ../share/symbols/symbols.h:27 ../share/symbols/symbols.h:28
 msgctxt "Symbol"
 msgid "Stairs"
 msgstr "Treppe"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:188 ../share/symbols/symbols.h:189
+#: ../share/symbols/symbols.h:29 ../share/symbols/symbols.h:30
 msgctxt "Symbol"
 msgid "Stairs Down"
 msgstr "Treppe abwärts"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:190 ../share/symbols/symbols.h:191
+#: ../share/symbols/symbols.h:31 ../share/symbols/symbols.h:32
 msgctxt "Symbol"
 msgid "Stairs Up"
 msgstr "Treppe aufwärts"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:192 ../share/symbols/symbols.h:193
+#: ../share/symbols/symbols.h:33 ../share/symbols/symbols.h:34
 msgctxt "Symbol"
 msgid "Elevator"
 msgstr "Aufzug"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:194 ../share/symbols/symbols.h:195
+#: ../share/symbols/symbols.h:35 ../share/symbols/symbols.h:36
 msgctxt "Symbol"
 msgid "Toilets - Men"
 msgstr "Toiletten - Männer"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:196 ../share/symbols/symbols.h:197
+#: ../share/symbols/symbols.h:37 ../share/symbols/symbols.h:38
 msgctxt "Symbol"
 msgid "Toilets - Women"
 msgstr "Toiletten - Frauen"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:198 ../share/symbols/symbols.h:199
+#: ../share/symbols/symbols.h:39 ../share/symbols/symbols.h:40
 msgctxt "Symbol"
 msgid "Toilets"
 msgstr "Toiletten"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:200 ../share/symbols/symbols.h:201
+#: ../share/symbols/symbols.h:41 ../share/symbols/symbols.h:42
 msgctxt "Symbol"
 msgid "Nursery"
 msgstr "Kindertagesstätte"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:202 ../share/symbols/symbols.h:203
+#: ../share/symbols/symbols.h:43 ../share/symbols/symbols.h:44
 msgctxt "Symbol"
 msgid "Drinking Fountain"
 msgstr "Trinkbrunnen"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:204 ../share/symbols/symbols.h:205
+#: ../share/symbols/symbols.h:45 ../share/symbols/symbols.h:46
 msgctxt "Symbol"
 msgid "Waiting Room"
 msgstr "Wartezimmer"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:208 ../share/symbols/symbols.h:209
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:47 ../share/symbols/symbols.h:48
+#: ../share/symbols/symbols.h:231 ../share/symbols/symbols.h:232
+msgctxt "Symbol"
+msgid "Information"
+msgstr "Information"
+
+#. Symbols: ./AigaSymbols.svg
+#: ../share/symbols/symbols.h:49 ../share/symbols/symbols.h:50
 msgctxt "Symbol"
 msgid "Hotel Information"
 msgstr "Hotelinformation"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:210 ../share/symbols/symbols.h:211
+#: ../share/symbols/symbols.h:51 ../share/symbols/symbols.h:52
 msgctxt "Symbol"
 msgid "Air Transportation"
 msgstr "Lufttransport"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:212 ../share/symbols/symbols.h:213
+#: ../share/symbols/symbols.h:53 ../share/symbols/symbols.h:54
 msgctxt "Symbol"
 msgid "Heliport"
 msgstr "Hubschrauberlandeplatz"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:214 ../share/symbols/symbols.h:215
+#: ../share/symbols/symbols.h:55 ../share/symbols/symbols.h:56
 msgctxt "Symbol"
 msgid "Taxi"
 msgstr "Taxi"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:216 ../share/symbols/symbols.h:217
+#: ../share/symbols/symbols.h:57 ../share/symbols/symbols.h:58
 msgctxt "Symbol"
 msgid "Bus"
 msgstr "Bus"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:218 ../share/symbols/symbols.h:219
+#: ../share/symbols/symbols.h:59 ../share/symbols/symbols.h:60
 msgctxt "Symbol"
 msgid "Ground Transportation"
 msgstr "Bodentransport"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:220 ../share/symbols/symbols.h:221
+#: ../share/symbols/symbols.h:61 ../share/symbols/symbols.h:62
 msgctxt "Symbol"
 msgid "Rail Transportation"
 msgstr "Eisenbahntransport"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:222 ../share/symbols/symbols.h:223
+#: ../share/symbols/symbols.h:63 ../share/symbols/symbols.h:64
 msgctxt "Symbol"
 msgid "Water Transportation"
 msgstr "Wassertransport"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:224 ../share/symbols/symbols.h:225
+#: ../share/symbols/symbols.h:65 ../share/symbols/symbols.h:66
 msgctxt "Symbol"
 msgid "Car Rental"
 msgstr "Autovermietung"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:226 ../share/symbols/symbols.h:227
+#: ../share/symbols/symbols.h:67 ../share/symbols/symbols.h:68
 msgctxt "Symbol"
 msgid "Restaurant"
 msgstr "Restaurant"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:228 ../share/symbols/symbols.h:229
+#: ../share/symbols/symbols.h:69 ../share/symbols/symbols.h:70
 msgctxt "Symbol"
 msgid "Coffeeshop"
 msgstr "Kaffeehaus"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:230 ../share/symbols/symbols.h:231
+#: ../share/symbols/symbols.h:71 ../share/symbols/symbols.h:72
 msgctxt "Symbol"
 msgid "Bar"
 msgstr "Bar"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:232 ../share/symbols/symbols.h:233
+#: ../share/symbols/symbols.h:73 ../share/symbols/symbols.h:74
 msgctxt "Symbol"
 msgid "Shops"
 msgstr "Geschäfte"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:234 ../share/symbols/symbols.h:235
+#: ../share/symbols/symbols.h:75 ../share/symbols/symbols.h:76
 msgctxt "Symbol"
 msgid "Barber Shop - Beauty Salon"
 msgstr "Friseurladen - Schönheitssalon"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:236 ../share/symbols/symbols.h:237
+#: ../share/symbols/symbols.h:77 ../share/symbols/symbols.h:78
 msgctxt "Symbol"
 msgid "Barber Shop"
 msgstr "Friseurladen"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:238 ../share/symbols/symbols.h:239
+#: ../share/symbols/symbols.h:79 ../share/symbols/symbols.h:80
 msgctxt "Symbol"
 msgid "Beauty Salon"
 msgstr "Schönheitssalon"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:240 ../share/symbols/symbols.h:241
+#: ../share/symbols/symbols.h:81 ../share/symbols/symbols.h:82
 msgctxt "Symbol"
 msgid "Ticket Purchase"
 msgstr "Kartenkauf"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:242 ../share/symbols/symbols.h:243
+#: ../share/symbols/symbols.h:83 ../share/symbols/symbols.h:84
 msgctxt "Symbol"
 msgid "Baggage Check In"
 msgstr "Gepäckaufgabe"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:244 ../share/symbols/symbols.h:245
+#: ../share/symbols/symbols.h:85 ../share/symbols/symbols.h:86
 msgctxt "Symbol"
 msgid "Baggage Claim"
 msgstr "Gepäckrückgabe"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:246 ../share/symbols/symbols.h:247
+#: ../share/symbols/symbols.h:87 ../share/symbols/symbols.h:88
 msgctxt "Symbol"
 msgid "Customs"
 msgstr "Zoll"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:248 ../share/symbols/symbols.h:249
+#: ../share/symbols/symbols.h:89 ../share/symbols/symbols.h:90
 msgctxt "Symbol"
 msgid "Immigration"
 msgstr "Passkontrolle"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:250 ../share/symbols/symbols.h:251
+#: ../share/symbols/symbols.h:91 ../share/symbols/symbols.h:92
 msgctxt "Symbol"
 msgid "Departing Flights"
 msgstr "Abflüge"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:252 ../share/symbols/symbols.h:253
+#: ../share/symbols/symbols.h:93 ../share/symbols/symbols.h:94
 msgctxt "Symbol"
 msgid "Arriving Flights"
 msgstr "Ankommende Flüge"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:254 ../share/symbols/symbols.h:255
+#: ../share/symbols/symbols.h:95 ../share/symbols/symbols.h:96
 msgctxt "Symbol"
 msgid "Smoking"
 msgstr "Rauchen erlaubt"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:256 ../share/symbols/symbols.h:257
+#: ../share/symbols/symbols.h:97 ../share/symbols/symbols.h:98
 msgctxt "Symbol"
 msgid "No Smoking"
 msgstr "Rauchen verboten"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:260 ../share/symbols/symbols.h:261
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100
+#: ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
+msgctxt "Symbol"
+msgid "Parking"
+msgstr "Parken"
+
+#. Symbols: ./AigaSymbols.svg
+#: ../share/symbols/symbols.h:101 ../share/symbols/symbols.h:102
 msgctxt "Symbol"
 msgid "No Parking"
 msgstr "Parkverbot"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:262 ../share/symbols/symbols.h:263
+#: ../share/symbols/symbols.h:103 ../share/symbols/symbols.h:104
 msgctxt "Symbol"
 msgid "No Dogs"
 msgstr "Hunde verboten"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:264 ../share/symbols/symbols.h:265
+#: ../share/symbols/symbols.h:105 ../share/symbols/symbols.h:106
 msgctxt "Symbol"
 msgid "No Entry"
 msgstr "Betreten verboten"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:266 ../share/symbols/symbols.h:267
+#: ../share/symbols/symbols.h:107 ../share/symbols/symbols.h:108
 msgctxt "Symbol"
 msgid "Exit"
 msgstr "Ausgang"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:268 ../share/symbols/symbols.h:269
+#: ../share/symbols/symbols.h:109 ../share/symbols/symbols.h:110
 msgctxt "Symbol"
 msgid "Fire Extinguisher"
 msgstr "Feuerlöscher"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:270 ../share/symbols/symbols.h:271
+#: ../share/symbols/symbols.h:111 ../share/symbols/symbols.h:112
 msgctxt "Symbol"
 msgid "Right Arrow"
 msgstr "Pfeil nach rechts"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:272 ../share/symbols/symbols.h:273
+#: ../share/symbols/symbols.h:113 ../share/symbols/symbols.h:114
 msgctxt "Symbol"
 msgid "Forward and Right Arrow"
 msgstr "Pfeil nach vorne und nach rechts"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:274 ../share/symbols/symbols.h:275
+#: ../share/symbols/symbols.h:115 ../share/symbols/symbols.h:116
 msgctxt "Symbol"
 msgid "Up Arrow"
 msgstr "Pfeil nach oben"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:276 ../share/symbols/symbols.h:277
+#: ../share/symbols/symbols.h:117 ../share/symbols/symbols.h:118
 msgctxt "Symbol"
 msgid "Forward and Left Arrow"
 msgstr "Pfeil nach vorne und nach links"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:278 ../share/symbols/symbols.h:279
+#: ../share/symbols/symbols.h:119 ../share/symbols/symbols.h:120
 msgctxt "Symbol"
 msgid "Left Arrow"
 msgstr "Pfeil nach links"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:280 ../share/symbols/symbols.h:281
+#: ../share/symbols/symbols.h:121 ../share/symbols/symbols.h:122
 msgctxt "Symbol"
 msgid "Left and Down Arrow"
 msgstr "Pfeil nach links und nach unten"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:282 ../share/symbols/symbols.h:283
+#: ../share/symbols/symbols.h:123 ../share/symbols/symbols.h:124
 msgctxt "Symbol"
 msgid "Down Arrow"
 msgstr "Pfeil nach unten"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:284 ../share/symbols/symbols.h:285
+#: ../share/symbols/symbols.h:125 ../share/symbols/symbols.h:126
 msgctxt "Symbol"
 msgid "Right and Down Arrow"
 msgstr "Pfeil nach rechts und nach unten"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:286 ../share/symbols/symbols.h:287
+#: ../share/symbols/symbols.h:127 ../share/symbols/symbols.h:128
 msgctxt "Symbol"
 msgid "NPS Wheelchair Accessible - 1996"
 msgstr "NPS Rollstuhlgerecht - 1996"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:288 ../share/symbols/symbols.h:289
+#: ../share/symbols/symbols.h:129 ../share/symbols/symbols.h:130
 msgctxt "Symbol"
 msgid "NPS Wheelchair Accessible"
 msgstr "NPS Rollstuhlgerecht"
 
 #. Symbols: ./AigaSymbols.svg
-#: ../share/symbols/symbols.h:290 ../share/symbols/symbols.h:291
+#: ../share/symbols/symbols.h:131 ../share/symbols/symbols.h:132
 msgctxt "Symbol"
 msgid "New Wheelchair Accessible"
 msgstr "Neu rollstuhlgerecht"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:133
+msgctxt "Symbol"
+msgid "Word Balloons"
+msgstr "Sprechblasen"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:134
+msgctxt "Symbol"
+msgid "Thought Balloon"
+msgstr "Denkblase"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:135
+msgctxt "Symbol"
+msgid "Dream Speaking"
+msgstr "Traumsprache"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:136
+msgctxt "Symbol"
+msgid "Rounded Balloon"
+msgstr "Abgerundete Blase"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:137
+msgctxt "Symbol"
+msgid "Squared Balloon"
+msgstr "Quadratische Blase"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:138
+msgctxt "Symbol"
+msgid "Over the Phone"
+msgstr "Telefonisch"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:139
+msgctxt "Symbol"
+msgid "Hip Balloon"
+msgstr "Hip Balloon"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:140
+msgctxt "Symbol"
+msgid "Circle Balloon"
+msgstr "Kreisblase"
+
+#. Symbols: ./BalloonSymbols.svg
+#: ../share/symbols/symbols.h:141
+msgctxt "Symbol"
+msgid "Exclaim Balloon"
+msgstr "Ausrufeblase"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:142
+msgctxt "Symbol"
+msgid "Flow Chart Shapes"
+msgstr "Flussdiagrammformen"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:143
+msgctxt "Symbol"
+msgid "Process"
+msgstr "Verarbeitung"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:144
+msgctxt "Symbol"
+msgid "Input/Output"
+msgstr "Eingabe/Ausgabe"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:145
+msgctxt "Symbol"
+msgid "Document"
+msgstr "Dokument"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:146
+msgctxt "Symbol"
+msgid "Manual Operation"
+msgstr "Manueller Betrieb"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:147
+msgctxt "Symbol"
+msgid "Preparation"
+msgstr "Vorbereitung"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:148
+msgctxt "Symbol"
+msgid "Merge"
+msgstr "Zusammenführen"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:149
+msgctxt "Symbol"
+msgid "Decision"
+msgstr "Entscheidung"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:150
+msgctxt "Symbol"
+msgid "Magnetic Tape"
+msgstr "Magnetband"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:151
+msgctxt "Symbol"
+msgid "Display"
+msgstr "Anzeige"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:152
+msgctxt "Symbol"
+msgid "Auxiliary Operation"
+msgstr "Hilfsoperation"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:153
+msgctxt "Symbol"
+msgid "Manual Input"
+msgstr "Manuelle Eingabe"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:154
+msgctxt "Symbol"
+msgid "Extract"
+msgstr "Extrahieren"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:155
+msgctxt "Symbol"
+msgid "Terminal/Interrupt"
+msgstr "Terminal/Unterbrechung"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:156
+msgctxt "Symbol"
+msgid "Punched Card"
+msgstr "Lochkarte"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:157
+msgctxt "Symbol"
+msgid "Punch Tape"
+msgstr "Lochstreifen"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:158
+msgctxt "Symbol"
+msgid "Online Storage"
+msgstr "Online-Speicher"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:159
+msgctxt "Symbol"
+msgid "Keying"
+msgstr "Freistellung"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:160
+msgctxt "Symbol"
+msgid "Sort"
+msgstr "Sortieren"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:161
+msgctxt "Symbol"
+msgid "Connector"
+msgstr "Objektverbinder"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:162
+msgctxt "Symbol"
+msgid "Off-Page Connector"
+msgstr "Seitenübergreifender Objektverbinder"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:163
+msgctxt "Symbol"
+msgid "Transmittal Tape"
+msgstr "Übertragungsband"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:164
+msgctxt "Symbol"
+msgid "Communication Link"
+msgstr "Kommunikationsverbindung"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:165
+msgctxt "Symbol"
+msgid "Collate"
+msgstr "Abgleichen"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:166
+msgctxt "Symbol"
+msgid "Comment/Annotation"
+msgstr "Kommentar/Anmerkung"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:167
+msgctxt "Symbol"
+msgid "Core"
+msgstr "Kern"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:168
+msgctxt "Symbol"
+msgid "Predefined Process"
+msgstr "Vorgegebener Prozess"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:169
+msgctxt "Symbol"
+msgid "Magnetic Disk (Database)"
+msgstr "Magnetplatte (Datenbank)"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:170
+msgctxt "Symbol"
+msgid "Magnetic Drum (Direct Access)"
+msgstr "Magnettrommel (Direktzugriff)"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:171
+msgctxt "Symbol"
+msgid "Offline Storage"
+msgstr "Offline-Speicher"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:172
+msgctxt "Symbol"
+msgid "Logical Or"
+msgstr "Logisches Oder"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:173
+msgctxt "Symbol"
+msgid "Logical And"
+msgstr "Logisches Und"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:174
+msgctxt "Symbol"
+msgid "Delay"
+msgstr "Verzögerung"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:175
+msgctxt "Symbol"
+msgid "Loop Limit Begin"
+msgstr "Schleifen Limit Anfang"
+
+#. Symbols: ./FlowSymbols.svg
+#: ../share/symbols/symbols.h:176
+msgctxt "Symbol"
+msgid "Loop Limit End"
+msgstr "Schleifen Limit Ende"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:177
+msgctxt "Symbol"
+msgid "Logic Symbols"
+msgstr "Logische Symbole"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:178
+msgctxt "Symbol"
+msgid "Xnor Gate"
+msgstr "XNOR-Gatter"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:179
+msgctxt "Symbol"
+msgid "Xor Gate"
+msgstr "XOR-Gatter"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:180
+msgctxt "Symbol"
+msgid "Nor Gate"
+msgstr "NOR-Gatter"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:181
+msgctxt "Symbol"
+msgid "Or Gate"
+msgstr "Oder-Gatter"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:182
+msgctxt "Symbol"
+msgid "Nand Gate"
+msgstr "NAND-Gatter"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:183
+msgctxt "Symbol"
+msgid "And Gate"
+msgstr "Und-Gatter"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:184
+msgctxt "Symbol"
+msgid "Buffer"
+msgstr "Puffer"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:185
+msgctxt "Symbol"
+msgid "Not Gate"
+msgstr "Nicht-Gatter"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:186
+msgctxt "Symbol"
+msgid "Buffer Small"
+msgstr "Kleiner Puffer"
+
+#. Symbols: ./LogicSymbols.svg
+#: ../share/symbols/symbols.h:187
+msgctxt "Symbol"
+msgid "Not Gate Small"
+msgstr "Kleines Nicht-Gatter"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:188
+msgctxt "Symbol"
+msgid "United States National Park Service Map Symbols"
+msgstr "United States National Park Service Map Symbole"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:189 ../share/symbols/symbols.h:190
+msgctxt "Symbol"
+msgid "Airport"
+msgstr "Flughafen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:191 ../share/symbols/symbols.h:192
+msgctxt "Symbol"
+msgid "Amphitheatre"
+msgstr "Amphitheater"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:193 ../share/symbols/symbols.h:194
+msgctxt "Symbol"
+msgid "Bicycle Trail"
+msgstr "Bike Trail"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
+msgctxt "Symbol"
+msgid "Boat Launch"
+msgstr "Schiffsstapellauf"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:197 ../share/symbols/symbols.h:198
+msgctxt "Symbol"
+msgid "Boat Tour"
+msgstr "Schiffrundfahrt"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:199 ../share/symbols/symbols.h:200
+msgctxt "Symbol"
+msgid "Bus Stop"
+msgstr "Bushaltestelle"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:201 ../share/symbols/symbols.h:202
+msgctxt "Symbol"
+msgid "Campfire"
+msgstr "Grillplatz"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:203 ../share/symbols/symbols.h:204
+msgctxt "Symbol"
+msgid "Campground"
+msgstr "Campingplatz"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:205 ../share/symbols/symbols.h:206
+msgctxt "Symbol"
+msgid "CanoeAccess"
+msgstr "Kanu Zugang"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:207 ../share/symbols/symbols.h:208
+msgctxt "Symbol"
+msgid "Crosscountry Ski Trail"
+msgstr "Skitouren Route"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:209 ../share/symbols/symbols.h:210
+msgctxt "Symbol"
+msgid "Downhill Skiing"
+msgstr "Abfahrtsski"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:211 ../share/symbols/symbols.h:212
+msgctxt "Symbol"
+msgid "Drinking Water"
+msgstr "Trinkwasser"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:215 ../share/symbols/symbols.h:216
+msgctxt "Symbol"
+msgid "Fishing"
+msgstr "Angeln"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:217 ../share/symbols/symbols.h:218
+msgctxt "Symbol"
+msgid "Food Service"
+msgstr "Essensservice"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:219 ../share/symbols/symbols.h:220
+msgctxt "Symbol"
+msgid "Four Wheel Drive Road"
+msgstr "Weg für geländegängie Fahrzeuge"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:221 ../share/symbols/symbols.h:222
+msgctxt "Symbol"
+msgid "Gas Station"
+msgstr "Tankstelle"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:223 ../share/symbols/symbols.h:224
+msgctxt "Symbol"
+msgid "Golfing"
+msgstr "Golfen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:225 ../share/symbols/symbols.h:226
+msgctxt "Symbol"
+msgid "Horseback Riding"
+msgstr "Pferdereiten"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:227 ../share/symbols/symbols.h:228
+msgctxt "Symbol"
+msgid "Hospital"
+msgstr "Hospital"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:229 ../share/symbols/symbols.h:230
+msgctxt "Symbol"
+msgid "Ice Skating"
+msgstr "Eislaufen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:233 ../share/symbols/symbols.h:234
+msgctxt "Symbol"
+msgid "Litter Receptacle"
+msgstr "Mülleimer"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:235 ../share/symbols/symbols.h:236
+msgctxt "Symbol"
+msgid "Lodging"
+msgstr "Unterkunft"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:237 ../share/symbols/symbols.h:238
+msgctxt "Symbol"
+msgid "Marina"
+msgstr "Hafen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:239 ../share/symbols/symbols.h:240
+msgctxt "Symbol"
+msgid "Motorbike Trail"
+msgstr "Motorradstrecke"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
+msgctxt "Symbol"
+msgid "Radiator Water"
+msgstr "Kühlwasser"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
+msgctxt "Symbol"
+msgid "Recycling"
+msgstr "Recycling"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
+msgctxt "Symbol"
+msgid "Pets On Leash"
+msgstr "Hunde anleinen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
+msgctxt "Symbol"
+msgid "Picnic Area"
+msgstr "Rastplatz"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
+msgctxt "Symbol"
+msgid "Post Office"
+msgstr "Postfiliale"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
+msgctxt "Symbol"
+msgid "Ranger Station"
+msgstr "Ranger Station"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
+msgctxt "Symbol"
+msgid "RV Campground"
+msgstr "Wohnmobil-Stellplatz"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
+msgctxt "Symbol"
+msgid "Restrooms"
+msgstr "WC"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
+msgctxt "Symbol"
+msgid "Sailing"
+msgstr "Segeln"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:261 ../share/symbols/symbols.h:262
+msgctxt "Symbol"
+msgid "Sanitary Disposal Station"
+msgstr "Abwasserentsorgung"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:263 ../share/symbols/symbols.h:264
+msgctxt "Symbol"
+msgid "Scuba Diving"
+msgstr "Tauchen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:265 ../share/symbols/symbols.h:266
+msgctxt "Symbol"
+msgid "Self Guided Trail"
+msgstr "Selbstgeführter Wanderweg"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:267 ../share/symbols/symbols.h:268
+msgctxt "Symbol"
+msgid "Shelter"
+msgstr "Unterstand"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:269 ../share/symbols/symbols.h:270
+msgctxt "Symbol"
+msgid "Showers"
+msgstr "Duschen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:271 ../share/symbols/symbols.h:272
+msgctxt "Symbol"
+msgid "Sledding"
+msgstr "Schlitten"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:273 ../share/symbols/symbols.h:274
+msgctxt "Symbol"
+msgid "SnowmobileTrail"
+msgstr "Schneemobilweg"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:275 ../share/symbols/symbols.h:276
+msgctxt "Symbol"
+msgid "Stable"
+msgstr "Stall"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
+msgctxt "Symbol"
+msgid "Store"
+msgstr "Laden"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
+msgctxt "Symbol"
+msgid "Swimming"
+msgstr "Schwimmen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
+msgctxt "Symbol"
+msgid "Emergency Telephone"
+msgstr "Notruf"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
+msgctxt "Symbol"
+msgid "Trailhead"
+msgstr "Ausgangspunkt eines Wanderweges"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:287 ../share/symbols/symbols.h:288
+msgctxt "Symbol"
+msgid "Wheelchair Accessible"
+msgstr "Barrierefreier Zugang"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:289 ../share/symbols/symbols.h:290
+msgctxt "Symbol"
+msgid "Wind Surfing"
+msgstr "Windsurfen"
+
+#. Symbols: ./MapSymbolsNPS.svg
+#: ../share/symbols/symbols.h:291
+msgctxt "Symbol"
+msgid "Blank"
+msgstr "Leer"
 
 #: ../share/templates/templates.h:1
 msgid "CD Label 120mmx120mm "
@@ -4799,11 +4799,11 @@ msgstr "Mittelpunkt der Umrandung"
 msgid "Bounding box side midpoint"
 msgstr "Mitte der Umrandungslinie"
 
-#: ../src/display/snap-indicator.cpp:196 ../src/ui/tool/node.cpp:1506
+#: ../src/display/snap-indicator.cpp:196 ../src/ui/tool/node.cpp:1507
 msgid "Smooth node"
 msgstr "glatter Knoten"
 
-#: ../src/display/snap-indicator.cpp:199 ../src/ui/tool/node.cpp:1505
+#: ../src/display/snap-indicator.cpp:199 ../src/ui/tool/node.cpp:1506
 msgid "Cusp node"
 msgstr "Spitzer Knoten"
 
@@ -4855,7 +4855,7 @@ msgstr "Text-anker"
 msgid "Multiple of grid spacing"
 msgstr "Mehrfaches der Gitterweite"
 
-#: ../src/display/snap-indicator.cpp:268
+#: ../src/display/snap-indicator.cpp:281
 msgid " to "
 msgstr " an "
 
@@ -5062,7 +5062,7 @@ msgstr "Adaptiver Schwellwert"
 #: ../src/extension/internal/bitmap/raise.cpp:42
 #: ../src/extension/internal/bitmap/sample.cpp:41
 #: ../src/extension/internal/bluredge.cpp:136
-#: ../src/ui/dialog/lpe-powerstroke-properties.cpp:59
+#: ../src/ui/dialog/lpe-powerstroke-properties.cpp:66
 #: ../src/ui/dialog/object-attributes.cpp:68
 #: ../src/ui/dialog/object-attributes.cpp:77
 #: ../src/ui/widget/page-sizer.cpp:249
@@ -5524,7 +5524,7 @@ msgstr "Deckkraft"
 
 #: ../src/extension/internal/bitmap/opacity.cpp:40
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2900
-#: ../src/ui/dialog/objects.cpp:1619 ../src/widgets/dropper-toolbar.cpp:83
+#: ../src/ui/dialog/objects.cpp:1625 ../src/widgets/dropper-toolbar.cpp:83
 msgid "Opacity:"
 msgstr "Deckkraft:"
 
@@ -5821,14 +5821,14 @@ msgid "Output page size:"
 msgstr "Seitengröße der Ausgabe:"
 
 #: ../src/extension/internal/cdr-input.cpp:116
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:87
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:92
 #: ../src/extension/internal/vsd-input.cpp:116
 msgid "Select page:"
 msgstr "Seite auswählen:"
 
 #. Display total number of pages
 #: ../src/extension/internal/cdr-input.cpp:128
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:106
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:111
 #: ../src/extension/internal/vsd-input.cpp:128
 #, c-format
 msgid "out of %i"
@@ -5908,42 +5908,42 @@ msgid "EMF Output"
 msgstr "EMF-Ausgabe"
 
 #: ../src/extension/internal/emf-inout.cpp:3600
-#: ../src/extension/internal/wmf-inout.cpp:3174
+#: ../src/extension/internal/wmf-inout.cpp:3176
 msgid "Convert texts to paths"
 msgstr "Texte in Pfade umwandeln"
 
 #: ../src/extension/internal/emf-inout.cpp:3601
-#: ../src/extension/internal/wmf-inout.cpp:3175
+#: ../src/extension/internal/wmf-inout.cpp:3177
 msgid "Map Unicode to Symbol font"
 msgstr "Unicode mit Symbol Font verbinden"
 
 #: ../src/extension/internal/emf-inout.cpp:3602
-#: ../src/extension/internal/wmf-inout.cpp:3176
+#: ../src/extension/internal/wmf-inout.cpp:3178
 msgid "Map Unicode to Wingdings"
 msgstr "Unicode mit Wingdings Font verbinden"
 
 #: ../src/extension/internal/emf-inout.cpp:3603
-#: ../src/extension/internal/wmf-inout.cpp:3177
+#: ../src/extension/internal/wmf-inout.cpp:3179
 msgid "Map Unicode to Zapf Dingbats"
 msgstr "Unicode mit Zapf Dingbats Font verbinden"
 
 #: ../src/extension/internal/emf-inout.cpp:3604
-#: ../src/extension/internal/wmf-inout.cpp:3178
+#: ../src/extension/internal/wmf-inout.cpp:3180
 msgid "Use MS Unicode PUA (0xF020-0xF0FF) for converted characters"
 msgstr "MS Unicode PUA (0xF020-0xF0FF) für umgewandelte Zeichen verwenden"
 
 #: ../src/extension/internal/emf-inout.cpp:3605
-#: ../src/extension/internal/wmf-inout.cpp:3179
+#: ../src/extension/internal/wmf-inout.cpp:3181
 msgid "Compensate for PPT font bug"
 msgstr "PPT font bug kompensieren"
 
 #: ../src/extension/internal/emf-inout.cpp:3606
-#: ../src/extension/internal/wmf-inout.cpp:3180
+#: ../src/extension/internal/wmf-inout.cpp:3182
 msgid "Convert dashed/dotted lines to single lines"
 msgstr "Gestrichelte/gepunktete Linien in zusammenhängende Linien umwandeln"
 
 #: ../src/extension/internal/emf-inout.cpp:3607
-#: ../src/extension/internal/wmf-inout.cpp:3181
+#: ../src/extension/internal/wmf-inout.cpp:3183
 msgid "Convert gradients to colored polygon series"
 msgstr "Farbverlauf in lineare farbige Rechtecke umwandeln"
 
@@ -6683,7 +6683,7 @@ msgstr "Getrennt"
 
 #: ../src/extension/internal/filter/color.h:505 ../src/filter-enums.cpp:113
 #: ../src/live_effects/lpe-interpolate_points.cpp:25
-#: ../src/live_effects/lpe-powerstroke.cpp:194
+#: ../src/live_effects/lpe-powerstroke.cpp:130
 msgid "Linear"
 msgstr "Linie"
 
@@ -6865,7 +6865,7 @@ msgstr "Schatten"
 
 #: ../src/extension/internal/filter/color.h:1119
 #: ../src/extension/internal/filter/paint.h:356 ../src/filter-enums.cpp:33
-#: ../src/live_effects/effect.cpp:110
+#: ../src/live_effects/effect.cpp:107
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1048
 #: ../src/widgets/gradient-toolbar.cpp:1162
 msgid "Offset"
@@ -7121,7 +7121,7 @@ msgid "Blur and displace edges of shapes and pictures"
 msgstr "verwischt und versetzt Kanten von Formen und Bildern"
 
 #: ../src/extension/internal/filter/distort.h:190
-#: ../src/live_effects/effect.cpp:140
+#: ../src/live_effects/effect.cpp:137
 msgid "Roughen"
 msgstr "Aufraumodus"
 
@@ -7245,7 +7245,7 @@ msgstr "XOR"
 
 #: ../src/extension/internal/filter/morphology.h:179
 #: ../src/ui/dialog/layer-properties.cpp:185
-#: ../src/ui/dialog/lpe-powerstroke-properties.cpp:55
+#: ../src/ui/dialog/lpe-powerstroke-properties.cpp:59
 msgid "Position:"
 msgstr "Position:"
 
@@ -7446,7 +7446,7 @@ msgstr "Zeichnung"
 #: ../src/extension/internal/filter/paint.h:496
 #: ../src/extension/internal/filter/paint.h:590
 #: ../src/extension/internal/filter/paint.h:976
-#: ../src/live_effects/effect.cpp:151 ../src/splivarot.cpp:2201
+#: ../src/live_effects/effect.cpp:148 ../src/splivarot.cpp:2204
 msgid "Simplify"
 msgstr "Vereinfachen"
 
@@ -7957,15 +7957,15 @@ msgstr "Gitter"
 msgid "Draw a path which is a grid"
 msgstr "Pfad zeichnen, der ein Gitter ist"
 
-#: ../src/extension/internal/javafx-out.cpp:966
+#: ../src/extension/internal/javafx-out.cpp:963
 msgid "JavaFX Output"
 msgstr "JavaFX-Ausgabe"
 
-#: ../src/extension/internal/javafx-out.cpp:971
+#: ../src/extension/internal/javafx-out.cpp:968
 msgid "JavaFX (*.fx)"
 msgstr "JavaFx (*.fx)"
 
-#: ../src/extension/internal/javafx-out.cpp:972
+#: ../src/extension/internal/javafx-out.cpp:969
 msgid "JavaFX Raytracer File"
 msgstr "JavaFX-Raytracer-Datei"
 
@@ -7981,58 +7981,58 @@ msgstr "LaTeX mit PSTricks-Makros (*.tex)"
 msgid "LaTeX PSTricks File"
 msgstr "LaTeX-PSTricks-Datei"
 
-#: ../src/extension/internal/latex-pstricks.cpp:331
+#: ../src/extension/internal/latex-pstricks.cpp:330
 msgid "LaTeX Print"
 msgstr "LaTeX-Druck"
 
-#: ../src/extension/internal/odf.cpp:2142
+#: ../src/extension/internal/odf.cpp:2141
 msgid "OpenDocument Drawing Output"
 msgstr "OpenDocument-Zeichnungsausgabe"
 
-#: ../src/extension/internal/odf.cpp:2147
+#: ../src/extension/internal/odf.cpp:2146
 msgid "OpenDocument drawing (*.odg)"
 msgstr "OpenDocument-Zeichnung (*.odg)"
 
-#: ../src/extension/internal/odf.cpp:2148
+#: ../src/extension/internal/odf.cpp:2147
 msgid "OpenDocument drawing file"
 msgstr "OpenDocument-Zeichnungsdatei"
 
 #. TRANSLATORS: The following are document crop settings for PDF import
 #. more info: http://www.acrobatusers.com/tech_corners/javascript_corner/tips/2006/page_bounds/
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:71
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:77
 msgid "media box"
 msgstr "Medienrahmen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:72
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:78
 msgid "crop box"
 msgstr "Maskenrahmen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:73
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:79
 msgid "trim box"
 msgstr "Endformatrahmen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:74
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:80
 msgid "bleed box"
 msgstr "Ausschnittrahmen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:75
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:81
 msgid "art box"
 msgstr "Objektrahmen"
 
 #. Crop settings
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:112
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:117
 msgid "Clip to:"
 msgstr "Beschneide zu:"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:123
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:128
 msgid "Page settings"
 msgstr "Seiteneinstellungen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:124
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:129
 msgid "Precision of approximating gradient meshes:"
 msgstr "Präzision zur Annäherung an gradient meshes:"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:125
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:130
 msgid ""
 "<b>Note</b>: setting the precision too high may result in a large SVG file "
 "and slow performance."
@@ -8040,93 +8040,109 @@ msgstr ""
 "<b>Hinweis</b>: Die Präzision zu hoch einzustellen kann zu einem großen SVG "
 "und schlechter Leistung führen."
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:128
-msgid "import via Poppler"
-msgstr "Über Poppler importieren"
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:134
+msgid "Poppler/Cairo import"
+msgstr ""
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:138
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:135
+msgid ""
+"Import via external library. Text consists of groups containing cloned "
+"glyphs where each glyph is a path. Images are stored internally. Meshes "
+"cause entire document to be rendered as a raster image."
+msgstr ""
+
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:136
+#, fuzzy
+msgid "Internal import"
+msgstr "Serieller Port:"
+
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:137
+msgid ""
+"Import via internal (Poppler derived) library. Text is stored as text but "
+"white space is missing. Meshes are converted to tiles, the number depends on "
+"the precision set below."
+msgstr ""
+
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:148
 msgid "rough"
 msgstr "rau"
 
 #. Text options
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:142
-msgid "Text handling:"
-msgstr "Behandlung von Text:"
-
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:144
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:145
-msgid "Import text as text"
-msgstr "Fließtext in Text umwandeln"
-
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:146
+#. _labelText = Gtk::manage(new class Gtk::Label(_("Text handling:")));
+#. _textHandlingCombo = Gtk::manage(new class Gtk::ComboBoxText());
+#. _textHandlingCombo->append(_("Import text as text"));
+#. _textHandlingCombo->set_active_text(_("Import text as text"));
+#. hbox5 = Gtk::manage(new class Gtk::HBox(false, 4));
+#. Font option
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:159
 msgid "Replace PDF fonts by closest-named installed fonts"
 msgstr "PDF-Fonts durch namenähnlichste installierte Fonts ersetzen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:149
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:161
 msgid "Embed images"
 msgstr "Alle Bilder einbetten"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:151
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:163
 msgid "Import settings"
 msgstr "Importeinstellungen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:268
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:290
 msgid "PDF Import Settings"
 msgstr "PDF-Importeinstellungen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:431
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:437
 msgctxt "PDF input precision"
 msgid "rough"
 msgstr "rau"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:432
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:438
 msgctxt "PDF input precision"
 msgid "medium"
 msgstr "Mittel"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:433
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:439
 msgctxt "PDF input precision"
 msgid "fine"
 msgstr "fein"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:434
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:440
 msgctxt "PDF input precision"
 msgid "very fine"
 msgstr "sehr fein"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:901
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:936
 msgid "PDF Input"
 msgstr "PDF einlesen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:906
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:941
 msgid "Adobe PDF (*.pdf)"
 msgstr "Adobe PDF (*.pdf)"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:907
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:942
 msgid "Adobe Portable Document Format"
 msgstr "Adobe Portable Document Format"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:914
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:949
 msgid "AI Input"
 msgstr "AI einlesen"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:919
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:954
 msgid "Adobe Illustrator 9.0 and above (*.ai)"
 msgstr "Adobe Illustrator 9.0 und neuer (*.ai)"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:920
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:955
 msgid "Open files saved in Adobe Illustrator 9.0 and newer versions"
 msgstr "Mit Adobe Illustrator 9.0 oder neuer gespeicherte Dateien öffnen"
 
-#: ../src/extension/internal/pov-out.cpp:715
+#: ../src/extension/internal/pov-out.cpp:714
 msgid "PovRay Output"
 msgstr "PovRay-Ausgabe"
 
-#: ../src/extension/internal/pov-out.cpp:720
+#: ../src/extension/internal/pov-out.cpp:719
 msgid "PovRay (*.pov) (paths and shapes only)"
 msgstr "PovRay (*.pov) (nur Pfade und Formen)"
 
-#: ../src/extension/internal/pov-out.cpp:721
+#: ../src/extension/internal/pov-out.cpp:720
 msgid "PovRay Raytracer File"
 msgstr "PovRay-Raytracer-Datei"
 
@@ -8239,33 +8255,33 @@ msgstr "VSDX einlesen"
 msgid "Microsoft Visio 2013 drawing (*.vsdx)"
 msgstr "Microsoft Visio 2013 Zeichnung (*´.vsdx)"
 
-#: ../src/extension/internal/wmf-inout.cpp:3158
+#: ../src/extension/internal/wmf-inout.cpp:3160
 msgid "WMF Input"
 msgstr "WMF einlesen"
 
-#: ../src/extension/internal/wmf-inout.cpp:3163
+#: ../src/extension/internal/wmf-inout.cpp:3165
 msgid "Windows Metafiles (*.wmf)"
 msgstr "Windows-Metadateien (*.wmf)"
 
-#: ../src/extension/internal/wmf-inout.cpp:3164
+#: ../src/extension/internal/wmf-inout.cpp:3166
 msgid "Windows Metafiles"
 msgstr "Windows-Metadateien"
 
-#: ../src/extension/internal/wmf-inout.cpp:3172
+#: ../src/extension/internal/wmf-inout.cpp:3174
 msgid "WMF Output"
 msgstr "WMF-Ausgabe"
 
-#: ../src/extension/internal/wmf-inout.cpp:3182
+#: ../src/extension/internal/wmf-inout.cpp:3184
 msgid "Map all fill patterns to standard WMF hatches"
 msgstr "Alle Füllmuster als Standard WMF-Muster verbinden"
 
-#: ../src/extension/internal/wmf-inout.cpp:3186
+#: ../src/extension/internal/wmf-inout.cpp:3188
 #: ../share/extensions/wmf_input.inx.h:2
 #: ../share/extensions/wmf_output.inx.h:2
 msgid "Windows Metafile (*.wmf)"
 msgstr "Windows-Metadatei (*.wmf)"
 
-#: ../src/extension/internal/wmf-inout.cpp:3187
+#: ../src/extension/internal/wmf-inout.cpp:3189
 msgid "Windows Metafile"
 msgstr "Windows-Metadatei"
 
@@ -8500,11 +8516,11 @@ msgstr "Grelles Licht"
 msgid "Soft Light"
 msgstr "Gedämpftes Licht"
 
-#: ../src/filter-enums.cpp:63 ../src/splivarot.cpp:88 ../src/splivarot.cpp:94
+#: ../src/filter-enums.cpp:63 ../src/splivarot.cpp:89 ../src/splivarot.cpp:95
 msgid "Difference"
 msgstr "Differenz"
 
-#: ../src/filter-enums.cpp:64 ../src/splivarot.cpp:100
+#: ../src/filter-enums.cpp:64 ../src/splivarot.cpp:101
 msgid "Exclusion"
 msgstr "Exklusiv-Oder (Ausschluss)"
 
@@ -8581,6 +8597,7 @@ msgid "Arithmetic"
 msgstr "Arithmetisch"
 
 #: ../src/filter-enums.cpp:120 ../src/selection-chemistry.cpp:545
+#: ../src/ui/dialog/objects.cpp:1889
 msgid "Duplicate"
 msgstr "Duplizieren"
 
@@ -9242,209 +9259,204 @@ msgstr "Y-Koordinate eines schwebenden Docks"
 msgid "Dock #%d"
 msgstr "Andocken #%d"
 
-#: ../src/libnrtype/FontFactory.cpp:618
+#: ../src/libnrtype/FontFactory.cpp:636
 msgid "Ignoring font without family that will crash Pango"
 msgstr ""
 "Schrift ohne zugehörige Schriftfamilie wird ignoriert, damit Pango nicht "
 "abstürzt"
 
-#: ../src/live_effects/effect.cpp:99
+#: ../src/live_effects/effect.cpp:98
 msgid "doEffect stack test"
 msgstr "AusführenEffekt-Reihentest"
 
-#: ../src/live_effects/effect.cpp:100
+#: ../src/live_effects/effect.cpp:99
 msgid "Angle bisector"
 msgstr "Winkelhalbierende"
 
-#. TRANSLATORS: boolean operations
-#: ../src/live_effects/effect.cpp:102
-msgid "Boolops"
-msgstr "Bool'sche Operationen"
-
-#: ../src/live_effects/effect.cpp:103
+#: ../src/live_effects/effect.cpp:100
 msgid "Circle (by center and radius)"
 msgstr "Kreis (Mittelpunkt+Radius)"
 
-#: ../src/live_effects/effect.cpp:104
+#: ../src/live_effects/effect.cpp:101
 msgid "Circle by 3 points"
 msgstr "Kreis durch 3 Punkte"
 
-#: ../src/live_effects/effect.cpp:105
+#: ../src/live_effects/effect.cpp:102
 msgid "Dynamic stroke"
 msgstr "Dynamischer Strich"
 
-#: ../src/live_effects/effect.cpp:106 ../share/extensions/extrude.inx.h:1
+#: ../src/live_effects/effect.cpp:103 ../share/extensions/extrude.inx.h:1
 msgid "Extrude"
 msgstr "Extrudieren"
 
-#: ../src/live_effects/effect.cpp:107
+#: ../src/live_effects/effect.cpp:104
 msgid "Lattice Deformation"
 msgstr "Gitterverformung"
 
-#: ../src/live_effects/effect.cpp:108
+#: ../src/live_effects/effect.cpp:105
 msgid "Line Segment"
 msgstr "Liniensegment"
 
-#: ../src/live_effects/effect.cpp:109
+#: ../src/live_effects/effect.cpp:106
 msgid "Mirror symmetry"
 msgstr "Spiegelsymmetrisch"
 
-#: ../src/live_effects/effect.cpp:111
+#: ../src/live_effects/effect.cpp:108
 msgid "Parallel"
 msgstr "Parallel"
 
-#: ../src/live_effects/effect.cpp:112
+#: ../src/live_effects/effect.cpp:109
 msgid "Path length"
 msgstr "Pfadlänge"
 
-#: ../src/live_effects/effect.cpp:113
+#: ../src/live_effects/effect.cpp:110
 msgid "Perpendicular bisector"
 msgstr "Senkrechte Winkelhalbierende"
 
-#: ../src/live_effects/effect.cpp:114
+#: ../src/live_effects/effect.cpp:111
 msgid "Perspective path"
 msgstr "Perspektivischer Pfad"
 
-#: ../src/live_effects/effect.cpp:115
+#: ../src/live_effects/effect.cpp:112
 msgid "Rotate copies"
 msgstr "Kopien rotieren"
 
-#: ../src/live_effects/effect.cpp:116
+#: ../src/live_effects/effect.cpp:113
 msgid "Recursive skeleton"
 msgstr "Rekursives Gitter"
 
-#: ../src/live_effects/effect.cpp:117
+#: ../src/live_effects/effect.cpp:114
 msgid "Tangent to curve"
 msgstr "Tangente an Kurve"
 
-#: ../src/live_effects/effect.cpp:118
+#: ../src/live_effects/effect.cpp:115
 msgid "Text label"
 msgstr "Text-Bezeichner"
 
 #. 0.46
-#: ../src/live_effects/effect.cpp:121
+#: ../src/live_effects/effect.cpp:118
 msgid "Bend"
 msgstr "Biegen"
 
-#: ../src/live_effects/effect.cpp:122
+#: ../src/live_effects/effect.cpp:119
 msgid "Gears"
 msgstr "Zahnräder"
 
-#: ../src/live_effects/effect.cpp:123
+#: ../src/live_effects/effect.cpp:120
 msgid "Pattern Along Path"
 msgstr "Muster entlang Pfad"
 
 #. for historic reasons, this effect is called skeletal(strokes) in Inkscape:SVG
-#: ../src/live_effects/effect.cpp:124
+#: ../src/live_effects/effect.cpp:121
 msgid "Stitch Sub-Paths"
 msgstr "Unterpfade zusammenfügen"
 
 #. 0.47
-#: ../src/live_effects/effect.cpp:126
+#: ../src/live_effects/effect.cpp:123
 msgid "VonKoch"
 msgstr "VonKoch"
 
-#: ../src/live_effects/effect.cpp:127
+#: ../src/live_effects/effect.cpp:124
 msgid "Knot"
 msgstr "Knoten"
 
-#: ../src/live_effects/effect.cpp:128
+#: ../src/live_effects/effect.cpp:125
 msgid "Construct grid"
 msgstr "Gitter erzeugen"
 
-#: ../src/live_effects/effect.cpp:129
+#: ../src/live_effects/effect.cpp:126
 msgid "Spiro spline"
 msgstr "Spiro spline"
 
-#: ../src/live_effects/effect.cpp:130
+#: ../src/live_effects/effect.cpp:127
 msgid "Envelope Deformation"
 msgstr "Umhüllung verformen"
 
-#: ../src/live_effects/effect.cpp:131
+#: ../src/live_effects/effect.cpp:128
 msgid "Interpolate Sub-Paths"
 msgstr "Unterpfade interpolieren"
 
-#: ../src/live_effects/effect.cpp:132
+#: ../src/live_effects/effect.cpp:129
 msgid "Hatches (rough)"
 msgstr "Schraffur (grob)"
 
-#: ../src/live_effects/effect.cpp:133
+#: ../src/live_effects/effect.cpp:130
 msgid "Sketch"
 msgstr "Skizze"
 
-#: ../src/live_effects/effect.cpp:134
+#: ../src/live_effects/effect.cpp:131
 msgid "Ruler"
 msgstr "Lineal"
 
 #. 0.91
-#: ../src/live_effects/effect.cpp:136
+#: ../src/live_effects/effect.cpp:133
 msgid "Power stroke"
 msgstr "Kräftige Kontur"
 
-#: ../src/live_effects/effect.cpp:137
+#: ../src/live_effects/effect.cpp:134
 msgid "Clone original path"
 msgstr "Originalpfad klonen"
 
 #. EXPERIMENTAL
-#: ../src/live_effects/effect.cpp:139
+#: ../src/live_effects/effect.cpp:136
 #: ../src/live_effects/lpe-show_handles.cpp:26
 msgid "Show handles"
 msgstr "Anfasser zeigen"
 
-#: ../src/live_effects/effect.cpp:141 ../src/widgets/pencil-toolbar.cpp:109
+#: ../src/live_effects/effect.cpp:138 ../src/widgets/pencil-toolbar.cpp:109
 msgid "BSpline"
 msgstr "B-Spline"
 
-#: ../src/live_effects/effect.cpp:142
+#: ../src/live_effects/effect.cpp:139
 msgid "Join type"
 msgstr "Verbindungsart"
 
-#: ../src/live_effects/effect.cpp:143
+#: ../src/live_effects/effect.cpp:140
 msgid "Taper stroke"
 msgstr "Pfad verjüngen"
 
 #. Ponyscape
-#: ../src/live_effects/effect.cpp:145
+#: ../src/live_effects/effect.cpp:142
 msgid "Attach path"
 msgstr "Pfad anheften"
 
-#: ../src/live_effects/effect.cpp:146
+#: ../src/live_effects/effect.cpp:143
 msgid "Fill between strokes"
 msgstr "Zwischen Pfaden Füllen"
 
-#: ../src/live_effects/effect.cpp:147 ../src/selection-chemistry.cpp:2871
+#: ../src/live_effects/effect.cpp:144 ../src/selection-chemistry.cpp:2871
 msgid "Fill between many"
 msgstr "Zwischen Vielen Füllen"
 
-#: ../src/live_effects/effect.cpp:148
+#: ../src/live_effects/effect.cpp:145
 msgid "Ellipse by 5 points"
 msgstr "Ellipse durch 5 Punkte"
 
-#: ../src/live_effects/effect.cpp:149
+#: ../src/live_effects/effect.cpp:146
 msgid "Bounding Box"
 msgstr "Rahmen"
 
-#: ../src/live_effects/effect.cpp:152
+#: ../src/live_effects/effect.cpp:149
 msgid "Lattice Deformation 2"
 msgstr "Gitterverformung 2"
 
-#: ../src/live_effects/effect.cpp:153
+#: ../src/live_effects/effect.cpp:150
 msgid "Perspective/Envelope"
 msgstr "Perspektive/Umhüllung"
 
-#: ../src/live_effects/effect.cpp:154
+#: ../src/live_effects/effect.cpp:151
 msgid "Fillet/Chamfer"
 msgstr "Abrunden/Fasen"
 
-#: ../src/live_effects/effect.cpp:155
+#: ../src/live_effects/effect.cpp:152
 msgid "Interpolate points"
 msgstr "Punkte interpolieren"
 
-#: ../src/live_effects/effect.cpp:362
+#: ../src/live_effects/effect.cpp:356
 msgid "Is visible?"
 msgstr "Sichtbar?"
 
-#: ../src/live_effects/effect.cpp:362
+#: ../src/live_effects/effect.cpp:356
 msgid ""
 "If unchecked, the effect remains applied to the object but is temporarily "
 "disabled on canvas"
@@ -9452,23 +9464,23 @@ msgstr ""
 "Wenn die Option deaktiviert ist, wird der Effekt auf das Objekt angewendet, "
 "aber temporär auf der Arbeitsfläche ausgeblendet."
 
-#: ../src/live_effects/effect.cpp:387
+#: ../src/live_effects/effect.cpp:381
 msgid "No effect"
 msgstr "Kein Effekt"
 
-#: ../src/live_effects/effect.cpp:495
+#: ../src/live_effects/effect.cpp:489
 #, c-format
 msgid "Please specify a parameter path for the LPE '%s' with %d mouse clicks"
 msgstr ""
 "Bitte spezifizieren Sie einen Parameterpfad für den Pfadeffekt \"%s\" mit %d "
 "Mausklicks. "
 
-#: ../src/live_effects/effect.cpp:762
+#: ../src/live_effects/effect.cpp:756
 #, c-format
 msgid "Editing parameter <b>%s</b>."
 msgstr "Editiere Parameter <b>%s</b>."
 
-#: ../src/live_effects/effect.cpp:767
+#: ../src/live_effects/effect.cpp:761
 msgid "None of the applied path effect's parameters can be edited on-canvas."
 msgstr ""
 "Keine Parameter der auf den Pfad angewandten Effekte können auf der "
@@ -9592,50 +9604,50 @@ msgstr "Sichtbarer Rahmen"
 msgid "Uses the visual bounding box"
 msgstr "Benutzt die sichtbare Umrandung"
 
-#: ../src/live_effects/lpe-bspline.cpp:25
+#: ../src/live_effects/lpe-bspline.cpp:26
 msgid "Steps with CTRL:"
 msgstr "Schritte mit STRG:"
 
-#: ../src/live_effects/lpe-bspline.cpp:25
+#: ../src/live_effects/lpe-bspline.cpp:26
 msgid "Change number of steps with CTRL pressed"
 msgstr "Ändere ANzahl der Schritte mit STRG gedrückt"
 
-#: ../src/live_effects/lpe-bspline.cpp:26
+#: ../src/live_effects/lpe-bspline.cpp:27
 #: ../src/live_effects/lpe-simplify.cpp:33
 msgid "Helper size:"
 msgstr "Größe des Helfers:"
 
-#: ../src/live_effects/lpe-bspline.cpp:26
+#: ../src/live_effects/lpe-bspline.cpp:27
 #: ../src/live_effects/lpe-simplify.cpp:33
 msgid "Helper size"
 msgstr "Größe des Helfers"
 
-#: ../src/live_effects/lpe-bspline.cpp:27
+#: ../src/live_effects/lpe-bspline.cpp:28
 msgid "Ignore cusp nodes"
 msgstr "Spitze Knoten ignorieren"
 
-#: ../src/live_effects/lpe-bspline.cpp:27
+#: ../src/live_effects/lpe-bspline.cpp:28
 msgid "Change ignoring cusp nodes"
 msgstr "Änderung ignoriert spitze Knoten"
 
-#: ../src/live_effects/lpe-bspline.cpp:28
+#: ../src/live_effects/lpe-bspline.cpp:29
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:56
 msgid "Change only selected nodes"
 msgstr "Nur ausgewählte Knoten ändern"
 
-#: ../src/live_effects/lpe-bspline.cpp:29
+#: ../src/live_effects/lpe-bspline.cpp:30
 msgid "Change weight:"
 msgstr "Gewichtung ändern:"
 
-#: ../src/live_effects/lpe-bspline.cpp:29
+#: ../src/live_effects/lpe-bspline.cpp:30
 msgid "Change weight of the effect"
 msgstr "Ändert die Gewichtung des Effekts"
 
-#: ../src/live_effects/lpe-bspline.cpp:260
+#: ../src/live_effects/lpe-bspline.cpp:263
 msgid "Default weight"
 msgstr "Normale Gewichtung"
 
-#: ../src/live_effects/lpe-bspline.cpp:265
+#: ../src/live_effects/lpe-bspline.cpp:268
 msgid "Make cusp"
 msgstr "Spitzen generieren"
 
@@ -9886,22 +9898,22 @@ msgid "Helper size with direction"
 msgstr "Länge der Hilfslinien mit Richtung"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:154
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:71
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:72
 msgid "Fillet"
 msgstr "Abrunden"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:158
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:73
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:74
 msgid "Inverse fillet"
 msgstr "Invertierte Abrundung"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:163
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:75
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:76
 msgid "Chamfer"
 msgstr "Fasen"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:167
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:77
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:78
 msgid "Inverse chamfer"
 msgstr "Invertierte Fasung"
 
@@ -9954,32 +9966,32 @@ msgstr ""
 "Knoten des Trajektorienpfades ab."
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:26
-#: ../src/live_effects/lpe-powerstroke.cpp:195
+#: ../src/live_effects/lpe-powerstroke.cpp:131
 msgid "CubicBezierFit"
 msgstr "CubicBezierFit"
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:27
-#: ../src/live_effects/lpe-powerstroke.cpp:196
+#: ../src/live_effects/lpe-powerstroke.cpp:132
 msgid "CubicBezierJohan"
 msgstr "CubicBezierJohan"
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:28
-#: ../src/live_effects/lpe-powerstroke.cpp:197
+#: ../src/live_effects/lpe-powerstroke.cpp:133
 msgid "SpiroInterpolator"
 msgstr "Spiro-Interpolieren"
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:29
-#: ../src/live_effects/lpe-powerstroke.cpp:198
+#: ../src/live_effects/lpe-powerstroke.cpp:134
 msgid "Centripetal Catmull-Rom"
 msgstr "Centripetal Catmull-Rom"
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:37
-#: ../src/live_effects/lpe-powerstroke.cpp:240
+#: ../src/live_effects/lpe-powerstroke.cpp:176
 msgid "Interpolator type:"
 msgstr "Interpolatortyp:"
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:38
-#: ../src/live_effects/lpe-powerstroke.cpp:240
+#: ../src/live_effects/lpe-powerstroke.cpp:176
 msgid ""
 "Determines which kind of interpolator will be used to interpolate between "
 "stroke width along the path"
@@ -9988,22 +10000,22 @@ msgstr ""
 "Strichstärke entlang des Pfades verwendet weden"
 
 #: ../src/live_effects/lpe-jointype.cpp:31
-#: ../src/live_effects/lpe-powerstroke.cpp:227
-#: ../src/live_effects/lpe-taperstroke.cpp:64
+#: ../src/live_effects/lpe-powerstroke.cpp:163
+#: ../src/live_effects/lpe-taperstroke.cpp:63
 msgid "Beveled"
 msgstr "Abgeschrägt"
 
 #: ../src/live_effects/lpe-jointype.cpp:32
 #: ../src/live_effects/lpe-jointype.cpp:40
-#: ../src/live_effects/lpe-powerstroke.cpp:228
-#: ../src/live_effects/lpe-taperstroke.cpp:65
+#: ../src/live_effects/lpe-powerstroke.cpp:164
+#: ../src/live_effects/lpe-taperstroke.cpp:64
 #: ../src/widgets/star-toolbar.cpp:534
 msgid "Rounded"
 msgstr "Abgerundet"
 
 #: ../src/live_effects/lpe-jointype.cpp:33
-#: ../src/live_effects/lpe-powerstroke.cpp:231
-#: ../src/live_effects/lpe-taperstroke.cpp:66
+#: ../src/live_effects/lpe-powerstroke.cpp:167
+#: ../src/live_effects/lpe-taperstroke.cpp:65
 msgid "Miter"
 msgstr "Gehrung"
 
@@ -10013,22 +10025,22 @@ msgstr "Gehrungslimit"
 
 #. {LINEJOIN_EXTRP_MITER,  N_("Extrapolated"),      "extrapolated"}, // disabled because doesn't work well
 #: ../src/live_effects/lpe-jointype.cpp:35
-#: ../src/live_effects/lpe-powerstroke.cpp:230
+#: ../src/live_effects/lpe-powerstroke.cpp:166
 msgid "Extrapolated arc"
 msgstr "Abgeleiteter Bogen"
 
 #: ../src/live_effects/lpe-jointype.cpp:39
-#: ../src/live_effects/lpe-powerstroke.cpp:210
+#: ../src/live_effects/lpe-powerstroke.cpp:146
 msgid "Butt"
 msgstr "Stoß"
 
 #: ../src/live_effects/lpe-jointype.cpp:41
-#: ../src/live_effects/lpe-powerstroke.cpp:211
+#: ../src/live_effects/lpe-powerstroke.cpp:147
 msgid "Square"
 msgstr "Quadrat"
 
 #: ../src/live_effects/lpe-jointype.cpp:42
-#: ../src/live_effects/lpe-powerstroke.cpp:213
+#: ../src/live_effects/lpe-powerstroke.cpp:149
 msgid "Peak"
 msgstr "Spitze"
 
@@ -10048,27 +10060,28 @@ msgstr "Form des Konturendes"
 #. TRANSLATORS: The line join style specifies the shape to be used at the
 #. corners of paths. It can be "miter", "round" or "bevel".
 #: ../src/live_effects/lpe-jointype.cpp:53
-#: ../src/live_effects/lpe-powerstroke.cpp:243
+#: ../src/live_effects/lpe-powerstroke.cpp:179
 #: ../src/widgets/stroke-style.cpp:227
 msgid "Join:"
 msgstr "Verbindung:"
 
 #: ../src/live_effects/lpe-jointype.cpp:53
-#: ../src/live_effects/lpe-powerstroke.cpp:243
+#: ../src/live_effects/lpe-powerstroke.cpp:179
 msgid "Determines the shape of the path's corners"
 msgstr "Bestimmt die Form der Ecken des Pfades"
 
 #. start_lean(_("Start path lean"), _("Start path lean"), "start_lean", &wr, this, 0.),
 #. end_lean(_("End path lean"), _("End path lean"), "end_lean", &wr, this, 0.),
 #: ../src/live_effects/lpe-jointype.cpp:56
-#: ../src/live_effects/lpe-powerstroke.cpp:244
-#: ../src/live_effects/lpe-taperstroke.cpp:79
+#: ../src/live_effects/lpe-powerstroke.cpp:180
+#: ../src/live_effects/lpe-taperstroke.cpp:78
 msgid "Miter limit:"
 msgstr "Gehrungslimit:"
 
 #: ../src/live_effects/lpe-jointype.cpp:56
 msgid "Maximum length of the miter join (in units of stroke width)"
-msgstr "Maximale Länge der Gehrungsverbindung (in Vielfachen der Konturlinienbreite)"
+msgstr ""
+"Maximale Länge der Gehrungsverbindung (in Vielfachen der Konturlinienbreite)"
 
 #: ../src/live_effects/lpe-jointype.cpp:57
 msgid "Force miter"
@@ -10523,44 +10536,44 @@ msgstr ""
 msgid "Handles:"
 msgstr "Anfasser:"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:193
+#: ../src/live_effects/lpe-powerstroke.cpp:129
 msgid "CubicBezierSmooth"
 msgstr ""
 
-#: ../src/live_effects/lpe-powerstroke.cpp:212
+#: ../src/live_effects/lpe-powerstroke.cpp:148
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:13
 msgid "Round"
 msgstr "Abrunden"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:214
+#: ../src/live_effects/lpe-powerstroke.cpp:150
 msgid "Zero width"
 msgstr "Null-Breite"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:232
+#: ../src/live_effects/lpe-powerstroke.cpp:168
 #: ../src/widgets/pencil-toolbar.cpp:103
 msgid "Spiro"
 msgstr "Spirale"
 
 # !!! verb or noun?
-#: ../src/live_effects/lpe-powerstroke.cpp:238
+#: ../src/live_effects/lpe-powerstroke.cpp:174
 msgid "Offset points"
 msgstr "Versatzpunkte"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:239
+#: ../src/live_effects/lpe-powerstroke.cpp:175
 msgid "Sort points"
 msgstr "Punkte sortieren"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:239
+#: ../src/live_effects/lpe-powerstroke.cpp:175
 msgid "Sort offset points according to their time value along the curve"
 msgstr ""
 "Sortiert versetzte Punkte entsprechend ihres Zeitwertes entlang der Kurve"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:241
+#: ../src/live_effects/lpe-powerstroke.cpp:177
 #: ../share/extensions/fractalize.inx.h:3
 msgid "Smoothness:"
 msgstr "Glattheit:"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:241
+#: ../src/live_effects/lpe-powerstroke.cpp:177
 msgid ""
 "Sets the smoothness for the CubicBezierJohan interpolator; 0 = linear "
 "interpolation, 1 = smooth"
@@ -10568,24 +10581,24 @@ msgstr ""
 "Setzt die Weichheit für den CubicBezierJohan-Interpolator; 0 = Lineare "
 "Interpolation, 1 = weich"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:242
+#: ../src/live_effects/lpe-powerstroke.cpp:178
 msgid "Start cap:"
 msgstr "Anfang:"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:242
+#: ../src/live_effects/lpe-powerstroke.cpp:178
 msgid "Determines the shape of the path's start"
 msgstr "Bestimmt die Form des Pfad-Start"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:244
+#: ../src/live_effects/lpe-powerstroke.cpp:180
 #: ../src/widgets/stroke-style.cpp:278
 msgid "Maximum length of the miter (in units of stroke width)"
 msgstr "Maximale Länge der Gehrung (in Vielfachen der Konturlinienbreite)"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:245
+#: ../src/live_effects/lpe-powerstroke.cpp:181
 msgid "End cap:"
 msgstr "Ende:"
 
-#: ../src/live_effects/lpe-powerstroke.cpp:245
+#: ../src/live_effects/lpe-powerstroke.cpp:181
 msgid "Determines the shape of the path's end"
 msgstr "Bestimmt die Form des Pfad-Endes"
 
@@ -10957,8 +10970,8 @@ msgid "Scale nodes and handles"
 msgstr "Knoten, Anfasser skalieren"
 
 #: ../src/live_effects/lpe-show_handles.cpp:29
-#: ../src/ui/tool/multi-path-manipulator.cpp:779
-#: ../src/ui/tool/multi-path-manipulator.cpp:782
+#: ../src/ui/tool/multi-path-manipulator.cpp:787
+#: ../src/ui/tool/multi-path-manipulator.cpp:790
 msgid "Rotate nodes"
 msgstr "Knoten rotieren"
 
@@ -11149,54 +11162,54 @@ msgstr "k_max:"
 msgid "max curvature"
 msgstr "maximale Krümmung"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:67
+#: ../src/live_effects/lpe-taperstroke.cpp:66
 msgid "Extrapolated"
 msgstr "Abgeleitet"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:74
+#: ../src/live_effects/lpe-taperstroke.cpp:73
 #: ../share/extensions/edge3d.inx.h:5
 msgid "Stroke width:"
 msgstr "Konturbreite:"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:74
+#: ../src/live_effects/lpe-taperstroke.cpp:73
 msgid "The (non-tapered) width of the path"
 msgstr "Dicke des (nicht verjüngten) Pfades"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:75
+#: ../src/live_effects/lpe-taperstroke.cpp:74
 msgid "Start offset:"
 msgstr "Pfadanfang:"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:75
+#: ../src/live_effects/lpe-taperstroke.cpp:74
 msgid "Taper distance from path start"
 msgstr "Länge der Verjüngung am Anfang des Pfades"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:76
+#: ../src/live_effects/lpe-taperstroke.cpp:75
 #, fuzzy
 msgid "End offset:"
 msgstr "Pfadende:"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:76
+#: ../src/live_effects/lpe-taperstroke.cpp:75
 #, fuzzy
 msgid "The ending position of the taper"
 msgstr "Länge der Verjüngung am Anfang des Pfades"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:77
+#: ../src/live_effects/lpe-taperstroke.cpp:76
 msgid "Taper smoothing:"
 msgstr "Glättung:"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:77
+#: ../src/live_effects/lpe-taperstroke.cpp:76
 msgid "Amount of smoothing to apply to the tapers"
 msgstr "Stärke der Glättung am Übergang zum verjüngten Bereich"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:78
+#: ../src/live_effects/lpe-taperstroke.cpp:77
 msgid "Join type:"
 msgstr "Verbindungsart:"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:78
+#: ../src/live_effects/lpe-taperstroke.cpp:77
 msgid "Join type for non-smooth nodes"
 msgstr "Verbindungsart für nicht abgerundete Knoten"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:79
+#: ../src/live_effects/lpe-taperstroke.cpp:78
 msgid "Limit for miter joins"
 msgstr "Maximale Länge für Gehrungen"
 
@@ -11273,29 +11286,29 @@ msgstr "Booleschen Parameter ändern"
 msgid "Change enumeration parameter"
 msgstr "Aufzählungsparameter ändern"
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:771
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:832
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:780
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:841
 msgid ""
 "<b>Chamfer</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open "
 "dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:775
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:836
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:784
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:845
 msgid ""
 "<b>Inverse Chamfer</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> "
 "open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:779
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:840
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:788
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:849
 msgid ""
 "<b>Inverse Fillet</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> "
 "open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:783
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:844
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:792
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:853
 msgid ""
 "<b>Fillet</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open "
 "dialog, <b>Ctrl+Alt+Click</b> reset"
@@ -11327,13 +11340,13 @@ msgid "Remove Path"
 msgstr "Von Pfad _trennen"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:179
-#: ../src/ui/dialog/objects.cpp:1823
+#: ../src/ui/dialog/objects.cpp:1850
 #, fuzzy
 msgid "Move Down"
 msgstr "Verschiebungsmodus"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:191
-#: ../src/ui/dialog/objects.cpp:1831
+#: ../src/ui/dialog/objects.cpp:1858
 #, fuzzy
 msgid "Move Up"
 msgstr "Pfad verschieben"
@@ -11353,7 +11366,7 @@ msgstr "Pfadeffekt nach unten verschieben"
 msgid "Remove path"
 msgstr "Pfad verschieben"
 
-#: ../src/live_effects/parameter/parameter.cpp:168
+#: ../src/live_effects/parameter/parameter.cpp:161
 msgid "Change scalar parameter"
 msgstr "Skalarparameter ändern"
 
@@ -11466,8 +11479,8 @@ msgid ""
 "Resolution for exporting to bitmap and for rasterization of filters in PS/"
 "EPS/PDF (default 96)"
 msgstr ""
-"Auflösung beim Exportieren von Bitmaps und für Rasterisierung von Filtern in PS/"
-"EPS/PDF (Vorgabe ist 96)"
+"Auflösung beim Exportieren von Bitmaps und für Rasterisierung von Filtern in "
+"PS/EPS/PDF (Vorgabe ist 96)"
 
 #: ../src/main.cpp:326 ../src/ui/widget/rendering-options.cpp:37
 msgid "DPI"
@@ -12235,6 +12248,7 @@ msgid "<b>No groups</b> to ungroup in the selection."
 msgstr "<b>Keine Gruppe</b> zum Aufheben in dieser Auswahl."
 
 #: ../src/selection-chemistry.cpp:869 ../src/sp-item-group.cpp:554
+#: ../src/ui/dialog/objects.cpp:1912
 msgid "Ungroup"
 msgstr "Gruppierung aufheben"
 
@@ -12581,7 +12595,7 @@ msgstr ""
 "<b>Objekt(e)</b> auswählen, um Ausschneidepfad oder Maskierung daraus zu "
 "erzeugen."
 
-#: ../src/selection-chemistry.cpp:3816
+#: ../src/selection-chemistry.cpp:3816 ../src/ui/dialog/objects.cpp:1918
 #, fuzzy
 msgid "Create Clip Group"
 msgstr "_Klon erzeugen"
@@ -12840,22 +12854,22 @@ msgstr "zu %s"
 msgid "without URI"
 msgstr "ohne URI"
 
-#: ../src/sp-ellipse.cpp:361
+#: ../src/sp-ellipse.cpp:362
 msgid "Segment"
 msgstr "Segment"
 
-#: ../src/sp-ellipse.cpp:363
+#: ../src/sp-ellipse.cpp:364
 msgid "Arc"
 msgstr "Bogen"
 
 #. Ellipse
-#: ../src/sp-ellipse.cpp:366 ../src/sp-ellipse.cpp:373
+#: ../src/sp-ellipse.cpp:367 ../src/sp-ellipse.cpp:374
 #: ../src/ui/dialog/inkscape-preferences.cpp:412
 #: ../src/widgets/pencil-toolbar.cpp:163
 msgid "Ellipse"
 msgstr "Ellipse"
 
-#: ../src/sp-ellipse.cpp:370
+#: ../src/sp-ellipse.cpp:371
 msgid "Circle"
 msgstr "Kreis"
 
@@ -12942,7 +12956,7 @@ msgstr "[falsche Referenz]: %s"
 msgid "%d &#215; %d: %s"
 msgstr "%d &#215; %d: %s"
 
-#: ../src/sp-item-group.cpp:307
+#: ../src/sp-item-group.cpp:307 ../src/ui/dialog/objects.cpp:1911
 msgid "Group"
 msgstr "Gruppe"
 
@@ -13010,27 +13024,27 @@ msgstr "erweitert"
 msgid "inset"
 msgstr "geschrumpft"
 
-#: ../src/sp-path.cpp:60
+#: ../src/sp-path.cpp:59
 msgid "Path"
 msgstr "Pfad"
 
-#: ../src/sp-path.cpp:85
+#: ../src/sp-path.cpp:84
 #, c-format
 msgid ", path effect: %s"
 msgstr ", Pfadeffekt: %s"
 
-#: ../src/sp-path.cpp:88
+#: ../src/sp-path.cpp:87
 #, c-format
 msgid "%i node%s"
 msgstr "%i Knoten%s"
 
-#: ../src/sp-path.cpp:88
+#: ../src/sp-path.cpp:87
 #, c-format
 msgid "%i nodes%s"
 msgstr "%i Knoten%s"
 
 # !!!
-#: ../src/sp-polygon.cpp:173
+#: ../src/sp-polygon.cpp:172
 msgid "<b>Polygon</b>"
 msgstr "<b>Polygon</b>"
 
@@ -13153,42 +13167,42 @@ msgstr "..."
 msgid "of: %s"
 msgstr "von: %s"
 
-#: ../src/splivarot.cpp:70 ../src/splivarot.cpp:76
+#: ../src/splivarot.cpp:71 ../src/splivarot.cpp:77
 msgid "Union"
 msgstr "Vereinigung"
 
-#: ../src/splivarot.cpp:82
+#: ../src/splivarot.cpp:83
 msgid "Intersection"
 msgstr "Überschneidung"
 
-#: ../src/splivarot.cpp:105
+#: ../src/splivarot.cpp:106
 msgid "Division"
 msgstr "Aufteilung"
 
-#: ../src/splivarot.cpp:110
+#: ../src/splivarot.cpp:111
 msgid "Cut path"
 msgstr "Pfad zerschneiden"
 
-#: ../src/splivarot.cpp:333
+#: ../src/splivarot.cpp:335
 msgid "Select <b>at least 2 paths</b> to perform a boolean operation."
 msgstr ""
 "Wählen Sie <b>mindestens 2 Pfade</b> aus, um eine boole'sche Operation "
 "auszuführen."
 
-#: ../src/splivarot.cpp:337
+#: ../src/splivarot.cpp:339
 msgid "Select <b>at least 1 path</b> to perform a boolean union."
 msgstr ""
 "Wählen Sie <b>mindestens 1 Pfad</b> aus, um eine boole'sche Vereinigung "
 "auszuführen."
 
-#: ../src/splivarot.cpp:345
+#: ../src/splivarot.cpp:347
 msgid ""
 "Select <b>exactly 2 paths</b> to perform difference, division, or path cut."
 msgstr ""
 "Wählen Sie <b>genau 2 Pfade</b> aus, um eine Differenz-, XOR-, Dvisions- "
 "oder Pfadzuschneideoperation auszuführen."
 
-#: ../src/splivarot.cpp:361 ../src/splivarot.cpp:376
+#: ../src/splivarot.cpp:363 ../src/splivarot.cpp:378
 msgid ""
 "Unable to determine the <b>z-order</b> of the objects selected for "
 "difference, XOR, division, or path cut."
@@ -13196,81 +13210,81 @@ msgstr ""
 "Die <b>Z-Tiefe</b> der ausgewählten Objekte konnte nicht für die Differenz-, "
 "XOR-, Division- oder Pfadzuschneideoperation ermittelt werden."
 
-#: ../src/splivarot.cpp:406
+#: ../src/splivarot.cpp:408
 msgid ""
 "One of the objects is <b>not a path</b>, cannot perform boolean operation."
 msgstr ""
 "Eines der ausgewählten Objekte ist <b>kein Pfad</b>. Boole'sche Operation "
 "wird nicht ausgeführt."
 
-#: ../src/splivarot.cpp:1150
+#: ../src/splivarot.cpp:1153
 msgid "Select <b>stroked path(s)</b> to convert stroke to path."
 msgstr ""
 "<b>Pfade mit Kontur</b> auswählen, um die Konturlinie in einen Pfad "
 "umzuwandeln."
 
-#: ../src/splivarot.cpp:1506
+#: ../src/splivarot.cpp:1509
 msgid "Convert stroke to path"
 msgstr "Kontur in Pfad umwandeln"
 
 #. TRANSLATORS: "to outline" means "to convert stroke to path"
-#: ../src/splivarot.cpp:1509
+#: ../src/splivarot.cpp:1512
 msgid "<b>No stroked paths</b> in the selection."
 msgstr "<b>Keine Pfade mit Konturlinien</b> in der Auswahl."
 
-#: ../src/splivarot.cpp:1580
+#: ../src/splivarot.cpp:1583
 msgid "Selected object is <b>not a path</b>, cannot inset/outset."
 msgstr ""
 "Ausgewähltes Objekt ist <b>kein Pfad</b> - kann es nicht schrumpfen/"
 "erweitern."
 
-#: ../src/splivarot.cpp:1671 ../src/splivarot.cpp:1738
+#: ../src/splivarot.cpp:1674 ../src/splivarot.cpp:1741
 msgid "Create linked offset"
 msgstr "Verbundenen Versatz erzeugen"
 
-#: ../src/splivarot.cpp:1672 ../src/splivarot.cpp:1739
+#: ../src/splivarot.cpp:1675 ../src/splivarot.cpp:1742
 msgid "Create dynamic offset"
 msgstr "Dynamischen Versatz erzeugen"
 
-#: ../src/splivarot.cpp:1764
+#: ../src/splivarot.cpp:1767
 msgid "Select <b>path(s)</b> to inset/outset."
 msgstr "<b>Pfad</b> zum Schrumpfen/Erweitern auswählen."
 
-#: ../src/splivarot.cpp:1957
+#: ../src/splivarot.cpp:1960
 msgid "Outset path"
 msgstr "Pfad erweitern"
 
-#: ../src/splivarot.cpp:1957
+#: ../src/splivarot.cpp:1960
 msgid "Inset path"
 msgstr "Pfad schrumpfen"
 
-#: ../src/splivarot.cpp:1959
+#: ../src/splivarot.cpp:1962
 msgid "<b>No paths</b> to inset/outset in the selection."
 msgstr "Die Auswahl enthält <b>keine Pfade</b> zum Schrumpfen/Erweitern."
 
-#: ../src/splivarot.cpp:2121
+#: ../src/splivarot.cpp:2124
 msgid "Simplifying paths (separately):"
 msgstr "Vereinfache Pfade (getrennt):"
 
-#: ../src/splivarot.cpp:2123
+#: ../src/splivarot.cpp:2126
 msgid "Simplifying paths:"
 msgstr "Vereinfache Pfade:"
 
-#: ../src/splivarot.cpp:2160
+#: ../src/splivarot.cpp:2163
 #, c-format
 msgid "%s <b>%d</b> of <b>%d</b> paths simplified..."
 msgstr "%s <b>%d</b> von <b>%d</b> Pfaden vereinfacht..."
 
-#: ../src/splivarot.cpp:2173
+#: ../src/splivarot.cpp:2176
 #, c-format
 msgid "<b>%d</b> paths simplified."
 msgstr "<b>%d</b> Pfade vereinfacht."
 
-#: ../src/splivarot.cpp:2187
+#: ../src/splivarot.cpp:2190
 msgid "Select <b>path(s)</b> to simplify."
 msgstr "<b>Pfad</b> zum Vereinfachen auswählen."
 
-#: ../src/splivarot.cpp:2203
+#: ../src/splivarot.cpp:2206
 msgid "<b>No paths</b> to simplify in the selection."
 msgstr "Die Auswahl enthält <b>keine Pfade</b> zum Vereinfachen."
 
@@ -14936,6 +14950,7 @@ msgid "<b>Embedded script files:</b>"
 msgstr "<b>Eingebettete Script-Dateien:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:826
+#: ../src/ui/dialog/objects.cpp:1890
 msgid "New"
 msgstr "Neu"
 
@@ -16374,6 +16389,7 @@ msgstr "Klone durchsuchen"
 
 #: ../src/ui/dialog/find.cpp:110 ../share/extensions/embedimage.inx.h:3
 #: ../share/extensions/extractimage.inx.h:5
+#: ../share/extensions/image_attributes.inx.h:29
 msgid "Images"
 msgstr "Bilder"
 
@@ -18668,9 +18684,9 @@ msgid ""
 "it"
 msgstr ""
 "Wenn diese Option aktiviert ist, wird der \"Speichern unter\"- und \"Kopie "
-"speichern unter\"-Dialog immer das Verzeichnis des derzeit "
-"geöffneten Dokuments öffnen. Ist sie deaktiviert, wird das Verzeichnis "
-"geöffnet in welchem die letzte Datei gespeichert wurde."
+"speichern unter\"-Dialog immer das Verzeichnis des derzeit geöffneten "
+"Dokuments öffnen. Ist sie deaktiviert, wird das Verzeichnis geöffnet in "
+"welchem die letzte Datei gespeichert wurde."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:850
 msgid "Add label comments to printing output"
@@ -19642,7 +19658,7 @@ msgid "_Zoom in/out by:"
 msgstr "Zoomfaktor vergrößern/verkleinern um:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1280
-#: ../src/ui/dialog/objects.cpp:1620
+#: ../src/ui/dialog/objects.cpp:1626
 #: ../src/ui/widget/filter-effect-chooser.cpp:27
 msgid "%"
 msgstr "%"
@@ -20436,7 +20452,7 @@ msgid "Move to Layer"
 msgstr "Zur Ebene verschieben"
 
 #: ../src/ui/dialog/layer-properties.cpp:411
-#: ../src/ui/dialog/lpe-powerstroke-properties.cpp:116
+#: ../src/ui/dialog/lpe-powerstroke-properties.cpp:123
 #: ../src/ui/dialog/transformation.cpp:108
 msgid "_Move"
 msgstr "_Verschieben"
@@ -20468,7 +20484,8 @@ msgid "Lock other layers"
 msgstr "Andere Ebenen sperren"
 
 #: ../src/ui/dialog/layers.cpp:730
-msgid "Moved layer"
+#, fuzzy
+msgid "Move layer"
 msgstr "Verschobene Ebene"
 
 #: ../src/ui/dialog/layers.cpp:892
@@ -20570,43 +20587,43 @@ msgstr "Pfadeffekt aktivieren"
 msgid "Deactivate path effect"
 msgstr "Pfadeffekt deaktivieren"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:52
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:53
 msgid "Radius (pixels):"
 msgstr "Radius (Pixel):"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:64
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:65
 msgid "Chamfer subdivisions:"
 msgstr "Unterteilungen fürs Fasen:"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:135
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:136
 msgid "Modify Fillet-Chamfer"
 msgstr "Abrunden/Fasen bearbeiten"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:136
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:137
 msgid "_Modify"
 msgstr "Bearbeiten"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:200
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:201
 msgid "Radius"
 msgstr "Radius"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:202
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:203
 msgid "Radius approximated"
 msgstr "Radius angenähert"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:205
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:206
 msgid "Knot distance"
 msgstr "Knotenabstand"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:212
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:213
 msgid "Position (%):"
 msgstr "Position (%):"
 
-#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:215
+#: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:216
 msgid "%1:"
 msgstr "%1:"
 
-#: ../src/ui/dialog/lpe-powerstroke-properties.cpp:115
+#: ../src/ui/dialog/lpe-powerstroke-properties.cpp:122
 msgid "Modify Node Position"
 msgstr "Knotenposition anpassen"
 
@@ -20878,27 +20895,155 @@ msgstr "Mischmodus des Objekts festlegen"
 msgid "Set object blur"
 msgstr "Unschärfe des Objekts festlegen"
 
-#: ../src/ui/dialog/objects.cpp:1800
+#: ../src/ui/dialog/objects.cpp:1617
+msgid "V"
+msgstr ""
+
+#. TRANSLATORS: "L" here stands for Lightness
+#: ../src/ui/dialog/objects.cpp:1618 ../src/widgets/tweak-toolbar.cpp:323
+msgid "L"
+msgstr "L"
+
+#: ../src/ui/dialog/objects.cpp:1619
+msgid "T"
+msgstr ""
+
+#: ../src/ui/dialog/objects.cpp:1620
+#, fuzzy
+msgid "CM"
+msgstr "CMS"
+
+#: ../src/ui/dialog/objects.cpp:1621
+#, fuzzy
+msgid "HL"
+msgstr "HSL"
+
+#: ../src/ui/dialog/objects.cpp:1622
+msgid "Label"
+msgstr "Bezeichner"
+
+#. In order to get tooltips on header, we must create our own label.
+#: ../src/ui/dialog/objects.cpp:1664
+#, fuzzy
+msgid "Toggle visibility of Layer, Group, or Object."
+msgstr "Aktuelle Ebene sichtbar/unsichtbar"
+
+#: ../src/ui/dialog/objects.cpp:1677
+msgid "Toggle lock of Layer, Group, or Object."
+msgstr ""
+
+#: ../src/ui/dialog/objects.cpp:1689
+msgid ""
+"Type: Layer, Group, or Object. Clicking on Layer or Group icon, toggles "
+"between the two types."
+msgstr ""
+
+#: ../src/ui/dialog/objects.cpp:1708
+msgid "Is object clipped and/or masked?"
+msgstr ""
+
+#: ../src/ui/dialog/objects.cpp:1719
+msgid ""
+"Highlight color of outline in Node tool. Click to set. If alpha is zero, use "
+"inherited color."
+msgstr ""
+
+#: ../src/ui/dialog/objects.cpp:1730
+msgid ""
+"Layer/Group/Object label (inkscape:label). Double-click to set. Default "
+"value is object 'id'."
+msgstr ""
+
+#: ../src/ui/dialog/objects.cpp:1827
 msgid "Add layer..."
 msgstr "Ebe_ne hinzufügen..."
 
-#: ../src/ui/dialog/objects.cpp:1807
+#: ../src/ui/dialog/objects.cpp:1834
 msgid "Remove object"
 msgstr "Objekt entfernen"
 
-#: ../src/ui/dialog/objects.cpp:1815
+#: ../src/ui/dialog/objects.cpp:1842
 msgid "Move To Bottom"
 msgstr "Nach ganz unten absenken"
 
-#: ../src/ui/dialog/objects.cpp:1839
+#: ../src/ui/dialog/objects.cpp:1866
 msgid "Move To Top"
 msgstr "Nach ganz oben anheben"
 
-#: ../src/ui/dialog/objects.cpp:1847
+#: ../src/ui/dialog/objects.cpp:1874
 msgid "Collapse All"
 msgstr "Alle zusammenklappen"
 
+#: ../src/ui/dialog/objects.cpp:1888
+#, fuzzy
+msgid "Rename"
+msgstr "_Umbenennen"
+
+#: ../src/ui/dialog/objects.cpp:1894
+msgid "Solo"
+msgstr ""
+
+#: ../src/ui/dialog/objects.cpp:1895
+#, fuzzy
+msgid "Show All"
+msgstr "Anzeigen:"
+
+# !!! mnemonics
+#: ../src/ui/dialog/objects.cpp:1896
+#, fuzzy
+msgid "Hide All"
+msgstr "Alles einblenden"
+
+#: ../src/ui/dialog/objects.cpp:1900
+#, fuzzy
+msgid "Lock Others"
+msgstr "Andere Ebenen sperren"
+
+# !!! mnemonics
+#: ../src/ui/dialog/objects.cpp:1901
+#, fuzzy
+msgid "Lock All"
+msgstr "Alles entsperren"
+
+# !!! mnemonics
+#. LockAndHide
+#: ../src/ui/dialog/objects.cpp:1902 ../src/verbs.cpp:2968
+msgid "Unlock All"
+msgstr "Alles entsperren"
+
+#: ../src/ui/dialog/objects.cpp:1906
+#, fuzzy
+msgid "Up"
+msgstr "Hoch"
+
+#: ../src/ui/dialog/objects.cpp:1907
+#, fuzzy
+msgid "Down"
+msgstr "Unten Links"
+
+#: ../src/ui/dialog/objects.cpp:1916
+#, fuzzy
+msgid "Set Clip"
+msgstr "Cl_ip festlegen"
+
+#. will never be implemented
+#. _watching.push_back( &_addPopupItem( targetDesktop, SP_VERB_OBJECT_SET_INVERSE_CLIPPATH, 0, "Set Inverse Clip", (int)BUTTON_SETINVCLIP ) );
 #: ../src/ui/dialog/objects.cpp:1922
+#, fuzzy
+msgid "Unset Clip"
+msgstr "Cl_ip festlegen"
+
+#. Set mask
+#: ../src/ui/dialog/objects.cpp:1926 ../src/ui/interface.cpp:1739
+msgid "Set Mask"
+msgstr "Maskierung festlegen"
+
+#: ../src/ui/dialog/objects.cpp:1927
+#, fuzzy
+msgid "Unset Mask"
+msgstr "Maskierung festlegen"
+
+#: ../src/ui/dialog/objects.cpp:1949
 msgid "Select Highlight Color"
 msgstr "Hervorhebungsfarbe:"
 
@@ -21558,7 +21703,8 @@ msgid "Set as _default"
 msgstr "Als _Standard festlegen"
 
 #: ../src/ui/dialog/text-edit.cpp:87
-msgid "AaBbCcIiPpQq12369$€¢?.;/()"
+#, fuzzy
+msgid "AaBbCcIiPpQq12369$ےے?.;/()"
 msgstr "AaBbCcIiPpQq12369$€¢?.;/()"
 
 #. Align buttons
@@ -21598,7 +21744,7 @@ msgstr "Abstand zwischen Linien (Prozent der Schriftgröße)"
 msgid "Text path offset"
 msgstr "Text-Pfad-Versatz"
 
-#: ../src/ui/dialog/text-edit.cpp:594 ../src/ui/dialog/text-edit.cpp:668
+#: ../src/ui/dialog/text-edit.cpp:598 ../src/ui/dialog/text-edit.cpp:685
 #: ../src/ui/tools/text-tool.cpp:1446
 msgid "Set text style"
 msgstr "Textstil setzen"
@@ -22284,11 +22430,6 @@ msgstr "_Verschiebe zu Ebene..."
 msgid "Create _Link"
 msgstr "_Verknüpfung erstellen"
 
-#. Set mask
-#: ../src/ui/interface.cpp:1739
-msgid "Set Mask"
-msgstr "Maskierung festlegen"
-
 #. Release mask
 #: ../src/ui/interface.cpp:1750
 msgid "Release Mask"
@@ -22508,25 +22649,37 @@ msgstr "<b>Versatz-Abstand</b> anpassen"
 msgid "Drag to resize the <b>flowed text frame</b>"
 msgstr "Ziehen, um die Größe des <b>Fließtext-Rahmens</b> zu ändern"
 
-#: ../src/ui/tool/curve-drag-point.cpp:119
+#: ../src/ui/tool/curve-drag-point.cpp:131
 msgid "Drag curve"
 msgstr "Kurve ziehen"
 
-#: ../src/ui/tool/curve-drag-point.cpp:176
-msgid "Add node"
-msgstr "Knoten hinzufügen"
+#: ../src/ui/tool/curve-drag-point.cpp:192
+#, fuzzy
+msgctxt "Path segment tip"
+msgid "<b>Shift</b>: drag to open or move BSpline handles"
+msgstr "Knotenanfasser verschieben"
 
-#: ../src/ui/tool/curve-drag-point.cpp:186
+#: ../src/ui/tool/curve-drag-point.cpp:196
 msgctxt "Path segment tip"
 msgid "<b>Shift</b>: click to toggle segment selection"
 msgstr "<b>Umschalt</b>: Klick um Segment-Auswahl umzuschalten"
 
-#: ../src/ui/tool/curve-drag-point.cpp:190
+#: ../src/ui/tool/curve-drag-point.cpp:200
 msgctxt "Path segment tip"
 msgid "<b>Ctrl+Alt</b>: click to insert a node"
 msgstr "<b>STRG+Alt</b>: Klicken, um einen Knoten einzufügen"
 
-#: ../src/ui/tool/curve-drag-point.cpp:194
+#: ../src/ui/tool/curve-drag-point.cpp:204
+#, fuzzy
+msgctxt "Path segment tip"
+msgid ""
+"<b>BSpline segment</b>: drag to shape the segment, doubleclick to insert "
+"node, click to select (more: Shift, Ctrl+Alt)"
+msgstr ""
+"<b>Bezier-Segment</b>: Ziehen, um das Segment zu formen, Doppelklick zum "
+"Einfügen eines Knotens oder Klicken zum Auswählen (mehr: Umschalt, Strg+Alt)"
+
+#: ../src/ui/tool/curve-drag-point.cpp:209
 msgctxt "Path segment tip"
 msgid ""
 "<b>Linear segment</b>: drag to convert to a Bezier segment, doubleclick to "
@@ -22536,7 +22689,7 @@ msgstr ""
 "Doppelklick um Knoten einzufügen und Klicken zum Auswählen (mehr: Umschakt, "
 "Strg+Alt)"
 
-#: ../src/ui/tool/curve-drag-point.cpp:198
+#: ../src/ui/tool/curve-drag-point.cpp:213
 msgctxt "Path segment tip"
 msgid ""
 "<b>Bezier segment</b>: drag to shape the segment, doubleclick to insert "
@@ -22562,6 +22715,7 @@ msgid "Make segments curves"
 msgstr "Die gewählten Abschnitte in Kurven umwandeln"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:333
+#: ../src/ui/tool/multi-path-manipulator.cpp:347
 msgid "Add nodes"
 msgstr "Mehrere Knoten hinzufügen"
 
@@ -22569,66 +22723,66 @@ msgstr "Mehrere Knoten hinzufügen"
 msgid "Add extremum nodes"
 msgstr "Extremwert-Knoten hinzufügen"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:346
+#: ../src/ui/tool/multi-path-manipulator.cpp:354
 msgid "Duplicate nodes"
 msgstr "Knoten duplizieren"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:409
+#: ../src/ui/tool/multi-path-manipulator.cpp:417
 #: ../src/widgets/node-toolbar.cpp:408
 msgid "Join nodes"
 msgstr "Knoten verbinden"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:416
+#: ../src/ui/tool/multi-path-manipulator.cpp:424
 #: ../src/widgets/node-toolbar.cpp:419
 msgid "Break nodes"
 msgstr "Knoten unterbrechen"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:423
+#: ../src/ui/tool/multi-path-manipulator.cpp:431
 msgid "Delete nodes"
 msgstr "Knoten löschen"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:768
+#: ../src/ui/tool/multi-path-manipulator.cpp:776
 msgid "Move nodes"
 msgstr "Knoten verschieben"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:771
+#: ../src/ui/tool/multi-path-manipulator.cpp:779
 msgid "Move nodes horizontally"
 msgstr "Knoten horizontal verschieben"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:775
+#: ../src/ui/tool/multi-path-manipulator.cpp:783
 msgid "Move nodes vertically"
 msgstr "Knoten vertikal verschieben"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:786
-#: ../src/ui/tool/multi-path-manipulator.cpp:792
+#: ../src/ui/tool/multi-path-manipulator.cpp:794
+#: ../src/ui/tool/multi-path-manipulator.cpp:800
 msgid "Scale nodes uniformly"
 msgstr "Knoten skalieren"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:789
+#: ../src/ui/tool/multi-path-manipulator.cpp:797
 msgid "Scale nodes"
 msgstr "Knoten skalieren"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:796
+#: ../src/ui/tool/multi-path-manipulator.cpp:804
 msgid "Scale nodes horizontally"
 msgstr "Knoten horizontal skalieren"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:800
+#: ../src/ui/tool/multi-path-manipulator.cpp:808
 msgid "Scale nodes vertically"
 msgstr "Knoten vertikal skalieren"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:804
+#: ../src/ui/tool/multi-path-manipulator.cpp:812
 msgid "Skew nodes horizontally"
 msgstr "Knoten horizontal krümmen"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:808
+#: ../src/ui/tool/multi-path-manipulator.cpp:816
 msgid "Skew nodes vertically"
 msgstr "Knoten vertikal krümmen"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:812
+#: ../src/ui/tool/multi-path-manipulator.cpp:820
 msgid "Flip nodes horizontally"
 msgstr "Knoten Horizontal umkehren"
 
-#: ../src/ui/tool/multi-path-manipulator.cpp:815
+#: ../src/ui/tool/multi-path-manipulator.cpp:823
 msgid "Flip nodes vertically"
 msgstr "Knoten Vertikal umkehren"
 
@@ -22780,13 +22934,13 @@ msgctxt "Path node tip"
 msgid "<b>Alt</b>: sculpt nodes"
 msgstr "<b>Alt</b>: Knoten formen"
 
-#: ../src/ui/tool/node.cpp:1470
+#: ../src/ui/tool/node.cpp:1471
 #, c-format
 msgctxt "Path node tip"
 msgid "<b>%s</b>: drag to shape the path (more: Shift, Ctrl, Alt)"
 msgstr "<b>%s</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, STRG, Alt)"
 
-#: ../src/ui/tool/node.cpp:1473
+#: ../src/ui/tool/node.cpp:1474
 #, fuzzy, c-format
 msgctxt "Path node tip"
 msgid ""
@@ -22794,7 +22948,7 @@ msgid ""
 "power"
 msgstr "<b>%s</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, STRG, Alt)"
 
-#: ../src/ui/tool/node.cpp:1476
+#: ../src/ui/tool/node.cpp:1477
 #, c-format
 msgctxt "Path node tip"
 msgid ""
@@ -22804,7 +22958,7 @@ msgstr ""
 "<b>%s</b>:Ziehen, um den Pfad zu formen, Klicken um Skalieren/Rotieren der "
 "Anfasser umzuschalten (mehr: Umschalt, Strg, Alt)"
 
-#: ../src/ui/tool/node.cpp:1480
+#: ../src/ui/tool/node.cpp:1481
 #, c-format
 msgctxt "Path node tip"
 msgid ""
@@ -22814,7 +22968,7 @@ msgstr ""
 "<b>%s</b>: Ziehen, um den Pfad zu formen, Klicken, um nur diesen Knoten "
 "auszuwählen (mehr: Umschalt, Strg, Alt)"
 
-#: ../src/ui/tool/node.cpp:1483
+#: ../src/ui/tool/node.cpp:1484
 #, fuzzy, c-format
 msgctxt "Path node tip"
 msgid ""
@@ -22824,43 +22978,47 @@ msgstr ""
 "<b>%s</b>: Ziehen, um den Pfad zu formen, Klicken, um nur diesen Knoten "
 "auszuwählen (mehr: Umschalt, Strg, Alt)"
 
-#: ../src/ui/tool/node.cpp:1496
+#: ../src/ui/tool/node.cpp:1497
 #, c-format
 msgctxt "Path node tip"
 msgid "Move node by %s, %s"
 msgstr "Knoten verschieben um %s, %s"
 
-#: ../src/ui/tool/node.cpp:1507
+#: ../src/ui/tool/node.cpp:1508
 msgid "Symmetric node"
 msgstr "symmetrischer Knoten"
 
-#: ../src/ui/tool/node.cpp:1508
+#: ../src/ui/tool/node.cpp:1509
 msgid "Auto-smooth node"
 msgstr "Knoten automatisch glätten"
 
-#: ../src/ui/tool/path-manipulator.cpp:837
+#: ../src/ui/tool/path-manipulator.cpp:296
+msgid "Add node"
+msgstr "Knoten hinzufügen"
+
+#: ../src/ui/tool/path-manipulator.cpp:859
 msgid "Scale handle"
 msgstr "Anfasser skalieren"
 
-#: ../src/ui/tool/path-manipulator.cpp:861
+#: ../src/ui/tool/path-manipulator.cpp:883
 msgid "Rotate handle"
 msgstr "Anfasser rotieren"
 
 #. We need to call MPM's method because it could have been our last node
-#: ../src/ui/tool/path-manipulator.cpp:1534
+#: ../src/ui/tool/path-manipulator.cpp:1556
 #: ../src/widgets/node-toolbar.cpp:397
 msgid "Delete node"
 msgstr "Knoten löschen"
 
-#: ../src/ui/tool/path-manipulator.cpp:1542
+#: ../src/ui/tool/path-manipulator.cpp:1564
 msgid "Cycle node type"
 msgstr "Knotentyp ändern"
 
-#: ../src/ui/tool/path-manipulator.cpp:1557
+#: ../src/ui/tool/path-manipulator.cpp:1579
 msgid "Drag handle"
 msgstr "Anfasser ziehen"
 
-#: ../src/ui/tool/path-manipulator.cpp:1566
+#: ../src/ui/tool/path-manipulator.cpp:1588
 msgid "Retract handle"
 msgstr "Anfasser zurückziehen"
 
@@ -23111,7 +23269,7 @@ msgstr ""
 msgid "<b>Drag</b> to measure the dimensions of objects."
 msgstr "<b>Ziehen</b> um die Dimensionen von Objekten zu messen."
 
-#: ../src/ui/tools-switch.cpp:112 ../src/ui/tools/dropper-tool.cpp:275
+#: ../src/ui/tools-switch.cpp:112 ../src/ui/tools/dropper-tool.cpp:274
 msgid ""
 "<b>Click</b> to set fill, <b>Shift+click</b> to set stroke; <b>drag</b> to "
 "average color in area; with <b>Alt</b> to pick inverse color; <b>Ctrl+C</b> "
@@ -23192,30 +23350,30 @@ msgstr "<b>3D Box</b>; <b>Umschalt</b> um in Z-Richtung zu vergrößern"
 msgid "Create 3D box"
 msgstr "3D-Quader erzeugen"
 
-#: ../src/ui/tools/calligraphic-tool.cpp:526
+#: ../src/ui/tools/calligraphic-tool.cpp:525
 msgid ""
 "<b>Guide path selected</b>; start drawing along the guide with <b>Ctrl</b>"
 msgstr ""
 "<b>Führungspfad ausgewählt</b>; starte Zeichnen entlang der Führung mit "
 "<b>Strg</b>"
 
-#: ../src/ui/tools/calligraphic-tool.cpp:528
+#: ../src/ui/tools/calligraphic-tool.cpp:527
 msgid "<b>Select a guide path</b> to track with <b>Ctrl</b>"
 msgstr "<b>Führungspfad auswählen</b> mit <b>Strg</b>"
 
-#: ../src/ui/tools/calligraphic-tool.cpp:663
+#: ../src/ui/tools/calligraphic-tool.cpp:662
 msgid "Tracking: <b>connection to guide path lost!</b>"
 msgstr "Verfolgen: <b>Verbindung zum Führungspfad verloren!</b>"
 
-#: ../src/ui/tools/calligraphic-tool.cpp:663
+#: ../src/ui/tools/calligraphic-tool.cpp:662
 msgid "<b>Tracking</b> a guide path"
 msgstr "<b>Verfolge</b> einen Führungspfad"
 
-#: ../src/ui/tools/calligraphic-tool.cpp:666
+#: ../src/ui/tools/calligraphic-tool.cpp:665
 msgid "<b>Drawing</b> a calligraphic stroke"
 msgstr "<b>Zeichne</b> einen kalligrafischen Strich"
 
-#: ../src/ui/tools/calligraphic-tool.cpp:967
+#: ../src/ui/tools/calligraphic-tool.cpp:966
 msgid "Draw calligraphic stroke"
 msgstr "Kalligrafischen Strich zeichnen"
 
@@ -23262,27 +23420,27 @@ msgstr "Objektverbinder ignorieren die ausgewählten Objekte"
 
 #. alpha of color under cursor, to show in the statusbar
 #. locale-sensitive printf is OK, since this goes to the UI, not into SVG
-#: ../src/ui/tools/dropper-tool.cpp:271
+#: ../src/ui/tools/dropper-tool.cpp:270
 #, c-format
 msgid " alpha %.3g"
 msgstr " Alpha %.3g"
 
 #. where the color is picked, to show in the statusbar
-#: ../src/ui/tools/dropper-tool.cpp:273
+#: ../src/ui/tools/dropper-tool.cpp:272
 #, c-format
 msgid ", averaged with radius %d"
 msgstr ", gemittelt mit Radius %d"
 
-#: ../src/ui/tools/dropper-tool.cpp:273
+#: ../src/ui/tools/dropper-tool.cpp:272
 msgid " under cursor"
 msgstr " unter Mauszeiger"
 
 #. message, to show in the statusbar
-#: ../src/ui/tools/dropper-tool.cpp:275
+#: ../src/ui/tools/dropper-tool.cpp:274
 msgid "<b>Release mouse</b> to set color."
 msgstr "<b>Maustaste loslassen</b>, um die Farbe zu übernehmen."
 
-#: ../src/ui/tools/dropper-tool.cpp:323
+#: ../src/ui/tools/dropper-tool.cpp:322
 msgid "Set picked color"
 msgstr "Übernommene Farbe setzen"
 
@@ -23544,7 +23702,7 @@ msgstr "FIXME<b>Strg</b>: Gitterwinkel einrasten"
 msgid "FIXME<b>Shift</b>: draw mesh around the starting point"
 msgstr "FIXME<b>Umschalt</b>: Gitter um den Startpunkt zeichnen"
 
-#: ../src/ui/tools/node-tool.cpp:601
+#: ../src/ui/tools/node-tool.cpp:653
 msgctxt "Node tool tip"
 msgid ""
 "<b>Shift</b>: drag to add nodes to the selection, click to toggle object "
@@ -23553,19 +23711,19 @@ msgstr ""
 "<b>Umschalt</b>: Ziehen, um Knoten zur Auswahl hinzuzufügen. Klicken, um die "
 "Auswahl umzuschalten."
 
-#: ../src/ui/tools/node-tool.cpp:605
+#: ../src/ui/tools/node-tool.cpp:657
 msgctxt "Node tool tip"
 msgid "<b>Shift</b>: drag to add nodes to the selection"
 msgstr "<b>Umschalt</b>: Ziehen, um Knoten zur Auswahl hinzuzufügen"
 
-#: ../src/ui/tools/node-tool.cpp:617
+#: ../src/ui/tools/node-tool.cpp:686
 #, c-format
 msgid "<b>%u of %u</b> node selected."
 msgid_plural "<b>%u of %u</b> nodes selected."
 msgstr[0] "<b>%u von %u</b> Knoten ausgewählt."
 msgstr[1] "<b>%u von %u</b> Knoten ausgewählt."
 
-#: ../src/ui/tools/node-tool.cpp:623
+#: ../src/ui/tools/node-tool.cpp:693
 #, c-format
 msgctxt "Node tool tip"
 msgid "%s Drag to select nodes, click to edit only this object (more: Shift)"
@@ -23573,71 +23731,71 @@ msgstr ""
 "%s Ziehen, um Knoten auszuwählen. Klicken, um nur dieses Objekt zu "
 "bearbeiten (mehr: Umschalt)"
 
-#: ../src/ui/tools/node-tool.cpp:629
+#: ../src/ui/tools/node-tool.cpp:699
 #, c-format
 msgctxt "Node tool tip"
 msgid "%s Drag to select nodes, click clear the selection"
 msgstr "%s Ziehen, um Knoten auszuwählen. Klicken, um Auswahl zu löschen"
 
-#: ../src/ui/tools/node-tool.cpp:638
+#: ../src/ui/tools/node-tool.cpp:708
 msgctxt "Node tool tip"
 msgid "Drag to select nodes, click to edit only this object"
 msgstr ""
 "Ziehen, um Knoten auszuwählen. Klicken, um nur dieses Objekt zu bearbeiten."
 
-#: ../src/ui/tools/node-tool.cpp:641
+#: ../src/ui/tools/node-tool.cpp:711
 msgctxt "Node tool tip"
 msgid "Drag to select nodes, click to clear the selection"
 msgstr "Ziehen, um Knoten auszuwählen. Klicken, um Auswahl zu löschen"
 
-#: ../src/ui/tools/node-tool.cpp:646
+#: ../src/ui/tools/node-tool.cpp:716
 msgctxt "Node tool tip"
 msgid "Drag to select objects to edit, click to edit this object (more: Shift)"
 msgstr ""
 "Ziehen um Objekte zum Bearbeiten auszuwählen und Klicken, um das Objekt zu "
 "bearbeiten (mehr: Umschalt)"
 
-#: ../src/ui/tools/node-tool.cpp:649
+#: ../src/ui/tools/node-tool.cpp:719
 msgctxt "Node tool tip"
 msgid "Drag to select objects to edit"
 msgstr "Ziehen, um Objekte zum bearbeiten auszuwählen"
 
-#: ../src/ui/tools/pen-tool.cpp:224 ../src/ui/tools/pencil-tool.cpp:454
+#: ../src/ui/tools/pen-tool.cpp:223 ../src/ui/tools/pencil-tool.cpp:455
 msgid "Drawing cancelled"
 msgstr "Zeichnen abgebrochen"
 
 # !!! make singular and plural forms
-#: ../src/ui/tools/pen-tool.cpp:460 ../src/ui/tools/pencil-tool.cpp:195
+#: ../src/ui/tools/pen-tool.cpp:459 ../src/ui/tools/pencil-tool.cpp:196
 msgid "Continuing selected path"
 msgstr "Gewählten Pfad verlängern"
 
-#: ../src/ui/tools/pen-tool.cpp:470 ../src/ui/tools/pencil-tool.cpp:203
+#: ../src/ui/tools/pen-tool.cpp:469 ../src/ui/tools/pencil-tool.cpp:204
 msgid "Creating new path"
 msgstr "Erzeuge neuen Pfad"
 
-#: ../src/ui/tools/pen-tool.cpp:472 ../src/ui/tools/pencil-tool.cpp:206
+#: ../src/ui/tools/pen-tool.cpp:471 ../src/ui/tools/pencil-tool.cpp:207
 msgid "Appending to selected path"
 msgstr "Zu ausgewähltem Pfad hinzufügen"
 
-#: ../src/ui/tools/pen-tool.cpp:637
+#: ../src/ui/tools/pen-tool.cpp:636
 msgid "<b>Click</b> or <b>click and drag</b> to close and finish the path."
 msgstr "<b>Klick</b> oder <b>Klick und Ziehen</b>, um den Pfad abzuschließen."
 
-#: ../src/ui/tools/pen-tool.cpp:639
+#: ../src/ui/tools/pen-tool.cpp:638
 #, fuzzy
 msgid ""
 "<b>Click</b> or <b>click and drag</b> to close and finish the path. Shift"
 "+Click make a cusp node"
 msgstr "<b>Klick</b> oder <b>Klick und Ziehen</b>, um den Pfad abzuschließen."
 
-#: ../src/ui/tools/pen-tool.cpp:651
+#: ../src/ui/tools/pen-tool.cpp:650
 msgid ""
 "<b>Click</b> or <b>click and drag</b> to continue the path from this point."
 msgstr ""
 "<b>Klick</b> oder <b>Klick und Ziehen</b>, um den Pfad von diesem Punkt aus "
 "fortzusetzen."
 
-#: ../src/ui/tools/pen-tool.cpp:653
+#: ../src/ui/tools/pen-tool.cpp:652
 #, fuzzy
 msgid ""
 "<b>Click</b> or <b>click and drag</b> to continue the path from this point. "
@@ -23646,7 +23804,7 @@ msgstr ""
 "<b>Klick</b> oder <b>Klick und Ziehen</b>, um den Pfad von diesem Punkt aus "
 "fortzusetzen."
 
-#: ../src/ui/tools/pen-tool.cpp:2027
+#: ../src/ui/tools/pen-tool.cpp:2026
 #, c-format
 msgid ""
 "<b>Curve segment</b>: angle %3.2f&#176;, distance %s; with <b>Ctrl</b> to "
@@ -23655,7 +23813,7 @@ msgstr ""
 "<b>Kurvensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Strg</b> rastet den "
 "Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
 
-#: ../src/ui/tools/pen-tool.cpp:2028
+#: ../src/ui/tools/pen-tool.cpp:2027
 #, c-format
 msgid ""
 "<b>Line segment</b>: angle %3.2f&#176;, distance %s; with <b>Ctrl</b> to "
@@ -23664,7 +23822,7 @@ msgstr ""
 "<b>Liniensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Strg</b> rastet den "
 "Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
 
-#: ../src/ui/tools/pen-tool.cpp:2031
+#: ../src/ui/tools/pen-tool.cpp:2030
 #, fuzzy, c-format
 msgid ""
 "<b>Curve segment</b>: angle %3.2f&#176;, distance %s; with <b>Shift+Click</"
@@ -23673,7 +23831,7 @@ msgstr ""
 "<b>Kurvensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Strg</b> rastet den "
 "Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
 
-#: ../src/ui/tools/pen-tool.cpp:2032
+#: ../src/ui/tools/pen-tool.cpp:2031
 #, fuzzy, c-format
 msgid ""
 "<b>Line segment</b>: angle %3.2f&#176;, distance %s; with <b>Shift+Click</b> "
@@ -23682,7 +23840,7 @@ msgstr ""
 "<b>Liniensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Strg</b> rastet den "
 "Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
 
-#: ../src/ui/tools/pen-tool.cpp:2049
+#: ../src/ui/tools/pen-tool.cpp:2048
 #, c-format
 msgid ""
 "<b>Curve handle</b>: angle %3.2f&#176;, length %s; with <b>Ctrl</b> to snap "
@@ -23691,7 +23849,7 @@ msgstr ""
 "<b>Kurvenanfasser</b>: Winkel %3.2f°; Länge %s; Winkel mit <b>Strg</b> "
 "einrasten"
 
-#: ../src/ui/tools/pen-tool.cpp:2073
+#: ../src/ui/tools/pen-tool.cpp:2072
 #, c-format
 msgid ""
 "<b>Curve handle, symmetric</b>: angle %3.2f&#176;, length %s; with <b>Ctrl</"
@@ -23700,7 +23858,7 @@ msgstr ""
 "<b>Symmetrischer Kurvenanfasser</b>: Winkel %3.2f&#176;, Länge %s; <b>Strg</"
 "b> rastet den Winkel ein; <b>Umschalt</b> bewegt nur diesen Anfasser"
 
-#: ../src/ui/tools/pen-tool.cpp:2074
+#: ../src/ui/tools/pen-tool.cpp:2073
 #, c-format
 msgid ""
 "<b>Curve handle</b>: angle %3.2f&#176;, length %s; with <b>Ctrl</b> to snap "
@@ -23710,29 +23868,29 @@ msgstr ""
 "Winkel ein; <b>Umschalt</b> bewegt nur diesen Anfasser"
 
 # not sure here -cm-
-#: ../src/ui/tools/pen-tool.cpp:2208
+#: ../src/ui/tools/pen-tool.cpp:2207
 msgid "Drawing finished"
 msgstr "Zeichnen beendet"
 
-#: ../src/ui/tools/pencil-tool.cpp:307
+#: ../src/ui/tools/pencil-tool.cpp:308
 msgid "<b>Release</b> here to close and finish the path."
 msgstr "Hier <b>loslassen</b>, um den Pfad zu schließen und beenden."
 
-#: ../src/ui/tools/pencil-tool.cpp:313
+#: ../src/ui/tools/pencil-tool.cpp:314
 msgid "Drawing a freehand path"
 msgstr "Freihandlinien zeichnen"
 
-#: ../src/ui/tools/pencil-tool.cpp:318
+#: ../src/ui/tools/pencil-tool.cpp:319
 msgid "<b>Drag</b> to continue the path from this point."
 msgstr "<b>Ziehen</b>, um den Pfad von diesem Punkt aus fortzusetzen."
 
 # !!!
 #. Write curves to object
-#: ../src/ui/tools/pencil-tool.cpp:401
+#: ../src/ui/tools/pencil-tool.cpp:402
 msgid "Finishing freehand"
 msgstr "Fertig mit Freihandlinien"
 
-#: ../src/ui/tools/pencil-tool.cpp:503
+#: ../src/ui/tools/pencil-tool.cpp:504
 msgid ""
 "<b>Sketch mode</b>: holding <b>Alt</b> interpolates between sketched paths. "
 "Release <b>Alt</b> to finalize."
@@ -23741,7 +23899,7 @@ msgstr ""
 "Pfaden. Zum Beenden <b>Alt</b> loslassen."
 
 # !!!
-#: ../src/ui/tools/pencil-tool.cpp:530
+#: ../src/ui/tools/pencil-tool.cpp:531
 msgid "Finishing freehand sketch"
 msgstr "Fertig mit Freihandlinien"
 
@@ -23875,18 +24033,18 @@ msgstr ""
 msgid "Create spiral"
 msgstr "Spirale erstellen"
 
-#: ../src/ui/tools/spray-tool.cpp:182 ../src/ui/tools/tweak-tool.cpp:157
+#: ../src/ui/tools/spray-tool.cpp:173 ../src/ui/tools/tweak-tool.cpp:157
 #, c-format
 msgid "<b>%i</b> object selected"
 msgid_plural "<b>%i</b> objects selected"
 msgstr[0] "<b>%i</b> Objekt ausgewählt"
 msgstr[1] "<b>%i</b> Objekte ausgewählt"
 
-#: ../src/ui/tools/spray-tool.cpp:184 ../src/ui/tools/tweak-tool.cpp:159
+#: ../src/ui/tools/spray-tool.cpp:175 ../src/ui/tools/tweak-tool.cpp:159
 msgid "<b>Nothing</b> selected"
 msgstr "Es wurde <b>nichts</b> gewählt"
 
-#: ../src/ui/tools/spray-tool.cpp:189
+#: ../src/ui/tools/spray-tool.cpp:180
 #, c-format
 msgid ""
 "%s. Drag, click or click and scroll to spray <b>copies</b> of the initial "
@@ -23895,7 +24053,7 @@ msgstr ""
 "%s. Ziehen, Klicken oder Klicken und Scrollen zum Sprühen von <b>Kopien</b> "
 "der ersten Auswahl."
 
-#: ../src/ui/tools/spray-tool.cpp:192
+#: ../src/ui/tools/spray-tool.cpp:183
 #, c-format
 msgid ""
 "%s. Drag, click or click and scroll to spray <b>clones</b> of the initial "
@@ -23904,7 +24062,7 @@ msgstr ""
 "%s. Ziehen, Klicken oder Klicken und Scrollen zum Sprühen von <b>Klonen</b> "
 "der ersten Auswahl."
 
-#: ../src/ui/tools/spray-tool.cpp:195
+#: ../src/ui/tools/spray-tool.cpp:186
 #, c-format
 msgid ""
 "%s. Drag, click or click and scroll to spray in a <b>single path</b> of the "
@@ -23913,19 +24071,19 @@ msgstr ""
 "%s. Ziehen, Klicken oder Klicken und Scrollen zum Sprühen in einen "
 "<b>Einzelpfad</b> der ersten Auswahl."
 
-#: ../src/ui/tools/spray-tool.cpp:648
+#: ../src/ui/tools/spray-tool.cpp:618
 msgid "<b>Nothing selected!</b> Select objects to spray."
 msgstr "<b>Nichts ausgewählt!</b> Wähle Objekte zum Sprühen aus."
 
-#: ../src/ui/tools/spray-tool.cpp:723 ../src/widgets/spray-toolbar.cpp:166
+#: ../src/ui/tools/spray-tool.cpp:693 ../src/widgets/spray-toolbar.cpp:166
 msgid "Spray with copies"
 msgstr "Sprühen mit Kopien"
 
-#: ../src/ui/tools/spray-tool.cpp:727 ../src/widgets/spray-toolbar.cpp:173
+#: ../src/ui/tools/spray-tool.cpp:697 ../src/widgets/spray-toolbar.cpp:173
 msgid "Spray with clones"
 msgstr "Sprühen mit Klonen"
 
-#: ../src/ui/tools/spray-tool.cpp:731
+#: ../src/ui/tools/spray-tool.cpp:701
 msgid "Spray in single path"
 msgstr "Sprühen in einen einzelnen Pfad"
 
@@ -24194,62 +24352,66 @@ msgstr ""
 "%s. Ziehen oder Klicken, um die <b>Unschärfe zu erhöhen</b>; mit Umschalt "
 "<b>verringern</b>."
 
-#: ../src/ui/tools/tweak-tool.cpp:1192
+#: ../src/ui/tools/tweak-tool.cpp:1191
 msgid "<b>Nothing selected!</b> Select objects to tweak."
 msgstr "<b>Nichts ausgewählt!</b> Wähle Objekte zum Justieren aus."
 
-#: ../src/ui/tools/tweak-tool.cpp:1226
+#: ../src/ui/tools/tweak-tool.cpp:1225
 msgid "Move tweak"
 msgstr "Optimieren durch Verschieben"
 
 # Was bewegt sich?
-#: ../src/ui/tools/tweak-tool.cpp:1230
+#: ../src/ui/tools/tweak-tool.cpp:1229
 msgid "Move in/out tweak"
 msgstr "Optimieren durch Zusammen-/Auseinanderbewegen"
 
-#: ../src/ui/tools/tweak-tool.cpp:1234
+#: ../src/ui/tools/tweak-tool.cpp:1233
 msgid "Move jitter tweak"
 msgstr "Optimieren durch Bewegungsversatz"
 
-#: ../src/ui/tools/tweak-tool.cpp:1238
+#: ../src/ui/tools/tweak-tool.cpp:1237
 msgid "Scale tweak"
 msgstr "Optimieren durch Skalieren"
 
-#: ../src/ui/tools/tweak-tool.cpp:1242
+#: ../src/ui/tools/tweak-tool.cpp:1241
 msgid "Rotate tweak"
 msgstr "Optimieren durch Rotieren"
 
-#: ../src/ui/tools/tweak-tool.cpp:1246
+#: ../src/ui/tools/tweak-tool.cpp:1245
 msgid "Duplicate/delete tweak"
 msgstr "Optimieren durch Duplizieren-/Löschen"
 
-#: ../src/ui/tools/tweak-tool.cpp:1250
+#: ../src/ui/tools/tweak-tool.cpp:1249
 msgid "Push path tweak"
 msgstr "Optimieren durch Verschieben von Pfaden"
 
-#: ../src/ui/tools/tweak-tool.cpp:1254
+#: ../src/ui/tools/tweak-tool.cpp:1253
 msgid "Shrink/grow path tweak"
 msgstr "Optimieren durch Schrumpfen/Vergößern von Pfaden"
 
-#: ../src/ui/tools/tweak-tool.cpp:1258
+#: ../src/ui/tools/tweak-tool.cpp:1257
 msgid "Attract/repel path tweak"
 msgstr "Optimieren durch Anziehen/Abstoßen von Pfaden"
 
-#: ../src/ui/tools/tweak-tool.cpp:1262
+#: ../src/ui/tools/tweak-tool.cpp:1261
 msgid "Roughen path tweak"
 msgstr "Optimieren der Pfadrauheit"
 
-#: ../src/ui/tools/tweak-tool.cpp:1266
+#: ../src/ui/tools/tweak-tool.cpp:1265
 msgid "Color paint tweak"
 msgstr "Optimieren der Farbe"
 
-#: ../src/ui/tools/tweak-tool.cpp:1270
+#: ../src/ui/tools/tweak-tool.cpp:1269
 msgid "Color jitter tweak"
 msgstr "Optimieren durch Farbrauschen"
 
-#: ../src/ui/tools/tweak-tool.cpp:1274
+#: ../src/ui/tools/tweak-tool.cpp:1273
 msgid "Blur tweak"
 msgstr "Optimieren durch Unschärfe"
+
+#: ../src/ui/widget/color-entry.cpp:31
+msgid "Hexadecimal RGBA value of the color"
+msgstr "Hexadezimaler RGBA-Wert der Farbe"
 
 #: ../src/ui/widget/color-icc-selector.cpp:176
 #: ../src/ui/widget/color-scales.cpp:378
@@ -24508,20 +24670,136 @@ msgstr ""
 msgid "Slashed Zero"
 msgstr ""
 
-#: ../src/ui/widget/font-variants.cpp:80
+#: ../src/ui/widget/font-variants.cpp:71
+#, fuzzy
+msgid "Feature Settings"
+msgstr "Seiteneinstellungen"
+
+#: ../src/ui/widget/font-variants.cpp:72
+msgid "Selection has different Feature Settings!"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:85
 msgid "Common ligatures. On by default. OpenType tables: 'liga', 'clig'"
 msgstr ""
 
-#: ../src/ui/widget/font-variants.cpp:82
+#: ../src/ui/widget/font-variants.cpp:87
 msgid "Discretionary ligatures. Off by default. OpenType table: 'dlig'"
 msgstr ""
 
-#: ../src/ui/widget/font-variants.cpp:84
+#: ../src/ui/widget/font-variants.cpp:89
 msgid "Historical ligatures. Off by default. OpenType table: 'hlig'"
 msgstr ""
 
-#: ../src/ui/widget/font-variants.cpp:86
+#: ../src/ui/widget/font-variants.cpp:91
 msgid "Contextual forms. On by default. OpenType table: 'calt'"
+msgstr ""
+
+#. Position ----------------------------------
+#. Add tooltips
+#: ../src/ui/widget/font-variants.cpp:112
+#, fuzzy
+msgid "Normal position."
+msgstr "X-Position"
+
+#: ../src/ui/widget/font-variants.cpp:113
+msgid "Subscript. OpenType table: 'subs'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:114
+msgid "Superscript. OpenType table: 'sups'"
+msgstr ""
+
+#. Caps ----------------------------------
+#. Add tooltips
+#: ../src/ui/widget/font-variants.cpp:138
+#, fuzzy
+msgid "Normal capitalization."
+msgstr "Lokalisierung"
+
+#: ../src/ui/widget/font-variants.cpp:139
+msgid "Small-caps (lowercase). OpenType table: 'smcp'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:140
+msgid ""
+"All small-caps (uppercase and lowercase). OpenType tables: 'c2sc' and 'smcp'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:141
+msgid "Petite-caps (lowercase). OpenType table: 'pcap'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:142
+msgid ""
+"All petite-caps (uppercase and lowercase). OpenType tables: 'c2sc' and 'pcap'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:143
+msgid ""
+"Unicase (small caps for uppercase, normal for lowercase). OpenType table: "
+"'unic'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:144
+msgid ""
+"Titling caps (lighter-weight uppercase for use in titles). OpenType table: "
+"'titl'"
+msgstr ""
+
+#. Numeric ------------------------------
+#. Add tooltips
+#: ../src/ui/widget/font-variants.cpp:180
+#, fuzzy
+msgid "Normal style."
+msgstr "Normaler Versatz"
+
+#: ../src/ui/widget/font-variants.cpp:181
+msgid "Lining numerals. OpenType table: 'lnum'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:182
+msgid "Old style numerals. OpenType table: 'onum'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:183
+#, fuzzy
+msgid "Normal widths."
+msgstr "Normales Licht"
+
+#: ../src/ui/widget/font-variants.cpp:184
+msgid "Proportional width numerals. OpenType table: 'pnum'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:185
+msgid "Same width numerals. OpenType table: 'tnum'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:186
+#, fuzzy
+msgid "Normal fractions."
+msgstr "Vorgabe Gittereinstellungen"
+
+#: ../src/ui/widget/font-variants.cpp:187
+msgid "Diagonal fractions. OpenType table: 'frac'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:188
+msgid "Stacked fractions. OpenType table: 'afrc'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:189
+msgid "Ordinals (raised 'th', etc.). OpenType table: 'ordn'"
+msgstr ""
+
+#: ../src/ui/widget/font-variants.cpp:190
+msgid "Slashed zeros. OpenType table: 'zero'"
+msgstr ""
+
+#. Feature settings ---------------------
+#. Add tooltips
+#: ../src/ui/widget/font-variants.cpp:240
+msgid "Feature settings in CSS form. No sanity checking is performed."
 msgstr ""
 
 #: ../src/ui/widget/layer-selector.cpp:118
@@ -27602,12 +27880,6 @@ msgstr ""
 "Die Seite in die aktuelle Auswahl einpassen (oder die ganze Zeichnung, wenn "
 "es keine Auswahl gibt)"
 
-# !!! mnemonics
-#. LockAndHide
-#: ../src/verbs.cpp:2968
-msgid "Unlock All"
-msgstr "Alles entsperren"
-
 #: ../src/verbs.cpp:2970
 msgid "Unlock All in All Layers"
 msgstr "Alles in allen Ebenen entsperren"
@@ -30036,15 +30308,15 @@ msgstr ""
 "End-Knotenmarkierungen werden auf dem ersten und letzten Knoten eines Pfades "
 "oder einer Form gezeichnet."
 
-#: ../src/widgets/stroke-style.cpp:494
+#: ../src/widgets/stroke-style.cpp:498
 msgid "Set markers"
 msgstr "Knotenmarkierungen festlegen"
 
-#: ../src/widgets/stroke-style.cpp:1029 ../src/widgets/stroke-style.cpp:1113
+#: ../src/widgets/stroke-style.cpp:1033 ../src/widgets/stroke-style.cpp:1117
 msgid "Set stroke style"
 msgstr "Konturstil festlegen"
 
-#: ../src/widgets/stroke-style.cpp:1202
+#: ../src/widgets/stroke-style.cpp:1206
 msgid "Set marker color"
 msgstr "Knotenmarkierungsfarbe festlegen"
 
@@ -30627,11 +30899,6 @@ msgstr "S"
 #: ../src/widgets/tweak-toolbar.cpp:319
 msgid "In color mode, act on objects' lightness"
 msgstr "Im Farbmodus auf die Helligkeit eines Objekts wirken"
-
-#. TRANSLATORS: "L" here stands for Lightness
-#: ../src/widgets/tweak-toolbar.cpp:323
-msgid "L"
-msgstr "L"
 
 #: ../src/widgets/tweak-toolbar.cpp:335
 msgid "In color mode, act on objects' opacity"
@@ -31721,12 +31988,17 @@ msgstr "Fehler: %s"
 msgid "The directory \"%s\" does not exists."
 msgstr "Das Verzeichnis \"%s\" existiert nicht."
 
-#: ../share/extensions/webslicer_export.py:102
+#: ../share/extensions/webslicer_export.py:78
+#, fuzzy
+msgid "No slicer layer found."
+msgstr "Keine aktuelle Ebene."
+
+#: ../share/extensions/webslicer_export.py:108
 #, python-format
 msgid "You have more than one element with \"%s\" html-id."
 msgstr "Sie haben mehr als ein Element mit \"%s\" html-id."
 
-#: ../share/extensions/webslicer_export.py:332
+#: ../share/extensions/webslicer_export.py:338
 msgid "You must install the ImageMagick to get JPG and GIF."
 msgstr "Für JPG und GIF muss ImageMagic installiert sein."
 
@@ -34553,6 +34825,98 @@ msgstr ""
 #: ../share/extensions/hpgl_output.inx.h:36
 msgid "Export an HP Graphics Language file"
 msgstr "HP Graphic Language-Datei exportieren"
+
+#: ../share/extensions/image_attributes.inx.h:1
+#, fuzzy
+msgid "Set Image Attributes"
+msgstr "Attribute festlegen"
+
+#. render images like in 0.48
+#: ../share/extensions/image_attributes.inx.h:3
+#, fuzzy
+msgid "Basic"
+msgstr "Latein"
+
+#. render images like in 0.48
+#: ../share/extensions/image_attributes.inx.h:5
+msgid "Support non-unifom scaling"
+msgstr ""
+
+#. render images like in 0.48
+#: ../share/extensions/image_attributes.inx.h:7
+msgid "Render images blocky"
+msgstr ""
+
+#. render images like in 0.48
+#: ../share/extensions/image_attributes.inx.h:9
+msgid ""
+"Render all bitmap images like in older Inskcape versions. Available options:"
+msgstr ""
+
+#. image aspect ratio
+#: ../share/extensions/image_attributes.inx.h:11
+#, fuzzy
+msgid "Image Aspect Ratio"
+msgstr "Bild-Vereinfachungen"
+
+#. image aspect ratio
+#: ../share/extensions/image_attributes.inx.h:13
+msgid "preserveAspectRatio attribute:"
+msgstr ""
+
+#. image aspect ratio
+#: ../share/extensions/image_attributes.inx.h:15
+msgid "meetOrSlice:"
+msgstr ""
+
+#. image-rendering
+#: ../share/extensions/image_attributes.inx.h:17
+#, fuzzy
+msgid "Scope:"
+msgstr "Umfang"
+
+#. image-rendering
+#: ../share/extensions/image_attributes.inx.h:19
+#, fuzzy
+msgid "Unset"
+msgstr "Einlage"
+
+#: ../share/extensions/image_attributes.inx.h:20
+#, fuzzy
+msgid "Change only selected image(s)"
+msgstr "Nur ausgewählte Knoten ändern"
+
+#: ../share/extensions/image_attributes.inx.h:21
+#, fuzzy
+msgid "Change all images in selection"
+msgstr "In der Auswahl konnte keine Ellipse gefunden werden"
+
+#: ../share/extensions/image_attributes.inx.h:22
+#, fuzzy
+msgid "Change all images in document"
+msgstr "Rechtschreibprüfung für Text im Dokument"
+
+#. image-rendering
+#: ../share/extensions/image_attributes.inx.h:24
+#, fuzzy
+msgid "Image Rendering Quality"
+msgstr "Bildrendering:"
+
+#. image-rendering
+#: ../share/extensions/image_attributes.inx.h:26
+#, fuzzy
+msgid "Image rendering attribute:"
+msgstr "Darstellugsmethode:"
+
+#: ../share/extensions/image_attributes.inx.h:27
+#, fuzzy
+msgid "Apply attribute to parent group of selection"
+msgstr "Transformation auf Auswahl anwenden"
+
+#: ../share/extensions/image_attributes.inx.h:28
+#, fuzzy
+msgid "Apply attribute to SVG root"
+msgstr "Attribute:"
 
 #: ../share/extensions/ink2canvas.inx.h:1
 msgid "Convert to html5 canvas"
@@ -37866,6 +38230,18 @@ msgstr "Ein beliebtes Dateiformat für Clipart"
 msgid "XAML Input"
 msgstr "XAML einlesen"
 
+#~ msgid "import via Poppler"
+#~ msgstr "Über Poppler importieren"
+
+#~ msgid "Text handling:"
+#~ msgstr "Behandlung von Text:"
+
+#~ msgid "Import text as text"
+#~ msgstr "Fließtext in Text umwandeln"
+
+#~ msgid "Boolops"
+#~ msgstr "Bool'sche Operationen"
+
 #, fuzzy
 #~ msgid "Start path lean"
 #~ msgstr "Überprüfung starten"
@@ -37894,9 +38270,6 @@ msgstr "XAML einlesen"
 #, fuzzy
 #~ msgid "Show helper handles"
 #~ msgstr "Anfasser zeigen"
-
-#~ msgid "Hexadecimal RGBA value of the color"
-#~ msgstr "Hexadezimaler RGBA-Wert der Farbe"
 
 #~ msgid "pySerial is not installed."
 #~ msgstr "pySerial ist nicht installiert."
@@ -40700,9 +41073,6 @@ msgstr "XAML einlesen"
 #~ msgid "Spacing"
 #~ msgstr "Abstand"
 
-#~ msgid "Normal offset"
-#~ msgstr "Normaler Versatz"
-
 #~ msgid ""
 #~ "Generate a random pattern of Voronoi cells. The pattern will be "
 #~ "accessible in the Fill and Stroke dialog. You must select an object or a "
@@ -40961,9 +41331,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "Inkboard session (%1 to %2)"
 #~ msgstr "Inkboard-Sitzung (%1 mit %2)"
-
-#~ msgid "Label"
-#~ msgstr "Bezeichner"
 
 #~ msgid "Transform Handles:"
 #~ msgstr "Farbverläufe transformieren"
