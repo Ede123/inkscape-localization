@@ -4707,7 +4707,7 @@ msgstr "Webbanner 468x60"
 
 #: ../share/templates/templates.h:1
 msgid "Empty 468x60 web banner template."
-msgstr "Leere 486x60 Webbannervorlage."
+msgstr "Leere Webbannervorlage 486x60."
 
 #: ../share/templates/templates.h:1
 msgid "web banner 468x60 empty"
@@ -36512,23 +36512,23 @@ msgstr "XAML einlesen"
 
 #~ msgctxt "Symbol"
 #~ msgid "Dentist"
-#~ msgstr "Identität"
+#~ msgstr "Zahnarzt"
 
 #~ msgctxt "Symbol"
 #~ msgid "Accident & Emergency"
-#~ msgstr "Innenzentrum"
+#~ msgstr "Unfall & Notfall"
 
 #~ msgctxt "Symbol"
 #~ msgid "Doctors"
-#~ msgstr "Objektverbinder"
+#~ msgstr "Ärzte"
 
 #~ msgctxt "Symbol"
 #~ msgid "Power Lines"
-#~ msgstr "Knoten in Linien"
+#~ msgstr "Kabel"
 
 #~ msgctxt "Symbol"
 #~ msgid "Transmitter"
-#~ msgstr "Füllmuster transformieren"
+#~ msgstr "Überträger"
 
 #~ msgctxt "Symbol"
 #~ msgid "Peak"
@@ -36536,19 +36536,19 @@ msgstr "XAML einlesen"
 
 #~ msgctxt "Symbol"
 #~ msgid "Mountain Pass"
-#~ msgstr "gefärbtes Glas"
+#~ msgstr "Gebirgspass"
 
 #~ msgctxt "Symbol"
 #~ msgid "Supermarket"
-#~ msgstr "Markierungen setzen"
+#~ msgstr "Supermarkt"
 
 #~ msgctxt "Symbol"
 #~ msgid "Greengrocer"
-#~ msgstr "Grün"
+#~ msgstr "Gemüsehändler"
 
 #~ msgctxt "Symbol"
 #~ msgid "Garden Center"
-#~ msgstr "Oben und Zentriert"
+#~ msgstr "Gartencenter"
 
 #~ msgctxt "Symbol"
 #~ msgid "Hardware / DIY"
@@ -36556,59 +36556,59 @@ msgstr "XAML einlesen"
 
 #~ msgctxt "Symbol"
 #~ msgid "Confectioner"
-#~ msgstr "Verbindungen"
+#~ msgstr "Konditor"
 
 #~ msgctxt "Symbol"
 #~ msgid "Clothing"
-#~ msgstr "Glättung:"
+#~ msgstr "Bekleidung"
 
 #~ msgctxt "Symbol"
 #~ msgid "Leisure Center"
-#~ msgstr "Mittelpunkt zurücksetzen"
+#~ msgstr "Freizeitzentrum"
 
 #~ msgctxt "Symbol"
 #~ msgid "Zoo"
-#~ msgstr "Zoomfaktor"
+#~ msgstr "Zoo"
 
 #~ msgctxt "Symbol"
 #~ msgid "Water Wheel"
-#~ msgstr "Farbrad"
+#~ msgstr "Wasserrad"
 
 #~ msgctxt "Symbol"
 #~ msgid "Theater"
-#~ msgstr "Erstellen"
+#~ msgstr "Theater"
 
 #~ msgctxt "Symbol"
 #~ msgid "Monument"
-#~ msgstr "Dokument"
+#~ msgstr "Denkmal"
 
 #~ msgctxt "Symbol"
 #~ msgid "Battle Location"
-#~ msgstr "Ort:"
+#~ msgstr "Schlachtfeld"
 
 #~ msgctxt "Symbol"
 #~ msgid "Train"
-#~ msgstr "Korn"
+#~ msgstr "Eisenbahn"
 
 #~ msgctxt "Symbol"
 #~ msgid "Flood Gate"
-#~ msgstr "Füllen"
+#~ msgstr "Wehr"
 
 #~ msgctxt "Symbol"
 #~ msgid "Disabled Parking"
-#~ msgstr "Ausgeschaltet"
+#~ msgstr "Parkverbot"
 
 #~ msgid "Extrapolated"
-#~ msgstr "Abgeleitet"
+#~ msgstr "Hochgerechnet"
 
 #~ msgid "&lt;no name found&gt;"
-#~ msgstr "&lt;kein Name gefunden&gt;"
+#~ msgstr "&lt;keinen Namen gefunden&gt;"
 
 #~ msgid "Set Resolution"
-#~ msgstr "Auflösung"
+#~ msgstr "Auflösung einstellen"
 
 #~ msgid "Set filter resolution"
-#~ msgstr "Filter-Auflösung setzen"
+#~ msgstr "Filter-Auflösung einstellen"
 
 #~ msgid "Fills object bounding box with color"
 #~ msgstr "Füllt Objektrahmen mit Farbe"
@@ -36758,109 +36758,109 @@ msgstr "XAML einlesen"
 #~ msgstr "Strich dünner beenden"
 
 #~ msgid "Round ends"
-#~ msgstr "Runde Enden ab"
+#~ msgstr "Enden abrunden"
 
 #~ msgid "Strokes end with a round end"
 #~ msgstr "Strich endet abgerundet"
 
 #~ msgid "left capping"
-#~ msgstr "Linker Winkel"
+#~ msgstr "Linker Endpunkt"
 
 #~ msgid "Control handle 0:"
-#~ msgstr "Control handle 0:"
+#~ msgstr "Knotenanfasser 0:"
 
 #~ msgid "Control handle 0"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 0 verschieben"
 
 #~ msgid "Control handle 1:"
-#~ msgstr "Control handle 1:"
+#~ msgstr "Knotenanfasser 1:"
 
 #~ msgid "Control handle 1"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 1 verschieben"
 
 #~ msgid "Control handle 2:"
-#~ msgstr "Control handle 2:"
+#~ msgstr "Knotenanfasser 2:"
 
 #~ msgid "Control handle 2"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 2 verschieben"
 
 #~ msgid "Control handle 3:"
-#~ msgstr "Control handle 3:"
+#~ msgstr "Knotenanfasser 3:"
 
 #~ msgid "Control handle 3"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 3 verschieben"
 
 #~ msgid "Control handle 4:"
-#~ msgstr "Control handle 4:"
+#~ msgstr "Knotenanfasser 4:"
 
 #~ msgid "Control handle 4"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 4 verschieben"
 
 #~ msgid "Control handle 5:"
-#~ msgstr "Control handle 5:"
+#~ msgstr "Knotenanfasser 5:"
 
 #~ msgid "Control handle 5"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 5 verschieben"
 
 #~ msgid "Control handle 6:"
-#~ msgstr "Control handle 6:"
+#~ msgstr "Knotenanfasser 6:"
 
 #~ msgid "Control handle 6"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 6 verschieben"
 
 #~ msgid "Control handle 7:"
-#~ msgstr "Control handle 7:"
+#~ msgstr "Knotenanfasser 7:"
 
 #~ msgid "Control handle 7"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 7 verschieben"
 
 #~ msgid "Control handle 8:"
-#~ msgstr "Control handle 8:"
+#~ msgstr "Knotenanfasser 8:"
 
 #~ msgid "Control handle 8"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 8 verschieben"
 
 #~ msgid "Control handle 9:"
-#~ msgstr "Control handle 9:"
+#~ msgstr "Knotenanfasser 9:"
 
 #~ msgid "Control handle 9"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 9 verschieben"
 
 #~ msgid "Control handle 10:"
-#~ msgstr "Control handle 10:"
+#~ msgstr "Knotenanfasser 10:"
 
 #~ msgid "Control handle 10"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 10 verschieben"
 
 #~ msgid "Control handle 11:"
-#~ msgstr "Control handle 11:"
+#~ msgstr "Knotenanfasser 11:"
 
 #~ msgid "Control handle 11"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 11 verschieben"
 
 #~ msgid "Control handle 12:"
-#~ msgstr "Control handle 12:"
+#~ msgstr "Knotenanfasser 12:"
 
 #~ msgid "Control handle 12"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 12 verschieben"
 
 #~ msgid "Control handle 13:"
-#~ msgstr "Control handle 13:"
+#~ msgstr "Knotenanfasser 13:"
 
 #~ msgid "Control handle 13"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 13 verschieben"
 
 #~ msgid "Control handle 14:"
-#~ msgstr "Control handle 14:"
+#~ msgstr "Knotenanfasser 14:"
 
 #~ msgid "Control handle 14"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 14 verschieben"
 
 #~ msgid "Control handle 15:"
-#~ msgstr "Control handle 15:"
+#~ msgstr "Knotenanfasser 15:"
 
 #~ msgid "Control handle 15"
-#~ msgstr "Knotenanfasser verschieben"
+#~ msgstr "Knotenanfasser 15 verschieben"
 
 #~ msgid "End type:"
 #~ msgstr "Endtyp:"
@@ -36869,19 +36869,19 @@ msgstr "XAML einlesen"
 #~ msgstr "Bestimmt, welche Seite der Linie oder des Segments unendlich ist."
 
 #~ msgid "Discard original path?"
-#~ msgstr "Originalpfad ersetzen"
+#~ msgstr "Originalpfad ersetzen?"
 
 #~ msgid "Check this to only keep the mirrored part of the path"
 #~ msgstr "Aktivieren um den gespiegelten Teil des Pfades zu behalten"
 
 #~ msgid "Reflection line:"
-#~ msgstr "Auswahl"
+#~ msgstr "Spiegelebene:"
 
 #~ msgid "Line which serves as 'mirror' for the reflection"
-#~ msgstr "Linie, die als 'Spiegel' für die Rflektion dienen soll."
+#~ msgstr "Linie, die als 'Spiegel' für die Reflektion dienen soll."
 
 #~ msgid "Handle to control the distance of the offset from the curve"
-#~ msgstr "Anfasser zum Einstellen der Entfernung des Offset der Kurve"
+#~ msgstr "Anfasser zum Einstellen des Versatzes zum Ursprung der Kurve"
 
 #~ msgid "Adjust the offset"
 #~ msgstr "<b>Versatz-Abstand</b> anpassen"
@@ -36890,7 +36890,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Legt das linke Ende der Parallele fest"
 
 #~ msgid "Specifies the right end of the parallel"
-#~ msgstr "Legt das linke Ende der Parallele fest"
+#~ msgstr "Legt das rechte Ende der Parallele fest"
 
 #~ msgid "Adjust the \"left\" end of the parallel"
 #~ msgstr "Einstellen des \"linken\" Endes der Parallele"
@@ -36899,10 +36899,10 @@ msgstr "XAML einlesen"
 #~ msgstr "Einstellen des \"rechten\" Endes der Parallele"
 
 #~ msgid "Scaling factor"
-#~ msgstr "Saklierungsfaktor"
+#~ msgstr "Skalierungsfaktor"
 
 #~ msgid "Print unit after path length"
-#~ msgstr "Breite der Halo in Pixeln"
+#~ msgstr "Ausgabeeinheit nach Pfadlänge"
 
 #~ msgid "Adjust the bisector's \"left\" end"
 #~ msgstr "Stellt das \"linke\" Ende der Halbierenden ein"
@@ -36953,7 +36953,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Nur reelle Zahlen wie 1,4!"
 
 #~ msgid "Additional angle between tangent and curve"
-#~ msgstr "Winkel, um den Tangente zu Kurve gedreht wird."
+#~ msgstr "Winkel, um den die Tangente zur Kurve gedreht wird."
 
 #~ msgid "Location along curve:"
 #~ msgstr "Ort des Benutzer-Caches"
@@ -36965,7 +36965,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Legt das rechte Ende der Tangente fest"
 
 #~ msgid "Adjust the point of attachment of the tangent"
-#~ msgstr "Zwischenfarbe des Farbverlaufs bearbeiten"
+#~ msgstr "Berührungspunkt der Tangente bearbeiten"
 
 #~ msgid "Adjust the \"left\" end of the tangent"
 #~ msgstr "Einstellen des \"linken\" Endes der Tangente"
@@ -36983,13 +36983,13 @@ msgstr "XAML einlesen"
 #~ msgstr "Pfadparameter"
 
 #~ msgid "Label:"
-#~ msgstr "_Bezeichner:"
+#~ msgstr "Bezeichner:"
 
 #~ msgid "Text label attached to the path"
 #~ msgstr "Textmarkierung, die dem Pfad zugewiesen ist"
 
 #~ msgid "No <b>groups</b> converted to symbols."
-#~ msgstr "Wählen Sie eine <b>Gruppe</b>, um zum Symbol zu konvertieren."
+#~ msgstr "Wählen Sie eine <b>Gruppe</b>, um sie zum Symbol zu konvertieren."
 
 # !!!
 #~ msgid "<b>Color</b>"

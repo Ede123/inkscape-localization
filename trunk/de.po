@@ -15,6 +15,7 @@
 # Benjamin Weis <benjamin.weis@gmx.com>, 2014.
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015.
+# Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015
 #
 msgid ""
 msgstr ""
@@ -38257,19 +38258,19 @@ msgstr "XAML einlesen"
 
 #, fuzzy
 #~ msgid "Helper nodes"
-#~ msgstr "Knoten löschen"
+#~ msgstr "Hilfsknoten"
 
 #, fuzzy
 #~ msgid "Show helper nodes"
-#~ msgstr "Knoten absenken"
+#~ msgstr "Hilfsknoten anzeigen"
 
 #, fuzzy
 #~ msgid "Helper handles"
-#~ msgstr "Anfasser skalieren"
+#~ msgstr "Hilfsanfasser"
 
 #, fuzzy
 #~ msgid "Show helper handles"
-#~ msgstr "Anfasser zeigen"
+#~ msgstr "Hilfsanfasser anzeigen"
 
 #~ msgid "pySerial is not installed."
 #~ msgstr "pySerial ist nicht installiert."
@@ -38285,27 +38286,27 @@ msgstr "XAML einlesen"
 
 #, fuzzy
 #~ msgid "Show helper paths"
-#~ msgstr "An Ausschneidepfaden einrasten"
+#~ msgstr "Hilfspfade anzeigen"
 
 #~ msgid "_Templates..."
 #~ msgstr "_Vorlagen..."
 
 #, fuzzy
 #~ msgid "Custom Width (px.):"
-#~ msgstr "Breite der Kontur, px"
+#~ msgstr "Breite, px"
 
 #, fuzzy
 #~ msgid "Custom Height (px.):"
-#~ msgstr "Rechts (px):"
+#~ msgstr "Höhe (px):"
 
 #~ msgid "A4 Landscape Page"
-#~ msgstr "A4 Querformatseite"
+#~ msgstr "A4 Querformat"
 
 #~ msgid "Empty A4 landscape sheet"
-#~ msgstr "Leere A4 Querformatseite"
+#~ msgstr "Leeres A4 Querformatblatt"
 
 #~ msgid "A4 paper sheet empty landscape"
-#~ msgstr "A4 Leeres Blatt Papier in Querformat"
+#~ msgstr "Leeres A4 Querformatblatt"
 
 #~ msgid "A4 Page"
 #~ msgstr "A4 Seite"
@@ -38314,10 +38315,10 @@ msgstr "XAML einlesen"
 #~ msgstr "Leeres A4 Blatt"
 
 #~ msgid "A4 paper sheet empty"
-#~ msgstr "A4 Leeres Blatt Papier"
+#~ msgstr "Leeres A4 Blatt"
 
 #~ msgid "Black Opaque"
-#~ msgstr "Schwarz-Undurchsichtigkeit"
+#~ msgstr "Deckend Schwarz"
 
 #~ msgid "Empty black page"
 #~ msgstr "Leere schwarze Seite"
@@ -38326,10 +38327,10 @@ msgstr "XAML einlesen"
 #~ msgstr "Schwarz-Undurchsichtigkeit leer"
 
 #~ msgid "White Opaque"
-#~ msgstr "Weiß-Undurchsichtigkeit"
+#~ msgstr "Deckweißeiß"
 
 #~ msgid "Empty white page"
-#~ msgstr "Leere Weiß-Undurchsichtigkeit"
+#~ msgstr "Leere weiße Seite"
 
 #~ msgid "white opaque empty"
 #~ msgstr "Weiß-Undurchsichtigkeit leer"
@@ -38338,13 +38339,13 @@ msgstr "XAML einlesen"
 #~ msgstr "Leere Geschäftskartenvorlage."
 
 #~ msgid "business card empty 85x54"
-#~ msgstr "Geschäftskarte leer 85x54"
+#~ msgstr "Geschäftskarte 85x54"
 
 #~ msgid "Business Card 90x50mm"
 #~ msgstr "Geschäftskarte 90x50mm"
 
 #~ msgid "business card empty 90x50"
-#~ msgstr "Geschäftskarte leer 90x50"
+#~ msgstr "Geschäftskarte 90x50"
 
 #~ msgid "CD Cover 300dpi"
 #~ msgstr "CD-Hülle 300dpi"
@@ -38425,55 +38426,55 @@ msgstr "XAML einlesen"
 #~ msgstr "Symbol 16x16"
 
 #~ msgid "Small 16x16 icon template."
-#~ msgstr "Kleine 16x16 Symbolvorlage."
+#~ msgstr "Vorlage für Symbol 16x16"
 
 #~ msgid "icon 16x16 empty"
-#~ msgstr "Symbol 16x16 leer"
+#~ msgstr "Leeres Symbol 16x16"
 
 #~ msgid "Icon 32x32"
 #~ msgstr "Symbol 32x32"
 
 #~ msgid "32x32 icon template."
-#~ msgstr "32x32 Symbolvorlage."
+#~ msgstr "Vorlage für Symbol 32x32"
 
 #~ msgid "icon 32x32 empty"
-#~ msgstr "Symbol 32x32 leer"
+#~ msgstr "Leeres Symbol 32x32"
 
 #~ msgid "Icon 48x48"
 #~ msgstr "Symbol 48x48"
 
 #~ msgid "48x48 icon template."
-#~ msgstr "48x48 Symbolvorlage."
+#~ msgstr "Vorlage für Symbol 48x48"
 
 #~ msgid "icon 48x48 empty"
-#~ msgstr "Symbol 48x48 leer"
+#~ msgstr "Leeres Symbol 48x48"
 
 #~ msgid "Icon 64x64"
 #~ msgstr "Symbol 64x64"
 
 #~ msgid "64x64 icon template."
-#~ msgstr "64x64 Symbolvorlage."
+#~ msgstr "Vorlage für Symbol 64x64"
 
 #~ msgid "icon 64x64 empty"
-#~ msgstr "Symbol 64x64 leer"
+#~ msgstr "Leeres Symbol 64x64"
 
 #~ msgid "Letter Landscape"
-#~ msgstr "Querformatbrief"
+#~ msgstr "Letter-Format (US) quer"
 
 #~ msgid "Standard letter landscape sheet - 792x612"
-#~ msgstr "Standardbrief-Querformatblatt - 792x612"
+#~ msgstr "Standardblatt Letterformat (US) quer- 792pt x 612pt"
 
 #~ msgid "letter landscape 792x612 empty"
-#~ msgstr "Querformatbrief 792x612 leer"
+#~ msgstr "Letterformat (US) quer 792pt x 612pt leer"
 
 #~ msgid "Letter"
-#~ msgstr "Buchstabe"
+#~ msgstr "Brief (US-Format)"
 
 #~ msgid "Standard letter sheet - 612x792"
-#~ msgstr "Standardbriefblatt - 612x792"
+#~ msgstr "Standardbriefblatt (US-Format) - 612pt x 792pt"
 
 #~ msgid "letter 612x792 empty"
-#~ msgstr "Brief 612x792 leer"
+#~ msgstr "Leerer Brief (US-Format) 612pt x 792pt"
 
 #~ msgid "No Borders"
 #~ msgstr "Ohne Ränder"
@@ -38488,52 +38489,52 @@ msgstr "XAML einlesen"
 #~ msgstr "Video HDTV 1920x1080"
 
 #~ msgid "HDTV video template for 1920x1080 resolution."
-#~ msgstr "HDTV-Videovorlage für 1920x1080 Auflösung."
+#~ msgstr "HDTV-Videovorlage für eine Auflösung von 1920x1080"
 
 #~ msgid "HDTV video empty 1920x1080"
-#~ msgstr "HDTV-Video leer 1920x1080"
+#~ msgstr "Leeres HDTV-Video 1920x1080"
 
 #~ msgid "Video NTSC 720x486"
 #~ msgstr "Video NTSC 720x486"
 
 #~ msgid "NTSC video template for 720x486 resolution."
-#~ msgstr "NTSC-Videovorlage für 720x486 Auflösung."
+#~ msgstr "NTSC-Videovorlage für eine Auflösung von 720x486"
 
 #~ msgid "NTSC video empty 720x486"
-#~ msgstr "NTSC-Video leer 720x486"
+#~ msgstr "Leeres NTSC-Video 720x486"
 
 #~ msgid "Video PAL 728x576"
 #~ msgstr "Video PAL 728x576"
 
 #~ msgid "PAL video template for 728x576 resolution."
-#~ msgstr "PAL-Videovorlage für 728x576 Auflösung."
+#~ msgstr "PAL-Videovorlage für eine Auflösung 728x576"
 
 #~ msgid "PAL video empty 728x576"
-#~ msgstr "PAL-Video leer 728x576"
+#~ msgstr "Leeres PAL-Video 728x576"
 
 #~ msgid "Web Banner 468x60"
 #~ msgstr "Webbanner 468x60"
 
 #~ msgid "Empty 468x60 web banner template."
-#~ msgstr "Leere 486x60 Webbannervorlage."
+#~ msgstr "Leere Webbannervorlage mit 468pt x 60pt"
 
 #~ msgid "web banner 468x60 empty"
-#~ msgstr "Webbanner 486x60 leer"
+#~ msgstr "Leeres Webbanner 486x60"
 
 #~ msgid "Web Banner 728x90"
 #~ msgstr "Webbanner 728x90"
 
 #~ msgid "Empty 728x90 web banner template."
-#~ msgstr "Leere 728x90 Webbannervorlage."
+#~ msgstr "Leere Webbannervorlage mit 728pt x 90pt"
 
 #~ msgid "web banner 728x90 empty"
-#~ msgstr "Webbanner 728x90 leer"
+#~ msgstr "Leeres Webbanner 728x90"
 
 #~ msgid "Select <b>one</b> path to clone."
-#~ msgstr "Wähle <b>ein</b> Pfad zum Klonen aus."
+#~ msgstr "Wähle <b>einen</b> Pfad zum Klonen aus."
 
 #~ msgid "Select one <b>path</b> to clone."
-#~ msgstr "Wähle ein <b>Pfad</b> zum Klonen aus."
+#~ msgstr "Wähle einen <b>Pfad</b> zum Klonen aus."
 
 #~ msgid "Default _units:"
 #~ msgstr "_Standard-Einheiten:"
@@ -38542,8 +38543,8 @@ msgstr "XAML einlesen"
 #~ "Always convert the text size units above into pixels (px) before saving "
 #~ "to file"
 #~ msgstr ""
-#~ "Die Textgrößen-Einheiten oben in Pixel (px) vor dem Speichern einer Datei "
-#~ "immer umwandeln"
+#~ "Die obigen Textgrößen-Einheiten vor dem Speichern immer in Pixel (px) "
+#~ "umwandeln"
 
 #~ msgctxt "Path handle tip"
 #~ msgid "<b>%s</b>: drag to shape the segment (%s)"
@@ -38581,7 +38582,7 @@ msgstr "XAML einlesen"
 
 #~ msgctxt "Symbol"
 #~ msgid "Police Station"
-#~ msgstr "Mehr Sättigung"
+#~ msgstr "Polizei"
 
 #~ msgctxt "Symbol"
 #~ msgid "Survey Point"
@@ -42159,7 +42160,7 @@ msgstr "XAML einlesen"
 #~ msgstr "PDF-Ausgabe mit Cairo"
 
 #~ msgid "Amount of Blur"
-#~ msgstr "Stärke des Wirbels"
+#~ msgstr "Stärke des Unschärfe"
 
 #~ msgid "Lala"
 #~ msgstr "_Bezeichner"
@@ -42174,11 +42175,11 @@ msgstr "XAML einlesen"
 #~ "This value affects the amount of smoothing applied to freehand lines; "
 #~ "lower values produce more uneven paths with more nodes"
 #~ msgstr ""
-#~ "Dieser Wert bestimmt den Grad der Glättung auf Freihand-Linien; niedrige "
-#~ "Werte erzeugen Pfade mit höherer Anzahl von Knoten"
+#~ "Dieser Wert bestimmt den Grad der Glättung von Freihand-Linien; niedrige "
+#~ "Werte erzeugen Pfade mit einer höherer Anzahl Knoten"
 
 #~ msgid "Grid units"
-#~ msgstr "Gitter-Raster_einheiten:"
+#~ msgstr "Gittereinheiten"
 
 #~ msgid "Origin Y"
 #~ msgstr "Ursprung Y"
@@ -42193,23 +42194,23 @@ msgstr "XAML einlesen"
 #~ msgstr "Farbe der dicken (hervorgehobenen) Gitterlinien"
 
 #~ msgid "Major grid line every"
-#~ msgstr "D_icke Gitterlinien alle:"
+#~ msgstr "Dicke Gitterlinien alle:"
 
 #~ msgid "Angle Z"
 #~ msgstr "Winkel Z"
 
 #~ msgid "Enable auto-save of document"
-#~ msgstr "Vektorisieren: Kein Dokument aktiv"
+#~ msgstr "Automatisches Speichern aktivieren"
 
 # !!!
 #~ msgid "<b>Mode:</b>"
-#~ msgstr "<b>Rand</b>"
+#~ msgstr "<b>Modus:</b>"
 
 #~ msgid "Spiro splines mode"
 #~ msgstr "Schrumpmodus"
 
 #~ msgid "Save current settings as new profile"
-#~ msgstr "Dokument unter einem anderen Namen speichern"
+#~ msgstr "Aktuelle Einstellungen unter neuem Profilenamen speichern"
 
 #~ msgid "Postscript (*.ps)"
 #~ msgstr "Postscript (*.ps)"
