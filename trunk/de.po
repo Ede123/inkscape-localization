@@ -15282,7 +15282,7 @@ msgstr "Exportiere %1 Dateien"
 #: ../src/ui/dialog/export.cpp:1069 ../src/ui/dialog/export.cpp:1071
 #, c-format
 msgid "Exporting file <b>%s</b>..."
-msgstr "Exportiere Dateie <b>%s</b>..."
+msgstr "Exportiere Datei <b>%s</b>..."
 
 #: ../src/ui/dialog/export.cpp:1080 ../src/ui/dialog/export.cpp:1172
 #, c-format
@@ -19798,7 +19798,7 @@ msgstr "Immer einrasten"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1293
 #, fuzzy
 msgid "Delay (in seconds):"
-msgstr "Verzögerungn (Millisekunden):"
+msgstr "Verzögerung (Millisekunden):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1294
 msgid ""
@@ -20719,9 +20719,8 @@ msgid "Lock other layers"
 msgstr "Andere Ebenen sperren"
 
 #: ../src/ui/dialog/layers.cpp:730
-#, fuzzy
 msgid "Move layer"
-msgstr "Verschobene Ebene"
+msgstr "Ebene verschieben"
 
 #: ../src/ui/dialog/layers.cpp:892
 msgctxt "Layers"
@@ -21105,9 +21104,8 @@ msgid "Group to layer"
 msgstr "Gruppe zu Ebene"
 
 #: ../src/ui/dialog/objects.cpp:1104
-#, fuzzy
 msgid "Moved objects"
-msgstr "Bewegte Objekte"
+msgstr "Verschobene Objekte"
 
 #: ../src/ui/dialog/objects.cpp:1353 ../src/ui/dialog/tags.cpp:857
 #: ../src/ui/dialog/tags.cpp:864
@@ -21144,14 +21142,12 @@ msgid "T"
 msgstr ""
 
 #: ../src/ui/dialog/objects.cpp:1620
-#, fuzzy
 msgid "CM"
-msgstr "CMS"
+msgstr "CM"
 
 #: ../src/ui/dialog/objects.cpp:1621
-#, fuzzy
 msgid "HL"
-msgstr "HSL"
+msgstr "HL"
 
 #: ../src/ui/dialog/objects.cpp:1622
 msgid "Label"
@@ -21159,13 +21155,12 @@ msgstr "Bezeichner"
 
 #. In order to get tooltips on header, we must create our own label.
 #: ../src/ui/dialog/objects.cpp:1664
-#, fuzzy
 msgid "Toggle visibility of Layer, Group, or Object."
-msgstr "Aktuelle Ebene sichtbar/unsichtbar"
+msgstr "Sichtbarkeit von Ebene, Gruppe oder Objekt umschalten."
 
 #: ../src/ui/dialog/objects.cpp:1677
 msgid "Toggle lock of Layer, Group, or Object."
-msgstr ""
+msgstr "Sperre von Ebene, Gruppe oder Objekt umschalten."
 
 #: ../src/ui/dialog/objects.cpp:1689
 msgid ""
@@ -21210,73 +21205,63 @@ msgid "Collapse All"
 msgstr "Alle zusammenklappen"
 
 #: ../src/ui/dialog/objects.cpp:1888
-#, fuzzy
 msgid "Rename"
-msgstr "_Umbenennen"
+msgstr "Umbenennen"
 
 #: ../src/ui/dialog/objects.cpp:1894
 msgid "Solo"
 msgstr ""
 
 #: ../src/ui/dialog/objects.cpp:1895
-#, fuzzy
 msgid "Show All"
-msgstr "Anzeigen:"
+msgstr "Alle anzeigen"
 
 # !!! mnemonics
 #: ../src/ui/dialog/objects.cpp:1896
-#, fuzzy
 msgid "Hide All"
-msgstr "Alles einblenden"
+msgstr "Alle ausblenden"
 
 #: ../src/ui/dialog/objects.cpp:1900
-#, fuzzy
 msgid "Lock Others"
-msgstr "Andere Ebenen sperren"
+msgstr "Andere sperren"
 
 # !!! mnemonics
 #: ../src/ui/dialog/objects.cpp:1901
-#, fuzzy
 msgid "Lock All"
-msgstr "Alles entsperren"
+msgstr "Alle sperren"
 
 # !!! mnemonics
 #. LockAndHide
 #: ../src/ui/dialog/objects.cpp:1902 ../src/verbs.cpp:2968
 msgid "Unlock All"
-msgstr "Alles entsperren"
+msgstr "Alle entsperren"
 
 #: ../src/ui/dialog/objects.cpp:1906
-#, fuzzy
 msgid "Up"
-msgstr "Hoch"
+msgstr "Nach oben"
 
 #: ../src/ui/dialog/objects.cpp:1907
-#, fuzzy
 msgid "Down"
-msgstr "Unten Links"
+msgstr "Nach unten"
 
 #: ../src/ui/dialog/objects.cpp:1916
-#, fuzzy
 msgid "Set Clip"
-msgstr "Cl_ip festlegen"
+msgstr "Ausschneidepfad setzen"
 
 #. will never be implemented
 #. _watching.push_back( &_addPopupItem( targetDesktop, SP_VERB_OBJECT_SET_INVERSE_CLIPPATH, 0, "Set Inverse Clip", (int)BUTTON_SETINVCLIP ) );
 #: ../src/ui/dialog/objects.cpp:1922
-#, fuzzy
 msgid "Unset Clip"
-msgstr "Cl_ip festlegen"
+msgstr "Ausschneidepfad freigeben"
 
 #. Set mask
 #: ../src/ui/dialog/objects.cpp:1926 ../src/ui/interface.cpp:1739
 msgid "Set Mask"
-msgstr "Maskierung festlegen"
+msgstr "Maskierung setzen"
 
 #: ../src/ui/dialog/objects.cpp:1927
-#, fuzzy
 msgid "Unset Mask"
-msgstr "Maskierung festlegen"
+msgstr "Maskierung freigeben"
 
 #: ../src/ui/dialog/objects.cpp:1949
 msgid "Select Highlight Color"
@@ -21444,40 +21429,34 @@ msgid "Trace pixel art"
 msgstr "Pixelkunst nachzeichnen"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:41
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "Y coordinate of the center"
-msgstr "Y-Koordinate der Auswahl"
+msgstr "Y-Koordinate des Mittelpunktes"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:42
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "X coordinate of the center"
-msgstr "X-Koordinate der Auswahl"
+msgstr "X-Koordinate des Mittelpunktes"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:43
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "Y coordinate of the radius"
-msgstr "Y-Koordinate der Auswahl"
+msgstr "Y-Koordinate des Radius"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:44
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "X coordinate of the radius"
-msgstr "X-Koordinate der Auswahl"
+msgstr "X-Koordinate des Radius"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:45
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "Starting angle"
-msgstr "Drehwinkel"
+msgstr "Startwinkel"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:46
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "End angle"
-msgstr "Kegelwinkel"
+msgstr "Endwinkel"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:48
 msgctxt "Polar arrange tab"
@@ -21515,13 +21494,11 @@ msgid "Parameterized:"
 msgstr "Parameterisiert:"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:83
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "Center X/Y:"
 msgstr "Mittelpunkt X/Y:"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:105
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "Radius X/Y:"
 msgstr "Radius X/Y:"
@@ -21876,18 +21853,16 @@ msgstr "Unbenannte Symbole"
 
 #: ../src/ui/dialog/tags.cpp:274 ../src/ui/dialog/tags.cpp:573
 #: ../src/ui/dialog/tags.cpp:687
-#, fuzzy
 msgid "Remove from selection set"
-msgstr "Maskierung von Auswahl entfernen"
+msgstr ""
 
 #: ../src/ui/dialog/tags.cpp:431
 msgid "Items"
-msgstr ""
+msgstr "Gegenstände"
 
 #: ../src/ui/dialog/tags.cpp:670
-#, fuzzy
 msgid "Add selection to set"
-msgstr "Die gewählten Objekte nach ganz oben anheben"
+msgstr ""
 
 #: ../src/ui/dialog/tags.cpp:828
 #, fuzzy

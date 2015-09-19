@@ -23,7 +23,7 @@ msgstr ""
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
 "PO-Revision-Date: 2015-04-21 02:20+0200\n"
 "Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
-"Language-Team: <de@li.org>\n"
+"Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15016,7 +15016,7 @@ msgstr "Exportiere %1 Dateien"
 #: ../src/ui/dialog/export.cpp:1064 ../src/ui/dialog/export.cpp:1066
 #, c-format
 msgid "Exporting file <b>%s</b>..."
-msgstr "Exportiere Dateie <b>%s</b>..."
+msgstr "Exportiere Datei <b>%s</b>..."
 
 #: ../src/ui/dialog/export.cpp:1075 ../src/ui/dialog/export.cpp:1166
 #, c-format
@@ -39360,7 +39360,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Aktive Sitzungsdatei:"
 
 #~ msgid "Delay (milliseconds):"
-#~ msgstr "Verzögerungn (Millisekunden):"
+#~ msgstr "Verzögerung (Millisekunden):"
 
 #~ msgid "Close file"
 #~ msgstr "Datei schließen"
