@@ -17367,8 +17367,7 @@ msgid ""
 "Treat groups as a single object during conversion to guides rather than "
 "converting each child separately"
 msgstr ""
-"Gruppen werden als Ganzes (statt der Einzelteile) zu Hilfslinien "
-"umgewandelt."
+"Gruppen werden als Ganzes (statt der Einzelteile) zu Hilfslinien umgewandelt."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:319
 msgid "Average all sketches"
@@ -29189,8 +29188,8 @@ msgstr "Andere"
 #: ../src/widgets/toolbox.cpp:1781
 msgid "Snap other points (centers, guide origins, gradient handles, etc.)"
 msgstr ""
-"Andere Punkte einrasten (Mittelpunkte, Ursprünge von Hilfslinien, "
-"Anfasser von Farbverläufen, usw.)"
+"Andere Punkte einrasten (Mittelpunkte, Ursprünge von Hilfslinien, Anfasser "
+"von Farbverläufen, usw.)"
 
 #: ../src/widgets/toolbox.cpp:1789
 msgid "Object Centers"
@@ -38123,8 +38122,8 @@ msgstr "XAML einlesen"
 #~ "('Snap to nodes' or 'snap to bounding box corners' must be enabled; only "
 #~ "a small part of the guide near the cursor will snap)"
 #~ msgstr ""
-#~ "Während des Ziehens einer Hilfslinie rastet diese an Objekt-Knoten "
-#~ "oder Ecken von Umrandungskästen ein (\"An Knoten einrasten\" oder \"An "
+#~ "Während des Ziehens einer Hilfslinie rastet diese an Objekt-Knoten oder "
+#~ "Ecken von Umrandungskästen ein (\"An Knoten einrasten\" oder \"An "
 #~ "Umrandungsecken einrasten\" muss aktiviert sein; nur ein kleiner Teil um "
 #~ "den Mauszeiger wird einrasten)"
 
