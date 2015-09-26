@@ -13434,11 +13434,11 @@ msgstr "Positionen zufällig machen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:801
 msgid "Distribute text baselines"
-msgstr "Textgrundlinien verteilen"
+msgstr "Grundlinien der Textelemente verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:824
 msgid "Align text baselines"
-msgstr "Grundlinien von Text ausrichten"
+msgstr "Grundlinien der Textelemente ausrichten"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:854
 msgid "Rearrange"
@@ -13496,7 +13496,7 @@ msgstr "Oberkanten ausrichten"
 #: ../src/ui/dialog/align-and-distribute.cpp:898 ../src/verbs.cpp:2951
 #: ../src/verbs.cpp:2952
 msgid "Center on horizontal axis"
-msgstr "Zentren horizontal ausrichten"
+msgstr "Horizontal zentrieren"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:901 ../src/verbs.cpp:2953
 #: ../src/verbs.cpp:2954
@@ -13510,7 +13510,7 @@ msgstr "Objektoberkanten an Unterkante der Verankerung ausrichten"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:909
 msgid "Align baseline anchors of texts horizontally"
-msgstr "Grundlinien der Textelemente horizontal ausrichten"
+msgstr "Textanker horizontal ausrichten"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:912
 msgid "Align baselines of texts"
@@ -13518,43 +13518,43 @@ msgstr "Grundlinien der Textelemente ausrichten"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:917
 msgid "Make horizontal gaps between objects equal"
-msgstr "Horizontale Abstände zwischen Objekten ausgleichen"
+msgstr "Horizontale Abstände zwischen Objekten angleichen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:921
 msgid "Distribute left edges equidistantly"
-msgstr "Linke Objektkanten gleichmäßig anordnen"
+msgstr "Linke Kanten gleichmäßig verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:924
 msgid "Distribute centers equidistantly horizontally"
-msgstr "Objektmittelpunkten horizontal gleichmäßig anordnen"
+msgstr "Objektmittelpunkte horizontal gleichmäßig verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:927
 msgid "Distribute right edges equidistantly"
-msgstr "Rechte Objektkanten gleichmäßig anordnen"
+msgstr "Rechte Kanten gleichmäßig verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:931
 msgid "Make vertical gaps between objects equal"
-msgstr "Vertikale Abstände zwischen Objekten ausgleichen"
+msgstr "Vertikale Abstände zwischen Objekten angleichen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:935
 msgid "Distribute top edges equidistantly"
-msgstr "Oberkanten der Objekte gleichmäßig anordnen"
+msgstr "Oberkanten gleichmäßig verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:938
 msgid "Distribute centers equidistantly vertically"
-msgstr "Objektmittelpunkten vertikal gleichmäßig anordnen"
+msgstr "Objektmittelpunkte vertikal gleichmäßig verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:941
 msgid "Distribute bottom edges equidistantly"
-msgstr "Unterkanten gleichmäßig anordnen"
+msgstr "Unterkanten gleichmäßig verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:946
 msgid "Distribute baseline anchors of texts horizontally"
-msgstr "Grundlinien von Textelementen horizontal verteilen"
+msgstr "Textanker horizontal gleichmäßig verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:949
 msgid "Distribute baselines of texts vertically"
-msgstr "Grundlinien von Textelementen vertikal verteilen"
+msgstr "Grundlinien der Textelemente vertikal gleichmäßig verteilen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:955
 #: ../src/widgets/connector-toolbar.cpp:373
@@ -17116,7 +17116,8 @@ msgstr "Gleiche Höhe"
 #: ../src/ui/dialog/grid-arrange-tab.cpp:661
 msgid "If not set, each row has the height of the tallest object in it"
 msgstr ""
-"Wenn nicht gesetzt, dann hat jede Zeile die Höhe seines größten Objektes"
+"Wenn nicht gesetzt, dann hat jede Zeile die Höhe des größten enthaltenen "
+"Objektes"
 
 #. #### Number of columns ####
 #: ../src/ui/dialog/grid-arrange-tab.cpp:677
@@ -17134,7 +17135,7 @@ msgstr "Gleiche Breite"
 #: ../src/ui/dialog/grid-arrange-tab.cpp:700
 msgid "If not set, each column has the width of the widest object in it"
 msgstr ""
-"Wenn nicht gesetzt, dann hat jede Spalte die Breite seines breitesten "
+"Wenn nicht gesetzt, dann hat jede Spalte die Breite des größten enthaltenen "
 "Objektes"
 
 #. Anchor selection widget
@@ -20452,7 +20453,7 @@ msgstr "Log-Erfassung gestoppt."
 
 #: ../src/ui/dialog/new-from-template.cpp:24
 msgid "Create from template"
-msgstr "Erstellen von Vorlage"
+msgstr "Aus Vorlage erstellen"
 
 #: ../src/ui/dialog/new-from-template.cpp:26
 msgid "New From Template"
@@ -30796,7 +30797,7 @@ msgstr "RGB-Tonne"
 
 #: ../share/extensions/convert2dashes.inx.h:1
 msgid "Convert to Dashes"
-msgstr "Umwandeln in Blindenschrift"
+msgstr "Muster in einzelne Pfadabschnitte aufteilen"
 
 #: ../share/extensions/dhw_input.inx.h:1
 msgid "DHW file input"
@@ -33212,7 +33213,7 @@ msgstr "Kommandozeilen-Optionen"
 #. i18n. Please don't translate it unless a page exists in your language
 #: ../share/extensions/inkscape_help_commandline.inx.h:3
 msgid "http://inkscape.org/doc/inkscape-man.html"
-msgstr "http://inkscape.org/doc/inkscape-man.html"
+msgstr "http://inkscape.org/doc/inkscape-man.de.html"
 
 #: ../share/extensions/inkscape_help_faq.inx.h:1
 msgid "FAQ"
@@ -33231,7 +33232,7 @@ msgstr "Referenz der Tasten- und Maus-Befehle"
 #. i18n. Please don't translate it unless a page exists in your language
 #: ../share/extensions/inkscape_help_keys.inx.h:3
 msgid "http://inkscape.org/doc/keys091.html"
-msgstr "http://inkscape.org/doc/keys091.html"
+msgstr "http://inkscape.org/doc/keys091.de.html"
 
 #: ../share/extensions/inkscape_help_manual.inx.h:1
 msgid "Inkscape Manual"
