@@ -36950,7 +36950,7 @@ msgstr "Windows32-Vektor-Druck"
 
 #: ../share/extensions/printing_marks.inx.h:1
 msgid "Printing Marks"
-msgstr "Druck-Markierungen"
+msgstr "Druckmarken"
 
 #: ../share/extensions/printing_marks.inx.h:3
 msgid "Crop Marks"
@@ -36958,7 +36958,7 @@ msgstr "Schnittmarken"
 
 #: ../share/extensions/printing_marks.inx.h:4
 msgid "Bleed Marks"
-msgstr "blutende Markierungen"
+msgstr "Beschnittzugabemarken"
 
 #: ../share/extensions/printing_marks.inx.h:5
 msgid "Registration Marks"
@@ -36966,15 +36966,15 @@ msgstr "Registrierungsmarken"
 
 #: ../share/extensions/printing_marks.inx.h:6
 msgid "Star Target"
-msgstr "Sternenziel"
+msgstr "Siemensstern"
 
 #: ../share/extensions/printing_marks.inx.h:7
 msgid "Color Bars"
-msgstr "Farbleisten"
+msgstr "Farbkontrollstreifen"
 
 #: ../share/extensions/printing_marks.inx.h:8
 msgid "Page Information"
-msgstr "Seiten-Information"
+msgstr "Seiteninformation"
 
 #: ../share/extensions/printing_marks.inx.h:9
 msgid "Positioning"
@@ -36982,7 +36982,7 @@ msgstr "Positionierung"
 
 #: ../share/extensions/printing_marks.inx.h:10
 msgid "Set crop marks to:"
-msgstr "Setze Schnittmarkierung auf"
+msgstr "Setze Schnittmarken für"
 
 #: ../share/extensions/printing_marks.inx.h:17
 msgid "Canvas"
@@ -36990,7 +36990,7 @@ msgstr "Arbeitsfläche"
 
 #: ../share/extensions/printing_marks.inx.h:19
 msgid "Bleed Margin"
-msgstr "Beschnittgrenze"
+msgstr "Beschnittzugabe"
 
 #: ../share/extensions/ps_input.inx.h:1
 msgid "PostScript Input"
