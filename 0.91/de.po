@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
-"PO-Revision-Date: 2015-04-21 02:20+0200\n"
-"Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
+"PO-Revision-Date: 2015-09-27 18:59+0100\n"
+"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Language: de_DE\n"
 "X-Source-Language: C\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -274,7 +275,7 @@ msgstr "Kanten und Grenzen schärfen, Stärke = 0,15"
 
 #: ../share/filters/filters.svg.h:70
 msgid "Sharpen More"
-msgstr "Stärker Schärfen"
+msgstr "Stärker schärfen"
 
 #: ../share/filters/filters.svg.h:72
 msgid "Sharpen edges and boundaries within the object, force=0.3"
@@ -328,7 +329,7 @@ msgstr "Farbkanten im Objekt erkennen und in Blau nachzeichnen"
 
 #: ../share/filters/filters.svg.h:86
 msgid "Age"
-msgstr "Alter"
+msgstr "Altern"
 
 #: ../share/filters/filters.svg.h:88
 msgid "Imitate aged photograph"
@@ -432,7 +433,7 @@ msgstr "Zerbrochenes Glas"
 
 #: ../share/filters/filters.svg.h:128
 msgid "Under a cracked glass"
-msgstr "Unter einem zerbrochenen Glas"
+msgstr "Unter gesplittertem Glas"
 
 #: ../share/filters/filters.svg.h:130
 msgid "Bubbly Bumps"
@@ -723,11 +724,11 @@ msgstr "Feine Goldpartikel in fetter Grundlage, mit Glanzlichtern"
 
 #: ../share/filters/filters.svg.h:250
 msgid "Crumpled Plastic"
-msgstr "Gebröckelte Plastik"
+msgstr "Zerknitterter Kunststoff"
 
 #: ../share/filters/filters.svg.h:252
 msgid "Crumpled matte plastic, with melted edge"
-msgstr "Gebröckelte matte Plastik mit geschmolzenen Ecken"
+msgstr "Zerknitterter, matter Kunststoff mit angeschmolzenen Ecken"
 
 #: ../share/filters/filters.svg.h:254
 msgid "Enamel Jewelry"
@@ -895,7 +896,7 @@ msgstr "Geringe Turbulenz ergibt Schwammeffekt, starke Turbulenz Kreide"
 
 #: ../share/filters/filters.svg.h:330
 msgid "People"
-msgstr "Leute"
+msgstr "Menschen"
 
 #: ../share/filters/filters.svg.h:332
 msgid "Colorized blotches, like a crowd of people"
@@ -1018,7 +1019,7 @@ msgstr "Wellenförmig verzerrtes Schottenkaro mit abgeschrägten Kanten"
 
 #: ../share/filters/filters.svg.h:394
 msgid "3D Marble"
-msgstr "3D Marmor"
+msgstr "3D-Marmor"
 
 #: ../share/filters/filters.svg.h:396
 msgid "3D warped marble texture"
@@ -1026,7 +1027,7 @@ msgstr "Dreidimensional verkrümmte Marmortextur"
 
 #: ../share/filters/filters.svg.h:398
 msgid "3D Wood"
-msgstr "3D Holz"
+msgstr "3D-Holz"
 
 #: ../share/filters/filters.svg.h:400
 msgid "3D warped, fibered wood texture"
@@ -1034,7 +1035,7 @@ msgstr "Dreidimensional verkrümmte, faserige Holztextur"
 
 #: ../share/filters/filters.svg.h:402
 msgid "3D Mother of Pearl"
-msgstr "3D Perlmutt"
+msgstr "3D-Perlmutt"
 
 #: ../share/filters/filters.svg.h:404
 msgid "3D warped, iridescent pearly shell texture"
@@ -1250,7 +1251,7 @@ msgstr "Verknitterte, eingefallene Ballonhaut mit Löchern"
 
 #: ../share/filters/filters.svg.h:470
 msgid "Embossed Leather"
-msgstr "geprägtes Leder"
+msgstr "Geprägtes Leder"
 
 #: ../share/filters/filters.svg.h:472
 msgid ""
@@ -1649,7 +1650,7 @@ msgstr "abflachende Transparenz"
 
 #: ../share/filters/filters.svg.h:652
 msgid "Adds a white opaque background"
-msgstr "Fügt einen weißen,trüben Hintergrund hinzu"
+msgstr "Fügt einen weißen, deckenden Hintergrund hinzu"
 
 #: ../share/filters/filters.svg.h:654
 msgid "Blur Double"
@@ -1698,7 +1699,7 @@ msgstr "Fügt kleinteilige Körnung hinzu"
 
 #: ../share/filters/filters.svg.h:674
 msgid "Poster Color Fun"
-msgstr "Poster Farbspaß"
+msgstr "Poster-Farbspaß"
 
 #: ../share/filters/filters.svg.h:678
 msgid "Poster Rough"
@@ -1916,7 +1917,7 @@ msgstr "Gefrorenes Glas"
 
 #: ../share/filters/filters.svg.h:796
 msgid "Satiny glass effect"
-msgstr "Satin Glaseffekt"
+msgstr "Satiniertes-Glas-Effekt"
 
 #: ../share/filters/filters.svg.h:798
 msgid "Bump Engraving"
@@ -2939,7 +2940,7 @@ msgstr "Pflaume (#DDA0DD)"
 #: ../share/palettes/palettes.h:153
 msgctxt "Palette"
 msgid "violet (#EE82EE)"
-msgstr "Violetl (#EE82EE)"
+msgstr "Violett (#EE82EE)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:154
@@ -4439,19 +4440,19 @@ msgstr "Visitenkarte 85x54mm"
 
 #: ../share/templates/templates.h:1
 msgid "Empty business card template."
-msgstr "Leere Geschäftskartenvorlage."
+msgstr "Leere Visitenkartenvorlage."
 
 #: ../share/templates/templates.h:1
 msgid "business card empty 85x54"
-msgstr "Geschäftskarte leer 85x54"
+msgstr "Visitenkarte leer 85x54"
 
 #: ../share/templates/templates.h:1
 msgid "Business Card 90x50mm"
-msgstr "Geschäftskarte 90x50mm"
+msgstr "Visitenkarte 90x50mm"
 
 #: ../share/templates/templates.h:1
 msgid "business card empty 90x50"
-msgstr "Geschäftskarte leer 90x50"
+msgstr "Visitenkarte leer 90x50"
 
 #: ../share/templates/templates.h:1
 msgid "CD Cover 300dpi"
@@ -5115,7 +5116,7 @@ msgstr "Mitte der Umrandungslinie"
 
 #: ../src/display/snap-indicator.cpp:196 ../src/ui/tool/node.cpp:1319
 msgid "Smooth node"
-msgstr "glatter Knoten"
+msgstr "Glatter Knoten"
 
 #: ../src/display/snap-indicator.cpp:199 ../src/ui/tool/node.cpp:1318
 msgid "Cusp node"
@@ -5163,7 +5164,7 @@ msgstr "Ecken"
 
 #: ../src/display/snap-indicator.cpp:234
 msgid "Text anchor"
-msgstr "Text-anker"
+msgstr "Textanker"
 
 #: ../src/display/snap-indicator.cpp:237
 msgid "Multiple of grid spacing"
@@ -5340,8 +5341,8 @@ msgid ""
 "this extension."
 msgstr ""
 "Für diese Erweiterung ist zur Zeit keine Hilfe verfügbar. Besuchen Sie die "
-"Inkscape Webseite oder wenden Sie sich an die Mailing List wenn Sie Fragen "
-"bezüglich dieser Erweiterung haben."
+"Inkscape-Webseite oder wenden Sie sich an die Mailingliste, wenn Sie Fragen "
+"zu dieser Erweiterung haben."
 
 #: ../src/extension/implementation/script.cpp:1057
 msgid ""
@@ -5520,7 +5521,7 @@ msgstr "Sigma"
 
 #: ../src/extension/internal/bitmap/blur.cpp:47
 msgid "Blur selected bitmap(s)"
-msgstr "Gewählte(s) Bitmap(s) verunschärfen"
+msgstr "Gewählte(s) Bitmap(s) unscharf machen"
 
 #: ../src/extension/internal/bitmap/channel.cpp:48
 msgid "Channel"
@@ -5621,7 +5622,7 @@ msgstr "Oben (px):"
 
 #: ../src/extension/internal/bitmap/crop.cpp:69
 msgid "Bottom (px):"
-msgstr "Unten (PX):"
+msgstr "Unten (px):"
 
 #: ../src/extension/internal/bitmap/crop.cpp:70
 msgid "Left (px):"
@@ -5633,7 +5634,7 @@ msgstr "Rechts (px):"
 
 #: ../src/extension/internal/bitmap/crop.cpp:77
 msgid "Crop selected bitmap(s)"
-msgstr "Gewählte(s) Rastergrafik(en) beschneiden"
+msgstr "Gewählte Rastergrafik(en) beschneiden"
 
 #: ../src/extension/internal/bitmap/cycleColormap.cpp:37
 msgid "Cycle Colormap"
@@ -5644,7 +5645,7 @@ msgstr "Rotiere Farbpalette"
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:45
 #: ../src/widgets/spray-toolbar.cpp:208
 msgid "Amount:"
-msgstr "Menge"
+msgstr "Menge:"
 
 #: ../src/extension/internal/bitmap/cycleColormap.cpp:45
 msgid "Cycle colormap(s) of selected bitmap(s)"
@@ -5664,17 +5665,17 @@ msgstr "Kante"
 
 #: ../src/extension/internal/bitmap/edge.cpp:45
 msgid "Highlight edges of selected bitmap(s)"
-msgstr "Betone Kanten der ausgewählten Bilder."
+msgstr "Betont Kanten der ausgewählten Bilder"
 
 #: ../src/extension/internal/bitmap/emboss.cpp:38
 msgid "Emboss"
-msgstr "Kanten hervorheben"
+msgstr "Prägen"
 
 #: ../src/extension/internal/bitmap/emboss.cpp:47
 msgid "Emboss selected bitmap(s); highlight edges with 3D effect"
 msgstr ""
-"Kanten in Ausgewählten Bitmaps herausheben -- Hebt Kanten mit einem 3D-"
-"Effekt hervor."
+"Prägeeffekt für ausgewählte Rastergrafiken, hebt Kanten mit einem 3D-Effekt "
+"hervor."
 
 #: ../src/extension/internal/bitmap/enhance.cpp:35
 msgid "Enhance"
@@ -5682,7 +5683,7 @@ msgstr "Entrauschen"
 
 #: ../src/extension/internal/bitmap/enhance.cpp:42
 msgid "Enhance selected bitmap(s); minimize noise"
-msgstr "Verbessert ausgewählte Bitmap(s) -- minimiert Rauschen."
+msgstr "Verbessert ausgewählte Bitmap(s), minimiert Rauschen."
 
 #: ../src/extension/internal/bitmap/equalize.cpp:35
 msgid "Equalize"
@@ -5690,7 +5691,7 @@ msgstr "Ausgleichen"
 
 #: ../src/extension/internal/bitmap/equalize.cpp:42
 msgid "Equalize selected bitmap(s); histogram equalization"
-msgstr "Gleicht ausgewählte Bitmap(s) aus -- Ausgleich anhand des Histogramms."
+msgstr "Gleicht ausgewählte Bitmap(s) aus, Ausgleich anhand des Histogramms."
 
 #: ../src/extension/internal/bitmap/gaussianBlur.cpp:38
 #: ../src/filter-enums.cpp:28
@@ -5701,7 +5702,7 @@ msgstr "Gaußscher Weichzeichner"
 #: ../src/extension/internal/bitmap/implode.cpp:39
 #: ../src/extension/internal/bitmap/solarize.cpp:41
 msgid "Factor:"
-msgstr "Faktor"
+msgstr "Faktor:"
 
 #: ../src/extension/internal/bitmap/gaussianBlur.cpp:47
 msgid "Gaussian blur selected bitmap(s)"
@@ -5726,29 +5727,29 @@ msgstr "Ebene"
 #: ../src/extension/internal/bitmap/level.cpp:43
 #: ../src/extension/internal/bitmap/levelChannel.cpp:65
 msgid "Black Point:"
-msgstr "Schwarzpunkt"
+msgstr "Schwarzpunkt:"
 
 #: ../src/extension/internal/bitmap/level.cpp:44
 #: ../src/extension/internal/bitmap/levelChannel.cpp:66
 msgid "White Point:"
-msgstr "Weißpunkt"
+msgstr "Weißpunkt:"
 
 #: ../src/extension/internal/bitmap/level.cpp:45
 #: ../src/extension/internal/bitmap/levelChannel.cpp:67
 msgid "Gamma Correction:"
-msgstr "Gammakorrektur"
+msgstr "Gammakorrektur:"
 
 #: ../src/extension/internal/bitmap/level.cpp:51
 msgid ""
 "Level selected bitmap(s) by scaling values falling between the given ranges "
 "to the full color range"
 msgstr ""
-"Ausgewählte Bitmap(s) angleichen, in dem Werte im angegebenen Bereich auf "
-"die volle Farbskala abgebildet werden"
+"Ausgewählte Bitmap(s) angleichen, indem Werte im angegebenen Bereich auf die "
+"volle Farbskala abgebildet werden"
 
 #: ../src/extension/internal/bitmap/levelChannel.cpp:52
 msgid "Level (with Channel)"
-msgstr "Ebene (mit Kanal)"
+msgstr "Angleichen (mit Kanal)"
 
 #: ../src/extension/internal/bitmap/levelChannel.cpp:54
 #: ../src/extension/internal/filter/color.h:636
@@ -5784,11 +5785,11 @@ msgstr "Farbton"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:43
 msgid "Saturation:"
-msgstr "Sättigung"
+msgstr "Sättigung:"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:44
 msgid "Brightness:"
-msgstr "Glanz:"
+msgstr "Helligkeit:"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:50
 msgid ""
@@ -5801,7 +5802,7 @@ msgstr "Negativ"
 
 #: ../src/extension/internal/bitmap/negate.cpp:43
 msgid "Negate (take inverse) selected bitmap(s)"
-msgstr "Gewählte Bitmaps invertieren."
+msgstr "Gewählte(s) Bitmap(s) invertieren"
 
 #: ../src/extension/internal/bitmap/normalize.cpp:36
 msgid "Normalize"
@@ -5891,11 +5892,11 @@ msgstr "Schattieren"
 
 #: ../src/extension/internal/bitmap/shade.cpp:42
 msgid "Azimuth:"
-msgstr "Azimut"
+msgstr "Azimut:"
 
 #: ../src/extension/internal/bitmap/shade.cpp:43
 msgid "Elevation:"
-msgstr "Anhebung"
+msgstr "Anhebung:"
 
 #: ../src/extension/internal/bitmap/shade.cpp:44
 msgid "Colored Shading"
@@ -5933,7 +5934,7 @@ msgstr ""
 
 #: ../src/extension/internal/bitmap/swirl.cpp:39
 msgid "Degrees:"
-msgstr "Grad"
+msgstr "Grad:"
 
 #: ../src/extension/internal/bitmap/swirl.cpp:45
 msgid "Swirl selected bitmap(s) around center point"
@@ -5956,11 +5957,11 @@ msgstr "Schwellwert ausgewählter Bitmap(s)"
 
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:41
 msgid "Unsharp Mask"
-msgstr "Unscharfe Maske"
+msgstr "Unschärfemaske"
 
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:52
 msgid "Sharpen selected bitmap(s) using unsharp mask algorithms"
-msgstr "Ausgewählte Bitmaps mittels Unscharfe-Maske-Algorithmen schärfen"
+msgstr "Ausgewählte Bitmaps mittels Unschärfemaske-Algorithmen schärfen"
 
 #: ../src/extension/internal/bitmap/wave.cpp:38
 msgid "Wave"
@@ -6007,7 +6008,7 @@ msgstr "Aus Pfad erzeugen"
 #: ../src/extension/internal/cairo-ps-out.cpp:327
 #: ../share/extensions/ps_input.inx.h:3
 msgid "PostScript"
-msgstr "Postscript"
+msgstr "PostScript"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:329
 #: ../src/extension/internal/cairo-ps-out.cpp:368
@@ -6494,7 +6495,7 @@ msgstr "Multiplizieren"
 #: ../src/extension/internal/filter/transparency.h:64
 #: ../src/filter-enums.cpp:55
 msgid "Lighten"
-msgstr "Erhellen"
+msgstr "Aufhellen"
 
 #: ../src/extension/internal/filter/blurs.h:204
 msgid "Combine vertical and horizontal blur"
@@ -6891,7 +6892,7 @@ msgstr "Verschiebung (°)"
 
 #: ../src/extension/internal/filter/color.h:265
 msgid "Rotate and desaturate hue"
-msgstr "Farbton rotieren nud entsättigen"
+msgstr "Farbton rotieren und entsättigen"
 
 #: ../src/extension/internal/filter/color.h:321
 msgid "Harsh light"
@@ -7362,7 +7363,7 @@ msgstr "Vertikale Frequenz"
 #: ../src/extension/internal/filter/paint.h:95
 #: ../src/extension/internal/filter/paint.h:697
 msgid "Complexity"
-msgstr "Kompexität"
+msgstr "Komplexität"
 
 #: ../src/extension/internal/filter/distort.h:90
 #: ../src/extension/internal/filter/distort.h:199
@@ -7419,7 +7420,7 @@ msgstr "Erkennen:"
 #: ../src/ui/dialog/template-load-tab.cpp:105
 #: ../src/ui/dialog/template-load-tab.cpp:142
 msgid "All"
-msgstr "alles"
+msgstr "Alles"
 
 #: ../src/extension/internal/filter/image.h:53
 msgid "Vertical lines"
@@ -7549,11 +7550,11 @@ msgstr "Glätten"
 
 #: ../src/extension/internal/filter/morphology.h:195
 msgid "Fill opacity:"
-msgstr "Deckkraft:"
+msgstr "Deckkraft der Füllung:"
 
 #: ../src/extension/internal/filter/morphology.h:196
 msgid "Stroke opacity:"
-msgstr "Strich-Deckkraft:"
+msgstr "Deckkraft der Kontur:"
 
 #: ../src/extension/internal/filter/morphology.h:206
 msgid "Adds a colorizable outline"
@@ -7604,7 +7605,7 @@ msgstr "Vertikale Frequenz:"
 #: ../src/extension/internal/filter/overlays.h:66
 #: ../src/extension/internal/filter/textures.h:69
 msgid "Complexity:"
-msgstr "Kompexität:"
+msgstr "Komplexität:"
 
 #: ../src/extension/internal/filter/overlays.h:67
 #: ../src/extension/internal/filter/textures.h:70
@@ -10927,7 +10928,7 @@ msgstr ""
 #. FIXME: a path is used here instead of 2 points to work around path/point param incompatibility bug.
 #: ../src/live_effects/lpe-vonkoch.cpp:55
 msgid "_Max complexity:"
-msgstr "_Maximale Kompexität:"
+msgstr "_Maximale Komplexität:"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:55
 msgid "Disable effect if the output is too complex"
@@ -34660,7 +34661,7 @@ msgstr "Speichern einer Datei für Plotter"
 
 #: ../share/extensions/polyhedron_3d.inx.h:1
 msgid "3D Polyhedron"
-msgstr "3D Polyhedron"
+msgstr "3D-Polyhedron"
 
 #: ../share/extensions/polyhedron_3d.inx.h:2
 msgid "Model file"
@@ -34804,12 +34805,12 @@ msgstr "Füllfarbe (Blauwert)"
 #: ../share/extensions/polyhedron_3d.inx.h:39
 #, no-c-format
 msgid "Fill opacity (%):"
-msgstr "Deckkraft, %"
+msgstr "Deckkraft der Füllung, %"
 
 #: ../share/extensions/polyhedron_3d.inx.h:41
 #, no-c-format
 msgid "Stroke opacity (%):"
-msgstr "Strich-Deckkraft (%):"
+msgstr "Deckkraft der Kontur (%):"
 
 #: ../share/extensions/polyhedron_3d.inx.h:42
 msgid "Stroke width (px):"
