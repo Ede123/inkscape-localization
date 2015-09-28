@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-22 10:09+0200\n"
-"PO-Revision-Date: 2015-09-27 18:53+0100\n"
+"PO-Revision-Date: 2015-09-28 02:13+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -34,7 +34,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Language: de_DE\n"
 "X-Source-Language: C\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -4120,7 +4120,7 @@ msgstr "Amphitheater"
 #: ../share/symbols/symbols.h:193 ../share/symbols/symbols.h:194
 msgctxt "Symbol"
 msgid "Bicycle Trail"
-msgstr "Bike Trail"
+msgstr "Fahrradstrecke"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
@@ -8099,12 +8099,12 @@ msgstr "PDF-Importeinstellungen"
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:437
 msgctxt "PDF input precision"
 msgid "rough"
-msgstr "rau"
+msgstr "grob"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:438
 msgctxt "PDF input precision"
 msgid "medium"
-msgstr "Mittel"
+msgstr "mittel"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:439
 msgctxt "PDF input precision"
@@ -9609,11 +9609,11 @@ msgstr "Pfad von dem die Orginal-Pfaddaten genommen werden"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:25
 msgid "Visual Bounds"
-msgstr "Sichtbarer Rahmen"
+msgstr "Visueller Rahmen"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:25
 msgid "Uses the visual bounding box"
-msgstr "Benutzt die sichtbare Umrandung"
+msgstr "Verwendet den visuellen Rahmen"
 
 #: ../src/live_effects/lpe-bspline.cpp:30
 msgid "Steps with CTRL:"
@@ -9621,7 +9621,7 @@ msgstr "Schritte mit STRG:"
 
 #: ../src/live_effects/lpe-bspline.cpp:30
 msgid "Change number of steps with CTRL pressed"
-msgstr "Ändere ANzahl der Schritte mit STRG gedrückt"
+msgstr "Ändere Anzahl der Schritte mit STRG gedrückt"
 
 #: ../src/live_effects/lpe-bspline.cpp:31
 #: ../src/live_effects/lpe-simplify.cpp:33
@@ -9725,8 +9725,9 @@ msgid ""
 "& outside the guide path"
 msgstr ""
 "Mittlere Größe der Abstände, um die die Startpunkte der Kopien inner- und "
-"ausserhalb des Pfades versetzt werden."
+"außerhalb des Pfades versetzt werden."
 
+# Falschrum? Ausprobieren... Abweichung der Start-Abstände vielleicht?
 #: ../src/live_effects/lpe-curvestitch.cpp:44
 msgid "Sta_rt spacing variance:"
 msgstr "Start der Abstands-Abweichung"
@@ -9739,6 +9740,7 @@ msgstr ""
 "Mittlere Größe der Abstände, um die die Startpunkte der Kopien entlang des "
 "Führungspfades versetzt werden."
 
+# Falschrum? Ausprobieren... Abweichung der End-Kante vielleicht?
 #: ../src/live_effects/lpe-curvestitch.cpp:45
 msgid "End ed_ge variance:"
 msgstr "Ende der Kanten Abweichung"
@@ -9751,6 +9753,7 @@ msgstr ""
 "Mittlere Größe der Abstände, um die die Endpunkte der Kopien inner- und "
 "außerhalb des Führungspfades versetzt werden."
 
+# Falschrum? Ausprobieren... Abweichung der End-Abstände vielleicht?
 #: ../src/live_effects/lpe-curvestitch.cpp:46
 msgid "End spa_cing variance:"
 msgstr "Ende der Abstands-Abweichung"
@@ -10219,6 +10222,8 @@ msgstr "Anfasser 0:"
 #: ../src/live_effects/lpe-lattice2.cpp:49
 msgid "Control 0 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 0 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:50
 msgid "Control 1:"
@@ -10227,6 +10232,8 @@ msgstr "Anfasser 1:"
 #: ../src/live_effects/lpe-lattice2.cpp:50
 msgid "Control 1 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 1 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:51
 msgid "Control 2:"
@@ -10235,6 +10242,8 @@ msgstr "Anfasser 2:"
 #: ../src/live_effects/lpe-lattice2.cpp:51
 msgid "Control 2 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 2 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:52
 msgid "Control 3:"
@@ -10243,6 +10252,8 @@ msgstr "Anfasser 3:"
 #: ../src/live_effects/lpe-lattice2.cpp:52
 msgid "Control 3 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 3 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:53
 msgid "Control 4:"
@@ -10251,6 +10262,8 @@ msgstr "Anfasser 4:"
 #: ../src/live_effects/lpe-lattice2.cpp:53
 msgid "Control 4 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 4 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:54
 msgid "Control 5:"
@@ -10259,6 +10272,8 @@ msgstr "Anfasser 5:"
 #: ../src/live_effects/lpe-lattice2.cpp:54
 msgid "Control 5 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 5 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:55
 msgid "Control 6:"
@@ -10267,6 +10282,8 @@ msgstr "Anfasser 6:"
 #: ../src/live_effects/lpe-lattice2.cpp:55
 msgid "Control 6 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 6 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:56
 msgid "Control 7:"
@@ -10275,6 +10292,8 @@ msgstr "Anfasser 7:"
 #: ../src/live_effects/lpe-lattice2.cpp:56
 msgid "Control 7 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 7 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:57
 msgid "Control 8x9:"
@@ -10284,6 +10303,8 @@ msgstr "Anfasser 8x9:"
 msgid ""
 "Control 8x9 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 8x9 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:58
 msgid "Control 10x11:"
@@ -10293,6 +10314,8 @@ msgstr "Anfasser 10x11:"
 msgid ""
 "Control 10x11 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 10x11 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur "
+"entlang Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:59
 msgid "Control 12:"
@@ -10301,6 +10324,8 @@ msgstr "Anfasser 12:"
 #: ../src/live_effects/lpe-lattice2.cpp:59
 msgid "Control 12 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 12 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:60
 msgid "Control 13:"
@@ -10309,6 +10334,8 @@ msgstr "Anfasser 13:"
 #: ../src/live_effects/lpe-lattice2.cpp:60
 msgid "Control 13 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 13 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:61
 msgid "Control 14:"
@@ -10317,6 +10344,8 @@ msgstr "Anfasser 14:"
 #: ../src/live_effects/lpe-lattice2.cpp:61
 msgid "Control 14 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 14 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:62
 msgid "Control 15:"
@@ -10325,6 +10354,8 @@ msgstr "Anfasser 15:"
 #: ../src/live_effects/lpe-lattice2.cpp:62
 msgid "Control 15 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 15 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:63
 msgid "Control 16:"
@@ -10333,6 +10364,8 @@ msgstr "Anfasser 16:"
 #: ../src/live_effects/lpe-lattice2.cpp:63
 msgid "Control 16 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 16 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:64
 msgid "Control 17:"
@@ -10341,6 +10374,8 @@ msgstr "Anfasser 17:"
 #: ../src/live_effects/lpe-lattice2.cpp:64
 msgid "Control 17 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 17 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:65
 msgid "Control 18:"
@@ -10349,6 +10384,8 @@ msgstr "Anfasser 18:"
 #: ../src/live_effects/lpe-lattice2.cpp:65
 msgid "Control 18 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 18 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:66
 msgid "Control 19:"
@@ -10357,6 +10394,8 @@ msgstr "Anfasser 19:"
 #: ../src/live_effects/lpe-lattice2.cpp:66
 msgid "Control 19 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 19 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:67
 msgid "Control 20x21:"
@@ -10366,6 +10405,8 @@ msgstr "Anfasser 20x21:"
 msgid ""
 "Control 20x21 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 20x21 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur "
+"entlang Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:68
 msgid "Control 22x23:"
@@ -10375,6 +10416,8 @@ msgstr "Anfasser 22x23:"
 msgid ""
 "Control 22x23 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 22x23 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur "
+"entlang Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:69
 msgid "Control 24x26:"
@@ -10384,6 +10427,8 @@ msgstr "Anfasser 24x26:"
 msgid ""
 "Control 24x26 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 24x26 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur "
+"entlang Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:70
 msgid "Control 25x27:"
@@ -10393,6 +10438,8 @@ msgstr "Anfasser 25x27:"
 msgid ""
 "Control 25x27 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 25x27 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur "
+"entlang Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:71
 msgid "Control 28x30:"
@@ -10402,6 +10449,8 @@ msgstr "Anfasser 28x30:"
 msgid ""
 "Control 28x30 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 28x30 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur "
+"entlang Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:72
 msgid "Control 29x31:"
@@ -10411,6 +10460,8 @@ msgstr "Anfasser 29x31:"
 msgid ""
 "Control 29x31 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Anfasser 29x31 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur "
+"entlang Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:73
 msgid "Control 32x33x34x35:"
@@ -10421,6 +10472,8 @@ msgid ""
 "Control 32x33x34x35 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along "
 "axes"
 msgstr ""
+"Anfasser 32x33x34x35 - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur "
+"entlang Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-lattice2.cpp:236
 msgid "Reset grid"
@@ -10558,6 +10611,8 @@ msgstr "Oben Links"
 #: ../src/live_effects/lpe-perspective-envelope.cpp:46
 msgid "Top Left - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Links oben - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:47
 msgid "Top Right"
@@ -10566,6 +10621,8 @@ msgstr "Oben Rechts"
 #: ../src/live_effects/lpe-perspective-envelope.cpp:47
 msgid "Top Right - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Rechts oben - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:48
 msgid "Down Left"
@@ -10574,6 +10631,8 @@ msgstr "Unten Links"
 #: ../src/live_effects/lpe-perspective-envelope.cpp:48
 msgid "Down Left - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Links unten - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:49
 msgid "Down Right"
@@ -10582,6 +10641,8 @@ msgstr "Unten Rechts"
 #: ../src/live_effects/lpe-perspective-envelope.cpp:49
 msgid "Down Right - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
 msgstr ""
+"Rechts unten - <b>Strg+Alt+Klick</b>: zurücksetzen, <b>Ctrl</b>: nur entlang "
+"Hauptachsen verschieben"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:268
 msgid "Handles:"
@@ -18135,9 +18196,8 @@ msgid "Armenian (hy)"
 msgstr "Armenisch (hy)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:526
-#, fuzzy
 msgid "Assamese (as)"
-msgstr "Japanisch (ja)"
+msgstr "Assamesisch (as)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:526
 msgid "Azerbaijani (az)"
@@ -18164,9 +18224,8 @@ msgid "Bengali/Bangladesh (bn_BD)"
 msgstr "Bengalesisch (bn_BD)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:527
-#, fuzzy
 msgid "Bodo (brx)"
-msgstr "Bretonisch (br)"
+msgstr "Bodo (brx)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:527
 msgid "Breton (br)"
@@ -18202,7 +18261,7 @@ msgstr "Dänisch (da)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:529
 msgid "Dogri (doi)"
-msgstr ""
+msgstr "Dogri (doi)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:529
 msgid "Dutch (nl)"
@@ -18265,9 +18324,8 @@ msgid "Galician (gl)"
 msgstr "Galizisch (gl)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:533
-#, fuzzy
 msgid "Gujarati (gu)"
-msgstr "Gujarati"
+msgstr "Gujarati (gu)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:534
 msgid "Hebrew (he)"
@@ -18275,7 +18333,7 @@ msgstr "Hebräisch (he)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:534
 msgid "Hindi (hi)"
-msgstr ""
+msgstr "Hindi (hi)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:534
 msgid "Hungarian (hu)"
@@ -18302,17 +18360,16 @@ msgid "Japanese (ja)"
 msgstr "Japanisch (ja)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
-#, fuzzy
 msgid "Kannada (kn)"
-msgstr "Kannada"
+msgstr "Kannada (kn)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "Kashmiri in Peso-Arabic script (ks@aran)"
-msgstr ""
+msgstr "Kashmiri in erweiterter arabischer Schrift (ks@aran)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "Kashmiri in Devanagari script (ks@deva)"
-msgstr ""
+msgstr "Kashmiri in Devanagari-Schrift (ks@deva)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "Khmer (km)"
@@ -18323,14 +18380,12 @@ msgid "Kinyarwanda (rw)"
 msgstr "Kinyarwanda (rw)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
-#, fuzzy
 msgid "Konkani (kok)"
-msgstr "Koreanisch (ko)"
+msgstr "Konkani (kok)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
-#, fuzzy
 msgid "Konkani in Latin script (kok@latin)"
-msgstr "Serbisch in lateinischer Schrift (sr@latin)"
+msgstr "Konkani in lateinischer Schrift (sr@latin)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "Korean (ko)"
@@ -18350,24 +18405,23 @@ msgstr "Mazedonisch (mk)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Maithili (mai)"
-msgstr ""
+msgstr "Maithili (mai)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
-#, fuzzy
 msgid "Malayalam (ml)"
-msgstr "Malayalam"
+msgstr "Malayalam (ml)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Manipuri (mni)"
-msgstr ""
+msgstr "Meitei (mni)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Manipuri in Bengali script (mni@beng)"
-msgstr ""
+msgstr "Manipuri in bengalischer Schrift (mni@beng)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Marathi (mr)"
-msgstr ""
+msgstr "Marathi (mr)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Mongolian (mn)"
@@ -18387,7 +18441,7 @@ msgstr "Norwegisch/Nynorsk (nn)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:541
 msgid "Odia (or)"
-msgstr ""
+msgstr "Orya (or)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:542
 msgid "Panjabi (pa)"
@@ -18418,14 +18472,12 @@ msgid "Sanskrit (sa)"
 msgstr "Sanskrit (sa)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:544
-#, fuzzy
 msgid "Santali (sat)"
-msgstr "Italienisch (it)"
+msgstr "Santali (sat)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:544
-#, fuzzy
 msgid "Santali in Devanagari script (sat@deva)"
-msgstr "Serbisch in lateinischer Schrift (sr@latin)"
+msgstr "Santali in Devanagari-Schrift (sat@deva)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:544
 msgid "Serbian (sr)"
@@ -18437,12 +18489,11 @@ msgstr "Serbisch in lateinischer Schrift (sr@latin)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:545
 msgid "Sindhi (sd)"
-msgstr ""
+msgstr "Sindhi (sd)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:545
-#, fuzzy
 msgid "Sindhi in Devanagari script (sd@deva)"
-msgstr "Serbisch in lateinischer Schrift (sr@latin)"
+msgstr "Sindhi in Devanagari-Schrift (sd@deva)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:545
 msgid "Slovak (sk)"
@@ -18465,9 +18516,8 @@ msgid "Swedish (sv)"
 msgstr "Schwedisch (sv)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:546
-#, fuzzy
 msgid "Tamil (ta)"
-msgstr "Tamilisch"
+msgstr "Tamilisch (ta)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:546
 msgid "Telugu (te)"
@@ -24006,7 +24056,7 @@ msgstr ""
 #: ../src/ui/tools/node-tool.cpp:719
 msgctxt "Node tool tip"
 msgid "Drag to select objects to edit"
-msgstr "Ziehen, um Objekte zum bearbeiten auszuwählen"
+msgstr "Ziehen, um Objekte zum Bearbeiten auszuwählen"
 
 #: ../src/ui/tools/pen-tool.cpp:223 ../src/ui/tools/pencil-tool.cpp:455
 msgid "Drawing cancelled"
@@ -24877,9 +24927,8 @@ msgid "Old Style"
 msgstr "Stil"
 
 #: ../src/ui/widget/font-variants.cpp:61
-#, fuzzy
 msgid "Default Style"
-msgstr "Vorgegebener Titel"
+msgstr "Standardstil"
 
 #: ../src/ui/widget/font-variants.cpp:62
 #, fuzzy
@@ -24891,9 +24940,8 @@ msgid "Tabular"
 msgstr ""
 
 #: ../src/ui/widget/font-variants.cpp:64
-#, fuzzy
 msgid "Default Width"
-msgstr "Vorgegebener Titel"
+msgstr "Standardbreite"
 
 #: ../src/ui/widget/font-variants.cpp:65
 #, fuzzy
@@ -25233,7 +25281,7 @@ msgstr "Größe"
 #: ../src/ui/widget/panel.cpp:140
 msgctxt "Swatches height"
 msgid "Tiny"
-msgstr "winzig"
+msgstr "Winzig"
 
 #: ../src/ui/widget/panel.cpp:141
 msgctxt "Swatches height"
@@ -25264,12 +25312,12 @@ msgstr "Breite"
 #: ../src/ui/widget/panel.cpp:170
 msgctxt "Swatches width"
 msgid "Narrower"
-msgstr "Enger"
+msgstr "Schmaler"
 
 #: ../src/ui/widget/panel.cpp:171
 msgctxt "Swatches width"
 msgid "Narrow"
-msgstr "eng"
+msgstr "Schmal"
 
 #: ../src/ui/widget/panel.cpp:172
 msgctxt "Swatches width"
@@ -31333,13 +31381,13 @@ msgid ""
 msgstr ""
 "X-Interval kann nicht Null sein. Bitte verändern Sie 'Start X' oder 'Ende X'"
 
+# Check 'linked' translations (Y oben, Y unten).
 #: ../share/extensions/funcplot.py:60
-#, fuzzy
 msgid ""
 "y-interval cannot be zero. Please modify 'Y value of rectangle's top' or 'Y "
 "value of rectangle's bottom'"
 msgstr ""
-"Y-Interval kann nicht Null sein. Bitte verändern Sie 'Y oben' oder 'Y unten'"
+"Y-Intervall kann nicht null sein. Bitte verändern Sie 'Y oben' oder 'Y unten'"
 
 #: ../share/extensions/funcplot.py:315
 msgid "Please select a rectangle"
@@ -32977,9 +33025,8 @@ msgid "use LWPOLYLINE type of line output"
 msgstr "Benutzen des LWPOLYLINE Typs der Zeilenausgabe"
 
 #: ../share/extensions/dxf_outlines.inx.h:5
-#, fuzzy
 msgid "Base unit:"
-msgstr "Basiseinheit"
+msgstr "Basiseinheit:"
 
 #: ../share/extensions/dxf_outlines.inx.h:6
 msgid "Character Encoding:"
@@ -33194,11 +33241,10 @@ msgstr "Benutzerdefinierte Breite:"
 msgid "Custom Height:"
 msgstr "Benutzerdefinierte Höhe:"
 
-# !!! not the best translation
+# denkbar: DVD-Umschlag (aber lässt auch an eine Hülle aus Papier denken)
 #: ../share/extensions/empty_dvd_cover.inx.h:1
-#, fuzzy
 msgid "DVD Cover"
-msgstr "Abdeckung"
+msgstr "DVD-Cover"
 
 #: ../share/extensions/empty_dvd_cover.inx.h:2
 msgid "DVD spine width:"
@@ -33220,9 +33266,8 @@ msgstr "Einheit:"
 
 # !!!
 #: ../share/extensions/empty_generic.inx.h:5
-#, fuzzy
 msgid "Canvas background:"
-msgstr "Hintergrund verfolgen"
+msgstr "Hintergrund der Zeichenfläche:"
 
 #: ../share/extensions/empty_generic.inx.h:6
 #: ../share/extensions/empty_page.inx.h:5
@@ -35151,7 +35196,7 @@ msgstr "Rechtschreibprüfung für Text im Dokument"
 #: ../share/extensions/image_attributes.inx.h:24
 #, fuzzy
 msgid "Image Rendering Quality"
-msgstr "Bildrendering:"
+msgstr "Bildrendering"
 
 #. image-rendering
 #: ../share/extensions/image_attributes.inx.h:26
@@ -37476,15 +37521,13 @@ msgid "Scalable Vector Graphics"
 msgstr "Skalierbare Vektorgrafik (*.svg)"
 
 #: ../share/extensions/seamless_pattern.inx.h:1
-#, fuzzy
 msgid "Seamless Pattern"
-msgstr "Braille Muster"
+msgstr "Nahtloses Muster"
 
 #: ../share/extensions/seamless_pattern.inx.h:2
 #: ../share/extensions/seamless_pattern_procedural.inx.h:2
-#, fuzzy
 msgid "Custom Width (px):"
-msgstr "Breite der Kontur, px"
+msgstr "Benutzerdefinierte Breite (px):"
 
 #: ../share/extensions/seamless_pattern.inx.h:3
 #: ../share/extensions/seamless_pattern_procedural.inx.h:3
