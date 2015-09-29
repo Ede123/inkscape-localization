@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-22 10:09+0200\n"
-"PO-Revision-Date: 2015-09-28 02:13+0200\n"
+"PO-Revision-Date: 2015-09-30 01:25+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -18556,6 +18556,8 @@ msgstr "Sprache für Menüs und Zahlenformate setzen"
 msgid "Large"
 msgstr "Groß"
 
+# Bezieht sich auf die 10% größeren angelsächsischen Kapitälchen...
+# UND leider auch auf Icongrößen. 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
 #: ../src/ui/widget/font-variants.cpp:51
@@ -24851,167 +24853,159 @@ msgstr "Unschärfe (%)"
 
 #: ../src/ui/widget/font-variants.cpp:38
 msgid "Ligatures"
-msgstr ""
+msgstr "Ligaturen"
 
 #: ../src/ui/widget/font-variants.cpp:39
-#, fuzzy
 msgid "Common"
-msgstr "allgemein"
+msgstr "Gewöhnliche"
 
 #: ../src/ui/widget/font-variants.cpp:40
-#, fuzzy
 msgid "Discretionary"
-msgstr "Richtung"
+msgstr "Bedingte"
 
 #: ../src/ui/widget/font-variants.cpp:41
-#, fuzzy
 msgid "Historical"
-msgstr "Einführungen"
+msgstr "Historische"
 
 #: ../src/ui/widget/font-variants.cpp:42
-#, fuzzy
 msgid "Contextual"
-msgstr "Kontext"
+msgstr "Kontextbezogene"
 
 #: ../src/ui/widget/font-variants.cpp:46
-#, fuzzy
 msgid "Subscript"
-msgstr "Skript"
+msgstr "Tiefgestellt"
 
 #: ../src/ui/widget/font-variants.cpp:47
-#, fuzzy
 msgid "Superscript"
-msgstr "Hochgestellt umschalten"
+msgstr "Hochgestellt"
 
+# Überbegriff für Groß-/Kleinschreibung als Eigenschaft der Schriftvariante. "Kapitälchen" lt. http://www.linuxlibertine.org/index.php?id=87
 #: ../src/ui/widget/font-variants.cpp:49
-#, fuzzy
 msgid "Capitals"
-msgstr "Hospital"
+msgstr ""
 
+# Bedeutung: alle Buchstaben als Kapitälchen, egal ob Groß- oder Kleinbuchstaben.
 #: ../src/ui/widget/font-variants.cpp:52
-#, fuzzy
 msgid "All small"
-msgstr "klein"
+msgstr ""
 
+# Bedeutung: Kleine (für uns normalgroße) Kapitälchen für Kleinbuchstaben.
 #: ../src/ui/widget/font-variants.cpp:53
 msgid "Petite"
 msgstr ""
 
+# Bedeutung: Kleine (normale) Kapitälchen für Groß- und Kleinbuchstaben (die anderen sind 10% größer, und wohl im angelsächsischen Raum gebräuchlich)
 #: ../src/ui/widget/font-variants.cpp:54
-#, fuzzy
 msgid "All petite"
-msgstr "Alles inaktiv"
+msgstr ""
 
+# lt. http://www.typografie.info/3/page/wiki.html/_/fachbegriffe/unicase-r25
 #: ../src/ui/widget/font-variants.cpp:55
-#, fuzzy
 msgid "Unicase"
-msgstr "Picas"
+msgstr "Unikameral"
 
+# https://en.wikipedia.org/wiki/Titling_capitals
 #: ../src/ui/widget/font-variants.cpp:56
-#, fuzzy
 msgid "Titling"
-msgstr "Segeln"
+msgstr ""
 
 #: ../src/ui/widget/font-variants.cpp:58
 msgid "Numeric"
-msgstr ""
+msgstr "Ziffern"
 
 #: ../src/ui/widget/font-variants.cpp:59
-#, fuzzy
 msgid "Lining"
-msgstr "Ausdünnung:"
+msgstr "Versalziffern"
 
 #: ../src/ui/widget/font-variants.cpp:60
-#, fuzzy
 msgid "Old Style"
-msgstr "Stil"
+msgstr "Minuskelziffern"
 
 #: ../src/ui/widget/font-variants.cpp:61
 msgid "Default Style"
 msgstr "Standardstil"
 
 #: ../src/ui/widget/font-variants.cpp:62
-#, fuzzy
 msgid "Proportional"
-msgstr "Streifenproportion:"
+msgstr "Proportional"
 
 #: ../src/ui/widget/font-variants.cpp:63
 msgid "Tabular"
-msgstr ""
+msgstr "Tabellenziffern"
 
 #: ../src/ui/widget/font-variants.cpp:64
 msgid "Default Width"
 msgstr "Standardbreite"
 
 #: ../src/ui/widget/font-variants.cpp:65
-#, fuzzy
 msgid "Diagonal"
-msgstr "Diagonale Hilfslinien"
+msgstr "Diagonal"
 
+# Vertikal? Oder bezogen auf den Bruchstrich: Horizontal?...
 #: ../src/ui/widget/font-variants.cpp:66
-#, fuzzy
 msgid "Stacked"
-msgstr "Hintergrund:"
+msgstr "Übereinander"
 
 #: ../src/ui/widget/font-variants.cpp:67
-#, fuzzy
 msgid "Default Fractions"
-msgstr "Vorgabe Gittereinstellungen"
+msgstr "Standard-Brüche"
 
 #: ../src/ui/widget/font-variants.cpp:68
 msgid "Ordinal"
-msgstr ""
+msgstr "Ordnungszahlen"
 
 #: ../src/ui/widget/font-variants.cpp:69
 msgid "Slashed Zero"
-msgstr ""
+msgstr "Gestrichene Null"
 
 #: ../src/ui/widget/font-variants.cpp:71
-#, fuzzy
 msgid "Feature Settings"
-msgstr "Seiteneinstellungen"
+msgstr "Typographische Eigenschaften"
 
 #: ../src/ui/widget/font-variants.cpp:72
 msgid "Selection has different Feature Settings!"
-msgstr ""
+msgstr "Die Auswahl hat abweichende typographischen Eigenschaften!"
 
 #: ../src/ui/widget/font-variants.cpp:85
 msgid "Common ligatures. On by default. OpenType tables: 'liga', 'clig'"
 msgstr ""
+"Gewöhnliche Ligaturen. Standardmäßig aktiviert. OpenType-Tabelle: „liga“, "
+"„clig“"
 
 #: ../src/ui/widget/font-variants.cpp:87
 msgid "Discretionary ligatures. Off by default. OpenType table: 'dlig'"
 msgstr ""
+"Bedingte Ligaturen. Standardmäßig deaktiviert. OpenType-Tabelle: „dlig“"
 
 #: ../src/ui/widget/font-variants.cpp:89
 msgid "Historical ligatures. Off by default. OpenType table: 'hlig'"
 msgstr ""
+"Historische Ligaturen. Standardmäßig deaktiviert. OpenType-Tabelle: „hlig“"
 
 #: ../src/ui/widget/font-variants.cpp:91
 msgid "Contextual forms. On by default. OpenType table: 'calt'"
 msgstr ""
+"Kontextbezogene Ligaturen. Standardmäßig aktiviert. OpenType-Tabelle: „calt“"
 
 #. Position ----------------------------------
 #. Add tooltips
 #: ../src/ui/widget/font-variants.cpp:112
-#, fuzzy
 msgid "Normal position."
-msgstr "X-Position"
+msgstr "Normale Position."
 
 #: ../src/ui/widget/font-variants.cpp:113
 msgid "Subscript. OpenType table: 'subs'"
-msgstr ""
+msgstr "Tiefgestellt. OpenType-Tabelle: „subs“"
 
 #: ../src/ui/widget/font-variants.cpp:114
 msgid "Superscript. OpenType table: 'sups'"
-msgstr ""
+msgstr "Hochgestellt. OpenType-Tabelle: „sups“"
 
 #. Caps ----------------------------------
 #. Add tooltips
 #: ../src/ui/widget/font-variants.cpp:138
-#, fuzzy
 msgid "Normal capitalization."
-msgstr "Lokalisierung"
+msgstr "Normale Groß- und Kleinschreibung."
 
 #: ../src/ui/widget/font-variants.cpp:139
 msgid "Small-caps (lowercase). OpenType table: 'smcp'"
@@ -25046,57 +25040,58 @@ msgstr ""
 #. Numeric ------------------------------
 #. Add tooltips
 #: ../src/ui/widget/font-variants.cpp:180
-#, fuzzy
 msgid "Normal style."
-msgstr "Normaler Versatz"
+msgstr "Normaler Stil."
 
 #: ../src/ui/widget/font-variants.cpp:181
 msgid "Lining numerals. OpenType table: 'lnum'"
-msgstr ""
+msgstr "Versalziffern. OpenType-Tabelle: „lnum“"
 
 #: ../src/ui/widget/font-variants.cpp:182
 msgid "Old style numerals. OpenType table: 'onum'"
-msgstr ""
+msgstr "Minuskelziffern. OpenType-Tabelle: „onum“"
 
 #: ../src/ui/widget/font-variants.cpp:183
-#, fuzzy
 msgid "Normal widths."
-msgstr "Normales Licht"
+msgstr "Normale Breite."
 
 #: ../src/ui/widget/font-variants.cpp:184
 msgid "Proportional width numerals. OpenType table: 'pnum'"
-msgstr ""
+msgstr "Ziffern mit proportionaler Breite. OpenType-Tabelle: „pnum“"
 
 #: ../src/ui/widget/font-variants.cpp:185
 msgid "Same width numerals. OpenType table: 'tnum'"
-msgstr ""
+msgstr "Ziffern mit identischer Breite. OpenType-Tabelle: „tnum“"
 
 #: ../src/ui/widget/font-variants.cpp:186
-#, fuzzy
 msgid "Normal fractions."
-msgstr "Vorgabe Gittereinstellungen"
+msgstr "Normale Brüche."
 
 #: ../src/ui/widget/font-variants.cpp:187
 msgid "Diagonal fractions. OpenType table: 'frac'"
-msgstr ""
+msgstr "Brüche mit diagonalem Bruchstrich. OpenType-Tabelle: „frac“"
 
 #: ../src/ui/widget/font-variants.cpp:188
 msgid "Stacked fractions. OpenType table: 'afrc'"
-msgstr ""
+msgstr "Brüche mit horizontalem Bruchstrich. OpenType-Tabelle: „afrc“"
 
 #: ../src/ui/widget/font-variants.cpp:189
 msgid "Ordinals (raised 'th', etc.). OpenType table: 'ordn'"
 msgstr ""
+"Ordnungszahlen (z.B. hochgestelltes „th“ im Englischen). OpenType-Tabelle: "
+"„ordn“"
 
 #: ../src/ui/widget/font-variants.cpp:190
 msgid "Slashed zeros. OpenType table: 'zero'"
-msgstr ""
+msgstr "Gestrichene Nullen. OpenType-Tabelle: „zero“"
 
 #. Feature settings ---------------------
 #. Add tooltips
 #: ../src/ui/widget/font-variants.cpp:240
 msgid "Feature settings in CSS form. No sanity checking is performed."
 msgstr ""
+"Typographische Eigenschaften im CSS-Format. Eingaben werden ungeprüft "
+"übernommen."
 
 #: ../src/ui/widget/layer-selector.cpp:118
 msgid "Toggle current layer visibility"
@@ -25122,10 +25117,10 @@ msgstr "Proprietär"
 msgid "MetadataLicence|Other"
 msgstr "Andere"
 
+# In der History
 #: ../src/ui/widget/licensor.cpp:72
-#, fuzzy
 msgid "Document license updated"
-msgstr "Dokumentbereinigung"
+msgstr "Lizenz des Dokuments geändert"
 
 #: ../src/ui/widget/object-composite-settings.cpp:47
 #: ../src/ui/widget/selected-style.cpp:1119
@@ -25474,7 +25469,7 @@ msgstr "Füllmuster"
 #: ../src/ui/widget/selected-style.cpp:195
 #: ../src/ui/widget/style-swatch.cpp:302
 msgid "Pattern stroke"
-msgstr "Kontur des Musters"
+msgstr "Kontur mit Muster"
 
 # !!!
 #: ../src/ui/widget/selected-style.cpp:197
@@ -25484,12 +25479,12 @@ msgstr "<b>L</b>"
 #: ../src/ui/widget/selected-style.cpp:200
 #: ../src/ui/widget/style-swatch.cpp:294
 msgid "Linear gradient fill"
-msgstr "Füllung des linearen Farbverlaufs"
+msgstr "Füllung mit linearem Farbverlauf"
 
 #: ../src/ui/widget/selected-style.cpp:200
 #: ../src/ui/widget/style-swatch.cpp:294
 msgid "Linear gradient stroke"
-msgstr "Kontur des linearen Farbverlaufs"
+msgstr "Kontur mit linearem Farbverlauf"
 
 #: ../src/ui/widget/selected-style.cpp:207
 msgid "<b>R</b>"
@@ -25498,28 +25493,26 @@ msgstr "<b>R</b>"
 #: ../src/ui/widget/selected-style.cpp:210
 #: ../src/ui/widget/style-swatch.cpp:298
 msgid "Radial gradient fill"
-msgstr "Füllung des radialen Farbverlaufs"
+msgstr "Füllung mit radialem Farbverlauf"
 
 #: ../src/ui/widget/selected-style.cpp:210
 #: ../src/ui/widget/style-swatch.cpp:298
 msgid "Radial gradient stroke"
-msgstr "Kontur des radialen Farbverlaufs"
+msgstr "Kontur mit radialem Farbverlauf"
 
-# !!!
+# Steht für 'Mesh gradient'
 #: ../src/ui/widget/selected-style.cpp:218
-#, fuzzy
 msgid "<b>M</b>"
-msgstr "<b>L</b>"
+msgstr "<b>V</b>"
 
+# Leider inkonsistent mit Mesh gradient stroke. Vielleicht gibt's noch was besseres?
 #: ../src/ui/widget/selected-style.cpp:221
-#, fuzzy
 msgid "Mesh gradient fill"
-msgstr "Füllung des Verlaufsgitter"
+msgstr "Verlaufsgitterfüllung"
 
 #: ../src/ui/widget/selected-style.cpp:221
-#, fuzzy
 msgid "Mesh gradient stroke"
-msgstr "Kontur des Verlaufsgitter"
+msgstr "Kontur mit Verlaufsgitter"
 
 #: ../src/ui/widget/selected-style.cpp:229
 msgid "Different"
