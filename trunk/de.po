@@ -19386,7 +19386,7 @@ msgstr "Hebe Farben hervor die nicht im Farbbereich des Ausgabegerätes liegen."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1041
 msgid "Out of gamut warning color:"
-msgstr "Farbbereichswarnung:"
+msgstr "Farbe für Farbbereichswarnung:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1042
 msgid "Selects the color used for out of gamut warning"
@@ -24816,7 +24816,7 @@ msgstr "Farb-Management"
 
 #: ../src/ui/widget/color-notebook.cpp:189
 msgid "Out of gamut!"
-msgstr "Farbbereichswarnung:"
+msgstr "Farbbereich überschritten!"
 
 #: ../src/ui/widget/color-notebook.cpp:196
 msgid "Too much ink!"
@@ -25183,24 +25183,20 @@ msgid "Bottom margin"
 msgstr "Unterer Rand"
 
 #: ../src/ui/widget/page-sizer.cpp:244
-#, fuzzy
 msgid "Scale _x:"
-msgstr "X Skalieren"
+msgstr "Skalierung _x:"
 
 #: ../src/ui/widget/page-sizer.cpp:244
-#, fuzzy
 msgid "Scale X"
-msgstr "X Skalieren"
+msgstr "X skalieren"
 
 #: ../src/ui/widget/page-sizer.cpp:245
-#, fuzzy
 msgid "Scale _y:"
-msgstr "Y Skalieren"
+msgstr "Skalierung _y:"
 
 #: ../src/ui/widget/page-sizer.cpp:245
-#, fuzzy
 msgid "Scale Y"
-msgstr "X Skalieren"
+msgstr "Y skalieren"
 
 #: ../src/ui/widget/page-sizer.cpp:323
 msgid "Orientation:"
@@ -25241,11 +25237,14 @@ msgid ""
 "scaling in Inkscape. To set a non-uniform scaling, set the 'viewBox' "
 "directly."
 msgstr ""
+"Obwohl das SVG Format unterschiedliche Skalierungsfaktoren erlaubt, wird "
+"dies für die Verwendung in Inkscape nicht empfohlen. Um unterschiedliche "
+"Skalierungsfaktoren festzulegen kann das 'viewBox' Attribut direkt "
+"bearbeitet werden."
 
 #: ../src/ui/widget/page-sizer.cpp:483
-#, fuzzy
 msgid "_Viewbox..."
-msgstr "_Ansicht"
+msgstr "_Viewbox..."
 
 #: ../src/ui/widget/page-sizer.cpp:590
 msgid "Set page size"
@@ -25253,12 +25252,11 @@ msgstr "Seitengröße setzen"
 
 #: ../src/ui/widget/page-sizer.cpp:836
 msgid "User units per "
-msgstr ""
+msgstr "SVG-Benutzereinheiten pro "
 
 #: ../src/ui/widget/page-sizer.cpp:932
-#, fuzzy
 msgid "Set page scale"
-msgstr "Seitengröße setzen"
+msgstr "Seitenskalierung festlegen"
 
 #: ../src/ui/widget/page-sizer.cpp:958
 msgid "Set 'viewBox'"
@@ -29389,12 +29387,12 @@ msgstr "Anzeigen der seitlichen und Tensor-Anfasser"
 
 #: ../src/widgets/mesh-toolbar.cpp:465
 msgid "WARNING: Mesh SVG Syntax Subject to Change"
-msgstr ""
+msgstr "WARNUNG: SVG Syntax zu Verlaufsgittern noch im Entwurfsstadium"
 
 #: ../src/widgets/mesh-toolbar.cpp:475
 msgctxt "Type"
 msgid "Coons"
-msgstr ""
+msgstr "Coons"
 
 #: ../src/widgets/mesh-toolbar.cpp:478
 msgid "Bicubic"
@@ -29406,7 +29404,7 @@ msgstr "Coons"
 
 #: ../src/widgets/mesh-toolbar.cpp:481
 msgid "Coons: no smoothing. Bicubic: smoothing across patch boundaries."
-msgstr ""
+msgstr "Coons: Keine Glättung. Bikubisch: Glättung über Feldgrenzen hinweg."
 
 #: ../src/widgets/mesh-toolbar.cpp:483 ../src/widgets/pencil-toolbar.cpp:377
 msgid "Smoothing:"

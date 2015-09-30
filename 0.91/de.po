@@ -18903,7 +18903,7 @@ msgstr "Hebe Farben hervor die nicht im Farbbereich des Ausgabegerätes liegen."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1001
 msgid "Out of gamut warning color:"
-msgstr "Farbbereichswarnung:"
+msgstr "Farbe für Farbbereichswarnung:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1002
 msgid "Selects the color used for out of gamut warning"
@@ -28268,7 +28268,7 @@ msgstr "Farb-Management"
 
 #: ../src/widgets/sp-color-notebook.cpp:392
 msgid "Out of gamut!"
-msgstr "Farbbereichswarnung:"
+msgstr "Farbbereich überschritten!"
 
 #: ../src/widgets/sp-color-notebook.cpp:399
 msgid "Too much ink!"
