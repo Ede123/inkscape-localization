@@ -4726,7 +4726,7 @@ msgstr "Hilfslinie-Pfad-Überschneidung"
 
 #: ../src/display/snap-indicator.cpp:124
 msgid "clip-path"
-msgstr "Ausschneidungspfad"
+msgstr "Ausschneidepfad"
 
 #: ../src/display/snap-indicator.cpp:127
 msgid "mask-path"
@@ -4734,11 +4734,11 @@ msgstr "Maskenpfad"
 
 #: ../src/display/snap-indicator.cpp:130
 msgid "bounding box corner"
-msgstr "Rahmenecken"
+msgstr "Ecke des Begrenzungsrahmens"
 
 #: ../src/display/snap-indicator.cpp:133
 msgid "bounding box side"
-msgstr "Rahmenseite"
+msgstr "Kante des Begrenzungsrahmens"
 
 #: ../src/display/snap-indicator.cpp:136
 msgid "page border"
@@ -4758,11 +4758,11 @@ msgstr "Objekt-Drehpunkt"
 
 #: ../src/display/snap-indicator.cpp:148
 msgid "bounding box side midpoint"
-msgstr "Rahmenseiten-Mittelpunkt"
+msgstr "Mittelpunkt der Begrenzungsrahmenlinie"
 
 #: ../src/display/snap-indicator.cpp:151
 msgid "bounding box midpoint"
-msgstr "Rahmen-Mittelpunkt"
+msgstr "Mittelpunkt des Begrenzungsrahmens"
 
 #: ../src/display/snap-indicator.cpp:154
 msgid "page corner"
@@ -4794,15 +4794,15 @@ msgstr "erzwungen"
 
 #: ../src/display/snap-indicator.cpp:187
 msgid "Bounding box corner"
-msgstr "Rahmenecken"
+msgstr "Ecke des Begrenzungsrahmens"
 
 #: ../src/display/snap-indicator.cpp:190
 msgid "Bounding box midpoint"
-msgstr "Mittelpunkt der Umrandung"
+msgstr "Mittelpunkt des Begrenzungsrahmens"
 
 #: ../src/display/snap-indicator.cpp:193
 msgid "Bounding box side midpoint"
-msgstr "Mitte der Umrandungslinie"
+msgstr "Mittelpunkt der Begrenzungsrahmenlinie"
 
 #: ../src/display/snap-indicator.cpp:196 ../src/ui/tool/node.cpp:1484
 msgid "Smooth node"
@@ -9440,7 +9440,7 @@ msgstr "Ellipse durch 5 Punkte"
 
 #: ../src/live_effects/effect.cpp:147
 msgid "Bounding Box"
-msgstr "Rahmen"
+msgstr "Begrenzungsrahmen"
 
 #: ../src/live_effects/effect.cpp:150
 msgid "Lattice Deformation 2"
@@ -9613,7 +9613,7 @@ msgstr "Visueller Rahmen"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:25
 msgid "Uses the visual bounding box"
-msgstr "Verwendet den visuellen Rahmen"
+msgstr "Verwendet den visuellen Begrenzungsrahmen"
 
 #: ../src/live_effects/lpe-bspline.cpp:30
 msgid "Steps with CTRL:"
@@ -13744,7 +13744,7 @@ msgstr "Verteilen"
 #: ../src/ui/dialog/align-and-distribute.cpp:417
 msgid "Minimum horizontal gap (in px units) between bounding boxes"
 msgstr ""
-"Minimaler horizontaler Abstand (in px-Einheiten) zwischen Umrandungsboxen"
+"Minimaler horizontaler Abstand (in px-Einheiten) zwischen Begrenzungsrahmen"
 
 #. TRANSLATORS: "H:" stands for horizontal gap
 #: ../src/ui/dialog/align-and-distribute.cpp:419
@@ -13755,7 +13755,7 @@ msgstr "_H:"
 #: ../src/ui/dialog/align-and-distribute.cpp:427
 msgid "Minimum vertical gap (in px units) between bounding boxes"
 msgstr ""
-"Minimaler vertikaler Abstand (in px-Einheiten) zwischen Umrandungsboxen"
+"Minimaler vertikaler Abstand (in px-Einheiten) zwischen Begrenzungsrahmen"
 
 #. TRANSLATORS: Vertical gap
 #: ../src/ui/dialog/align-and-distribute.cpp:429
@@ -13941,7 +13941,7 @@ msgid ""
 "Move objects as little as possible so that their bounding boxes do not "
 "overlap"
 msgstr ""
-"Objekte gerade so weit bewegen, dass sich ihre Umrandungsboxen nicht mehr "
+"Objekte gerade so weit bewegen, dass sich ihre Begrenzungsrahmen nicht mehr "
 "überlappen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:980
@@ -17616,7 +17616,7 @@ msgstr "Ausgewählten Objekte zeigen Farbverlaufs-Anfasser an"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:196
 msgid "Conversion to guides uses edges instead of bounding box"
-msgstr "Umwandlung zu Hilfslinien nutzt Ecken anstelle von Umrandungsboxen"
+msgstr "Umwandlung zu Hilfslinien nutzt Ecken anstelle von Begrenzungsrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:197
 msgid ""
@@ -17624,7 +17624,7 @@ msgid ""
 "(imitating the object's shape), not along the bounding box"
 msgstr ""
 "Wird ein Objekt zu Hilfslinien umgewandelt, so gelten die tatsächlichen "
-"Umrisse des Objekts, nicht die rechteckige Umrandung."
+"Umrisse des Objekts, nicht der Begrenzungsrahmen."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:204
 msgid "Ctrl+click _dot size:"
@@ -17697,25 +17697,25 @@ msgstr "Werkzeuge"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:306
 msgid "Bounding box to use"
-msgstr "Zu verwendender Rahmen"
+msgstr "Zu verwendender Begrenzungsrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:307
 msgid "Visual bounding box"
-msgstr "Visuelle Rahmen"
+msgstr "Visueller Begrenzungsrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:309
 msgid "This bounding box includes stroke width, markers, filter margins, etc."
 msgstr ""
-"Dieser Rahmen berücksichtigt Strichbreiten, Knotenmarkierungen, Filterränder "
-"usw."
+"Dieser Begrenzungsrahmen berücksichtigt Strichbreiten, Knotenmarkierungen, "
+"Filterränder usw."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:310
 msgid "Geometric bounding box"
-msgstr "Geometrischer Rahmen"
+msgstr "Geometrischer Begrenzungsrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:312
 msgid "This bounding box includes only the bare path"
-msgstr "Dieser Rahmen berücksichtigt nur den reinen Pfad"
+msgstr "Dieser Begrenzungsrahmen berücksichtigt nur den reinen Pfad"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:314
 msgid "Conversion to guides"
@@ -17809,12 +17809,11 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:347
 msgid "Box"
-msgstr "Umschließendes Rechteck"
+msgstr "Begrenzungsrahmen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:349
 msgid "Each selected object displays its bounding box"
-msgstr ""
-"Jedes gewählte Objekt zeigt sein umschließendes Rechteck (Umrandungsbox)"
+msgstr "Jedes gewählte Objekt zeigt seinen Begrenzungsrahmen"
 
 #. Node
 #: ../src/ui/dialog/inkscape-preferences.cpp:352
@@ -21556,7 +21555,7 @@ msgstr "Ankerpunkt:"
 #: ../src/ui/dialog/polar-arrange-tab.cpp:52
 msgctxt "Polar arrange tab"
 msgid "Object's bounding box:"
-msgstr "Objektrahmen:"
+msgstr "Begrenzungsrahmen des Objekts:"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:59
 msgctxt "Polar arrange tab"
@@ -25152,7 +25151,7 @@ msgstr "Höhe des Papiers"
 
 #: ../src/ui/widget/page-sizer.cpp:239
 msgid "T_op margin:"
-msgstr "Obere Umrandung:"
+msgstr "Obere Rand:"
 
 #: ../src/ui/widget/page-sizer.cpp:239
 msgid "Top margin"
@@ -29255,7 +29254,8 @@ msgstr "Begrenzungsrahmen anzeigen"
 
 #: ../src/widgets/lpe-toolbar.cpp:336
 msgid "Show bounding box (used to cut infinite lines)"
-msgstr "Rahmen anzeigen (wird benutzt, um unendliche Linien zu schneiden)"
+msgstr ""
+"Begrenzungsrahmen anzeigen (wird benutzt, um unendliche Linien zu schneiden)"
 
 #: ../src/widgets/lpe-toolbar.cpp:347
 msgid "Get limiting bounding box from selection"
@@ -29266,8 +29266,8 @@ msgid ""
 "Set limiting bounding box (used to cut infinite lines) to the bounding box "
 "of current selection"
 msgstr ""
-"Begrenzungsrahmen (beschneidet unendliche Linien) gleich demjenigen der "
-"Auswahl"
+"Begrenzungsrahmen (beschneidet unendliche Linien) entsprechend der aktuellen "
+"Auswahl setzen"
 
 #: ../src/widgets/lpe-toolbar.cpp:360
 msgid "Choose a line segment type"
@@ -30905,43 +30905,43 @@ msgstr "Stil von neuen Farbeimer-Objekten"
 
 #: ../src/widgets/toolbox.cpp:1681
 msgid "Bounding box"
-msgstr "Rahmen"
+msgstr "Begrenzungsrahmen"
 
 #: ../src/widgets/toolbox.cpp:1681
 msgid "Snap bounding boxes"
-msgstr "Umrandung einrasten"
+msgstr "Begrenzungsrahmen einrasten"
 
 #: ../src/widgets/toolbox.cpp:1690
 msgid "Bounding box edges"
-msgstr "Kanten der Umrandung"
+msgstr "Kanten des Begrenzungsrahmens"
 
 #: ../src/widgets/toolbox.cpp:1690
 msgid "Snap to edges of a bounding box"
-msgstr "An Kanten einer Umrandung einrasten"
+msgstr "An Kanten eines Begrenzungsrahmens einrasten"
 
 #: ../src/widgets/toolbox.cpp:1699
 msgid "Bounding box corners"
-msgstr "Ecken der Umrandung"
+msgstr "Ecken des Begrenzungsrahmens"
 
 #: ../src/widgets/toolbox.cpp:1699
 msgid "Snap bounding box corners"
-msgstr "Ecken der Umrandung einrasten"
+msgstr "Ecken des Begrenzungsrahmens einrasten"
 
 #: ../src/widgets/toolbox.cpp:1708
 msgid "BBox Edge Midpoints"
-msgstr "Mittelpunkte der Umrandungslinien"
+msgstr "Mittelpunkte von Begrenzungsrahmenlinien"
 
 #: ../src/widgets/toolbox.cpp:1708
 msgid "Snap midpoints of bounding box edges"
-msgstr "Mittelpunkte von Umrandungslinien einrasten"
+msgstr "Mittelpunkte von Begrenzungsrahmenlinien einrasten"
 
 #: ../src/widgets/toolbox.cpp:1718
 msgid "BBox Centers"
-msgstr "Mittelpunkt Umrandung"
+msgstr "Mittelpunkte von Begrenzungsrahmen"
 
 #: ../src/widgets/toolbox.cpp:1718
 msgid "Snapping centers of bounding boxes"
-msgstr "Mittelpunkte von Umrandungen einrasten"
+msgstr "Mittelpunkte von Begrenzungsrahmen einrasten"
 
 #: ../src/widgets/toolbox.cpp:1727
 msgid "Snap nodes, paths, and handles"
@@ -32688,7 +32688,7 @@ msgstr "Y-Versatz:"
 #: ../share/extensions/dimension.inx.h:4
 #, fuzzy
 msgid "Bounding box type:"
-msgstr "Rahmentyp:"
+msgstr "Begrenzungsrahmentyp:"
 
 #: ../share/extensions/dimension.inx.h:5
 msgid "Geometric"
@@ -32696,7 +32696,7 @@ msgstr "Geometrisch"
 
 #: ../share/extensions/dimension.inx.h:6
 msgid "Visual"
-msgstr "Visuel"
+msgstr "Visuell"
 
 #: ../share/extensions/dimension.inx.h:7 ../share/extensions/dots.inx.h:13
 #: ../share/extensions/handles.inx.h:2 ../share/extensions/measure.inx.h:25
@@ -38049,11 +38049,11 @@ msgstr "Diagrammtyp:"
 
 #: ../share/extensions/voronoi2svg.inx.h:4
 msgid "Bounding box of the diagram:"
-msgstr "Rahmen des Diagramms:"
+msgstr "Begrenzungsrahmen des Diagramms:"
 
 #: ../share/extensions/voronoi2svg.inx.h:5
 msgid "Show the bounding box"
-msgstr "Rahmen anzeigen"
+msgstr "Begrenzungsrahmen anzeigen"
 
 #: ../share/extensions/voronoi2svg.inx.h:6
 msgid "Delaunay Triangulation"
@@ -39008,7 +39008,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Filter-Auflösung setzen"
 
 #~ msgid "Fills object bounding box with color"
-#~ msgstr "Füllt Objektrahmen mit Farbe"
+#~ msgstr "Füllt Begrenzungsrahmen des Objekts mit Farbe"
 
 #~ msgid "Link or embed image:"
 #~ msgstr "Bild verknüpfen oder einbetten:"
@@ -40433,12 +40433,12 @@ msgstr "XAML einlesen"
 #~ "a small part of the guide near the cursor will snap)"
 #~ msgstr ""
 #~ "Während des Ziehens einer Hilfslinie rastet diese an Objekt-Knoten oder "
-#~ "Ecken von Umrandungskästen ein (\"An Knoten einrasten\" oder \"An "
-#~ "Umrandungsecken einrasten\" muss aktiviert sein; nur ein kleiner Teil um "
-#~ "den Mauszeiger wird einrasten)"
+#~ "Ecken von Begrenzungsrahmen ein (\"An Knoten einrasten\" oder \"An "
+#~ "Begrenzungsrahmen einrasten\" muss aktiviert sein; nur ein kleiner Teil "
+#~ "um den Mauszeiger wird einrasten)"
 
 #~ msgid "Snap to bounding box corners"
-#~ msgstr "An Ecken der Umrandung einrasten"
+#~ msgstr "An Ecken des Begrenzungsrahmens einrasten"
 
 #~ msgid "Matte jelly"
 #~ msgstr "Mattes Gelee"
@@ -42180,7 +42180,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Encapsulated-Postscript-Ausgabe"
 
 #~ msgid "Make bounding box around full page"
-#~ msgstr "Umrandungsbox um ganze Seite"
+#~ msgstr "Begrenzungsrahmen um ganze Seite"
 
 #~ msgid "Embed fonts (Type 1 only)"
 #~ msgstr "Fonts einbetten (nur Type 1)"
@@ -42336,7 +42336,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Fonts beim Exportieren einbetten (nur Type 1) (EPS)"
 
 #~ msgid "Export files with the bounding box set to the page size (EPS)"
-#~ msgstr "Exportiere EPS-Dateien mit den Seitengrößen als Umrandungsbox"
+#~ msgstr "Exportiere EPS-Dateien mit den Seitengrößen als Begrenzungsrahmen"
 
 #~ msgid "Select <b>at least two objects</b> to combine."
 #~ msgstr "<b>Mindestens zwei Objekte</b> zum Kombinieren auswählen."
@@ -42395,12 +42395,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "Snap nodes to object paths"
 #~ msgstr "Knoten an Objektpfaden einrasten"
-
-#~ msgid "Snap bounding box corners and guides to bounding box edges"
-#~ msgstr "_Umrandungsbox an Hilfslinien einrasten"
-
-#~ msgid "Snap bounding box corners and nodes to the page border"
-#~ msgstr "_Umrandungsbox an Hilfslinien einrasten"
 
 #~ msgid "_Grid with guides"
 #~ msgstr "Gitter/Hilfslinien"
