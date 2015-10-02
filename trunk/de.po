@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-22 10:09+0200\n"
-"PO-Revision-Date: 2015-09-30 01:25+0200\n"
+"PO-Revision-Date: 2015-10-02 16:07+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: \n"
 "Language: de\n"
@@ -18556,7 +18556,7 @@ msgid "Large"
 msgstr "Groß"
 
 # Bezieht sich auf die 10% größeren angelsächsischen Kapitälchen...
-# UND leider auch auf Icongrößen. 
+# UND leider auch auf Icongrößen.
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
 #: ../src/ui/widget/font-variants.cpp:51
@@ -19791,9 +19791,10 @@ msgstr ""
 "innerhalb der Arbeitsfläche"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1253
-#, fuzzy
 msgid "Mouse move pans when Space is pressed"
-msgstr "Die linke Maustaste verschiebt, wenn die Leertaste gedrückt ist."
+msgstr ""
+"Bewegen der Maus verschiebt die Zeichenfläche, wenn die Leertaste gedrückt "
+"ist."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1255
 msgid "When on, pressing and holding Space and dragging pans canvas"
@@ -25468,7 +25469,7 @@ msgstr "Füllmuster"
 msgid "Pattern stroke"
 msgstr "Kontur mit Muster"
 
-# !!!
+# Short for 'Linear Gradient' in indicator field bottom left.
 #: ../src/ui/widget/selected-style.cpp:197
 msgid "<b>L</b>"
 msgstr "<b>L</b>"
@@ -25483,6 +25484,7 @@ msgstr "Füllung mit linearem Farbverlauf"
 msgid "Linear gradient stroke"
 msgstr "Kontur mit linearem Farbverlauf"
 
+# Short for 'Radial gradient' in indicator field bottom left.
 #: ../src/ui/widget/selected-style.cpp:207
 msgid "<b>R</b>"
 msgstr "<b>R</b>"
@@ -25497,10 +25499,10 @@ msgstr "Füllung mit radialem Farbverlauf"
 msgid "Radial gradient stroke"
 msgstr "Kontur mit radialem Farbverlauf"
 
-# Steht für 'Mesh gradient'
+# Short for 'Mesh gradient' in indicator field bottom left
 #: ../src/ui/widget/selected-style.cpp:218
 msgid "<b>M</b>"
-msgstr "<b>V</b>"
+msgstr "<b>G</b>"
 
 # Leider inkonsistent mit Mesh gradient stroke. Vielleicht gibt's noch was besseres?
 #: ../src/ui/widget/selected-style.cpp:221
@@ -31662,9 +31664,8 @@ msgid "Please select an object"
 msgstr "Bitte wählen Sie ein Objekt."
 
 #: ../share/extensions/gimp_xcf.py:39
-#, fuzzy
 msgid "Inkscape must be installed and set in your path variable."
-msgstr "Gimp muss installiert und in Ihren Pfadvariablen gesetzt sein."
+msgstr "Inkscape muss installiert und in Ihren Pfadvariablen gesetzt sein."
 
 #: ../share/extensions/gimp_xcf.py:43
 msgid "Gimp must be installed and set in your path variable."
