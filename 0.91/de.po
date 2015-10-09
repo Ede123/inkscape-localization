@@ -8236,6 +8236,9 @@ msgstr "OpenDocument-Zeichnung (*.odg)"
 msgid "OpenDocument drawing file"
 msgstr "OpenDocument-Zeichnungsdatei"
 
+# Deutsche Übersetzungen:
+#   http://www.cunodruck.de/files/downloads/PDF-Rahmen.pdf
+#   https://de.wikipedia.org/wiki/Portable_Document_Format#Angaben_der_Seitengeometrie
 #. TRANSLATORS: The following are document crop settings for PDF import
 #. more info: http://www.acrobatusers.com/tech_corners/javascript_corner/tips/2006/page_bounds/
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:71
@@ -8252,7 +8255,7 @@ msgstr "Endformatrahmen"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:74
 msgid "bleed box"
-msgstr "Ausschnittrahmen"
+msgstr "Anschnittrahmen"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:75
 msgid "art box"
@@ -8269,15 +8272,15 @@ msgstr "Seiteneinstellungen"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:124
 msgid "Precision of approximating gradient meshes:"
-msgstr "Präzision zur Annäherung an gradient meshes:"
+msgstr "Präzision der Annäherung von Verlaufsgittern:"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:125
 msgid ""
 "<b>Note</b>: setting the precision too high may result in a large SVG file "
 "and slow performance."
 msgstr ""
-"<b>Hinweis</b>: Die Präzision zu hoch einzustellen kann zu einem großen SVG "
-"und schlechter Leistung führen."
+"<b>Hinweis</b>: Wird die Präzision zu hoch eingestellt, kann dies zu einer "
+"großen SVG Datei und erhöhtem Ressourcenbedarf führen."
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:128
 msgid "import via Poppler"
@@ -8299,7 +8302,9 @@ msgstr "Fließtext in Text umwandeln"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:146
 msgid "Replace PDF fonts by closest-named installed fonts"
-msgstr "PDF-Fonts durch namenähnlichste installierte Fonts ersetzen"
+msgstr ""
+"Schriftarten im PDF durch installierte Schriftarten mit den ähnlichsten "
+"Namen ersetzen"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:149
 msgid "Embed images"
@@ -8316,12 +8321,12 @@ msgstr "PDF-Importeinstellungen"
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:431
 msgctxt "PDF input precision"
 msgid "rough"
-msgstr "rau"
+msgstr "grob"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:432
 msgctxt "PDF input precision"
 msgid "medium"
-msgstr "Mittel"
+msgstr "mittel"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:433
 msgctxt "PDF input precision"
