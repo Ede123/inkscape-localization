@@ -23364,7 +23364,7 @@ msgstr "Höhe des Papiers"
 
 #: ../src/ui/widget/page-sizer.cpp:238
 msgid "T_op margin:"
-msgstr "Obere Rand:"
+msgstr "Oberer Rand:"
 
 #: ../src/ui/widget/page-sizer.cpp:238
 msgid "Top margin"
