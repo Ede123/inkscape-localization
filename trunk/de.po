@@ -5982,7 +5982,7 @@ msgstr "Diffuses Licht"
 #: ../src/extension/internal/filter/paint.h:89
 #: ../src/extension/internal/filter/paint.h:340
 msgid "Smoothness"
-msgstr "Glattheit"
+msgstr "Glättung"
 
 #: ../src/extension/internal/filter/bevels.h:56
 #: ../src/extension/internal/filter/bevels.h:137
@@ -9470,9 +9470,8 @@ msgid "Interpolate points"
 msgstr "Punkte interpolieren"
 
 #: ../src/live_effects/effect.cpp:154
-#, fuzzy
 msgid "Transform by 2 points"
-msgstr "Farbverläufe transformieren"
+msgstr "Transformation in 2 Punkten"
 
 #: ../src/live_effects/effect.cpp:361
 msgid "Is visible?"
@@ -9647,11 +9646,11 @@ msgstr "Größe des Helfers"
 
 #: ../src/live_effects/lpe-bspline.cpp:32
 msgid "Apply changes if weight = 0%"
-msgstr ""
+msgstr "Änderungen anwenden, wenn Gewichtung = 0%"
 
 #: ../src/live_effects/lpe-bspline.cpp:33
 msgid "Apply changes if weight > 0%"
-msgstr ""
+msgstr "Änderungen anwenden, wenn Gewichtung > 0%"
 
 #: ../src/live_effects/lpe-bspline.cpp:34
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:56
@@ -9659,12 +9658,10 @@ msgid "Change only selected nodes"
 msgstr "Nur ausgewählte Knoten ändern"
 
 #: ../src/live_effects/lpe-bspline.cpp:35
-#, fuzzy
 msgid "Change weight %:"
-msgstr "Gewichtung ändern:"
+msgstr "Gewichtung ändern %:"
 
 #: ../src/live_effects/lpe-bspline.cpp:35
-#, fuzzy
 msgid "Change weight percent of the effect"
 msgstr "Ändert die Gewichtung des Effekts"
 
@@ -9677,14 +9674,12 @@ msgid "Make cusp"
 msgstr "Spitzen generieren"
 
 #: ../src/live_effects/lpe-bspline.cpp:148
-#, fuzzy
 msgid "Change to default weight"
-msgstr "Normale Gewichtung"
+msgstr "Gewichtung auf den Standard setzen"
 
 #: ../src/live_effects/lpe-bspline.cpp:154
-#, fuzzy
 msgid "Change to 0 weight"
-msgstr "Gewichtung ändern:"
+msgstr "Gewichtung auf 0 setzen"
 
 #: ../src/live_effects/lpe-bspline.cpp:160
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:232
@@ -9795,7 +9790,7 @@ msgstr "Skalieren der Breite des Stichpfades relativ zu seiner Länge"
 
 #: ../src/live_effects/lpe-ellipse_5pts.cpp:77
 msgid "Five points required for constructing an ellipse"
-msgstr ""
+msgstr "Zur Konstruktion einer Ellipse werden fünf Punkte benötigt"
 
 #: ../src/live_effects/lpe-ellipse_5pts.cpp:162
 msgid "No ellipse found for specified points"
@@ -9892,7 +9887,7 @@ msgstr "Bézierkurven erzwingen"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:53
 msgid "Fillet point"
-msgstr ""
+msgstr "Abrundungspunkt"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:54
 msgid "Hide knots"
@@ -9963,24 +9958,21 @@ msgid "Inverse chamfer"
 msgstr "Invertierte Fasung"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:239
-#, fuzzy
 msgid "Convert to fillet"
-msgstr "Umwandeln in Blindenschrift"
+msgstr "Umwandeln in Abrundung"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:246
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:270
-#, fuzzy
 msgid "Convert to inverse fillet"
-msgstr "Umwandeln in Blindenschrift"
+msgstr "Umwandeln in invertierte Abrundung"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:262
-#, fuzzy
 msgid "Convert to chamfer"
-msgstr "Umwandeln in Blindenschrift"
+msgstr "Umwandeln in Fasung"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:282
 msgid "Knots and helper paths refreshed"
-msgstr ""
+msgstr "Knoten und Hilfspfade aktualisiert"
 
 #: ../src/live_effects/lpe-gears.cpp:214
 msgid "_Teeth:"
@@ -10062,7 +10054,7 @@ msgid ""
 "stroke width along the path"
 msgstr ""
 "Legt fest, welche Art von Interpolator für die Interpolation zwischen "
-"Strichstärke entlang des Pfades verwendet weden"
+"Strichstärken entlang des Pfades verwendet wird"
 
 #: ../src/live_effects/lpe-jointype.cpp:31
 #: ../src/live_effects/lpe-powerstroke.cpp:166
@@ -10092,7 +10084,7 @@ msgstr "Gehrungslimit"
 #: ../src/live_effects/lpe-jointype.cpp:35
 #: ../src/live_effects/lpe-powerstroke.cpp:169
 msgid "Extrapolated arc"
-msgstr "Abgeleiteter Bogen"
+msgstr "Abgeleitete Kurve"
 
 #: ../src/live_effects/lpe-jointype.cpp:39
 #: ../src/live_effects/lpe-powerstroke.cpp:149
@@ -10661,23 +10653,22 @@ msgstr "Anfasser:"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:132
 msgid "CubicBezierSmooth"
-msgstr ""
+msgstr "CubicBezierSmooth"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:151
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:13
 msgid "Round"
-msgstr "Abrunden"
+msgstr "Rundung"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:153
 msgid "Zero width"
-msgstr "Null-Breite"
+msgstr "Nullbreite"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:171
 #: ../src/widgets/pencil-toolbar.cpp:115
 msgid "Spiro"
-msgstr "Spirale"
+msgstr "Spiro"
 
-# !!! verb or noun?
 #: ../src/live_effects/lpe-powerstroke.cpp:177
 msgid "Offset points"
 msgstr "Versatzpunkte"
@@ -10688,29 +10679,28 @@ msgstr "Punkte sortieren"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:178
 msgid "Sort offset points according to their time value along the curve"
-msgstr ""
-"Sortiert versetzte Punkte entsprechend ihres Zeitwertes entlang der Kurve"
+msgstr "Sortiert Versatzpunkte entsprechend ihres Zeitwertes entlang der Kurve"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:180
 #: ../share/extensions/fractalize.inx.h:3
 msgid "Smoothness:"
-msgstr "Glattheit:"
+msgstr "Glättung:"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:180
 msgid ""
 "Sets the smoothness for the CubicBezierJohan interpolator; 0 = linear "
 "interpolation, 1 = smooth"
 msgstr ""
-"Setzt die Weichheit für den CubicBezierJohan-Interpolator; 0 = Lineare "
-"Interpolation, 1 = weich"
+"Setzt die Glättung für den CubicBezierJohan Interpolator; 0 = lineare "
+"Interpolation, 1 = abgerundet"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:181
 msgid "Start cap:"
-msgstr "Anfang:"
+msgstr "Abschluss Pfadanfang:"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:181
 msgid "Determines the shape of the path's start"
-msgstr "Bestimmt die Form des Pfad-Start"
+msgstr "Bestimmt die Form des Pfadanfangs"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:183
 #: ../src/widgets/stroke-style.cpp:278
@@ -10719,11 +10709,11 @@ msgstr "Maximale Länge der Gehrung (in Vielfachen der Konturlinienbreite)"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:184
 msgid "End cap:"
-msgstr "Ende:"
+msgstr "Abschluss Pfadende:"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:184
 msgid "Determines the shape of the path's end"
-msgstr "Bestimmt die Form des Pfad-Endes"
+msgstr "Bestimmt die Form des Pfadendes"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:225
 msgid "Frequency randomness:"
@@ -10744,14 +10734,14 @@ msgstr "Zunahme des Abstands zwischen den Strichen"
 #. FIXME: top/bottom names are inverted in the UI/svg and in the code!!
 #: ../src/live_effects/lpe-rough-hatches.cpp:228
 msgid "Half-turns smoothness: 1st side, in:"
-msgstr "Weichheit der Umkehrpunkte: 1. Seite, einlaufend:"
+msgstr "Glättung der Umkehrpunkte: 1. Seite, einlaufend:"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:228
 msgid ""
 "Set smoothness/sharpness of path when reaching a 'bottom' half-turn. "
 "0=sharp, 1=default"
 msgstr ""
-"Wählt Glattheit des Pfades bei Einlaufen in \"unteren\" Wendepunkt. 0=spitz, "
+"Wählt Glättung des Pfades bei Einlaufen in \"unteren\" Wendepunkt. 0=spitz, "
 "1=Standard"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:229
@@ -10763,8 +10753,8 @@ msgid ""
 "Set smoothness/sharpness of path when leaving a 'bottom' half-turn. 0=sharp, "
 "1=default"
 msgstr ""
-"Wählt Glattheit des Pfades bei Auslaufen aus \"unterem\" Wendepunkt. "
-"0=spitz, 1=Standard"
+"Wählt Glättung des Pfades bei Auslaufen aus \"unterem\" Wendepunkt. 0=spitz, "
+"1=Standard"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:230
 msgid "2nd side, in:"
@@ -10775,7 +10765,7 @@ msgid ""
 "Set smoothness/sharpness of path when reaching a 'top' half-turn. 0=sharp, "
 "1=default"
 msgstr ""
-"Wählt Glattheit des Pfades bei Einlaufen in \"oberen\" Wendepunkt. 0=spitz, "
+"Wählt Glättung des Pfades bei Einlaufen in \"oberen\" Wendepunkt. 0=spitz, "
 "1=Standard"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:231
@@ -10787,7 +10777,7 @@ msgid ""
 "Set smoothness/sharpness of path when leaving a 'top' half-turn. 0=sharp, "
 "1=default"
 msgstr ""
-"Wählt Glattheit des Pfades bei Auslaufen aus \"oberen\" Wendepunkt. 0=spitz, "
+"Wählt Glättung des Pfades bei Auslaufen aus \"oberen\" Wendepunkt. 0=spitz, "
 "1=Standard"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:232
@@ -10838,11 +10828,11 @@ msgstr "Varianz: 1. Seite:"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:236
 msgid "Randomness of 'bottom' half-turns smoothness"
-msgstr "Zufall in der Glattheit \"unterer\" Wendepunkte"
+msgstr "Zufall in der Glättung \"unterer\" Wendepunkte"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:237
 msgid "Randomness of 'top' half-turns smoothness"
-msgstr "Zufall in der Glattheit \"oberer\" Wendepunkte"
+msgstr "Zufall in der Glättung \"oberer\" Wendepunkte"
 
 #.
 #: ../src/live_effects/lpe-rough-hatches.cpp:239
