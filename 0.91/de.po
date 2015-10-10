@@ -639,7 +639,7 @@ msgid ""
 "Metallized effect with a soft lighting, slightly translucent at the edges"
 msgstr ""
 "Metallischer Effekt mit weicher Beleuchtung, leicht lichtdurchlässig an den "
-"Kanten "
+"Kanten"
 
 #: ../share/filters/filters.svg.h:214
 msgid "Dragee"
@@ -1047,7 +1047,7 @@ msgstr "Tigerfell"
 
 #: ../share/filters/filters.svg.h:408
 msgid "Tiger fur pattern with folds and bevel around the edges"
-msgstr "Aufgefaltetes Tigerfellmuster mit abgeschrägten Kanten "
+msgstr "Aufgefaltetes Tigerfellmuster mit abgeschrägten Kanten"
 
 #: ../share/filters/filters.svg.h:410
 msgid "Black Light"
@@ -1267,7 +1267,7 @@ msgstr "Batik"
 
 #: ../share/filters/filters.svg.h:476
 msgid "White splotches evocating carnaval masks"
-msgstr "Weiße Flecken, die an  Batik erinnern"
+msgstr "Weiße Flecken, die an Batik erinnern"
 
 #: ../share/filters/filters.svg.h:478
 msgid "Plastify"
@@ -1279,7 +1279,7 @@ msgid ""
 "crumple"
 msgstr ""
 "Kantenerkennung im HSL-Farbraum mit dem Effekt einer reflektierenden "
-"Oberfläche einstellbarer Welligkeit "
+"Oberfläche einstellbarer Welligkeit"
 
 #: ../share/filters/filters.svg.h:482
 msgid "Plaster"
@@ -1359,7 +1359,7 @@ msgstr "Alphagravur B"
 #: ../share/filters/filters.svg.h:516
 msgid ""
 "Gives a controllable roughness engraving effect to bitmaps and materials"
-msgstr "Erzeugt eine einstellbare raue Oberfläche auf Materialien und Bildern "
+msgstr "Erzeugt eine einstellbare raue Oberfläche auf Materialien und Bildern"
 
 #: ../share/filters/filters.svg.h:518
 msgid "Lapping"
@@ -1504,7 +1504,7 @@ msgstr "Reliefdruck"
 #: ../share/filters/filters.svg.h:580
 msgid "Bumps effect with a bevel, color flood and complex lighting"
 msgstr ""
-"Oberflächenstruktur mit Wölbung, Farbfüllung und komplexer Beleuchtung "
+"Oberflächenstruktur mit Wölbung, Farbfüllung und komplexer Beleuchtung"
 
 #: ../share/filters/filters.svg.h:582
 msgid "Growing Cells"
@@ -1809,7 +1809,7 @@ msgstr "Comicartiges Ausbleichen"
 
 #: ../share/filters/filters.svg.h:740
 msgid "Cartoon paint style with some fading at the edges"
-msgstr "Cartoonartiger Farbstil mit leichtem Ausbleichen der Ränder "
+msgstr "Cartoonartiger Farbstil mit leichtem Ausbleichen der Ränder"
 
 #: ../share/filters/filters.svg.h:742
 msgid "Brushed Metal"
@@ -5473,7 +5473,7 @@ msgstr "Gaußsches Rauschen"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:50
 msgid "Multiplicative Gaussian Noise"
-msgstr "Multiplikatives Gaußsches Rauschen "
+msgstr "Multiplikatives Gaußsches Rauschen"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:51
 msgid "Impulse Noise"
@@ -5856,7 +5856,7 @@ msgstr "Angehoben"
 msgid ""
 "Alter lightness the edges of selected bitmap(s) to create a raised appearance"
 msgstr ""
-"Helligkeit von Farbkanten in ausgewählten Bitmap(s)  anpassen, um den "
+"Helligkeit von Farbkanten in ausgewählten Bitmap(s) anpassen, um den "
 "Anschein herausgehobener Ecken zu erwecken."
 
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:40
@@ -7271,8 +7271,9 @@ msgid "Glow"
 msgstr "Glühen"
 
 #: ../src/extension/internal/filter/color.h:1599
+#, fuzzy
 msgid "Glow blend:"
-msgstr "Glühend "
+msgstr "Glühend:"
 
 #: ../src/extension/internal/filter/color.h:1604
 msgid "Local light"
@@ -8016,7 +8017,7 @@ msgstr "Globale Deckkraft"
 
 #: ../src/extension/internal/filter/transparency.h:218
 msgid "Make the lightest parts of the object progressively transparent"
-msgstr "Die hellsten Bereiche des Objekts werden fortschreitend transparenter "
+msgstr "Die hellsten Bereiche des Objekts werden fortschreitend transparenter"
 
 #: ../src/extension/internal/filter/transparency.h:291
 msgid "Set opacity and strength of opacity boundaries"
@@ -9538,7 +9539,7 @@ msgstr "Standartpiktogramm"
 
 #: ../src/libgdl/gdl-dock-object.c:141
 msgid "Stock icon for the dock object"
-msgstr "Standardpiktogramm  für das Dock-Objekt"
+msgstr "Standardpiktogramm für das Dock-Objekt"
 
 #: ../src/libgdl/gdl-dock-object.c:147
 msgid "Pixbuf Icon"
@@ -9891,7 +9892,7 @@ msgstr "Kein Effekt"
 msgid "Please specify a parameter path for the LPE '%s' with %d mouse clicks"
 msgstr ""
 "Bitte spezifizieren Sie einen Parameterpfad für den Pfadeffekt \"%s\" mit %d "
-"Mausklicks. "
+"Mausklicks."
 
 #: ../src/live_effects/effect.cpp:624
 #, c-format
@@ -10821,7 +10822,7 @@ msgstr "Konstruktionslinien:"
 
 #: ../src/live_effects/lpe-sketch.cpp:57
 msgid "How many construction lines (tangents) to draw"
-msgstr "Wie viele Konstruktionslinien (Tangenten)  gezeichnet werden sollen"
+msgstr "Wie viele Konstruktionslinien (Tangenten) gezeichnet werden sollen"
 
 #: ../src/live_effects/lpe-sketch.cpp:58
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2878
@@ -11227,7 +11228,7 @@ msgstr "Dokument in eine Windows-Metadatei (WMF) exportieren"
 
 #: ../src/main.cpp:439
 msgid "Convert text object to paths on export (PS, EPS, PDF, SVG)"
-msgstr "Textelemente beim Export (PS, EPS, PDF, SVG) in Pfade umwandeln "
+msgstr "Textelemente beim Export (PS, EPS, PDF, SVG) in Pfade umwandeln"
 
 #: ../src/main.cpp:444
 msgid ""
@@ -11813,7 +11814,7 @@ msgstr "Eine eindeutige Referenz auf die Quelle im angegebenen Kontext"
 
 #: ../src/rdf.cpp:262
 msgid "A related resource from which the described resource is derived"
-msgstr "Die ürsprüngliche Quelle aus welcher der Inhalt entnommen ist "
+msgstr "Die ürsprüngliche Quelle aus welcher der Inhalt entnommen ist"
 
 #: ../src/rdf.cpp:264
 msgid "Relation:"
@@ -15406,12 +15407,13 @@ msgid "Cone Angle"
 msgstr "Konuswinkel"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1208
+#, fuzzy
 msgid ""
 "This is the angle between the spot light axis (i.e. the axis between the "
 "light source and the point to which it is pointing at) and the spot light "
 "cone. No light is projected outside this cone."
 msgstr ""
-"Öffnungswinkel des Lichtkonus. Außerhalb des Konus gibt es kein Licht. "
+"Öffnungswinkel des Lichtkonus. Außerhalb des Konus gibt es kein Licht."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1274
 msgid "New light source"
@@ -15892,7 +15894,7 @@ msgstr ""
 "Weichzeichnen, Schärfen, Prägen und Kantenerkennung. Achtung: Zwar kann der "
 "gleiche Effekt wie mit dem Gaußschen Weichzeichner erreicht werden, "
 "allerdings ist der spezialisierte Effekt schneller und von der Auflösung "
-"unabhängig. "
+"unabhängig."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2968
 msgid ""
@@ -16704,7 +16706,7 @@ msgstr "Kyrillisch Ergänzend"
 
 #: ../src/ui/dialog/glyphs.cpp:167
 msgid "Arabic Supplement"
-msgstr "Arabisch  Ergänzend"
+msgstr "Arabisch Ergänzend"
 
 #: ../src/ui/dialog/glyphs.cpp:169
 msgid "NKo"
@@ -17234,7 +17236,7 @@ msgid ""
 "Whether selected objects display a selection cue (the same as in selector)"
 msgstr ""
 "Sind die ausgewählten Objekte visuell hervorgehoben (wie beim "
-"Auswahlwerkzeug) "
+"Auswahlwerkzeug)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:190
 msgid "Enable gradient editing"
@@ -17658,7 +17660,7 @@ msgstr "Zeigt Schriftart-Beispiele in der Auswahl-Liste"
 msgid ""
 "Show font samples alongside font names in the drop-down list in Text bar"
 msgstr ""
-"Zeigt Schriftart-Beispiele neben den Schriftartnamen  in der Auswahl-Liste "
+"Zeigt Schriftart-Beispiele neben den Schriftartnamen in der Auswahl-Liste "
 "in der Textleiste"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:453
@@ -17742,7 +17744,7 @@ msgstr "Farbverlauf"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:486
 msgid "Prevent sharing of gradient definitions"
-msgstr "Keine gemeinsamen Verlaufdefinitionen "
+msgstr "Keine gemeinsamen Verlaufdefinitionen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:488
 msgid ""
@@ -19323,7 +19325,7 @@ msgid ""
 "off, it zooms with Ctrl and scrolls without Ctrl"
 msgstr ""
 "Wenn aktiviert kann mit dem Mausrad die Ansicht vergrößert/verkleinert "
-"werden. Ist dies deaktiviert benötigt man dazu Strg+Mausrad. "
+"werden. Ist dies deaktiviert benötigt man dazu Strg+Mausrad."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1221
 msgid "Scrolling"
@@ -19416,7 +19418,7 @@ msgstr "> und < skalieren um:"
 msgid "Pressing > or < scales selection up or down by this increment"
 msgstr ""
 "Drücken von > oder < skaliert die ausgewählten Elemente um diesen Wert "
-"größer oder kleiner (in SVG-Pixeln) "
+"größer oder kleiner (in SVG-Pixeln)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1256
 msgid "_Inset/Outset by:"
@@ -20499,7 +20501,7 @@ msgstr "Bildrendering:"
 #: ../src/ui/dialog/object-properties.cpp:470
 #: ../src/ui/dialog/object-properties.cpp:477
 msgid "_ID:"
-msgstr "_Kennung: "
+msgstr "_Kennung:"
 
 #: ../src/ui/dialog/object-properties.cpp:60
 msgid "_Title:"
@@ -21017,7 +21019,7 @@ msgstr "Name der Glyphe"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:710
 msgid "Matching string"
-msgstr "Passende Zeichenkette "
+msgstr "Übereinstimmende Zeichenkette"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:713
 msgid "Add Glyph"
@@ -22615,7 +22617,7 @@ msgstr "Farbe für geglättete Gitterecke."
 
 #: ../src/ui/tools/mesh-tool.cpp:423
 msgid "Picked mesh corner color."
-msgstr "Ausgewählte Farbe der Gitter-Ecken "
+msgstr "Ausgewählte Farbe der Gitter-Ecken"
 
 #: ../src/ui/tools/mesh-tool.cpp:498
 msgid "Create default mesh"
@@ -29437,7 +29439,7 @@ msgid ""
 "Low fidelity simplifies paths; high fidelity preserves path features but may "
 "generate a lot of new nodes"
 msgstr ""
-"Geringere Originaltreue  vereinfacht den Pfad. Ein hoher Wert erhält die "
+"Geringere Originaltreue vereinfacht den Pfad. Ein hoher Wert erhält die "
 "Pfadstruktur, erzeugt aber viele neuen Knoten"
 
 #: ../src/widgets/tweak-toolbar.cpp:373
@@ -29521,7 +29523,7 @@ msgid ""
 "option"
 msgstr ""
 "Fehler: Feld 'Übereinstimmender Ebenenname' muss ausgefüllt sein, wenn die "
-"Option 'Nach Namensübereinstimmung'  verwendet wird. "
+"Option 'Nach Namensübereinstimmung' verwendet wird."
 
 #: ../share/extensions/dxf_outlines.py:341
 #, python-format
@@ -29754,8 +29756,9 @@ msgstr ""
 #: ../share/extensions/gcodetools.py:4767
 #: ../share/extensions/gcodetools.py:4956
 #: ../share/extensions/gcodetools.py:5011
+#, fuzzy
 msgid "Warning: omitting non-path"
-msgstr "Warnung:  non-path weglassen"
+msgstr "Warnung: non-path weglassen"
 
 #: ../share/extensions/gcodetools.py:5511
 msgid "Please select at least one path to engrave and run again."
@@ -29929,7 +29932,7 @@ msgstr ""
 #: ../share/extensions/inkex.py:169
 #, python-format
 msgid "Unable to open specified file: %s"
-msgstr "Kann bestimmte Datei nicht öffnen:.%s"
+msgstr "Kann bestimmte Datei nicht öffnen: %s"
 
 #: ../share/extensions/inkex.py:178
 #, python-format
@@ -30900,7 +30903,7 @@ msgid ""
 msgstr ""
 "Diese Erweiterung ersetzt die Auswahl der Knoten mit nummerierten Punkte "
 "nach den folgenden Optionen:\n"
-"     * Schriftgröße:. Größe der Knoten-Nummer Etiketten (20px, 12pt ...)\n"
+"     * Schriftgröße: Größe der Knoten-Nummer Etiketten (20px, 12pt ...)\n"
 "     * Punktgröße: Durchmesser der Punkte am Pfad Knoten platziert (10px, "
 "2mm ...).\n"
 "     * Anfangs-Punktnummer: Erste Zahl in der Sequenz, zugeordnet dem ersten "
@@ -31706,7 +31709,7 @@ msgid ""
 msgstr ""
 "\"Erstelle Flächenversatz\": Erstellt verschiedene Inkscape-Pfadversätze, um "
 "die originale Pfadfläche bis zum \"Flächenradius\"-Wert zu füllen. Umrisse "
-"starten von \"1/2 D\" bis zur  \"Flächenbreite\" totale Breite mit \"D\" "
+"starten von \"1/2 D\" bis zur \"Flächenbreite\" totale Breite mit \"D\" "
 "Schritten, wobei D von der nähestenis Werkzeugdefinition genommen wird "
 "(\"Werkzeugdurchmesser\" Wert). Nur ein Versatz wird erstellt, wenn die "
 "\"Flächenbreite\" gleich \"1/2 D\" ist."
@@ -32195,7 +32198,7 @@ msgstr ""
 "stattdessen nehmen). Sie können die Z-Oberfläche modifizieren, die Z-Tiefen-"
 "Werte später mit Text-Werkzeug (3. Koordinaten). Wenn es keine "
 "Orientierungspunkte in der aktuellen Ebene gibt, werden sie von der oberen "
-"Schicht genommen. Die Gruppierung von Orientierungspunkten nicht  aufheben! "
+"Schicht genommen. Die Gruppierung von Orientierungspunkten nicht aufheben! "
 "Sie können diese mit Doppelklick auf die Gruppe auswählen oder durch Strg"
 "+Eingabe-Taste. Jetzt drücken Sie Anwenden, um die Kontrollpunkte "
 "(unabhängiger Satz für jede Ebene) zu erstellen."
@@ -32488,7 +32491,7 @@ msgstr "Unter-Unterteilungen pro X-Unterteilung"
 msgid "Halve X Subsubdiv. Frequency after 'n' Subdivs. (log only):"
 msgstr ""
 "Halbiert X-Unter-Unterteilungsfrequenz nach n Unterteilungen. (nur "
-"Logarithmus) "
+"Logarithmus)"
 
 #: ../share/extensions/grid_cartesian.inx.h:10
 msgid "Major X Division Thickness (px):"
@@ -32530,7 +32533,7 @@ msgstr "Unter-Unterteilungen pro Y-Unterteilung"
 msgid "Halve Y Subsubdiv. Frequency after 'n' Subdivs. (log only):"
 msgstr ""
 "Halbiert Y-Unter-Unterteilungsfrequenz nach n Unterteilungen. (nur "
-"Logarithmus) "
+"Logarithmus)"
 
 #: ../share/extensions/grid_cartesian.inx.h:20
 msgid "Major Y Division Thickness (px):"
@@ -32947,7 +32950,7 @@ msgid ""
 msgstr ""
 "Bitte beachten Sie, das nur HPGL-Dateien geöffnet werden können, welche mit "
 "Inkscape erstellt wurden. Um andere HPGL-Dateien zu öffnen, ändern Sie die "
-"Dateiendung  zu .plt, stellen Sie sicher das UniConverter installiert ist "
+"Dateiendung zu .plt, stellen Sie sicher das UniConverter installiert ist "
 "und öffnen Sie die Datei erneut."
 
 #: ../share/extensions/hpgl_input.inx.h:3
@@ -34154,7 +34157,7 @@ msgstr "Maßstab (Zeichnung:Wirkliche Länge) = 1:"
 
 #: ../share/extensions/measure.inx.h:10
 msgid "Length Unit:"
-msgstr "Längeneinheit: "
+msgstr "Längeneinheit:"
 
 #: ../share/extensions/measure.inx.h:12
 msgctxt "measure extension"
@@ -34533,7 +34536,7 @@ msgid ""
 "Linux something like: '/dev/ttyUSB0' (Default: COM1)"
 msgstr ""
 "Der Port Ihrer seriellen Verbindung ist unter Windows so etwas wie \"COM1\", "
-"unter Linux  so etwas wie: \"/dev/ttyUSB0\" (Standard: COM1)"
+"unter Linux so etwas wie: \"/dev/ttyUSB0\" (Standard: COM1)"
 
 #: ../share/extensions/plotter.inx.h:6
 msgid "Serial baud rate:"
@@ -35350,7 +35353,7 @@ msgid ""
 "level."
 msgstr ""
 "Diese Erweiterung optimiert die SVG-Datei nach den folgenden Optionen:\n"
-"     * Kürzen der Farbnamen:. Konvertiert alle Farben in #RRGGBB oder #RGB-"
+"     * Kürzen der Farbnamen: Konvertiert alle Farben in #RRGGBB oder #RGB-"
 "Format.\n"
 "     * Konvertieren von CSS-Attributen zu XML-Attribute: Styles konvertieren "
 "&lt;style&gt; Tags und Inline-style=\"\" Deklarationen zu XML-Attributen.\n"
@@ -36101,7 +36104,7 @@ msgid ""
 "space, and only with a space."
 msgstr ""
 "Wenn Sie mehr als ein Attribut setzen wollen, müssen Sie diese mit einzelnen "
-"Leerzeichen trennen. "
+"Leerzeichen trennen."
 
 #: ../share/extensions/web-set-att.inx.h:29
 #: ../share/extensions/web-transmit-att.inx.h:27
@@ -36218,7 +36221,7 @@ msgstr "Erzwungene Dimension:"
 #. i18n. Description duplicated in a fake value attribute in order to make it translatable
 #: ../share/extensions/webslicer_create_rect.inx.h:7
 msgid "Force Dimension must be set as <width>x<height>"
-msgstr "Die erzwungene Dimension muss als  <Breite>x<Höhe> gesetzt werden."
+msgstr "Die erzwungene Dimension muss als <Breite>x<Höhe> gesetzt werden."
 
 #: ../share/extensions/webslicer_create_rect.inx.h:8
 msgid "If set, this will replace DPI."
@@ -37605,7 +37608,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Ziehen von Verbinder-Endpunkten abgebrochen."
 
 #~ msgid "_Text:"
-#~ msgstr "_Text: "
+#~ msgstr "_Text:"
 
 #~ msgid "Find objects by their text content (exact or partial match)"
 #~ msgstr ""
@@ -37619,7 +37622,7 @@ msgstr "XAML einlesen"
 #~ "Übereinstimmung)"
 
 #~ msgid "_Style:"
-#~ msgstr "_Stil: "
+#~ msgstr "_Stil:"
 
 #~ msgid ""
 #~ "Find objects by the value of the style attribute (exact or partial match)"
@@ -37627,7 +37630,7 @@ msgstr "XAML einlesen"
 #~ "Objekte nach ihren Stilen finden (exakte oder teilweise Übereinstimmung)"
 
 #~ msgid "_Attribute:"
-#~ msgstr "_Attribut: "
+#~ msgstr "_Attribut:"
 
 #~ msgid "Find objects by the name of an attribute (exact or partial match)"
 #~ msgstr ""
@@ -38330,7 +38333,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Schwarzer Umriss"
 
 #~ msgid "Draws a black outline around"
-#~ msgstr "Zeichnet einen schwarzen Umriss "
+#~ msgstr "Zeichnet einen schwarzen Umriss"
 
 #~ msgid "Color outline"
 #~ msgstr "Farbige Außenlinie"
@@ -38571,7 +38574,7 @@ msgstr "XAML einlesen"
 #~ "Adobe Illustrator-Elementen und Attribute.\n"
 #~ "    * Vorschau einschalten: Setzt Bildgröße auf 100%/100% und fügt eine "
 #~ "Vorschau ein.\n"
-#~ "    * Herauslösen des XML Prologes:   Es wird kein XML-Prolog "
+#~ "    * Herauslösen des XML Prologes: Es wird kein XML-Prolog "
 #~ "ausgegeben.\n"
 #~ "    * Genauigkeit: Anzahl der maßgeblichen Stellen setzen (Vorgabe: 5).\n"
 #~ "    * Einzug: Einrücken der Ausgabe: Kein, Space, Tab (Vorgabe: Space)."
