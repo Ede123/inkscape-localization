@@ -38551,35 +38551,6 @@ msgstr "XAML einlesen"
 #~ msgid "Boolops"
 #~ msgstr "Bool'sche Operationen"
 
-#, fuzzy
-#~ msgid "Start path lean"
-#~ msgstr "Überprüfung starten"
-
-#, fuzzy
-#~ msgid "End path lean"
-#~ msgstr "2. Pfad:"
-
-# !!!
-#, fuzzy
-#~ msgid "<b>Roughen unit</b>"
-#~ msgstr "<b>Segment</b>"
-
-#, fuzzy
-#~ msgid "Helper nodes"
-#~ msgstr "Hilfsknoten"
-
-#, fuzzy
-#~ msgid "Show helper nodes"
-#~ msgstr "Hilfsknoten anzeigen"
-
-#, fuzzy
-#~ msgid "Helper handles"
-#~ msgstr "Hilfsanfasser"
-
-#, fuzzy
-#~ msgid "Show helper handles"
-#~ msgstr "Hilfsanfasser anzeigen"
-
 #~ msgid "pySerial is not installed."
 #~ msgstr "pySerial ist nicht installiert."
 
@@ -38592,20 +38563,8 @@ msgstr "XAML einlesen"
 #~ msgid "EPS+LaTeX: Omit text in EPS, and create LaTeX file"
 #~ msgstr "EPS+LaTeX: Text in EPS weglassen und LaTeX Datei erstellen"
 
-#, fuzzy
-#~ msgid "Show helper paths"
-#~ msgstr "Hilfspfade anzeigen"
-
 #~ msgid "_Templates..."
 #~ msgstr "_Vorlagen..."
-
-#, fuzzy
-#~ msgid "Custom Width (px.):"
-#~ msgstr "Breite, px"
-
-#, fuzzy
-#~ msgid "Custom Height (px.):"
-#~ msgstr "Höhe (px):"
 
 #~ msgid "A4 Landscape Page"
 #~ msgstr "A4 Querformat"
