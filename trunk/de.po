@@ -1509,8 +1509,7 @@ msgstr "Reliefdruck"
 
 #: ../share/filters/filters.svg.h:580
 msgid "Bumps effect with a bevel, color flood and complex lighting"
-msgstr ""
-"Oberflächenstruktur mit Wölbung, Farbfüllung und komplexer Beleuchtung"
+msgstr "Oberflächenstruktur mit Wölbung, Farbfüllung und komplexer Beleuchtung"
 
 #: ../share/filters/filters.svg.h:582
 msgid "Growing Cells"
@@ -5154,7 +5153,7 @@ msgstr "Rauschen hinzufügen"
 #: ../share/extensions/jessyInk_transitions.inx.h:5
 #: ../share/extensions/webslicer_create_rect.inx.h:14
 msgid "Type:"
-msgstr "Type:"
+msgstr "Art:"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:48
 msgid "Uniform Noise"
@@ -6149,7 +6148,7 @@ msgstr "Mischen:"
 #: ../src/extension/internal/filter/transparency.h:63
 #: ../src/filter-enums.cpp:55
 msgid "Darken"
-msgstr "Verdunkeln"
+msgstr "Abdunkeln"
 
 #: ../src/extension/internal/filter/blurs.h:193
 #: ../src/extension/internal/filter/blurs.h:340
@@ -6166,7 +6165,7 @@ msgstr "Verdunkeln"
 #: ../src/extension/internal/filter/transparency.h:62
 #: ../src/filter-enums.cpp:54 ../src/ui/dialog/input.cpp:382
 msgid "Screen"
-msgstr "Screen"
+msgstr "Negativ multiplizieren"
 
 #: ../src/extension/internal/filter/blurs.h:194
 #: ../src/extension/internal/filter/blurs.h:341
@@ -6248,7 +6247,7 @@ msgstr "Hintergrundfarbe"
 #: ../src/extension/internal/filter/blurs.h:337
 #: ../src/extension/internal/filter/bumps.h:129
 msgid "Blend type:"
-msgstr "Misch-Typ:"
+msgstr "Mischmodus:"
 
 #: ../src/extension/internal/filter/blurs.h:338
 #: ../src/extension/internal/filter/bumps.h:130
@@ -6272,7 +6271,7 @@ msgstr "Normal"
 
 #: ../src/extension/internal/filter/blurs.h:344
 msgid "Blend to background"
-msgstr "Mischen zum Hintergrund"
+msgstr "Mit Hintergrund mischen"
 
 #: ../src/extension/internal/filter/blurs.h:354
 msgid "Blur eroded by white or transparency"
@@ -6997,7 +6996,7 @@ msgstr "Farbton verbessern"
 
 #: ../src/extension/internal/filter/color.h:1663
 msgid "Phosphorescence"
-msgstr "Phosphorisierend"
+msgstr "Phosphoreszenz"
 
 #: ../src/extension/internal/filter/color.h:1664
 msgid "Colored nights"
@@ -7009,16 +7008,15 @@ msgstr "Farbton zu Hintergrund"
 
 #: ../src/extension/internal/filter/color.h:1667
 msgid "Global blend:"
-msgstr "Globales Mischen:"
+msgstr "Mischmodus (global):"
 
 #: ../src/extension/internal/filter/color.h:1673
 msgid "Glow"
 msgstr "Glühen"
 
 #: ../src/extension/internal/filter/color.h:1674
-#, fuzzy
 msgid "Glow blend:"
-msgstr "Glühend:"
+msgstr "Mischmodus (Glühen):"
 
 #: ../src/extension/internal/filter/color.h:1679
 msgid "Local light"
@@ -15771,13 +15769,13 @@ msgid "Cone Angle"
 msgstr "Konuswinkel"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1209
-#, fuzzy
 msgid ""
 "This is the angle between the spot light axis (i.e. the axis between the "
 "light source and the point to which it is pointing at) and the spot light "
 "cone. No light is projected outside this cone."
 msgstr ""
-"Öffnungswinkel des Lichtkonus. Außerhalb des Konus gibt es kein Licht."
+"Öffnungswinkel des Lichtkonus (gemessen vom Zentralstrahl zum Rand). Kein "
+"Licht fällt außerhalb der Grenzen dieses Kegels."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1275
 msgid "New light source"
@@ -31556,9 +31554,8 @@ msgstr ""
 #: ../share/extensions/gcodetools.py:4767
 #: ../share/extensions/gcodetools.py:4956
 #: ../share/extensions/gcodetools.py:5011
-#, fuzzy
 msgid "Warning: omitting non-path"
-msgstr "Warnung: non-path weglassen"
+msgstr "Warnung: Objekt wird weglassen (ist kein Pfad)"
 
 #: ../share/extensions/gcodetools.py:5511
 msgid "Please select at least one path to engrave and run again."
@@ -34865,8 +34862,8 @@ msgid ""
 msgstr ""
 "Bitte beachten Sie, das nur HPGL-Dateien geöffnet werden können, welche mit "
 "Inkscape erstellt wurden. Um andere HPGL-Dateien zu öffnen, ändern Sie die "
-"Dateiendung zu .plt, stellen Sie sicher das UniConverter installiert ist "
-"und öffnen Sie die Datei erneut."
+"Dateiendung zu .plt, stellen Sie sicher das UniConverter installiert ist und "
+"öffnen Sie die Datei erneut."
 
 #: ../share/extensions/hpgl_input.inx.h:3
 #: ../share/extensions/hpgl_output.inx.h:4
@@ -40831,8 +40828,7 @@ msgstr "XAML einlesen"
 #~ "Adobe Illustrator-Elementen und Attribute.\n"
 #~ "    * Vorschau einschalten: Setzt Bildgröße auf 100%/100% und fügt eine "
 #~ "Vorschau ein.\n"
-#~ "    * Herauslösen des XML Prologes: Es wird kein XML-Prolog "
-#~ "ausgegeben.\n"
+#~ "    * Herauslösen des XML Prologes: Es wird kein XML-Prolog ausgegeben.\n"
 #~ "    * Genauigkeit: Anzahl der maßgeblichen Stellen setzen (Vorgabe: 5).\n"
 #~ "    * Einzug: Einrücken der Ausgabe: Kein, Space, Tab (Vorgabe: Space)."
 
@@ -41205,7 +41201,7 @@ msgstr "XAML einlesen"
 
 #~ msgctxt "Filter blend mode"
 #~ msgid "Screen"
-#~ msgstr "Screen"
+#~ msgstr "Negativ multiplizieren"
 
 #~ msgid "When the original is deleted, its clones:"
 #~ msgstr "Wenn das Original gelöscht wird, werden Klone:"
