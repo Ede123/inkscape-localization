@@ -5287,7 +5287,7 @@ msgstr "Einfärben"
 
 #: ../src/extension/internal/bitmap/colorize.cpp:58
 msgid "Colorize selected bitmap(s) with specified color, using given opacity"
-msgstr "Färbt ausgewählte Bitmap(s) mit gegebener Farbe und Deckkraft ein."
+msgstr "Färbt ausgewählte Bitmap(s) mit angegebener Farbe und Deckkraft ein."
 
 #: ../src/extension/internal/bitmap/contrast.cpp:40
 #: ../src/extension/internal/filter/color.h:1189
@@ -5453,7 +5453,7 @@ msgid ""
 "Level the specified channel of selected bitmap(s) by scaling values falling "
 "between the given ranges to the full color range"
 msgstr ""
-"Bestimmten Kanal in ausgewählten Bitmaps angleichen, indem Werte im "
+"Angegebenen Kanal in ausgewählten Bitmaps angleichen, indem Werte im "
 "angegebenen Bereich zum vollen Farbumfang hochskaliert werden."
 
 #: ../src/extension/internal/bitmap/medianFilter.cpp:37
@@ -5768,7 +5768,7 @@ msgstr "Seitengröße vom Dokument nutzen"
 #: ../src/extension/internal/cairo-ps-out.cpp:384
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:259
 msgid "Use exported object's size"
-msgstr "Nutze exportierte Objektgröße"
+msgstr "Exportierte Objektgröße benutzen"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:344
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:261
@@ -7661,7 +7661,7 @@ msgstr "Farbe verwischen"
 
 #: ../src/extension/internal/filter/shadows.h:74
 msgid "Use object's color"
-msgstr "Benutze Farben des Objektes"
+msgstr "Farben des Objektes benutzen"
 
 #: ../src/extension/internal/filter/shadows.h:84
 msgid "Colorizable Drop shadow"
@@ -9236,7 +9236,7 @@ msgstr "Dock-Objekt, dem dieser Tabbezeichner \"gehört\"."
 #: ../src/libgdl/gdl-dock.c:176 ../src/ui/dialog/inkscape-preferences.cpp:674
 #: ../src/ui/dialog/inkscape-preferences.cpp:717
 msgid "Floating"
-msgstr "Schwebend."
+msgstr "Schwebend"
 
 #: ../src/libgdl/gdl-dock.c:177
 msgid "Whether the dock is floating in its own window"
@@ -9470,7 +9470,7 @@ msgstr "Punkte interpolieren"
 
 #: ../src/live_effects/effect.cpp:154
 msgid "Transform by 2 points"
-msgstr "Transformation in 2 Punkten"
+msgstr "Transformation an 2 Punkten"
 
 #: ../src/live_effects/effect.cpp:361
 msgid "Is visible?"
@@ -9674,7 +9674,7 @@ msgstr "Spitzen generieren"
 
 #: ../src/live_effects/lpe-bspline.cpp:148
 msgid "Change to default weight"
-msgstr "Gewichtung auf den Standard setzen"
+msgstr "Gewichtung mit Standardwert"
 
 #: ../src/live_effects/lpe-bspline.cpp:154
 msgid "Change to 0 weight"
@@ -14601,7 +14601,7 @@ msgstr "Breite, Höhe: "
 
 #: ../src/ui/dialog/clonetiler.cpp:1178
 msgid "Fill the specified width and height with the tiling"
-msgstr "Durch Höhe und Breite angegebenen Bereich mit Füllmuster versehen"
+msgstr "Durch Höhe und Breite festgelegte Fläche mit Füllmuster versehen"
 
 #: ../src/ui/dialog/clonetiler.cpp:1199
 msgid "Use saved size and position of the tile"
@@ -14924,7 +14924,7 @@ msgid ""
 "specified below"
 msgstr ""
 "Nur an anderen Objekten einrasten, wenn diese innerhalb der unten "
-"definierten Reichweite sind."
+"festgelegten Reichweite sind."
 
 #. Options for snapping to grids
 #: ../src/ui/dialog/document-properties.cpp:137
@@ -14950,7 +14950,7 @@ msgid ""
 "If set, objects only snap to a grid line when it's within the range "
 "specified below"
 msgstr ""
-"Nur an Gitterlinien einrasten, wenn diese innerhalb der unten definierten "
+"Nur an Gitterlinien einrasten, wenn diese innerhalb der unten festgelegten "
 "Reichweite sind."
 
 #. Options for snapping to guides
@@ -14977,7 +14977,7 @@ msgid ""
 "If set, objects only snap to a guide when it's within the range specified "
 "below"
 msgstr ""
-"Nur an Hilfslinien einrasten, wenn diese innerhalb der unten definierten "
+"Nur an Hilfslinien einrasten, wenn diese innerhalb der unten festgelegten "
 "Reichweite sind."
 
 #. ---------------------------------------------------------------
@@ -18125,7 +18125,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:492
 msgid "Use legacy Gradient Editor"
-msgstr "Nutze den alten Farbverlaufs-Editor"
+msgstr "Alten Farbverlaufseditor benutzen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:494
 msgid ""
@@ -18731,11 +18731,11 @@ msgstr "Andockbar"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:677
 msgid "Native open/save dialogs"
-msgstr "Ursprüngliche Öffnen/Speichern-Dialoge"
+msgstr "Native Dialoge für Öffnen/Speichern"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:678
 msgid "GTK open/save dialogs"
-msgstr "GTk Öffnen/Speichern-Dialog"
+msgstr "GTK Dialoge für Öffnen/Speichern"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:680
 msgid "Dialogs are hidden in taskbar"
@@ -18821,11 +18821,13 @@ msgstr "Desktopintegration"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:721
 msgid "Use Windows like open and save dialogs"
-msgstr "Nutze Windows-artige Öffnen- und Speichern-Dialoge"
+msgstr ""
+"Ans Windows-Design angelehnte Dialoge für Öffnen und Speichern benutzen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:723
 msgid "Use GTK open and save dialogs "
-msgstr "Nutze GTK-Öffnen- und Speichern-Dialoge"
+msgstr ""
+"Dialoge der Komponentenbibliothek GTK für Öffnen und Speichern benutzen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:727
 msgid "Dialogs on top:"
@@ -19091,7 +19093,7 @@ msgstr "Eingabegeräte"
 #. SVG output options
 #: ../src/ui/dialog/inkscape-preferences.cpp:912
 msgid "Use named colors"
-msgstr "Benutze Farbnamen"
+msgstr "Farbnamen benutzen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:913
 msgid ""
@@ -19895,9 +19897,9 @@ msgid ""
 "additional fraction of a second. This additional delay is specified here. "
 "When set to zero or to a very small number, snapping will be immediate."
 msgstr ""
-"Unterdrückt das Einrasten, so lange sich die Maus bewegt plus einen "
-"zusätzlichen Sekundenbruchteil. Diese additive Verzögerung wird hier "
-"festgelegt. Ist sie sehr klein, passiert das Einrasten sofort."
+"Einrasten während sich die Maus bewegt, sowie für einen Sekundenbruchteil "
+"danach, unterdrücken. Diese zusätzliche Verzögerung wird hier festgelegt. "
+"Ist sie Null oder sehr klein erfolg sofortiges Einrasten."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1294
 msgid "Snapping"
@@ -31412,7 +31414,7 @@ msgid ""
 "Can not write to specified file!\n"
 "%s"
 msgstr ""
-"Kann nicht in die Datei schreiben.\n"
+"Kann nicht in angegebene Datei schreiben!\n"
 "%s"
 
 #: ../share/extensions/gcodetools.py:4040
@@ -31555,7 +31557,7 @@ msgstr ""
 #: ../share/extensions/gcodetools.py:4956
 #: ../share/extensions/gcodetools.py:5011
 msgid "Warning: omitting non-path"
-msgstr "Warnung: Objekt wird weglassen (ist kein Pfad)"
+msgstr "Warnung: Objekt wird weggelassen (ist kein Pfad)"
 
 #: ../share/extensions/gcodetools.py:5511
 msgid "Please select at least one path to engrave and run again."
@@ -31734,7 +31736,7 @@ msgstr ""
 #: ../share/extensions/inkex.py:169
 #, python-format
 msgid "Unable to open specified file: %s"
-msgstr "Kann bestimmte Datei nicht öffnen: %s"
+msgstr "Kann angegebene Datei nicht öffnen: %s"
 
 #: ../share/extensions/inkex.py:178
 #, python-format
@@ -32108,20 +32110,19 @@ msgstr ""
 
 #: ../share/extensions/polyhedron_3d.py:336
 msgid "No face data found in specified file."
-msgstr "Keine Flächendaten im ausgewählter Datei gefunden"
+msgstr "Keine Flächendaten in ausgewählter Datei gefunden"
 
 #: ../share/extensions/polyhedron_3d.py:337
 msgid "Try selecting \"Edge Specified\" in the Model File tab.\n"
-msgstr "Versuchen Sie es mit \"kantendefiniert\" im Modeldatei-Reiter.\n"
+msgstr "Versuchen Sie es mit \"Kantendefiniert\" im Modeldatei-Reiter.\n"
 
 #: ../share/extensions/polyhedron_3d.py:343
 msgid "No edge data found in specified file."
-msgstr ""
-"In der spezifizierten Datei wurden keine Kantenbeschreibungen gefunden."
+msgstr "In der angegebenen Datei wurden keine Kantenbeschreibungen gefunden."
 
 #: ../share/extensions/polyhedron_3d.py:344
 msgid "Try selecting \"Face Specified\" in the Model File tab.\n"
-msgstr "Versuchen Sie es mit \"flächendefiniert\" im Modeldatei-Reiter.\n"
+msgstr "Versuchen Sie es mit \"Flächendefiniert\" im Modeldatei-Reiter.\n"
 
 #. we cannot generate a list of faces from the edges without a lot of computation
 #: ../share/extensions/polyhedron_3d.py:522
@@ -32713,11 +32714,11 @@ msgstr "Punktgröße:"
 
 #: ../share/extensions/dots.inx.h:5
 msgid "Starting dot number:"
-msgstr "Sartpunkt Knotennummer:"
+msgstr "Startnummer:"
 
 #: ../share/extensions/dots.inx.h:6
 msgid "Step:"
-msgstr "Schritt:"
+msgstr "Schrittweite:"
 
 #: ../share/extensions/dots.inx.h:8
 msgid ""
@@ -32729,14 +32730,13 @@ msgid ""
 "first node of the path.\n"
 "    * Step: numbering step between two nodes."
 msgstr ""
-"Diese Erweiterung ersetzt die Auswahl der Knoten mit nummerierten Punkte "
-"nach den folgenden Optionen:\n"
-"     * Schriftgröße: Größe der Knoten-Nummer Etiketten (20px, 12pt ...)\n"
-"     * Punktgröße: Durchmesser der Punkte am Pfad Knoten platziert (10px, "
-"2mm ...).\n"
-"     * Anfangs-Punktnummer: Erste Zahl in der Sequenz, zugeordnet dem ersten "
-"Knoten des Pfades.\n"
-"     * Schritt: Nummerierung des Schrittes zwischen zwei Knoten."
+"Diese Erweiterung ersetzt die ausgwählten Knoten mit nummerierten Punkten "
+"entsprechend der folgenden Einstellungen:\n"
+"     * Schriftgröße: Größe der Nummerierung (20px, 12pt...).\n"
+"     * Punktgröße: Durchmesser der Punkte (10px, 2mm...).\n"
+"     * Startnummer: Erste Zahl in der Reihe, die dem ersten Knoten des "
+"Pfades zugeordnet wird.\n"
+"     * Schrittweite: Abstand der Nummerierung zwischen zwei Knoten."
 
 #: ../share/extensions/draw_from_triangle.inx.h:1
 msgid "Draw From Triangle"
@@ -32838,7 +32838,7 @@ msgstr "Optionen und benutzerdefinierte Punkte"
 
 #: ../share/extensions/draw_from_triangle.inx.h:25
 msgid "Custom Point Specified By:"
-msgstr "Benutzerspezifischer Punkt definiert durch:"
+msgstr "Benutzerdefinierter Punkt festgelegt durch:"
 
 #: ../share/extensions/draw_from_triangle.inx.h:26
 msgid "Point At:"
@@ -36259,8 +36259,8 @@ msgstr ""
 "Pfades. Länge und Fläche werden als Textobjekt mit den gewählten Einheiten "
 "eingefügt.\n"
 "\n"
-"  * Der Text kann entweder als Text-auf-Pfad oder als eigenständiger Text in "
-"einem definierten Winkel formatiert werden \n"
+"  * Der Text kann entweder entlang des Pfades oder als eigenständiger Text "
+"in einem festgelegten Winkel ausgerichtet werden \n"
 "  * Die Anzahl der Nachkommastellen wird durch \"Präzision\" gewählt.\n"
 "  * Das Feld \"Versatz\" kontrolliert die Entfernung Text-Pfad. \n"
 "  * Der \"Maßstab\" kann zur Messung skalierter Pfade verwendet werden (M = "
@@ -36849,11 +36849,11 @@ msgstr "Lade von Datei"
 
 #: ../share/extensions/polyhedron_3d.inx.h:24
 msgid "Face-Specified"
-msgstr "Flächenspezifiziert"
+msgstr "Flächendefiniert"
 
 #: ../share/extensions/polyhedron_3d.inx.h:25
 msgid "Edge-Specified"
-msgstr "Kantenspezifiziert"
+msgstr "Kantendefiniert"
 
 #: ../share/extensions/polyhedron_3d.inx.h:27
 msgid "Rotate around:"
