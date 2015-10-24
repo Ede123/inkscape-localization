@@ -1,6 +1,7 @@
 # German translation for Inkscape.
 # This file is distributed under the same license as the Inkscape package.
 # Copyright (C) 2000-2003, 2006, 2007 Free Software Foundation, Inc.
+#
 # Kai Lahmann <kailahmann@01019freenet.de>, 2000.
 # Benedikt Roth <Benedikt.Roth@gmx.net>, 2000.
 # Christian Meyer <chrisime@gnome.org>, 2000-2002.
@@ -15,16 +16,15 @@
 # Benjamin Weis <benjamin.weis@gmx.com>, 2014.
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015.
-# Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015
-#
+# Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-22 10:09+0200\n"
-"PO-Revision-Date: 2015-10-02 16:07+0200\n"
-"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2015-10-24 19:56+0200\n"
+"Last-Translator: Maren Hachmann\n"
+"Language-Team:\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Language: de_DE\n"
 "X-Source-Language: C\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -8621,11 +8621,11 @@ msgstr "Duplizieren"
 msgid "Wrap"
 msgstr "Umbrechen"
 
-# CHECK
+# Modus im Filtereditor
 #: ../src/filter-enums.cpp:122
 msgctxt "Convolve matrix, edge mode"
 msgid "None"
-msgstr "Keine"
+msgstr "Keiner"
 
 #: ../src/filter-enums.cpp:137
 msgid "Erode"
@@ -12657,7 +12657,7 @@ msgstr "Zu klonendes <b>Objekt</b> auswählen."
 #: ../src/selection-chemistry.cpp:2602
 msgctxt "Action"
 msgid "Clone"
-msgstr "Klone"
+msgstr "Klonen"
 
 #: ../src/selection-chemistry.cpp:2616
 msgid "Select <b>clones</b> to relink."
@@ -18753,11 +18753,10 @@ msgstr "Zeichnungsgröße ändern, wenn die Fenstergröße verändert wird"
 msgid "Show close button on dialogs"
 msgstr "Schaltflächen zum Schließen von Dialogen zeigen"
 
-# CHECK
 #: ../src/ui/dialog/inkscape-preferences.cpp:684
 msgctxt "Dialog on top"
 msgid "None"
-msgstr "Keine"
+msgstr "Nein"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:686
 msgid "Aggressive"
@@ -18831,7 +18830,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:727
 msgid "Dialogs on top:"
-msgstr "Dialoge im Vordergrund:"
+msgstr "Dialoge immer im Vordergrund:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:730
 msgid "Dialogs are treated as regular windows"
@@ -23766,17 +23765,17 @@ msgstr "Keine"
 #: ../src/ui/tools/flood-tool.cpp:103
 msgctxt "Flood autogap"
 msgid "Small"
-msgstr "Klein"
+msgstr "Kleine"
 
 #: ../src/ui/tools/flood-tool.cpp:104
 msgctxt "Flood autogap"
 msgid "Medium"
-msgstr "Mittel"
+msgstr "Mittelgroße"
 
 #: ../src/ui/tools/flood-tool.cpp:105
 msgctxt "Flood autogap"
 msgid "Large"
-msgstr "Groß"
+msgstr "Große"
 
 #: ../src/ui/tools/flood-tool.cpp:415
 msgid "<b>Too much inset</b>, the result is empty."
@@ -27258,7 +27257,7 @@ msgstr "Farbverläufe erstellen und bearbeiten"
 #: ../src/verbs.cpp:2726
 msgctxt "ContextVerb"
 msgid "Mesh"
-msgstr "Gitter"
+msgstr "Gitterverlauf"
 
 #: ../src/verbs.cpp:2727
 msgid "Create and edit meshes"
@@ -33891,7 +33890,6 @@ msgstr "Protokolldatei erzeugen"
 msgid "Full path to log file:"
 msgstr "Vollständiger Pfad zur Protokolldatei:"
 
-# CHECK
 #: ../share/extensions/gcodetools_area.inx.h:48
 #: ../share/extensions/gcodetools_dxf_points.inx.h:20
 #: ../share/extensions/gcodetools_engraving.inx.h:26
@@ -33900,7 +33898,7 @@ msgstr "Vollständiger Pfad zur Protokolldatei:"
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:30
 msgctxt "GCode postprocessor"
 msgid "None"
-msgstr "Keine"
+msgstr "Keiner"
 
 #: ../share/extensions/gcodetools_area.inx.h:49
 #: ../share/extensions/gcodetools_dxf_points.inx.h:21
@@ -37320,15 +37318,15 @@ msgstr "Guppen zusammenklappen"
 
 #: ../share/extensions/scour.inx.h:6
 msgid "Create groups for similar attributes"
-msgstr "Erstelle Gruppen für gleiche Attribute"
+msgstr "Erstellen von Gruppen für ähnliche Attribute"
 
 #: ../share/extensions/scour.inx.h:7
 msgid "Embed rasters"
-msgstr "Alle Raster einbetten"
+msgstr "Rasterbilder einbetten"
 
 #: ../share/extensions/scour.inx.h:8
 msgid "Keep editor data"
-msgstr "Behalten der Editor-Daten"
+msgstr "Editor-Daten erhalten"
 
 #: ../share/extensions/scour.inx.h:9
 msgid "Remove metadata"
@@ -37352,15 +37350,15 @@ msgstr "XML-Deklaration entfernen"
 
 #: ../share/extensions/scour.inx.h:14
 msgid "Number of significant digits for coords:"
-msgstr "Anzahl der signifikanten Ziffern für die Koordinaten:"
+msgstr "Anzahl der signifikanten Ziffern für Koordinaten:"
 
 #: ../share/extensions/scour.inx.h:15
 msgid "XML indentation (pretty-printing):"
-msgstr "XML Vertiefung (schöner-Druck):"
+msgstr "XML-Einrückung (Quelltextformatierung):"
 
 #: ../share/extensions/scour.inx.h:16
 msgid "Space"
-msgstr "Space"
+msgstr "Leerzeichen"
 
 #: ../share/extensions/scour.inx.h:17
 msgid "Tab"
@@ -37374,11 +37372,11 @@ msgstr "Keine"
 
 #: ../share/extensions/scour.inx.h:19
 msgid "Ids"
-msgstr "Ids"
+msgstr "IDs"
 
 #: ../share/extensions/scour.inx.h:20
 msgid "Remove unused ID names for elements"
-msgstr "Unbenutzte ID-Namen für Elemente löschen"
+msgstr "Nicht verwendete ID-Namen für Elemente entfernen"
 
 #: ../share/extensions/scour.inx.h:21
 msgid "Shorten IDs"
@@ -37386,15 +37384,15 @@ msgstr "IDs kürzen"
 
 #: ../share/extensions/scour.inx.h:22
 msgid "Preserve manually created ID names not ending with digits"
-msgstr "Manuell erstellte ID-Namen, die nicht mit Ziffern enden, bewahren"
+msgstr "Manuell erstellte ID-Namen, die nicht auf Ziffern enden, erhalten"
 
 #: ../share/extensions/scour.inx.h:23
 msgid "Preserve these ID names, comma-separated:"
-msgstr "Bewahren Sie diese ID-Namen, komma getrennt:"
+msgstr "Folgende ID-Namen erhalten (Komma getrennte Liste):"
 
 #: ../share/extensions/scour.inx.h:24
 msgid "Preserve ID names starting with:"
-msgstr "Bewahren Sie ID-Namen, die starten mit:"
+msgstr "ID-Namen, die wie folgt anfangen, erhalten:"
 
 #: ../share/extensions/scour.inx.h:25
 msgid "Help (Options)"
@@ -37432,40 +37430,41 @@ msgid ""
 "level."
 msgstr ""
 "Diese Erweiterung optimiert die SVG-Datei nach den folgenden Optionen:\n"
-"     * Kürzen der Farbnamen: Konvertiert alle Farben in #RRGGBB oder #RGB-"
-"Format.\n"
-"     * Konvertieren von CSS-Attributen zu XML-Attribute: Styles konvertieren "
-"&lt;style&gt; Tags und Inline-style=\"\" Deklarationen zu XML-Attributen.\n"
-"     * Gruppe aufbrechen: Entfernt nutzlose &lt;g&gt; Elemente, hebt ihre "
-"Inhalte eine Ebene nach oben an. Benötigt \"Entfernen Sie nicht verwendete "
-"ID-Namen für Elemente\" als gesetzt.\n"
-"     * Erstellen von Gruppen für gleiche Attribute: Erstellt &lt;g&gt; "
-"Elemente für Elementen mit mindestens einem gemeinsamen Attribut (z.B. "
-"Füllfarbe, Kontur-Deckkraft, ...).\n"
-"     * Eingebettete Raster: Bettet Rasterbilder als base64-kodierten Daten "
-"URLs ein.\n"
-"     * Editor-Daten behalten: Inkscape, Sodipodi oder Adobe Illustrator "
-"Elemente und Attribute werden nicht gelöscht.\n"
-"     * Entfernen von Metadaten: Entfernen &lt;metadata&gt; Tags zusammen mit "
-"allen Informationen, welche Lizenz Metadaten beinhalten, alternative "
-"Versionen für Nicht-SVG-fähige Browsern, etc.\n"
-"     * Kommentare entfernen: &lt;!-- --&gt; Tags entfernen.\n"
-"     * Um Renderer Bugs herum arbeiten: erstellt etwas größere SVG-Daten, "
-"aber umgeht einen Fehler in librsvg Renderer, der in Eye of GNOME und "
+"     * Kürzen der Farbnamen: Konvertiert alle Farben in #RRGGBB oder "
+"#RGB-Format.\n"
+"     * Konvertieren von CSS-Attributen zu XML-Attributen: Konvertiert Stile "
+"aus »style«-Tags und Inline-Deklarationen (style=\"\") zu XML-"
+"Attributen.\n"
+"     * Gruppen zusammenklappen: Entfernt überflüssige »g«-Elemente, hebt ihre "
+"Inhalte eine Ebene nach oben an. »Unbenutzte ID-Namen für Elemente "
+"löschen« muss gesetzt sein.\n"
+"     * Erstellen von Gruppen für ähnliche Attribute: Erstellt »g«-Elemente "
+"für Elemente mit mindestens einem gemeinsamen Attribut (z.B. Füllfarbe, "
+"Kontur-Deckkraft, ...).\n"
+"     * Rasterbilder einbetten: Bettet Rasterbilder als base64-kodierte "
+"Daten-URLs ein.\n"
+"     * Editor-Daten erhalten: Inkscape-, Sodipodi- oder "
+"Adobe-Illustrator-Elemente und -Attribute werden nicht gelöscht.\n"
+"     * Metadaten entfernen: Entfernt »metadata«-Tags zusammen mit allen "
+"Informationen, inklusive aller Lizenz-Metadaten, alternative Versionen für "
+"Nicht-SVG-fähige Browser usw.\n"
+"     * Kommentare entfernen: »comment«-Tags entfernen.\n"
+"     * Renderer-Bugs umgehen: erstellt etwas umfangreichere SVG-Daten, aber "
+"umgeht einen Fehler im librsvg-Renderer, der in »Eye of GNOME« und "
 "anderen Anwendungen verwendet wird.\n"
-"     * Aktivieren von viewbox: Größe des Bildes auf 100%/100% und die "
-"Einführung einer viewBox.\n"
+"     * Viewbox aktivieren: skaliert das Bild auf 100%/100% und fügt eine "
+"»viewBox« hinzu.\n"
 "     * Anzahl der signifikanten Ziffern für Koordinaten: alle Koordinaten "
-"sind ein ergebnis mit dieser Anzahl von signifikanten Ziffern. Wenn z.B. 3 "
-"angegeben wird, ist die Koordinate 3,5153, Ergebnis als 3.51 und die "
-"Koordinate 471,55 472 ist als Ergebnis 472.\n"
-"     * XML Vertiefung (pretty-Druck): entweder None für keine Vertiefung, "
-"die Leertaste, um ein Platz pro Verschachtelungsebene oder Tab verwenden, um "
-"ein Register pro Verschachtelungsebene zu verwenden."
+"werden mit der angegebenen Anzahl an signifikanten Ziffern ausgegeben. "
+"Wenn z.B. 3 angegeben wird, wird die Koordinate 3.5153 als 3.51 ausgegeben "
+"und die Koordinate 471.55 als 472.\n"
+"     * XML-Einrückung (Quelltextfomatierung): Wählen Sie entweder »Keine« für "
+"keine Einrückung, »Leerzeichen«, um ein Lehrzeichen pro "
+"Einrückungsebene oder »Tab« für ein Tabulatorzeichen pro Einrückungsebene."
 
 #: ../share/extensions/scour.inx.h:40
 msgid "Help (Ids)"
-msgstr "Hilfe (Ids)"
+msgstr "Hilfe (IDs)"
 
 #: ../share/extensions/scour.inx.h:41
 msgid ""
@@ -37485,23 +37484,23 @@ msgid ""
 "all unused ID names, but if all of your preserved ID names start with the "
 "same prefix (e.g. #flag-mx, #flag-pt), you may use this option."
 msgstr ""
-"Ids spezifische Optionen:\n"
-"     * Entfernen Sie nicht verwendete ID-Namen für Elemente: Entfernen Sie "
-"alle nicht referenzierten ID-Attribute.\n"
-"     * IDs kürzen: Reduzieren Sie die Länge aller ID-Attribute, die "
-"kürzesten zu den erwähnten Elementen zuweisend. Zum Beispiel, "
-"#linearGradient5621, referenziert 100 mal, kann #a werden.\n"
-"     * Bewahren von manuell erstellten ID-Namen, die nicht auf Ziffern "
-"enden: In der Regel entfernt die optimierte SVG-Ausgabe diese, aber wenn sie "
-"für die Referenzierung (z.B. #middledot) notwendig sind, können Sie diese "
-"Option verwenden.\n"
-"     * Bewahren Sie diese ID-Namen, Komma getrennt: Sie können diese in "
-"Verbindung mit den anderen Optionen verwenden, wenn Sie einige weitere "
-"spezifische ID-Namen beibehalten wollen.\n"
-"     * Bewahren Sie ID Namen beginnend mit: In der Regel, entfernt die "
-"optimierte SVG-Ausgabe alle unbenutzten ID-Namen, aber wenn alle Ihre "
-"erhaltenen ID-Namen mit dem gleichen Präfix (z.B. #flag-mx, #flag-pt) "
-"starten, können Sie diese Option verwenden."
+"ID spezifische Optionen:\n"
+"     * Nicht verwendete ID-Namen für Elemente entfernen: Entfernt alle nicht "
+"referenzierten ID-Attribute.\n"
+"     * IDs kürzen: Reduziert die Länge aller ID-Attribute, wobei die "
+"kürzesten den meistverwendeten Elementen zugewiesen werden. Zum Beispiel "
+"könnte ein 100mal referenzierter »#linearGradient5621« zu »#a« werden.\n"
+"     * Manuell erstellte ID-Namen, die nicht auf Ziffern enden, erhalten: In "
+"der Regel entfernt die optimierte SVG-Ausgabe diese, aber wenn sie für eine "
+"Referenzierung (z.B. #middledot) notwendig sind, können Sie diese Option "
+"verwenden.\n"
+"     * Folgende ID-Namen erhalten (Komma getrennte Liste): Verwenden Sie dies "
+"in Verbindung mit den anderen Erhaltungs-Optionen, wenn Sie einige bestimmte "
+"ID-Namen beibehalten wollen.\n"
+"     * ID-Namen, die wie folgt anfangen, erhalten: In der Regel entfernt die "
+"optimierte SVG-Ausgabe alle nicht verwendeten ID-Namen, aber wenn alle "
+"ID-Namen, die Sie erhalten möchten, mit dem gleichen Präfix (z.B. #flag-mx, "
+"#flag-pt) beginnen, können Sie diese Option verwenden."
 
 #: ../share/extensions/scour.inx.h:47
 msgid "Optimized SVG (*.svg)"
