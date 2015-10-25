@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
-"PO-Revision-Date: 2015-10-25 02:34+0200\n"
+"PO-Revision-Date: 2015-10-25 20:28+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <>\n"
 "Language: de\n"
@@ -1992,7 +1992,7 @@ msgstr "Simuliere CMY"
 #: ../share/filters/filters.svg.h:832
 msgid "Render Cyan, Magenta and Yellow channels with a colorizable background"
 msgstr ""
-"Rendert Cyan, Magenta und Yellow-Kanäle mit einem einfärbbaren Hintergrund"
+"Rendert Cyan-, Magenta- und Gelb-Kanäle mit einem einfärbbaren Hintergrund"
 
 #: ../share/filters/filters.svg.h:834
 msgid "Contouring table"
@@ -19586,14 +19586,15 @@ msgstr "Klone"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1311
 msgid "When applying, use the topmost selected object as clippath/mask"
 msgstr ""
-"Verwende das oberste ausgewählte Objekt beim Anwenden als Ausschneidepfad "
-"oder Maskierung"
+"Das oberste ausgewählte Objekt soll als Ausschneidepfad "
+"oder Maskierung verwendet werden."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1313
 msgid ""
 "Uncheck this to use the bottom selected object as the clipping path or mask"
 msgstr ""
-"Nicht auswählen, um das unterste ausgewählte Objekt als Ausschneidepfad oder "
+"Häkchen entfernen, um das unterste ausgewählte Objekt als Ausschneidepfad "
+"oder "
 "Maskierung zu verwenden"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1314
@@ -19605,8 +19606,8 @@ msgid ""
 "After applying, remove the object used as the clipping path or mask from the "
 "drawing"
 msgstr ""
-"Entferne das Objekt von der Zeichnung, welches als Ausschneidepfad oder "
-"Maskierung verwendet wird, nach dem Anwenden"
+"Löscht das Objekt, das als Ausschneidepfad oder "
+"Maskierung verwendet wird, nach dem Anwenden aus der Zeichnung"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1318
 msgid "Before applying"
@@ -19628,17 +19629,19 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1325
 msgid "Apply clippath/mask to every object"
-msgstr "Ausschneidungspfad/Maske auf jedes Objekt anwenden"
+msgstr "Ausschneidepfad/Maske auf jedes Objekt anwenden"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1328
 msgid "Apply clippath/mask to groups containing single object"
 msgstr ""
-"Ausschneidungspfad/Maske auf Gruppen anwenden, die Einzelobjekte beinhalten"
+"Ausschneidepfad/Maske auf neue Gruppen anwenden, die jeweils ein Einzelobjekt "
+"beinhalten"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1331
 msgid "Apply clippath/mask to group containing all objects"
 msgstr ""
-"Ausschneidungspfad/Maske auf Gruppen anwenden, die alle Objekte beinhalten"
+"Ausschneidepfad/Maske auf eine neue Gruppe anwenden, die alle Objekte "
+"beinhaltet"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1333
 msgid "After releasing"
@@ -20390,7 +20393,7 @@ msgstr "Pfadeffekt erstellen und anwenden"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:485
 msgid "Create and apply Clone original path effect"
-msgstr "Erstellen und Anwenden des Klon-Original-Pfadeffekts"
+msgstr "Erstellen und Anwenden des Original-Klonen-Pfadeffekts"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:505
 msgid "Remove path effect"

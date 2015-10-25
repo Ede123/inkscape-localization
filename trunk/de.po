@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-22 10:09+0200\n"
-"PO-Revision-Date: 2015-10-25 02:34+0200\n"
+"PO-Revision-Date: 2015-10-25 20:28+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <>\n"
 "Language: de\n"
@@ -1998,7 +1998,7 @@ msgstr "Simuliere CMY"
 #: ../share/filters/filters.svg.h:832
 msgid "Render Cyan, Magenta and Yellow channels with a colorizable background"
 msgstr ""
-"Rendert Cyan, Magenta und Yellow-Kanäle mit einem einfärbbaren Hintergrund"
+"Rendert Cyan-, Magenta- und Gelb-Kanäle mit einem einfärbbaren Hintergrund"
 
 #: ../share/filters/filters.svg.h:834
 msgid "Contouring table"
@@ -20098,14 +20098,15 @@ msgstr "Klone"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1361
 msgid "When applying, use the topmost selected object as clippath/mask"
 msgstr ""
-"Verwende das oberste ausgewählte Objekt beim Anwenden als Ausschneidepfad "
-"oder Maskierung"
+"Das oberste ausgewählte Objekt soll als Ausschneidepfad "
+"oder Maskierung verwendet werden."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1363
 msgid ""
 "Uncheck this to use the bottom selected object as the clipping path or mask"
 msgstr ""
-"Nicht auswählen, um das unterste ausgewählte Objekt als Ausschneidepfad oder "
+"Häkchen entfernen, um das unterste ausgewählte Objekt als Ausschneidepfad "
+"oder "
 "Maskierung zu verwenden"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1364
@@ -20117,8 +20118,8 @@ msgid ""
 "After applying, remove the object used as the clipping path or mask from the "
 "drawing"
 msgstr ""
-"Entferne das Objekt von der Zeichnung, welches als Ausschneidepfad oder "
-"Maskierung verwendet wird, nach dem Anwenden"
+"Löscht das Objekt, das als Ausschneidepfad oder "
+"Maskierung verwendet wird, nach dem Anwenden aus der Zeichnung"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1368
 msgid "Before applying"
@@ -20140,17 +20141,19 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1375
 msgid "Apply clippath/mask to every object"
-msgstr "Ausschneidungspfad/Maske auf jedes Objekt anwenden"
+msgstr "Ausschneidepfad/Maske auf jedes Objekt anwenden"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1378
 msgid "Apply clippath/mask to groups containing single object"
 msgstr ""
-"Ausschneidungspfad/Maske auf Gruppen anwenden, die Einzelobjekte beinhalten"
+"Ausschneidepfad/Maske auf neue Gruppen anwenden, die jeweils ein Einzelobjekt "
+"beinhalten"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1381
 msgid "Apply clippath/mask to group containing all objects"
 msgstr ""
-"Ausschneidungspfad/Maske auf Gruppen anwenden, die alle Objekte beinhalten"
+"Ausschneidepfad/Maske auf eine neue Gruppe anwenden, die alle Objekte "
+"beinhaltet"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1383
 msgid "After releasing"
@@ -20897,7 +20900,7 @@ msgstr "Pfadeffekt erstellen und anwenden"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:478
 msgid "Create and apply Clone original path effect"
-msgstr "Erstellen und Anwenden des Klon-Original-Pfadeffekts"
+msgstr "Erstellen und Anwenden des Original-Klonen-Pfadeffekts"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:500
 msgid "Remove path effect"
@@ -21226,30 +21229,39 @@ msgstr "Mischmodus des Objekts festlegen"
 msgid "Set object blur"
 msgstr "Unschärfe des Objekts festlegen"
 
+# New objects dialog from ponyscape: single letter to describe state of the object in header of the table: visible
 #: ../src/ui/dialog/objects.cpp:1617
 msgid "V"
-msgstr ""
+msgstr "S"
 
+# Translation conflict:
+# L = locked in objects dialog
+# L = lightness somewhere else
+# Bug filed: https://bugs.launchpad.net/inkscape/+bug/1509852
+# !!!
 #. TRANSLATORS: "L" here stands for Lightness
 #: ../src/ui/dialog/objects.cpp:1618 ../src/widgets/tweak-toolbar.cpp:323
 msgid "L"
 msgstr "L"
 
+# New objects dialog from ponyscape: single letter to describe state of the object in header of the table: type (layer, group or object)
 #: ../src/ui/dialog/objects.cpp:1619
 msgid "T"
-msgstr ""
+msgstr "T"
 
 #: ../src/ui/dialog/objects.cpp:1620
 msgid "CM"
-msgstr "CM"
+msgstr "AM"
 
+# New objects dialog from ponyscape: single letter to describe state of the object in header of the table: color of path outline in node tool (de: Pfadfarbe)
 #: ../src/ui/dialog/objects.cpp:1621
 msgid "HL"
-msgstr "HL"
+msgstr "PF"
 
+# New objects dialog from ponyscape: single letter to describe state of the object in header of the table: label of object, id as default, but can be changed to anything
 #: ../src/ui/dialog/objects.cpp:1622
 msgid "Label"
-msgstr "Bezeichner"
+msgstr "Name"
 
 #. In order to get tooltips on header, we must create our own label.
 #: ../src/ui/dialog/objects.cpp:1664
@@ -21265,22 +21277,28 @@ msgid ""
 "Type: Layer, Group, or Object. Clicking on Layer or Group icon, toggles "
 "between the two types."
 msgstr ""
+"Typ: Ebene, Gruppe oder Objekt. Mit einem Klick auf das Symbol für Ebene oder "
+"Gruppe zwischen beiden Typen umschalten"
 
 #: ../src/ui/dialog/objects.cpp:1708
 msgid "Is object clipped and/or masked?"
-msgstr ""
+msgstr "Ist das Objekt ausgeschnitten oder maskiert?"
 
 #: ../src/ui/dialog/objects.cpp:1719
 msgid ""
 "Highlight color of outline in Node tool. Click to set. If alpha is zero, use "
 "inherited color."
 msgstr ""
+"Farbe des Pfades beim Bearbeiten mit dem Knotenwerkzeug. Klicken zum Ändern. "
+"Bei einem Alpha-Wert von Null wird die Farbe geerbt."
 
 #: ../src/ui/dialog/objects.cpp:1730
 msgid ""
 "Layer/Group/Object label (inkscape:label). Double-click to set. Default "
 "value is object 'id'."
 msgstr ""
+"Name für Ebene/Gruppe/Objekt (inkscape:label). Doppelklicken zum Ändern. "
+"Standardwert ist die ID des Objektes."
 
 #: ../src/ui/dialog/objects.cpp:1827
 msgid "Add layer..."
@@ -21306,9 +21324,10 @@ msgstr "Alle zusammenklappen"
 msgid "Rename"
 msgstr "Umbenennen"
 
+# Make selected layer the only visible one.
 #: ../src/ui/dialog/objects.cpp:1894
 msgid "Solo"
-msgstr ""
+msgstr "Nur diese Ebene anzeigen"
 
 #: ../src/ui/dialog/objects.cpp:1895
 msgid "Show All"
