@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
-"PO-Revision-Date: 2015-10-25 20:28+0100\n"
+"PO-Revision-Date: 2015-10-27 19:39+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <>\n"
 "Language: de\n"
@@ -19587,15 +19587,14 @@ msgstr "Klone"
 msgid "When applying, use the topmost selected object as clippath/mask"
 msgstr ""
 "Das oberste ausgewählte Objekt soll als Ausschneidepfad "
-"oder Maskierung verwendet werden."
+"oder Maske verwendet werden."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1313
 msgid ""
 "Uncheck this to use the bottom selected object as the clipping path or mask"
 msgstr ""
 "Häkchen entfernen, um das unterste ausgewählte Objekt als Ausschneidepfad "
-"oder "
-"Maskierung zu verwenden"
+"oder Maske zu verwenden"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1314
 msgid "Remove clippath/mask object after applying"
@@ -19607,7 +19606,7 @@ msgid ""
 "drawing"
 msgstr ""
 "Löscht das Objekt, das als Ausschneidepfad oder "
-"Maskierung verwendet wird, nach dem Anwenden aus der Zeichnung"
+"Maske verwendet wird, nach dem Anwenden aus der Zeichnung"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1318
 msgid "Before applying"
@@ -19653,11 +19652,11 @@ msgstr "Gruppierung automatisch erstellter Gruppen aufheben"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1337
 msgid "Ungroup groups created when setting clip/mask"
-msgstr "Gruppierung aufheben beim Setzen der Ausschneidung/Maske"
+msgstr "Gruppierung aufheben beim Setzen der Ausschneidung/Maskierung"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1339
 msgid "Clippaths and masks"
-msgstr "Ausschneidepfade und Maskierungen"
+msgstr "Ausschneidepfade und Masken"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1342
 msgid "Stroke Style Markers"
@@ -25240,12 +25239,11 @@ msgstr "Ausgewählte Objekte vertikal umkehren"
 
 #: ../src/verbs.cpp:2633
 msgid "Apply mask to selection (using the topmost object as mask)"
-msgstr ""
-"Maskierung auf Auswahl anwenden (oberstes Objekt als Maskierung verwenden)"
+msgstr "Maske auf Auswahl anwenden (oberstes Objekt als Maske verwenden)"
 
 #: ../src/verbs.cpp:2635
 msgid "Edit mask"
-msgstr "Maskierung bearbeiten"
+msgstr "Maske bearbeiten"
 
 #: ../src/verbs.cpp:2636 ../src/verbs.cpp:2642
 msgid "_Release"
@@ -27685,11 +27683,11 @@ msgstr "Zeige Bézier-Anfasser für Ausschneidungspfade an ausgewählten Objekte
 
 #: ../src/widgets/node-toolbar.cpp:566
 msgid "Edit masks"
-msgstr "Maskierung bearbeiten"
+msgstr "Maske bearbeiten"
 
 #: ../src/widgets/node-toolbar.cpp:567
 msgid "Show mask(s) of selected object(s)"
-msgstr "Zeige Bézier-Anfasser für Maskierungen an ausgewählten Objekten"
+msgstr "Zeige Maske(n) der ausgewählten Objekte"
 
 #: ../src/widgets/node-toolbar.cpp:581
 msgid "X coordinate:"
