@@ -9869,7 +9869,7 @@ msgstr "Lineal"
 #. 0.49
 #: ../src/live_effects/effect.cpp:121
 msgid "Power stroke"
-msgstr "Kräftige Kontur"
+msgstr "Power Stroke (variable Konturbreite)"
 
 #: ../src/live_effects/effect.cpp:122 ../src/selection-chemistry.cpp:2837
 msgid "Clone original path"
@@ -37750,15 +37750,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "_Description"
 #~ msgstr "Beschreibung"
-
-#~ msgid "Dark mode"
-#~ msgstr "Dunkle Prägung"
-
-#~ msgid "[Unstable!] Power stroke"
-#~ msgstr "Kontur des Musters"
-
-#~ msgid "[Unstable!] Clone original path"
-#~ msgstr "Originalpfad ersetzen"
 
 #~ msgid "_Blur:"
 #~ msgstr "Unschärfe:"
