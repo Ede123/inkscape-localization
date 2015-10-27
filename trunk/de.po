@@ -12741,7 +12741,7 @@ msgstr "Objekte zu Knotenmarkierung"
 
 #: ../src/selection-chemistry.cpp:2995
 msgid "Select <b>object(s)</b> to convert to guides."
-msgstr "<b>Objekt(e)</b> auswählen, die in Führungs umgewandelt werden sollen."
+msgstr "<b>Objekt(e)</b> auswählen, die in Hilfslinien umgewandelt werden sollen."
 
 #: ../src/selection-chemistry.cpp:3016
 msgid "Objects to guides"
@@ -19906,7 +19906,7 @@ msgid ""
 msgstr ""
 "Einrasten während sich die Maus bewegt, sowie für einen Sekundenbruchteil "
 "danach, unterdrücken. Diese zusätzliche Verzögerung wird hier festgelegt. "
-"Ist sie Null oder sehr klein erfolg sofortiges Einrasten."
+"Ist sie Null oder sehr klein erfolgt sofortiges Einrasten."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1294
 msgid "Snapping"
