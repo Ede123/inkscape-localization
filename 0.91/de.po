@@ -9197,22 +9197,22 @@ msgstr "_Verknüpfung erstellen"
 #. Set mask
 #: ../src/interface.cpp:1739
 msgid "Set Mask"
-msgstr "Maskierung festlegen"
+msgstr "Maske setzen"
 
 #. Release mask
 #: ../src/interface.cpp:1750
 msgid "Release Mask"
-msgstr "Maskierung entfernen"
+msgstr "Maske freigeben"
 
 #. Set Clip
 #: ../src/interface.cpp:1761
 msgid "Set Cl_ip"
-msgstr "Cl_ip festlegen"
+msgstr "Ausschnitt _setzen"
 
 #. Release Clip
 #: ../src/interface.cpp:1772
 msgid "Release C_lip"
-msgstr "C_lip lösen"
+msgstr "Ausschnitt _freigeben"
 
 #. Group
 #: ../src/interface.cpp:1783 ../src/verbs.cpp:2486
@@ -11410,7 +11410,7 @@ msgstr "Ausschneide_pfad"
 
 #: ../src/menus-skeleton.h:194
 msgid "Mas_k"
-msgstr "_Maskierung"
+msgstr "_Maske"
 
 #: ../src/menus-skeleton.h:198
 msgid "Patter_n"
@@ -12296,14 +12296,14 @@ msgstr "Bitmap erstellen"
 #: ../src/selection-chemistry.cpp:3689
 msgid "Select <b>object(s)</b> to create clippath or mask from."
 msgstr ""
-"<b>Objekt(e)</b> auswählen, um Ausschneidepfad oder Maskierung daraus zu "
+"<b>Objekt(e)</b> auswählen, um Ausschneidepfad oder Maske daraus zu "
 "erzeugen."
 
 #: ../src/selection-chemistry.cpp:3692
 msgid "Select mask object and <b>object(s)</b> to apply clippath or mask to."
 msgstr ""
-"Maskierungsobjekt und <b>Objekt(e)</b> auswählen, um Ausschneidepfad oder "
-"Maskierung darauf anzuwenden."
+"Maskenobjekt und <b>Objekt(e)</b> zur Anwendung von Ausschneidepfad oder "
+"Maske auswählen."
 
 #: ../src/selection-chemistry.cpp:3875
 msgid "Set clipping path"
@@ -12311,21 +12311,21 @@ msgstr "Ausschneidepfad setzen"
 
 #: ../src/selection-chemistry.cpp:3877
 msgid "Set mask"
-msgstr "Maskierung setzen"
+msgstr "Maske setzen"
 
 #: ../src/selection-chemistry.cpp:3892
 msgid "Select <b>object(s)</b> to remove clippath or mask from."
 msgstr ""
-"<b>Objekt(e)</b> auswählen, um Ausschneidepfad oder Maskierung davon zu "
-"entfernen."
+"<b>Objekt(e)</b> auswählen deren Ausschneidepfad oder Maske entfernt "
+"werden soll."
 
 #: ../src/selection-chemistry.cpp:4003
 msgid "Release clipping path"
-msgstr "Ausschneidepfad entfernen"
+msgstr "Ausschneidepfad freigeben"
 
 #: ../src/selection-chemistry.cpp:4005
 msgid "Release mask"
-msgstr "Maskierung entfernen"
+msgstr "Maske freigeben"
 
 #: ../src/selection-chemistry.cpp:4024
 msgid "Select <b>object(s)</b> to fit canvas to."
@@ -14643,17 +14643,17 @@ msgstr "An Ausschneidepfaden einrasten"
 #: ../src/ui/dialog/document-properties.cpp:140
 msgid "When snapping to paths, then also try snapping to clip paths"
 msgstr ""
-"Neben dem Einrasten an Pfaden, auch versuchen an Ausschbeidepfaden "
+"Neben dem Einrasten an Pfaden, auch versuchen an Ausschneidepfaden "
 "einzurasten"
 
 #: ../src/ui/dialog/document-properties.cpp:141
 msgid "Snap to mask paths"
-msgstr "An Maskierungspfaden einrasten"
+msgstr "An Maskenpfaden einrasten"
 
 #: ../src/ui/dialog/document-properties.cpp:141
 msgid "When snapping to paths, then also try snapping to mask paths"
 msgstr ""
-"Neben dem Einrasten an Pfaden, auch versuchen an Maskierungspfaden "
+"Neben dem Einrasten an Pfaden, auch versuchen an Maskenpfaden "
 "einzurasten"
 
 #: ../src/ui/dialog/document-properties.cpp:142
@@ -19598,15 +19598,15 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1314
 msgid "Remove clippath/mask object after applying"
-msgstr "Ausschneidepfad oder Maskierungsobjekt nach dem Anwenden entfernen"
+msgstr "Ausschneidepfad/Maske nach dem Anwenden entfernen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid ""
 "After applying, remove the object used as the clipping path or mask from the "
 "drawing"
 msgstr ""
-"Löscht das Objekt, das als Ausschneidepfad oder "
-"Maske verwendet wird, nach dem Anwenden aus der Zeichnung"
+"Das Objekt, welches als Ausschneidepfad oder "
+"Maske verwendet wird, nach dem Anwenden aus der Zeichnung löschen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1318
 msgid "Before applying"
@@ -19652,7 +19652,7 @@ msgstr "Gruppierung automatisch erstellter Gruppen aufheben"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1337
 msgid "Ungroup groups created when setting clip/mask"
-msgstr "Gruppierung aufheben beim Setzen der Ausschneidung/Maskierung"
+msgstr "Gruppierung aufheben beim Setzen von Ausschneidung/Maske"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1339
 msgid "Clippaths and masks"
@@ -25251,7 +25251,7 @@ msgstr "F_reigeben"
 
 #: ../src/verbs.cpp:2637
 msgid "Remove mask from selection"
-msgstr "Maskierung von Auswahl entfernen"
+msgstr "Maske von Auswahl entfernen"
 
 #: ../src/verbs.cpp:2639
 msgid ""
@@ -27679,11 +27679,11 @@ msgstr "Ausschneidepfad bearbeiten"
 
 #: ../src/widgets/node-toolbar.cpp:556
 msgid "Show clipping path(s) of selected object(s)"
-msgstr "Zeige Bézier-Anfasser für Ausschneidungspfade an ausgewählten Objekten"
+msgstr "Zeige Bézier-Anfasser für Ausschneidepfade an ausgewählten Objekten"
 
 #: ../src/widgets/node-toolbar.cpp:566
 msgid "Edit masks"
-msgstr "Maske bearbeiten"
+msgstr "Masken bearbeiten"
 
 #: ../src/widgets/node-toolbar.cpp:567
 msgid "Show mask(s) of selected object(s)"
@@ -39640,7 +39640,7 @@ msgstr "XAML einlesen"
 #~ msgstr "Die Auswahl hat keinen angewandten Auschneidungspfad."
 
 #~ msgid "The selection has no applied mask."
-#~ msgstr "Die Auswahl hat keinen angewandten Maskierungspfad."
+#~ msgstr "Die Auswahl hat keine angewandte Maske."
 
 # !!!
 #~ msgid "<b>Conditional group</b> of <b>%d</b> object"
