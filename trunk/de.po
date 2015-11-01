@@ -18609,21 +18609,16 @@ msgid "Set the language for menus and number formats"
 msgstr "Sprache für Menüs und Zahlenformate setzen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#, fuzzy
 msgctxt "Icon size"
 msgid "Large"
 msgstr "Groß"
 
-# Bezieht sich auf die 10% größeren angelsächsischen Kapitälchen...
-# UND leider auch auf Icongrößen.
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#, fuzzy
 msgctxt "Icon size"
 msgid "Small"
 msgstr "Klein"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#, fuzzy
 msgctxt "Icon size"
 msgid "Smaller"
 msgstr "Kleiner"
@@ -18824,22 +18819,17 @@ msgstr "Nein"
 msgid "Aggressive"
 msgstr "Aggressiv"
 
-# Bezieht sich auf die 10% größeren angelsächsischen Kapitälchen...
-# UND leider auch auf Icongrößen.
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
-#, fuzzy
 msgctxt "Window size"
 msgid "Small"
 msgstr "Klein"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
-#, fuzzy
 msgctxt "Window size"
 msgid "Large"
 msgstr "Groß"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
-#, fuzzy
 msgctxt "Window size"
 msgid "Maximized"
 msgstr "Maximiert"
@@ -22100,9 +22090,8 @@ msgid "By: "
 msgstr "Von: "
 
 #: ../src/ui/dialog/text-edit.cpp:72
-#, fuzzy
 msgid "_Variants"
-msgstr "Variation"
+msgstr "_Merkmale"
 
 #: ../src/ui/dialog/text-edit.cpp:73
 msgid "Set as _default"
@@ -24958,198 +24947,171 @@ msgid "Blur (%)"
 msgstr "Unschärfe (%)"
 
 #: ../src/ui/widget/font-variants.cpp:38
-#, fuzzy
 msgctxt "Font variant"
 msgid "Ligatures"
 msgstr "Ligaturen"
 
 #: ../src/ui/widget/font-variants.cpp:39
-#, fuzzy
 msgctxt "Font variant"
 msgid "Common"
-msgstr "Gewöhnliche"
+msgstr "Übliche"
 
 #: ../src/ui/widget/font-variants.cpp:40
-#, fuzzy
 msgctxt "Font variant"
 msgid "Discretionary"
-msgstr "Bedingte"
+msgstr "Zusätzliche"
 
 #: ../src/ui/widget/font-variants.cpp:41
-#, fuzzy
 msgctxt "Font variant"
 msgid "Historical"
 msgstr "Historische"
 
 #: ../src/ui/widget/font-variants.cpp:42
-#, fuzzy
 msgctxt "Font variant"
 msgid "Contextual"
 msgstr "Kontextbezogene"
 
 #: ../src/ui/widget/font-variants.cpp:44
-#, fuzzy
 msgctxt "Font variant"
 msgid "Position"
 msgstr "Position"
 
 #: ../src/ui/widget/font-variants.cpp:45 ../src/ui/widget/font-variants.cpp:50
-#, fuzzy
 msgctxt "Font variant"
 msgid "Normal"
 msgstr "Normal"
 
 #: ../src/ui/widget/font-variants.cpp:46
-#, fuzzy
 msgctxt "Font variant"
 msgid "Subscript"
 msgstr "Tiefgestellt"
 
 #: ../src/ui/widget/font-variants.cpp:47
-#, fuzzy
 msgctxt "Font variant"
 msgid "Superscript"
 msgstr "Hochgestellt"
 
+# Listen mit Erklärungen:
+#   https://en.wikipedia.org/wiki/List_of_typographic_features
+#   https://www.microsoft.com/typography/otspec/featurelist.htm
 #: ../src/ui/widget/font-variants.cpp:49
-#, fuzzy
 msgctxt "Font variant"
 msgid "Capitals"
-msgstr "Hospital"
+msgstr "Kapitälchen"
 
 # Bezieht sich auf die 10% größeren angelsächsischen Kapitälchen...
-# UND leider auch auf Icongrößen.
 #: ../src/ui/widget/font-variants.cpp:51
-#, fuzzy
 msgctxt "Font variant"
 msgid "Small"
-msgstr "Klein"
+msgstr "Klein („small caps“)"
 
 #: ../src/ui/widget/font-variants.cpp:52
-#, fuzzy
 msgctxt "Font variant"
 msgid "All small"
-msgstr "Alle Formen"
+msgstr "Klein inkl. Großbuchstaben"
 
+# Bezieht sich auf die "normal" großen (1ex) Kapitälchen...
 #: ../src/ui/widget/font-variants.cpp:53
 msgctxt "Font variant"
 msgid "Petite"
-msgstr ""
+msgstr "Winzig („petite caps“)"
 
 #: ../src/ui/widget/font-variants.cpp:54
-#, fuzzy
 msgctxt "Font variant"
 msgid "All petite"
-msgstr "Alles inaktiv"
+msgstr "Winzig inkl. Großbuchstaben"
 
 # lt. http://www.typografie.info/3/page/wiki.html/_/fachbegriffe/unicase-r25
 #: ../src/ui/widget/font-variants.cpp:55
-#, fuzzy
 msgctxt "Font variant"
 msgid "Unicase"
 msgstr "Unikameral"
 
+# https://en.wikipedia.org/wiki/Titling_capitals
 #: ../src/ui/widget/font-variants.cpp:56
-#, fuzzy
 msgctxt "Font variant"
 msgid "Titling"
-msgstr "Segeln"
+msgstr "Betitelung"
 
 #: ../src/ui/widget/font-variants.cpp:58
-#, fuzzy
 msgctxt "Font variant"
 msgid "Numeric"
 msgstr "Ziffern"
 
 #: ../src/ui/widget/font-variants.cpp:59
-#, fuzzy
 msgctxt "Font variant"
 msgid "Lining"
 msgstr "Versalziffern"
 
 #: ../src/ui/widget/font-variants.cpp:60
-#, fuzzy
 msgctxt "Font variant"
 msgid "Old Style"
 msgstr "Minuskelziffern"
 
 #: ../src/ui/widget/font-variants.cpp:61
-#, fuzzy
 msgctxt "Font variant"
 msgid "Default Style"
 msgstr "Standardstil"
 
 #: ../src/ui/widget/font-variants.cpp:62
-#, fuzzy
 msgctxt "Font variant"
 msgid "Proportional"
 msgstr "Proportional"
 
 #: ../src/ui/widget/font-variants.cpp:63
-#, fuzzy
 msgctxt "Font variant"
 msgid "Tabular"
 msgstr "Tabellenziffern"
 
 #: ../src/ui/widget/font-variants.cpp:64
-#, fuzzy
 msgctxt "Font variant"
 msgid "Default Width"
 msgstr "Standardbreite"
 
 #: ../src/ui/widget/font-variants.cpp:65
-#, fuzzy
 msgctxt "Font variant"
 msgid "Diagonal"
 msgstr "Diagonal"
 
-# Vertikal? Oder bezogen auf den Bruchstrich: Horizontal?...
 #: ../src/ui/widget/font-variants.cpp:66
-#, fuzzy
 msgctxt "Font variant"
 msgid "Stacked"
 msgstr "Übereinander"
 
 #: ../src/ui/widget/font-variants.cpp:67
-#, fuzzy
 msgctxt "Font variant"
 msgid "Default Fractions"
 msgstr "Standard-Brüche"
 
 #: ../src/ui/widget/font-variants.cpp:68
-#, fuzzy
 msgctxt "Font variant"
 msgid "Ordinal"
 msgstr "Ordnungszahlen"
 
 #: ../src/ui/widget/font-variants.cpp:69
-#, fuzzy
 msgctxt "Font variant"
 msgid "Slashed Zero"
 msgstr "Gestrichene Null"
 
 #: ../src/ui/widget/font-variants.cpp:71
-#, fuzzy
 msgctxt "Font variant"
 msgid "Feature Settings"
-msgstr "Typographische Eigenschaften"
+msgstr "Typographische Merkmale"
 
 #: ../src/ui/widget/font-variants.cpp:72
-#, fuzzy
 msgctxt "Font variant"
 msgid "Selection has different Feature Settings!"
-msgstr "Die Auswahl hat abweichende typographischen Eigenschaften!"
+msgstr "Die Auswahl hat abweichende typographische Merkmale!"
 
 #: ../src/ui/widget/font-variants.cpp:85
 msgid "Common ligatures. On by default. OpenType tables: 'liga', 'clig'"
 msgstr ""
-"Gewöhnliche Ligaturen. Standardmäßig aktiviert. OpenType-Tabelle: „liga“, "
-"„clig“"
+"Übliche Ligaturen. Standardmäßig aktiviert. OpenType-Tabellen: „liga“, „clig“"
 
 #: ../src/ui/widget/font-variants.cpp:87
 msgid "Discretionary ligatures. Off by default. OpenType table: 'dlig'"
 msgstr ""
-"Bedingte Ligaturen. Standardmäßig deaktiviert. OpenType-Tabelle: „dlig“"
+"Zusätzliche Ligaturen. Standardmäßig deaktiviert. OpenType-Tabelle: „dlig“"
 
 #: ../src/ui/widget/font-variants.cpp:89
 msgid "Historical ligatures. Off by default. OpenType table: 'hlig'"
@@ -25184,32 +25146,42 @@ msgstr "Normale Groß- und Kleinschreibung."
 #: ../src/ui/widget/font-variants.cpp:139
 msgid "Small-caps (lowercase). OpenType table: 'smcp'"
 msgstr ""
+"Kleine Kapitälchen („small caps“) für Kleinbuchstaben. OpenType-Tabelle: "
+"„smcp“"
 
 #: ../src/ui/widget/font-variants.cpp:140
 msgid ""
 "All small-caps (uppercase and lowercase). OpenType tables: 'c2sc' and 'smcp'"
 msgstr ""
+"Kleine Kapitälchen („small caps“) für Groß- und Kleinbuchstaben. OpenType-"
+"Tabellen: „c2sc“ und „smcp“"
 
 #: ../src/ui/widget/font-variants.cpp:141
 msgid "Petite-caps (lowercase). OpenType table: 'pcap'"
 msgstr ""
+"Winzige Kapitälchen („petite caps“) für Kleinbuchstaben. OpenType-Tabelle: "
+"„pcap“"
 
 #: ../src/ui/widget/font-variants.cpp:142
 msgid ""
 "All petite-caps (uppercase and lowercase). OpenType tables: 'c2sc' and 'pcap'"
 msgstr ""
+"Winzige Kapitälchen („petite caps“) für Groß- und Kleinbuchstaben. OpenType-"
+"Tabellen: „c2sc“ und „pcap“"
 
 #: ../src/ui/widget/font-variants.cpp:143
 msgid ""
 "Unicase (small caps for uppercase, normal for lowercase). OpenType table: "
 "'unic'"
-msgstr ""
+msgstr "Unikameral (alle Zeichen gleiche Höhe). OpenType-Tabelle: „unic“"
 
 #: ../src/ui/widget/font-variants.cpp:144
 msgid ""
 "Titling caps (lighter-weight uppercase for use in titles). OpenType table: "
 "'titl'"
 msgstr ""
+"Kapitälchen für Betitelung (Großbuchstaben mit geringerer Strichstärke für "
+"die Verwendung in Titeln). OpenType-Tabelle: „titl“"
 
 #. Numeric ------------------------------
 #. Add tooltips
