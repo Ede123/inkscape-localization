@@ -21817,7 +21817,7 @@ msgid ""
 "<b>Linear segment</b>: drag to convert to a Bezier segment, doubleclick to "
 "insert node, click to select (more: Shift, Ctrl+Alt)"
 msgstr ""
-"<b>Linear-Segment</b>: Ziehen, um in ein Bezier-Segment zu konvertieren, "
+"<b>Linear-Segment</b>: Ziehen, um in ein Bézier-Segment zu konvertieren, "
 "Doppelklick um Knoten einzufügen und Klicken zum Auswählen (mehr: Umschakt, "
 "Strg+Alt)"
 
@@ -21827,7 +21827,7 @@ msgid ""
 "<b>Bezier segment</b>: drag to shape the segment, doubleclick to insert "
 "node, click to select (more: Shift, Ctrl+Alt)"
 msgstr ""
-"<b>Bezier-Segment</b>: Ziehen, um das Segment zu formen, Doppelklick zum "
+"<b>Bézier-Segment</b>: Ziehen, um das Segment zu formen, Doppelklick zum "
 "Einfügen eines Knotens oder Klicken zum Auswählen (mehr: Umschalt, Strg+Alt)"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:315
@@ -27845,15 +27845,15 @@ msgstr ""
 
 #: ../src/widgets/pencil-toolbar.cpp:96
 msgid "Bezier"
-msgstr "Bezier"
+msgstr "Bézier"
 
 #: ../src/widgets/pencil-toolbar.cpp:97
 msgid "Create regular Bezier path"
-msgstr "Erstelle Bezier Pfad"
+msgstr "Erstelle gewöhnlichen Bézier-Pfad"
 
 #: ../src/widgets/pencil-toolbar.cpp:104
 msgid "Create Spiro path"
-msgstr "Erstelle Spiral-Pfad"
+msgstr "Erstelle Spiro-Pfad"
 
 #: ../src/widgets/pencil-toolbar.cpp:111
 msgid "Zigzag"
@@ -27861,7 +27861,7 @@ msgstr "Zickzack"
 
 #: ../src/widgets/pencil-toolbar.cpp:112
 msgid "Create a sequence of straight line segments"
-msgstr "Erstelle eine Folge von Gerade Liniensegmenten"
+msgstr "Erstelle eine Folge von geraden Liniensegmenten"
 
 #: ../src/widgets/pencil-toolbar.cpp:118
 msgid "Paraxial"
@@ -34212,7 +34212,7 @@ msgstr ""
 "  * Der \"Maßstab\" kann zur Messung skalierter Pfade verwendet werden (M = "
 "250 -> 1cm entspricht 2,5m).\n"
 "  * Wenn die Fläche berechnet wird, sollte das Ergebnis für Polygone und "
-"Bezier-Kurven präzise sein. Bei einem Kreis kann die Fläche zu groß sein "
+"Bézier-Kurven präzise sein. Bei einem Kreis kann die Fläche zu groß sein "
 "(0.03%)."
 
 #: ../share/extensions/merge_styles.inx.h:1
