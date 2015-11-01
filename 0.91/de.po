@@ -20350,11 +20350,11 @@ msgstr "Aktuellen Pfadeffekt löschen"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:129
 msgid "Raise the current path effect"
-msgstr "Aktuellen Pfadeffekt vergrößern"
+msgstr "Aktuellen Pfadeffekt anheben"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:139
 msgid "Lower the current path effect"
-msgstr "Aktuellen Pfadeffekt verringern"
+msgstr "Aktuellen Pfadeffekt absenken"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:313
 msgid "Unknown effect is applied"
@@ -29578,7 +29578,8 @@ msgstr "Benötigt mindestens 2 ausgewählte Pfade"
 #: ../share/extensions/funcplot.py:48
 msgid "x-interval cannot be zero. Please modify 'Start X' or 'End X'"
 msgstr ""
-"X-Interval kann nicht Null sein. Bitte verändern Sie 'Start X' oder 'Ende X'"
+"X-Interval kann nicht Null sein. Bitte 'Startwert X' oder 'Endwert X' "
+"anpassen"
 
 #: ../share/extensions/funcplot.py:60
 msgid "y-interval cannot be zero. Please modify 'Y top' or 'Y bottom'"
@@ -31496,32 +31497,32 @@ msgstr "Bereich und Sampling"
 
 #: ../share/extensions/funcplot.inx.h:3
 msgid "Start X value:"
-msgstr "Beginn X-Wert"
+msgstr "Startwert x:"
 
 #: ../share/extensions/funcplot.inx.h:4
 msgid "End X value:"
-msgstr "Ende x-Wert"
+msgstr "Endwert x:"
 
 #: ../share/extensions/funcplot.inx.h:5
 msgid "Multiply X range by 2*pi"
-msgstr "x-Bereich mit 2*pi multiplizieren"
+msgstr "x-Werte mit 2*pi multiplizieren"
 
 #: ../share/extensions/funcplot.inx.h:6
 msgid "Y value of rectangle's bottom:"
-msgstr "y-Wert der unteren Kante des Rechtecks"
+msgstr "y-Wert der unteren Kante des Rechtecks:"
 
 #: ../share/extensions/funcplot.inx.h:7
 msgid "Y value of rectangle's top:"
-msgstr "y-Wert der oberen Kante des Rechtecks"
+msgstr "y-Wert der oberen Kante des Rechtecks:"
 
 #: ../share/extensions/funcplot.inx.h:8
 msgid "Number of samples:"
-msgstr "Anzahl der Proben"
+msgstr "Anzahl der Datenpunkte:"
 
 #: ../share/extensions/funcplot.inx.h:9
 #: ../share/extensions/param_curves.inx.h:11
 msgid "Isotropic scaling"
-msgstr "Isotropische Skalierung"
+msgstr "Isotrope Skalierung (einh. Achseneineilung in x/y-Richtung)"
 
 #: ../share/extensions/funcplot.inx.h:10
 msgid "Use polar coordinates"
@@ -31532,13 +31533,13 @@ msgstr "Polarkoordinaten verwenden"
 msgid ""
 "When set, Isotropic scaling uses smallest of width/xrange or height/yrange"
 msgstr ""
-"Wenn gesetzt, Isotropische Skalierung benutzt Kleinste Breite/x-Bereich oder "
-"Höhe/y-Bereich"
+"Für die isotrope Skalierung wird die jeweils kleinste Breite/Höhe bzw. der "
+"kleinste x/y-Wertebereich verwendet"
 
 #: ../share/extensions/funcplot.inx.h:12
 #: ../share/extensions/param_curves.inx.h:13
 msgid "Use"
-msgstr "Verwenden"
+msgstr "Verwendung"
 
 #: ../share/extensions/funcplot.inx.h:13
 msgid ""
@@ -31552,16 +31553,17 @@ msgid ""
 "   Isotropic scaling is disabled.\n"
 "   First derivative is always determined numerically."
 msgstr ""
-"Wählen Sie ein Rechteck vor Aufruf der Erweiterung.\n"
-"Aus diesem bestimmen sich X- und Y-Skala.Wenn Sie die Fläche füllen wollen, "
-"fügen Sie X-Achsen-Endpunkte hinzu.\n"
+"Vor Aufruf der Erweiterung muss ein Rechteck ausgewählt werden. Dieses "
+"bestimmt den Maßstab der x- und y-Achse. Soll die Fläche unter der Funktion "
+"gefüllt werden, bitte die Funktion „Endpunkte auf der x-Achse hinzufügen“ "
+"aktivieren.\n"
 "\n"
 "Mit Polarkoordinaten:\n"
-"  Start- und End-X-Wert bestimmen den Winkelbereich in Radiant.\n"
-"  Die X-Skala wird so gesetzt, dass rechte und linke Rechteckkante bei +/-1 "
-"liegen.\n"
-"  Isotropische Skalierung ist ausgeschaltet.\n"
-"  Erste Ableitungen werden immer nummerisch bestimmt."
+"  „Startwert x“ und „Endwert x“ bestimmen den Winkelbereich in Radiant.\n"
+"  Der Maßstab der x-Achse wird so gesetzt, dass die linke/rechte Kante des "
+"Rechtecks bei -1 und +1 liegt.\n"
+"  Die isotrope Skalierung wird deaktiviert.\n"
+"  Die erste Ableitung wird immer nummerisch bestimmt."
 
 #: ../share/extensions/funcplot.inx.h:21
 #: ../share/extensions/param_curves.inx.h:16
@@ -31581,16 +31583,19 @@ msgid ""
 "\n"
 "The constants pi and e are also available."
 msgstr ""
-"Die folgenden Standard-Mathematik-Funktionen von Python sind verfügbar: "
-"ceil(x); fabs(x); floor(x); fmod(x,y); frexp(x); ldexp(x,i); modf(x); "
-"exp(x); log(x [, base]); log10(x); pow(x,y); sqrt(x); acos(x); asin(x); "
-"atan(x); atan2(y,x); hypot(x,y); cos(x); sin(x); tan(x); degrees(x); "
-"radians(x); cosh(x); sinh(x); tanh(x). Die Konstanten pi und e sind "
-"ebenfalls verfügbar."
+"Die folgenden Mathematik-Funktionen von Python sind verfügbar:\n"
+"\n"
+"ceil(x); fabs(x); floor(x); fmod(x,y); frexp(x); ldexp(x,i); \n"
+"modf(x); exp(x); log(x [, base]); log10(x); pow(x,y); sqrt(x); \n"
+"acos(x); asin(x); atan(x); atan2(y,x); hypot(x,y); \n"
+"cos(x); sin(x); tan(x); degrees(x); radians(x); \n"
+"cosh(x); sinh(x); tanh(x).\n"
+"\n"
+"Die Konstanten pi und e sind ebenfalls verfügbar."
 
 #: ../share/extensions/funcplot.inx.h:31
 msgid "Function:"
-msgstr "Funktion"
+msgstr "Funktion:"
 
 #: ../share/extensions/funcplot.inx.h:32
 msgid "Calculate first derivative numerically"
@@ -31598,11 +31603,11 @@ msgstr "Erste Ableitung numerisch berechnen"
 
 #: ../share/extensions/funcplot.inx.h:33
 msgid "First derivative:"
-msgstr "Erste Ableitung"
+msgstr "Erste Ableitung:"
 
 #: ../share/extensions/funcplot.inx.h:34
 msgid "Clip with rectangle"
-msgstr "Ausschnitt mit Rechtecks"
+msgstr "Mit Rechteck beschneiden"
 
 #: ../share/extensions/funcplot.inx.h:35
 #: ../share/extensions/param_curves.inx.h:28
@@ -31616,7 +31621,7 @@ msgstr "Achsen zeichnen"
 
 #: ../share/extensions/funcplot.inx.h:37
 msgid "Add x-axis endpoints"
-msgstr "Fügt Endpunkt auf X-Achse hinzu"
+msgstr "Endpunkte auf der x-Achse hinzufügen"
 
 #: ../share/extensions/gcodetools_about.inx.h:1
 msgid "About"

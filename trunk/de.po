@@ -10920,19 +10920,16 @@ msgid "By max. segment size"
 msgstr "Anhand maximaler Segmentlänge"
 
 #: ../src/live_effects/lpe-roughen.cpp:37
-#, fuzzy
 msgid "Along nodes"
-msgstr "Knoten verbinden"
+msgstr "Entlang Knoten"
 
 #: ../src/live_effects/lpe-roughen.cpp:38
-#, fuzzy
 msgid "Rand"
-msgstr "Zufallsänderung"
+msgstr ""
 
 #: ../src/live_effects/lpe-roughen.cpp:39
-#, fuzzy
 msgid "Retract"
-msgstr "Extrahieren"
+msgstr ""
 
 #. initialise your parameters here:
 #: ../src/live_effects/lpe-roughen.cpp:48
@@ -10964,9 +10961,8 @@ msgid "Global randomize"
 msgstr "Zusätzlicher Zufall"
 
 #: ../src/live_effects/lpe-roughen.cpp:60
-#, fuzzy
 msgid "Handles"
-msgstr "Anfasser:"
+msgstr "Anfasser"
 
 #: ../src/live_effects/lpe-roughen.cpp:60
 #, fuzzy
@@ -10974,9 +10970,8 @@ msgid "Handles options"
 msgstr "Positionen zufällig machen"
 
 #: ../src/live_effects/lpe-roughen.cpp:62
-#, fuzzy
 msgid "Max. smooth handle angle"
-msgstr "Weicher Knotenanfasser"
+msgstr ""
 
 #: ../src/live_effects/lpe-roughen.cpp:64
 #: ../share/extensions/radiusrand.inx.h:5
@@ -10984,23 +10979,20 @@ msgid "Shift nodes"
 msgstr "Knoten verschieben"
 
 #: ../src/live_effects/lpe-roughen.cpp:66
-#, fuzzy
 msgid "Fixed displacement"
-msgstr "X-Verschiebung:"
+msgstr "Konstante Verschiebung"
 
 #: ../src/live_effects/lpe-roughen.cpp:66
-#, fuzzy
 msgid "Fixed displacement, 1/3 of segment length"
-msgstr "X-Verschiebung:"
+msgstr "Konstante Verschiebung um 1/3 der Segmentlänge"
 
 #: ../src/live_effects/lpe-roughen.cpp:68
-#, fuzzy
 msgid "Spray Tool friendly"
-msgstr "Einstellungen für Spraydose"
+msgstr "Optimiert für Sprühwerkzeug"
 
 #: ../src/live_effects/lpe-roughen.cpp:68
 msgid "For use with spray tool"
-msgstr ""
+msgstr "Für die Verwendung in Kombination mit dem Sprühwerkzeug"
 
 #: ../src/live_effects/lpe-roughen.cpp:128
 msgid "<b>Add nodes</b> Subdivide each segment"
@@ -11171,7 +11163,6 @@ msgid "Smooth angles:"
 msgstr "Ecken abrunden:"
 
 #: ../src/live_effects/lpe-simplify.cpp:32
-#, fuzzy
 msgid "Max degree difference on handles to perform a smooth"
 msgstr "Maximaler Winkel zwischen Anfassern für den noch geglättet wird"
 
@@ -11358,14 +11349,12 @@ msgid "Taper distance from path start"
 msgstr "Länge der Verjüngung am Anfang des Pfades"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:75
-#, fuzzy
 msgid "End offset:"
 msgstr "Pfadende:"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:75
-#, fuzzy
 msgid "The ending position of the taper"
-msgstr "Länge der Verjüngung am Anfang des Pfades"
+msgstr "Länge der Verjüngung am Ende des Pfades"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:76
 msgid "Taper smoothing:"
@@ -11603,36 +11592,30 @@ msgid "Link path parameter to path"
 msgstr "Pfadparameter mit Pfad verbinden"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:167
-#, fuzzy
 msgid "Remove Path"
-msgstr "Von Pfad _trennen"
+msgstr "Pfad entfernen"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:179
 #: ../src/ui/dialog/objects.cpp:1850
-#, fuzzy
 msgid "Move Down"
-msgstr "Verschiebungsmodus"
+msgstr "Nach unten"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:191
 #: ../src/ui/dialog/objects.cpp:1858
-#, fuzzy
 msgid "Move Up"
-msgstr "Pfad verschieben"
+msgstr "Nach oben"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:231
-#, fuzzy
 msgid "Move path up"
-msgstr "Pfad verschieben"
+msgstr "Pfad nach oben verschieben"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:261
-#, fuzzy
 msgid "Move path down"
-msgstr "Pfadeffekt nach unten verschieben"
+msgstr "Pfad nach unten verschieben"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:279
-#, fuzzy
 msgid "Remove path"
-msgstr "Pfad verschieben"
+msgstr "Pfad entfernen"
 
 #: ../src/live_effects/parameter/path.cpp:170
 msgid "Edit on-canvas"
@@ -11660,14 +11643,15 @@ msgstr "Punktparameter ändern"
 
 #: ../src/live_effects/parameter/powerstrokepointarray.cpp:239
 #: ../src/live_effects/parameter/powerstrokepointarray.cpp:256
-#, fuzzy
 msgid ""
 "<b>Stroke width control point</b>: drag to alter the stroke width. <b>Ctrl"
 "+click</b> adds a control point, <b>Ctrl+Alt+click</b> deletes it, <b>Shift"
 "+click</b> launches width dialog."
 msgstr ""
-"<b>Kontur mit Kontrollpunkt</b> Ziehen, um die Strichstärke zu verändern. "
-"<b>STRG+Klick</b> fügt Kontrollpunkt hinzu, <b>STRG+Alt+Klick</b> löscht ihn."
+"<b>Kontrollpunkt der Kontur</b> Ziehen verändert Strichstärke. <b>Strg"
+"+Klick</b> fügt Kontrollpunkt hinzu, <b>Strg+Alt+Klick</b> löscht ihn, "
+"<b>Shift+Klick</b> öffnet Dialog um Position/Strichstärke manuell "
+"festzulegen."
 
 #: ../src/live_effects/parameter/random.cpp:134
 msgid "Change random parameter"
@@ -20922,11 +20906,11 @@ msgstr "Aktuellen Pfadeffekt löschen"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:127
 msgid "Raise the current path effect"
-msgstr "Aktuellen Pfadeffekt vergrößern"
+msgstr "Aktuellen Pfadeffekt anheben"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:131
 msgid "Lower the current path effect"
-msgstr "Aktuellen Pfadeffekt verringern"
+msgstr "Aktuellen Pfadeffekt absenken"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:298
 msgid "Unknown effect is applied"
@@ -28110,24 +28094,20 @@ msgid "View Layers"
 msgstr "Ebenen anzeigen"
 
 #: ../src/verbs.cpp:2909
-#, fuzzy
 msgid "Object_s..."
-msgstr "Objekte"
+msgstr "_Objekte..."
 
 #: ../src/verbs.cpp:2910
-#, fuzzy
 msgid "View Objects"
-msgstr "Objekte"
+msgstr "Objekte ansehen"
 
 #: ../src/verbs.cpp:2911
-#, fuzzy
 msgid "Selection se_ts..."
-msgstr "Auswahlbereich"
+msgstr ""
 
 #: ../src/verbs.cpp:2912
-#, fuzzy
 msgid "View Tags"
-msgstr "Ebenen anzeigen"
+msgstr ""
 
 #: ../src/verbs.cpp:2913
 msgid "Path E_ffects ..."
@@ -29461,9 +29441,8 @@ msgid "The units to be used for the measurements"
 msgstr "Die Einheiten, die für die Messungen verwendet werden"
 
 #: ../src/widgets/mesh-toolbar.cpp:315
-#, fuzzy
 msgid "Set mesh type"
-msgstr "Textstil setzen"
+msgstr "Gittertyp festlegen"
 
 #: ../src/widgets/mesh-toolbar.cpp:377
 msgid "normal"
@@ -29558,23 +29537,20 @@ msgid "Smoothing:"
 msgstr "Glättung:"
 
 #: ../src/widgets/mesh-toolbar.cpp:534
-#, fuzzy
 msgid "Toggle Sides"
-msgstr "Fett umschalten"
+msgstr ""
 
 #: ../src/widgets/mesh-toolbar.cpp:535
 msgid "Toggle selected sides between Beziers and lines."
 msgstr ""
 
 #: ../src/widgets/mesh-toolbar.cpp:538
-#, fuzzy
 msgid "Toggle side:"
-msgstr "Fett umschalten"
+msgstr ""
 
 #: ../src/widgets/mesh-toolbar.cpp:545
-#, fuzzy
 msgid "Make elliptical"
-msgstr "Kursiv"
+msgstr ""
 
 #: ../src/widgets/mesh-toolbar.cpp:546
 msgid ""
@@ -29583,24 +29559,22 @@ msgid ""
 msgstr ""
 
 #: ../src/widgets/mesh-toolbar.cpp:549
-#, fuzzy
 msgid "Make elliptical:"
-msgstr "Kursiv"
+msgstr ""
 
-# !!! correct?
 #: ../src/widgets/mesh-toolbar.cpp:556
-#, fuzzy
 msgid "Pick colors:"
-msgstr "Punktfarbe"
+msgstr "Farben übernehmen:"
 
 #: ../src/widgets/mesh-toolbar.cpp:557
 msgid "Pick colors for selected corner nodes from underneath mesh."
 msgstr ""
+"Farben der ausgewählten Knoten an Hand der Objekte unterhalb des Gitters "
+"übernehmen."
 
 #: ../src/widgets/mesh-toolbar.cpp:560
-#, fuzzy
 msgid "Pick Color"
-msgstr "Füllfarbe"
+msgstr "Farbe übernehmen"
 
 #: ../src/widgets/node-toolbar.cpp:341
 msgid "Insert node"
@@ -29951,16 +29925,15 @@ msgstr "Bezier"
 
 #: ../src/widgets/pencil-toolbar.cpp:109
 msgid "Create regular Bezier path"
-msgstr "Erstelle Bezier Pfad"
+msgstr "Erstelle gewöhnlichen Bezier-Pfad"
 
 #: ../src/widgets/pencil-toolbar.cpp:116
 msgid "Create Spiro path"
-msgstr "Erstelle Spiral-Pfad"
+msgstr "Erstelle Spiro-Pfad"
 
 #: ../src/widgets/pencil-toolbar.cpp:122
-#, fuzzy
 msgid "Create BSpline path"
-msgstr "Erstelle Spiral-Pfad"
+msgstr "Erstelle B-Spline-Pfad"
 
 #: ../src/widgets/pencil-toolbar.cpp:128
 msgid "Zigzag"
@@ -30001,14 +29974,12 @@ msgid "From clipboard"
 msgstr "Aus Zwischenablage"
 
 #: ../src/widgets/pencil-toolbar.cpp:183
-#, fuzzy
 msgid "Bend from clipboard"
-msgstr "Aus Zwischenablage"
+msgstr "Kurve aus Zwischenablage"
 
 #: ../src/widgets/pencil-toolbar.cpp:184
-#, fuzzy
 msgid "Last applied"
-msgstr "Letzte Folie:"
+msgstr "Zuletzt angewendet"
 
 #: ../src/widgets/pencil-toolbar.cpp:209 ../src/widgets/pencil-toolbar.cpp:210
 msgid "Shape:"
@@ -31376,7 +31347,6 @@ msgstr "Im Farbmodus auf den Farbton eines Objekts wirken"
 
 #. TRANSLATORS:  "H" here stands for hue
 #: ../src/widgets/tweak-toolbar.cpp:291
-#, fuzzy
 msgctxt "Hue"
 msgid "H"
 msgstr "H"
@@ -31387,7 +31357,6 @@ msgstr "Im Farbmodus auf die Farbsättigung eines Objekts wirken"
 
 #. TRANSLATORS: "S" here stands for Saturation
 #: ../src/widgets/tweak-toolbar.cpp:307
-#, fuzzy
 msgctxt "Saturation"
 msgid "S"
 msgstr "S"
@@ -31396,14 +31365,8 @@ msgstr "S"
 msgid "In color mode, act on objects' lightness"
 msgstr "Im Farbmodus auf die Helligkeit eines Objekts wirken"
 
-# Translation conflict:
-# L = locked in objects dialog
-# L = lightness somewhere else
-# Bug filed: https://bugs.launchpad.net/inkscape/+bug/1509852
-# !!!
 #. TRANSLATORS: "L" here stands for Lightness
 #: ../src/widgets/tweak-toolbar.cpp:323
-#, fuzzy
 msgctxt "Lightness"
 msgid "L"
 msgstr "L"
@@ -31414,7 +31377,6 @@ msgstr "Im Farbmodus auf die Deckkraft eines Objekts wirken"
 
 #. TRANSLATORS: "O" here stands for Opacity
 #: ../src/widgets/tweak-toolbar.cpp:339
-#, fuzzy
 msgctxt "Opacity"
 msgid "O"
 msgstr "O"
@@ -31576,11 +31538,11 @@ msgid "Need at least 2 paths selected"
 msgstr "Benötigt mindestens 2 ausgewählte Pfade"
 
 #: ../share/extensions/funcplot.py:48
-#, fuzzy
 msgid ""
 "x-interval cannot be zero. Please modify 'Start X value' or 'End X value'"
 msgstr ""
-"X-Interval kann nicht Null sein. Bitte verändern Sie 'Start X' oder 'Ende X'"
+"X-Interval kann nicht Null sein. Bitte 'Startwert X' oder 'Endwert X' "
+"anpassen"
 
 # Check 'linked' translations (Y oben, Y unten).
 #: ../share/extensions/funcplot.py:60
@@ -33621,32 +33583,32 @@ msgstr "Bereich und Sampling"
 
 #: ../share/extensions/funcplot.inx.h:3
 msgid "Start X value:"
-msgstr "Beginn X-Wert"
+msgstr "Startwert x:"
 
 #: ../share/extensions/funcplot.inx.h:4
 msgid "End X value:"
-msgstr "Ende x-Wert"
+msgstr "Endwert x:"
 
 #: ../share/extensions/funcplot.inx.h:5
 msgid "Multiply X range by 2*pi"
-msgstr "x-Bereich mit 2*pi multiplizieren"
+msgstr "x-Werte mit 2*pi multiplizieren"
 
 #: ../share/extensions/funcplot.inx.h:6
 msgid "Y value of rectangle's bottom:"
-msgstr "y-Wert der unteren Kante des Rechtecks"
+msgstr "y-Wert der unteren Kante des Rechtecks:"
 
 #: ../share/extensions/funcplot.inx.h:7
 msgid "Y value of rectangle's top:"
-msgstr "y-Wert der oberen Kante des Rechtecks"
+msgstr "y-Wert der oberen Kante des Rechtecks:"
 
 #: ../share/extensions/funcplot.inx.h:8
 msgid "Number of samples:"
-msgstr "Anzahl der Proben"
+msgstr "Anzahl der Datenpunkte:"
 
 #: ../share/extensions/funcplot.inx.h:9
 #: ../share/extensions/param_curves.inx.h:11
 msgid "Isotropic scaling"
-msgstr "Isotropische Skalierung"
+msgstr "Isotrope Skalierung (einh. Achseneineilung in x/y-Richtung)"
 
 #: ../share/extensions/funcplot.inx.h:10
 msgid "Use polar coordinates"
@@ -33657,13 +33619,13 @@ msgstr "Polarkoordinaten verwenden"
 msgid ""
 "When set, Isotropic scaling uses smallest of width/xrange or height/yrange"
 msgstr ""
-"Wenn gesetzt, Isotropische Skalierung benutzt Kleinste Breite/x-Bereich oder "
-"Höhe/y-Bereich"
+"Für die isotrope Skalierung wird die jeweils kleinste Breite/Höhe bzw. der "
+"kleinste x/y-Wertebereich verwendet"
 
 #: ../share/extensions/funcplot.inx.h:12
 #: ../share/extensions/param_curves.inx.h:13
 msgid "Use"
-msgstr "Verwenden"
+msgstr "Verwendung"
 
 #: ../share/extensions/funcplot.inx.h:13
 msgid ""
@@ -33677,16 +33639,17 @@ msgid ""
 "   Isotropic scaling is disabled.\n"
 "   First derivative is always determined numerically."
 msgstr ""
-"Wählen Sie ein Rechteck vor Aufruf der Erweiterung.\n"
-"Aus diesem bestimmen sich X- und Y-Skala.Wenn Sie die Fläche füllen wollen, "
-"fügen Sie X-Achsen-Endpunkte hinzu.\n"
+"Vor Aufruf der Erweiterung muss ein Rechteck ausgewählt werden. Dieses "
+"bestimmt den Maßstab der x- und y-Achse. Soll die Fläche unter der Funktion "
+"gefüllt werden, bitte die Funktion „Endpunkte auf der x-Achse hinzufügen“ "
+"aktivieren.\n"
 "\n"
 "Mit Polarkoordinaten:\n"
-"  Start- und End-X-Wert bestimmen den Winkelbereich in Radiant.\n"
-"  Die X-Skala wird so gesetzt, dass rechte und linke Rechteckkante bei +/-1 "
-"liegen.\n"
-"  Isotropische Skalierung ist ausgeschaltet.\n"
-"  Erste Ableitungen werden immer nummerisch bestimmt."
+"  „Startwert x“ und „Endwert x“ bestimmen den Winkelbereich in Radiant.\n"
+"  Der Maßstab der x-Achse wird so gesetzt, dass die linke/rechte Kante des "
+"Rechtecks bei -1 und +1 liegt.\n"
+"  Die isotrope Skalierung wird deaktiviert.\n"
+"  Die erste Ableitung wird immer nummerisch bestimmt."
 
 #: ../share/extensions/funcplot.inx.h:21
 #: ../share/extensions/param_curves.inx.h:16
@@ -33706,16 +33669,19 @@ msgid ""
 "\n"
 "The constants pi and e are also available."
 msgstr ""
-"Die folgenden Standard-Mathematik-Funktionen von Python sind verfügbar: "
-"ceil(x); fabs(x); floor(x); fmod(x,y); frexp(x); ldexp(x,i); modf(x); "
-"exp(x); log(x [, base]); log10(x); pow(x,y); sqrt(x); acos(x); asin(x); "
-"atan(x); atan2(y,x); hypot(x,y); cos(x); sin(x); tan(x); degrees(x); "
-"radians(x); cosh(x); sinh(x); tanh(x). Die Konstanten pi und e sind "
-"ebenfalls verfügbar."
+"Die folgenden Mathematik-Funktionen von Python sind verfügbar:\n"
+"\n"
+"ceil(x); fabs(x); floor(x); fmod(x,y); frexp(x); ldexp(x,i); \n"
+"modf(x); exp(x); log(x [, base]); log10(x); pow(x,y); sqrt(x); \n"
+"acos(x); asin(x); atan(x); atan2(y,x); hypot(x,y); \n"
+"cos(x); sin(x); tan(x); degrees(x); radians(x); \n"
+"cosh(x); sinh(x); tanh(x).\n"
+"\n"
+"Die Konstanten pi und e sind ebenfalls verfügbar."
 
 #: ../share/extensions/funcplot.inx.h:31
 msgid "Function:"
-msgstr "Funktion"
+msgstr "Funktion:"
 
 #: ../share/extensions/funcplot.inx.h:32
 msgid "Calculate first derivative numerically"
@@ -33723,11 +33689,11 @@ msgstr "Erste Ableitung numerisch berechnen"
 
 #: ../share/extensions/funcplot.inx.h:33
 msgid "First derivative:"
-msgstr "Erste Ableitung"
+msgstr "Erste Ableitung:"
 
 #: ../share/extensions/funcplot.inx.h:34
 msgid "Clip with rectangle"
-msgstr "Ausschnitt mit Rechtecks"
+msgstr "Mit Rechteck beschneiden"
 
 #: ../share/extensions/funcplot.inx.h:35
 #: ../share/extensions/param_curves.inx.h:28
@@ -33741,7 +33707,7 @@ msgstr "Achsen zeichnen"
 
 #: ../share/extensions/funcplot.inx.h:37
 msgid "Add x-axis endpoints"
-msgstr "Fügt Endpunkt auf X-Achse hinzu"
+msgstr "Endpunkte auf der x-Achse hinzufügen"
 
 #: ../share/extensions/gcodetools_about.inx.h:1
 msgid "About"
