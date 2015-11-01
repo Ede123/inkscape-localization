@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2015-10-21 07:47+0200\n"
+"POT-Creation-Date: 2015-11-01 13:46+0100\n"
 "PO-Revision-Date: 2015-10-27 19:39+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <>\n"
@@ -5899,80 +5899,80 @@ msgid "Open presentation exchange files saved in Corel DRAW"
 msgstr ""
 "Öffnen einer Presentation Exchange Datei, die in Corel DRAW gespeichert wurde"
 
-#: ../src/extension/internal/emf-inout.cpp:3584
+#: ../src/extension/internal/emf-inout.cpp:3581
 msgid "EMF Input"
 msgstr "EMF einlesen"
 
-#: ../src/extension/internal/emf-inout.cpp:3589
+#: ../src/extension/internal/emf-inout.cpp:3586
 msgid "Enhanced Metafiles (*.emf)"
 msgstr "Erweiterte Metadateien (*.emf)"
 
 # !!!
-#: ../src/extension/internal/emf-inout.cpp:3590
+#: ../src/extension/internal/emf-inout.cpp:3587
 msgid "Enhanced Metafiles"
 msgstr "Erweiterte Metadateien"
 
-#: ../src/extension/internal/emf-inout.cpp:3598
+#: ../src/extension/internal/emf-inout.cpp:3595
 msgid "EMF Output"
 msgstr "EMF-Ausgabe"
 
-#: ../src/extension/internal/emf-inout.cpp:3600
+#: ../src/extension/internal/emf-inout.cpp:3597
 #: ../src/extension/internal/wmf-inout.cpp:3176
 msgid "Convert texts to paths"
 msgstr "Texte in Pfade umwandeln"
 
-#: ../src/extension/internal/emf-inout.cpp:3601
+#: ../src/extension/internal/emf-inout.cpp:3598
 #: ../src/extension/internal/wmf-inout.cpp:3177
 msgid "Map Unicode to Symbol font"
 msgstr "Unicode mit Symbol Font verbinden"
 
-#: ../src/extension/internal/emf-inout.cpp:3602
+#: ../src/extension/internal/emf-inout.cpp:3599
 #: ../src/extension/internal/wmf-inout.cpp:3178
 msgid "Map Unicode to Wingdings"
 msgstr "Unicode mit Wingdings Font verbinden"
 
-#: ../src/extension/internal/emf-inout.cpp:3603
+#: ../src/extension/internal/emf-inout.cpp:3600
 #: ../src/extension/internal/wmf-inout.cpp:3179
 msgid "Map Unicode to Zapf Dingbats"
 msgstr "Unicode mit Zapf Dingbats Font verbinden"
 
-#: ../src/extension/internal/emf-inout.cpp:3604
+#: ../src/extension/internal/emf-inout.cpp:3601
 #: ../src/extension/internal/wmf-inout.cpp:3180
 msgid "Use MS Unicode PUA (0xF020-0xF0FF) for converted characters"
 msgstr "MS Unicode PUA (0xF020-0xF0FF) für umgewandelte Zeichen verwenden"
 
-#: ../src/extension/internal/emf-inout.cpp:3605
+#: ../src/extension/internal/emf-inout.cpp:3602
 #: ../src/extension/internal/wmf-inout.cpp:3181
 msgid "Compensate for PPT font bug"
 msgstr "PPT font bug kompensieren"
 
-#: ../src/extension/internal/emf-inout.cpp:3606
+#: ../src/extension/internal/emf-inout.cpp:3603
 #: ../src/extension/internal/wmf-inout.cpp:3182
 msgid "Convert dashed/dotted lines to single lines"
 msgstr "Gestrichelte/gepunktete Linien in zusammenhängende Linien umwandeln"
 
-#: ../src/extension/internal/emf-inout.cpp:3607
+#: ../src/extension/internal/emf-inout.cpp:3604
 #: ../src/extension/internal/wmf-inout.cpp:3183
 msgid "Convert gradients to colored polygon series"
 msgstr "Farbverlauf in lineare farbige Rechtecke umwandeln"
 
-#: ../src/extension/internal/emf-inout.cpp:3608
+#: ../src/extension/internal/emf-inout.cpp:3605
 msgid "Use native rectangular linear gradients"
 msgstr "Native rechteckige lineare Verläufe verwenden"
 
-#: ../src/extension/internal/emf-inout.cpp:3609
+#: ../src/extension/internal/emf-inout.cpp:3606
 msgid "Map all fill patterns to standard EMF hatches"
 msgstr "Alle Füllmuster als Standard EMF Muster setzen"
 
-#: ../src/extension/internal/emf-inout.cpp:3610
+#: ../src/extension/internal/emf-inout.cpp:3607
 msgid "Ignore image rotations"
 msgstr "Bilddrehung ignorieren"
 
-#: ../src/extension/internal/emf-inout.cpp:3614
+#: ../src/extension/internal/emf-inout.cpp:3611
 msgid "Enhanced Metafile (*.emf)"
 msgstr "Erweiterte Metadatei (*.emf)"
 
-#: ../src/extension/internal/emf-inout.cpp:3615
+#: ../src/extension/internal/emf-inout.cpp:3612
 msgid "Enhanced Metafile"
 msgstr "Erweiterte Metadatei"
 
@@ -6270,7 +6270,6 @@ msgstr "Mischmodus:"
 #: ../src/extension/internal/filter/textures.h:77
 #: ../src/extension/internal/filter/transparency.h:61
 #: ../src/filter-enums.cpp:52 ../src/ui/dialog/inkscape-preferences.cpp:685
-#: ../src/ui/widget/font-variants.cpp:45 ../src/ui/widget/font-variants.cpp:50
 msgid "Normal"
 msgstr "Normal"
 
@@ -9145,8 +9144,7 @@ msgstr ""
 "Versuch, %p an ein schon gebundenes Objekt %p anzubinden (gehört momentan zu "
 "%p)"
 
-#: ../src/libgdl/gdl-dock-paned.c:130 ../src/ui/widget/font-variants.cpp:44
-#: ../src/widgets/ruler.cpp:230
+#: ../src/libgdl/gdl-dock-paned.c:130 ../src/widgets/ruler.cpp:230
 msgid "Position"
 msgstr "Position"
 
@@ -10991,8 +10989,9 @@ msgid "Fixed displacement"
 msgstr "X-Verschiebung:"
 
 #: ../src/live_effects/lpe-roughen.cpp:66
-msgid "Fixed displacement, 1/3 of segment lenght"
-msgstr ""
+#, fuzzy
+msgid "Fixed displacement, 1/3 of segment length"
+msgstr "X-Verschiebung:"
 
 #: ../src/live_effects/lpe-roughen.cpp:68
 #, fuzzy
@@ -11172,7 +11171,8 @@ msgid "Smooth angles:"
 msgstr "Ecken abrunden:"
 
 #: ../src/live_effects/lpe-simplify.cpp:32
-msgid "Max degree difference on handles to preform a smooth"
+#, fuzzy
+msgid "Max degree difference on handles to perform a smooth"
 msgstr "Maximaler Winkel zwischen Anfassern für den noch geglättet wird"
 
 #: ../src/live_effects/lpe-simplify.cpp:34
@@ -11387,11 +11387,11 @@ msgstr "Verbindungsart für nicht abgerundete Knoten"
 msgid "Limit for miter joins"
 msgstr "Maximale Länge für Gehrungen"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:448
+#: ../src/live_effects/lpe-taperstroke.cpp:447
 msgid "Start point of the taper"
 msgstr "Startpunkt der Verjüngung"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:452
+#: ../src/live_effects/lpe-taperstroke.cpp:451
 msgid "End point of the taper"
 msgstr "Endpunkt der Verjüngung"
 
@@ -11412,12 +11412,12 @@ msgstr "Originalpfad klonen"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:33
 #, fuzzy
-msgid "Lock lenght"
+msgid "Lock length"
 msgstr "Ebene sperren"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:33
 #, fuzzy
-msgid "Lock lenght to current distance"
+msgid "Lock length to current distance"
 msgstr "Sperren oder Entsperren der aktuellen Ebene"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:34
@@ -11446,12 +11446,13 @@ msgstr "Pfadende:"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:39
 #, fuzzy
-msgid "Strech"
+msgid "Stretch"
 msgstr "Stärke"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:39
-msgid "Strech the result"
-msgstr ""
+#, fuzzy
+msgid "Stretch the result"
+msgstr "Filter-Auflösung setzen"
 
 # !!! verb or noun?
 #: ../src/live_effects/lpe-transform_2pts.cpp:40
@@ -11553,29 +11554,29 @@ msgstr "Booleschen Parameter ändern"
 msgid "Change enumeration parameter"
 msgstr "Aufzählungsparameter ändern"
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:780
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:841
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:778
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:839
 msgid ""
 "<b>Chamfer</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open "
 "dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:784
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:845
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:782
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:843
 msgid ""
 "<b>Inverse Chamfer</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> "
 "open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:788
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:849
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:786
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:847
 msgid ""
 "<b>Inverse Fillet</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> "
 "open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:792
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:853
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:790
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:851
 msgid ""
 "<b>Fillet</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open "
 "dialog, <b>Ctrl+Alt+Click</b> reset"
@@ -18608,19 +18609,22 @@ msgid "Set the language for menus and number formats"
 msgstr "Sprache für Menüs und Zahlenformate setzen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#: ../src/ui/dialog/inkscape-preferences.cpp:689
+#, fuzzy
+msgctxt "Icon size"
 msgid "Large"
 msgstr "Groß"
 
 # Bezieht sich auf die 10% größeren angelsächsischen Kapitälchen...
 # UND leider auch auf Icongrößen.
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#: ../src/ui/dialog/inkscape-preferences.cpp:689
-#: ../src/ui/widget/font-variants.cpp:51
+#, fuzzy
+msgctxt "Icon size"
 msgid "Small"
 msgstr "Klein"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
+#, fuzzy
+msgctxt "Icon size"
 msgid "Smaller"
 msgstr "Kleiner"
 
@@ -18820,7 +18824,23 @@ msgstr "Nein"
 msgid "Aggressive"
 msgstr "Aggressiv"
 
+# Bezieht sich auf die 10% größeren angelsächsischen Kapitälchen...
+# UND leider auch auf Icongrößen.
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
+#, fuzzy
+msgctxt "Window size"
+msgid "Small"
+msgstr "Klein"
+
+#: ../src/ui/dialog/inkscape-preferences.cpp:689
+#, fuzzy
+msgctxt "Window size"
+msgid "Large"
+msgstr "Groß"
+
+#: ../src/ui/dialog/inkscape-preferences.cpp:689
+#, fuzzy
+msgctxt "Window size"
 msgid "Maximized"
 msgstr "Maximiert"
 
@@ -20708,6 +20728,7 @@ msgstr "Verknüpfung:"
 # CHECK
 #: ../src/ui/dialog/input.cpp:742 ../src/ui/dialog/input.cpp:743
 #: ../src/ui/dialog/input.cpp:1571 ../src/ui/widget/color-scales.cpp:46
+#: ../share/extensions/plotter.inx.h:24
 msgid "None"
 msgstr "Keine"
 
@@ -21280,6 +21301,8 @@ msgstr "Unschärfe des Objekts festlegen"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: visible
 #: ../src/ui/dialog/objects.cpp:1617
+#, fuzzy
+msgctxt "Visibility"
 msgid "V"
 msgstr "S"
 
@@ -21288,22 +21311,29 @@ msgstr "S"
 # L = lightness somewhere else
 # Bug filed: https://bugs.launchpad.net/inkscape/+bug/1509852
 # !!!
-#. TRANSLATORS: "L" here stands for Lightness
-#: ../src/ui/dialog/objects.cpp:1618 ../src/widgets/tweak-toolbar.cpp:323
+#: ../src/ui/dialog/objects.cpp:1618
+#, fuzzy
+msgctxt "Lock"
 msgid "L"
 msgstr "L"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: type (layer, group or object)
 #: ../src/ui/dialog/objects.cpp:1619
+#, fuzzy
+msgctxt "Type"
 msgid "T"
 msgstr "T"
 
 #: ../src/ui/dialog/objects.cpp:1620
+#, fuzzy
+msgctxt "Clip and mask"
 msgid "CM"
 msgstr "AM"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: color of path outline in node tool (de: Pfadfarbe)
 #: ../src/ui/dialog/objects.cpp:1621
+#, fuzzy
+msgctxt "Highlight"
 msgid "HL"
 msgstr "PF"
 
@@ -22080,7 +22110,7 @@ msgstr "Als _Standard festlegen"
 
 #: ../src/ui/dialog/text-edit.cpp:87
 #, fuzzy
-msgid "AaBbCcIiPpQq12369$ےے?.;/()"
+msgid "AaBbCcIiPpQq12369$€¢?.;/()"
 msgstr "AaBbCcIiPpQq12369$€¢?.;/()"
 
 #. Align buttons
@@ -22120,7 +22150,7 @@ msgstr "Abstand zwischen Linien (Prozent der Schriftgröße)"
 msgid "Text path offset"
 msgstr "Text-Pfad-Versatz"
 
-#: ../src/ui/dialog/text-edit.cpp:598 ../src/ui/dialog/text-edit.cpp:685
+#: ../src/ui/dialog/text-edit.cpp:612 ../src/ui/dialog/text-edit.cpp:699
 #: ../src/ui/tools/text-tool.cpp:1446
 msgid "Set text style"
 msgstr "Textstil setzen"
@@ -24928,117 +24958,185 @@ msgid "Blur (%)"
 msgstr "Unschärfe (%)"
 
 #: ../src/ui/widget/font-variants.cpp:38
+#, fuzzy
+msgctxt "Font variant"
 msgid "Ligatures"
 msgstr "Ligaturen"
 
 #: ../src/ui/widget/font-variants.cpp:39
+#, fuzzy
+msgctxt "Font variant"
 msgid "Common"
 msgstr "Gewöhnliche"
 
 #: ../src/ui/widget/font-variants.cpp:40
+#, fuzzy
+msgctxt "Font variant"
 msgid "Discretionary"
 msgstr "Bedingte"
 
 #: ../src/ui/widget/font-variants.cpp:41
+#, fuzzy
+msgctxt "Font variant"
 msgid "Historical"
 msgstr "Historische"
 
 #: ../src/ui/widget/font-variants.cpp:42
+#, fuzzy
+msgctxt "Font variant"
 msgid "Contextual"
 msgstr "Kontextbezogene"
 
+#: ../src/ui/widget/font-variants.cpp:44
+#, fuzzy
+msgctxt "Font variant"
+msgid "Position"
+msgstr "Position"
+
+#: ../src/ui/widget/font-variants.cpp:45 ../src/ui/widget/font-variants.cpp:50
+#, fuzzy
+msgctxt "Font variant"
+msgid "Normal"
+msgstr "Normal"
+
 #: ../src/ui/widget/font-variants.cpp:46
+#, fuzzy
+msgctxt "Font variant"
 msgid "Subscript"
 msgstr "Tiefgestellt"
 
 #: ../src/ui/widget/font-variants.cpp:47
+#, fuzzy
+msgctxt "Font variant"
 msgid "Superscript"
 msgstr "Hochgestellt"
 
-# Überbegriff für Groß-/Kleinschreibung als Eigenschaft der Schriftvariante. "Kapitälchen" lt. http://www.linuxlibertine.org/index.php?id=87
 #: ../src/ui/widget/font-variants.cpp:49
+#, fuzzy
+msgctxt "Font variant"
 msgid "Capitals"
-msgstr ""
+msgstr "Hospital"
 
-# Bedeutung: alle Buchstaben als Kapitälchen, egal ob Groß- oder Kleinbuchstaben.
+# Bezieht sich auf die 10% größeren angelsächsischen Kapitälchen...
+# UND leider auch auf Icongrößen.
+#: ../src/ui/widget/font-variants.cpp:51
+#, fuzzy
+msgctxt "Font variant"
+msgid "Small"
+msgstr "Klein"
+
 #: ../src/ui/widget/font-variants.cpp:52
+#, fuzzy
+msgctxt "Font variant"
 msgid "All small"
-msgstr ""
+msgstr "Alle Formen"
 
-# Bedeutung: Kleine (für uns normalgroße) Kapitälchen für Kleinbuchstaben.
 #: ../src/ui/widget/font-variants.cpp:53
+msgctxt "Font variant"
 msgid "Petite"
 msgstr ""
 
-# Bedeutung: Kleine (normale) Kapitälchen für Groß- und Kleinbuchstaben (die anderen sind 10% größer, und wohl im angelsächsischen Raum gebräuchlich)
 #: ../src/ui/widget/font-variants.cpp:54
+#, fuzzy
+msgctxt "Font variant"
 msgid "All petite"
-msgstr ""
+msgstr "Alles inaktiv"
 
 # lt. http://www.typografie.info/3/page/wiki.html/_/fachbegriffe/unicase-r25
 #: ../src/ui/widget/font-variants.cpp:55
+#, fuzzy
+msgctxt "Font variant"
 msgid "Unicase"
 msgstr "Unikameral"
 
-# https://en.wikipedia.org/wiki/Titling_capitals
 #: ../src/ui/widget/font-variants.cpp:56
+#, fuzzy
+msgctxt "Font variant"
 msgid "Titling"
-msgstr ""
+msgstr "Segeln"
 
 #: ../src/ui/widget/font-variants.cpp:58
+#, fuzzy
+msgctxt "Font variant"
 msgid "Numeric"
 msgstr "Ziffern"
 
 #: ../src/ui/widget/font-variants.cpp:59
+#, fuzzy
+msgctxt "Font variant"
 msgid "Lining"
 msgstr "Versalziffern"
 
 #: ../src/ui/widget/font-variants.cpp:60
+#, fuzzy
+msgctxt "Font variant"
 msgid "Old Style"
 msgstr "Minuskelziffern"
 
 #: ../src/ui/widget/font-variants.cpp:61
+#, fuzzy
+msgctxt "Font variant"
 msgid "Default Style"
 msgstr "Standardstil"
 
 #: ../src/ui/widget/font-variants.cpp:62
+#, fuzzy
+msgctxt "Font variant"
 msgid "Proportional"
 msgstr "Proportional"
 
 #: ../src/ui/widget/font-variants.cpp:63
+#, fuzzy
+msgctxt "Font variant"
 msgid "Tabular"
 msgstr "Tabellenziffern"
 
 #: ../src/ui/widget/font-variants.cpp:64
+#, fuzzy
+msgctxt "Font variant"
 msgid "Default Width"
 msgstr "Standardbreite"
 
 #: ../src/ui/widget/font-variants.cpp:65
+#, fuzzy
+msgctxt "Font variant"
 msgid "Diagonal"
 msgstr "Diagonal"
 
 # Vertikal? Oder bezogen auf den Bruchstrich: Horizontal?...
 #: ../src/ui/widget/font-variants.cpp:66
+#, fuzzy
+msgctxt "Font variant"
 msgid "Stacked"
 msgstr "Übereinander"
 
 #: ../src/ui/widget/font-variants.cpp:67
+#, fuzzy
+msgctxt "Font variant"
 msgid "Default Fractions"
 msgstr "Standard-Brüche"
 
 #: ../src/ui/widget/font-variants.cpp:68
+#, fuzzy
+msgctxt "Font variant"
 msgid "Ordinal"
 msgstr "Ordnungszahlen"
 
 #: ../src/ui/widget/font-variants.cpp:69
+#, fuzzy
+msgctxt "Font variant"
 msgid "Slashed Zero"
 msgstr "Gestrichene Null"
 
 #: ../src/ui/widget/font-variants.cpp:71
+#, fuzzy
+msgctxt "Font variant"
 msgid "Feature Settings"
 msgstr "Typographische Eigenschaften"
 
 #: ../src/ui/widget/font-variants.cpp:72
+#, fuzzy
+msgctxt "Font variant"
 msgid "Selection has different Feature Settings!"
 msgstr "Die Auswahl hat abweichende typographischen Eigenschaften!"
 
@@ -31306,6 +31404,8 @@ msgstr "Im Farbmodus auf den Farbton eines Objekts wirken"
 
 #. TRANSLATORS:  "H" here stands for hue
 #: ../src/widgets/tweak-toolbar.cpp:291
+#, fuzzy
+msgctxt "Hue"
 msgid "H"
 msgstr "H"
 
@@ -31315,6 +31415,8 @@ msgstr "Im Farbmodus auf die Farbsättigung eines Objekts wirken"
 
 #. TRANSLATORS: "S" here stands for Saturation
 #: ../src/widgets/tweak-toolbar.cpp:307
+#, fuzzy
+msgctxt "Saturation"
 msgid "S"
 msgstr "S"
 
@@ -31322,12 +31424,26 @@ msgstr "S"
 msgid "In color mode, act on objects' lightness"
 msgstr "Im Farbmodus auf die Helligkeit eines Objekts wirken"
 
+# Translation conflict:
+# L = locked in objects dialog
+# L = lightness somewhere else
+# Bug filed: https://bugs.launchpad.net/inkscape/+bug/1509852
+# !!!
+#. TRANSLATORS: "L" here stands for Lightness
+#: ../src/widgets/tweak-toolbar.cpp:323
+#, fuzzy
+msgctxt "Lightness"
+msgid "L"
+msgstr "L"
+
 #: ../src/widgets/tweak-toolbar.cpp:335
 msgid "In color mode, act on objects' opacity"
 msgstr "Im Farbmodus auf die Deckkraft eines Objekts wirken"
 
 #. TRANSLATORS: "O" here stands for Opacity
 #: ../src/widgets/tweak-toolbar.cpp:339
+#, fuzzy
+msgctxt "Opacity"
 msgid "O"
 msgstr "O"
 
@@ -35249,7 +35365,7 @@ msgstr "Latein"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:5
-msgid "Support non-unifom scaling"
+msgid "Support non-uniform scaling"
 msgstr ""
 
 #. render images like in 0.48
@@ -36850,12 +36966,6 @@ msgstr "Hardware (RTS/CTS)"
 #: ../share/extensions/plotter.inx.h:23
 msgid "Hardware (DSR/DTR + RTS/CTS)"
 msgstr "Hardware (DSR/DTR + RTS/CTS)"
-
-# CHECK
-#: ../share/extensions/plotter.inx.h:24
-msgctxt "Flow control"
-msgid "None"
-msgstr "Keine"
 
 #: ../share/extensions/plotter.inx.h:25
 msgid "HPGL"
@@ -38749,6 +38859,11 @@ msgstr "Ein beliebtes Dateiformat für Clipart"
 msgid "XAML Input"
 msgstr "XAML einlesen"
 
+# CHECK
+#~ msgctxt "Flow control"
+#~ msgid "None"
+#~ msgstr "Keine"
+
 #~ msgid "Text Orientation: "
 #~ msgstr "Textausrichtung:"
 
@@ -39219,9 +39334,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "Set Resolution"
 #~ msgstr "Auflösung"
-
-#~ msgid "Set filter resolution"
-#~ msgstr "Filter-Auflösung setzen"
 
 #~ msgid "Fills object bounding box with color"
 #~ msgstr "Füllt Objektrahmen des Objekts mit Farbe"
@@ -40075,9 +40187,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "Search all shapes"
 #~ msgstr "Alle Formen durchsuchen"
-
-#~ msgid "All shapes"
-#~ msgstr "Alle Formen"
 
 #~ msgid "Whiteboa_rd"
 #~ msgstr "Whiteboa_rd"
