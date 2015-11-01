@@ -8863,7 +8863,7 @@ msgstr "<b>Bewegen des Füllmusters</b> innerhalb des Objektes"
 #: ../src/knotholder.cpp:281 ../src/knotholder.cpp:303
 msgid "<b>Scale</b> the pattern fill; uniformly if with <b>Ctrl</b>"
 msgstr ""
-"Einheitliches <b>Skalieren</b> des Füllmusters; gleichmäßig durch <b>STRG</b>"
+"Einheitliches <b>Skalieren</b> des Füllmusters; gleichmäßig durch <b>Strg</b>"
 
 #: ../src/knotholder.cpp:285 ../src/knotholder.cpp:307
 msgid "<b>Rotate</b> the pattern fill; with <b>Ctrl</b> to snap angle"
@@ -9633,11 +9633,11 @@ msgstr "Verwendet den visuellen Objektrahmen"
 
 #: ../src/live_effects/lpe-bspline.cpp:30
 msgid "Steps with CTRL:"
-msgstr "Schritte mit STRG:"
+msgstr "Schritte mit Strg:"
 
 #: ../src/live_effects/lpe-bspline.cpp:30
 msgid "Change number of steps with CTRL pressed"
-msgstr "Ändere Anzahl der Schritte mit STRG gedrückt"
+msgstr "Ändere Anzahl der Schritte mit Strg gedrückt"
 
 #: ../src/live_effects/lpe-bspline.cpp:31
 #: ../src/live_effects/lpe-simplify.cpp:33
@@ -11650,7 +11650,7 @@ msgid ""
 msgstr ""
 "<b>Kontrollpunkt der Kontur</b> Ziehen verändert Strichstärke. <b>Strg"
 "+Klick</b> fügt Kontrollpunkt hinzu, <b>Strg+Alt+Klick</b> löscht ihn, "
-"<b>Shift+Klick</b> öffnet Dialog um Position/Strichstärke manuell "
+"<b>Umschalt+Klick</b> öffnet Dialog um Position/Strichstärke manuell "
 "festzulegen."
 
 #: ../src/live_effects/parameter/random.cpp:134
@@ -19655,7 +19655,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1191
 msgid "Ctrl+A, Tab, Shift+Tab"
-msgstr "Strg+A, Tabulator, Umschalt+Tabulator:"
+msgstr "Strg+A, Tab, Umschalt+Tab"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1193
 msgid "Make keyboard selection commands work on objects in all layers"
@@ -19786,7 +19786,7 @@ msgid ""
 "(horizontally with Shift)"
 msgstr ""
 "Eine Stufe des Maus-Rades rollt um die angegebene Distanz in Pixeln "
-"(horizontal mit Umschalttaste)"
+"(horizontal mit Umschalt)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1239
 msgid "Ctrl+arrows"
@@ -23046,7 +23046,7 @@ msgstr "<b>Umschalt</b>: Klick um Segment-Auswahl umzuschalten"
 #: ../src/ui/tool/curve-drag-point.cpp:200
 msgctxt "Path segment tip"
 msgid "<b>Ctrl+Alt</b>: click to insert a node"
-msgstr "<b>STRG+Alt</b>: Klicken, um einen Knoten einzufügen"
+msgstr "<b>Strg+Alt</b>: Klicken, um einen Knoten einzufügen"
 
 #: ../src/ui/tool/curve-drag-point.cpp:204
 #, fuzzy
@@ -23065,7 +23065,7 @@ msgid ""
 "insert node, click to select (more: Shift, Ctrl+Alt)"
 msgstr ""
 "<b>Linear-Segment</b>: Ziehen, um in ein Bézier-Segment zu konvertieren, "
-"Doppelklick um Knoten einzufügen und Klicken zum Auswählen (mehr: Umschakt, "
+"Doppelklick um Knoten einzufügen und Klicken zum Auswählen (mehr: Umschalt, "
 "Strg+Alt)"
 
 #: ../src/ui/tool/curve-drag-point.cpp:213
@@ -23184,18 +23184,18 @@ msgstr "Knotenanfasser automatisch abrunden"
 #: ../src/ui/tool/node.cpp:494
 msgctxt "Path handle tip"
 msgid "more: Shift, Ctrl, Alt"
-msgstr "mehr: Umschalttaste, STRG, ALT"
+msgstr "mehr: Umschalt, Strg, Alt"
 
 #: ../src/ui/tool/node.cpp:496
 #, fuzzy
 msgctxt "Path handle tip"
 msgid "more: Ctrl"
-msgstr "more: STRG, ALT"
+msgstr "more: Strg, Alt"
 
 #: ../src/ui/tool/node.cpp:498
 msgctxt "Path handle tip"
 msgid "more: Ctrl, Alt"
-msgstr "more: STRG, ALT"
+msgstr "more: Strg, Alt"
 
 #: ../src/ui/tool/node.cpp:504
 #, c-format
@@ -23298,14 +23298,14 @@ msgstr "<b>Umschalt</b>: Klick um Auswahl umzuschalten"
 msgctxt "Path node tip"
 msgid "<b>Ctrl+Alt</b>: move along handle lines, click to delete node"
 msgstr ""
-"<b>STRG+Alt</b>: Entlang der Anfasser-Linien verschieben. Klicken, um Knoten "
+"<b>Strg+Alt</b>: Entlang der Anfasser-Linien verschieben. Klicken, um Knoten "
 "zu löschen"
 
 #: ../src/ui/tool/node.cpp:1435
 msgctxt "Path node tip"
 msgid "<b>Ctrl</b>: move along axes, click to change node type"
 msgstr ""
-"<b>STRG</b>: Verschieben entlang der Achsen. Klicken, um Knotentyp zu "
+"<b>Strg</b>: Verschieben entlang der Achsen. Klicken, um Knotentyp zu "
 "verändern"
 
 #: ../src/ui/tool/node.cpp:1439
@@ -23317,7 +23317,7 @@ msgstr "<b>Alt</b>: Knoten formen"
 #, c-format
 msgctxt "Path node tip"
 msgid "<b>%s</b>: drag to shape the path (more: Shift, Ctrl, Alt)"
-msgstr "<b>%s</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, STRG, Alt)"
+msgstr "<b>%s</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, Strg, Alt)"
 
 #: ../src/ui/tool/node.cpp:1451
 #, fuzzy, c-format
@@ -23325,7 +23325,7 @@ msgctxt "Path node tip"
 msgid ""
 "<b>BSpline node</b>: drag to shape the path (more: Shift, Ctrl, Alt). %g "
 "power"
-msgstr "<b>%s</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, STRG, Alt)"
+msgstr "<b>%s</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, Strg, Alt)"
 
 #: ../src/ui/tool/node.cpp:1454
 #, c-format
@@ -23404,7 +23404,7 @@ msgstr "Anfasser zurückziehen"
 #: ../src/ui/tool/transform-handle-set.cpp:203
 msgctxt "Transform handle tip"
 msgid "<b>Shift+Ctrl</b>: scale uniformly about the rotation center"
-msgstr "<b>Umschalt + STRG</b>: Um Mittelpunkt einheitlich skalieren"
+msgstr "<b>Umschalt + Strg</b>: Um Mittelpunkt einheitlich skalieren"
 
 #: ../src/ui/tool/transform-handle-set.cpp:205
 msgctxt "Transform handle tip"
@@ -24658,7 +24658,7 @@ msgstr "%s. Ziehen zum <b>verschieben</b>."
 #, c-format
 msgid "%s. Drag or click to <b>move in</b>; with Shift to <b>move out</b>."
 msgstr ""
-"%s. Ziehen oder Klicken zum <b>Zusammenziehen</b>; mit Umschalttaste zum "
+"%s. Ziehen oder Klicken zum <b>Zusammenziehen</b>; mit Umschalt zum "
 "<b>Auseinanderziehen</b>."
 
 #: ../src/ui/tools/tweak-tool.cpp:176
@@ -24670,7 +24670,7 @@ msgstr "%s. Ziehen oder Klicken zum <b>zufälligen Verschieben</b>."
 #, c-format
 msgid "%s. Drag or click to <b>scale down</b>; with Shift to <b>scale up</b>."
 msgstr ""
-"%s. Ziehen oder Klicken zum <b>verkleinern</b>; mit Umschalttaste zum "
+"%s. Ziehen oder Klicken zum <b>verkleinern</b>; mit Umschalt zum "
 "<b>vergrößern</b>."
 
 #: ../src/ui/tools/tweak-tool.cpp:188
@@ -24680,13 +24680,13 @@ msgid ""
 "<b>counterclockwise</b>."
 msgstr ""
 "%s. Ziehen oder Klicken zum <b>Drehen im Uhrzeigersinn</b>; mit "
-"Umschalttaste zum <b>Drehen gegen den Uhrzeigersinn</b>."
+"Umschalt zum <b>Drehen gegen den Uhrzeigersinn</b>."
 
 #: ../src/ui/tools/tweak-tool.cpp:196
 #, c-format
 msgid "%s. Drag or click to <b>duplicate</b>; with Shift, <b>delete</b>."
 msgstr ""
-"%s. Ziehen oder Klicken zum <b>Duplizieren</b>; mit Umschalttaste zum "
+"%s. Ziehen oder Klicken zum <b>Duplizieren</b>; mit Umschalt zum "
 "<b>Löschen</b>."
 
 #: ../src/ui/tools/tweak-tool.cpp:204
@@ -25972,7 +25972,7 @@ msgid_plural ""
 msgstr[0] "<b>Endlicher</b> Fluchtpunkt benutzt von <b>%d</b> Box."
 msgstr[1] ""
 "<b>Endlicher</b> Fluchtpunkt benutzt von <b>%d</b> Boxen; Ziehen mit "
-"<b>Umschalttaste</b> zum Separieren der markierten Boxen"
+"<b>Umschalt</b> zum Separieren der markierten Boxen"
 
 #. This won't make sense any more when infinite VPs are not shown on the canvas,
 #. but currently we update the status message anyway
@@ -25985,7 +25985,7 @@ msgid_plural ""
 msgstr[0] "<b>Unendlicher</b> Fluchtpunkt benutzt von <b>%d</b> Box"
 msgstr[1] ""
 "<b>Unendlicher</b> Fluchtpunkt benutzt von <b>%d</b> Boxen; Ziehen mit "
-"<b>Umschalttaste</b> zum Separieren der markierten Boxen"
+"<b>Umschalt</b> zum Separieren der markierten Boxen"
 
 #: ../src/vanishing-point.cpp:345
 #, c-format
