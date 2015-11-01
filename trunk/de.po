@@ -24938,12 +24938,12 @@ msgstr "Ligaturen"
 #: ../src/ui/widget/font-variants.cpp:39
 msgctxt "Font variant"
 msgid "Common"
-msgstr "Übliche"
+msgstr "Gewöhnliche"
 
 #: ../src/ui/widget/font-variants.cpp:40
 msgctxt "Font variant"
 msgid "Discretionary"
-msgstr "Zusätzliche"
+msgstr "Bedingte"
 
 #: ../src/ui/widget/font-variants.cpp:41
 msgctxt "Font variant"
@@ -25090,12 +25090,12 @@ msgstr "Die Auswahl hat abweichende typographische Merkmale!"
 #: ../src/ui/widget/font-variants.cpp:85
 msgid "Common ligatures. On by default. OpenType tables: 'liga', 'clig'"
 msgstr ""
-"Übliche Ligaturen. Standardmäßig aktiviert. OpenType-Tabellen: „liga“, „clig“"
+"Gewöhnliche Ligaturen (Standard- und kontextbezogene Ligaturen). Standardmäßig aktiviert. OpenType-Tabellen: „liga“, „clig“"
 
 #: ../src/ui/widget/font-variants.cpp:87
 msgid "Discretionary ligatures. Off by default. OpenType table: 'dlig'"
 msgstr ""
-"Zusätzliche Ligaturen. Standardmäßig deaktiviert. OpenType-Tabelle: „dlig“"
+"Bedingte Ligaturen. Standardmäßig deaktiviert. OpenType-Tabelle: „dlig“"
 
 #: ../src/ui/widget/font-variants.cpp:89
 msgid "Historical ligatures. Off by default. OpenType table: 'hlig'"
@@ -25105,7 +25105,7 @@ msgstr ""
 #: ../src/ui/widget/font-variants.cpp:91
 msgid "Contextual forms. On by default. OpenType table: 'calt'"
 msgstr ""
-"Kontextbezogene Ligaturen. Standardmäßig aktiviert. OpenType-Tabelle: „calt“"
+"Kontextbezogene Alternativen. Standardmäßig aktiviert. OpenType-Tabelle: „calt“"
 
 #. Position ----------------------------------
 #. Add tooltips
