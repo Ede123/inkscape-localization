@@ -6072,7 +6072,7 @@ msgstr "Exportierte Objektgröße benutzen"
 #: ../src/extension/internal/cairo-ps-out.cpp:341
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:258
 msgid "Bleed/margin (mm):"
-msgstr "Beschnitt/Rand (mm):"
+msgstr "Beschnittzugabe/Rand (mm):"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:342
 #: ../src/extension/internal/cairo-ps-out.cpp:381
@@ -6100,7 +6100,7 @@ msgstr "EPS+LaTeX: Text in EPS weglassen und LaTeX Datei erstellen"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:380
 msgid "Bleed/margin (mm)"
-msgstr "Beschnitt/Rand (mm)"
+msgstr "Beschnittzugabe/Rand (mm)"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:385
 #: ../share/extensions/eps_input.inx.h:2
@@ -29353,7 +29353,7 @@ msgstr "Aufraumodus"
 
 #: ../src/widgets/tweak-toolbar.cpp:227
 msgid "Roughen parts of paths"
-msgstr "Teile von Pfaden anrauen"
+msgstr "Teile von Pfaden aufrauen"
 
 #: ../src/widgets/tweak-toolbar.cpp:233
 msgid "Color paint mode"

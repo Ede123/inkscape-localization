@@ -5778,7 +5778,7 @@ msgstr "Exportierte Objektgröße benutzen"
 #: ../src/extension/internal/cairo-ps-out.cpp:344
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:261
 msgid "Bleed/margin (mm):"
-msgstr "Beschnitt/Rand (mm):"
+msgstr "Beschnittzugabe/Rand (mm):"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:345
 #: ../src/extension/internal/cairo-ps-out.cpp:387
@@ -5802,7 +5802,7 @@ msgstr "Encapsulated Postscript"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:386
 msgid "Bleed/margin (mm)"
-msgstr "Beschnitt/Rand (mm)"
+msgstr "Beschnittzugabe/Rand (mm)"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:391
 #: ../share/extensions/eps_input.inx.h:2
@@ -7132,7 +7132,7 @@ msgstr "verwischt und versetzt Kanten von Formen und Bildern"
 #: ../src/extension/internal/filter/distort.h:190
 #: ../src/live_effects/effect.cpp:138
 msgid "Roughen"
-msgstr "Aufraumodus"
+msgstr "Aufrauen"
 
 #: ../src/extension/internal/filter/distort.h:192
 #: ../src/extension/internal/filter/overlays.h:60
@@ -8492,7 +8492,7 @@ msgstr "Beleuchtung mit Glanzlichtern"
 
 #: ../src/filter-enums.cpp:35
 msgid "Tile"
-msgstr "Kachelfüllung"
+msgstr "Kacheln"
 
 #: ../src/filter-enums.cpp:41
 msgid "Source Graphic"
@@ -10965,9 +10965,8 @@ msgid "Handles"
 msgstr "Anfasser"
 
 #: ../src/live_effects/lpe-roughen.cpp:60
-#, fuzzy
 msgid "Handles options"
-msgstr "Positionen zufällig machen"
+msgstr "Einstellungen für Anfasser"
 
 #: ../src/live_effects/lpe-roughen.cpp:62
 msgid "Max. smooth handle angle"
@@ -11008,7 +11007,7 @@ msgstr "<b>Zusätzlich aufrauen</b> Zusätzliche Rauigkeit hinzufügen"
 
 #: ../src/live_effects/lpe-roughen.cpp:155
 msgid "<b>Options</b> Modify options to rough"
-msgstr ""
+msgstr "<b>Optionen</b> Einstellungen fürs Aufrauen"
 
 #: ../src/live_effects/lpe-ruler.cpp:25 ../share/extensions/measure.inx.h:27
 #: ../share/extensions/restack.inx.h:16
@@ -11843,13 +11842,12 @@ msgid "Export document to an EPS file"
 msgstr "Das Dokument in eine EPS-Datei exportieren"
 
 #: ../src/main.cpp:407
-#, fuzzy
 msgid ""
 "Choose the PostScript Level used to export. Possible choices are 2 and 3 "
 "(the default)"
 msgstr ""
-"Wähle das PostScript Level zum Export. Mögliche Auswahl sind 2 (Standard) "
-"und 3"
+"Wähle das PostScript Level für den Export. Auswahlmöglichkeiten sind 2 und 3 "
+"(Standard)"
 
 #: ../src/main.cpp:409
 msgid "PS Level"
@@ -14900,7 +14898,7 @@ msgstr "Randfarbe der Zeichenfläche"
 
 #: ../src/ui/dialog/document-properties.cpp:124
 msgid "Display _units:"
-msgstr "Anzeigeeinheiten:"
+msgstr "Anzeige_einheiten:"
 
 #. ---------------------------------------------------------------
 #. General snap options
@@ -15266,9 +15264,8 @@ msgid "Remove grid"
 msgstr "Gitter entfernen"
 
 #: ../src/ui/dialog/document-properties.cpp:1746
-#, fuzzy
 msgid "Changed default display unit"
-msgstr "Geänderte Dokumenteneinheit"
+msgstr "Änderung der Anzeigeeinheit"
 
 #: ../src/ui/dialog/export.cpp:147 ../src/verbs.cpp:2848
 msgid "_Page"
@@ -15391,7 +15388,6 @@ msgid "Export the bitmap file with these settings"
 msgstr "Bitmapdatei mit diesen Einstellungen exportieren"
 
 #: ../src/ui/dialog/export.cpp:479
-#, fuzzy
 msgid "bitmap"
 msgstr "Bitmap"
 
@@ -16397,13 +16393,13 @@ msgstr ""
 "angehoben, weniger opake abgesenkt."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3018
-#, fuzzy
 msgid ""
 "The <b>feTile</b> filter primitive tiles a region with an input graphic. The "
 "source tile is defined by the filter primitive subregion of the input."
 msgstr ""
-"Der Filterbaustein <b>Bild</b> füllt eine Region mit einem externen Bild "
-"oder einem anderen Teil des Dokuments."
+"Der Filterbaustein <b>Kacheln</b> füllt einen Bereich mit Kopien der "
+"Quellgrafik. Die Kachelgröße entpricht wird durch die Größe des "
+"Filterbausteins am Eingang bestimmt."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3022
 msgid ""
@@ -19850,6 +19846,8 @@ msgstr ""
 #: ../src/ui/dialog/inkscape-preferences.cpp:1255
 msgid "When on, pressing and holding Space and dragging pans canvas"
 msgstr ""
+"Wenn aktiviert, wird die Zeichenfläche beim Bewegen der Maus verschoben "
+"während die Leertaste gehalten wird"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1256
 msgid "Mouse wheel zooms by default"
@@ -19883,21 +19881,22 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1271
 msgid "Snap indicator persistence (in seconds):"
-msgstr ""
+msgstr "Anzeigedauer des Einrast-Indikators (in Sekunden)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1272
 msgid ""
 "Controls how long the snap indicator message will be shown, before it "
 "disappears"
 msgstr ""
+"Bestimmt wie lange die Einrast-Indikators Benachrichtigung angezeigt wird."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1274
 msgid "What should snap"
-msgstr ""
+msgstr "Woran eingerasten"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1276
 msgid "Only snap the node closest to the pointer"
-msgstr "Nur an dem Knoten einrasten, der dem Zeiger am nähesten ist."
+msgstr "Nur an dem Knoten einrasten, der dem Zeiger am nächsten ist."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1278
 msgid ""
@@ -19908,7 +19907,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1281
 msgid "_Weight factor:"
-msgstr "Gewichtsfaktor:"
+msgstr "Gewichtungsfaktor:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1282
 msgid ""
@@ -21274,41 +21273,31 @@ msgstr "Unschärfe des Objekts festlegen"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: visible
 #: ../src/ui/dialog/objects.cpp:1617
-#, fuzzy
 msgctxt "Visibility"
 msgid "V"
 msgstr "S"
 
-# Translation conflict:
-# L = locked in objects dialog
-# L = lightness somewhere else
-# Bug filed: https://bugs.launchpad.net/inkscape/+bug/1509852
-# !!!
 #: ../src/ui/dialog/objects.cpp:1618
-#, fuzzy
 msgctxt "Lock"
 msgid "L"
 msgstr "L"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: type (layer, group or object)
 #: ../src/ui/dialog/objects.cpp:1619
-#, fuzzy
 msgctxt "Type"
 msgid "T"
 msgstr "T"
 
 #: ../src/ui/dialog/objects.cpp:1620
-#, fuzzy
 msgctxt "Clip and mask"
 msgid "CM"
-msgstr "AM"
+msgstr "M"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: color of path outline in node tool (de: Pfadfarbe)
 #: ../src/ui/dialog/objects.cpp:1621
-#, fuzzy
 msgctxt "Highlight"
 msgid "HL"
-msgstr "PF"
+msgstr "F"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: label of object, id as default, but can be changed to anything
 #: ../src/ui/dialog/objects.cpp:1622
@@ -22023,7 +22012,7 @@ msgstr "Unbenannte Symbole"
 #: ../src/ui/dialog/tags.cpp:274 ../src/ui/dialog/tags.cpp:573
 #: ../src/ui/dialog/tags.cpp:687
 msgid "Remove from selection set"
-msgstr ""
+msgstr "Von Auswahlgruppe entfernen"
 
 #: ../src/ui/dialog/tags.cpp:431
 msgid "Items"
@@ -22031,22 +22020,19 @@ msgstr "Gegenstände"
 
 #: ../src/ui/dialog/tags.cpp:670
 msgid "Add selection to set"
-msgstr ""
+msgstr "Auswahl zu Gruppe hinzufügen"
 
 #: ../src/ui/dialog/tags.cpp:828
-#, fuzzy
 msgid "Moved sets"
-msgstr "Bewegungen"
+msgstr "Auswahlgruppe bewegen"
 
 #: ../src/ui/dialog/tags.cpp:998
-#, fuzzy
 msgid "Add a new selection set"
-msgstr "Neuer Verbindungspunkt"
+msgstr "Neue Auswahlgruppe hinzufügen"
 
 #: ../src/ui/dialog/tags.cpp:1007
-#, fuzzy
 msgid "Remove Item/Set"
-msgstr "Effekte entfernen"
+msgstr "Element/Gruppe entfernen"
 
 #: ../src/ui/dialog/template-widget.cpp:37
 msgid "More info"
@@ -22081,9 +22067,8 @@ msgid "Set as _default"
 msgstr "Als _Standard festlegen"
 
 #: ../src/ui/dialog/text-edit.cpp:87
-#, fuzzy
 msgid "AaBbCcIiPpQq12369$€¢?.;/()"
-msgstr "AaBbCcIiPpQq12369$€¢?.;/()"
+msgstr "AaBbCcIiPpQqÜü12369$€ß?.;/()"
 
 #. Align buttons
 #: ../src/ui/dialog/text-edit.cpp:97 ../src/widgets/text-toolbar.cpp:1339
@@ -25390,7 +25375,7 @@ msgstr "Seitenskalierung festlegen"
 
 #: ../src/ui/widget/page-sizer.cpp:958
 msgid "Set 'viewBox'"
-msgstr ""
+msgstr "'viewBox' festlegen"
 
 #: ../src/ui/widget/panel.cpp:113
 msgid "List"
@@ -28099,7 +28084,7 @@ msgstr "Objekte ansehen"
 
 #: ../src/verbs.cpp:2911
 msgid "Selection se_ts..."
-msgstr ""
+msgstr "Aus_wahlgruppen..."
 
 #: ../src/verbs.cpp:2912
 msgid "View Tags"
@@ -30011,7 +29996,7 @@ msgstr ""
 
 #: ../src/widgets/pencil-toolbar.cpp:409 ../src/widgets/pencil-toolbar.cpp:410
 msgid "LPE based interactive simplify"
-msgstr ""
+msgstr "Pfadeffektbasiertes interaktives vereinfachen"
 
 #: ../src/widgets/pencil-toolbar.cpp:420 ../src/widgets/pencil-toolbar.cpp:421
 msgid "LPE simplify flatten"
@@ -31307,7 +31292,7 @@ msgstr "Aufraumodus"
 
 #: ../src/widgets/tweak-toolbar.cpp:227
 msgid "Roughen parts of paths"
-msgstr "Teile von Pfaden anrauen"
+msgstr "Teile von Pfaden aufrauen"
 
 #: ../src/widgets/tweak-toolbar.cpp:233
 msgid "Color paint mode"
@@ -33117,12 +33102,11 @@ msgstr "DXF einlesen"
 
 #: ../share/extensions/dxf_input.inx.h:3
 msgid "Method of Scaling:"
-msgstr ""
+msgstr "Skalierungsmethode:"
 
 #: ../share/extensions/dxf_input.inx.h:4
-#, fuzzy
 msgid "Manual scale factor:"
-msgstr "Alternativ wird manueller Skalierungsfaktor verwendet."
+msgstr "Manueller Skalierungsfaktor:"
 
 #: ../share/extensions/dxf_input.inx.h:5
 msgid "Manual x-axis origin (mm):"
@@ -33413,17 +33397,15 @@ msgstr "Breite des DVD-Hüllen-Rückens:"
 
 #: ../share/extensions/empty_dvd_cover.inx.h:3
 msgid "DVD cover bleed (mm):"
-msgstr ""
+msgstr "DVD-Cover Beschnittzugabe (mm):"
 
 #: ../share/extensions/empty_generic.inx.h:1
-#, fuzzy
 msgid "Generic Canvas"
-msgstr "Leinwand"
+msgstr "Generische Leinwand"
 
 #: ../share/extensions/empty_generic.inx.h:4
-#, fuzzy
 msgid "SVG Unit:"
-msgstr "Einheit:"
+msgstr "SVG Einheiten:"
 
 # !!!
 #: ../share/extensions/empty_generic.inx.h:5
@@ -38816,12 +38798,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "Vertical Point:"
 #~ msgstr "Vertikaler Punkt:"
-
-#~ msgid ""
-#~ "The <b>feTile</b> filter primitive tiles a region with its input graphic"
-#~ msgstr ""
-#~ "Der Filterbaustein <b>Kacheln</b> belegt einen Bereich mit Kopien einer "
-#~ "Graphik."
 
 #~ msgid "Ignore cusp nodes"
 #~ msgstr "Spitze Knoten ignorieren"
