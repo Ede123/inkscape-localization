@@ -4741,15 +4741,15 @@ msgstr "LaTex LaTeX latex Gitter Beamer"
 
 #: ../share/templates/templates.h:1
 msgid "Typography Canvas"
-msgstr "Typografiearbeitsfläche"
+msgstr "Arbeitsfläche für Typographie"
 
 #: ../share/templates/templates.h:1
 msgid "Empty typography canvas with helping guidelines."
-msgstr "Leere Typografiearbeitsfläche mit Hilfslinien."
+msgstr "Leere Arbeitsfläche für Typographie mit Hilfslinien."
 
 #: ../share/templates/templates.h:1
 msgid "guidelines typography canvas"
-msgstr "Hilfslinien Typografiearbeitsfläche"
+msgstr "Arbeitsfläche mit Hilflinien für Typographie"
 
 #. 3D box
 #: ../src/box3d.cpp:260 ../src/box3d.cpp:1313
@@ -11076,8 +11076,8 @@ msgid ""
 "Exported area in SVG user units (default is the page; 0,0 is lower-left "
 "corner)"
 msgstr ""
-"Exportierter Bereich in SVG-Benutzereinheiten (Vorgabe: gesamte "
-"Zeichenfläche, „0,0“ ist die untere linke Ecke)"
+"Exportierter Bereich in SVG-Benutzereinheiten (Vorgabe: gesamte Seite, „0,0“ "
+"ist die untere linke Ecke)"
 
 #: ../src/main.cpp:331
 msgid "x0:y0:x1:y1"
@@ -11085,12 +11085,11 @@ msgstr "X0:Y0:X1:Y1"
 
 #: ../src/main.cpp:335
 msgid "Exported area is the entire drawing (not page)"
-msgstr ""
-"Exportierter Bereich ist die gesamte Zeichnung, nicht die Zeichenfläche"
+msgstr "Exportierter Bereich ist die gesamte Zeichnung (nicht die Seite)"
 
 #: ../src/main.cpp:340
 msgid "Exported area is the entire page"
-msgstr "Exportierter Bereich ist die gesamte Zeichenfläche"
+msgstr "Exportierter Bereich ist die gesamte Seite"
 
 #: ../src/main.cpp:345
 msgid "Only for PS/EPS/PDF, sets margin in mm around exported area (default 0)"
@@ -14491,9 +14490,8 @@ msgid ""
 "Color of the page background. Note: transparency setting ignored while "
 "editing but used when exporting to bitmap."
 msgstr ""
-"Farbe des Seitenhintergrundes. Hinweis: Transparenzeinstellungen werden "
-"während der Bearbeitung ignoriert, aber genutzt, wenn es als Bitmap "
-"exportiert wird."
+"Farbe des Seitenhintergrunds. Hinweis: Transparenzeinstellung wird während "
+"der Bearbeitung ignoriert, aber für den Bitmap-Export genutzt"
 
 #: ../src/ui/dialog/document-properties.cpp:116
 msgid "Border _color:"
@@ -14501,11 +14499,11 @@ msgstr "_Randfarbe:"
 
 #: ../src/ui/dialog/document-properties.cpp:116
 msgid "Page border color"
-msgstr "Randfarbe der Zeichenfläche"
+msgstr "Farbe des Seitenrands"
 
 #: ../src/ui/dialog/document-properties.cpp:116
 msgid "Color of the page border"
-msgstr "Randfarbe der Zeichenfläche"
+msgstr "Farbe des Seitenrands"
 
 #: ../src/ui/dialog/document-properties.cpp:117
 msgid "Default _units:"
@@ -25802,7 +25800,7 @@ msgstr "Schaltet _Fokusmodus um"
 
 #: ../src/verbs.cpp:2767
 msgid "Remove excess toolbars to focus on drawing"
-msgstr "Entfernt überzählige Werkzeugleisten, um Zeichenfläche zu maximieren"
+msgstr "Entfernt überzählige Werkzeugleisten, um Abeitsfläche zu maximieren"
 
 #: ../src/verbs.cpp:2769
 msgid "Duplic_ate Window"
@@ -26535,8 +26533,7 @@ msgstr "Stiftbreite"
 #: ../src/widgets/calligraphy-toolbar.cpp:431
 msgid "The width of the calligraphic pen (relative to the visible canvas area)"
 msgstr ""
-"Breite des kalligrafischen Füllers (relativ zum sichtbaren "
-"Arbeitsflächenbereich)"
+"Breite des kalligrafischen Füllers (relativ zur sichtbaren Arbeitsfläche)"
 
 #. Thinning
 #: ../src/widgets/calligraphy-toolbar.cpp:444
@@ -27059,7 +27056,7 @@ msgstr "Aus Objekt herausschneiden"
 
 #: ../src/widgets/eraser-toolbar.cpp:129
 msgid "The width of the eraser pen (relative to the visible canvas area)"
-msgstr "Die Größe des Radiers (relativ zum sichtbaren Arbeitsflächenbereich)"
+msgstr "Die Größe des Radiers (relativ zur sichtbaren Arbeitsfläche)"
 
 #: ../src/widgets/fill-style.cpp:362
 msgid "Change fill rule"
@@ -28416,8 +28413,7 @@ msgstr "(breit sprühen)"
 
 #: ../src/widgets/spray-toolbar.cpp:116
 msgid "The width of the spray area (relative to the visible canvas area)"
-msgstr ""
-"Breite des Sprühbereichs (relativ zum sichtbaren Arbeitsflächenbereich)"
+msgstr "Breite des Sprühbereichs (relativ zur sichtbaren Arbeitsfläche)"
 
 #: ../src/widgets/spray-toolbar.cpp:129
 msgid "(maximum mean)"
@@ -29249,9 +29245,7 @@ msgstr "(breite Optimierung)"
 
 #: ../src/widgets/tweak-toolbar.cpp:128
 msgid "The width of the tweak area (relative to the visible canvas area)"
-msgstr ""
-"Breite des Optimierungsbereichs (relativ zum sichtbaren "
-"Arbeitsflächenbereich)"
+msgstr "Breite des Optimierungsbereichs (relativ zur sichtbaren Arbeitsfläche)"
 
 #. Force
 #: ../src/widgets/tweak-toolbar.cpp:142
@@ -31381,7 +31375,7 @@ msgstr "Seitengröße:"
 
 #: ../share/extensions/empty_page.inx.h:3
 msgid "Page orientation:"
-msgstr "Ausrichtung der Zeichenfläche:"
+msgstr "Ausrichtung der Seite:"
 
 #: ../share/extensions/eps_input.inx.h:1
 msgid "EPS Input"
@@ -33196,15 +33190,15 @@ msgstr "HP Graphic Language-Datei exportieren"
 
 #: ../share/extensions/ink2canvas.inx.h:1
 msgid "Convert to html5 canvas"
-msgstr "In HTML5-Arbeitsfläche konvertieren"
+msgstr "In HTML5 Canvas-Element konvertieren"
 
 #: ../share/extensions/ink2canvas.inx.h:2
 msgid "HTML 5 canvas (*.html)"
-msgstr "HTML 5-Arbeitsfläche (*.html)"
+msgstr "HTML 5 Canvas-Element (*.html)"
 
 #: ../share/extensions/ink2canvas.inx.h:3
 msgid "HTML 5 canvas code"
-msgstr "HTML 5-Arbeitsflächencode"
+msgstr "HTML 5 Canvas Code"
 
 #: ../share/extensions/inkscape_follow_link.inx.h:1
 msgid "Follow Link"
@@ -35427,15 +35421,15 @@ msgstr ""
 
 #: ../share/extensions/scour.inx.h:47
 msgid "Optimized SVG (*.svg)"
-msgstr "Optimiertes Inkscape-SVG (*.svg)"
+msgstr "Optimiertes SVG (*.svg)"
 
 #: ../share/extensions/scour.inx.h:48
 msgid "Scalable Vector Graphics"
-msgstr "Skalierbare Vektorgrafik (*.svg)"
+msgstr "Skalierbare Vektorgrafik"
 
 #: ../share/extensions/setup_typography_canvas.inx.h:1
 msgid "1 - Setup Typography Canvas"
-msgstr "1 - Einrichtung der Typografie-Arbeitsfläche"
+msgstr "1 - Arbeitsfläche für Typografie einrichten"
 
 #: ../share/extensions/setup_typography_canvas.inx.h:2
 msgid "Em-size:"
@@ -37656,21 +37650,7 @@ msgstr "XAML einlesen"
 #~ "Color and transparency of the page background (also used for bitmap "
 #~ "export)"
 #~ msgstr ""
-#~ "Farbe und Transparenz der Zeichenfläche (wird auch beim Exportieren "
-#~ "verwendet)"
-
-#~ msgid "Left mouse button pans when Space is pressed"
-#~ msgstr "Die linke Maustaste verschiebt, wenn die Leertaste gedrückt ist."
-
-#~ msgid ""
-#~ "When on, pressing and holding Space and dragging with left mouse button "
-#~ "pans canvas (as in Adobe Illustrator); when off, Space temporarily "
-#~ "switches to Selector tool (default)"
-#~ msgstr ""
-#~ "Bei gedrückter Leertaste kann mit der Linke Maustaste die "
-#~ "Dokumentenansicht verschoben werden (wie in Adobe Illustrator). Wenn dies "
-#~ "nicht aktiviert ist kann mit der Leertaste kurzzeitig zum Auswahlwerkzeug "
-#~ "gewechselt werden (Voreinstellung)"
+#~ "Farbe und Transparenz der Seite (wird auch beim Bitmap-Export verwendet)"
 
 #~ msgid "EditMode"
 #~ msgstr "Bearbeitungsmodus"
@@ -39868,10 +39848,10 @@ msgstr "XAML einlesen"
 #~ msgstr "Bleigriffel"
 
 #~ msgid "Export area is whole canvas"
-#~ msgstr "Exportierter Bereich ist die gesamte Zeichenfläche"
+#~ msgstr "Exportierter Bereich ist die gesamte Arbeitsfläche"
 
 #~ msgid "Export canvas"
-#~ msgstr "Zeichenfläche exportieren"
+#~ msgstr "Arbeitsfläche exportieren"
 
 #~ msgid "Seed"
 #~ msgstr "Geschwindigkeit:"
