@@ -30424,20 +30424,19 @@ msgstr "Sie müssen zwei Elemente auswählen."
 msgid ""
 "You must create and select some \"Slicer rectangles\" before trying to group."
 msgstr ""
-"Sie müssen ein oder mehrere \"Geschnittene Rechtecke\" erstellen oder wählen "
-"bevor diese gruppiert werden können."
+"Sie müssen ein oder mehrere „Slicer“-Rechtecke erstellen und auswählen bevor "
+"diese gruppiert werden können."
 
 #: ../share/extensions/webslicer_create_group.py:72
 msgid ""
 "You must to select some \"Slicer rectangles\" or other \"Layout groups\"."
 msgstr ""
-"Sie müssen einige \"Geschnittene Rechtecke \" oder andere \"Layout Gruppen "
-"\" auswählen."
+"Sie müssen einige „Slicer“-Rechtecke oder andere „Layout Gruppen“ auswählen."
 
 #: ../share/extensions/webslicer_create_group.py:76
 #, python-format
 msgid "Oops... The element \"%s\" is not in the Web Slicer layer"
-msgstr "Huch... Das Element \"%s\" ist nicht in der Web-Schnitt-Ebene"
+msgstr "Huch... Das Element \"%s\" ist nicht in der „Web Slicer“ Ebene"
 
 #: ../share/extensions/webslicer_export.py:57
 msgid "You must give a directory to export the slices."
@@ -36194,16 +36193,17 @@ msgid ""
 "it). To use this, you must to select some \"Slicer rectangles\" first."
 msgstr ""
 "Die Layoutgruppe dient nur zum Erstellen einer besseren Codegeneration "
-"(falls benötigt). Um sie zu benutzen müssen Sie zuerst ein paar \"Schnitt-"
-"Rechtecke\" markieren."
+"(falls benötigt). Um sie zu benutzen müssen Sie zuerst ein paar „Slicer“-"
+"Rechtecke markieren."
 
+# Any idea on how to translate the very specific term "slicer" to German?
 #: ../share/extensions/webslicer_create_group.inx.h:14
 msgid "Slicer"
-msgstr "Schneider"
+msgstr "Slicer"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:1
 msgid "Create a slicer rectangle"
-msgstr "Geschnittenes Rechteck erzeugen"
+msgstr "„Slicer“ Rechteck erzeugen"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:4
 msgid "DPI:"
@@ -36355,8 +36355,8 @@ msgid ""
 "All sliced images, and optionally - code, will be generated as you had "
 "configured and saved to one directory."
 msgstr ""
-"Alle geschnittenen Bilder und optionaler Code werden so erstellt, wie Sie "
-"ihn konfiguriert haben und in einem Verzeichnis gespeichert."
+"Alle „gesliceten“ Bilder und optionaler Code werden so erstellt, wie Sie ihn "
+"konfiguriert haben und in einem Verzeichnis gespeichert."
 
 #: ../share/extensions/whirl.inx.h:1
 msgid "Whirl"
