@@ -4432,15 +4432,15 @@ msgstr "LaTex LaTeX latex Gitter Beamer"
 
 #: ../share/templates/templates.h:1
 msgid "Typography Canvas"
-msgstr "Arbeitsfläche für Typographie"
+msgstr "Arbeitsfläche für Typografie"
 
 #: ../share/templates/templates.h:1
 msgid "Empty typography canvas with helping guidelines."
-msgstr "Leere Arbeitsfläche für Typographie mit Hilfslinien."
+msgstr "Leere Arbeitsfläche für Typografie mit Hilfslinien."
 
 #: ../share/templates/templates.h:1
 msgid "guidelines typography canvas"
-msgstr "Arbeitsfläche mit Hilflinien für Typographie"
+msgstr "Arbeitsfläche mit Hilflinien für Typografie"
 
 #. 3D box
 #: ../src/box3d.cpp:250 ../src/box3d.cpp:1304
