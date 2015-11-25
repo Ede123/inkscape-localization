@@ -16398,8 +16398,8 @@ msgid ""
 "source tile is defined by the filter primitive subregion of the input."
 msgstr ""
 "Der Filterbaustein <b>Kacheln</b> füllt einen Bereich mit Kopien der "
-"Quellgrafik. Die Kachelgröße entpricht wird durch die Größe des "
-"Filterbausteins am Eingang bestimmt."
+"Quellgrafik. Die Kachelgröße wird durch die Größe des Filterbausteins am "
+"Eingang bestimmt."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3022
 msgid ""
@@ -19888,11 +19888,11 @@ msgid ""
 "Controls how long the snap indicator message will be shown, before it "
 "disappears"
 msgstr ""
-"Bestimmt wie lange die Einrast-Indikators Benachrichtigung angezeigt wird."
+"Bestimmt wie lange die Einrast-Indikator Benachrichtigung angezeigt wird."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1274
 msgid "What should snap"
-msgstr "Woran eingerasten"
+msgstr "Woran einrasten"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1276
 msgid "Only snap the node closest to the pointer"
@@ -22012,7 +22012,7 @@ msgstr "Unbenannte Symbole"
 #: ../src/ui/dialog/tags.cpp:274 ../src/ui/dialog/tags.cpp:573
 #: ../src/ui/dialog/tags.cpp:687
 msgid "Remove from selection set"
-msgstr "Von Auswahlgruppe entfernen"
+msgstr "Aus Auswahlgruppe entfernen"
 
 #: ../src/ui/dialog/tags.cpp:431
 msgid "Items"
@@ -29996,7 +29996,7 @@ msgstr ""
 
 #: ../src/widgets/pencil-toolbar.cpp:409 ../src/widgets/pencil-toolbar.cpp:410
 msgid "LPE based interactive simplify"
-msgstr "Pfadeffektbasiertes interaktives vereinfachen"
+msgstr "Pfadeffektbasiertes interaktives Vereinfachen"
 
 #: ../src/widgets/pencil-toolbar.cpp:420 ../src/widgets/pencil-toolbar.cpp:421
 msgid "LPE simplify flatten"
@@ -33405,7 +33405,7 @@ msgstr "Generische Leinwand"
 
 #: ../share/extensions/empty_generic.inx.h:4
 msgid "SVG Unit:"
-msgstr "SVG Einheiten:"
+msgstr "SVG-Einheiten:"
 
 # !!!
 #: ../share/extensions/empty_generic.inx.h:5
