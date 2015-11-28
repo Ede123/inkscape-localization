@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
-"PO-Revision-Date: 2015-10-27 19:39+0100\n"
+"PO-Revision-Date: 2015-11-28 03:28+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <>\n"
 "Language: de\n"
@@ -79,7 +79,7 @@ msgstr "Wölbung"
 
 #: ../share/filters/filters.svg.h:4
 msgid "Same as Matte jelly but with more controls"
-msgstr "Genauso wie mattes Gelee, aber mit mehr Kontrolle"
+msgstr "Genauso wie mattes Gelee, jedoch mit mehr Kontrolle"
 
 #: ../share/filters/filters.svg.h:6
 msgid "Metal Casting"
@@ -201,7 +201,7 @@ msgstr "Horizontale Rippel auf den Kanten"
 
 #: ../share/filters/filters.svg.h:42
 msgid "Speckle"
-msgstr "Beflecken"
+msgstr "Flecken"
 
 #: ../share/filters/filters.svg.h:44
 msgid "Fill object with sparse translucent specks"
@@ -605,7 +605,7 @@ msgstr "Steinwand"
 
 #: ../share/filters/filters.svg.h:196
 msgid "Stone wall texture to use with not too saturated colors"
-msgstr "Steinwandtextur, mit nicht so gesättigten Farben verwenden"
+msgstr "Steinwandtextur zur Verwendung mit wenig gesättigten Farben"
 
 #: ../share/filters/filters.svg.h:198
 msgid "Silk Carpet"
@@ -745,19 +745,16 @@ msgstr "Raues Papier"
 
 #: ../share/filters/filters.svg.h:260
 msgid "Aquarelle paper effect which can be used for pictures as for objects"
-msgstr ""
-"Aquarellpapier-Effekt, der für Bilder wie für Objekte verwendet werden kann"
+msgstr "Aquarellpapier-Effekt für Rasterbilder und Vektorobjekte"
 
 #: ../share/filters/filters.svg.h:262
 msgid "Rough and Glossy"
-msgstr "Rau und Glänzend"
+msgstr "Rau und glänzend"
 
 #: ../share/filters/filters.svg.h:264
 msgid ""
 "Crumpled glossy paper effect which can be used for pictures as for objects"
-msgstr ""
-"Zerknittertes-Glanzpapier-Effekt, der für Bilder wie für Objekte verwendet "
-"werden kann"
+msgstr "Zerknittertes-Glanzpapier-Effekt für Rasterbilder und Vektorobjekte"
 
 #: ../share/filters/filters.svg.h:266
 msgid "In and Out"
@@ -844,11 +841,11 @@ msgstr "Bleiglasfester-Effekt mit Beleuchtung von unten"
 
 #: ../share/filters/filters.svg.h:306
 msgid "HSL Bumps Alpha"
-msgstr "HSL Rauigkeit, Alpha"
+msgstr "HSL-Rauigkeit, Alpha"
 
 #: ../share/filters/filters.svg.h:308
 msgid "Same as HSL Bumps but with transparent highlights"
-msgstr "Wie flexible HSL Rauigkeit aber mit transparenten Glanzlichtern"
+msgstr "Wie HSL-Rauigkeit, jedoch mit transparenten Glanzlichtern"
 
 #: ../share/filters/filters.svg.h:310
 msgid "Bubbly Bumps Alpha"
@@ -856,7 +853,7 @@ msgstr "Bläschenstruktur, Alpha"
 
 #: ../share/filters/filters.svg.h:312
 msgid "Same as Bubbly Bumps but with transparent highlights"
-msgstr "Wie Bläschenstruktur aber mit transparenten Glanzlichtern"
+msgstr "Wie Bläschenstruktur, jedoch mit transparenten Glanzlichtern"
 
 #: ../share/filters/filters.svg.h:314 ../share/filters/filters.svg.h:362
 msgid "Torn Edges"
@@ -1130,7 +1127,7 @@ msgstr "Fügt kleinteilige Körnung hinzu"
 
 #: ../share/filters/filters.svg.h:418
 msgid "Plaster Color"
-msgstr "Farbe einfügen"
+msgstr "Eingefärbter Gips"
 
 #: ../share/filters/filters.svg.h:420
 msgid "Colored plaster emboss effect"
@@ -1199,7 +1196,7 @@ msgstr "Rau und erweitert"
 
 #: ../share/filters/filters.svg.h:444
 msgid "Create a turbulent contour around"
-msgstr "Erstelle verwirbelte Kontur außen herum"
+msgstr "Verwirbelte Kontur außen herum erstellen"
 
 #: ../share/filters/filters.svg.h:446
 msgid "Old Postcard"
@@ -1207,7 +1204,7 @@ msgstr "Alte Postkarte"
 
 #: ../share/filters/filters.svg.h:448
 msgid "Slightly posterize and draw edges like on old printed postcards"
-msgstr "Schwach rastern und Kanten wie auf alten Postkarten zeichnen"
+msgstr "Schwach posterisieren und Kanten wie bei alten Postkarten zeichnen"
 
 #: ../share/filters/filters.svg.h:450
 msgid "Dots Transparency"
@@ -1232,7 +1229,7 @@ msgstr "Verschmierte Transparenz"
 #: ../share/filters/filters.svg.h:460
 msgid ""
 "Paint objects with a transparent turbulence which turns around color edges"
-msgstr "Versieht Objekte mit Transparenzturbulenz um Farbkanten"
+msgstr "Objekte mit Transparenzturbulenz, die an Farbkanten aufhört, versehen"
 
 #: ../share/filters/filters.svg.h:462
 msgid "Thick Paint"
@@ -1406,7 +1403,7 @@ msgstr "Durchsetzt"
 
 #: ../share/filters/filters.svg.h:532
 msgid "Riddle the surface and add bump to images"
-msgstr "Versieht Oberfläche von Bildern mit Struktur"
+msgstr "Oberfläche von Bildern mit Struktur versehen"
 
 #: ../share/filters/filters.svg.h:534
 msgid "Wrinkled Varnish"
@@ -1438,7 +1435,7 @@ msgstr "Leinwandtextur, Alpha"
 
 #: ../share/filters/filters.svg.h:548
 msgid "Same as Canvas Bumps but with transparent highlights"
-msgstr "Gleich wie Leinwandstruktur aber mit transparenten Glanzlichtern"
+msgstr "Wie Leinwandstruktur, jedoch mit transparenten Glanzlichtern"
 
 #: ../share/filters/filters.svg.h:550
 msgid "Bright Metal"
@@ -1479,7 +1476,7 @@ msgstr "Kombinierte Helligkeit"
 #: ../share/filters/filters.svg.h:568
 #: ../src/extension/internal/filter/bevels.h:231
 msgid "Basic specular bevel to use for building textures"
-msgstr "Einfache reflektierende Wölbung um Texturen zu entwickeln"
+msgstr "Einfache reflektierende Wölbung als Grundlage für eigene Texturen"
 
 #: ../share/filters/filters.svg.h:570
 msgid "Tinfoil"
@@ -1596,7 +1593,7 @@ msgstr "Bilder in dickes Gelee konvertieren"
 
 #: ../share/filters/filters.svg.h:626
 msgid "Blend Opposites"
-msgstr "Mische gegenüberliegendes"
+msgstr "Gegensätze mischen"
 
 #: ../share/filters/filters.svg.h:628
 msgid "Blend an image with its hue opposite"
@@ -1604,11 +1601,11 @@ msgstr "Mischen eines Bildes mit dem entgegengesetzten Farbton"
 
 #: ../share/filters/filters.svg.h:630
 msgid "Hue to White"
-msgstr "Farbton zu weiß"
+msgstr "Farbton zu Weiß"
 
 #: ../share/filters/filters.svg.h:632
 msgid "Fades hue progressively to white"
-msgstr "Blendet Farbton schrittweise auf weiß aus"
+msgstr "Blendet Farbton schrittweise zu Weiß aus"
 
 #: ../share/filters/filters.svg.h:634
 #: ../src/extension/internal/bitmap/swirl.cpp:37
@@ -1618,7 +1615,8 @@ msgstr "Verwirbeln"
 #: ../share/filters/filters.svg.h:636
 msgid ""
 "Paint objects with a transparent turbulence which wraps around color edges"
-msgstr "Versieht Objekte mit Transparenzturbulenz um Farbkanten"
+msgstr ""
+"Objekte mit Transparenzturbulenz, die Farbkanten überschreitet, versehen"
 
 #: ../share/filters/filters.svg.h:638
 msgid "Pointillism"
@@ -1642,7 +1640,7 @@ msgstr "Hintergrund füllen"
 
 #: ../share/filters/filters.svg.h:648
 msgid "Adds a colorizable opaque background"
-msgstr "Fügt einfärbbaren trüben Hintergrund hinzu"
+msgstr "Fügt einfärbbaren deckenden Hintergrund hinzu"
 
 #: ../share/filters/filters.svg.h:650
 msgid "Flatten Transparency"
@@ -1661,7 +1659,7 @@ msgid ""
 "Overlays two copies with different blur amounts and modifiable blend and "
 "composite"
 msgstr ""
-"Überlagert zwei Kopien mit verschiedenen Verwischmengen und modifizierbarer "
+"Überlagert zwei Kopien mit verschiedenen Unschärfegraden und einstellbarer "
 "Mischung und Zusammensetzung"
 
 # not sure here -cm-
@@ -1967,7 +1965,7 @@ msgstr "Farbkanäle"
 
 #: ../share/filters/filters.svg.h:820
 msgid "Colorize separately the three color channels"
-msgstr "Färbt die drei Farbkanäle separat"
+msgstr "Die drei Farbkanäle einzeln einfärben"
 
 #: ../share/filters/filters.svg.h:822
 msgid "Posterized Light Eraser"
@@ -1983,7 +1981,7 @@ msgstr "Trichrom"
 
 #: ../share/filters/filters.svg.h:828
 msgid "Like Duochrome but with three colors"
-msgstr "Wie Duochrom, aber mit drei Farben"
+msgstr "Wie Duochrom, jedoch mit drei Farben"
 
 #: ../share/filters/filters.svg.h:830
 msgid "Simulate CMY"
@@ -1992,7 +1990,7 @@ msgstr "Simuliere CMY"
 #: ../share/filters/filters.svg.h:832
 msgid "Render Cyan, Magenta and Yellow channels with a colorizable background"
 msgstr ""
-"Rendert Cyan-, Magenta- und Gelb-Kanäle mit einem einfärbbaren Hintergrund"
+"Cyan-, Magenta- und Gelb-Kanäle mit einem einfärbbaren Hintergrund rendern"
 
 #: ../share/filters/filters.svg.h:834
 msgid "Contouring table"
@@ -2008,12 +2006,11 @@ msgstr "Posterisiertes Verwischen"
 
 #: ../share/filters/filters.svg.h:840
 msgid "Converts blurred contour to posterized steps"
-msgstr "Konvertiert verschwimmende Kontur in posterisierende Schritte"
+msgstr "Erzeugt eine verschwommene Kontur aus posterisierten Teilschritten"
 
-# Zeit korrekt?
 #: ../share/filters/filters.svg.h:842
 msgid "Contouring discrete"
-msgstr "Diskrete Konturen"
+msgstr "Multiple Konturen"
 
 #: ../share/filters/filters.svg.h:844
 msgid "Sharp multiple contour for objects"
@@ -2093,7 +2090,7 @@ msgstr "10% Grau"
 #, no-c-format
 msgctxt "Palette"
 msgid "7.5% Gray"
-msgstr "7.5% Grau"
+msgstr "7,5% Grau"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:13
@@ -2107,7 +2104,7 @@ msgstr "5% Grau"
 #, no-c-format
 msgctxt "Palette"
 msgid "2.5% Gray"
-msgstr "2.5% Grau"
+msgstr "2,5% Grau"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:15
@@ -3549,7 +3546,7 @@ msgstr "Bodenverkehr"
 #: ../share/symbols/symbols.h:61 ../share/symbols/symbols.h:62
 msgctxt "Symbol"
 msgid "Rail Transportation"
-msgstr "Eisenbahnverkehr"
+msgstr "Schienenverkehr"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:63 ../share/symbols/symbols.h:64
@@ -4115,7 +4112,7 @@ msgstr "Amphitheater"
 #: ../share/symbols/symbols.h:193 ../share/symbols/symbols.h:194
 msgctxt "Symbol"
 msgid "Bicycle Trail"
-msgstr "Bike Trail"
+msgstr "Fahrradstrecke"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
@@ -4749,7 +4746,7 @@ msgstr "Leere Arbeitsfläche für Typografie mit Hilfslinien."
 
 #: ../share/templates/templates.h:1
 msgid "guidelines typography canvas"
-msgstr "Arbeitsfläche mit Hilflinien für Typografie"
+msgstr "Arbeitsfläche mit Hilfslinien für Typografie"
 
 #. 3D box
 #: ../src/box3d.cpp:260 ../src/box3d.cpp:1313
@@ -5786,7 +5783,7 @@ msgstr "HSB anpassen"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:42
 msgid "Hue:"
-msgstr "Farbton"
+msgstr "Farbton:"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:43
 msgid "Saturation:"
@@ -5799,7 +5796,8 @@ msgstr "Helligkeit:"
 #: ../src/extension/internal/bitmap/modulate.cpp:50
 msgid ""
 "Adjust the amount of hue, saturation, and brightness in selected bitmap(s)"
-msgstr "Farbwert, Sättigung und Helligkeit in ausgewählten Bitmaps anpassen"
+msgstr ""
+"Farbton, Sättigung und Helligkeit in ausgewählten Rasterbildern anpassen"
 
 #: ../src/extension/internal/bitmap/negate.cpp:36
 msgid "Negate"
@@ -5807,7 +5805,7 @@ msgstr "Negativ"
 
 #: ../src/extension/internal/bitmap/negate.cpp:43
 msgid "Negate (take inverse) selected bitmap(s)"
-msgstr "Gewählte(s) Bitmap(s) invertieren"
+msgstr "Gewählte Rasterbilder invertieren"
 
 #: ../src/extension/internal/bitmap/normalize.cpp:36
 msgid "Normalize"
@@ -5859,8 +5857,8 @@ msgstr "Angehoben"
 msgid ""
 "Alter lightness the edges of selected bitmap(s) to create a raised appearance"
 msgstr ""
-"Helligkeit von Farbkanten in ausgewählten Bitmap(s) anpassen, um den "
-"Anschein herausgehobener Ecken zu erwecken"
+"Helligkeit der Kanten ausgewählter Bitmaps anpassen, so dass diese "
+"dreidimensional erscheinen"
 
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:40
 msgid "Reduce Noise"
@@ -6061,13 +6059,13 @@ msgstr "Seitengröße der Ausgabe"
 #: ../src/extension/internal/cairo-ps-out.cpp:377
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:255
 msgid "Use document's page size"
-msgstr "Seitengröße des Dokuments nutzen"
+msgstr "Seitengröße des Dokuments verwenden"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:339
 #: ../src/extension/internal/cairo-ps-out.cpp:378
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:256
 msgid "Use exported object's size"
-msgstr "Exportierte Objektgröße benutzen"
+msgstr "Größe des exportierten Objekts verwenden"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:341
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:258
@@ -6221,27 +6219,27 @@ msgstr "EMF-Ausgabe"
 #: ../src/extension/internal/emf-inout.cpp:3570
 #: ../src/extension/internal/wmf-inout.cpp:3144
 msgid "Map Unicode to Symbol font"
-msgstr "Unicode mit Symbol Font verbinden"
+msgstr "Unicode-Zeichen mit „Symbol“-Schriftart darstellen"
 
 #: ../src/extension/internal/emf-inout.cpp:3571
 #: ../src/extension/internal/wmf-inout.cpp:3145
 msgid "Map Unicode to Wingdings"
-msgstr "Unicode mit Wingdings Font verbinden"
+msgstr "Unicode-Zeichen mit „Wingdings“-Schriftart darstellen"
 
 #: ../src/extension/internal/emf-inout.cpp:3572
 #: ../src/extension/internal/wmf-inout.cpp:3146
 msgid "Map Unicode to Zapf Dingbats"
-msgstr "Unicode mit Zapf Dingbats Font verbinden"
+msgstr "Unicode-Zeichen mit „Zapf Dingbats“-Schriftart darstellen"
 
 #: ../src/extension/internal/emf-inout.cpp:3573
 #: ../src/extension/internal/wmf-inout.cpp:3147
 msgid "Use MS Unicode PUA (0xF020-0xF0FF) for converted characters"
-msgstr "MS Unicode PUA (0xF020-0xF0FF) für umgewandelte Zeichen verwenden"
+msgstr "„MS Unicode PUA“ (0xF020-0xF0FF) für umgewandelte Zeichen verwenden"
 
 #: ../src/extension/internal/emf-inout.cpp:3574
 #: ../src/extension/internal/wmf-inout.cpp:3148
 msgid "Compensate for PPT font bug"
-msgstr "PPT font bug kompensieren"
+msgstr "PPT-Schriftarten-Fehler kompensieren"
 
 #: ../src/extension/internal/emf-inout.cpp:3575
 #: ../src/extension/internal/wmf-inout.cpp:3149
@@ -6251,7 +6249,7 @@ msgstr "Gestrichelte/gepunktete Linien in zusammenhängende Linien umwandeln"
 #: ../src/extension/internal/emf-inout.cpp:3576
 #: ../src/extension/internal/wmf-inout.cpp:3150
 msgid "Convert gradients to colored polygon series"
-msgstr "Farbverlauf in lineare farbige Rechtecke umwandeln"
+msgstr "Farbverläufe in mehrere farbige Polygone umwandeln"
 
 #: ../src/extension/internal/emf-inout.cpp:3577
 msgid "Use native rectangular linear gradients"
@@ -6259,7 +6257,7 @@ msgstr "Native rechteckige lineare Verläufe verwenden"
 
 #: ../src/extension/internal/emf-inout.cpp:3578
 msgid "Map all fill patterns to standard EMF hatches"
-msgstr "Alle Füllmuster als Standard EMF Muster setzen"
+msgstr "Alle Füllmuster als Standard-EMF-Muster setzen"
 
 #: ../src/extension/internal/emf-inout.cpp:3579
 msgid "Ignore image rotations"
@@ -6360,7 +6358,7 @@ msgstr "Filter"
 
 #: ../src/extension/internal/filter/bevels.h:66
 msgid "Basic diffuse bevel to use for building textures"
-msgstr "Einfache stumpfe Wölbung um Texturen zu entwickeln"
+msgstr "Einfache stumpfe Wölbung als Grundlage für eigene Texturen"
 
 #: ../src/extension/internal/filter/bevels.h:133
 msgid "Matte Jelly"
@@ -6419,7 +6417,7 @@ msgstr "Stärke"
 msgid ""
 "Removes or decreases glows and jaggeries around objects edges after applying "
 "some filters"
-msgstr "Entfernt oder vermindert Dreckeffekte nach Anwendung mehrer Filter"
+msgstr "Entfernt oder vermindert Dreckeffekte nach Anwendung einiger Filter"
 
 #: ../src/extension/internal/filter/blurs.h:185
 msgid "Cross Blur"
@@ -6510,7 +6508,7 @@ msgstr "Feder"
 
 #: ../src/extension/internal/filter/blurs.h:270
 msgid "Blurred mask on the edge without altering the contents"
-msgstr "Verwischte Maske auf der Kante, ohne den Inhalt zu verändern"
+msgstr "Verwischte Maske an den Kanten, ohne Veränderung des Inhalts"
 
 #: ../src/extension/internal/filter/blurs.h:325
 msgid "Out of Focus"
@@ -6583,12 +6581,12 @@ msgstr "Erhöhung"
 #: ../src/extension/internal/filter/bumps.h:84
 #: ../src/extension/internal/filter/bumps.h:313
 msgid "Image simplification"
-msgstr "Bild-Vereinfachungen"
+msgstr "Bild-Vereinfachung"
 
 #: ../src/extension/internal/filter/bumps.h:85
 #: ../src/extension/internal/filter/bumps.h:314
 msgid "Bump simplification"
-msgstr "Stoß-Vereinfachungen"
+msgstr "Stoß-Vereinfachung"
 
 #: ../src/extension/internal/filter/bumps.h:87
 #: ../src/extension/internal/filter/bumps.h:316
@@ -6723,17 +6721,17 @@ msgstr "Punktlicht-Optionen"
 #: ../src/extension/internal/filter/bumps.h:113
 #: ../src/extension/internal/filter/bumps.h:117
 msgid "X location"
-msgstr "X Adresse"
+msgstr "X (Quelle)"
 
 #: ../src/extension/internal/filter/bumps.h:114
 #: ../src/extension/internal/filter/bumps.h:118
 msgid "Y location"
-msgstr "Y Adresse"
+msgstr "Y (Quelle)"
 
 #: ../src/extension/internal/filter/bumps.h:115
 #: ../src/extension/internal/filter/bumps.h:119
 msgid "Z location"
-msgstr "Z Adresse"
+msgstr "Z (Quelle)"
 
 #: ../src/extension/internal/filter/bumps.h:116
 msgid "Spot light options"
@@ -6741,15 +6739,15 @@ msgstr "Punktlicht-Optionen"
 
 #: ../src/extension/internal/filter/bumps.h:120
 msgid "X target"
-msgstr "X Ziel"
+msgstr "X (Ziel)"
 
 #: ../src/extension/internal/filter/bumps.h:121
 msgid "Y target"
-msgstr "Y Ziel"
+msgstr "Y (Ziel)"
 
 #: ../src/extension/internal/filter/bumps.h:122
 msgid "Z target"
-msgstr "Z Ziel"
+msgstr "Z (Ziel)"
 
 #: ../src/extension/internal/filter/bumps.h:123
 msgid "Specular exponent"
@@ -8700,7 +8698,7 @@ msgstr "Beleuchtung mit Glanzlichtern"
 
 #: ../src/filter-enums.cpp:34
 msgid "Tile"
-msgstr "Kachelfüllung"
+msgstr "Kacheln"
 
 #: ../src/filter-enums.cpp:40
 msgid "Source Graphic"
@@ -9993,7 +9991,7 @@ msgid ""
 "& outside the guide path"
 msgstr ""
 "Mittlere Größe der Abstände, um die die Startpunkte der Kopien inner- und "
-"ausserhalb des Pfades versetzt werden."
+"außerhalb des Pfades versetzt werden."
 
 #: ../src/live_effects/lpe-curvestitch.cpp:44
 msgid "Sta_rt spacing variance:"
@@ -10049,7 +10047,7 @@ msgstr "Skalieren der Breite des Stichpfades relativ zu seiner Länge"
 
 #: ../src/live_effects/lpe-envelope.cpp:31
 msgid "Top bend path:"
-msgstr "Oberen Pfad verbiegen"
+msgstr "Oberer Biegepfad:"
 
 #: ../src/live_effects/lpe-envelope.cpp:31
 msgid "Top path along which to bend the original path"
@@ -10057,7 +10055,7 @@ msgstr "Oberer Pfad, entlang welchem der Originalpfad gebogen wird"
 
 #: ../src/live_effects/lpe-envelope.cpp:32
 msgid "Right bend path:"
-msgstr "Rechten Pfad verbiegen"
+msgstr "Rechter Biegepfad:"
 
 #: ../src/live_effects/lpe-envelope.cpp:32
 msgid "Right path along which to bend the original path"
@@ -10065,7 +10063,7 @@ msgstr "Rechter Pfad, entlang welchem der Originalpfad gebogen wird"
 
 #: ../src/live_effects/lpe-envelope.cpp:33
 msgid "Bottom bend path:"
-msgstr "Unteren Pfad verbiegen"
+msgstr "Unterer Biegepfad:"
 
 #: ../src/live_effects/lpe-envelope.cpp:33
 msgid "Bottom path along which to bend the original path"
@@ -10073,7 +10071,7 @@ msgstr "Unterer Pfad, entlang welchem der Originalpfad gebogen wird"
 
 #: ../src/live_effects/lpe-envelope.cpp:34
 msgid "Left bend path:"
-msgstr "Linken Pfad verbiegen"
+msgstr "Linker Biegepfad:"
 
 #: ../src/live_effects/lpe-envelope.cpp:34
 msgid "Left path along which to bend the original path"
@@ -10233,7 +10231,7 @@ msgstr "Wiederholt, gestreckt"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:59
 msgid "Pattern source:"
-msgstr "Quelle des Musters"
+msgstr "Quelle des Musters:"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:59
 msgid "Path to put along the skeleton path"
@@ -10317,7 +10315,7 @@ msgstr "CubicBezierFit"
 #. {Geom::Interpolate::INTERP_CUBICBEZIER_JOHAN     , N_("CubicBezierJohan"), "CubicBezierJohan"},
 #: ../src/live_effects/lpe-powerstroke.cpp:191
 msgid "SpiroInterpolator"
-msgstr "SpiroInterpolator"
+msgstr "Spiro-Interpolieren"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:192
 msgid "Centripetal Catmull-Rom"
@@ -10431,7 +10429,7 @@ msgstr "Gehrungslimit:"
 #: ../src/live_effects/lpe-powerstroke.cpp:238
 #: ../src/widgets/stroke-style.cpp:278
 msgid "Maximum length of the miter (in units of stroke width)"
-msgstr "Maximale Länge der Spitze (in Vielfachen der Konturlinienbreite)"
+msgstr "Maximale Länge der Gehrung (in Vielfachen der Konturlinienbreite)"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:239
 msgid "End cap:"
@@ -12148,7 +12146,7 @@ msgstr "Zu klonendes <b>Objekt</b> auswählen."
 #: ../src/selection-chemistry.cpp:2580
 msgctxt "Action"
 msgid "Clone"
-msgstr "Klone"
+msgstr "Klonen"
 
 #: ../src/selection-chemistry.cpp:2596
 msgid "Select <b>clones</b> to relink."
@@ -12840,7 +12838,7 @@ msgstr "Symbol"
 
 #: ../src/sp-use.cpp:230
 msgid "Clone"
-msgstr "Klonen"
+msgstr "Klone"
 
 #: ../src/sp-use.cpp:237 ../src/sp-use.cpp:239
 #, c-format
@@ -14252,7 +14250,7 @@ msgstr "Breite, Höhe: "
 
 #: ../src/ui/dialog/clonetiler.cpp:1180
 msgid "Fill the specified width and height with the tiling"
-msgstr "Durch Höhe und Breite festgelegten Fläche mit Füllmuster versehen"
+msgstr "Durch Höhe und Breite festgelegte Fläche mit Füllmuster versehen"
 
 #: ../src/ui/dialog/clonetiler.cpp:1201
 msgid "Use saved size and position of the tile"
@@ -19356,7 +19354,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1232
 msgid "Only snap the node closest to the pointer"
-msgstr "Nur an dem Knoten einrasten, der dem Zeiger am nähesten ist."
+msgstr "Nur an dem Knoten einrasten, der dem Zeiger am nächsten ist."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1234
 msgid ""
@@ -19367,7 +19365,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1237
 msgid "_Weight factor:"
-msgstr "Gewichtsfaktor:"
+msgstr "Gewichtungsfaktor:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1238
 msgid ""
@@ -21204,7 +21202,7 @@ msgstr "Als _Standard festlegen"
 
 #: ../src/ui/dialog/text-edit.cpp:86
 msgid "AaBbCcIiPpQq12369$€¢?.;/()"
-msgstr "AaBbCcIiPpQq12369$€¢?.;/()"
+msgstr "AaBbCcIiPpQqÜü12369$€ß?.;/()"
 
 #. Align buttons
 #: ../src/ui/dialog/text-edit.cpp:96 ../src/widgets/text-toolbar.cpp:1346
@@ -22602,23 +22600,23 @@ msgstr "Teile Gitter Reihe/Spalte"
 
 #: ../src/ui/tools/mesh-tool.cpp:407
 msgid "Toggled mesh path type."
-msgstr "Umgeschalteter Gitterpfadtyp."
+msgstr "Verlaufsgittertyp ändern"
 
 #: ../src/ui/tools/mesh-tool.cpp:411
 msgid "Approximated arc for mesh side."
-msgstr "Durchschnittlicher Winkel für Gitterseite."
+msgstr "Angenäherter Kreisbogen für Gitterseite"
 
 #: ../src/ui/tools/mesh-tool.cpp:415
 msgid "Toggled mesh tensors."
-msgstr "Umgeschaltete Gittertensoren."
+msgstr "Gittertensoren umschalten"
 
 #: ../src/ui/tools/mesh-tool.cpp:419
 msgid "Smoothed mesh corner color."
-msgstr "Farbe für geglättete Gitterecke."
+msgstr "Farbe einer Gitterecke glätten"
 
 #: ../src/ui/tools/mesh-tool.cpp:423
 msgid "Picked mesh corner color."
-msgstr "Ausgewählte Farbe der Gitter-Ecken"
+msgstr "Farbe für Gitterecke wählen"
 
 #: ../src/ui/tools/mesh-tool.cpp:498
 msgid "Create default mesh"
@@ -22688,7 +22686,7 @@ msgstr ""
 #: ../src/ui/tools/node-tool.cpp:642
 msgctxt "Node tool tip"
 msgid "Drag to select objects to edit"
-msgstr "Ziehen, um Objekte zum bearbeiten auszuwählen"
+msgstr "Ziehen, um Objekte zum Bearbeiten auszuwählen"
 
 #: ../src/ui/tools/pen-tool.cpp:186 ../src/ui/tools/pencil-tool.cpp:465
 msgid "Drawing cancelled"
@@ -23442,7 +23440,7 @@ msgstr "Größe"
 #: ../src/ui/widget/panel.cpp:143
 msgctxt "Swatches height"
 msgid "Tiny"
-msgstr "winzig"
+msgstr "Winzig"
 
 #: ../src/ui/widget/panel.cpp:144
 msgctxt "Swatches height"
@@ -23473,12 +23471,12 @@ msgstr "Breite"
 #: ../src/ui/widget/panel.cpp:173
 msgctxt "Swatches width"
 msgid "Narrower"
-msgstr "Enger"
+msgstr "Schmaler"
 
 #: ../src/ui/widget/panel.cpp:174
 msgctxt "Swatches width"
 msgid "Narrow"
-msgstr "eng"
+msgstr "Schmal"
 
 #: ../src/ui/widget/panel.cpp:175
 msgctxt "Swatches width"
@@ -23635,7 +23633,7 @@ msgstr "Füllmuster"
 #: ../src/ui/widget/selected-style.cpp:194
 #: ../src/ui/widget/style-swatch.cpp:303
 msgid "Pattern stroke"
-msgstr "Kontur des Musters"
+msgstr "Kontur mit Muster"
 
 # !!!
 #: ../src/ui/widget/selected-style.cpp:196
@@ -23645,12 +23643,12 @@ msgstr "<b>L</b>"
 #: ../src/ui/widget/selected-style.cpp:199
 #: ../src/ui/widget/style-swatch.cpp:295
 msgid "Linear gradient fill"
-msgstr "Füllung des linearen Farbverlaufs"
+msgstr "Füllung mit linearem Farbverlauf"
 
 #: ../src/ui/widget/selected-style.cpp:199
 #: ../src/ui/widget/style-swatch.cpp:295
 msgid "Linear gradient stroke"
-msgstr "Kontur des linearen Farbverlaufs"
+msgstr "Kontur mit linearem Farbverlauf"
 
 #: ../src/ui/widget/selected-style.cpp:206
 msgid "<b>R</b>"
@@ -23659,12 +23657,12 @@ msgstr "<b>R</b>"
 #: ../src/ui/widget/selected-style.cpp:209
 #: ../src/ui/widget/style-swatch.cpp:299
 msgid "Radial gradient fill"
-msgstr "Füllung des radialen Farbverlaufs"
+msgstr "Füllung mit radialem Farbverlauf"
 
 #: ../src/ui/widget/selected-style.cpp:209
 #: ../src/ui/widget/style-swatch.cpp:299
 msgid "Radial gradient stroke"
-msgstr "Kontur des radialen Farbverlaufs"
+msgstr "Kontur mit radialem Farbverlauf"
 
 #: ../src/ui/widget/selected-style.cpp:216
 msgid "Different"
@@ -26286,7 +26284,7 @@ msgstr ""
 #. LockAndHide
 #: ../src/verbs.cpp:2912
 msgid "Unlock All"
-msgstr "Alles entsperren"
+msgstr "Alle entsperren"
 
 #: ../src/verbs.cpp:2914
 msgid "Unlock All in All Layers"
@@ -27056,7 +27054,7 @@ msgstr "Aus Objekt herausschneiden"
 
 #: ../src/widgets/eraser-toolbar.cpp:129
 msgid "The width of the eraser pen (relative to the visible canvas area)"
-msgstr "Die Größe des Radiers (relativ zur sichtbaren Arbeitsfläche)"
+msgstr "Die Größe des Radierers (relativ zur sichtbaren Arbeitsfläche)"
 
 #: ../src/widgets/fill-style.cpp:362
 msgid "Change fill rule"
@@ -30286,7 +30284,7 @@ msgstr "In der angegebenen Datei wurden keine Kantenbeschreibungen gefunden."
 
 #: ../share/extensions/polyhedron_3d.py:344
 msgid "Try selecting \"Face Specified\" in the Model File tab.\n"
-msgstr "Versuchen Sie es mit \"flächendefiniert\" im Modeldatei-Reiter.\n"
+msgstr "Versuchen Sie es mit \"Flächendefiniert\" im Modeldatei-Reiter.\n"
 
 #. we cannot generate a list of faces from the edges without a lot of computation
 #: ../share/extensions/polyhedron_3d.py:522
@@ -30424,19 +30422,19 @@ msgstr "Sie müssen zwei Elemente auswählen."
 msgid ""
 "You must create and select some \"Slicer rectangles\" before trying to group."
 msgstr ""
-"Sie müssen ein oder mehrere „Slicer“-Rechtecke erstellen und auswählen bevor "
+"Sie müssen ein oder mehrere „Slicer“-Rechtecke erstellen und auswählen, bevor "
 "diese gruppiert werden können."
 
 #: ../share/extensions/webslicer_create_group.py:72
 msgid ""
 "You must to select some \"Slicer rectangles\" or other \"Layout groups\"."
 msgstr ""
-"Sie müssen einige „Slicer“-Rechtecke oder andere „Layout Gruppen“ auswählen."
+"Sie müssen einige „Slicer“-Rechtecke oder andere Layoutgruppen auswählen."
 
 #: ../share/extensions/webslicer_create_group.py:76
 #, python-format
 msgid "Oops... The element \"%s\" is not in the Web Slicer layer"
-msgstr "Huch... Das Element \"%s\" ist nicht in der „Web Slicer“ Ebene"
+msgstr "Huch... Das Element \"%s\" ist nicht in der „Web Slicer“-Ebene"
 
 #: ../share/extensions/webslicer_export.py:57
 msgid "You must give a directory to export the slices."
@@ -30487,7 +30485,7 @@ msgstr "in max. Segmentlänge"
 
 #: ../share/extensions/addnodes.inx.h:4
 msgid "By number of segments"
-msgstr "in der Anzahl der Segmente"
+msgstr "Anhand Anzahl der Segmente"
 
 #: ../share/extensions/addnodes.inx.h:5
 msgid "Maximum segment length (px):"
@@ -30862,7 +30860,7 @@ msgstr "Geometrisch"
 
 #: ../share/extensions/dimension.inx.h:6
 msgid "Visual"
-msgstr "Visuel"
+msgstr "Visuell"
 
 #: ../share/extensions/dimension.inx.h:7 ../share/extensions/dots.inx.h:13
 #: ../share/extensions/handles.inx.h:2 ../share/extensions/measure.inx.h:25
@@ -31133,7 +31131,7 @@ msgstr "GCodeWerkzeug kompatible Punkteingabe"
 #: ../share/extensions/dxf_input.inx.h:8
 #: ../share/extensions/render_barcode_qrcode.inx.h:16
 msgid "Character encoding:"
-msgstr "Zeichen-Kodierung:"
+msgstr "Zeichenkodierung:"
 
 #: ../share/extensions/dxf_input.inx.h:9
 msgid "Text Font:"
@@ -33189,15 +33187,15 @@ msgstr "HP Graphic Language-Datei exportieren"
 
 #: ../share/extensions/ink2canvas.inx.h:1
 msgid "Convert to html5 canvas"
-msgstr "In HTML5 Canvas-Element konvertieren"
+msgstr "In HTML5-Canvas-Element konvertieren"
 
 #: ../share/extensions/ink2canvas.inx.h:2
 msgid "HTML 5 canvas (*.html)"
-msgstr "HTML 5 Canvas-Element (*.html)"
+msgstr "HTML5-Canvas-Element (*.html)"
 
 #: ../share/extensions/ink2canvas.inx.h:3
 msgid "HTML 5 canvas code"
-msgstr "HTML 5 Canvas Code"
+msgstr "HTML5-Canvas-Code"
 
 #: ../share/extensions/inkscape_follow_link.inx.h:1
 msgid "Follow Link"
@@ -34520,7 +34518,7 @@ msgstr ""
 
 #: ../share/extensions/plotter.inx.h:3
 msgid "Connection Settings "
-msgstr "Verbindungseinstellungen "
+msgstr "Verbindungseinstellungen"
 
 #: ../share/extensions/plotter.inx.h:4
 msgid "Serial port:"
@@ -35376,7 +35374,7 @@ msgstr ""
 "die Koordinate 471.55 als 472.\n"
 "     * XML-Einrückung (Quelltextfomatierung): Wählen Sie entweder »Keine« "
 "für keine Einrückung, »Leerzeichen«, um ein Lehrzeichen pro Einrückungsebene "
-"oder »Tab« für ein Tabulatorzeichen pro Einrückungsebene.e"
+"oder »Tab« für ein Tabulatorzeichen pro Einrückungsebene."
 
 #: ../share/extensions/scour.inx.h:40
 msgid "Help (Ids)"
@@ -36203,7 +36201,7 @@ msgstr "Slicer"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:1
 msgid "Create a slicer rectangle"
-msgstr "„Slicer“ Rechteck erzeugen"
+msgstr "„Slicer“-Rechteck erzeugen"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:4
 msgid "DPI:"
