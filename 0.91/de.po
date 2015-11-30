@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-01-25 08:11+0100\n"
-"PO-Revision-Date: 2015-11-28 03:28+0100\n"
+"PO-Revision-Date: 2015-12-01 00:25+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <>\n"
 "Language: de\n"
@@ -7384,7 +7384,7 @@ msgstr "verwischt und versetzt Kanten von Formen und Bildern"
 
 #: ../src/extension/internal/filter/distort.h:190
 msgid "Roughen"
-msgstr "Aufraumodus"
+msgstr "Aufrauen"
 
 #: ../src/extension/internal/filter/distort.h:192
 #: ../src/extension/internal/filter/overlays.h:60
@@ -9843,7 +9843,7 @@ msgstr "Spiro Spline"
 
 #: ../src/live_effects/effect.cpp:115
 msgid "Envelope Deformation"
-msgstr "Hüllen-Verformung"
+msgstr "Hüllenverformung"
 
 #: ../src/live_effects/effect.cpp:116
 msgid "Interpolate Sub-Paths"
@@ -10416,7 +10416,7 @@ msgstr "Bestimmt die Form des Pfadanfangs"
 #: ../src/live_effects/lpe-powerstroke.cpp:237
 #: ../src/widgets/stroke-style.cpp:227
 msgid "Join:"
-msgstr "Verbindungsart:"
+msgstr "Verbindung:"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:237
 msgid "Determines the shape of the path's corners"
@@ -12838,7 +12838,7 @@ msgstr "Symbol"
 
 #: ../src/sp-use.cpp:230
 msgid "Clone"
-msgstr "Klone"
+msgstr "Klon"
 
 #: ../src/sp-use.cpp:237 ../src/sp-use.cpp:239
 #, c-format
@@ -34319,7 +34319,7 @@ msgstr "Kopien des Musters:"
 
 #: ../share/extensions/pathalongpath.inx.h:4
 msgid "Deformation type:"
-msgstr "Deformationstyp:"
+msgstr "Art der Verformung:"
 
 #: ../share/extensions/pathalongpath.inx.h:5
 #: ../share/extensions/pathscatter.inx.h:5
@@ -34658,7 +34658,7 @@ msgstr "Speichern einer Datei für Plotter"
 
 #: ../share/extensions/polyhedron_3d.inx.h:1
 msgid "3D Polyhedron"
-msgstr "3D-Polyhedron"
+msgstr "3D-Polyeder"
 
 #: ../share/extensions/polyhedron_3d.inx.h:2
 msgid "Model file"
