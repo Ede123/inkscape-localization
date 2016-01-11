@@ -30422,8 +30422,8 @@ msgstr "Sie müssen zwei Elemente auswählen."
 msgid ""
 "You must create and select some \"Slicer rectangles\" before trying to group."
 msgstr ""
-"Sie müssen ein oder mehrere „Slicer“-Rechtecke erstellen und auswählen, bevor "
-"diese gruppiert werden können."
+"Sie müssen ein oder mehrere „Slicer“-Rechtecke erstellen und auswählen, "
+"bevor diese gruppiert werden können."
 
 #: ../share/extensions/webslicer_create_group.py:72
 msgid ""
