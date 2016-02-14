@@ -682,8 +682,7 @@ msgstr "Schwarzes Loch"
 #: ../share/filters/filters.svg.h:279 ../share/filters/filters.svg.h:835
 #: ../share/filters/filters.svg.h:839 ../share/filters/filters.svg.h:843
 #: ../src/extension/internal/filter/morphology.h:76
-#: ../src/extension/internal/filter/morphology.h:203
-#: ../src/filter-enums.cpp:31
+#: ../src/extension/internal/filter/morphology.h:203 ../src/filter-enums.cpp:31
 msgid "Morphology"
 msgstr "Morphologie"
 
@@ -5382,8 +5381,7 @@ msgstr "Adaptiver Schwellwert"
 #: ../src/ui/dialog/object-attributes.cpp:77
 #: ../src/widgets/calligraphy-toolbar.cpp:430
 #: ../src/widgets/eraser-toolbar.cpp:128 ../src/widgets/spray-toolbar.cpp:116
-#: ../src/widgets/tweak-toolbar.cpp:128
-#: ../share/extensions/foldablebox.inx.h:2
+#: ../src/widgets/tweak-toolbar.cpp:128 ../share/extensions/foldablebox.inx.h:2
 msgid "Width:"
 msgstr "Breite:"
 
@@ -6817,15 +6815,13 @@ msgid "Transparency type:"
 msgstr "Transparenztyp:"
 
 #: ../src/extension/internal/filter/bumps.h:353
-#: ../src/extension/internal/filter/morphology.h:176
-#: ../src/filter-enums.cpp:90
+#: ../src/extension/internal/filter/morphology.h:176 ../src/filter-enums.cpp:90
 msgid "Atop"
 msgstr "Obenauf"
 
 #: ../src/extension/internal/filter/bumps.h:354
 #: ../src/extension/internal/filter/distort.h:70
-#: ../src/extension/internal/filter/morphology.h:174
-#: ../src/filter-enums.cpp:88
+#: ../src/extension/internal/filter/morphology.h:174 ../src/filter-enums.cpp:88
 msgid "In"
 msgstr "In"
 
@@ -7300,8 +7296,7 @@ msgid "Felt Feather"
 msgstr "Filz-Feder"
 
 #: ../src/extension/internal/filter/distort.h:71
-#: ../src/extension/internal/filter/morphology.h:175
-#: ../src/filter-enums.cpp:89
+#: ../src/extension/internal/filter/morphology.h:175 ../src/filter-enums.cpp:89
 msgid "Out"
 msgstr "Out"
 
@@ -7494,13 +7489,11 @@ msgstr "Bild ausblenden"
 msgid "Composite type:"
 msgstr "Gemischter Typ"
 
-#: ../src/extension/internal/filter/morphology.h:173
-#: ../src/filter-enums.cpp:87
+#: ../src/extension/internal/filter/morphology.h:173 ../src/filter-enums.cpp:87
 msgid "Over"
 msgstr "Über"
 
-#: ../src/extension/internal/filter/morphology.h:177
-#: ../src/filter-enums.cpp:91
+#: ../src/extension/internal/filter/morphology.h:177 ../src/filter-enums.cpp:91
 msgid "XOR"
 msgstr "XOR"
 
@@ -7571,8 +7564,8 @@ msgstr "Rauschen"
 #: ../src/ui/dialog/tracedialog.cpp:747
 #: ../share/extensions/color_HSL_adjust.inx.h:2
 #: ../share/extensions/color_custom.inx.h:2
-#: ../share/extensions/color_randomize.inx.h:2
-#: ../share/extensions/dots.inx.h:2 ../share/extensions/dxf_input.inx.h:2
+#: ../share/extensions/color_randomize.inx.h:2 ../share/extensions/dots.inx.h:2
+#: ../share/extensions/dxf_input.inx.h:2
 #: ../share/extensions/dxf_outlines.inx.h:2
 #: ../share/extensions/gcodetools_area.inx.h:29
 #: ../share/extensions/gcodetools_engraving.inx.h:7
@@ -8159,15 +8152,13 @@ msgstr "Vertikaler Versatz:"
 #: ../src/extension/internal/grid.cpp:220
 #: ../src/ui/dialog/inkscape-preferences.cpp:1469
 #: ../share/extensions/draw_from_triangle.inx.h:58
-#: ../share/extensions/eqtexsvg.inx.h:4
-#: ../share/extensions/foldablebox.inx.h:9
+#: ../share/extensions/eqtexsvg.inx.h:4 ../share/extensions/foldablebox.inx.h:9
 #: ../share/extensions/funcplot.inx.h:38
 #: ../share/extensions/grid_cartesian.inx.h:23
 #: ../share/extensions/grid_isometric.inx.h:11
 #: ../share/extensions/grid_polar.inx.h:22
 #: ../share/extensions/guides_creator.inx.h:25
-#: ../share/extensions/hershey.inx.h:52
-#: ../share/extensions/layout_nup.inx.h:35
+#: ../share/extensions/hershey.inx.h:52 ../share/extensions/layout_nup.inx.h:35
 #: ../share/extensions/lindenmayer.inx.h:34
 #: ../share/extensions/param_curves.inx.h:30
 #: ../share/extensions/perfectboundcover.inx.h:19
@@ -8505,8 +8496,7 @@ msgid "Map all fill patterns to standard WMF hatches"
 msgstr "Alle Füllmuster als Standard WMF-Muster verbinden"
 
 #: ../src/extension/internal/wmf-inout.cpp:3155
-#: ../share/extensions/wmf_input.inx.h:2
-#: ../share/extensions/wmf_output.inx.h:2
+#: ../share/extensions/wmf_input.inx.h:2 ../share/extensions/wmf_output.inx.h:2
 msgid "Windows Metafile (*.wmf)"
 msgstr "Windows-Metadatei (*.wmf)"
 
@@ -9344,8 +9334,7 @@ msgid "Close this dock"
 msgstr "Diesen Dok schließen"
 
 # Zeit korrekt?
-#: ../src/libgdl/gdl-dock-item-grip.c:720
-#: ../src/libgdl/gdl-dock-tablabel.c:125
+#: ../src/libgdl/gdl-dock-item-grip.c:720 ../src/libgdl/gdl-dock-tablabel.c:125
 msgid "Controlling dock item"
 msgstr "Verwaltet Dock-Objekt"
 
@@ -9514,8 +9503,7 @@ msgstr "Aktuelle Seitenzahl"
 
 #: ../src/libgdl/gdl-dock-object.c:125
 #: ../src/ui/dialog/inkscape-preferences.cpp:1503
-#: ../src/ui/widget/page-sizer.cpp:258
-#: ../src/widgets/gradient-selector.cpp:158
+#: ../src/ui/widget/page-sizer.cpp:258 ../src/widgets/gradient-selector.cpp:158
 #: ../src/widgets/sp-xmlview-attr-list.cpp:54
 msgid "Name"
 msgstr "Name"
@@ -10667,8 +10655,7 @@ msgstr "_Markierungsdistanz:"
 msgid "Distance between successive ruler marks"
 msgstr "Abstand zwischen aufeinander folgenden Linealmarkierungen"
 
-#: ../src/live_effects/lpe-ruler.cpp:42
-#: ../share/extensions/foldablebox.inx.h:7
+#: ../src/live_effects/lpe-ruler.cpp:42 ../share/extensions/foldablebox.inx.h:7
 #: ../share/extensions/interp_att_g.inx.h:9
 #: ../share/extensions/layout_nup.inx.h:3
 #: ../share/extensions/printing_marks.inx.h:11
@@ -11911,8 +11898,7 @@ msgstr "Es wurde <b>nichts</b> gelöscht."
 #: ../src/widgets/eraser-toolbar.cpp:93
 #: ../src/widgets/gradient-toolbar.cpp:1178
 #: ../src/widgets/gradient-toolbar.cpp:1192
-#: ../src/widgets/gradient-toolbar.cpp:1206
-#: ../src/widgets/node-toolbar.cpp:401
+#: ../src/widgets/gradient-toolbar.cpp:1206 ../src/widgets/node-toolbar.cpp:401
 msgid "Delete"
 msgstr "Löschen"
 
@@ -12793,8 +12779,8 @@ msgstr "Bedingte Gruppe"
 
 #: ../src/sp-text.cpp:325 ../src/verbs.cpp:328
 #: ../share/extensions/lorem_ipsum.inx.h:8
-#: ../share/extensions/replace_font.inx.h:11
-#: ../share/extensions/split.inx.h:10 ../share/extensions/text_braille.inx.h:2
+#: ../share/extensions/replace_font.inx.h:11 ../share/extensions/split.inx.h:10
+#: ../share/extensions/text_braille.inx.h:2
 #: ../share/extensions/text_extract.inx.h:14
 #: ../share/extensions/text_flipcase.inx.h:2
 #: ../share/extensions/text_lowercase.inx.h:2
@@ -14687,8 +14673,7 @@ msgstr "_Entfernen"
 msgid "Remove selected grid."
 msgstr "Ausgewähltes Gitter entfernen."
 
-#: ../src/ui/dialog/document-properties.cpp:154
-#: ../src/widgets/toolbox.cpp:1835
+#: ../src/ui/dialog/document-properties.cpp:154 ../src/widgets/toolbox.cpp:1835
 msgid "Guides"
 msgstr "Hilfslinien"
 
@@ -15080,8 +15065,7 @@ msgstr "Information"
 #: ../src/ui/dialog/extension-editor.cpp:82 ../src/verbs.cpp:290
 #: ../src/verbs.cpp:309 ../share/extensions/color_HSL_adjust.inx.h:11
 #: ../share/extensions/color_custom.inx.h:7
-#: ../share/extensions/color_randomize.inx.h:6
-#: ../share/extensions/dots.inx.h:7
+#: ../share/extensions/color_randomize.inx.h:6 ../share/extensions/dots.inx.h:7
 #: ../share/extensions/draw_from_triangle.inx.h:35
 #: ../share/extensions/dxf_input.inx.h:10
 #: ../share/extensions/dxf_outlines.inx.h:24
@@ -15113,8 +15097,7 @@ msgstr "Information"
 #: ../share/extensions/jessyInk_view.inx.h:7
 #: ../share/extensions/layout_nup.inx.h:24
 #: ../share/extensions/lindenmayer.inx.h:13
-#: ../share/extensions/lorem_ipsum.inx.h:6
-#: ../share/extensions/measure.inx.h:16
+#: ../share/extensions/lorem_ipsum.inx.h:6 ../share/extensions/measure.inx.h:16
 #: ../share/extensions/pathalongpath.inx.h:16
 #: ../share/extensions/pathscatter.inx.h:18
 #: ../share/extensions/radiusrand.inx.h:8 ../share/extensions/split.inx.h:8
@@ -20749,18 +20732,15 @@ msgstr "Der Kopf-Lischinski-Algorithmus"
 msgid "Output"
 msgstr "Ausgabe"
 
-#: ../src/ui/dialog/pixelartdialog.cpp:297
-#: ../src/ui/dialog/tracedialog.cpp:814
+#: ../src/ui/dialog/pixelartdialog.cpp:297 ../src/ui/dialog/tracedialog.cpp:814
 msgid "Reset all settings to defaults"
 msgstr "Alle Einstellungen auf Standard zurücksetzen"
 
-#: ../src/ui/dialog/pixelartdialog.cpp:302
-#: ../src/ui/dialog/tracedialog.cpp:819
+#: ../src/ui/dialog/pixelartdialog.cpp:302 ../src/ui/dialog/tracedialog.cpp:819
 msgid "Abort a trace in progress"
 msgstr "Nachzeichnen abbrechen"
 
-#: ../src/ui/dialog/pixelartdialog.cpp:306
-#: ../src/ui/dialog/tracedialog.cpp:823
+#: ../src/ui/dialog/pixelartdialog.cpp:306 ../src/ui/dialog/tracedialog.cpp:823
 msgid "Execute the trace"
 msgstr "Nachzeichnen starten"
 
@@ -21100,8 +21080,7 @@ msgid "Preview Text:"
 msgstr "Textvorschau:"
 
 #: ../src/ui/dialog/swatches.cpp:203 ../src/ui/tools/gradient-tool.cpp:367
-#: ../src/ui/tools/gradient-tool.cpp:465
-#: ../src/widgets/gradient-vector.cpp:814
+#: ../src/ui/tools/gradient-tool.cpp:465 ../src/widgets/gradient-vector.cpp:814
 msgid "Add gradient stop"
 msgstr "Zwischenfarbe zum Farbverlauf hinzufügen"
 
@@ -22094,8 +22073,7 @@ msgid "Rotate handle"
 msgstr "Anfasser rotieren"
 
 #. We need to call MPM's method because it could have been our last node
-#: ../src/ui/tool/path-manipulator.cpp:1388
-#: ../src/widgets/node-toolbar.cpp:397
+#: ../src/ui/tool/path-manipulator.cpp:1388 ../src/widgets/node-toolbar.cpp:397
 msgid "Delete node"
 msgstr "Knoten löschen"
 
@@ -27175,34 +27153,28 @@ msgstr "radial"
 msgid "Create radial (elliptic or circular) gradient"
 msgstr "Radialen (elliptischen oder kreisförmigen) Farbverlauf erzeugen"
 
-#: ../src/widgets/gradient-toolbar.cpp:1041
-#: ../src/widgets/mesh-toolbar.cpp:211
+#: ../src/widgets/gradient-toolbar.cpp:1041 ../src/widgets/mesh-toolbar.cpp:211
 msgid "New:"
 msgstr "Neu:"
 
-#: ../src/widgets/gradient-toolbar.cpp:1064
-#: ../src/widgets/mesh-toolbar.cpp:234
+#: ../src/widgets/gradient-toolbar.cpp:1064 ../src/widgets/mesh-toolbar.cpp:234
 msgid "fill"
 msgstr "füllen"
 
-#: ../src/widgets/gradient-toolbar.cpp:1064
-#: ../src/widgets/mesh-toolbar.cpp:234
+#: ../src/widgets/gradient-toolbar.cpp:1064 ../src/widgets/mesh-toolbar.cpp:234
 msgid "Create gradient in the fill"
 msgstr "Farbverlauf für die Füllung erzeugen"
 
-#: ../src/widgets/gradient-toolbar.cpp:1068
-#: ../src/widgets/mesh-toolbar.cpp:238
+#: ../src/widgets/gradient-toolbar.cpp:1068 ../src/widgets/mesh-toolbar.cpp:238
 msgid "stroke"
 msgstr "Kontur"
 
-#: ../src/widgets/gradient-toolbar.cpp:1068
-#: ../src/widgets/mesh-toolbar.cpp:238
+#: ../src/widgets/gradient-toolbar.cpp:1068 ../src/widgets/mesh-toolbar.cpp:238
 msgid "Create gradient in the stroke"
 msgstr "Farbverlauf für die Kontur erzeugen"
 
 # CHECK
-#: ../src/widgets/gradient-toolbar.cpp:1071
-#: ../src/widgets/mesh-toolbar.cpp:241
+#: ../src/widgets/gradient-toolbar.cpp:1071 ../src/widgets/mesh-toolbar.cpp:241
 msgid "on:"
 msgstr "auf:"
 
@@ -27307,8 +27279,7 @@ msgstr "Verknüpfe Farbverläufe"
 msgid "Link gradients to change all related gradients"
 msgstr "Verknüpfe Farbverläufe, um alle verbundenen Farbverläufe zu ändern"
 
-#: ../src/widgets/gradient-vector.cpp:332
-#: ../src/widgets/paint-selector.cpp:922
+#: ../src/widgets/gradient-vector.cpp:332 ../src/widgets/paint-selector.cpp:922
 #: ../src/widgets/stroke-marker-selector.cpp:154
 msgid "No document selected"
 msgstr "Kein Dokument gewählt"
@@ -27431,8 +27402,7 @@ msgstr "Schriftgröße:"
 msgid "The font size to be used in the measurement labels"
 msgstr "Die Schriftgröße, die für die Messungen verwendet werden"
 
-#: ../src/widgets/measure-toolbar.cpp:99
-#: ../src/widgets/measure-toolbar.cpp:107
+#: ../src/widgets/measure-toolbar.cpp:99 ../src/widgets/measure-toolbar.cpp:107
 msgid "The units to be used for the measurements"
 msgstr "Die Einheiten, die für die Messungen verwendet werden"
 
@@ -30156,8 +30126,7 @@ msgid "Area is zero, cannot calculate Center of Mass"
 msgstr "Fläche ist null, kann den Flächenmittelpunkt nicht berechnen"
 
 #: ../share/extensions/pathalongpath.py:208
-#: ../share/extensions/pathscatter.py:228
-#: ../share/extensions/perspective.py:53
+#: ../share/extensions/pathscatter.py:228 ../share/extensions/perspective.py:53
 msgid "This extension requires two selected paths."
 msgstr "Diese Erweiterung benötigt zwei ausgewählte Pfade."
 
@@ -30196,8 +30165,7 @@ msgstr ""
 "versuchen es erneut. Auf einem Debian-Betriebssystem können Sie dafür "
 "folgenden Befehl nutzen: sudo apt-get install python-numpy"
 
-#: ../share/extensions/perspective.py:61
-#: ../share/extensions/summersnight.py:52
+#: ../share/extensions/perspective.py:61 ../share/extensions/summersnight.py:52
 #, python-format
 msgid ""
 "The first selected object is of type '%s'.\n"
@@ -30206,16 +30174,14 @@ msgstr ""
 "Das erste ausgewählte Objekt ist vom Typ '%s'.\n"
 "Probiere Prozedur Pfad | Objekt in Pfad umwandeln."
 
-#: ../share/extensions/perspective.py:68
-#: ../share/extensions/summersnight.py:60
+#: ../share/extensions/perspective.py:68 ../share/extensions/summersnight.py:60
 msgid ""
 "This extension requires that the second selected path be four nodes long."
 msgstr ""
 "Diese Erweiterung erwartet, dass der als zweites gewählte Pfad vier Knoten "
 "lang ist."
 
-#: ../share/extensions/perspective.py:94
-#: ../share/extensions/summersnight.py:93
+#: ../share/extensions/perspective.py:94 ../share/extensions/summersnight.py:93
 msgid ""
 "The second selected object is a group, not a path.\n"
 "Try using the procedure Object->Ungroup."
@@ -30223,8 +30189,7 @@ msgstr ""
 "Das als zweites gewählte Objekt ist eine Gruppe, kein Pfad.\n"
 " Versuchen Sie den Befehl Objekt | Gruppierung aufheben."
 
-#: ../share/extensions/perspective.py:96
-#: ../share/extensions/summersnight.py:95
+#: ../share/extensions/perspective.py:96 ../share/extensions/summersnight.py:95
 msgid ""
 "The second selected object is not a path.\n"
 "Try using the procedure Path->Object to Path."
@@ -30232,8 +30197,7 @@ msgstr ""
 "Das als zweites ausgewählte Objekt ist kein Pfad.\n"
 " Versuchen Sie den Befehl Pfad | Objekt in Pfad umwandeln."
 
-#: ../share/extensions/perspective.py:99
-#: ../share/extensions/summersnight.py:98
+#: ../share/extensions/perspective.py:99 ../share/extensions/summersnight.py:98
 msgid ""
 "The first selected object is not a path.\n"
 "Try using the procedure Path->Object to Path."
@@ -32948,14 +32912,12 @@ msgstr ""
 "öffnen Sie die Datei erneut."
 
 #: ../share/extensions/hpgl_input.inx.h:3
-#: ../share/extensions/hpgl_output.inx.h:4
-#: ../share/extensions/plotter.inx.h:23
+#: ../share/extensions/hpgl_output.inx.h:4 ../share/extensions/plotter.inx.h:23
 msgid "Resolution X (dpi):"
 msgstr "X-Auflösung (dpi):"
 
 #: ../share/extensions/hpgl_input.inx.h:4
-#: ../share/extensions/hpgl_output.inx.h:5
-#: ../share/extensions/plotter.inx.h:24
+#: ../share/extensions/hpgl_output.inx.h:5 ../share/extensions/plotter.inx.h:24
 msgid ""
 "The amount of steps the plotter moves if it moves for 1 inch on the X axis "
 "(Default: 1016.0)"
@@ -32964,14 +32926,12 @@ msgstr ""
 "bewegt (Standard: '1016')"
 
 #: ../share/extensions/hpgl_input.inx.h:5
-#: ../share/extensions/hpgl_output.inx.h:6
-#: ../share/extensions/plotter.inx.h:25
+#: ../share/extensions/hpgl_output.inx.h:6 ../share/extensions/plotter.inx.h:25
 msgid "Resolution Y (dpi):"
 msgstr "Y-Auflösung (dpi):"
 
 #: ../share/extensions/hpgl_input.inx.h:6
-#: ../share/extensions/hpgl_output.inx.h:7
-#: ../share/extensions/plotter.inx.h:26
+#: ../share/extensions/hpgl_output.inx.h:7 ../share/extensions/plotter.inx.h:26
 msgid ""
 "The amount of steps the plotter moves if it moves for 1 inch on the Y axis "
 "(Default: 1016.0)"
@@ -33012,18 +32972,15 @@ msgstr ""
 "Pfade konvertiert wurden. Bitte verwenden Sie die Plotter-Erweiterung "
 "(Erweiterungsmenü), um direkt über eine serielle Verbindung zu plotten."
 
-#: ../share/extensions/hpgl_output.inx.h:3
-#: ../share/extensions/plotter.inx.h:22
+#: ../share/extensions/hpgl_output.inx.h:3 ../share/extensions/plotter.inx.h:22
 msgid "Plotter Settings "
 msgstr "Plottereinstellungen "
 
-#: ../share/extensions/hpgl_output.inx.h:8
-#: ../share/extensions/plotter.inx.h:27
+#: ../share/extensions/hpgl_output.inx.h:8 ../share/extensions/plotter.inx.h:27
 msgid "Pen number:"
 msgstr "Stiftnummer:"
 
-#: ../share/extensions/hpgl_output.inx.h:9
-#: ../share/extensions/plotter.inx.h:28
+#: ../share/extensions/hpgl_output.inx.h:9 ../share/extensions/plotter.inx.h:28
 msgid "The number of the pen (tool) to use (Standard: '1')"
 msgstr "Die Nummer des zu verwendenden Stiftes (Werkzeug) (Standard: '1')"
 
@@ -34639,8 +34596,7 @@ msgstr ""
 msgid "AutoCAD Plot Input"
 msgstr "AutoCAD Plot-Eingabe"
 
-#: ../share/extensions/plt_input.inx.h:2
-#: ../share/extensions/plt_output.inx.h:2
+#: ../share/extensions/plt_input.inx.h:2 ../share/extensions/plt_output.inx.h:2
 msgid "HP Graphics Language Plot file [AutoCAD] (*.plt)"
 msgstr "HP Graphics Language Plotter Datei [AutoCAD] (*.plt)"
 
@@ -35452,8 +35408,7 @@ msgstr "Absteigend:"
 msgid "sK1 vector graphics files input"
 msgstr "sK1-Vektorgrafikdateien einlesen"
 
-#: ../share/extensions/sk1_input.inx.h:2
-#: ../share/extensions/sk1_output.inx.h:2
+#: ../share/extensions/sk1_input.inx.h:2 ../share/extensions/sk1_output.inx.h:2
 msgid "sK1 vector graphics files (*.sk1)"
 msgstr "sK1-Vektorgrafikdateien (.sk1)"
 
@@ -36388,13 +36343,11 @@ msgstr "Kippen (Grad):"
 msgid "Hide lines behind the sphere"
 msgstr "Linien hinter der Sphäre verstecken"
 
-#: ../share/extensions/wmf_input.inx.h:1
-#: ../share/extensions/wmf_output.inx.h:1
+#: ../share/extensions/wmf_input.inx.h:1 ../share/extensions/wmf_output.inx.h:1
 msgid "Windows Metafile Input"
 msgstr "Windows-Metadatei einlesen"
 
-#: ../share/extensions/wmf_input.inx.h:3
-#: ../share/extensions/wmf_output.inx.h:3
+#: ../share/extensions/wmf_input.inx.h:3 ../share/extensions/wmf_output.inx.h:3
 msgid "A popular graphics file format for clipart"
 msgstr "Ein beliebtes Dateiformat für Clipart"
 
