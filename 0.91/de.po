@@ -8272,7 +8272,7 @@ msgid ""
 "and slow performance."
 msgstr ""
 "<b>Hinweis</b>: Wird die Präzision zu hoch eingestellt, kann dies zu einer "
-"großen SVG Datei und erhöhtem Ressourcenbedarf führen."
+"großen SVG-Datei und erhöhtem Ressourcenbedarf führen."
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:128
 msgid "import via Poppler"
@@ -15295,7 +15295,7 @@ msgstr "Bild-Datei"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:659
 msgid "Selected SVG Element"
-msgstr "Gewähltes SVG Element"
+msgstr "Gewähltes SVG-Element"
 
 #. TODO: any image, not just svg
 #: ../src/ui/dialog/filter-effects-dialog.cpp:729
@@ -15976,7 +15976,7 @@ msgid ""
 "The <b>feTile</b> filter primitive tiles a region with its input graphic"
 msgstr ""
 "Der Filterbaustein <b>Kacheln</b> belegt einen Bereich mit Kopien einer "
-"Graphik."
+"Grafik."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3008
 msgid ""
@@ -18604,7 +18604,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:875
 msgid "XML formatting"
-msgstr "XML Format"
+msgstr "XML-Format"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:877
 msgid "Inline attributes"
@@ -18691,7 +18691,7 @@ msgid ""
 "anything smaller is written as zero"
 msgstr ""
 "Alle Zahlen die kleiner als 10 hoch diesen Exponenten sind, werden als 0 in "
-"SVG Dateien geschrieben."
+"SVG-Dateien geschrieben."
 
 #. Code to add controls for attribute checking options
 #. Add incorrect style properties options
@@ -25896,7 +25896,7 @@ msgstr "Globale Einstellungen für Inkscape bearbeiten"
 
 #: ../src/verbs.cpp:2808
 msgid "_Document Properties..."
-msgstr "_Dokumenteneinstellungen..."
+msgstr "_Dokumenteinstellungen..."
 
 #: ../src/verbs.cpp:2809
 msgid "Edit properties of this document (to be saved with the document)"
@@ -26972,7 +26972,7 @@ msgstr ""
 "<span weight=\"bold\" size=\"larger\">Die Datei \"%s\" wurde in einem "
 "möglicherweise verlustbehafteten Format gespeichert!</span>\n"
 "\n"
-"Möchten Sie das Dokument als Inkscape SVG speichern?"
+"Möchten Sie das Dokument als Inkscape-SVG speichern?"
 
 #: ../src/widgets/desktop-widget.cpp:1179
 msgid "_Save as Inkscape SVG"
@@ -30422,7 +30422,7 @@ msgstr "Das Verzeichnis \"%s\" existiert nicht."
 #: ../share/extensions/webslicer_export.py:102
 #, python-format
 msgid "You have more than one element with \"%s\" html-id."
-msgstr "Sie haben mehr als ein Element mit \"%s\" html-id."
+msgstr "Sie haben mehr als ein Element mit \"%s\" HTML-ID."
 
 #: ../share/extensions/webslicer_export.py:332
 msgid "You must install the ImageMagick to get JPG and GIF."
@@ -35175,14 +35175,13 @@ msgstr "Kurve (%):"
 msgid "Optimized SVG Output"
 msgstr "Optimierte SVG-Ausgabe"
 
-# !!! correct?
 #: ../share/extensions/scour.inx.h:3
 msgid "Shorten color values"
 msgstr "Farbwerte kürzen"
 
 #: ../share/extensions/scour.inx.h:4
 msgid "Convert CSS attributes to XML attributes"
-msgstr "CSS Attribute zu XML Attribute konvertieren"
+msgstr "CSS-Attribute zu XML-Attributen konvertieren"
 
 #: ../share/extensions/scour.inx.h:5
 msgid "Group collapsing"
@@ -35525,11 +35524,11 @@ msgstr "FXG-Ausgabe"
 
 #: ../share/extensions/svg2fxg.inx.h:2
 msgid "Flash XML Graphics (*.fxg)"
-msgstr "Flash XML Grafik (*.fxg)"
+msgstr "Flash XML-Grafik (*.fxg)"
 
 #: ../share/extensions/svg2fxg.inx.h:3
 msgid "Adobe's XML Graphics file format"
-msgstr "Adobe's XML Graphik Dateiformat"
+msgstr "Adobe's XML-Grafik Dateiformat"
 
 #: ../share/extensions/svg2xaml.inx.h:1
 msgid "XAML Output"
@@ -35721,7 +35720,7 @@ msgstr ""
 
 #: ../share/extensions/svgfont2layers.inx.h:1
 msgid "Convert SVG Font to Glyph Layers"
-msgstr "Konvertiere SVG Schrift zu Glyph-Ebenen"
+msgstr "Konvertiere SVG-Schrift zu Glyph-Ebenen"
 
 #: ../share/extensions/svgfont2layers.inx.h:2
 msgid "Load only the first 30 glyphs (Recommended)"
@@ -35741,7 +35740,7 @@ msgstr "Synfig Animation, estrellt mit der sif-Datei Export Erweiterung"
 
 #: ../share/extensions/tar_layers.inx.h:1
 msgid "Collection of SVG files One per root layer"
-msgstr "Sammlung von SVG Dateien. Eine je Hauptebene"
+msgstr "Sammlung von SVG-Dateien. Eine je Hauptebene"
 
 #: ../share/extensions/tar_layers.inx.h:2
 msgid "Layers as Separate SVG (*.tar)"
@@ -35752,7 +35751,7 @@ msgid ""
 "Each layer split into it's own svg file and collected as a tape archive (tar "
 "file)"
 msgstr ""
-"Jede Ebene wird in einer eigenen SVG Datei gespeichert und die Dateien in "
+"Jede Ebene wird in einer eigenen SVG-Datei gespeichert und die Dateien in "
 "einerm TAR-Archiv zusammengefasst"
 
 #: ../share/extensions/text_braille.inx.h:1
@@ -36108,12 +36107,12 @@ msgstr "Layoutgruppe festlegen"
 #: ../share/extensions/webslicer_create_group.inx.h:3
 #: ../share/extensions/webslicer_create_rect.inx.h:18
 msgid "HTML id attribute:"
-msgstr "HTML id Attribut:"
+msgstr "HTML-ID-Attribut:"
 
 #: ../share/extensions/webslicer_create_group.inx.h:4
 #: ../share/extensions/webslicer_create_rect.inx.h:19
 msgid "HTML class attribute:"
-msgstr "HTML Klassen Attribut:"
+msgstr "HTML-Klassen-Attribut:"
 
 #: ../share/extensions/webslicer_create_group.inx.h:5
 msgid "Width unit:"
@@ -36213,7 +36212,7 @@ msgstr "Layout-Anordnung:"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:22
 msgid "Positioned html block element with the image as Background"
-msgstr "Positioniert html Block-Elemente mit dem Bild als Hintergrund"
+msgstr "Positioniertes HTML-Block-Element mit dem Bild als Hintergrund"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:23
 msgid "Tiled Background (on parent group)"
@@ -38462,44 +38461,8 @@ msgstr "XAML einlesen"
 #~ msgid "Simplify colors"
 #~ msgstr "Farben vereinfachen"
 
-#~ msgid "Strip xml prolog"
-#~ msgstr "Herauslösen des XML Prologes"
-
 #~ msgid "Style to xml"
 #~ msgstr "Stil nach XML"
-
-#~ msgid ""
-#~ "This extension optimizes the SVG file according to the following "
-#~ "options:\n"
-#~ "    * Simplify colors: convert all colors to #RRGGBB format.\n"
-#~ "    * Style to xml: convert styles into XML attributes.\n"
-#~ "    * Group collapsing: collapse group elements.\n"
-#~ "    * Enable id stripping: remove all un-referenced ID attributes.\n"
-#~ "    * Embed rasters: embed rasters as base64-encoded data.\n"
-#~ "    * Keep editor data: don't remove Inkscape, Sodipodi or Adobe "
-#~ "Illustrator elements and attributes.\n"
-#~ "    * Enable viewboxing: size image to 100%/100% and introduce a "
-#~ "viewBox.\n"
-#~ "    * Strip xml prolog: don't output the xml prolog.\n"
-#~ "    * Set precision: set number of significant digits (default: 5).\n"
-#~ "    * Indent: indentation of the output: none, space, tab (default: "
-#~ "space)."
-#~ msgstr ""
-#~ "Diese Erweiterung optimiert die SVG-Datei gemäß nachfolgender Optionen: \n"
-#~ "    * Farben vereinfachen: Konvertiert alle Farben in das #RRGGBB "
-#~ "Format.\n"
-#~ "    * Stil nach XML: Konvertiert Stile in XML-Attribute.\n"
-#~ "    * Guppen zusammenklappen: Klappt &lt;g&gt; Elemente zusammen.\n"
-#~ "    * ID-Herauslösen einschalten: Löscht alle nicht verweisenden ID-"
-#~ "Attribute.\n"
-#~ "    * Raster einbetten: Bettet Raster als base64-encoded Data ein.\n"
-#~ "    * Behalten der Editor-Daten: Behalten von Inkscape-, Sodipodi- oder "
-#~ "Adobe Illustrator-Elementen und Attribute.\n"
-#~ "    * Vorschau einschalten: Setzt Bildgröße auf 100%/100% und fügt eine "
-#~ "Vorschau ein.\n"
-#~ "    * Herauslösen des XML Prologes: Es wird kein XML-Prolog ausgegeben.\n"
-#~ "    * Genauigkeit: Anzahl der maßgeblichen Stellen setzen (Vorgabe: 5).\n"
-#~ "    * Einzug: Einrücken der Ausgabe: Kein, Space, Tab (Vorgabe: Space)."
 
 #~ msgid "Y frequency:"
 #~ msgstr "Basisfrequenz:"
@@ -38966,25 +38929,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "PLACEHOLDER, do not translate"
 #~ msgstr "PLACEHOLDER, do not translate"
-
-#~ msgid ""
-#~ "<b>Welcome to Inkscape!</b> Use shape or drawing tools to create objects; "
-#~ "use selector (arrow) to move or transform them."
-#~ msgstr ""
-#~ "<b>Willkommen bei Inkscape!</b> Nutzen Sie Formen- und Zeichenwerkzeuge, "
-#~ "um Objekte zu erstellen; das Auswahlwerkzeug (Pfeil) verschiebt und "
-#~ "bearbeitet sie."
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">The file \"%s\" was saved with a "
-#~ "format (%s) that may cause data loss!</span>\n"
-#~ "\n"
-#~ "Do you want to save this file as an Inkscape SVG?"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Das Dokument \"%s\" wurde in einem "
-#~ "möglicherweise verlustbehafteten Format (%s) gespeichert!</span>\n"
-#~ "\n"
-#~ "Möchten Sie das Dokument als ein Inkscape SVG speichern?"
 
 #~ msgid "Opacity, %"
 #~ msgstr "Deckkraft, %:"

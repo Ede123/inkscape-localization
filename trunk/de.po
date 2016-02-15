@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-02-14 00:09+0100\n"
-"PO-Revision-Date: 2015-12-01 00:26+0100\n"
-"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
+"PO-Revision-Date: 2016-02-15 02:59+0100\n"
+"Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
 "Language-Team: German <>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Language: de_DE\n"
 "X-Source-Language: C\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: ../inkscape.appdata.xml.in.h:1 ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -8068,7 +8068,7 @@ msgid ""
 "and slow performance."
 msgstr ""
 "<b>Hinweis</b>: Wird die Präzision zu hoch eingestellt, kann dies zu einer "
-"großen SVG Datei und erhöhtem Ressourcenbedarf führen."
+"großen SVG-Datei und erhöhtem Ressourcenbedarf führen."
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:134
 msgid "Poppler/Cairo import"
@@ -15758,7 +15758,7 @@ msgstr "Bild-Datei"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:660
 msgid "Selected SVG Element"
-msgstr "Gewähltes SVG Element"
+msgstr "Gewähltes SVG-Element"
 
 #. TODO: any image, not just svg
 #: ../src/ui/dialog/filter-effects-dialog.cpp:730
@@ -19202,7 +19202,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:917
 msgid "XML formatting"
-msgstr "XML Format"
+msgstr "XML-Format"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:919
 msgid "Inline attributes"
@@ -19289,7 +19289,7 @@ msgid ""
 "anything smaller is written as zero"
 msgstr ""
 "Alle Zahlen die kleiner als 10 hoch diesen Exponenten sind, werden als 0 in "
-"SVG Dateien geschrieben."
+"SVG-Dateien geschrieben."
 
 #. Code to add controls for attribute checking options
 #. Add incorrect style properties options
@@ -19317,7 +19317,7 @@ msgstr "Attribute löschen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:953
 msgid "Delete invalid or non-useful attributes from element tag"
-msgstr "Löscht ungültige oder nicht-nützliche Attribute vom Element Tag"
+msgstr "Löscht ungültige oder nicht-nützliche Attribute vom Element-Tag"
 
 #. Add incorrect style properties options
 #: ../src/ui/dialog/inkscape-preferences.cpp:956
@@ -25468,7 +25468,7 @@ msgid ""
 "scaling in Inkscape. To set a non-uniform scaling, set the 'viewBox' "
 "directly."
 msgstr ""
-"Obwohl das SVG Format unterschiedliche Skalierungsfaktoren erlaubt, wird "
+"Obwohl das SVG-Format unterschiedliche Skalierungsfaktoren erlaubt, wird "
 "dies für die Verwendung in Inkscape nicht empfohlen. Um unterschiedliche "
 "Skalierungsfaktoren festzulegen kann das 'viewBox' Attribut direkt "
 "bearbeitet werden."
@@ -28028,7 +28028,7 @@ msgstr "Globale Einstellungen für Inkscape bearbeiten"
 
 #: ../src/verbs.cpp:2898
 msgid "_Document Properties..."
-msgstr "_Dokumenteneinstellungen..."
+msgstr "_Dokumenteinstellungen..."
 
 #: ../src/verbs.cpp:2899
 msgid "Edit properties of this document (to be saved with the document)"
@@ -29122,7 +29122,7 @@ msgstr ""
 "<span weight=\"bold\" size=\"larger\">Die Datei \"%s\" wurde in einem "
 "möglicherweise verlustbehafteten Format gespeichert!</span>\n"
 "\n"
-"Möchten Sie das Dokument als Inkscape SVG speichern?"
+"Möchten Sie das Dokument als Inkscape-SVG speichern?"
 
 #: ../src/widgets/desktop-widget.cpp:1229
 msgid "_Save as Inkscape SVG"
@@ -32840,7 +32840,7 @@ msgstr "Keine „Slicer“-Ebene gefunden."
 #: ../share/extensions/webslicer_export.py:108
 #, python-format
 msgid "You have more than one element with \"%s\" html-id."
-msgstr "Sie haben mehr als ein Element mit \"%s\" html-id."
+msgstr "Sie haben mehr als ein Element mit \"%s\" HTML-ID."
 
 #: ../share/extensions/webslicer_export.py:338
 msgid "You must install the ImageMagick to get JPG and GIF."
@@ -37939,9 +37939,8 @@ msgid "Optimized SVG Output"
 msgstr "Optimierte SVG-Ausgabe"
 
 #: ../share/extensions/scour.inx.h:3
-#, fuzzy
 msgid "Number of significant digits for coordinates:"
-msgstr "Anzahl der signifikanten Ziffern für Koordinaten:"
+msgstr "Anzahl der signifikanten Stellen für Koordinaten:"
 
 #: ../share/extensions/scour.inx.h:4
 msgid ""
@@ -37951,8 +37950,12 @@ msgid ""
 "\"3\" is specified, the coordinate 3.14159 is output as 3.14 while the "
 "coordinate 123.675 is output as 124."
 msgstr ""
+"Legt die Anzahl der signifikanten Stellen für Koordinaten fest. Signifikante "
+"Stellen entsprechen *nicht* der Anzahl an Nachkommastellen, sondern der "
+"Gesamtzahl der Stellen in der Ausgabe. Wird zum Beispiel ein Wert von \"3\" "
+"festgelegt, wird die Koordinate 3.14159 als 3.14 ausgegeben während die "
+"Koordinate 123.675 als 124 ausgegeben wird."
 
-# !!! correct?
 #: ../share/extensions/scour.inx.h:5
 msgid "Shorten color values"
 msgstr "Farbwerte kürzen"
@@ -37962,37 +37965,43 @@ msgid ""
 "Convert all color specifications to #RRGGBB (or #RGB where applicable) "
 "format."
 msgstr ""
+"Wandelt alle Farbangaben in die Form #RRGGBB (bzw. #RGB wenn möglich) um."
 
 #: ../share/extensions/scour.inx.h:7
 msgid "Convert CSS attributes to XML attributes"
-msgstr "CSS Attribute zu XML Attribute konvertieren"
+msgstr "CSS-Attribute in XML-Attribute umwandeln"
 
 #: ../share/extensions/scour.inx.h:8
 msgid ""
 "Convert styles from style tags and inline style=\"\" declarations into XML "
 "attributes."
 msgstr ""
+"Wandelt Stilvorgaben aus Style-Tags und inline style=\"\" Deklarationen in "
+"XML-Attribute um."
 
 #: ../share/extensions/scour.inx.h:9
-#, fuzzy
 msgid "Collapse groups"
-msgstr "Alle zusammenklappen"
+msgstr "Gruppen zusammenklappen"
 
 #: ../share/extensions/scour.inx.h:10
 msgid ""
 "Remove useless groups, promoting their contents up one level. Requires "
 "\"Remove unused IDs\" to be set."
 msgstr ""
+"Enfernt unnötige Gruppen und hebt ihren Inhalt um eine Gliederungsebene an. "
+"Benötigt \"Unbenutzte IDs entfernen\"."
 
 #: ../share/extensions/scour.inx.h:11
 msgid "Create groups for similar attributes"
-msgstr "Erstellen von Gruppen für ähnliche Attribute"
+msgstr "Gruppen für ähnliche Attribute erstellen"
 
 #: ../share/extensions/scour.inx.h:12
 msgid ""
 "Create groups for runs of elements having at least one attribute in common "
 "(e.g. fill-color, stroke-opacity, ...)."
 msgstr ""
+"Erstellt Gruppen für aufeinanderfolgende Elemente, die mindestes ein "
+"Attribut gemeinsam haben (z.B. fill-color, stroke-opacity, ...)."
 
 #: ../share/extensions/scour.inx.h:13
 msgid "Keep editor data"
@@ -38003,14 +38012,16 @@ msgid ""
 "Don't remove editor-specific elements and attributes. Currently supported: "
 "Inkscape, Sodipodi and Adobe Illustrator."
 msgstr ""
+"Verhindert das Entfernen von Editor-spezifischen Elementen und Attributen. "
+"Derzeit unterstützt: Inkscape, Sodipodi und Adobe Illustrator."
 
 #: ../share/extensions/scour.inx.h:15
 msgid "Keep unreferenced definitions"
-msgstr ""
+msgstr "Unreferenzierte Definitionen erhalten"
 
 #: ../share/extensions/scour.inx.h:16
 msgid "Keep element definitions that are not currently used in the SVG"
-msgstr ""
+msgstr "Erhält Element-Definitionen die derzeit nicht im SVG genutzt werden"
 
 #: ../share/extensions/scour.inx.h:17
 msgid "Work around renderer bugs"
@@ -38021,9 +38032,10 @@ msgid ""
 "Works around some common renderer bugs (mainly libRSVG) at the cost of a "
 "slightly larger SVG file."
 msgstr ""
+"Umgeht einige verbreitete Fehler in Renderern (insbesondere libRSVG) auf "
+"Kosten einer etwas größeren SVG-Datei."
 
 #: ../share/extensions/scour.inx.h:20
-#, fuzzy
 msgid "Remove the XML declaration"
 msgstr "XML-Deklaration entfernen"
 
@@ -38033,6 +38045,9 @@ msgid ""
 "especially if special characters are used in the document) from the file "
 "header."
 msgstr ""
+"Entfernt die XML-Deklaration aus dem Dateikopf (diese ist optional, aber "
+"sollte insbesondere dann angegeben werden, wenn Sonderzeichen im Dokument "
+"benutzt werden)."
 
 #: ../share/extensions/scour.inx.h:22
 msgid "Remove metadata"
@@ -38044,6 +38059,9 @@ msgid ""
 "include license and author information, alternate versions for non-SVG-"
 "enabled browsers, etc."
 msgstr ""
+"Entfernt metadata-Tags und alle darin enthaltenen Informationen, wie z.B. "
+"Angaben zu Lizenz und Urheber, alternative Versionen für Browser ohne SVG-"
+"Unterstützung, etc."
 
 #: ../share/extensions/scour.inx.h:24
 msgid "Remove comments"
@@ -38051,10 +38069,9 @@ msgstr "Kommentare entfernen"
 
 #: ../share/extensions/scour.inx.h:25
 msgid "Remove all XML comments from output."
-msgstr ""
+msgstr "Entfernt alle XML-Kommentare aus der Ausgabe."
 
 #: ../share/extensions/scour.inx.h:26
-#, fuzzy
 msgid "Embed raster images"
 msgstr "Rasterbilder einbetten"
 
@@ -38063,6 +38080,8 @@ msgid ""
 "Resolve external references to raster images and embed them as Base64-"
 "encoded data URLs."
 msgstr ""
+"Löst externe Referenzen zu Rastergrafiken auf und bettet diese als Base-64 "
+"enkodierte Daten-URLs ein."
 
 #: ../share/extensions/scour.inx.h:28
 msgid "Enable viewboxing"
@@ -38074,10 +38093,12 @@ msgid ""
 "Set page size to 100%/100% (full width and height of the display area) and "
 "introduce a viewBox specifying the drawings dimensions."
 msgstr ""
+"Legt die Seitengröße auf 100%/100% (Volle Höhe/Breite des Anzeigebereichs) "
+"fest und erstellt eine viewBox welche die Abmessungen der Grafik angibt."
 
 #: ../share/extensions/scour.inx.h:31
 msgid "Format output with line-breaks and indentation"
-msgstr ""
+msgstr "Ausgabe mit Zeilenumbrüchen und Einrückungen formatieren"
 
 #: ../share/extensions/scour.inx.h:32
 msgid ""
@@ -38085,11 +38106,14 @@ msgid ""
 "to hand-edit the SVG file you can disable this option to bring down the file "
 "size even more at the cost of clarity."
 msgstr ""
+"Erstellt eine mit Zeilenumbrüchen übersichtlich formatierte Ausgabe. Wenn "
+"die SVG-Datei nicht von Hand bearbeitet werden soll, kann diese Einstellung "
+"deaktiviert werden, um die Dateigröße auf Kosten der Leserlichkeit noch "
+"weiter zu verringern."
 
 #: ../share/extensions/scour.inx.h:33
-#, fuzzy
 msgid "Indentation characters:"
-msgstr "Unicode-Zeichen:"
+msgstr "Zeichen für Einrückungen:"
 
 #: ../share/extensions/scour.inx.h:34
 msgid ""
@@ -38097,21 +38121,27 @@ msgid ""
 "Specify \"None\" to disable indentation. This option has no effect if "
 "\"Format output with line-breaks and indentation\" is disabled."
 msgstr ""
+"Gibt die Art der Einrückung an, die für jede Gliederungsebene in der Ausgabe "
+"hinzugefügt wird. \"Keine\" deaktiviert die Einrückung. Diese Einstellung "
+"hat keine Wirkung wenn \"Ausgabe mit Zeilenumbrüchen und Einrückungen "
+"formatieren\" deaktiviert ist."
 
 #: ../share/extensions/scour.inx.h:35
-#, fuzzy
 msgid "Depth of indentation:"
-msgstr "Tiefenfunktion:"
+msgstr "Einrücktiefe:"
 
 #: ../share/extensions/scour.inx.h:36
 msgid ""
 "The depth of the chosen type of indentation. E.g. if you choose \"2\" every "
 "nesting level in the output will be indented by two additional spaces/tabs."
 msgstr ""
+"Tiefe der gewählten Einrückung. Wenn z.B. \"2\" gewählt wird, wird jede "
+"zusätzliche Gliederungsebene in der Ausgabe um zwei zusätzliche Leerzeichen/"
+"Tabs eingerückt."
 
 #: ../share/extensions/scour.inx.h:37
 msgid "Strip the \"xml:space\" attribute from the root SVG element"
-msgstr ""
+msgstr "\"xml:space\"-Attribut vom SVG-Wurzelelement entfernen"
 
 #: ../share/extensions/scour.inx.h:38
 msgid ""
@@ -38119,16 +38149,18 @@ msgid ""
 "root SVG element which instructs the SVG editor not to change whitespace in "
 "the document at all (and therefore overrides the options above)."
 msgstr ""
+"Nützlich wenn die Eingabedatei die Angabe \"xml:space='preserve'\" im SVG-"
+"Wurzelelement enthält, welche den SVG-Editor anweist Leerraum, d.h. "
+"Zeilenumbrüche und Leerzeichen, im Dokument nicht zu verändern (was die "
+"vorigen Optionen außer Kraft setzt)."
 
 #: ../share/extensions/scour.inx.h:39
-#, fuzzy
 msgid "Document options"
-msgstr "_Dokumenteneinstellungen..."
+msgstr "Dokumenteinstellungen"
 
 #: ../share/extensions/scour.inx.h:40
-#, fuzzy
 msgid "Pretty-printing"
-msgstr "Gemälde"
+msgstr "Formatierung"
 
 #: ../share/extensions/scour.inx.h:41
 msgid "Space"
@@ -38138,27 +38170,26 @@ msgstr "Leerzeichen"
 msgid "Tab"
 msgstr "Tab"
 
-# CHECK
 #: ../share/extensions/scour.inx.h:43
 msgctxt "Indent"
 msgid "None"
 msgstr "Keine"
 
 #: ../share/extensions/scour.inx.h:44
-#, fuzzy
 msgid "IDs"
-msgstr "Kennung"
+msgstr "IDs"
 
 #: ../share/extensions/scour.inx.h:45
-#, fuzzy
 msgid "Remove unused IDs"
-msgstr "Rot entfernen"
+msgstr "Unbenutzte IDs entfernen"
 
 #: ../share/extensions/scour.inx.h:46
 msgid ""
 "Remove all unreferenced IDs from elements. Those are not needed for "
 "rendering."
 msgstr ""
+"Entfernt alle unreferenzierten IDs von Elementen. Diese werden für die "
+"Darstellung nicht benötigt."
 
 #: ../share/extensions/scour.inx.h:47
 msgid "Shorten IDs"
@@ -38170,19 +38201,22 @@ msgid ""
 "shortest values to the most-referenced elements. For instance, "
 "\"linearGradient5621\" will become \"a\" if it is the most used element."
 msgstr ""
+"Erstellt IDs minimaler Länge aus Kleinbuchstaben. Die kürzesten IDs werden "
+"für die am häufigsten referenzierten Elemente verwendet, z.B. wird "
+"\"linearGradient5621\" zu \"a\" verkürzt wenn er das meistreferenzierte "
+"Element ist."
 
 #: ../share/extensions/scour.inx.h:49
 msgid "Prefix shortened IDs with:"
-msgstr ""
+msgstr "Präfix für gekürzte IDs:"
 
 #: ../share/extensions/scour.inx.h:50
 msgid "Prepend shortened IDs with the specified prefix."
-msgstr ""
+msgstr "Stellt gekürzten IDs den angegebenen Präfix voran."
 
 #: ../share/extensions/scour.inx.h:51
-#, fuzzy
 msgid "Preserve manually created IDs not ending with digits"
-msgstr "Manuell erstellte ID-Namen, die nicht auf Ziffern enden, erhalten"
+msgstr "Manuell erstellte IDs, die nicht auf Ziffern enden, erhalten"
 
 #: ../share/extensions/scour.inx.h:52
 msgid ""
@@ -38191,28 +38225,32 @@ msgid ""
 "preserved while numbered IDs (as they are generated by most SVG editors "
 "including Inkscape) will be removed/shortened."
 msgstr ""
+"IDs mit aussagekräftigen Namen, die manuell erstellt wurden um bestimmte "
+"Elemente und Gruppen zu bezeichnen (z.B. #arrowStart, #arrowEnd or "
+"#textLabels), werden erhalten. Durchnummerierte IDs (wie sie von den meisten "
+"SVG-Editoren einschließlich Inkscape erstellt werden) werden entfernt/"
+"gekürzt."
 
 #: ../share/extensions/scour.inx.h:53
-#, fuzzy
 msgid "Preserve the following IDs:"
-msgstr ""
-"Es wurden folgende Schriftarten gefunden:\n"
-"%s"
+msgstr "Folgende IDs erhalten:"
 
 #: ../share/extensions/scour.inx.h:54
 msgid "A comma-separated list of IDs that are to be preserved."
 msgstr ""
+"Eine durch Kommata getrennte Liste von IDs die nicht entfernt werden sollen."
 
 #: ../share/extensions/scour.inx.h:55
-#, fuzzy
 msgid "Preserve IDs starting with:"
-msgstr "ID-Namen, die wie folgt anfangen, erhalten:"
+msgstr "IDs mit folgendem Präfix erhalten:"
 
 #: ../share/extensions/scour.inx.h:56
 msgid ""
 "Preserve all IDs that start with the specified prefix (e.g. specify \"flag\" "
 "to preserve \"flag-mx\", \"flag-pt\", etc.)."
 msgstr ""
+"Erhält IDs, die mit dem angegebenen Präfix beginnen (die Angabe \"flag\" "
+"erhält z.B. die IDs \"flag-mx\", \"flag-pt\", etc.)."
 
 #: ../share/extensions/scour.inx.h:57
 msgid "Optimized SVG (*.svg)"
@@ -38390,11 +38428,11 @@ msgstr "FXG-Ausgabe"
 
 #: ../share/extensions/svg2fxg.inx.h:2
 msgid "Flash XML Graphics (*.fxg)"
-msgstr "Flash XML Grafik (*.fxg)"
+msgstr "Flash XML-Grafik (*.fxg)"
 
 #: ../share/extensions/svg2fxg.inx.h:3
 msgid "Adobe's XML Graphics file format"
-msgstr "Adobe's XML Graphik Dateiformat"
+msgstr "Adobe's XML-Grafik Dateiformat"
 
 #: ../share/extensions/svg2xaml.inx.h:1
 msgid "XAML Output"
@@ -38586,7 +38624,7 @@ msgstr ""
 
 #: ../share/extensions/svgfont2layers.inx.h:1
 msgid "Convert SVG Font to Glyph Layers"
-msgstr "Konvertiere SVG Schrift zu Glyph-Ebenen"
+msgstr "Konvertiere SVG-Schrift zu Glyph-Ebenen"
 
 #: ../share/extensions/svgfont2layers.inx.h:2
 msgid "Load only the first 30 glyphs (Recommended)"
@@ -38606,7 +38644,7 @@ msgstr "Synfig Animation, estrellt mit der sif-Datei Export Erweiterung"
 
 #: ../share/extensions/tar_layers.inx.h:1
 msgid "Collection of SVG files One per root layer"
-msgstr "Sammlung von SVG Dateien. Eine je Hauptebene"
+msgstr "Sammlung von SVG-Dateien. Eine je Hauptebene"
 
 #: ../share/extensions/tar_layers.inx.h:2
 msgid "Layers as Separate SVG (*.tar)"
@@ -38617,7 +38655,7 @@ msgid ""
 "Each layer split into it's own svg file and collected as a tape archive (tar "
 "file)"
 msgstr ""
-"Jede Ebene wird in einer eigenen SVG Datei gespeichert und die Dateien in "
+"Jede Ebene wird in einer eigenen SVG-Datei gespeichert und die Dateien in "
 "einerm TAR-Archiv zusammengefasst"
 
 #: ../share/extensions/text_braille.inx.h:1
@@ -38973,12 +39011,12 @@ msgstr "Layoutgruppe festlegen"
 #: ../share/extensions/webslicer_create_group.inx.h:3
 #: ../share/extensions/webslicer_create_rect.inx.h:18
 msgid "HTML id attribute:"
-msgstr "HTML id Attribut:"
+msgstr "HTML-ID-Attribut:"
 
 #: ../share/extensions/webslicer_create_group.inx.h:4
 #: ../share/extensions/webslicer_create_rect.inx.h:19
 msgid "HTML class attribute:"
-msgstr "HTML Klassen Attribut:"
+msgstr "HTML-Klassen-Attribut:"
 
 #: ../share/extensions/webslicer_create_group.inx.h:5
 msgid "Width unit:"
@@ -39078,7 +39116,7 @@ msgstr "Layout-Anordnung:"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:22
 msgid "Positioned html block element with the image as Background"
-msgstr "Positioniert html Block-Elemente mit dem Bild als Hintergrund"
+msgstr "Positioniertes HTML-Block-Element mit dem Bild als Hintergrund"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:23
 msgid "Tiled Background (on parent group)"
@@ -39257,108 +39295,8 @@ msgstr "XAML einlesen"
 #~ msgid "Help (Options)"
 #~ msgstr "Hilfe (Optionen)"
 
-#~ msgid ""
-#~ "This extension optimizes the SVG file according to the following "
-#~ "options:\n"
-#~ "    * Shorten color names: convert all colors to #RRGGBB or #RGB format.\n"
-#~ "    * Convert CSS attributes to XML attributes: convert styles from style "
-#~ "tags and inline style=\"\" declarations into XML attributes.\n"
-#~ "    * Group collapsing: removes useless g elements, promoting their "
-#~ "contents up one level. Requires \"Remove unused ID names for elements\" "
-#~ "to be set.\n"
-#~ "    * Create groups for similar attributes: create g elements for runs of "
-#~ "elements having at least one attribute in common (e.g. fill color, stroke "
-#~ "opacity, ...).\n"
-#~ "    * Embed rasters: embed raster images as base64-encoded data URLs.\n"
-#~ "    * Keep editor data: don't remove Inkscape, Sodipodi or Adobe "
-#~ "Illustrator elements and attributes.\n"
-#~ "    * Remove metadata: remove metadata tags along with all the "
-#~ "information in them, which may include license metadata, alternate "
-#~ "versions for non-SVG-enabled browsers, etc.\n"
-#~ "    * Remove comments: remove comment tags.\n"
-#~ "    * Work around renderer bugs: emits slightly larger SVG data, but "
-#~ "works around a bug in librsvg's renderer, which is used in Eye of GNOME "
-#~ "and other various applications.\n"
-#~ "    * Enable viewboxing: size image to 100%/100% and introduce a "
-#~ "viewBox.\n"
-#~ "    * Number of significant digits for coords: all coordinates are output "
-#~ "with that number of significant digits. For example, if 3 is specified, "
-#~ "the coordinate 3.5153 is output as 3.51 and the coordinate 471.55 is "
-#~ "output as 472.\n"
-#~ "    * XML indentation (pretty-printing): either None for no indentation, "
-#~ "Space to use one space per nesting level, or Tab to use one tab per "
-#~ "nesting level."
-#~ msgstr ""
-#~ "Diese Erweiterung optimiert die SVG-Datei mit folgenden Optionen:\n"
-#~ "     * Kürzen der Farbnamen: Konvertiert alle Farben in #RRGGBB oder #RGB-"
-#~ "Format.\n"
-#~ "     * Konvertieren von CSS-Attributen zu XML-Attributen: Konvertiert "
-#~ "Stile aus »style«-Tags und Inline-Deklarationen (style=\"\") zu XML-"
-#~ "Attributen.\n"
-#~ "     * Gruppen zusammenklappen: Entfernt überflüssige »g«-Elemente, hebt "
-#~ "ihre Inhalte eine Ebene nach oben an. »Unbenutzte ID-Namen für Elemente "
-#~ "löschen« muss gesetzt sein.\n"
-#~ "     * Erstellen von Gruppen für ähnliche Attribute: Erstellt »g«-"
-#~ "Elemente für Elemente mit mindestens einem gemeinsamen Attribut (z.B. "
-#~ "Füllfarbe, Kontur-Deckkraft, ...).\n"
-#~ "     * Rasterbilder einbetten: Bettet Rasterbilder als base64-kodierte "
-#~ "Daten-URLs ein.\n"
-#~ "     * Editor-Daten erhalten: Inkscape-, Sodipodi- oder Adobe-Illustrator-"
-#~ "Elemente und -Attribute werden nicht gelöscht.\n"
-#~ "     * Metadaten entfernen: Entfernt »metadata«-Tags zusammen mit allen "
-#~ "Informationen, inklusive aller Lizenz-Metadaten, alternative Versionen "
-#~ "für Nicht-SVG-fähige Browser usw.\n"
-#~ "     * Kommentare entfernen: »comment«-Tags entfernen.\n"
-#~ "     * Renderer-Bugs umgehen: erstellt etwas umfangreichere SVG-Daten, "
-#~ "aber umgeht einen Fehler im librsvg-Renderer, der in »Eye of GNOME« und "
-#~ "anderen Anwendungen verwendet wird.\n"
-#~ "     * Viewbox aktivieren: skaliert das Bild auf 100%/100% und fügt eine "
-#~ "»viewBox« hinzu.\n"
-#~ "     * Anzahl der signifikanten Ziffern für Koordinaten: alle Koordinaten "
-#~ "werden mit der angegebenen Anzahl an signifikanten Ziffern ausgegeben. "
-#~ "Wenn z.B. 3 angegeben wird, wird die Koordinate 3.5153 als 3.51 "
-#~ "ausgegeben und die Koordinate 471.55 als 472.\n"
-#~ "     * XML-Einrückung (Quelltextfomatierung): Wählen Sie entweder »Keine« "
-#~ "für keine Einrückung, »Leerzeichen«, um ein Lehrzeichen pro "
-#~ "Einrückungsebene oder »Tab« für ein Tabulatorzeichen pro Einrückungsebene."
-
 #~ msgid "Help (Ids)"
 #~ msgstr "Hilfe (IDs)"
-
-#~ msgid ""
-#~ "Ids specific options:\n"
-#~ "    * Remove unused ID names for elements: remove all unreferenced ID "
-#~ "attributes.\n"
-#~ "    * Shorten IDs: reduce the length of all ID attributes, assigning the "
-#~ "shortest to the most-referenced elements. For instance, "
-#~ "#linearGradient5621, referenced 100 times, can become #a.\n"
-#~ "    * Preserve manually created ID names not ending with digits: usually, "
-#~ "optimised SVG output removes these, but if they're needed for referencing "
-#~ "(e.g. #middledot), you may use this option.\n"
-#~ "    * Preserve these ID names, comma-separated: you can use this in "
-#~ "conjunction with the other preserve options if you wish to preserve some "
-#~ "more specific ID names.\n"
-#~ "    * Preserve ID names starting with: usually, optimised SVG output "
-#~ "removes all unused ID names, but if all of your preserved ID names start "
-#~ "with the same prefix (e.g. #flag-mx, #flag-pt), you may use this option."
-#~ msgstr ""
-#~ "ID spezifische Optionen:\n"
-#~ "     * Nicht verwendete ID-Namen für Elemente entfernen: Entfernt alle "
-#~ "nicht referenzierten ID-Attribute.\n"
-#~ "     * IDs kürzen: Reduziert die Länge aller ID-Attribute, wobei die "
-#~ "kürzesten den meistverwendeten Elementen zugewiesen werden. Zum Beispiel "
-#~ "könnte ein 100mal referenzierter »#linearGradient5621« zu »#a« werden.\n"
-#~ "     * Manuell erstellte ID-Namen, die nicht auf Ziffern enden, erhalten: "
-#~ "In der Regel entfernt die optimierte SVG-Ausgabe diese, aber wenn sie für "
-#~ "eine Referenzierung (z.B. #middledot) notwendig sind, können Sie diese "
-#~ "Option verwenden.\n"
-#~ "     * Folgende ID-Namen erhalten (Komma getrennte Liste): Verwenden Sie "
-#~ "dies in Verbindung mit den anderen Erhaltungs-Optionen, wenn Sie einige "
-#~ "bestimmte ID-Namen beibehalten wollen.\n"
-#~ "     * ID-Namen, die wie folgt anfangen, erhalten: In der Regel entfernt "
-#~ "die optimierte SVG-Ausgabe alle nicht verwendeten ID-Namen, aber wenn "
-#~ "alle ID-Namen, die Sie erhalten möchten, mit dem gleichen Präfix (z.B. "
-#~ "#flag-mx, #flag-pt) beginnen, können Sie diese Option verwenden."
 
 # CHECK
 #~ msgctxt "Flow control"
@@ -41618,44 +41556,8 @@ msgstr "XAML einlesen"
 #~ msgid "Set precision"
 #~ msgstr "Genauigkeit"
 
-#~ msgid "Strip xml prolog"
-#~ msgstr "Herauslösen des XML Prologes"
-
 #~ msgid "Style to xml"
 #~ msgstr "Stil nach XML"
-
-#~ msgid ""
-#~ "This extension optimizes the SVG file according to the following "
-#~ "options:\n"
-#~ "    * Simplify colors: convert all colors to #RRGGBB format.\n"
-#~ "    * Style to xml: convert styles into XML attributes.\n"
-#~ "    * Group collapsing: collapse group elements.\n"
-#~ "    * Enable id stripping: remove all un-referenced ID attributes.\n"
-#~ "    * Embed rasters: embed rasters as base64-encoded data.\n"
-#~ "    * Keep editor data: don't remove Inkscape, Sodipodi or Adobe "
-#~ "Illustrator elements and attributes.\n"
-#~ "    * Enable viewboxing: size image to 100%/100% and introduce a "
-#~ "viewBox.\n"
-#~ "    * Strip xml prolog: don't output the xml prolog.\n"
-#~ "    * Set precision: set number of significant digits (default: 5).\n"
-#~ "    * Indent: indentation of the output: none, space, tab (default: "
-#~ "space)."
-#~ msgstr ""
-#~ "Diese Erweiterung optimiert die SVG-Datei gemäß nachfolgender Optionen: \n"
-#~ "    * Farben vereinfachen: Konvertiert alle Farben in das #RRGGBB "
-#~ "Format.\n"
-#~ "    * Stil nach XML: Konvertiert Stile in XML-Attribute.\n"
-#~ "    * Guppen zusammenklappen: Klappt &lt;g&gt; Elemente zusammen.\n"
-#~ "    * ID-Herauslösen einschalten: Löscht alle nicht verweisenden ID-"
-#~ "Attribute.\n"
-#~ "    * Raster einbetten: Bettet Raster als base64-encoded Data ein.\n"
-#~ "    * Behalten der Editor-Daten: Behalten von Inkscape-, Sodipodi- oder "
-#~ "Adobe Illustrator-Elementen und Attribute.\n"
-#~ "    * Vorschau einschalten: Setzt Bildgröße auf 100%/100% und fügt eine "
-#~ "Vorschau ein.\n"
-#~ "    * Herauslösen des XML Prologes: Es wird kein XML-Prolog ausgegeben.\n"
-#~ "    * Genauigkeit: Anzahl der maßgeblichen Stellen setzen (Vorgabe: 5).\n"
-#~ "    * Einzug: Einrücken der Ausgabe: Kein, Space, Tab (Vorgabe: Space)."
 
 #~ msgid "Y frequency:"
 #~ msgstr "Basisfrequenz:"
@@ -42110,25 +42012,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "PLACEHOLDER, do not translate"
 #~ msgstr "PLACEHOLDER, do not translate"
-
-#~ msgid ""
-#~ "<b>Welcome to Inkscape!</b> Use shape or drawing tools to create objects; "
-#~ "use selector (arrow) to move or transform them."
-#~ msgstr ""
-#~ "<b>Willkommen bei Inkscape!</b> Nutzen Sie Formen- und Zeichenwerkzeuge, "
-#~ "um Objekte zu erstellen; das Auswahlwerkzeug (Pfeil) verschiebt und "
-#~ "bearbeitet sie."
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">The file \"%s\" was saved with a "
-#~ "format (%s) that may cause data loss!</span>\n"
-#~ "\n"
-#~ "Do you want to save this file as an Inkscape SVG?"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Das Dokument \"%s\" wurde in einem "
-#~ "möglicherweise verlustbehafteten Format (%s) gespeichert!</span>\n"
-#~ "\n"
-#~ "Möchten Sie das Dokument als ein Inkscape SVG speichern?"
 
 #~ msgid "Opacity, %"
 #~ msgstr "Deckkraft, %:"
