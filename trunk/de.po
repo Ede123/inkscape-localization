@@ -63,9 +63,8 @@ msgid ""
 msgstr ""
 
 #: ../inkscape.appdata.xml.in.h:5
-#, fuzzy
 msgid "Main application window"
-msgstr "Fenster d_uplizieren"
+msgstr "Hauptfenster"
 
 #: ../inkscape.desktop.in.h:3
 msgid "Inkscape Vector Graphics Editor"
@@ -77,7 +76,7 @@ msgstr "Skalierbare Vektorgrafiken erstellen und bearbeiten"
 
 #: ../inkscape.desktop.in.h:5
 msgid "image;editor;vector;drawing;"
-msgstr ""
+msgstr "image;editor;vector;drawing;"
 
 #: ../inkscape.desktop.in.h:6
 msgid "New Drawing"
@@ -85,7 +84,7 @@ msgstr "Neue Zeichnung"
 
 #: ../share/filters/filters.svg.h:2
 msgid "Smart Jelly"
-msgstr "schmuckes Gelee"
+msgstr "Schmuckes Gelee"
 
 #: ../share/filters/filters.svg.h:3 ../share/filters/filters.svg.h:7
 #: ../share/filters/filters.svg.h:15 ../share/filters/filters.svg.h:31
@@ -9621,9 +9620,8 @@ msgstr ""
 
 #: ../src/live_effects/lpe-bendpath.cpp:181
 #: ../src/live_effects/lpe-patternalongpath.cpp:278
-#, fuzzy
 msgid "Change the width"
-msgstr "Breite der Kontur ändern"
+msgstr "Breite ändern"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:24
 #: ../src/live_effects/lpe-clone-original.cpp:18
@@ -10251,6 +10249,7 @@ msgstr "Bewegungen vertikal spiegeln"
 #: ../src/live_effects/lpe-lattice2.cpp:49
 msgid "Update while moving knots (maybe slow)"
 msgstr ""
+"Während dem verschieben von Knoten aktualisieren (möglicherweise langsam)"
 
 #: ../src/live_effects/lpe-lattice2.cpp:50
 msgid "Control 0:"
@@ -11014,9 +11013,8 @@ msgid "Spray Tool friendly"
 msgstr "Optimiert für Sprühwerkzeug"
 
 #: ../src/live_effects/lpe-roughen.cpp:67
-#, fuzzy
 msgid "For use with spray tool in copy mode"
-msgstr "Für die Verwendung in Kombination mit dem Sprühwerkzeug"
+msgstr "Für die Verwendung mit dem Sprühwerkzeug im Kopiermodus"
 
 #: ../src/live_effects/lpe-roughen.cpp:123
 msgid "<b>Add nodes</b> Subdivide each segment"
@@ -11408,89 +11406,72 @@ msgid "End point of the taper"
 msgstr "Endpunkt der Verjüngung"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:31
-#, fuzzy
 msgid "Elastic"
-msgstr "Knetmasse"
+msgstr "Elastisch"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:31
-#, fuzzy
 msgid "Elastic transform mode"
-msgstr "Objekte auswählen und verändern"
+msgstr "Elastischer Transformationsmodus"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:32
-#, fuzzy
 msgid "From original width"
-msgstr "Originalpfad klonen"
+msgstr "Ursprüngliche Breite"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:33
-#, fuzzy
 msgid "Lock length"
-msgstr "Ebene sperren"
+msgstr "Länge sperren"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:33
-#, fuzzy
 msgid "Lock length to current distance"
-msgstr "Sperren oder Entsperren der aktuellen Ebene"
+msgstr "Behält die aktuelle Länge bei"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:34
 msgid "Lock angle"
 msgstr "Winkel sperren"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:35
-#, fuzzy
 msgid "Flip horizontal"
-msgstr "Horizontal umkehren"
+msgstr "Horizontal spiegeln"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:36
-#, fuzzy
 msgid "Flip vertical"
-msgstr "Vertikal umkehren"
+msgstr "Vertikal spiegeln"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:37
-#, fuzzy
 msgid "Start point"
-msgstr "Punkte sortieren"
+msgstr "Anfangspunkt"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:38
-#, fuzzy
 msgid "End point"
-msgstr "Pfadende:"
+msgstr "Endpunkt"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:39
-#, fuzzy
 msgid "Stretch"
-msgstr "Stärke"
+msgstr "Strecken"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:39
-#, fuzzy
 msgid "Stretch the result"
-msgstr "Filter-Auflösung setzen"
+msgstr "Streckt den resultierenden Pfad"
 
-# !!! verb or noun?
 #: ../src/live_effects/lpe-transform_2pts.cpp:40
-#, fuzzy
 msgid "Offset from knots"
-msgstr "Versatzpunkte"
+msgstr "Verschiebung relativ zu den Knoten"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:41
-#, fuzzy
 msgid "First Knot"
-msgstr "Erste Hilfe"
+msgstr "Erster Knoten"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:42
-#, fuzzy
 msgid "Last Knot"
-msgstr "Knoten"
+msgstr "Letzter Knoten"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:43
-#, fuzzy
 msgid "Rotation helper size"
-msgstr "Drehpunkte"
+msgstr "Größe des Helfers für Rotation"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:197
-#, fuzzy
 msgid "Change index of knot"
-msgstr "Knotentyp ändern"
+msgstr "Knotenindex ändern"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:350
 #: ../src/ui/dialog/inkscape-preferences.cpp:1612
@@ -11685,9 +11666,8 @@ msgid "Change text parameter"
 msgstr "Textparameter ändern"
 
 #: ../src/live_effects/parameter/togglebutton.cpp:112
-#, fuzzy
 msgid "Change togglebutton parameter"
-msgstr "Textparameter ändern"
+msgstr "Parameter für Schaltfläche ändern"
 
 #: ../src/live_effects/parameter/transformedpoint.cpp:98
 #: ../src/live_effects/parameter/vector.cpp:99
@@ -14416,13 +14396,12 @@ msgid "Initial color of tiled clones"
 msgstr "Ursprüngliche Farbe der gekachelten Klone"
 
 #: ../src/ui/dialog/clonetiler.cpp:665
-#, fuzzy
 msgid ""
 "Initial color for clones (works only if the original has unset fill or "
 "stroke or on spray tool in copy mode)"
 msgstr ""
-"Ursprüngliche Farbe der Klone (Füllung oder Kontur des Originals dürfen "
-"nicht gesetzt sein )"
+"Ursprüngliche Farbe der Klone (Füllung und Konturfarbe des Originals dürfen "
+"nicht gesetzt sein; Ausnahme: Sprühwerkzeug im Kopiermodus)"
 
 #: ../src/ui/dialog/clonetiler.cpp:680
 msgid "<b>H:</b>"
@@ -14487,18 +14466,16 @@ msgid "_Trace"
 msgstr "_Nachzeichnen"
 
 #: ../src/ui/dialog/clonetiler.cpp:788
-#, fuzzy
 msgid "Trace the drawing under the clones/sprayed items"
-msgstr "Zeichnung unter den Kacheln nachzeichnen"
+msgstr "Zeichnung unter den Klonen / gesprühten Objekten abpausen"
 
 #: ../src/ui/dialog/clonetiler.cpp:792
-#, fuzzy
 msgid ""
 "For each clone/sprayed item, pick a value from the drawing in its location "
 "and apply it"
 msgstr ""
-"Für jeden Klon den entsprechenden Wert an dessen Stelle aus der Zeichnung "
-"anwenden"
+"Für jeden Klon / jedes gesprühte Objekt den Wert an dessen Stelle aus der "
+"Zeichnung übernehnmen"
 
 #: ../src/ui/dialog/clonetiler.cpp:811
 msgid "1. Pick from the drawing:"
@@ -14631,9 +14608,8 @@ msgstr ""
 "Die Deckkraft jedes Klons wird durch den Wert an dieser Stelle bestimmt"
 
 #: ../src/ui/dialog/clonetiler.cpp:1011
-#, fuzzy
 msgid "Apply to tiled clones:"
-msgstr "Gekachelte Klone löschen"
+msgstr "Auf gekachelte Klone anwenden:"
 
 #: ../src/ui/dialog/clonetiler.cpp:1052
 msgid "How many rows in the tiling"
@@ -14869,15 +14845,16 @@ msgid "If unset, no antialiasing will be done on the drawing"
 msgstr "Wenn abgewählt, erfolgt keine Kantenglättung"
 
 #: ../src/ui/dialog/document-properties.cpp:119
-#, fuzzy
 msgid "Checkerboard background"
-msgstr "Hintergrund entfernen"
+msgstr "Schachbrettmuster als Hintergrund"
 
 #: ../src/ui/dialog/document-properties.cpp:119
 msgid ""
 "If set, use checkerboard for background, otherwise use background color at "
 "full opacity."
 msgstr ""
+"Wenn aktiviert wird ein Schachbrettmuster als Hintergrund verwendet, "
+"andernfalls die Hintergrundfarbe mit voller Deckkraft."
 
 #: ../src/ui/dialog/document-properties.cpp:120
 msgid "Show page _border"
@@ -14910,14 +14887,14 @@ msgid "Back_ground color:"
 msgstr "Hintergrundfarbe:"
 
 #: ../src/ui/dialog/document-properties.cpp:123
-#, fuzzy
 msgid ""
 "Color of the page background. Note: transparency setting ignored while "
 "editing if 'Checkerboard background' unset (but used when exporting to "
 "bitmap)."
 msgstr ""
 "Farbe des Seitenhintergrunds. Hinweis: Transparenzeinstellung wird während "
-"der Bearbeitung ignoriert, aber für den Bitmap-Export genutzt"
+"der Bearbeitung ignoriert wenn 'Schachbrettmuster als Hintergrund' "
+"deaktiviert ist (wird für den Bitmap-Export jedoch immer benutzt)"
 
 #: ../src/ui/dialog/document-properties.cpp:124
 msgid "Border _color:"
@@ -15127,32 +15104,26 @@ msgstr "Einrasten"
 msgid "Scripting"
 msgstr "Skripte"
 
-# !!!
 #: ../src/ui/dialog/document-properties.cpp:330
 msgid "<b>General</b>"
 msgstr "<b>Allgemein</b>"
 
-# !!!
 #: ../src/ui/dialog/document-properties.cpp:333
 msgid "<b>Page Size</b>"
 msgstr "<b>Seitengröße</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:336
-#, fuzzy
 msgid "<b>Background</b>"
-msgstr "Hintergrund"
+msgstr "<b>Hintergrund</b>"
 
-# !!!
 #: ../src/ui/dialog/document-properties.cpp:339
 msgid "<b>Border</b>"
 msgstr "<b>Rand</b>"
 
-# !!!
 #: ../src/ui/dialog/document-properties.cpp:342
 msgid "<b>Display</b>"
 msgstr "<b>Anzeige</b>"
 
-# !!!
 #: ../src/ui/dialog/document-properties.cpp:381
 msgid "<b>Guides</b>"
 msgstr "<b>Hilfslinien</b>"
@@ -17604,13 +17575,12 @@ msgid "_Set spacing:"
 msgstr "Abstand setzen:"
 
 #: ../src/ui/dialog/guides.cpp:47
-#, fuzzy
 msgid "Lo_cked"
-msgstr "Gesperrt"
+msgstr "_Gesperrt"
 
 #: ../src/ui/dialog/guides.cpp:47
 msgid "Lock the movement of guides"
-msgstr ""
+msgstr "Hilfslinie fixieren"
 
 #: ../src/ui/dialog/guides.cpp:48
 msgid "Rela_tive change"
@@ -17623,12 +17593,12 @@ msgstr "Hilfslinien relativ zur aktuellen Position verschieben/drehen"
 #: ../src/ui/dialog/guides.cpp:49
 msgctxt "Guides"
 msgid "_X:"
-msgstr "_X: [Hilfslinien]"
+msgstr "_X:"
 
 #: ../src/ui/dialog/guides.cpp:50
 msgctxt "Guides"
 msgid "_Y:"
-msgstr "_Y: [Hilfslinien]"
+msgstr "_Y:"
 
 #: ../src/ui/dialog/guides.cpp:51 ../src/ui/dialog/object-properties.cpp:59
 msgid "_Label:"
@@ -18041,11 +18011,11 @@ msgstr "Zoomfaktor"
 #: ../src/ui/dialog/inkscape-preferences.cpp:390 ../src/verbs.cpp:2762
 msgctxt "ContextVerb"
 msgid "Measure"
-msgstr "Ausmessen"
+msgstr "Messen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:392
 msgid "Ignore first and last points"
-msgstr "Ersten und letzen Punkt ignorieren"
+msgstr "Anfangs- und Endpunkt ignorieren"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:393
 msgid ""
@@ -20821,17 +20791,14 @@ msgid "None"
 msgstr "Keine"
 
 #: ../src/ui/dialog/knot-properties.cpp:59
-#, fuzzy
 msgid "Position X:"
-msgstr "Position:"
+msgstr "X-Position:"
 
 #: ../src/ui/dialog/knot-properties.cpp:66
-#, fuzzy
 msgid "Position Y:"
-msgstr "Position:"
+msgstr "Y-Position:"
 
 #: ../src/ui/dialog/knot-properties.cpp:120
-#, fuzzy
 msgid "Modify Knot Position"
 msgstr "Knotenposition anpassen"
 
@@ -20843,14 +20810,14 @@ msgid "_Move"
 msgstr "_Verschieben"
 
 #: ../src/ui/dialog/knot-properties.cpp:180
-#, fuzzy, c-format
+#, c-format
 msgid "Position X (%s):"
-msgstr "Position (%):"
+msgstr "X-Position (%s):"
 
 #: ../src/ui/dialog/knot-properties.cpp:181
-#, fuzzy, c-format
+#, c-format
 msgid "Position Y (%s):"
-msgstr "Position (%):"
+msgstr "Y-Position (%s):"
 
 #: ../src/ui/dialog/layer-properties.cpp:55
 msgid "Layer name:"
@@ -22166,11 +22133,11 @@ msgstr "Ausrichten - Nur Fließtext"
 #. Direction buttons
 #: ../src/ui/dialog/text-edit.cpp:109 ../src/widgets/text-toolbar.cpp:1492
 msgid "Horizontal text"
-msgstr "Horizontale Textausrichtung"
+msgstr "Horizontaler Text"
 
 #: ../src/ui/dialog/text-edit.cpp:110
 msgid "Vertical text"
-msgstr "Vertikale Textausrichtung"
+msgstr "Vertikaler Text"
 
 #: ../src/ui/dialog/text-edit.cpp:130 ../src/ui/dialog/text-edit.cpp:131
 msgid "Spacing between lines (percent of font size)"
@@ -23089,10 +23056,10 @@ msgid "Drag curve"
 msgstr "Kurve ziehen"
 
 #: ../src/ui/tool/curve-drag-point.cpp:192
-#, fuzzy
 msgctxt "Path segment tip"
 msgid "<b>Shift</b>: drag to open or move BSpline handles"
-msgstr "Knotenanfasser verschieben"
+msgstr ""
+"<b>Umschalt</b>: Ziehen um B-Spline-Anfasser zu öffnen oder zu verschieben"
 
 #: ../src/ui/tool/curve-drag-point.cpp:196
 msgctxt "Path segment tip"
@@ -23105,14 +23072,13 @@ msgid "<b>Ctrl+Alt</b>: click to insert a node"
 msgstr "<b>Strg+Alt</b>: Klicken, um einen Knoten einzufügen"
 
 #: ../src/ui/tool/curve-drag-point.cpp:204
-#, fuzzy
 msgctxt "Path segment tip"
 msgid ""
 "<b>BSpline segment</b>: drag to shape the segment, doubleclick to insert "
 "node, click to select (more: Shift, Ctrl+Alt)"
 msgstr ""
 "<b>B-Spline Segment</b>: Ziehen, um das Segment zu formen, Doppelklick zum "
-"Einfügen eines Knotens oder Klicken zum Auswählen (mehr: Umschalt, Strg+Alt)"
+"Einfügen eines Knotens, Klicken zum Auswählen (mehr: Umschalt, Strg+Alt)"
 
 #: ../src/ui/tool/curve-drag-point.cpp:209
 msgctxt "Path segment tip"
@@ -23243,10 +23209,9 @@ msgid "more: Shift, Ctrl, Alt"
 msgstr "mehr: Umschalt, Strg, Alt"
 
 #: ../src/ui/tool/node.cpp:496
-#, fuzzy
 msgctxt "Path handle tip"
 msgid "more: Ctrl"
-msgstr "more: Strg, Alt"
+msgstr "more: Strg"
 
 #: ../src/ui/tool/node.cpp:498
 msgctxt "Path handle tip"
@@ -23295,6 +23260,8 @@ msgstr ""
 msgctxt "Path handle tip"
 msgid "<b>Ctrl</b>: Move handle by his actual steps in BSpline Live Effect"
 msgstr ""
+"<b>Strg</b>: Anfasser um derzeit im Pfadeffekt festgelegte Schritte "
+"verschieben"
 
 #: ../src/ui/tool/node.cpp:532
 #, c-format
@@ -23310,10 +23277,9 @@ msgid "<b>Shift</b>: rotate both handles by the same angle"
 msgstr "<b>Umschalt</b>: Dreht beide Anfasser um den gleichen Winkel"
 
 #: ../src/ui/tool/node.cpp:540
-#, fuzzy
 msgctxt "Path hande tip"
 msgid "<b>Shift</b>: move handle"
-msgstr "Knotenanfasser verschieben"
+msgstr "<b>Umschalt</b>: Anfasser verschieben"
 
 #: ../src/ui/tool/node.cpp:547 ../src/ui/tool/node.cpp:551
 #, c-format
@@ -23324,14 +23290,14 @@ msgstr ""
 "konvertieren (%s)"
 
 #: ../src/ui/tool/node.cpp:554
-#, fuzzy, c-format
+#, c-format
 msgctxt "Path handle tip"
 msgid ""
 "<b>BSpline node handle</b>: Shift to drag, double click to reset (%s). %g "
 "power"
 msgstr ""
-"<b>Automatischer Knoten-Anfasser</b>: Ziehen, um in einen weichen Knoten zu "
-"konvertieren (%s)"
+"<b>B-Spline Knoten-Anfasser</b>: Umschalt zum verschieben, Doppelklick zum "
+"zurücksetzen (%s). Exponent %g"
 
 #: ../src/ui/tool/node.cpp:574
 #, c-format
@@ -23376,12 +23342,14 @@ msgid "<b>%s</b>: drag to shape the path (more: Shift, Ctrl, Alt)"
 msgstr "<b>%s</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, Strg, Alt)"
 
 #: ../src/ui/tool/node.cpp:1451
-#, fuzzy, c-format
+#, c-format
 msgctxt "Path node tip"
 msgid ""
 "<b>BSpline node</b>: drag to shape the path (more: Shift, Ctrl, Alt). %g "
 "power"
-msgstr "<b>%s</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, Strg, Alt)"
+msgstr ""
+"<b>BSpline Knoten</b>: Ziehen, um den Pfad zu formen (mehr: Umschalt, Strg, "
+"Alt). %g "
 
 #: ../src/ui/tool/node.cpp:1454
 #, c-format
@@ -23404,14 +23372,14 @@ msgstr ""
 "auszuwählen (mehr: Umschalt, Strg, Alt)"
 
 #: ../src/ui/tool/node.cpp:1461
-#, fuzzy, c-format
+#, c-format
 msgctxt "Path node tip"
 msgid ""
 "<b>BSpline node</b>: drag to shape the path, click to select only this node "
 "(more: Shift, Ctrl, Alt). %g power"
 msgstr ""
-"<b>%s</b>: Ziehen, um den Pfad zu formen, Klicken, um nur diesen Knoten "
-"auszuwählen (mehr: Umschalt, Strg, Alt)"
+"<b>B-Spline Knoten</b>: Ziehen, um den Pfad zu formen, Klicken, um nur "
+"diesen Knoten auszuwählen (mehr: Umschalt, Strg, Alt). Exponent %g"
 
 #: ../src/ui/tool/node.cpp:1474
 #, c-format
@@ -24078,41 +24046,42 @@ msgstr "Ein Konstruktionswerkzeug von der Werkzeugleiste wählen."
 #. create the knots
 #: ../src/ui/tools/measure-tool.cpp:349
 msgid "Measure start, <b>Shift+Click</b> for position dialog"
-msgstr ""
+msgstr "Erster Messpunkt, <b>Umschalt+Klick</b> für Positionsdialog"
 
 #: ../src/ui/tools/measure-tool.cpp:355
 msgid "Measure end, <b>Shift+Click</b> for position dialog"
-msgstr ""
+msgstr "Zweiter Messpunkt, <b>Umschalt+Klick</b> für Positionsdialog"
 
+# Is this meant to be translatable?
 #: ../src/ui/tools/measure-tool.cpp:747 ../share/extensions/measure.inx.h:2
 msgid "Measure"
-msgstr "Ausmessen"
+msgstr "Maßstab"
 
 #: ../src/ui/tools/measure-tool.cpp:752
 msgid "Base"
-msgstr ""
+msgstr "Basis"
 
 #: ../src/ui/tools/measure-tool.cpp:761
 msgid "Add guides from measure tool"
-msgstr ""
+msgstr "Hilflinien aus Messwerkzeug hinzufügen"
 
+# Entry in edit history, but what is "Stored" (where) and can it actually be undone?
 #: ../src/ui/tools/measure-tool.cpp:781
 msgid "Add Stored to measure tool"
 msgstr ""
 
 #: ../src/ui/tools/measure-tool.cpp:801
-#, fuzzy
 msgid "Convert measure to items"
-msgstr "Kontur in Pfad umwandeln"
+msgstr "Maßstab in Objekte umwandeln"
 
 #: ../src/ui/tools/measure-tool.cpp:839
 msgid "Add global measure line"
-msgstr ""
+msgstr "Maßlinie erstellen"
 
 #: ../src/ui/tools/measure-tool.cpp:1291 ../src/ui/tools/measure-tool.cpp:1293
-#, fuzzy, c-format
+#, c-format
 msgid "Crossing %u"
-msgstr "Kreuzungsmarkierungen"
+msgstr "Schnittpunkt %u"
 
 #. TRANSLATORS: Mind the space in front. This is part of a compound message
 #: ../src/ui/tools/mesh-tool.cpp:122 ../src/ui/tools/mesh-tool.cpp:133
@@ -24176,9 +24145,8 @@ msgid "FIXME<b>Shift</b>: draw mesh around the starting point"
 msgstr "FIXME<b>Umschalt</b>: Gitter um den Startpunkt zeichnen"
 
 #: ../src/ui/tools/mesh-tool.cpp:971
-#, fuzzy
 msgid "Create mesh"
-msgstr "Standardgitter erstellen"
+msgstr "Verlaufsgitter erstellen"
 
 #: ../src/ui/tools/node-tool.cpp:653
 msgctxt "Node tool tip"
@@ -24260,11 +24228,12 @@ msgid "<b>Click</b> or <b>click and drag</b> to close and finish the path."
 msgstr "<b>Klick</b> oder <b>Klick und Ziehen</b>, um den Pfad abzuschließen."
 
 #: ../src/ui/tools/pen-tool.cpp:642
-#, fuzzy
 msgid ""
 "<b>Click</b> or <b>click and drag</b> to close and finish the path. Shift"
 "+Click make a cusp node"
-msgstr "<b>Klick</b> oder <b>Klick und Ziehen</b>, um den Pfad abzuschließen."
+msgstr ""
+"<b>Klick</b> oder <b>Klick und Ziehen</b>, um den Pfad abzuschließen. "
+"Umschalt+Klick um spitzen Knoten zu erzeugen"
 
 #: ../src/ui/tools/pen-tool.cpp:654
 msgid ""
@@ -24274,13 +24243,12 @@ msgstr ""
 "fortzusetzen."
 
 #: ../src/ui/tools/pen-tool.cpp:656
-#, fuzzy
 msgid ""
 "<b>Click</b> or <b>click and drag</b> to continue the path from this point. "
 "Shift+Click make a cusp node"
 msgstr ""
 "<b>Klick</b> oder <b>Klick und Ziehen</b>, um den Pfad von diesem Punkt aus "
-"fortzusetzen."
+"fortzusetzen. Umschalt+Klick um spitzen Knoten zu erzeugen"
 
 #: ../src/ui/tools/pen-tool.cpp:1786
 #, c-format
@@ -24301,22 +24269,22 @@ msgstr ""
 "Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
 
 #: ../src/ui/tools/pen-tool.cpp:1790
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>Curve segment</b>: angle %3.2f&#176;, distance %s; with <b>Shift+Click</"
 "b> make a cusp node, <b>Enter</b> to finish the path"
 msgstr ""
-"<b>Kurvensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Strg</b> rastet den "
-"Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
+"<b>Kurvensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Umschalt+Klick</b> "
+"erzeugt spitzen Winkel; <b>Eingabe</b> schließt den Pfad ab"
 
 #: ../src/ui/tools/pen-tool.cpp:1791
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>Line segment</b>: angle %3.2f&#176;, distance %s; with <b>Shift+Click</b> "
 "make a cusp node, <b>Enter</b> to finish the path"
 msgstr ""
-"<b>Liniensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Strg</b> rastet den "
-"Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
+"<b>Liniensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Umschalt+Klick</b> "
+"erzeugt spitzen Winkel; <b>Eingabe</b> schließt den Pfad ab"
 
 #: ../src/ui/tools/pen-tool.cpp:1808
 #, c-format
@@ -26223,14 +26191,13 @@ msgid "Flip vertically"
 msgstr "Vertikal umkehren"
 
 #: ../src/verbs.cpp:1591
-#, fuzzy, c-format
+#, c-format
 msgid "Set %d"
-msgstr "Verzögerung setzen"
+msgstr "Gruppe %d"
 
 #: ../src/verbs.cpp:1600 ../src/verbs.cpp:2728
-#, fuzzy
 msgid "Create new selection set"
-msgstr "Neuen Elementknoten erzeugen"
+msgstr "Neue Auswahlgruppe erzeugen"
 
 #. TRANSLATORS: If you have translated the tutorial-basic.en.svgz file to your language,
 #. then translate this string as "tutorial-basic.LANG.svgz" (where LANG is your language
@@ -26798,16 +26765,13 @@ msgstr "Jede Auswahl von Objekten oder Knoten aufheben"
 msgid "Delete all the guides in the document"
 msgstr "Alle Hilfslinien aus dem Dokument löschen"
 
-# !!! mnemonics
 #: ../src/verbs.cpp:2547
-#, fuzzy
 msgid "Lock All Guides"
-msgstr "Alle sperren"
+msgstr "Alle Hilfslinien sperren"
 
 #: ../src/verbs.cpp:2547 ../src/widgets/desktop-widget.cpp:402
-#, fuzzy
 msgid "Toggle lock of all guides in the document"
-msgstr "Alle Hilfslinien aus dem Dokument löschen"
+msgstr "Sperrt/Entsperrt alle Hilfslinien im Dokument"
 
 #: ../src/verbs.cpp:2548
 msgid "Create _Guides Around the Page"
@@ -29074,14 +29038,12 @@ msgid "%s%s - Inkscape"
 msgstr "%s%s - Inkscape"
 
 #: ../src/widgets/desktop-widget.cpp:1082
-#, fuzzy
 msgid "Locked all guides"
-msgstr "Alle Ebenen sperren"
+msgstr "Alle Ebenen gesperret"
 
 #: ../src/widgets/desktop-widget.cpp:1084
-#, fuzzy
 msgid "Unlocked all guides"
-msgstr "Alle Ebenen entsperren"
+msgstr "Alle Ebenen entsperret"
 
 # ???
 #: ../src/widgets/desktop-widget.cpp:1101
@@ -29538,40 +29500,35 @@ msgstr "Öffnet den LPE-Dialog (erlaubt Anpassung der Parameterwerte)"
 
 #: ../src/widgets/measure-toolbar.cpp:157
 msgid "Start and end measures inactive."
-msgstr ""
+msgstr "Anfangs- und Endpunkt inaktiv."
 
 #: ../src/widgets/measure-toolbar.cpp:159
 msgid "Start and end measures active."
-msgstr ""
+msgstr "Anfangs- und Endpunkt aktiv."
 
 #: ../src/widgets/measure-toolbar.cpp:175
-#, fuzzy
 msgid "Show all crossings."
-msgstr "Alle Ebenen zeigen"
+msgstr "Alle Schnittpunkte anzeigen"
 
 #: ../src/widgets/measure-toolbar.cpp:177
-#, fuzzy
 msgid "Show visible crossings."
-msgstr "Nur sichtbare Ebenen behalten"
+msgstr "Nur sichtbare Schnittpunkte anzeigen"
 
 #: ../src/widgets/measure-toolbar.cpp:193
 msgid "Use all layers in the measure."
-msgstr ""
+msgstr "Alle Ebenen bei Messung berücksichtigen."
 
 #: ../src/widgets/measure-toolbar.cpp:195
-#, fuzzy
 msgid "Use current layer in the measure."
-msgstr "Die aktuelle Ebene nach ganz oben anheben"
+msgstr "Nur die aktuelle Ebene bei Messung berücksichtigen."
 
 #: ../src/widgets/measure-toolbar.cpp:211
-#, fuzzy
 msgid "Compute all elements."
-msgstr "tutorial-elements.de.svg"
+msgstr "Alle Teilstrecken auswerten."
 
 #: ../src/widgets/measure-toolbar.cpp:213
-#, fuzzy
 msgid "Compute max length."
-msgstr "Innen-Außen-Pfadlänge:"
+msgstr "Gesamtsrecke auswerten."
 
 #: ../src/widgets/measure-toolbar.cpp:274 ../src/widgets/text-toolbar.cpp:1361
 msgid "Font Size"
@@ -29583,12 +29540,12 @@ msgstr "Schriftgröße:"
 
 #: ../src/widgets/measure-toolbar.cpp:275
 msgid "The font size to be used in the measurement labels"
-msgstr "Die Schriftgröße, die für die Messungen verwendet werden"
+msgstr "Die Schriftgröße, die für Bemaßungen verwendet wird"
 
 #: ../src/widgets/measure-toolbar.cpp:286
 #: ../src/widgets/measure-toolbar.cpp:294
 msgid "The units to be used for the measurements"
-msgstr "Die Einheiten, die für die Messungen verwendet werden"
+msgstr "Die Einheiten, die für die Bemaßungen verwendet werden"
 
 #: ../src/widgets/measure-toolbar.cpp:302 ../share/extensions/measure.inx.h:14
 msgid "Precision:"
@@ -29596,80 +29553,68 @@ msgstr "Genauigkeit:"
 
 #: ../src/widgets/measure-toolbar.cpp:303
 msgid "Decimal precision of measure"
-msgstr ""
+msgstr "Anzahl Dezimalstellen in Bemaßungen"
 
 #: ../src/widgets/measure-toolbar.cpp:315
-#, fuzzy
 msgid "Scale %"
-msgstr "X skalieren"
+msgstr "Skalierung"
 
 #: ../src/widgets/measure-toolbar.cpp:315
-#, fuzzy
 msgid "Scale %:"
 msgstr "Skalierung:"
 
 #: ../src/widgets/measure-toolbar.cpp:316
-#, fuzzy
 msgid "Scale the results"
-msgstr "Filter-Auflösung setzen"
+msgstr "Skalierung der Maße (in Prozent)"
 
 #: ../src/widgets/measure-toolbar.cpp:329
-#, fuzzy
 msgid "The offset size"
-msgstr "Rot-Versatz:"
+msgstr "Versatz für manuell erstellte Bemaßungen"
 
 #: ../src/widgets/measure-toolbar.cpp:341
 #: ../src/widgets/measure-toolbar.cpp:342
-#, fuzzy
 msgid "Ignore first and last"
-msgstr "Ersten und letzen Punkt ignorieren"
+msgstr "Anfangs- und Endpunkt ignorieren"
 
 #: ../src/widgets/measure-toolbar.cpp:352
 #: ../src/widgets/measure-toolbar.cpp:353
-#, fuzzy
 msgid "Show hidden intersections"
-msgstr "Gitter-Überschneidung"
+msgstr "Zeige versteckte Überschneidungen"
 
 #: ../src/widgets/measure-toolbar.cpp:363
 #: ../src/widgets/measure-toolbar.cpp:364
-#, fuzzy
 msgid "Show measures between items"
-msgstr "Bewegung zwischen den Pfaden anzeigen"
+msgstr "Bemaßungen zwischen Überschneidungen anzeigen"
 
 #: ../src/widgets/measure-toolbar.cpp:374
 #: ../src/widgets/measure-toolbar.cpp:375
-#, fuzzy
 msgid "Measure all layers"
-msgstr "In allen Ebenen suchen"
+msgstr "Allen Ebenen für die Messung berücksichtigen"
 
 #: ../src/widgets/measure-toolbar.cpp:385
 #: ../src/widgets/measure-toolbar.cpp:386
-#, fuzzy
 msgid "Reverse measure"
-msgstr "Pfadrichtung umkehren"
+msgstr "Maßstab umkehren"
 
 #: ../src/widgets/measure-toolbar.cpp:395
 #: ../src/widgets/measure-toolbar.cpp:396
 msgid "Phantom measure"
-msgstr ""
+msgstr "Phantombild des aktuellen Maßstabs erstellen"
 
 #: ../src/widgets/measure-toolbar.cpp:405
 #: ../src/widgets/measure-toolbar.cpp:406
-#, fuzzy
 msgid "To guides"
-msgstr "_Hilfslinien anzeigen"
+msgstr "In Hilfslinien umwandeln"
 
 #: ../src/widgets/measure-toolbar.cpp:415
 #: ../src/widgets/measure-toolbar.cpp:416
-#, fuzzy
 msgid "Mark Dimension"
-msgstr "Dimensionen"
+msgstr "Bemaßung erstellen"
 
 #: ../src/widgets/measure-toolbar.cpp:425
 #: ../src/widgets/measure-toolbar.cpp:426
-#, fuzzy
 msgid "Convert to item"
-msgstr "Umwandeln in Abrundung"
+msgstr "In Zeichenobjekte umwandeln"
 
 #: ../src/widgets/mesh-toolbar.cpp:318
 msgid "Set mesh type"
@@ -30608,11 +30553,10 @@ msgid "The width of the spray area (relative to the visible canvas area)"
 msgstr "Breite des Sprühbereichs (relativ zur sichtbaren Arbeitsfläche)"
 
 #: ../src/widgets/spray-toolbar.cpp:312
-#, fuzzy
 msgid "Use the pressure of the input device to alter the width of spray area"
 msgstr ""
 "Druckempfindlichkeit des Eingabegeräts benutzen, um die Strichbreite des "
-"Füllers zu beeinflussen"
+"Sprühbereichs zu beeinflussen"
 
 #: ../src/widgets/spray-toolbar.cpp:323
 msgid "(maximum mean)"
@@ -30624,7 +30568,7 @@ msgstr "Fokus"
 
 #: ../src/widgets/spray-toolbar.cpp:326
 msgid "Focus:"
-msgstr "Fokus:"
+msgstr "Fokussierung:"
 
 #: ../src/widgets/spray-toolbar.cpp:326
 msgid "0 to spray a spot; increase to enlarge the ring radius"
@@ -30670,14 +30614,12 @@ msgid "Spray objects in a single path"
 msgstr "Sprüht Objekte in einen einzelnen Pfad"
 
 #: ../src/widgets/spray-toolbar.cpp:383
-#, fuzzy
 msgid "Delete sprayed items"
-msgstr "Zwischenfarbe des Farbverlaufs löschen"
+msgstr "Gesprühte Objekte löschen"
 
 #: ../src/widgets/spray-toolbar.cpp:384
-#, fuzzy
 msgid "Delete sprayed items from selection"
-msgstr "Kurven von der Auswahl erhalten..."
+msgstr "Gesprühte Objekte aus der Auswahl löschen"
 
 #: ../src/widgets/spray-toolbar.cpp:388 ../src/widgets/tweak-toolbar.cpp:253
 msgid "Mode"
@@ -30704,8 +30646,8 @@ msgstr "Anzahl der Objekte festlegen, die per Klick gesprüht werden"
 msgid ""
 "Use the pressure of the input device to alter the amount of sprayed objects"
 msgstr ""
-"Druckempfindlichkeit des Eingabegeräts benutzen, um die Anzahl der zu "
-"sprühenden Objekte zu beeinflussen"
+"Druckempfindlichkeit des Eingabegeräts benutzen, um die Anzahl der "
+"gesprühten Objekte zu beeinflussen"
 
 #: ../src/widgets/spray-toolbar.cpp:438
 msgid "(high rotation variation)"
@@ -30717,7 +30659,7 @@ msgstr "Drehung"
 
 #: ../src/widgets/spray-toolbar.cpp:441
 msgid "Rotation:"
-msgstr "D_rehung:"
+msgstr "Drehung:"
 
 #: ../src/widgets/spray-toolbar.cpp:443
 #, no-c-format
@@ -30740,7 +30682,7 @@ msgstr "Skalieren"
 #: ../src/widgets/spray-toolbar.cpp:459
 msgctxt "Spray tool"
 msgid "Scale:"
-msgstr "Skalierung:"
+msgstr "Skalieren"
 
 #: ../src/widgets/spray-toolbar.cpp:461
 #, no-c-format
@@ -30752,76 +30694,74 @@ msgstr ""
 "das Originalobjekt."
 
 #: ../src/widgets/spray-toolbar.cpp:477
-#, fuzzy
 msgid "Use the pressure of the input device to alter the scale of new items"
 msgstr ""
-"Druckempfindlichkeit des Eingabegeräts benutzen, um die Strichbreite des "
-"Füllers zu beeinflussen"
+"Druckempfindlichkeit des Eingabegeräts benutzen, um die Skalierung neuer "
+"Objekte zu beeinflussen"
 
 #: ../src/widgets/spray-toolbar.cpp:489 ../src/widgets/spray-toolbar.cpp:490
 msgid ""
 "Pick color from the drawing. You can use clonetiler trace dialog for "
 "advanced effects. In clone mode original fill or stroke colors must be unset."
 msgstr ""
+"Farbe aus der Zeichnung übernehmen. Der Dialog für das Erzeugen gekachelter "
+"Klone kann für fortgeschrittene Effekte verwendet werden. Im Klon-Modus "
+"müssen Füllung und Konturfarbe des Originalobjekts undefiniert sein."
 
 #: ../src/widgets/spray-toolbar.cpp:502 ../src/widgets/spray-toolbar.cpp:503
 msgid "Pick from center instead average area."
-msgstr ""
+msgstr "Farbe vom Zentrum übernehmen statt über die gesamte Fläche zu mitteln."
 
+# What's the meaning of the seond part?
 #: ../src/widgets/spray-toolbar.cpp:515 ../src/widgets/spray-toolbar.cpp:516
 msgid "Inverted pick value, retaining color in advanced trace mode"
-msgstr ""
+msgstr "Übernommene Farbe invertieren"
 
 #: ../src/widgets/spray-toolbar.cpp:528 ../src/widgets/spray-toolbar.cpp:529
-#, fuzzy
 msgid "Apply picked color to fill"
-msgstr "Zuletzt gewählte Farbe auf Füllung anwenden"
+msgstr "Gewählte Farbe auf Füllung anwenden"
 
 #: ../src/widgets/spray-toolbar.cpp:541 ../src/widgets/spray-toolbar.cpp:542
-#, fuzzy
 msgid "Apply picked color to stroke"
-msgstr "Zuletzt gewählte Farbe auf Kontur anwenden"
+msgstr "Gewählte Farbe auf Kontur anwenden"
 
 #: ../src/widgets/spray-toolbar.cpp:554 ../src/widgets/spray-toolbar.cpp:555
 msgid "No overlap between colors"
-msgstr ""
+msgstr "Überlapp zwischen uterschiedlichen Farben verhindern"
 
 #: ../src/widgets/spray-toolbar.cpp:567 ../src/widgets/spray-toolbar.cpp:568
 msgid "Apply over transparent areas"
-msgstr ""
+msgstr "Über transparenten Bereichen sprühen"
 
 #: ../src/widgets/spray-toolbar.cpp:580 ../src/widgets/spray-toolbar.cpp:581
 msgid "Apply over no transparent areas"
-msgstr ""
+msgstr "Über nicht transparenten Bereichen sprühen"
 
 #: ../src/widgets/spray-toolbar.cpp:593 ../src/widgets/spray-toolbar.cpp:594
-#, fuzzy
 msgid "Prevent overlapping objects"
-msgstr "Bitte wählen Sie ein Objekt."
+msgstr "Überlapp zwischen gesprühten Objekten verhindern"
 
 #: ../src/widgets/spray-toolbar.cpp:605
-#, fuzzy
 msgid "(minimum offset)"
-msgstr "(minimale Stärke)"
+msgstr "(minimaler Versatz)"
 
 #: ../src/widgets/spray-toolbar.cpp:605
-#, fuzzy
 msgid "(maximum offset)"
-msgstr "(maximale Stärke)"
+msgstr "(maximaler Versatz)"
 
 #: ../src/widgets/spray-toolbar.cpp:608
-#, fuzzy
 msgid "Offset %"
-msgstr "Versatz (px):"
+msgstr "Versatz"
 
 #: ../src/widgets/spray-toolbar.cpp:608
-#, fuzzy
 msgid "Offset %:"
 msgstr "Versatz:"
 
 #: ../src/widgets/spray-toolbar.cpp:609
 msgid "Increase to segregate objects more (value in percent)"
 msgstr ""
+"Erhöhen um Separation zwischen gesprühten Objekten zu erhöhen (Wert in "
+"Prozent)"
 
 #: ../src/widgets/star-toolbar.cpp:103
 msgid "Star: Change number of corners"
@@ -31151,13 +31091,12 @@ msgid "Text: Change rotate"
 msgstr "Text: Ändern Drehung"
 
 #: ../src/widgets/text-toolbar.cpp:787
-#, fuzzy
 msgid "Text: Change writing mode"
-msgstr "Text: Richtung ändern"
+msgstr "Textrichtung ändern"
 
 #: ../src/widgets/text-toolbar.cpp:841
 msgid "Text: Change orientation"
-msgstr "Text: Richtung ändern"
+msgstr "Textausrichtung ändern"
 
 #: ../src/widgets/text-toolbar.cpp:1309
 msgid "Font Family"
@@ -31209,6 +31148,7 @@ msgstr "Tiefgestellt umschalten"
 msgid "Justify"
 msgstr "Blocksatz"
 
+# Alignment (left, center, right, block)
 #. Name
 #: ../src/widgets/text-toolbar.cpp:1463
 msgid "Alignment"
@@ -31224,68 +31164,62 @@ msgid "Horizontal"
 msgstr "Horizontal"
 
 #: ../src/widgets/text-toolbar.cpp:1498
-#, fuzzy
 msgid "Vertical — RL"
-msgstr "Vertikal"
+msgstr "Vertikal — RL"
 
 #: ../src/widgets/text-toolbar.cpp:1499
 msgid "Vertical text — lines: right to left"
-msgstr ""
+msgstr "Vertikaler Text — Zeilen von rechts nach links"
 
 #: ../src/widgets/text-toolbar.cpp:1505
-#, fuzzy
 msgid "Vertical — LR"
-msgstr "Vertikal"
+msgstr "Vertikal — LR"
 
 #: ../src/widgets/text-toolbar.cpp:1506
 msgid "Vertical text — lines: left to right"
-msgstr ""
+msgstr "Vertikaler Text — Zeilen von links nach rechts"
 
-# not sure here -cm-
+# Writing mode (Horizontal, Vertical-LR, Vertical-RL)
 #. Name
 #: ../src/widgets/text-toolbar.cpp:1511
-#, fuzzy
 msgid "Writing mode"
-msgstr "Zeichenmodus"
+msgstr "Textrichtung"
 
 #. Label
 #: ../src/widgets/text-toolbar.cpp:1512
 msgid "Block progression"
-msgstr ""
+msgstr "Textrichtung"
 
 #: ../src/widgets/text-toolbar.cpp:1541
-#, fuzzy
 msgid "Auto glyph orientation"
-msgstr "Folgen der Pfadausrichtung"
+msgstr "Automatische Zeichenausrichtung"
 
 #: ../src/widgets/text-toolbar.cpp:1548
-#, fuzzy
 msgid "Upright"
-msgstr "Heller"
+msgstr "Aufrecht"
 
 #: ../src/widgets/text-toolbar.cpp:1549
-#, fuzzy
 msgid "Upright glyph orientation"
-msgstr "Textausrichtung"
+msgstr "Aufrechte Zeichenausrichtung"
 
 #: ../src/widgets/text-toolbar.cpp:1556
 msgid "Sideways"
-msgstr ""
+msgstr "Gedreht"
 
 #: ../src/widgets/text-toolbar.cpp:1557
-#, fuzzy
 msgid "Sideways glyph orientation"
-msgstr "Folgen der Pfadausrichtung"
+msgstr "Gedrehte Zeichenausrichtung"
 
+# Text (glyph) orientation (Auto (mixed), Upright, Sideways)
 #. Name
 #: ../src/widgets/text-toolbar.cpp:1563
 msgid "Text orientation"
-msgstr "Textausrichtung"
+msgstr "Zeichenausrichtung"
 
 #. Label
 #: ../src/widgets/text-toolbar.cpp:1564
 msgid "Text (glyph) orientation in vertical text."
-msgstr ""
+msgstr "Zeichenausrichtung in vertikalem Text"
 
 #. Drop down menu
 #: ../src/widgets/text-toolbar.cpp:1588
@@ -32235,9 +32169,8 @@ msgid "Movements"
 msgstr "Bewegungen"
 
 #: ../share/extensions/hpgl_decoder.py:43
-#, fuzzy
 msgid "Pen "
-msgstr "Stift #"
+msgstr "Stift "
 
 #. issue error if no hpgl data found
 #: ../share/extensions/hpgl_input.py:58
@@ -32755,9 +32688,8 @@ msgstr ""
 "Bitte geben Sie eine Ersetzungsschriftart im \"Alles ersetzen\"-Feld ein."
 
 #: ../share/extensions/restack.py:76
-#, fuzzy
 msgid "There is no selection to restack."
-msgstr "Es gibt keine Auswahl zum interpolieren"
+msgstr "Es gibt keine Auswahl zum Umschichten"
 
 #: ../share/extensions/summersnight.py:43
 msgid ""
@@ -33230,7 +33162,6 @@ msgid "Y Offset:"
 msgstr "Y-Versatz:"
 
 #: ../share/extensions/dimension.inx.h:4
-#, fuzzy
 msgid "Bounding box type:"
 msgstr "Objektrahmentyp:"
 
@@ -39264,18 +39195,6 @@ msgstr "XAML einlesen"
 #~ msgstr ""
 #~ "Wählen Sie <b>genau 2 Pfade</b> aus, um eine Differenz-, XOR-, Dvisions- "
 #~ "oder Pfadzuschneideoperation auszuführen."
-
-#, fuzzy
-#~ msgid "Measure start"
-#~ msgstr "Pfad ausmessen"
-
-#, fuzzy
-#~ msgid "Measure end"
-#~ msgstr "Ausmessen"
-
-#, fuzzy
-#~ msgid "Only visible intersections"
-#~ msgstr "Gitter-Überschneidung"
 
 #~ msgid "Group collapsing"
 #~ msgstr "Guppen zusammenklappen"
