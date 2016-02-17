@@ -1,13 +1,14 @@
 #!/bin/sh
 
-cd 0.91/
-mv -f de.po de_old.po
-msgmerge de_old.po inkscape.pot > de.po
-rm de_old.po
-cd ..
+if msgmerge --version > /dev/null; then
+	for folder in 0.91 trunk; do
+		cd $folder
+		if msgmerge de.po inkscape.pot > de_new.po; then
+			mv -f de_new.po de.po
+		else
+			rm de_new.po
+		fi
+		cd ..
+	done
+fi
 
-cd trunk/
-mv -f de.po de_old.po
-msgmerge de_old.po inkscape.pot > de.po
-rm de_old.po
-cd ..
