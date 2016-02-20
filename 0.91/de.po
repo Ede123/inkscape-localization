@@ -21214,7 +21214,7 @@ msgstr "Vertikale Textausrichtung"
 
 #: ../src/ui/dialog/text-edit.cpp:129 ../src/ui/dialog/text-edit.cpp:130
 msgid "Spacing between lines (percent of font size)"
-msgstr "Abstand zwischen Linien (Prozent der Schriftgröße)"
+msgstr "Zeilenabstand (Prozent der Schriftgröße)"
 
 #: ../src/ui/dialog/text-edit.cpp:146
 msgid "Text path offset"
@@ -28942,7 +28942,7 @@ msgstr "Linie:"
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1449
 msgid "Spacing between lines (times font size)"
-msgstr "Abstand zwischen Linien (Times Schriftgröße)"
+msgstr "Zeilenabstand (relativ zur Schriftgröße)"
 
 #. Drop down menu
 #: ../src/widgets/text-toolbar.cpp:1473 ../src/widgets/text-toolbar.cpp:1504
@@ -28966,7 +28966,7 @@ msgstr "Wort:"
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1480
 msgid "Spacing between words (px)"
-msgstr "Abstand zwischen Wörtern (px)"
+msgstr "Wortabstand (px)"
 
 #. name
 #: ../src/widgets/text-toolbar.cpp:1509
@@ -28981,7 +28981,7 @@ msgstr "Buchstabe:"
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1511
 msgid "Spacing between letters (px)"
-msgstr "Abstand zwischen Buchstaben (px)"
+msgstr "Zeichenabstand (px)"
 
 #. name
 #: ../src/widgets/text-toolbar.cpp:1540
