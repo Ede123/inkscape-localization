@@ -2,7 +2,6 @@
 # This file is distributed under the same license as the Inkscape package.
 # Copyright (C) 2000-2003, 2006, 2007 Free Software Foundation, Inc.
 #
-#: ../src/ui/dialog/clonetiler.cpp:1010
 # Kai Lahmann <kailahmann@01019freenet.de>, 2000.
 # Benedikt Roth <Benedikt.Roth@gmx.net>, 2000.
 # Christian Meyer <chrisime@gnome.org>, 2000-2002.
@@ -16,15 +15,15 @@
 # Alexander Senger <neutronenspalter@freenet.de>, 2009.
 # Benjamin Weis <benjamin.weis@gmx.com>, 2014.
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
-# Eduard Braun <eduard.braun2@gmx.de>, 2015.
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
 # Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016.
+# Eduard Braun <eduard.braun2@gmx.de>, 2015-2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-05-30 08:43+0200\n"
-"PO-Revision-Date: 2016-06-05 04:08+0200\n"
+"PO-Revision-Date: 2016-06-05 04:22+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -10128,15 +10127,15 @@ msgstr "Abgeleitete Kurve"
 
 #: ../src/live_effects/lpe-jointype.cpp:36
 msgid "Extrapolated arc Alt1"
-msgstr "Abgeleitete Kurve Typ1"
+msgstr "Abgeleitete Kurve Variante 1"
 
 #: ../src/live_effects/lpe-jointype.cpp:37
 msgid "Extrapolated arc Alt2"
-msgstr "Abgeleitete Kurve Typ2"
+msgstr "Abgeleitete Kurve Variante 2"
 
 #: ../src/live_effects/lpe-jointype.cpp:38
 msgid "Extrapolated arc Alt3"
-msgstr "Abgeleitete Kurve Typ3"
+msgstr "Abgeleitete Kurve Variante 3"
 
 #: ../src/live_effects/lpe-jointype.cpp:42
 #: ../src/live_effects/lpe-powerstroke.cpp:149
@@ -12524,7 +12523,8 @@ msgstr "Gruppieren"
 #: ../src/selection-chemistry.cpp:798
 msgid "<b>No objects selected</b> to pop out of group."
 msgstr ""
-"<b>Keine Objekte ausgewählt</b>, die aus der Gruppe entfernt werden könnten."
+"<b>Keine Objekte ausgewählt</b>, die aus der Gruppe herausgelöst werden "
+"könnten."
 
 #: ../src/selection-chemistry.cpp:808
 msgid "Selection <b>not in a group</b>."
@@ -14071,11 +14071,11 @@ msgstr "Mitte der Auswahl"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1098
 msgid "Min value"
-msgstr "Minimum"
+msgstr "Kleinste Koordinate der Auswahl"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1099
 msgid "Max value"
-msgstr "Maximum"
+msgstr "Größte Koordinate der Auswahl"
 
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:40
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:138
@@ -22871,7 +22871,7 @@ msgstr "Gruppe #%1 beitreten"
 #. Pop selection out of group
 #: ../src/ui/interface.cpp:1528
 msgid "_Pop selection out of group"
-msgstr "Auswahl aus Gruppe ent_fernen"
+msgstr "Auswahl aus Gruppe herauslösen"
 
 #. Item dialog
 #: ../src/ui/interface.cpp:1656 ../src/verbs.cpp:2940
@@ -22889,7 +22889,7 @@ msgstr "Das Gleiche auswählen"
 #. Select same fill and stroke
 #: ../src/ui/interface.cpp:1686
 msgid "Fill and Stroke"
-msgstr "Füllung und _Kontur"
+msgstr "Füllung und Kontur"
 
 #. Select same fill color
 #: ../src/ui/interface.cpp:1693
@@ -26924,11 +26924,11 @@ msgstr "Gruppierung markierter Gruppen aufheben"
 
 #: ../src/verbs.cpp:2565
 msgid "_Pop selected objects out of group"
-msgstr "Gewählte Objekte aus Gruppe entfernen"
+msgstr "Gewählte Objekte aus Gruppe herauslösen"
 
 #: ../src/verbs.cpp:2566
 msgid "Pop selected objects out of group"
-msgstr "Gewählte Objekte aus Gruppe entfernen"
+msgstr "Gewählte Objekte aus Gruppe herauslösen"
 
 #: ../src/verbs.cpp:2568
 msgid "_Put on Path"
@@ -29560,7 +29560,7 @@ msgstr "Zwischenfarbe des Farbverlaufs ändern"
 msgid "Image widget"
 msgstr "Bild-Widget"
 
-# Only used for development purposes 
+# Only used for development purposes
 #: ../src/widgets/image-menu-item.c:152
 msgid "Child widget to appear next to the menu text"
 msgstr "Kind-Widget, das neben dem Text im Menü erscheint"
