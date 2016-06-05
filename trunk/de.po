@@ -15,16 +15,16 @@
 # Alexander Senger <neutronenspalter@freenet.de>, 2009.
 # Benjamin Weis <benjamin.weis@gmx.com>, 2014.
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
-# Eduard Braun <eduard.braun2@gmx.de>, 2015.
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
 # Maren Hachmann <marenhachmann@yahoo.com>, 2015.
+# Eduard Braun <eduard.braun2@gmx.de>, 2015-2016.
 #: ../src/ui/dialog/clonetiler.cpp:1010
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-05-30 08:43+0200\n"
-"PO-Revision-Date: 2016-02-15 02:59+0100\n"
+"PO-Revision-Date: 2016-06-05 02:59+0100\n"
 "Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
 "Language-Team: German <>\n"
 "Language: de\n"
@@ -10119,19 +10119,16 @@ msgid "Extrapolated arc"
 msgstr "Abgeleitete Kurve"
 
 #: ../src/live_effects/lpe-jointype.cpp:36
-#, fuzzy
 msgid "Extrapolated arc Alt1"
-msgstr "Abgeleitete Kurve"
+msgstr "Abgeleitete Kurve Alt1"
 
 #: ../src/live_effects/lpe-jointype.cpp:37
-#, fuzzy
 msgid "Extrapolated arc Alt2"
-msgstr "Abgeleitete Kurve"
+msgstr "Abgeleitete Kurve Alt2"
 
 #: ../src/live_effects/lpe-jointype.cpp:38
-#, fuzzy
 msgid "Extrapolated arc Alt3"
-msgstr "Abgeleitete Kurve"
+msgstr "Abgeleitete Kurve Alt3"
 
 #: ../src/live_effects/lpe-jointype.cpp:42
 #: ../src/live_effects/lpe-powerstroke.cpp:149
@@ -12512,20 +12509,16 @@ msgid "Group"
 msgstr "Gruppieren"
 
 #: ../src/selection-chemistry.cpp:798
-#, fuzzy
 msgid "<b>No objects selected</b> to pop out of group."
-msgstr "<b>Objekte auswählen</b>, um Stil zu übernehmen."
+msgstr "<b>Keine Objekte asugewählt</b> um aus Gruppe herauszulösen."
 
 #: ../src/selection-chemistry.cpp:808
-#, fuzzy
 msgid "Selection <b>not in a group</b>."
-msgstr ""
-"Eine <b>Gruppe</b> auswählen, deren Gruppierung aufgehoben werden soll."
+msgstr "Auswahl <b>nicht in einer Gruppe enthalten</b>."
 
 #: ../src/selection-chemistry.cpp:822
-#, fuzzy
 msgid "Pop selection from group"
-msgstr "Auswahl als Gruppe behandeln:"
+msgstr "Auswahl aus Gruppe herauslösen"
 
 #: ../src/selection-chemistry.cpp:830
 msgid "Select a <b>group</b> to ungroup."
@@ -14059,19 +14052,16 @@ msgid "Selection Area"
 msgstr "Auswahlbereich"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1097
-#, fuzzy
 msgid "Middle of selection"
-msgstr "Breite der Auswahl"
+msgstr "Mitte der Auswahl"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1098
-#, fuzzy
 msgid "Min value"
-msgstr "Unterschneidungswert:"
+msgstr "Kleinste Koordinate der Auswahl"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1099
-#, fuzzy
 msgid "Max value"
-msgstr "Werte zurücksetzen"
+msgstr "Größte Koordinate der Auswahl"
 
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:40
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:138
@@ -18682,10 +18672,9 @@ msgid "Set the language for menus and number formats"
 msgstr "Sprache für Menüs und Zahlenformate setzen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:616
-#, fuzzy
 msgctxt "Icon size"
 msgid "Larger"
-msgstr "Groß"
+msgstr "Größer"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:616
 msgctxt "Icon size"
@@ -22219,9 +22208,8 @@ msgid "Vertical text"
 msgstr "Vertikaler Text"
 
 #: ../src/ui/dialog/text-edit.cpp:130 ../src/ui/dialog/text-edit.cpp:131
-#, fuzzy
 msgid "Spacing between baselines (percent of font size)"
-msgstr "Zeilenabstand (Prozent der Schriftgröße)"
+msgstr "Abstand zwischen Grundlinien (Prozent der Schriftgröße)"
 
 #: ../src/ui/dialog/text-edit.cpp:147
 msgid "Text path offset"
@@ -22867,9 +22855,8 @@ msgstr "Gruppe #%1 beitreten"
 
 #. Pop selection out of group
 #: ../src/ui/interface.cpp:1528
-#, fuzzy
 msgid "_Pop selection out of group"
-msgstr "Auswahl als Gruppe behandeln:"
+msgstr "Auswahl aus Gruppe herauslösen"
 
 #. Item dialog
 #: ../src/ui/interface.cpp:1656 ../src/verbs.cpp:2940
@@ -22887,7 +22874,7 @@ msgstr "Das Gleiche auswählen"
 #. Select same fill and stroke
 #: ../src/ui/interface.cpp:1686
 msgid "Fill and Stroke"
-msgstr "Füllung und _Kontur"
+msgstr "Füllung und Kontur"
 
 #. Select same fill color
 #: ../src/ui/interface.cpp:1693
@@ -24166,9 +24153,9 @@ msgid "Add global measure line"
 msgstr "Maßlinie erstellen"
 
 #: ../src/ui/tools/measure-tool.cpp:1290 ../src/ui/tools/measure-tool.cpp:1292
-#, fuzzy, c-format
+#, c-format
 msgid "Crossing %lu"
-msgstr "Schnittpunkt %u"
+msgstr "Schnittpunkt %lu"
 
 #. TRANSLATORS: Mind the space in front. This is part of a compound message
 #: ../src/ui/tools/mesh-tool.cpp:122 ../src/ui/tools/mesh-tool.cpp:133
@@ -26919,14 +26906,12 @@ msgid "Ungroup selected groups"
 msgstr "Gruppierung markierter Gruppen aufheben"
 
 #: ../src/verbs.cpp:2565
-#, fuzzy
 msgid "_Pop selected objects out of group"
-msgstr "Die gewählten Objekte gruppieren"
+msgstr "Gewählte Objekte aus Gruppe herauslösen"
 
 #: ../src/verbs.cpp:2566
-#, fuzzy
 msgid "Pop selected objects out of group"
-msgstr "Die gewählten Objekte gruppieren"
+msgstr "Gewählte Objekte aus Gruppe herauslösen"
 
 #: ../src/verbs.cpp:2568
 msgid "_Put on Path"
@@ -28460,7 +28445,6 @@ msgid "Fit the page to the drawing"
 msgstr "Die Seite in die Zeichnungsgröße einpassen"
 
 #: ../src/verbs.cpp:3008
-#, fuzzy
 msgid "_Resize Page to Selection"
 msgstr "Seite in Auswahl einpassen"
 
@@ -31456,9 +31440,8 @@ msgstr "Linie:"
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1852
-#, fuzzy
 msgid "Spacing between baselines (times font size)"
-msgstr "Zeilenabstand (relativ zur Schriftgröße)"
+msgstr "Abstand zwischen Grundlinien (relativ zur Schriftgröße)"
 
 #. Drop down menu
 #: ../src/widgets/text-toolbar.cpp:1884 ../src/widgets/text-toolbar.cpp:1915
