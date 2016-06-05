@@ -2,6 +2,7 @@
 # This file is distributed under the same license as the Inkscape package.
 # Copyright (C) 2000-2003, 2006, 2007 Free Software Foundation, Inc.
 #
+#: ../src/ui/dialog/clonetiler.cpp:1010
 # Kai Lahmann <kailahmann@01019freenet.de>, 2000.
 # Benedikt Roth <Benedikt.Roth@gmx.net>, 2000.
 # Christian Meyer <chrisime@gnome.org>, 2000-2002.
@@ -17,16 +18,15 @@
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015.
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
-# Maren Hachmann <marenhachmann@yahoo.com>, 2015.
-#: ../src/ui/dialog/clonetiler.cpp:1010
+# Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-05-30 08:43+0200\n"
-"PO-Revision-Date: 2016-02-15 02:59+0100\n"
-"Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
-"Language-Team: German <>\n"
+"PO-Revision-Date: 2016-06-05 04:08+0200\n"
+"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Language: de_DE\n"
 "X-Source-Language: C\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../inkscape.appdata.xml.in.h:1 ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -52,6 +52,9 @@ msgid ""
 "Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable Vector "
 "Graphics (SVG) file format."
 msgstr ""
+"Inkscape ist ein quelloffenes Programm zum Bearbeiten von Vektorgrafiken im "
+"vom W3C standardisierten SVG-Dateiformat (Scalable Vector Graphics), das über "
+"ähnliche Funktionen wie Adobe Illustrator, CorelDraw oder Xara X verfügt."
 
 #: ../inkscape.appdata.xml.in.h:4
 msgid ""
@@ -61,6 +64,11 @@ msgid ""
 "trace bitmaps and much more. We also aim to maintain a thriving user and "
 "developer community by using open, community-oriented development."
 msgstr ""
+"Inkscape unterstützt viele fortgeschrittene SVG-Eigenschaften "
+"(Knotenmarkierungen, Klone, Alpha Blending usw.) und legt viel Wert auf eine "
+"auf übliche Arbeitsabläufe optimierte Benutzeroberfläche. Knotenbearbeitung, "
+"komplexe Pfadoperationen, das Vektorisieren von Rastergrafiken und noch "
+"vieles mehr lassen sich so ganz einfach ausführen."
 
 #: ../inkscape.appdata.xml.in.h:5
 msgid "Main application window"
@@ -9963,7 +9971,7 @@ msgstr "Länge der Hilfslinien mit Richtung"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:103
 msgid "IMPORTANT! New version soon..."
-msgstr ""
+msgstr "WICHTIG! Bald neue Version..."
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:107
 msgid "Not compatible. Convert to path after."
@@ -10119,19 +10127,16 @@ msgid "Extrapolated arc"
 msgstr "Abgeleitete Kurve"
 
 #: ../src/live_effects/lpe-jointype.cpp:36
-#, fuzzy
 msgid "Extrapolated arc Alt1"
-msgstr "Abgeleitete Kurve"
+msgstr "Abgeleitete Kurve Typ1"
 
 #: ../src/live_effects/lpe-jointype.cpp:37
-#, fuzzy
 msgid "Extrapolated arc Alt2"
-msgstr "Abgeleitete Kurve"
+msgstr "Abgeleitete Kurve Typ2"
 
 #: ../src/live_effects/lpe-jointype.cpp:38
-#, fuzzy
 msgid "Extrapolated arc Alt3"
-msgstr "Abgeleitete Kurve"
+msgstr "Abgeleitete Kurve Typ3"
 
 #: ../src/live_effects/lpe-jointype.cpp:42
 #: ../src/live_effects/lpe-powerstroke.cpp:149
@@ -10651,6 +10656,7 @@ msgstr "Perspektive"
 msgid "Envelope deformation"
 msgstr "Umhüllung verformen"
 
+# Ask Jabier what this does
 #: ../src/live_effects/lpe-perspective-envelope.cpp:45
 #, fuzzy
 msgid "Overflow perspective"
@@ -10976,11 +10982,11 @@ msgstr "Entlang Knoten"
 
 #: ../src/live_effects/lpe-roughen.cpp:39
 msgid "Rand"
-msgstr ""
+msgstr "zufällig"
 
 #: ../src/live_effects/lpe-roughen.cpp:40
 msgid "Retract"
-msgstr ""
+msgstr "zurückziehen"
 
 #. initialise your parameters here:
 #: ../src/live_effects/lpe-roughen.cpp:49
@@ -11190,6 +11196,9 @@ msgid ""
 "The \"show handles\" path effect will remove any custom style on the object "
 "you are applying it to. If this is not what you want, click Cancel."
 msgstr ""
+"Der »Anfasser zeigen«-Pfadeffekt entfernt alle benutzerdefinierten Stile des "
+"Objektes, auf den er angewendet wird. Ist dies nicht erwünscht, bitte auf "
+"»Abbrechen« klicken."
 
 #: ../src/live_effects/lpe-simplify.cpp:30
 msgid "Steps:"
@@ -11219,6 +11228,7 @@ msgstr "Pfade getrennt"
 msgid "Simplifying paths (separately)"
 msgstr "Vereinfache Pfade (getrennt)"
 
+# Ask Jabier what this does
 #: ../src/live_effects/lpe-simplify.cpp:36
 msgid "Just coalesce"
 msgstr ""
@@ -12049,7 +12059,7 @@ msgstr "_Klonen"
 
 #: ../src/menus-skeleton.h:79
 msgid "Select Sa_me"
-msgstr "Das Gleiche auswählen"
+msgstr "Das Gleiche aus_wählen"
 
 #: ../src/menus-skeleton.h:100
 msgid "_View"
@@ -12512,20 +12522,17 @@ msgid "Group"
 msgstr "Gruppieren"
 
 #: ../src/selection-chemistry.cpp:798
-#, fuzzy
 msgid "<b>No objects selected</b> to pop out of group."
-msgstr "<b>Objekte auswählen</b>, um Stil zu übernehmen."
+msgstr ""
+"<b>Keine Objekte ausgewählt</b>, die aus der Gruppe entfernt werden könnten."
 
 #: ../src/selection-chemistry.cpp:808
-#, fuzzy
 msgid "Selection <b>not in a group</b>."
-msgstr ""
-"Eine <b>Gruppe</b> auswählen, deren Gruppierung aufgehoben werden soll."
+msgstr "Auswahl ist <b>nicht in einer Gruppe</b>."
 
 #: ../src/selection-chemistry.cpp:822
-#, fuzzy
 msgid "Pop selection from group"
-msgstr "Auswahl als Gruppe behandeln:"
+msgstr "Auswahl aus Gruppe entfernen"
 
 #: ../src/selection-chemistry.cpp:830
 msgid "Select a <b>group</b> to ungroup."
@@ -14059,19 +14066,16 @@ msgid "Selection Area"
 msgstr "Auswahlbereich"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1097
-#, fuzzy
 msgid "Middle of selection"
-msgstr "Breite der Auswahl"
+msgstr "Mitte der Auswahl"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1098
-#, fuzzy
 msgid "Min value"
-msgstr "Unterschneidungswert:"
+msgstr "Minimum"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1099
-#, fuzzy
 msgid "Max value"
-msgstr "Werte zurücksetzen"
+msgstr "Maximum"
 
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:40
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:138
@@ -17759,17 +17763,18 @@ msgstr ""
 "Strichdicke)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:213
-#, fuzzy
 msgid "Base simplify:"
-msgstr "Vereinfachen:"
+msgstr "Basisvereinfachung:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:213
 msgid "on dynamic LPE simplify"
-msgstr ""
+msgstr "beim Vereinfachen über Pfadeffekt"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:214
 msgid "Base simplify of dynamic LPE based simplify"
 msgstr ""
+"Basisvereinfachung beim Vereinfachen mit der Pfadeffekt basierten "
+"Vereinfachung"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:229
 msgid "<b>No objects selected</b> to take the style from."
@@ -18682,10 +18687,9 @@ msgid "Set the language for menus and number formats"
 msgstr "Sprache für Menüs und Zahlenformate setzen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:616
-#, fuzzy
 msgctxt "Icon size"
 msgid "Larger"
-msgstr "Groß"
+msgstr "Größer"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:616
 msgctxt "Icon size"
@@ -22219,9 +22223,8 @@ msgid "Vertical text"
 msgstr "Vertikaler Text"
 
 #: ../src/ui/dialog/text-edit.cpp:130 ../src/ui/dialog/text-edit.cpp:131
-#, fuzzy
 msgid "Spacing between baselines (percent of font size)"
-msgstr "Zeilenabstand (Prozent der Schriftgröße)"
+msgstr "Abstand zwischen Grundlinien (Prozent der Schriftgröße)"
 
 #: ../src/ui/dialog/text-edit.cpp:147
 msgid "Text path offset"
@@ -22867,9 +22870,8 @@ msgstr "Gruppe #%1 beitreten"
 
 #. Pop selection out of group
 #: ../src/ui/interface.cpp:1528
-#, fuzzy
 msgid "_Pop selection out of group"
-msgstr "Auswahl als Gruppe behandeln:"
+msgstr "Auswahl aus Gruppe ent_fernen"
 
 #. Item dialog
 #: ../src/ui/interface.cpp:1656 ../src/verbs.cpp:2940
@@ -23343,11 +23345,10 @@ msgstr ""
 "drehen"
 
 #: ../src/ui/tool/node.cpp:529
-#, fuzzy
 msgctxt "Path handle tip"
 msgid "<b>Ctrl</b>: Snap handle to steps defined in BSpline Live Path Effect"
 msgstr ""
-"<b>Strg</b>: Anfasser um derzeit im Pfadeffekt festgelegte Schritte "
+"<b>Strg</b>: Anfasser um derzeit im BSpline-Pfadeffekt festgelegte Schritte "
 "verschieben"
 
 #: ../src/ui/tool/node.cpp:532
@@ -24166,9 +24167,9 @@ msgid "Add global measure line"
 msgstr "Maßlinie erstellen"
 
 #: ../src/ui/tools/measure-tool.cpp:1290 ../src/ui/tools/measure-tool.cpp:1292
-#, fuzzy, c-format
+#, c-format
 msgid "Crossing %lu"
-msgstr "Schnittpunkt %u"
+msgstr "Schnittpunkt %lu"
 
 #. TRANSLATORS: Mind the space in front. This is part of a compound message
 #: ../src/ui/tools/mesh-tool.cpp:122 ../src/ui/tools/mesh-tool.cpp:133
@@ -24338,40 +24339,42 @@ msgstr ""
 "fortzusetzen. Umschalt+Klick um spitzen Knoten zu erzeugen"
 
 #: ../src/ui/tools/pen-tool.cpp:1797
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>Curve segment</b>: angle %3.2f&#176;, distance %s; with <b>Ctrl</b> to "
 "snap angle, <b>Enter</b> or <b>Shift+Enter</b> to finish the path"
 msgstr ""
 "<b>Kurvensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Strg</b> rastet den "
-"Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
+"Winkel ein; <b>Eingabe</b> oder <b>Umschalt+Eingabe</b> schließen den Pfad ab"
 
 #: ../src/ui/tools/pen-tool.cpp:1798
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>Line segment</b>: angle %3.2f&#176;, distance %s; with <b>Ctrl</b> to "
 "snap angle, <b>Enter</b> or <b>Shift+Enter</b> to finish the path"
 msgstr ""
 "<b>Liniensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Strg</b> rastet den "
-"Winkel ein; <b>Eingabe</b> schließt den Pfad ab"
+"Winkel ein; <b>Eingabe</b> oder <b>Umschalt+Eingabe</b> schließen den Pfad ab"
 
 #: ../src/ui/tools/pen-tool.cpp:1801
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>Curve segment</b>: angle %3.2f&#176;, distance %s; with <b>Shift+Click</"
 "b> make a cusp node, <b>Enter</b> or <b>Shift+Enter</b> to finish the path"
 msgstr ""
 "<b>Kurvensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Umschalt+Klick</b> "
-"erzeugt spitzen Winkel; <b>Eingabe</b> schließt den Pfad ab"
+"erzeugt spitzen Winkel; <b>Eingabe</b> oder<b>Umschalt+Eingabe</b> schließen "
+"den Pfad ab"
 
 #: ../src/ui/tools/pen-tool.cpp:1802
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>Line segment</b>: angle %3.2f&#176;, distance %s; with <b>Shift+Click</b> "
 "make a cusp node, <b>Enter</b> or <b>Shift+Enter</b> to finish the path"
 msgstr ""
 "<b>Liniensegment</b>: Winkel %3.2f&#176;, Abstand %s; <b>Umschalt+Klick</b> "
-"erzeugt spitzen Winkel; <b>Eingabe</b> schließt den Pfad ab"
+"erzeugt spitzen Winkel; <b>Eingabe</b> oder <b>Umschalt+Eingabe</b> schließen "
+"den Pfad ab"
 
 #: ../src/ui/tools/pen-tool.cpp:1819
 #, c-format
@@ -25508,15 +25511,16 @@ msgstr "Ändern der Seitengröße auf Inhalt..."
 
 #: ../src/ui/widget/page-sizer.cpp:447
 msgid "_Resize page to drawing or selection"
-msgstr "Seite in Auswahl ein_passen"
+msgstr "Seiteng_röße auf Zeichnungs-/Auswahlgröße"
 
 #: ../src/ui/widget/page-sizer.cpp:448
 msgid ""
 "Resize the page to fit the current selection, or the entire drawing if there "
 "is no selection"
 msgstr ""
-"Seitengröße verändern, so daß sie auf die aktuelle Auswahl passt, oder auf "
-"die ganze Zeichnung, wenn keine Auswahl existiert"
+"Seitengröße so verändern, daß die aktuelle Auswahl, oder, falls nichts "
+"ausgewählt ist,  "
+"die gesamte Zeichnung, hineinpasst."
 
 #: ../src/ui/widget/page-sizer.cpp:479
 msgid ""
@@ -26919,14 +26923,12 @@ msgid "Ungroup selected groups"
 msgstr "Gruppierung markierter Gruppen aufheben"
 
 #: ../src/verbs.cpp:2565
-#, fuzzy
 msgid "_Pop selected objects out of group"
-msgstr "Die gewählten Objekte gruppieren"
+msgstr "Gewählte Objekte aus Gruppe entfernen"
 
 #: ../src/verbs.cpp:2566
-#, fuzzy
 msgid "Pop selected objects out of group"
-msgstr "Die gewählten Objekte gruppieren"
+msgstr "Gewählte Objekte aus Gruppe entfernen"
 
 #: ../src/verbs.cpp:2568
 msgid "_Put on Path"
@@ -28282,7 +28284,7 @@ msgstr "Aus_wahlgruppen..."
 
 #: ../src/verbs.cpp:2951
 msgid "View Tags"
-msgstr ""
+msgstr "Tags anzeigen"
 
 #: ../src/verbs.cpp:2952
 msgid "Path E_ffects ..."
@@ -28460,9 +28462,8 @@ msgid "Fit the page to the drawing"
 msgstr "Die Seite in die Zeichnungsgröße einpassen"
 
 #: ../src/verbs.cpp:3008
-#, fuzzy
 msgid "_Resize Page to Selection"
-msgstr "Seite in Auswahl einpassen"
+msgstr "Seiteng_röße auf Auswahlgröße"
 
 #: ../src/verbs.cpp:3009
 msgid ""
@@ -29252,9 +29253,8 @@ msgstr "Aus Objekt herausschneiden"
 
 #. Width
 #: ../src/widgets/eraser-toolbar.cpp:151
-#, fuzzy
 msgid "(no width)"
-msgstr "Nullbreite"
+msgstr "(Nullbreite) "
 
 #: ../src/widgets/eraser-toolbar.cpp:155
 msgid "The width of the eraser pen (relative to the visible canvas area)"
@@ -29262,19 +29262,17 @@ msgstr "Die Größe des Radierers (relativ zur sichtbaren Arbeitsfläche)"
 
 # Name des Effekte-submenü, das alle Bitmap-Effekte beinhaltet.
 #: ../src/widgets/eraser-toolbar.cpp:171
-#, fuzzy
 msgid "Eraser Mass"
-msgstr "Radierer"
+msgstr "Masse des Radierers"
 
 #: ../src/widgets/eraser-toolbar.cpp:172
-#, fuzzy
 msgid "Increase to make the eraser drag behind, as if slowed by inertia"
-msgstr "Erhöhen, um den Füller nachzuschleppen, wie durch Trägheit verlangsamt"
+msgstr ""
+"Erhöhen, um den Radierer nachzuschleppen, wie durch Trägheit verlangsamt"
 
 #: ../src/widgets/eraser-toolbar.cpp:186 ../src/widgets/eraser-toolbar.cpp:187
-#, fuzzy
 msgid "Break apart cut items"
-msgstr "Zerlegen"
+msgstr "Aufgetrennte Objekte zerlegen"
 
 #: ../src/widgets/fill-style.cpp:356
 msgid "Change fill rule"
@@ -29557,32 +29555,36 @@ msgstr "Farbverlaufs-Editor"
 msgid "Change gradient stop color"
 msgstr "Zwischenfarbe des Farbverlaufs ändern"
 
+# Only used for development purposes
 #: ../src/widgets/image-menu-item.c:151
-#, fuzzy
 msgid "Image widget"
-msgstr "Bild-Datei"
+msgstr "Bild-Widget"
 
+# Only used for development purposes 
 #: ../src/widgets/image-menu-item.c:152
 msgid "Child widget to appear next to the menu text"
-msgstr ""
+msgstr "Kind-Widget, das neben dem Text im Menü erscheint"
 
 #: ../src/widgets/image-menu-item.c:167
-#, fuzzy
 msgid "Use stock"
-msgstr "Kontur einfügen"
+msgstr "Standard verwenden"
 
+# Only used for development purposes.
 #: ../src/widgets/image-menu-item.c:168
 msgid "Whether to use the label text to create a stock menu item"
 msgstr ""
+"Ob der Beschriftungstext verwendet werden soll, um einen Standard-Menüeintrag "
+"zu generieren."
 
+# Only used for development purposes
 #: ../src/widgets/image-menu-item.c:183
-#, fuzzy
 msgid "Accel Group"
-msgstr "Gruppe"
+msgstr "Schnellzugriffsgruppe"
 
+# Only used for development purposes
 #: ../src/widgets/image-menu-item.c:184
 msgid "The Accel Group to use for stock accelerator keys"
-msgstr ""
+msgstr "Die Gruppe, die für Standardtastaturkürzel verwendet werden soll"
 
 #: ../src/widgets/lpe-toolbar.cpp:233
 msgid "Closed"
@@ -29873,29 +29875,32 @@ msgstr "Glättung:"
 
 #: ../src/widgets/mesh-toolbar.cpp:537
 msgid "Toggle Sides"
-msgstr ""
+msgstr "Seiten umschalten"
 
 #: ../src/widgets/mesh-toolbar.cpp:538
 msgid "Toggle selected sides between Beziers and lines."
-msgstr ""
+msgstr "Ausgewählte Seiten zu Bézierkurven oder Linien machen"
 
 #: ../src/widgets/mesh-toolbar.cpp:541
 msgid "Toggle side:"
-msgstr ""
+msgstr "Seite umschalten:"
 
 #: ../src/widgets/mesh-toolbar.cpp:548
 msgid "Make elliptical"
-msgstr ""
+msgstr "Elliptisch machen"
 
 #: ../src/widgets/mesh-toolbar.cpp:549
 msgid ""
 "Make selected sides elliptical by changing length of handles. Works best if "
 "handles already approximate ellipse."
 msgstr ""
+"Ausgewählte Seiten elliptisch machen durch Veränderung der Anfasserlänge. "
+"Funktioniert am besten, wenn die Anfasser bereits annäherungsweise eine "
+"Ellipsenform bilden."
 
 #: ../src/widgets/mesh-toolbar.cpp:552
 msgid "Make elliptical:"
-msgstr ""
+msgstr "Elliptisch machen:"
 
 #: ../src/widgets/mesh-toolbar.cpp:559
 msgid "Pick colors:"
@@ -30354,7 +30359,7 @@ msgstr "Pfadeffektbasiertes interaktives Vereinfachen"
 
 #: ../src/widgets/pencil-toolbar.cpp:418 ../src/widgets/pencil-toolbar.cpp:419
 msgid "LPE simplify flatten"
-msgstr ""
+msgstr "Vereinfachen-Pfadeffekt in normalen Pfad umwandeln"
 
 #: ../src/widgets/rect-toolbar.cpp:125
 msgid "Change rectangle"
@@ -30526,7 +30531,6 @@ msgstr "X:"
 
 #. shortLabel
 #: ../src/widgets/select-toolbar.cpp:443
-#, fuzzy
 msgctxt "Select toolbar"
 msgid "Horizontal coordinate of selection"
 msgstr "Horizontale Koordinate der Auswahl"
@@ -30545,7 +30549,6 @@ msgstr "Y:"
 
 #. shortLabel
 #: ../src/widgets/select-toolbar.cpp:462
-#, fuzzy
 msgctxt "Select toolbar"
 msgid "Vertical coordinate of selection"
 msgstr "Vertikale Koordinate der Auswahl"
@@ -30564,7 +30567,6 @@ msgstr "B:"
 
 #. shortLabel
 #: ../src/widgets/select-toolbar.cpp:481
-#, fuzzy
 msgctxt "Select toolbar"
 msgid "Width of selection"
 msgstr "Breite der Auswahl"
@@ -30591,7 +30593,6 @@ msgstr "H:"
 
 #. shortLabel
 #: ../src/widgets/select-toolbar.cpp:513
-#, fuzzy
 msgctxt "Select toolbar"
 msgid "Height of selection"
 msgstr "Höhe der Auswahl"
@@ -31205,33 +31206,28 @@ msgid "Square cap"
 msgstr "Quadratisches Ende"
 
 #: ../src/widgets/stroke-style.cpp:392
-#, fuzzy
 msgid "Fill, Stroke, Markers"
-msgstr "Strich-Stilmarkierungen"
+msgstr "Füllung, Kontur, Markierungen"
 
 #: ../src/widgets/stroke-style.cpp:396
-#, fuzzy
 msgid "Stroke, Fill, Markers"
-msgstr "Strich-Stilmarkierungen"
+msgstr "Kontur, Füllung, Markierungen"
 
 #: ../src/widgets/stroke-style.cpp:400
-#, fuzzy
 msgid "Fill, Markers, Stroke"
-msgstr "Füllung und _Kontur"
+msgstr "Füllung, Markierungen, Kontur"
 
 #: ../src/widgets/stroke-style.cpp:408
-#, fuzzy
 msgid "Markers, Fill, Stroke"
-msgstr "Füllung und _Kontur"
+msgstr "Markierungen, Füllung, Kontur"
 
 #: ../src/widgets/stroke-style.cpp:412
-#, fuzzy
 msgid "Stroke, Markers, Fill"
-msgstr "Strich-Stilmarkierungen"
+msgstr "Kontur, Markierungen, Füllung"
 
 #: ../src/widgets/stroke-style.cpp:416
 msgid "Markers, Stroke, Fill"
-msgstr ""
+msgstr "Markierungen, Kontur, Füllung"
 
 #: ../src/widgets/stroke-style.cpp:534
 msgid "Set markers"
@@ -31274,9 +31270,8 @@ msgid "Text: Change line-height"
 msgstr "Text: Linienhöhe ändern"
 
 #: ../src/widgets/text-toolbar.cpp:728
-#, fuzzy
 msgid "Text: Change line-height unit"
-msgstr "Text: Linienhöhe ändern"
+msgstr "Text: Einheit für Zeilenabstand ändern"
 
 #: ../src/widgets/text-toolbar.cpp:777
 msgid "Text: Change word-spacing"
@@ -31456,9 +31451,8 @@ msgstr "Linie:"
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1852
-#, fuzzy
 msgid "Spacing between baselines (times font size)"
-msgstr "Zeilenabstand (relativ zur Schriftgröße)"
+msgstr "Abstand zwischen Grundlinien (relativ zur Schriftgröße)"
 
 #. Drop down menu
 #: ../src/widgets/text-toolbar.cpp:1884 ../src/widgets/text-toolbar.cpp:1915
@@ -31934,7 +31928,7 @@ msgstr ""
 
 #: ../share/extensions/convert2dashes.py:56
 msgid "Total number of objects not converted: {}\n"
-msgstr ""
+msgstr "Anzahl aller nicht umgewandelten Objekte: {}\n"
 
 #: ../share/extensions/dimension.py:108
 msgid "Please select an object."
@@ -32399,7 +32393,7 @@ msgstr ""
 "konvertieren."
 
 #: ../share/extensions/inkex.py:116
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The fantastic lxml wrapper for libxml2 is required by inkex.py and therefore "
 "this extension.Please download and install the latest version from http://"
@@ -32409,10 +32403,13 @@ msgid ""
 "Technical details:\n"
 "%s"
 msgstr ""
-"Der fantastische lxml-Wrapper für libxml2 wird von inkex.py und dessen "
-"Erweiterung benötigt. Diese erhalten Sie unter \"http://cheeseshop.python."
-"org/pypi/lxml/\" oder durch ein Packet ihres Paketmanagers (z.B.: sudo apt-"
-"get install python-lxml)\n"
+"Der fantastische lxml-Wrapper für libxml2 wird von inkex.py und deshalb auch "
+"von dieser Erweiterung"
+"Erweiterung benötigt. Die aktuellste Version können Sie unter "
+"http://cheeseshop.python."
+"org/pypi/lxml/ herunterladen und installieren oder über ihren Paketmanager "
+"mit einem Befehl wie »sudo apt-"
+"get install python-lxml« installieren.\n"
 "\n"
 "Technische Details: \n"
 "%s"
@@ -32758,28 +32755,33 @@ msgstr ""
 "Keine Pfade gefunden. Bitte alle zu plottenden Objekte in Pfade umwandeln."
 
 #: ../share/extensions/plotter.py:146
-#, fuzzy
 msgid "pySerial is not installed. Please follow these steps:"
-msgstr "pySerial ist nicht installiert."
+msgstr "pySerial ist nicht installiert. Bitte folgen Sie diesen Anweisungen:"
 
 #: ../share/extensions/plotter.py:147
 msgid "1. Download and extract (unzip) this file to your local harddisk:"
 msgstr ""
+"1. Laden Sie diese Datei herunter und entpacken (unzip) Sie sie auf Ihre "
+"lokale Festplatte:"
 
 #: ../share/extensions/plotter.py:149
 msgid ""
 "2. Copy the \"serial\" folder (Can be found inside the just extracted folder)"
 msgstr ""
+"2. Kopieren Sie den Ordner »serial« (befindet sich in dem soeben entpackten "
+"Verzeichnis)"
 
 #: ../share/extensions/plotter.py:150
 msgid ""
 "   into the following Inkscape folder: C:\\[Program files]\\inkscape\\python"
 "\\Lib\\"
 msgstr ""
+"in den folgenden Inkscape-Ordner: C:\\[Programme]\\inkscape\\python"
+"\\Lib\\"
 
 #: ../share/extensions/plotter.py:151
 msgid "3. Close and restart Inkscape."
-msgstr ""
+msgstr "3. Schließen Sie Inkscape und starten Sie es erneut."
 
 #: ../share/extensions/plotter.py:200
 msgid ""
@@ -32936,6 +32938,12 @@ msgid ""
 "http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
 "and install into your Inkscape's Python location\n"
 msgstr ""
+"Sie benötigen die Software »UniConvertor«.\n"
+"Unter GNU/Linux: Installieren Sie das Paket »python-uniconvertor«.\n"
+"Unter Windows: Laden Sie die Software von \n"
+"http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
+"herunter und installieren Sie diese in das Python-Verzeichnis Ihrer "
+"Inkscape-Installation."
 
 #: ../share/extensions/voronoi2svg.py:205
 msgid "Please select objects!"
@@ -33277,24 +33285,24 @@ msgid "Randomize"
 msgstr "Zufallsänderung"
 
 #: ../share/extensions/color_randomize.inx.h:4
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Hue range (%)"
-msgstr "Farbtondrehung (°)"
+msgstr "Farbtonabweichung (%)"
 
 #: ../share/extensions/color_randomize.inx.h:6
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Saturation range (%)"
-msgstr "Sättigung (%)"
+msgstr "Sättigungsabweichung (%)"
 
 #: ../share/extensions/color_randomize.inx.h:8
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Lightness range (%)"
-msgstr "Helligkeit (%)"
+msgstr "Helligkeitsabweichung (%)"
 
 #: ../share/extensions/color_randomize.inx.h:10
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Opacity range (%)"
-msgstr "Deckkraft (%)"
+msgstr "Deckkraftabweichung (%)"
 
 #: ../share/extensions/color_randomize.inx.h:12
 msgid ""
@@ -33302,6 +33310,10 @@ msgid ""
 "only for objects and groups). Change the range values to limit the distance "
 "between the original color and the randomized one."
 msgstr ""
+"Verändert zufällig Farbe, Sättigung, Helligkeit und / oder Deckkraft "
+"(Deckkraft sowohl für Objekte als auch für Gruppen). Eine Verringerung der "
+"Abweichungswerte limitiert die Stärke der Abweichung zwischen dem Wert der "
+"Originalfarbe und der zufällig erzeugten."
 
 #: ../share/extensions/color_removeblue.inx.h:1
 msgid "Remove Blue"
@@ -33686,7 +33698,6 @@ msgid "Text Font:"
 msgstr "Text-Schriftart"
 
 #: ../share/extensions/dxf_input.inx.h:11
-#, fuzzy
 msgid ""
 "- AutoCAD Release 13 and newer.\n"
 "- for manual scaling, assume dxf drawing is in mm.\n"
@@ -33697,11 +33708,15 @@ msgid ""
 "- layers are preserved only on File->Open, not Import.\n"
 "- limited support for BLOCKS, use AutoCAD Explode Blocks instead, if needed."
 msgstr ""
-"- AutoCAD R13 und neuer.\n"
-"- Längeneinheiten der Zeichnung sind mm.\n"
-"- SVG-Längeneinheiten sind Pixel bei 90 dpi.\n"
-"- Ebenen werden nur erhalten bei \"Datei &gt Öffnen\", nicht bei "
-"\"Importieren\".\n"
+"- AutoCAD Version 13 und neuer.\n"
+"- für manuelle Größenänderung gehen Sie davon aus, dass die Einheit der "
+"dxf-Zeichnung mm ist.\n"
+"- gehen Sie von der Einheit Pixel bei 96 dpi für die SVG-Zeichnung aus.\n"
+"- Skalierungsfaktor und Ursprung gelten nur für manuelle Größenänderung.\n"
+"- »Automatisches Skalieren« passt in die Breite einer A4-Seite ein.\n"
+"- »Lesen aus Datei« verwendet die Variable $MEASUREMENT.\n"
+"- Ebenen werden nur bei »Datei &gt Öffnen« erhalten, nicht bei "
+"»Importieren«.\n"
 "- BLOCKS werden nicht voll unterstützt. Verwenden Sie AutoCAD Explode "
 "Blocks, falls nötig."
 
@@ -33734,12 +33749,10 @@ msgid "Character Encoding:"
 msgstr "Zeichenkodierung:"
 
 #: ../share/extensions/dxf_outlines.inx.h:7
-#, fuzzy
 msgid "Layer export selection:"
 msgstr "Ebenen-Export-Auswahl"
 
 #: ../share/extensions/dxf_outlines.inx.h:8
-#, fuzzy
 msgid "Layer match name:"
 msgstr "Übereinstimmender Ebenenname"
 
@@ -33821,7 +33834,6 @@ msgid "By name match"
 msgstr "Nach Namensübereinstimmung"
 
 #: ../share/extensions/dxf_outlines.inx.h:25
-#, fuzzy
 msgid ""
 "- AutoCAD Release 14 DXF format.\n"
 "- The base unit parameter specifies in what unit the coordinates are output "
@@ -33837,17 +33849,22 @@ msgid ""
 "- You can choose to export all layers, only visible ones or by name match "
 "(case insensitive and use comma ',' as separator)"
 msgstr ""
-"- AutoCAD R14-Format.\n"
-"- Die Basiseinheit Parameter gibt an, in welcher Einheit die Koordinaten "
-"ausgegeben werden (90 px = 1 in).\n"
-"- Unterstüzte Elementtypen\n"
-"   -Pfade (Linien und Splines)\n"
-"   -Rechtecke\n"
-"   -Klone (Die Kreuzreferenz zum Original geht verloren)\n"
-"- Die Option ROBO-Master bezieht sich auf spezielle Splines, die nur in ROBO-"
-"Master und AutoDesk, nicht aber in Inkscape, zur Verfügung stehen.\n"
-"- Es werden nur LWPOLYLINE- und SPLINE-Elemente unterstützt.\n"
-"-Sie können alle oder nur sichtbare Ebenen exportieren"
+"- AutoCAD Version 14 DXF-Format.\n"
+"- Der Parameter »Basiseinheit« gibt an, in welcher Einheit die Koordinaten "
+"ausgegeben werden (96 px = 1 in).\n"
+"- Unterstützte Elementtypen\n"
+"   - Pfade (Linien und Bézierkurven)\n"
+"   - Rechtecke\n"
+"   - Klone (die Kreuzreferenz zum Original geht verloren)\n"
+"- Die Option ROBO-Master-Ausgabe bezieht sich auf spezielle Kurven, die nur "
+"mit ROBO-"
+"Master- und AutoDesk-Anzeigeprogrammen geöffnet werden können, nicht aber mit "
+"Inkscape.\n"
+"- Die LWPOLYLINE-Ausgabe erzeugt eine vielfach verbundene Polylinie. "
+"Deaktivieren um eine ältere Version der LINE-Ausgabe zu verwenden.\n"
+"- Sie können entweder alle, nur sichtbare oder namensgleiche Ebenen "
+"exportieren (ignoriert Groß-/Kleinschreibung, Komma (,) trennt die einzelnen "
+"Namen)."
 
 #: ../share/extensions/dxf_outlines.inx.h:34
 msgid "Desktop Cutting Plotter (AutoCAD DXF R14) (*.dxf)"
@@ -33925,9 +33942,8 @@ msgid "Desktop"
 msgstr "Desktop"
 
 #: ../share/extensions/empty_desktop.inx.h:2
-#, fuzzy
 msgid "Desktop size:"
-msgstr "Punktgröße:"
+msgstr "Desktopgröße:"
 
 #. Maximum size is '16k'
 #: ../share/extensions/empty_desktop.inx.h:4
@@ -33993,14 +34009,12 @@ msgid "Page background:"
 msgstr "Seitenhintergrund:"
 
 #: ../share/extensions/empty_video.inx.h:1
-#, fuzzy
 msgid "Video Screen"
-msgstr "Screen"
+msgstr "Video-Leinwand"
 
 #: ../share/extensions/empty_video.inx.h:2
-#, fuzzy
 msgid "Video size:"
-msgstr "Punktgröße:"
+msgstr "Videogröße:"
 
 #: ../share/extensions/eps_input.inx.h:1
 msgid "EPS Input"
@@ -35643,7 +35657,7 @@ msgstr "Plottereinstellungen "
 
 #: ../share/extensions/hpgl_output.inx.h:8 ../share/extensions/plotter.inx.h:36
 msgid "Pen number:"
-msgstr "Stiftnummer:"
+msgstr "Stiftanzahl:"
 
 #: ../share/extensions/hpgl_output.inx.h:9 ../share/extensions/plotter.inx.h:37
 msgid "The number of the pen (tool) to use (Standard: '1')"
@@ -35724,6 +35738,10 @@ msgid ""
 "each pen, name the layers \"Pen 1\", \"Pen 2\", etc., and put your drawings "
 "in the corresponding layers. This overrules the pen number option above."
 msgstr ""
+"Möchten Sie mehrere Stifte in Ihrem Stiftplotter verwenden, so erstellen Sie "
+"für jeden Stift eine eigene Ebene, benennen diese nach dem Schema »Pen 1«, "
+"»Pen 2« usw. und erstellen Sie Ihre Zeichnung in der entsprechenden Ebene. "
+"Dies hat Vorrang vor der obigen Stiftanzahl-Einstellung."
 
 #: ../share/extensions/hpgl_output.inx.h:23
 #: ../share/extensions/plotter.inx.h:51
@@ -35746,9 +35764,8 @@ msgstr ""
 
 #: ../share/extensions/hpgl_output.inx.h:26
 #: ../share/extensions/plotter.inx.h:54
-#, fuzzy
 msgid "Tool (Knife) offset correction (mm):"
-msgstr "Werkzeugversatz (mm):"
+msgstr "Werkzeug-(Messer)-Versatzkorrektur (mm):"
 
 #: ../share/extensions/hpgl_output.inx.h:27
 #: ../share/extensions/plotter.inx.h:55
@@ -35761,9 +35778,8 @@ msgstr ""
 
 #: ../share/extensions/hpgl_output.inx.h:28
 #: ../share/extensions/plotter.inx.h:56
-#, fuzzy
 msgid "Precut"
-msgstr "Überschnitt verwenden"
+msgstr "Vorschneiden"
 
 #: ../share/extensions/hpgl_output.inx.h:29
 #: ../share/extensions/plotter.inx.h:57
@@ -35818,96 +35834,86 @@ msgid "Export an HP Graphics Language file"
 msgstr "HP Graphic Language-Datei exportieren"
 
 #: ../share/extensions/image_attributes.inx.h:1
-#, fuzzy
 msgid "Set Image Attributes"
-msgstr "Attribute festlegen"
+msgstr "Bildattribute festlegen"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:3
-#, fuzzy
 msgid "Basic"
-msgstr "Latein"
+msgstr "Einfach"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:5
 msgid "Support non-uniform scaling"
-msgstr ""
+msgstr "Änderung des Größenverhältnisses zulassen"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:7
 msgid "Render images blocky"
-msgstr ""
+msgstr "Stark vergrößerte Bilder nicht weichzeichnen"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:9
 msgid ""
 "Render all bitmap images like in older Inskcape versions. Available options:"
 msgstr ""
+"Alle Rastergrafiken wie in älteren Inkscape-Versionen darstellen. Verfügbare "
+"Optionen:"
 
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:11
-#, fuzzy
 msgid "Image Aspect Ratio"
-msgstr "Bild-Vereinfachungen"
+msgstr "Seitenverhältnis der Rastergrafik"
 
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:13
 msgid "preserveAspectRatio attribute:"
-msgstr ""
+msgstr "Attribut »preserveAspectRatio«:"
 
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:15
 msgid "meetOrSlice:"
-msgstr ""
+msgstr "meetOrSlice:"
 
 #. image-rendering
 #: ../share/extensions/image_attributes.inx.h:17
-#, fuzzy
 msgid "Scope:"
-msgstr "Umfang"
+msgstr "Anwenden auf:"
 
 #. image-rendering
 #: ../share/extensions/image_attributes.inx.h:19
-#, fuzzy
 msgid "Unset"
-msgstr "Einlage"
+msgstr "Nicht gesetzt"
 
 #: ../share/extensions/image_attributes.inx.h:20
-#, fuzzy
 msgid "Change only selected image(s)"
-msgstr "Nur ausgewählte Knoten ändern"
+msgstr "Ausgewählte Rastergrafik(en)"
 
 #: ../share/extensions/image_attributes.inx.h:21
-#, fuzzy
 msgid "Change all images in selection"
-msgstr "In der Auswahl konnte keine Ellipse gefunden werden"
+msgstr "Alle Rastergrafiken in der aktuellen Auswahl"
 
 #: ../share/extensions/image_attributes.inx.h:22
-#, fuzzy
 msgid "Change all images in document"
-msgstr "Rechtschreibprüfung für Text im Dokument"
+msgstr "Alle Rastergrafiken im Dokument"
 
 #. image-rendering
 #: ../share/extensions/image_attributes.inx.h:24
-#, fuzzy
 msgid "Image Rendering Quality"
-msgstr "Bildrendering"
+msgstr "Qualität der Bildwiedergabe"
 
 #. image-rendering
 #: ../share/extensions/image_attributes.inx.h:26
-#, fuzzy
 msgid "Image rendering attribute:"
-msgstr "Darstellugsmethode:"
+msgstr "Bildwiedergabeeigenschaft:"
 
 #: ../share/extensions/image_attributes.inx.h:27
-#, fuzzy
 msgid "Apply attribute to parent group of selection"
-msgstr "Transformation auf Auswahl anwenden"
+msgstr "Attribut auf die übergeordnete Gruppe der Auswahl anwenden"
 
 #: ../share/extensions/image_attributes.inx.h:28
-#, fuzzy
 msgid "Apply attribute to SVG root"
-msgstr "Attribute:"
+msgstr "Attribute auf das SVG-Wurzelelement anwenden"
 
 #: ../share/extensions/ink2canvas.inx.h:1
 msgid "Convert to html5 canvas"
@@ -35999,13 +36005,13 @@ msgid "Interpolate style"
 msgstr "Stil Interpolieren"
 
 #: ../share/extensions/interp.inx.h:7 ../share/extensions/interp_att_g.inx.h:10
-#, fuzzy
 msgid "Use Z-order"
-msgstr "Erhöhter Rand"
+msgstr "Stapelordnung verwenden"
 
 #: ../share/extensions/interp.inx.h:8 ../share/extensions/interp_att_g.inx.h:11
 msgid "Workaround for reversed selection order in Live Preview cycles"
 msgstr ""
+"Schafft Abhilfe für die wechselnde Auswahlreihenfolge in Vorschauzyklen"
 
 #: ../share/extensions/interp_att_g.inx.h:1
 msgid "Interpolate Attribute in a group"
@@ -36615,26 +36621,23 @@ msgstr "Knotenanfasser verschieben"
 
 #: ../share/extensions/jitternodes.inx.h:7
 msgid "Distribution of the displacements:"
-msgstr ""
+msgstr "Verteilung der Verschiebungen:"
 
 #: ../share/extensions/jitternodes.inx.h:8
-#, fuzzy
 msgid "Uniform"
-msgstr "Keilschrift"
+msgstr "Gleichmäßig"
 
 #: ../share/extensions/jitternodes.inx.h:9
 msgid "Pareto"
-msgstr ""
+msgstr "Pareto"
 
 #: ../share/extensions/jitternodes.inx.h:10
-#, fuzzy
 msgid "Gaussian"
-msgstr "Gaußscher Weichzeichner"
+msgstr "Gauß"
 
 #: ../share/extensions/jitternodes.inx.h:11
-#, fuzzy
 msgid "Log-normal"
-msgstr "Normal"
+msgstr "Log-Normal"
 
 #: ../share/extensions/jitternodes.inx.h:13
 msgid ""
@@ -36933,35 +36936,31 @@ msgstr "Pfad ausmessen"
 msgid "Measurement Type: "
 msgstr "Mess-Typ:"
 
+# 'Typ' passt hier besser als 'Voreinstellungen'
 #: ../share/extensions/measure.inx.h:4
-#, fuzzy
 msgid "Text Presets"
-msgstr "Einstellungen für Textwerkzeug"
+msgstr "Texttyp"
 
 #: ../share/extensions/measure.inx.h:6
-#, fuzzy
 msgid "Text on Path"
 msgstr "Text an Pfad"
 
 #: ../share/extensions/measure.inx.h:8
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Offset (%)"
-msgstr "Versatz (px):"
+msgstr "Abstand (%):"
 
 #: ../share/extensions/measure.inx.h:9
-#, fuzzy
 msgid "Text anchor:"
-msgstr "Textanker"
+msgstr "Textanker:"
 
 #: ../share/extensions/measure.inx.h:10
-#, fuzzy
 msgid "Fixed Text"
-msgstr "Fließtext"
+msgstr "Normaler Text"
 
 #: ../share/extensions/measure.inx.h:11
-#, fuzzy
 msgid "Angle (°):"
-msgstr "Winkel X:"
+msgstr "Winkel (°):"
 
 #: ../share/extensions/measure.inx.h:12
 msgid "Font size (px):"
@@ -36990,50 +36989,42 @@ msgid "Center of Mass"
 msgstr "Massenmittelpunkt"
 
 #: ../share/extensions/measure.inx.h:21
-#, fuzzy
 msgid "Text on Path, Start"
-msgstr "Text an Pfad"
+msgstr "Text an Pfad, Anfang"
 
 #: ../share/extensions/measure.inx.h:22
-#, fuzzy
 msgid "Text on Path, Middle"
-msgstr "Text an Pfad"
+msgstr "Text an Pfad, Mitte"
 
 #: ../share/extensions/measure.inx.h:23
-#, fuzzy
 msgid "Text on Path, End"
-msgstr "Text an Pfad"
+msgstr "Text an Pfad, Ende"
 
 #: ../share/extensions/measure.inx.h:24
 msgid "Fixed Text, Start of Path"
-msgstr ""
+msgstr "Normaler Text, Pfadanfang"
 
 #: ../share/extensions/measure.inx.h:25
 msgid "Fixed Text, Center of BBox"
-msgstr ""
+msgstr "Normaler Text, Zentrum des Objektrahmens"
 
 #: ../share/extensions/measure.inx.h:26
-#, fuzzy
 msgid "Fixed Text, Center of Mass"
-msgstr "Massenmittelpunkt"
+msgstr "Normaler Text, Massenmittelpunkt"
 
 #: ../share/extensions/measure.inx.h:28
-#, fuzzy
 msgid "Center"
-msgstr "Zentrieren"
+msgstr "Mitte"
 
 #: ../share/extensions/measure.inx.h:30
-#, fuzzy
 msgid "Start of Path"
-msgstr "Pfadanfang:"
+msgstr "Pfadanfang"
 
 #: ../share/extensions/measure.inx.h:31
-#, fuzzy
 msgid "Center of BBox"
-msgstr "Massenmittelpunkt"
+msgstr "Zentrum des Objektrahmens"
 
 #: ../share/extensions/measure.inx.h:32
-#, fuzzy
 msgid "Center of Mass"
 msgstr "Massenmittelpunkt"
 
@@ -37116,174 +37107,153 @@ msgstr "Nächsten Glyph anzeigen"
 
 #: ../share/extensions/nicechart.inx.h:1
 msgid "NiceCharts"
-msgstr ""
+msgstr "Diagramme"
 
 #: ../share/extensions/nicechart.inx.h:2
 msgid "Data"
-msgstr ""
+msgstr "Daten"
 
 #: ../share/extensions/nicechart.inx.h:3
-#, fuzzy
 msgid "Data from file"
-msgstr "Lade von Datei"
+msgstr "Daten aus Datei"
 
 #: ../share/extensions/nicechart.inx.h:5
-#, fuzzy
 msgid "Delimiter:"
-msgstr "Gehrungslimit:"
+msgstr "Trennzeichen:"
 
 #: ../share/extensions/nicechart.inx.h:6
 msgid "Column that contains the keys:"
-msgstr ""
+msgstr "Spalte, die die Schlüssel enthält:"
 
 #: ../share/extensions/nicechart.inx.h:7
-#, fuzzy
 msgid "Column that contains the values:"
-msgstr "Eine konstante Stimmenzahl"
+msgstr "Spalte, die die Werte enthält:"
 
 #: ../share/extensions/nicechart.inx.h:8
 msgid "File encoding (e.g. utf-8):"
-msgstr ""
+msgstr "Dateikodierung (z.B. utf-8):"
 
 #: ../share/extensions/nicechart.inx.h:9
 msgid "First line contains headings"
-msgstr ""
+msgstr "Erste Zeile enthält Überschriften"
 
 #: ../share/extensions/nicechart.inx.h:10
-#, fuzzy
 msgid "Direct input"
-msgstr "Richtung"
+msgstr "Direkt eingeben"
 
 #: ../share/extensions/nicechart.inx.h:11
 msgid "Data:"
-msgstr ""
+msgstr "Daten:"
 
 #: ../share/extensions/nicechart.inx.h:12
-#, fuzzy
 msgid "Enter the full path to a CSV file:"
-msgstr "Vollständiger Pfad zur Protokolldatei:"
+msgstr "Vollständiger Pfad zu einer CSV-Datei:"
 
 #: ../share/extensions/nicechart.inx.h:13
 msgid "Type in comma separated values:"
-msgstr ""
+msgstr "Komma getrennte Werte eingeben:"
 
 #: ../share/extensions/nicechart.inx.h:14
 msgid "(format like this: apples:3,bananas:5)"
-msgstr ""
+msgstr "(Format folgt diesem Schema: Äpfel:3,Bananen:5)"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: label of object, id as default, but can be changed to anything
 #: ../share/extensions/nicechart.inx.h:15
-#, fuzzy
 msgid "Labels"
-msgstr "Name"
+msgstr "Beschriftungen"
 
 #: ../share/extensions/nicechart.inx.h:16
-#, fuzzy
 msgid "Font:"
-msgstr "Schrift"
+msgstr "Schriftart:"
 
 # !!! correct?
 #: ../share/extensions/nicechart.inx.h:18
-#, fuzzy
 msgid "Font color:"
-msgstr "Monatsfarbe:"
+msgstr "Schriftfarbe:"
 
 #: ../share/extensions/nicechart.inx.h:19
 msgid "Charts"
-msgstr ""
+msgstr "Diagramme"
 
 #: ../share/extensions/nicechart.inx.h:20
-#, fuzzy
 msgid "Draw horizontally"
-msgstr "Horizontal verschieben"
+msgstr "Horizontal zeichnen"
 
 #: ../share/extensions/nicechart.inx.h:21
-#, fuzzy
 msgid "Bar length:"
-msgstr "Gr_oße Länge:"
+msgstr "Balkenlänge:"
 
 #: ../share/extensions/nicechart.inx.h:22
-#, fuzzy
 msgid "Bar width:"
-msgstr "Breite der Weichzeichnung"
+msgstr "Balkenbreite:"
 
 #: ../share/extensions/nicechart.inx.h:23
-#, fuzzy
 msgid "Pie radius:"
-msgstr "Innerer Radius:"
+msgstr "Tortenradius:"
 
 #: ../share/extensions/nicechart.inx.h:24
-#, fuzzy
 msgid "Bar offset:"
-msgstr "Pfadanfang:"
+msgstr "Abstand zwischen Balken:"
 
 #: ../share/extensions/nicechart.inx.h:26
 msgid "Offset between chart and labels:"
-msgstr ""
+msgstr "Abstand zwischen Diagramm und Beschriftungen:"
 
 #: ../share/extensions/nicechart.inx.h:27
 msgid "Offset between chart and chart title:"
-msgstr ""
+msgstr "Abstand zwischen Diagramm und Diagrammtitel:"
 
 #: ../share/extensions/nicechart.inx.h:28
 msgid "Work around aliasing effects (creates overlapping segments)"
-msgstr ""
+msgstr "Lückeneffekte umgehen (erstellt überlappende Segmente)"
 
 #: ../share/extensions/nicechart.inx.h:29
-#, fuzzy
 msgid "Color scheme:"
-msgstr "Farben:"
+msgstr "Farbschema:"
 
 #: ../share/extensions/nicechart.inx.h:30
-#, fuzzy
 msgid "Custom colors:"
-msgstr "Beulenfarbe"
+msgstr "Benutzerdefinierte Farben:"
 
 #: ../share/extensions/nicechart.inx.h:31
-#, fuzzy
 msgid "Reverse color scheme"
-msgstr "Konturfarbe entfernen"
+msgstr "Farbschema umkehren"
 
 #: ../share/extensions/nicechart.inx.h:32
-#, fuzzy
 msgid "Drop shadow"
-msgstr "Abgesetzter Schatten"
+msgstr "Schatten"
 
 #: ../share/extensions/nicechart.inx.h:37
 msgid "SAP"
-msgstr ""
+msgstr "SAP"
 
 #: ../share/extensions/nicechart.inx.h:38
-#, fuzzy
 msgid "Values"
-msgstr "Wert"
+msgstr "Werte"
 
 #: ../share/extensions/nicechart.inx.h:39
-#, fuzzy
 msgid "Show values"
-msgstr "Anfasser zeigen"
+msgstr "Werte anzeigen"
 
 #: ../share/extensions/nicechart.inx.h:40
-#, fuzzy
 msgid "Chart type:"
-msgstr "Schattentyp:"
+msgstr "Diagrammtyp:"
 
 #: ../share/extensions/nicechart.inx.h:41
-#, fuzzy
 msgid "Bar chart"
-msgstr "Höhe der Striche:"
+msgstr "Balkendiagramm"
 
 #: ../share/extensions/nicechart.inx.h:42
 msgid "Pie chart"
-msgstr ""
+msgstr "Tortendiagramm"
 
 #: ../share/extensions/nicechart.inx.h:43
 msgid "Pie chart (percentage)"
-msgstr ""
+msgstr "Tortendiagramm (prozentual)"
 
 #: ../share/extensions/nicechart.inx.h:44
 msgid "Stacked bar chart"
-msgstr ""
+msgstr "Gestapeltes Balkendiagramm"
 
 #: ../share/extensions/param_curves.inx.h:1
 msgid "Parametric Curves"
@@ -37572,9 +37542,8 @@ msgid "The Baud rate of your serial connection (Default: 9600)"
 msgstr "Die Baudrate Ihrer seriellen Verbindung (Standard: 9600)"
 
 #: ../share/extensions/plotter.inx.h:8
-#, fuzzy
 msgid "Serial byte size:"
-msgstr "Palettengröße:"
+msgstr "Serielle Bytegröße:"
 
 #: ../share/extensions/plotter.inx.h:10
 #, no-c-format
@@ -37582,11 +37551,12 @@ msgid ""
 "The Byte size of your serial connection, 99% of all plotters use the default "
 "setting (Default: 8 Bits)"
 msgstr ""
+"Die Bytegröße Ihrer seriellen Verbindung; 99% aller Plotter verwenden die "
+"Standardeinstellung (8 Bit)."
 
 #: ../share/extensions/plotter.inx.h:11
-#, fuzzy
 msgid "Serial stop bits:"
-msgstr "Serieller Port:"
+msgstr "Serielles Stop-Bit:"
 
 #: ../share/extensions/plotter.inx.h:13
 #, no-c-format
@@ -37594,11 +37564,12 @@ msgid ""
 "The Stop bits of your serial connection, 99% of all plotters use the default "
 "setting (Default: 1 Bit)"
 msgstr ""
+"Das Stop-Bit Ihrer seriellen Verbindung; 99% aller Plotter verwenden die "
+"Standardeinstellung (1 Bit)."
 
 #: ../share/extensions/plotter.inx.h:14
-#, fuzzy
 msgid "Serial parity:"
-msgstr "Serieller Port:"
+msgstr "Serielle Parität:"
 
 #: ../share/extensions/plotter.inx.h:16
 #, no-c-format
@@ -37606,11 +37577,12 @@ msgid ""
 "The Parity of your serial connection, 99% of all plotters use the default "
 "setting (Default: None)"
 msgstr ""
+"Die Parität Ihrer seriellen Verbindung; 99% aller Plotter verwenden die "
+"Standardeinstellung (Keine)."
 
 #: ../share/extensions/plotter.inx.h:17
-#, fuzzy
 msgid "Serial flow control:"
-msgstr "Fließkontrolle:"
+msgstr "Serielle Flusssteuerung:"
 
 #: ../share/extensions/plotter.inx.h:18
 msgid ""
@@ -37649,9 +37621,8 @@ msgid "DMPL"
 msgstr "DMPL"
 
 #: ../share/extensions/plotter.inx.h:27
-#, fuzzy
 msgid "KNK Plotter (HPGL variant)"
-msgstr "KNK Zing (HPGL-Variante)"
+msgstr "KNK Plotter (HPGL-Variante)"
 
 #: ../share/extensions/plotter.inx.h:28
 msgid ""
@@ -38135,7 +38106,7 @@ msgstr "Schriftarten auflisten"
 msgid ""
 "Choose this tab if you would like to see a list of the fonts used/found."
 msgstr ""
-"Schließen Sie diesen Tab wenn Sie eine Liste der benutzten/gefundenen "
+"Schließen Sie diesen Tab, wenn Sie eine Liste der verwendeten/gefundenen "
 "Schriftarten sehen möchten."
 
 #: ../share/extensions/replace_font.inx.h:8
@@ -38155,29 +38126,24 @@ msgid "Restack"
 msgstr "Umschichten"
 
 #: ../share/extensions/restack.inx.h:2
-#, fuzzy
 msgid "Based on Position"
-msgstr "Knotenposition anpassen"
+msgstr "Positionsabhängig"
 
 #: ../share/extensions/restack.inx.h:3
-#, fuzzy
 msgid "Presets"
-msgstr "Voreinstellung"
+msgstr "Vorgabewerte"
 
 #: ../share/extensions/restack.inx.h:6
-#, fuzzy
 msgid "Horizontal:"
-msgstr "_Horizontal:"
+msgstr "Horizontal:"
 
 #: ../share/extensions/restack.inx.h:7
-#, fuzzy
 msgid "Vertical:"
-msgstr "_Vertikal:"
+msgstr "Vertikal:"
 
 #: ../share/extensions/restack.inx.h:8
-#, fuzzy
 msgid "Restack Direction"
-msgstr "Richtung"
+msgstr "Richtung des Umschichtens"
 
 #: ../share/extensions/restack.inx.h:9
 msgid "Left to Right (0)"
@@ -38197,16 +38163,15 @@ msgstr "Oben nach Unten (270)"
 
 #: ../share/extensions/restack.inx.h:13
 msgid "Radial Outward"
-msgstr "Radial nach Aussen"
+msgstr "Radial nach Außen"
 
 #: ../share/extensions/restack.inx.h:14
 msgid "Radial Inward"
 msgstr "Radial nach Innen"
 
 #: ../share/extensions/restack.inx.h:15
-#, fuzzy
 msgid "Object Reference Point"
-msgstr "Innen-Außen-Referenzpunkt"
+msgstr "Objektreferenzpunkt"
 
 #: ../share/extensions/restack.inx.h:17
 #: ../share/extensions/text_extract.inx.h:9
@@ -38224,27 +38189,23 @@ msgstr "Oben"
 #: ../share/extensions/text_extract.inx.h:13
 #: ../share/extensions/text_merge.inx.h:13
 msgid "Bottom"
-msgstr "Unterste"
+msgstr "Unten"
 
 #: ../share/extensions/restack.inx.h:21
-#, fuzzy
 msgid "Based on Z-Order"
-msgstr "Erhöhter Rand"
+msgstr "Nach Stapelordnung"
 
 #: ../share/extensions/restack.inx.h:22
-#, fuzzy
 msgid "Restack Mode"
-msgstr "Umschichten"
+msgstr "Umschichten-Modus"
 
 #: ../share/extensions/restack.inx.h:23
-#, fuzzy
 msgid "Reverse Z-Order"
-msgstr "Farbverlauf umkehren"
+msgstr "Stapelordnung umkehren"
 
 #: ../share/extensions/restack.inx.h:24
-#, fuzzy
 msgid "Shuffle Z-Order"
-msgstr "Erhöhter Rand"
+msgstr "Zufällige Stapelordnung"
 
 #: ../share/extensions/restack.inx.h:26
 msgid ""
@@ -38253,6 +38214,11 @@ msgid ""
 "objects inside a single selected group, or a selection of multiple objects "
 "on the current drawing level (layer or group)."
 msgstr ""
+"Diese Erweiterung verändert die Stapelordnung von Objekten in Abhängigkeit "
+"von ihrer Position auf der Zeichenfläche oder ihrer aktuellen Stapelordnung. "
+"Auswahl: Die Erweiterung schichtet entweder die Objekte innerhalb einer "
+"einzelnen, ausgewählten Gruppe um oder mehrere ausgewählte Objekte innerhalb "
+"der aktiven Ebene oder Gruppe."
 
 #: ../share/extensions/restack.inx.h:27
 #: ../share/extensions/ungroup_deep.inx.h:6
@@ -38272,13 +38238,12 @@ msgid "Minimum size:"
 msgstr "Mindestgröße:"
 
 #: ../share/extensions/rtree.inx.h:4
-#, fuzzy
 msgid "Omit redundant segments"
-msgstr "Segmente begradigen"
+msgstr "Identische Segmente entfernen"
 
 #: ../share/extensions/rtree.inx.h:5
 msgid "Lift pen for backward steps"
-msgstr ""
+msgstr "Stift für Rückwärtsschritte anheben"
 
 #: ../share/extensions/rubberstretch.inx.h:1
 msgid "Rubber Stretch"
@@ -38631,9 +38596,8 @@ msgstr "Benutzerdefinierte Breite (px):"
 
 #: ../share/extensions/seamless_pattern.inx.h:3
 #: ../share/extensions/seamless_pattern_procedural.inx.h:3
-#, fuzzy
 msgid "Custom Height (px):"
-msgstr "Rechts (px):"
+msgstr "Benutzerdefinierte Höhe (px):"
 
 #: ../share/extensions/seamless_pattern.inx.h:4
 msgid "This extension overwrite current document"
@@ -38641,7 +38605,7 @@ msgstr "Diese Erweiterung ersetzt den Inhalt des aktuellen Dokuments."
 
 #: ../share/extensions/seamless_pattern_procedural.inx.h:1
 msgid "Seamless Pattern Procedural"
-msgstr ""
+msgstr "Vorlage für nahtlose Muster"
 
 #: ../share/extensions/setup_typography_canvas.inx.h:1
 msgid "1 - Setup Typography Canvas"
@@ -39148,32 +39112,29 @@ msgid "From Side c and Angles a, b"
 msgstr "Von Seite c und Winkel a, b"
 
 #: ../share/extensions/ungroup_deep.inx.h:1
-#, fuzzy
 msgid "Deep Ungroup"
-msgstr "Gruppierung aufheben"
+msgstr "Alle Gruppen aufheben"
 
 #: ../share/extensions/ungroup_deep.inx.h:2
-#, fuzzy
 msgid "Ungroup all groups in the selected object."
-msgstr "Eine Ausschneidemaske auf Basis der gewählten Objekte erstellen"
+msgstr "Hebt alle Gruppen im ausgewählten Objekt auf."
 
+# Tiefe is maybe not the best term here...
 #: ../share/extensions/ungroup_deep.inx.h:3
-#, fuzzy
 msgid "Starting Depth"
-msgstr "Pfadanfang:"
+msgstr "Starttiefe:"
 
 #: ../share/extensions/ungroup_deep.inx.h:4
-#, fuzzy
 msgid "Stopping Depth (from top)"
-msgstr "Ausschneidepfad von Auswahl entfernen"
+msgstr "Endtiefe (von oben)"
 
 #: ../share/extensions/ungroup_deep.inx.h:5
 msgid "Depth to Keep (from bottom)"
-msgstr ""
+msgstr "Zu erhaltende Tiefe (von unten)"
 
 #: ../share/extensions/voronoi2svg.inx.h:1
 msgid "Voronoi Diagram"
-msgstr "Voronoi Diagramm"
+msgstr "Voronoi-Diagramm"
 
 #: ../share/extensions/voronoi2svg.inx.h:3
 msgid "Type of diagram:"
@@ -39188,9 +39149,8 @@ msgid "Show the bounding box"
 msgstr "Objektrahmen anzeigen"
 
 #: ../share/extensions/voronoi2svg.inx.h:6
-#, fuzzy
 msgid "Triangles color"
-msgstr "Dreieck Ende"
+msgstr "Farbe der Dreiecke"
 
 #: ../share/extensions/voronoi2svg.inx.h:7
 msgid "Delaunay Triangulation"
@@ -39209,22 +39169,20 @@ msgid "Automatic from selected objects"
 msgstr "Automatisch von ausgewählten Objekten"
 
 #: ../share/extensions/voronoi2svg.inx.h:12
-#, fuzzy
 msgid "Options for Delaunay Triangulation"
-msgstr "Delaunay Dreiecksmethode"
+msgstr "Einstellungen für die Delaunay-Dreiecksmethode"
 
 #: ../share/extensions/voronoi2svg.inx.h:13
 msgid "Default (Stroke black and no fill)"
-msgstr ""
+msgstr "Standard (schwarze Kontur, keine Füllung)"
 
 #: ../share/extensions/voronoi2svg.inx.h:14
-#, fuzzy
 msgid "Triangles with item color"
-msgstr "Farbmuster-Farbe ändern"
+msgstr "Dreiecke in Objektfarbe"
 
 #: ../share/extensions/voronoi2svg.inx.h:15
 msgid "Triangles with item color (random on apply)"
-msgstr ""
+msgstr "Dreicke in Objektfarbe (zufällig angewendet)"
 
 #: ../share/extensions/voronoi2svg.inx.h:17
 msgid ""
