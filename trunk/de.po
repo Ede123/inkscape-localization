@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-05-30 08:43+0200\n"
-"PO-Revision-Date: 2016-06-05 04:22+0200\n"
+"PO-Revision-Date: 2016-06-07 18:23+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -3384,7 +3384,7 @@ msgstr "Sand (Bitmap)"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Cloth (bitmap)"
-msgstr "Stoff (Bitmap"
+msgstr "Stoff (Bitmap)"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Old paint (bitmap)"
@@ -4050,13 +4050,13 @@ msgstr "Verzögerung"
 #: ../share/symbols/symbols.h:175
 msgctxt "Symbol"
 msgid "Loop Limit Begin"
-msgstr "Schleifen Limit Anfang"
+msgstr "Schleifen-Anfang"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:176
 msgctxt "Symbol"
 msgid "Loop Limit End"
-msgstr "Schleifen Limit Ende"
+msgstr "Schleifen-Ende"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:177
@@ -4429,7 +4429,7 @@ msgstr "Einfache CD-Beschriftungsvorlage mit CD-Rändern"
 # key words for search
 #: ../share/templates/templates.h:1
 msgid "CD label 120x120 disc disk"
-msgstr "CD Label Etikett 120x120 DVD"
+msgstr "CD-Etikett 120x120 DVD"
 
 #: ../share/templates/templates.h:1
 msgid "No Layers"
@@ -4451,6 +4451,7 @@ msgstr "LaTeX Beamer"
 msgid "LaTeX beamer template with helping grid."
 msgstr "Vorlage für LaTeX Beamer mit Hilfsgitter."
 
+# The original appears to be a bit redundant, but I don't know enough about LaTex.
 #: ../share/templates/templates.h:1
 msgid "LaTex LaTeX latex grid beamer"
 msgstr "LaTex LaTeX latex Gitter Beamer"
@@ -4583,12 +4584,12 @@ msgstr "Winkel der Z-Achse"
 
 #: ../src/display/canvas-axonomgrid.cpp:374 ../src/display/canvas-grid.cpp:713
 msgid "Minor grid line _color:"
-msgstr "Nebengitter-Linienfarbe:"
+msgstr "Nebengitterlinienfarbe:"
 
 #: ../src/display/canvas-axonomgrid.cpp:374 ../src/display/canvas-grid.cpp:713
 #: ../src/ui/dialog/inkscape-preferences.cpp:775
 msgid "Minor grid line color"
-msgstr "Nebengitter-Linienfarbe:"
+msgstr "Nebengitterlinienfarbe:"
 
 #: ../src/display/canvas-axonomgrid.cpp:374 ../src/display/canvas-grid.cpp:713
 msgid "Color of the minor grid lines"
@@ -4699,11 +4700,11 @@ msgstr "Gitternetzlinie"
 
 #: ../src/display/snap-indicator.cpp:82
 msgid "grid intersection"
-msgstr "Gitter-Überschneidung"
+msgstr "Gitterüberschneidung"
 
 #: ../src/display/snap-indicator.cpp:85
 msgid "grid line (perpendicular)"
-msgstr "Gitterlinie (Senkrechte)"
+msgstr "Gitterlinie (senkrecht)"
 
 #: ../src/display/snap-indicator.cpp:88
 msgid "guide"
@@ -4711,7 +4712,7 @@ msgstr "Hilfslinie"
 
 #: ../src/display/snap-indicator.cpp:91
 msgid "guide intersection"
-msgstr "Gitter-Überschneidung"
+msgstr "Hilfslinienüberschneidung"
 
 #: ../src/display/snap-indicator.cpp:94
 msgid "guide origin"
@@ -4719,7 +4720,7 @@ msgstr "Hilfslinienursprung"
 
 #: ../src/display/snap-indicator.cpp:97
 msgid "guide (perpendicular)"
-msgstr "Hilfslinie (Senkrechte)"
+msgstr "Hilfslinie (senkrecht)"
 
 #: ../src/display/snap-indicator.cpp:100
 msgid "grid-guide intersection"
@@ -4813,13 +4814,14 @@ msgstr "Textanker"
 msgid "text baseline"
 msgstr "Text-Grundlinie"
 
+# Does this refer to holding Ctrl down while moving a snappable object?
 #: ../src/display/snap-indicator.cpp:170
 msgid "constrained angle"
-msgstr "abhängiger Winkel"
+msgstr "winkelbeschränkt"
 
 #: ../src/display/snap-indicator.cpp:173
 msgid "constraint"
-msgstr "erzwungen"
+msgstr "beschränkt"
 
 #: ../src/display/snap-indicator.cpp:187
 msgid "Bounding box corner"
@@ -4989,7 +4991,7 @@ msgid ""
 "inx file could have been caused by a faulty installation of Inkscape."
 msgstr ""
 " Dies wurde durch eine fehlerhafte ».inx«-Datei für diese Erweiterung "
-"verursacht. Eine fehlerhafte .inx Datei kann Folge einer Fehlinstallation "
+"verursacht. Eine fehlerhafte ».inx«-Datei kann Folge einer Fehlinstallation "
 "von Inkscape sein."
 
 #: ../src/extension/extension.cpp:277
@@ -5213,7 +5215,7 @@ msgstr "Schrotrauschen"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:60
 msgid "Add random noise to selected bitmap(s)"
-msgstr "Füge den Bitmap(s) zufälliges Rauschen hinzu"
+msgstr "Fügt den Bitmap(s) zufälliges Rauschen hinzu"
 
 #: ../src/extension/internal/bitmap/blur.cpp:38
 #: ../src/extension/internal/filter/blurs.h:54
@@ -5241,7 +5243,7 @@ msgstr "Radius:"
 #: ../src/extension/internal/bitmap/sharpen.cpp:41
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:44
 msgid "Sigma:"
-msgstr "Sigma"
+msgstr "Sigma:"
 
 #: ../src/extension/internal/bitmap/blur.cpp:47
 msgid "Blur selected bitmap(s)"
@@ -5253,7 +5255,7 @@ msgstr "Kanal"
 
 #: ../src/extension/internal/bitmap/channel.cpp:50
 msgid "Layer:"
-msgstr "Ebene"
+msgstr "Ebene:"
 
 #: ../src/extension/internal/bitmap/channel.cpp:51
 #: ../src/extension/internal/bitmap/levelChannel.cpp:55
@@ -5329,7 +5331,7 @@ msgstr "Kontrast"
 
 #: ../src/extension/internal/bitmap/contrast.cpp:42
 msgid "Adjust:"
-msgstr "Anpassen"
+msgstr "Anpassen:"
 
 #: ../src/extension/internal/bitmap/contrast.cpp:48
 msgid "Increase or decrease contrast in bitmap(s)"
@@ -5915,7 +5917,7 @@ msgstr "Corel DRAW Komprimierte Exchange Datei (.ccx)"
 #: ../src/extension/internal/cdr-input.cpp:325
 msgid "Open compressed exchange files saved in Corel DRAW"
 msgstr ""
-"Öffnen einer komprimierten Exchange Datei, die in Corel DRAW gespeichert "
+"Öffnen einer komprimierten Exchange-Datei, die in Corel DRAW gespeichert "
 "wurde"
 
 #: ../src/extension/internal/cdr-input.cpp:332
@@ -6437,7 +6439,7 @@ msgstr "Spot"
 
 #: ../src/extension/internal/filter/bumps.h:109
 msgid "Distant light options"
-msgstr "Entfernte Lichtoptionen"
+msgstr "Optionen für entfernte Lichtquelle"
 
 #: ../src/extension/internal/filter/bumps.h:110
 #: ../src/extension/internal/filter/bumps.h:332
@@ -6472,7 +6474,7 @@ msgstr "Z (Quelle)"
 
 #: ../src/extension/internal/filter/bumps.h:116
 msgid "Spot light options"
-msgstr "Punktlicht-Optionen"
+msgstr "Spotlight-Optionen"
 
 #: ../src/extension/internal/filter/bumps.h:120
 msgid "X target"
@@ -6531,11 +6533,11 @@ msgstr "Hintergrund-Deckkraft"
 #: ../src/extension/internal/filter/bumps.h:327
 #: ../src/extension/internal/filter/color.h:1115
 msgid "Lighting"
-msgstr "Blitz"
+msgstr "Beleuchtung"
 
 #: ../src/extension/internal/filter/bumps.h:334
 msgid "Lighting blend:"
-msgstr "Blitz-Mischung:"
+msgstr "Beleuchtungs-Mischung:"
 
 #: ../src/extension/internal/filter/bumps.h:341
 msgid "Highlight blend:"
@@ -6697,7 +6699,7 @@ msgstr "Mischen 2:"
 
 #: ../src/extension/internal/filter/color.h:425
 msgid "Blend image or object with a flood color"
-msgstr "Mischt Bild oder Objekt mit einer fließenden Farbe"
+msgstr "Mischt Bild oder Objekt mit einer Füllfarbe"
 
 #: ../src/extension/internal/filter/color.h:499 ../src/filter-enums.cpp:23
 msgid "Component Transfer"
@@ -6723,7 +6725,7 @@ msgstr "Getrennt"
 #: ../src/live_effects/lpe-interpolate_points.cpp:25
 #: ../src/live_effects/lpe-powerstroke.cpp:133
 msgid "Linear"
-msgstr "Linie"
+msgstr "Linear"
 
 #: ../src/extension/internal/filter/color.h:506 ../src/filter-enums.cpp:114
 msgid "Gamma"
@@ -6731,7 +6733,7 @@ msgstr "Gamma"
 
 #: ../src/extension/internal/filter/color.h:515
 msgid "Basic component transfer structure"
-msgstr "Basis-Komponente Transferstruktur"
+msgstr "Basiskomponenten-Transferstruktur"
 
 #: ../src/extension/internal/filter/color.h:584
 msgid "Duochrome"
@@ -6743,7 +6745,7 @@ msgstr "Fluoreszenz-Level"
 
 #: ../src/extension/internal/filter/color.h:589
 msgid "Swap:"
-msgstr "Tausch:"
+msgstr "Vertauschen:"
 
 #: ../src/extension/internal/filter/color.h:590
 msgid "No swap"
@@ -6891,7 +6893,7 @@ msgstr "Transparenz invertieren"
 
 #: ../src/extension/internal/filter/color.h:999
 msgid "Manage hue, lightness and transparency inversions"
-msgstr "Verwalten Farbton, Helligkeit und Transparenz-Umkehrungen"
+msgstr "Farbton, Helligkeit und Transparenz-Umkehrungen verwalten"
 
 #: ../src/extension/internal/filter/color.h:1117
 msgid "Lights"
@@ -6913,11 +6915,11 @@ msgstr "Versatz"
 
 #: ../src/extension/internal/filter/color.h:1127
 msgid "Modify lights and shadows separately"
-msgstr "Licht und Schatten einzeln verändern"
+msgstr "Lichter und Schatten einzeln verändern"
 
 #: ../src/extension/internal/filter/color.h:1186
 msgid "Lightness-Contrast"
-msgstr "Helligkeit - Kontrast"
+msgstr "Helligkeit / Kontrast"
 
 #: ../src/extension/internal/filter/color.h:1197
 msgid "Modify lightness and contrast separately"
@@ -6929,7 +6931,7 @@ msgstr "Präzisionsausrichtung RGB"
 
 #: ../src/extension/internal/filter/color.h:1269
 msgid "Red offset"
-msgstr "Rot-Versatz:"
+msgstr "Rot-Verschiebung:"
 
 #: ../src/extension/internal/filter/color.h:1270
 #: ../src/extension/internal/filter/color.h:1273
@@ -6954,18 +6956,18 @@ msgstr "Y:"
 
 #: ../src/extension/internal/filter/color.h:1272
 msgid "Green offset"
-msgstr "Grün-Versatz:"
+msgstr "Grün-Verschiebung:"
 
 #: ../src/extension/internal/filter/color.h:1275
 msgid "Blue offset"
-msgstr "Blau-Versatz:"
+msgstr "Blau-Verschiebung:"
 
 #: ../src/extension/internal/filter/color.h:1290
 msgid ""
 "Nudge RGB channels separately and blend them to different types of "
 "backgrounds"
 msgstr ""
-"Präzisionsausrichtung nach RGB-Kanälen getrennt und mischt sie zu "
+"Präzisionsausrichtung nach RGB-Kanälen getrennt; mischt sie zu "
 "verschiedenen Typen von Hintergründen"
 
 #: ../src/extension/internal/filter/color.h:1377
@@ -6974,22 +6976,22 @@ msgstr "Präzisionsausrichtung RGB"
 
 #: ../src/extension/internal/filter/color.h:1381
 msgid "Cyan offset"
-msgstr "Blau-Versatz"
+msgstr "Cyan-Verschiebung"
 
 #: ../src/extension/internal/filter/color.h:1384
 msgid "Magenta offset"
-msgstr "Rot-Versatz"
+msgstr "Magenta-Verschiebung"
 
 #: ../src/extension/internal/filter/color.h:1387
 msgid "Yellow offset"
-msgstr "Gelb-Versatz"
+msgstr "Gelb-Verschiebung"
 
 #: ../src/extension/internal/filter/color.h:1402
 msgid ""
 "Nudge CMY channels separately and blend them to different types of "
 "backgrounds"
 msgstr ""
-"Präzisionsausrichtung nach RGB-Kanälen getrennt und mischt sie zu "
+"Präzisionsausrichtung nach CMY-Kanälen getrennt; mischt sie zu "
 "verschiedenen Typen von Hintergründen"
 
 #: ../src/extension/internal/filter/color.h:1483
@@ -6998,7 +7000,7 @@ msgstr "Vierfarben-Fantasie"
 
 #: ../src/extension/internal/filter/color.h:1485
 msgid "Hue distribution (°)"
-msgstr "Farbton Verteilung (°)"
+msgstr "Farbtonverteilung (°)"
 
 #: ../src/extension/internal/filter/color.h:1486
 #: ../share/extensions/svgcalendar.inx.h:19
@@ -7063,15 +7065,15 @@ msgstr "Globales Licht"
 
 #: ../src/extension/internal/filter/color.h:1683
 msgid "Hue distribution (°):"
-msgstr "Farbton Verteilung (°):"
+msgstr "Farbtonverteilung (°):"
 
 #: ../src/extension/internal/filter/color.h:1694
 msgid ""
 "Create a custom tritone palette with additional glow, blend modes and hue "
 "moving"
 msgstr ""
-"Erstellt eine benutzerdefinierte Tritonus-Palette mit zusätzlichen Glanz, "
-"Füllmethoden und Farbton-Bewegung"
+"Erstellt eine benutzerdefinierte Tritonus-Palette mit zusätzlichem Glanz, "
+"Mischmodi und Farbtonverschiebung"
 
 #: ../src/extension/internal/filter/distort.h:67
 msgid "Felt Feather"
@@ -7097,7 +7099,7 @@ msgstr "Breit"
 #: ../src/extension/internal/filter/distort.h:80
 #: ../src/extension/internal/filter/textures.h:78
 msgid "Narrow"
-msgstr "eng"
+msgstr "Schmal"
 
 #: ../src/extension/internal/filter/distort.h:81
 msgid "No fill"
@@ -7254,7 +7256,7 @@ msgstr "Inhalt verwischen"
 
 #: ../src/extension/internal/filter/morphology.h:79
 msgid "Smooth edges and angles of shapes"
-msgstr "Glatte Kanten und Ecken von Formen"
+msgstr "Kanten und Ecken von Formen glätten"
 
 #: ../src/extension/internal/filter/morphology.h:166
 msgid "Outline"
@@ -7270,7 +7272,7 @@ msgstr "Bild ausblenden"
 
 #: ../src/extension/internal/filter/morphology.h:172
 msgid "Composite type:"
-msgstr "Gemischter Typ"
+msgstr "Mischtyp:"
 
 #: ../src/extension/internal/filter/morphology.h:173 ../src/filter-enums.cpp:88
 msgid "Over"
@@ -7453,7 +7455,7 @@ msgstr "Kornmischung:"
 
 #: ../src/extension/internal/filter/paint.h:116
 msgid "Chromo effect with customizable edge drawing and graininess"
-msgstr "Chromeffekt mit anpassbarer Kantenzeichnung und Körnigkeit"
+msgstr "Chromoeffekt mit anpassbarer Kantenzeichnung und Körnigkeit"
 
 #: ../src/extension/internal/filter/paint.h:232
 msgid "Cross Engraving"
@@ -7555,7 +7557,7 @@ msgstr "Geglättet"
 
 #: ../src/extension/internal/filter/paint.h:588
 msgid "Contrasted"
-msgstr "Abgestochen"
+msgstr "Kontrastiert"
 
 #: ../src/extension/internal/filter/paint.h:591
 #: ../src/live_effects/lpe-jointype.cpp:54
@@ -7570,7 +7572,7 @@ msgstr "Mischmodus:"
 
 #: ../src/extension/internal/filter/paint.h:605
 msgid "Posterize and draw smooth lines around color shapes"
-msgstr "Posterisiere und zeichne weicle Linien um farbige Formen herum"
+msgstr "Posterisiere und zeichne weiche Linien um farbige Formen herum"
 
 #: ../src/extension/internal/filter/paint.h:687
 msgid "Point Engraving"
@@ -7635,11 +7637,11 @@ msgstr "Simuliere Kantenglättung"
 
 #: ../src/extension/internal/filter/paint.h:880
 msgid "Poster and painting effects"
-msgstr "Poster und Gemäldeeffekt"
+msgstr "Poster- und Gemäldeeffekte"
 
 #: ../src/extension/internal/filter/paint.h:973
 msgid "Posterize Basic"
-msgstr "Posterisations-Basis"
+msgstr "Posterisieren (einfach)"
 
 #: ../src/extension/internal/filter/paint.h:984
 msgid "Simple posterizing effect"
@@ -7835,9 +7837,10 @@ msgid ""
 "Embed results in stand-alone, larger SVG files. Link references a file "
 "outside this SVG document and all files must be moved together."
 msgstr ""
-"Einbetten des Ergebnisses in eine eigenständige, größere SVG-Datei.Die "
-"Verknüpfung referenziert auf eine Datei außerhalb des SVG-Dokuments und alle "
-"Dateien müssen an einer Stelle liegen."
+"»Einbetten« bedeutet, dass die Bilder innerhalb der SVG-Datei gespeichert "
+"werden, wodurch die Datei größer wird. »Verknüpfen« bedeutet, dass im SVG auf "
+"eine externe Bilddatei verwiesen wird. In diesem Fall müssen ggf. später alle "
+"Dateien gemeinsam verschoben oder kopiert werden."
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:196
 #: ../src/ui/dialog/inkscape-preferences.cpp:1511
@@ -7878,7 +7881,7 @@ msgstr "Standard-Importauflösung"
 #: ../src/extension/internal/gdkpixbuf-input.cpp:205
 #, c-format
 msgid "Image Rendering Mode:"
-msgstr "Darstellugsmethode:"
+msgstr "Darstellungsmethode (Rasterbilder):"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:205
 #, c-format
@@ -8108,7 +8111,7 @@ msgid ""
 msgstr ""
 "Import durch interne (von Poppler abgeleitete) Bibliothek. Text wird als "
 "Text gespeichert, jedoch gehen Leerzeichen verloren. Verlaufsgitter werden "
-"gekachelt dargestellt, die Anzahl der Kacheln wird duch die unten "
+"gekachelt dargestellt, die Anzahl der Kacheln wird durch die unten "
 "eingestellte Präzision bestimmt."
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:148
@@ -8367,7 +8370,7 @@ msgstr "default.de.svg"
 #: ../src/file.cpp:332
 msgid "Broken links have been changed to point to existing files."
 msgstr ""
-"Defekte Verknüpfungen wurden geändert, um vorhandene Dateien zu verweisen."
+"Defekte Verknüpfungen wurden geändert, um auf vorhandene Dateien zu verweisen."
 
 #: ../src/file.cpp:343 ../src/file.cpp:1278
 #, c-format
@@ -8486,7 +8489,7 @@ msgstr "Importiere Clipart"
 
 #: ../src/filter-enums.cpp:22
 msgid "Color Matrix"
-msgstr "Farb-Matrix"
+msgstr "Farbmatrix"
 
 #: ../src/filter-enums.cpp:24
 msgid "Composite"
@@ -8494,7 +8497,7 @@ msgstr "Gemisch"
 
 #: ../src/filter-enums.cpp:25
 msgid "Convolve Matrix"
-msgstr "Matrix falten"
+msgstr "Faltungsmatrix"
 
 #: ../src/filter-enums.cpp:26
 msgid "Diffuse Lighting"
@@ -8828,8 +8831,8 @@ msgstr "Dokument wird automatisch gespeichert..."
 #: ../src/inkscape.cpp:335
 msgid "Autosave failed! Could not find inkscape extension to save document."
 msgstr ""
-"Automatisches Speichern fehlgeschlagen! Inkscape-Endung konnte nicht "
-"gefunden werden."
+"Automatisches Speichern fehlgeschlagen! Inkscape-Erweiterung zum Speichern "
+"konnte nicht gefunden werden."
 
 #: ../src/inkscape.cpp:338 ../src/inkscape.cpp:345
 #, c-format
@@ -8886,8 +8889,7 @@ msgstr "<b>Bewegen des Füllmusters</b> innerhalb des Objektes"
 
 #: ../src/knotholder.cpp:281 ../src/knotholder.cpp:303
 msgid "<b>Scale</b> the pattern fill; uniformly if with <b>Ctrl</b>"
-msgstr ""
-"Einheitliches <b>Skalieren</b> des Füllmusters; gleichmäßig durch <b>Strg</b>"
+msgstr "<b>Skalieren</b> des Füllmusters; gleichmäßig durch <b>Strg</b>"
 
 #: ../src/knotholder.cpp:285 ../src/knotholder.cpp:307
 msgid "<b>Rotate</b> the pattern fill; with <b>Ctrl</b> to snap angle"
@@ -8905,11 +8907,11 @@ msgstr "GdlDockMaster-Objekt, dem das Objekt zugeordnet ist"
 
 #: ../src/libgdl/gdl-dock-bar.c:113
 msgid "Dockbar style"
-msgstr "Stil de Dockleiste"
+msgstr "Stil der Dockleiste"
 
 #: ../src/libgdl/gdl-dock-bar.c:114
 msgid "Dockbar style to show items on it"
-msgstr "Stil, in dem Objekte auf der Dockleiste gezeigt werden"
+msgstr "Stil, in dem Objekte in der Dockleiste gezeigt werden"
 
 # "piktogrammifizieren" geht noch besser?
 #: ../src/libgdl/gdl-dock-item-grip.c:402
@@ -8918,7 +8920,7 @@ msgstr "Dieses Dock auf Icongröße verkleinern"
 
 #: ../src/libgdl/gdl-dock-item-grip.c:404
 msgid "Close this dock"
-msgstr "Diesen Dok schließen"
+msgstr "Diesen Dock schließen"
 
 # Zeit korrekt?
 #: ../src/libgdl/gdl-dock-item-grip.c:723 ../src/libgdl/gdl-dock-tablabel.c:125
@@ -9071,7 +9073,7 @@ msgid ""
 "named controller."
 msgstr ""
 "Die neue Docksteuerung %p ist automatisch. Nur manuelle Dockobjekte sollten "
-"Steuerung heissen."
+"Steuerung heißen."
 
 #: ../src/libgdl/gdl-dock-notebook.c:132
 #: ../src/ui/dialog/align-and-distribute.cpp:1089
@@ -9085,7 +9087,7 @@ msgstr "Seite"
 
 #: ../src/libgdl/gdl-dock-notebook.c:133
 msgid "The index of the current page"
-msgstr "Aktuelle Seitenzahl"
+msgstr "Aktuelle Seitennummer"
 
 #: ../src/libgdl/gdl-dock-object.c:125
 #: ../src/live_effects/parameter/originalpatharray.cpp:82
@@ -9117,11 +9119,11 @@ msgstr "Standardpiktogramm für das Dock-Objekt"
 
 #: ../src/libgdl/gdl-dock-object.c:147
 msgid "Pixbuf Icon"
-msgstr "Pixbuf Symbol"
+msgstr "Pixbuf-Symbol"
 
 #: ../src/libgdl/gdl-dock-object.c:148
 msgid "Pixbuf icon for the dock object"
-msgstr "Pixbuf Symbol für das Leisten-Objekt"
+msgstr "Pixbuf-Symbol für das Leisten-Objekt"
 
 #: ../src/libgdl/gdl-dock-object.c:153
 msgid "Dock master"
@@ -9186,7 +9188,7 @@ msgstr ""
 
 #: ../src/libgdl/gdl-dock-placeholder.c:149
 msgid "Host"
-msgstr "Betreiber"
+msgstr "Wirt"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:150
 msgid "The dock object this placeholder is attached to"
@@ -9388,7 +9390,7 @@ msgstr "Muster entlang Pfad"
 #. for historic reasons, this effect is called skeletal(strokes) in Inkscape:SVG
 #: ../src/live_effects/effect.cpp:121
 msgid "Stitch Sub-Paths"
-msgstr "Unterpfade zusammenfügen"
+msgstr "Unterpfade vernähen"
 
 #. 0.47
 #: ../src/live_effects/effect.cpp:123
@@ -9471,11 +9473,11 @@ msgstr "Pfad verjüngen"
 
 #: ../src/live_effects/effect.cpp:146
 msgid "Mirror symmetry"
-msgstr "Spiegelsymmetrisch"
+msgstr "Spiegelsymmetrie"
 
 #: ../src/live_effects/effect.cpp:147
 msgid "Rotate copies"
-msgstr "Kopien rotieren"
+msgstr "Gedrehte Kopien"
 
 #. Ponyscape -> Inkscape 0.92
 #: ../src/live_effects/effect.cpp:149
@@ -9518,13 +9520,13 @@ msgstr "Kein Effekt"
 #, c-format
 msgid "Please specify a parameter path for the LPE '%s' with %d mouse clicks"
 msgstr ""
-"Bitte spezifizieren Sie einen Parameterpfad für den Pfadeffekt \"%s\" mit %d "
+"Bitte erstellen Sie einen Parameterpfad für den Pfadeffekt \"%s\" mit %d "
 "Mausklicks."
 
 #: ../src/live_effects/effect.cpp:765
 #, c-format
 msgid "Editing parameter <b>%s</b>."
-msgstr "Editiere Parameter <b>%s</b>."
+msgstr "Bearbeite Parameter <b>%s</b>."
 
 #: ../src/live_effects/effect.cpp:770
 msgid "None of the applied path effect's parameters can be edited on-canvas."
@@ -9534,72 +9536,72 @@ msgstr ""
 
 #: ../src/live_effects/lpe-attach-path.cpp:29
 msgid "Start path:"
-msgstr "Pfadanfang:"
+msgstr "Anfangspfad:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:29
 msgid "Path to attach to the start of this path"
-msgstr "Pfad welcher an den Pfadanfang angeheftet wird"
+msgstr "Pfad, welcher an den Anfang des aktuellen Pfades angeheftet wird"
 
 #: ../src/live_effects/lpe-attach-path.cpp:30
 msgid "Start path position:"
-msgstr "Position Pfadanfang:"
+msgstr "Position Anfangspfad:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:30
 msgid "Position to attach path start to"
-msgstr "Position an welcher der Pfadanfang angeheftet wird"
+msgstr "Position, an welcher der erste Verbindungspfad angeheftet wird"
 
 #: ../src/live_effects/lpe-attach-path.cpp:31
 msgid "Start path curve start:"
-msgstr "Kurvenanfang am Pfadanfang:"
+msgstr "Anfang der Anfangspfadkurve:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:31
 #: ../src/live_effects/lpe-attach-path.cpp:35
 msgid "Starting curve"
-msgstr "Kurvenlinie am Anfang"
+msgstr "Krümmung am Anfang"
 
 #. , true
 #: ../src/live_effects/lpe-attach-path.cpp:32
 msgid "Start path curve end:"
-msgstr "Kurvenende am Pfadanfang:"
+msgstr "Ende der Anfangspfadkurve:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:32
 #: ../src/live_effects/lpe-attach-path.cpp:36
 msgid "Ending curve"
-msgstr "Kurvenlinie am Ende"
+msgstr "Krümmung am Ende"
 
 #. , true
 #: ../src/live_effects/lpe-attach-path.cpp:33
 msgid "End path:"
-msgstr "Pfadende:"
+msgstr "Endpfad:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:33
 msgid "Path to attach to the end of this path"
-msgstr "Pfad welcher an das Pfadende angeheftet wird"
+msgstr "Pfad, welcher an das Pfadende angeheftet wird"
 
 #: ../src/live_effects/lpe-attach-path.cpp:34
 msgid "End path position:"
-msgstr "Position Pfadende:"
+msgstr "Position Endpfad:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:34
 msgid "Position to attach path end to"
-msgstr "Position an welcher das Pfadende angeheftet wird"
+msgstr "Position, an welcher der Endpfad angeheftet wird"
 
 #: ../src/live_effects/lpe-attach-path.cpp:35
 msgid "End path curve start:"
-msgstr "Kurvenanfang am Pfadende:"
+msgstr "Anfang der Endpfadkurve:"
 
 #. , true
 #: ../src/live_effects/lpe-attach-path.cpp:36
 msgid "End path curve end:"
-msgstr "Kurvenende am Pfadende:"
+msgstr "Ende der Endpfadkurve:"
 
 #: ../src/live_effects/lpe-bendpath.cpp:69
 msgid "Bend path:"
-msgstr "Pfad verbiegen"
+msgstr "Verbiegepfad:"
 
 #: ../src/live_effects/lpe-bendpath.cpp:69
 msgid "Path along which to bend the original path"
-msgstr "Pfad an den der Orginalpfad angelegt wird"
+msgstr "Pfad, entlang welchem der Originalpfad gebogen werden soll"
 
 #: ../src/live_effects/lpe-bendpath.cpp:71
 #: ../src/live_effects/lpe-patternalongpath.cpp:74
@@ -9627,7 +9629,7 @@ msgstr "Originalpfad ist vertikal"
 #: ../src/live_effects/lpe-bendpath.cpp:73
 msgid "Rotates the original 90 degrees, before bending it along the bend path"
 msgstr ""
-"Rotiert das Original um 90 Grad bevor es entlang des Pfades gebogen wird"
+"Rotiert das Original um 90 Grad, bevor es entlang des Pfades gebogen wird"
 
 #: ../src/live_effects/lpe-bendpath.cpp:178
 #: ../src/live_effects/lpe-patternalongpath.cpp:285
@@ -9645,7 +9647,7 @@ msgstr "Verknüpfter Pfad:"
 #: ../src/live_effects/lpe-clone-original.cpp:18
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:23
 msgid "Path from which to take the original path data"
-msgstr "Pfad von dem die Orginal-Pfaddaten genommen werden"
+msgstr "Pfad, von dem die Orginal-Pfaddaten genommen werden"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:25
 msgid "Visual Bounds"
@@ -9740,7 +9742,7 @@ msgstr "Stich-Pfad"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:41
 msgid "The path that will be used as stitch."
-msgstr "Der Pfad wird als Knoten verwendet"
+msgstr "Pfad, der zum »Zusammennähen« verwendet wird."
 
 #: ../src/live_effects/lpe-curvestitch.cpp:42
 msgid "N_umber of paths:"
@@ -9752,7 +9754,7 @@ msgstr "Anzahl der zu erzeugenden Pfade"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:43
 msgid "Sta_rt edge variance:"
-msgstr "Start der Kanten Abweichung"
+msgstr "Start der Kanten-Abweichung"
 
 # Hier "stitches" etwa Kopien? Was ist dieser Effekt?
 #: ../src/live_effects/lpe-curvestitch.cpp:43
@@ -9761,7 +9763,7 @@ msgid ""
 "& outside the guide path"
 msgstr ""
 "Mittlere Größe der Abstände, um die die Startpunkte der Kopien inner- und "
-"außerhalb des Pfades versetzt werden."
+"außerhalb des Pfades zufällig versetzt werden."
 
 # Falschrum? Ausprobieren... Abweichung der Start-Abstände vielleicht?
 #: ../src/live_effects/lpe-curvestitch.cpp:44
@@ -9774,12 +9776,12 @@ msgid ""
 "& forth along the guide path"
 msgstr ""
 "Mittlere Größe der Abstände, um die die Startpunkte der Kopien entlang des "
-"Führungspfades versetzt werden."
+"Führungspfades zufällig versetzt werden."
 
 # Falschrum? Ausprobieren... Abweichung der End-Kante vielleicht?
 #: ../src/live_effects/lpe-curvestitch.cpp:45
 msgid "End ed_ge variance:"
-msgstr "Ende der Kanten Abweichung"
+msgstr "Ende der Kanten-Abweichung"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:45
 msgid ""
@@ -9787,7 +9789,7 @@ msgid ""
 "outside the guide path"
 msgstr ""
 "Mittlere Größe der Abstände, um die die Endpunkte der Kopien inner- und "
-"außerhalb des Führungspfades versetzt werden."
+"außerhalb des Führungspfades zufällig versetzt werden."
 
 # Falschrum? Ausprobieren... Abweichung der End-Abstände vielleicht?
 #: ../src/live_effects/lpe-curvestitch.cpp:46
@@ -9800,7 +9802,7 @@ msgid ""
 "forth along the guide path"
 msgstr ""
 "Mittlere Größe der Abstände, um die die Endpunkte der Kopien entlang des "
-"Führungspfades versetzt werden."
+"Führungspfades zufällig versetzt werden."
 
 #: ../src/live_effects/lpe-curvestitch.cpp:47
 msgid "Scale _width:"
@@ -9864,7 +9866,7 @@ msgstr "Aktiviere linke und rechte Pfade"
 
 #: ../src/live_effects/lpe-envelope.cpp:35
 msgid "Enable the left and right deformation paths"
-msgstr "Aktiviere linke und rechte Verformungs-Pfade"
+msgstr "Aktiviere linken und rechten Verformungs-Pfad"
 
 #: ../src/live_effects/lpe-envelope.cpp:36
 msgid "_Enable top & bottom paths"
@@ -9872,7 +9874,7 @@ msgstr "Aktiviere obere und untere Pfade"
 
 #: ../src/live_effects/lpe-envelope.cpp:36
 msgid "Enable the top and bottom deformation paths"
-msgstr "Aktiviere obere und untere Verformungs-Pfade"
+msgstr "Aktiviere oberen und unteren Verformungs-Pfad"
 
 #: ../src/live_effects/lpe-extrude.cpp:30
 msgid "Direction"
@@ -9884,7 +9886,7 @@ msgstr "Definiert Richtung und Ausmaß der Extrusion"
 
 #: ../src/live_effects/lpe-fill-between-many.cpp:25
 msgid "Paths from which to take the original path data"
-msgstr "Pfade von denen die Orginal-Pfaddaten genommen werden"
+msgstr "Pfade, von denen die Orginal-Pfaddaten genommen werden"
 
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:24
 msgid "Second path:"
@@ -9892,7 +9894,7 @@ msgstr "Zweiter Pfad:"
 
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:24
 msgid "Second path from which to take the original path data"
-msgstr "Zweiter Pfad von dem die Orginal-Pfaddaten genommen werden"
+msgstr "Zweiter Pfad, von dem die Orginal-Pfaddaten genommen werden"
 
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:25
 msgid "Reverse Second"
@@ -9974,7 +9976,7 @@ msgstr "WICHTIG! Bald neue Version..."
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:107
 msgid "Not compatible. Convert to path after."
-msgstr ""
+msgstr "Nicht kompatibel. Im Anschluss in Pfad umwandeln."
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:165
 #: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:72
@@ -10025,6 +10027,7 @@ msgstr "Zahl der Zähne"
 msgid "_Phi:"
 msgstr "_Phi:"
 
+# Are angle and ratio the same here? Does anyone know more about gears...?
 #: ../src/live_effects/lpe-gears.cpp:215
 msgid ""
 "Tooth pressure angle (typically 20-25 deg).  The ratio of teeth not in "
@@ -10037,7 +10040,7 @@ msgstr "Flugbahn:"
 
 #: ../src/live_effects/lpe-interpolate.cpp:30
 msgid "Path along which intermediate steps are created."
-msgstr "Pfad, entlang dem die Zwischenschritte entstehen"
+msgstr "Pfad, entlang dem die Zwischenschritte erstellt werden."
 
 #: ../src/live_effects/lpe-interpolate.cpp:31
 msgid "Steps_:"
@@ -10057,8 +10060,8 @@ msgid ""
 "the path. If false, the distance depends on the location of the nodes of the "
 "trajectory path."
 msgstr ""
-"Falls gesetzt ist der Abstand zwischen zwei Interpolationen konstant entlang "
-"des Pfades. Falls nicht gesetzt hängt der Abstand von der Position der "
+"Falls gesetzt, ist der Abstand zwischen zwei Interpolationen konstant entlang "
+"des Pfades. Falls nicht gesetzt, hängt der Abstand von der Position der "
 "Knoten des Trajektorienpfades ab."
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:26
@@ -10193,7 +10196,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-jointype.cpp:60
 msgid "Force miter"
-msgstr "Gehrung erwingen"
+msgstr "Gehrung erzwingen"
 
 #: ../src/live_effects/lpe-jointype.cpp:60
 msgid "Overrides the miter limit and forces a join."
@@ -10251,7 +10254,7 @@ msgstr "Kreuzungsmarkierungen"
 #: ../src/live_effects/lpe-knot.cpp:626
 msgid "Drag to select a crossing, click to flip it"
 msgstr ""
-"Ziehen Sie, um eine Überschneidung auszuwählen, Klicken Sie, um sie "
+"Ziehen Sie, um eine Überschneidung auszuwählen; klicken Sie, um sie "
 "umzudrehen"
 
 #. / @todo Is this the right verb?
@@ -10272,7 +10275,7 @@ msgstr "Bewegungen vertikal spiegeln"
 #: ../src/live_effects/lpe-lattice2.cpp:49
 msgid "Update while moving knots (maybe slow)"
 msgstr ""
-"Während dem verschieben von Knoten aktualisieren (möglicherweise langsam)"
+"Während des Verschiebens von Knoten aktualisieren (möglicherweise langsam)"
 
 #: ../src/live_effects/lpe-lattice2.cpp:50
 msgid "Control 0:"
@@ -10655,11 +10658,12 @@ msgstr "Perspektive"
 msgid "Envelope deformation"
 msgstr "Umhüllung verformen"
 
-# Ask Jabier what this does
+# Jabier: The 4 knots of the perspective can have positions not in real
+# perspective if this option is checked.
+# Maybe also: 'Falsche Perspektive erlauben'?
 #: ../src/live_effects/lpe-perspective-envelope.cpp:45
-#, fuzzy
 msgid "Overflow perspective"
-msgstr "Perspektive"
+msgstr "Perspektive: Überschreitung erlauben"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:46
 msgid "Type"
@@ -10873,7 +10877,7 @@ msgid ""
 "Add direction randomness by moving 'bottom' half-turns tangentially to the "
 "boundary."
 msgstr ""
-"Ändert Richtung zufällig, in dem \"untere\" Wendepunkte tangential zur "
+"Ändert Richtung zufällig, indem \"untere\" Wendepunkte tangential zur "
 "Begrenzung bewegt werden."
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:235
@@ -11182,7 +11186,7 @@ msgstr "Pfad anzeigen"
 
 #: ../src/live_effects/lpe-show_handles.cpp:28
 msgid "Scale nodes and handles"
-msgstr "Knoten, Anfasser skalieren"
+msgstr "Knoten und Anfasser skalieren"
 
 #: ../src/live_effects/lpe-show_handles.cpp:29
 #: ../src/ui/tool/multi-path-manipulator.cpp:788
@@ -11209,7 +11213,7 @@ msgstr "Anzahl der Vereinfachungsschritte"
 
 #: ../src/live_effects/lpe-simplify.cpp:31
 msgid "Roughly threshold:"
-msgstr "Rauigkeits Schwellwert:"
+msgstr "Rauigkeits-Schwellwert:"
 
 #: ../src/live_effects/lpe-simplify.cpp:32
 msgid "Smooth angles:"
@@ -11217,7 +11221,7 @@ msgstr "Ecken abrunden:"
 
 #: ../src/live_effects/lpe-simplify.cpp:32
 msgid "Max degree difference on handles to perform a smooth"
-msgstr "Maximaler Winkel zwischen Anfassern für den noch geglättet wird"
+msgstr "Maximaler Winkel zwischen Anfassern, für den noch geglättet wird"
 
 #: ../src/live_effects/lpe-simplify.cpp:34
 msgid "Paths separately"
@@ -11230,11 +11234,12 @@ msgstr "Vereinfache Pfade (getrennt)"
 # Ask Jabier what this does
 #: ../src/live_effects/lpe-simplify.cpp:36
 msgid "Just coalesce"
-msgstr ""
+msgstr "Nur verschmelzen"
 
+# I asked Jabier what this option does, but he didn't have a clue.
 #: ../src/live_effects/lpe-simplify.cpp:36
 msgid "Simplify just coalesce"
-msgstr ""
+msgstr "Vereinfachen verschmilzt nur"
 
 #. initialise your parameters here:
 #. testpointA(_("Test Point A"), _("Test A"), "ptA", &wr, this, Geom::Point(100,100)),
@@ -11244,7 +11249,7 @@ msgstr "Kontur:"
 
 #: ../src/live_effects/lpe-sketch.cpp:38
 msgid "Draw that many approximating strokes"
-msgstr "Zeichne diese Zahl an durchschnittlichen Strichen"
+msgstr "Zeichne diese Anzahl von Näherungs-Strichen"
 
 #: ../src/live_effects/lpe-sketch.cpp:39
 msgid "Max stroke length:"
@@ -11252,7 +11257,7 @@ msgstr "Maximale Konturbreite:"
 
 #: ../src/live_effects/lpe-sketch.cpp:40
 msgid "Maximum length of approximating strokes"
-msgstr "Maximale Länge der durchschnittlichen Striche"
+msgstr "Maximale Länge der Näherungs-Striche"
 
 #: ../src/live_effects/lpe-sketch.cpp:41
 msgid "Stroke length variation:"
@@ -11269,7 +11274,7 @@ msgstr "Max. Überlappung:"
 #: ../src/live_effects/lpe-sketch.cpp:44
 msgid "How much successive strokes should overlap (relative to maximum length)"
 msgstr ""
-"Wie viele erfolgreich gezeichnete Striche sollen überlappen (relativ zur "
+"Wie viele aufeinanderfolgende Striche sollen überlappen (relativ zur "
 "max. Länge)"
 
 #: ../src/live_effects/lpe-sketch.cpp:45
@@ -24154,9 +24159,10 @@ msgid "Add guides from measure tool"
 msgstr "Hilflinien aus Messwerkzeug hinzufügen"
 
 # Entry in edit history, but what is "Stored" (where) and can it actually be undone?
+# - According to Jabier, it's the grey phantom measure you get (temporarily) when using the corresponding button - used to compare two measures.
 #: ../src/ui/tools/measure-tool.cpp:781
 msgid "Add Stored to measure tool"
-msgstr ""
+msgstr "Phantombild des aktuellen Maßstabs erstellt"
 
 #: ../src/ui/tools/measure-tool.cpp:801
 msgid "Convert measure to items"
