@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-05-30 08:43+0200\n"
-"PO-Revision-Date: 2016-06-07 18:23+0200\n"
+"PO-Revision-Date: 2016-06-09 03:27+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -4990,8 +4990,8 @@ msgid ""
 "  This is caused by an improper .inx file for this extension.  An improper ."
 "inx file could have been caused by a faulty installation of Inkscape."
 msgstr ""
-" Dies wurde durch eine fehlerhafte ».inx«-Datei für diese Erweiterung "
-"verursacht. Eine fehlerhafte ».inx«-Datei kann Folge einer Fehlinstallation "
+" Dies wurde durch eine fehlerhafte „.inx“-Datei für diese Erweiterung "
+"verursacht. Eine fehlerhafte „.inx“-Datei kann Folge einer Fehlinstallation "
 "von Inkscape sein."
 
 #: ../src/extension/extension.cpp:277
@@ -6931,7 +6931,7 @@ msgstr "Präzisionsausrichtung RGB"
 
 #: ../src/extension/internal/filter/color.h:1269
 msgid "Red offset"
-msgstr "Rot-Verschiebung:"
+msgstr "Rot-Versatz:"
 
 #: ../src/extension/internal/filter/color.h:1270
 #: ../src/extension/internal/filter/color.h:1273
@@ -6956,11 +6956,11 @@ msgstr "Y:"
 
 #: ../src/extension/internal/filter/color.h:1272
 msgid "Green offset"
-msgstr "Grün-Verschiebung:"
+msgstr "Grün-Versatz:"
 
 #: ../src/extension/internal/filter/color.h:1275
 msgid "Blue offset"
-msgstr "Blau-Verschiebung:"
+msgstr "Blau-Versatz:"
 
 #: ../src/extension/internal/filter/color.h:1290
 msgid ""
@@ -7837,8 +7837,8 @@ msgid ""
 "Embed results in stand-alone, larger SVG files. Link references a file "
 "outside this SVG document and all files must be moved together."
 msgstr ""
-"»Einbetten« bedeutet, dass die Bilder innerhalb der SVG-Datei gespeichert "
-"werden, wodurch die Datei größer wird. »Verknüpfen« bedeutet, dass im SVG auf "
+"„Einbetten“ bedeutet, dass die Bilder innerhalb der SVG-Datei gespeichert "
+"werden, wodurch die Datei größer wird. „Verknüpfen“ bedeutet, dass im SVG auf "
 "eine externe Bilddatei verwiesen wird. In diesem Fall müssen ggf. später alle "
 "Dateien gemeinsam verschoben oder kopiert werden."
 
@@ -9742,7 +9742,7 @@ msgstr "Stich-Pfad"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:41
 msgid "The path that will be used as stitch."
-msgstr "Pfad, der zum »Zusammennähen« verwendet wird."
+msgstr "Pfad, der zum „Zusammennähen“ verwendet wird."
 
 #: ../src/live_effects/lpe-curvestitch.cpp:42
 msgid "N_umber of paths:"
@@ -11199,9 +11199,9 @@ msgid ""
 "The \"show handles\" path effect will remove any custom style on the object "
 "you are applying it to. If this is not what you want, click Cancel."
 msgstr ""
-"Der »Anfasser zeigen«-Pfadeffekt entfernt alle benutzerdefinierten Stile des "
+"Der „Anfasser zeigen“-Pfadeffekt entfernt alle benutzerdefinierten Stile des "
 "Objektes, auf den er angewendet wird. Ist dies nicht erwünscht, bitte auf "
-"»Abbrechen« klicken."
+"„Abbrechen“ klicken."
 
 #: ../src/live_effects/lpe-simplify.cpp:30
 msgid "Steps:"
@@ -32414,8 +32414,8 @@ msgstr ""
 "Erweiterung benötigt. Die aktuellste Version können Sie unter "
 "http://cheeseshop.python."
 "org/pypi/lxml/ herunterladen und installieren oder über ihren Paketmanager "
-"mit einem Befehl wie »sudo apt-"
-"get install python-lxml« installieren.\n"
+"mit einem Befehl wie „sudo apt-"
+"get install python-lxml“ installieren.\n"
 "\n"
 "Technische Details: \n"
 "%s"
@@ -32774,7 +32774,7 @@ msgstr ""
 msgid ""
 "2. Copy the \"serial\" folder (Can be found inside the just extracted folder)"
 msgstr ""
-"2. Kopieren Sie den Ordner »serial« (befindet sich in dem soeben entpackten "
+"2. Kopieren Sie den Ordner „serial“ (befindet sich in dem soeben entpackten "
 "Verzeichnis)"
 
 #: ../share/extensions/plotter.py:150
@@ -32944,8 +32944,8 @@ msgid ""
 "http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
 "and install into your Inkscape's Python location\n"
 msgstr ""
-"Sie benötigen die Software »UniConvertor«.\n"
-"Unter GNU/Linux: Installieren Sie das Paket »python-uniconvertor«.\n"
+"Sie benötigen die Software „UniConvertor“.\n"
+"Unter GNU/Linux: Installieren Sie das Paket „python-uniconvertor“.\n"
 "Unter Windows: Laden Sie die Software von \n"
 "http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
 "herunter und installieren Sie diese in das Python-Verzeichnis Ihrer "
@@ -33719,10 +33719,10 @@ msgstr ""
 "dxf-Zeichnung mm ist.\n"
 "- gehen Sie von der Einheit Pixel bei 96 dpi für die SVG-Zeichnung aus.\n"
 "- Skalierungsfaktor und Ursprung gelten nur für manuelle Größenänderung.\n"
-"- »Automatisches Skalieren« passt in die Breite einer A4-Seite ein.\n"
-"- »Lesen aus Datei« verwendet die Variable $MEASUREMENT.\n"
-"- Ebenen werden nur bei »Datei &gt Öffnen« erhalten, nicht bei "
-"»Importieren«.\n"
+"- „Automatisches Skalieren“ passt in die Breite einer A4-Seite ein.\n"
+"- „Lesen aus Datei“ verwendet die Variable $MEASUREMENT.\n"
+"- Ebenen werden nur bei „Datei &gt Öffnen“ erhalten, nicht bei "
+"„Importieren“.\n"
 "- BLOCKS werden nicht voll unterstützt. Verwenden Sie AutoCAD Explode "
 "Blocks, falls nötig."
 
@@ -33856,7 +33856,7 @@ msgid ""
 "(case insensitive and use comma ',' as separator)"
 msgstr ""
 "- AutoCAD Version 14 DXF-Format.\n"
-"- Der Parameter »Basiseinheit« gibt an, in welcher Einheit die Koordinaten "
+"- Der Parameter „Basiseinheit“ gibt an, in welcher Einheit die Koordinaten "
 "ausgegeben werden (96 px = 1 in).\n"
 "- Unterstützte Elementtypen\n"
 "   - Pfade (Linien und Bézierkurven)\n"
@@ -35745,8 +35745,8 @@ msgid ""
 "in the corresponding layers. This overrules the pen number option above."
 msgstr ""
 "Möchten Sie mehrere Stifte in Ihrem Stiftplotter verwenden, so erstellen Sie "
-"für jeden Stift eine eigene Ebene, benennen diese nach dem Schema »Pen 1«, "
-"»Pen 2« usw. und erstellen Sie Ihre Zeichnung in der entsprechenden Ebene. "
+"für jeden Stift eine eigene Ebene, benennen diese nach dem Schema „Pen 1“, "
+"„Pen 2“ usw. und erstellen Sie Ihre Zeichnung in der entsprechenden Ebene. "
 "Dies hat Vorrang vor der obigen Stiftanzahl-Einstellung."
 
 #: ../share/extensions/hpgl_output.inx.h:23
@@ -35874,7 +35874,7 @@ msgstr "Seitenverhältnis der Rastergrafik"
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:13
 msgid "preserveAspectRatio attribute:"
-msgstr "Attribut »preserveAspectRatio«:"
+msgstr "Attribut „preserveAspectRatio“:"
 
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:15
