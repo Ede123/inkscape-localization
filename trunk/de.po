@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-05-30 08:43+0200\n"
-"PO-Revision-Date: 2016-06-09 03:27+0200\n"
+"PO-Revision-Date: 2016-06-10 03:57+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -11245,7 +11245,7 @@ msgstr "Vereinfachen verschmilzt nur"
 #. testpointA(_("Test Point A"), _("Test A"), "ptA", &wr, this, Geom::Point(100,100)),
 #: ../src/live_effects/lpe-sketch.cpp:38
 msgid "Strokes:"
-msgstr "Kontur:"
+msgstr "Striche:"
 
 #: ../src/live_effects/lpe-sketch.cpp:38
 msgid "Draw that many approximating strokes"
@@ -11253,7 +11253,7 @@ msgstr "Zeichne diese Anzahl von Näherungs-Strichen"
 
 #: ../src/live_effects/lpe-sketch.cpp:39
 msgid "Max stroke length:"
-msgstr "Maximale Konturbreite:"
+msgstr "Maximale Strichlänge:"
 
 #: ../src/live_effects/lpe-sketch.cpp:40
 msgid "Maximum length of approximating strokes"
@@ -11294,8 +11294,8 @@ msgid ""
 "Maximum distance between ends of original and approximating paths (relative "
 "to maximum length)"
 msgstr ""
-"Maximale Distanz zwischen dem Ende der originalen und durschnittlichen Pfade "
-"(relativ zur max. Länge)"
+"Maximale Distanz zwischen dem Ende des Originalpfades und dem der "
+"Näherungspfade (relativ zur max. Länge)"
 
 #: ../src/live_effects/lpe-sketch.cpp:49
 msgid "Average offset:"
@@ -11303,7 +11303,7 @@ msgstr "Durchschn. Versatz:"
 
 #: ../src/live_effects/lpe-sketch.cpp:50
 msgid "Average distance each stroke is away from the original path"
-msgstr "Mittlere Distanz, die ein Strich vom Originalpfad entfernt ist"
+msgstr "Mittlerer Abstand eines Striches vom Originalpfad"
 
 #: ../src/live_effects/lpe-sketch.cpp:51
 msgid "Max. tremble:"
@@ -11690,7 +11690,7 @@ msgid ""
 "+click</b> adds a control point, <b>Ctrl+Alt+click</b> deletes it, <b>Shift"
 "+click</b> launches width dialog."
 msgstr ""
-"<b>Kontrollpunkt der Kontur</b> Ziehen verändert Strichstärke. <b>Strg"
+"<b>Kontrollpunkt für Konturbreite</b>: Ziehen verändert Strichstärke. <b>Strg"
 "+Klick</b> fügt Kontrollpunkt hinzu, <b>Strg+Alt+Klick</b> löscht ihn, "
 "<b>Umschalt+Klick</b> öffnet Dialog um Position/Strichstärke manuell "
 "festzulegen."
@@ -11815,7 +11815,7 @@ msgstr ""
 
 #: ../src/main.cpp:360
 msgid "The width of exported bitmap in pixels (overrides export-dpi)"
-msgstr "Breite der erzeugten Bitmap in Pixeln (überschreibt Export-dpi)"
+msgstr "Breite der erzeugten Rastergrafik in Pixeln (überschreibt Export-dpi)"
 
 #: ../src/main.cpp:361
 msgid "WIDTH"
@@ -11823,20 +11823,21 @@ msgstr "BREITE"
 
 #: ../src/main.cpp:365
 msgid "The height of exported bitmap in pixels (overrides export-dpi)"
-msgstr "Höhe der erzeugten Bitmap in Pixeln (überschreibt Export-dpi)"
+msgstr "Höhe der erzeugten Rastergrafik in Pixeln (überschreibt Export-dpi)"
 
 #: ../src/main.cpp:366
 msgid "HEIGHT"
 msgstr "HÖHE"
 
+# Changed because this refers to object id in xml
 #: ../src/main.cpp:370
 msgid "The ID of the object to export"
-msgstr "Kennung des zu exportierenden Objektes"
+msgstr "ID des zu exportierenden Objektes"
 
 #: ../src/main.cpp:371 ../src/main.cpp:484
 #: ../src/ui/dialog/inkscape-preferences.cpp:1569
 msgid "ID"
-msgstr "Kennung"
+msgstr "ID"
 
 #. TRANSLATORS: this means: "Only export the object whose id is given in --export-id".
 #. See "man inkscape" for details.
@@ -11856,7 +11857,7 @@ msgstr ""
 #: ../src/main.cpp:387
 msgid "Background color of exported bitmap (any SVG-supported color string)"
 msgstr ""
-"Hintergrundfarbe der exportierten Bitmap (jede von SVG unterstützte "
+"Hintergrundfarbe der exportierten Rastergrafik (jede von SVG unterstützte "
 "Farbzeichenkette)"
 
 #: ../src/main.cpp:388
@@ -11866,47 +11867,50 @@ msgstr "FARBE"
 #: ../src/main.cpp:392
 msgid "Background opacity of exported bitmap (either 0.0 to 1.0, or 1 to 255)"
 msgstr ""
-"Hintergrunddeckkraft der exportierten Bitmap (0,0 bis 1,0 oder 1 bis 255)"
+"Hintergrunddeckkraft der exportierten Rastergrafik (0,0 bis 1,0 oder 1 bis "
+"255)"
 
 #: ../src/main.cpp:397
 msgid "Export document to plain SVG file (no sodipodi or inkscape namespaces)"
 msgstr ""
-"Dokument in reine SVG-Datei exportieren (ohne Sodipodi- oder Inkscape-"
+"Dokument als reine SVG-Datei exportieren (ohne Sodipodi- oder Inkscape-"
 "Namensräume)"
 
 #: ../src/main.cpp:402
 msgid "Export document to a PS file"
-msgstr "Das Dokument in eine PS-Datei exportieren"
+msgstr "Das Dokument als PS-Datei exportieren"
 
 #: ../src/main.cpp:407
 msgid "Export document to an EPS file"
-msgstr "Das Dokument in eine EPS-Datei exportieren"
+msgstr "Das Dokument als EPS-Datei exportieren"
 
 #: ../src/main.cpp:412
 msgid ""
 "Choose the PostScript Level used to export. Possible choices are 2 and 3 "
 "(the default)"
 msgstr ""
-"Wähle das PostScript Level für den Export. Auswahlmöglichkeiten sind 2 und 3 "
+"Wähle das PostScript-Level für den Export. Auswahlmöglichkeiten sind 2 und 3 "
 "(Standard)"
 
 #: ../src/main.cpp:414
 msgid "PS Level"
-msgstr "PS Level"
+msgstr "PS-Level"
 
 #: ../src/main.cpp:418
 msgid "Export document to a PDF file"
-msgstr "Das Dokument in eine PDF-Datei exportieren"
+msgstr "Das Dokument als PDF-Datei exportieren"
 
+# !!! would these quotes need to be kept as they are? Looks like it's explaining command line options.
 #. TRANSLATORS: "--export-pdf-version" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:424
 msgid ""
 "Export PDF to given version. (hint: make sure to input the exact string "
 "found in the PDF export dialog, e.g. \"PDF 1.4\" which is PDF-a conformant)"
 msgstr ""
-"Exportiere PDF in der angegebenen Version. (Hinweis: Stellen Sie sicher das "
-"die Version exakt wie im PDF Export Dialog angegeben wird. Beispiel \"PDF "
-"1.3\" ist PDF -a konform)"
+"Export als PDF in der angegebenen Version. (Hinweis: Stellen Sie sicher, dass "
+"die Version exakt wie im PDF-Export-Dialog angegeben wird z. B. Beispiel "
+"\"PDF "
+"1.4\", dieses ist PDF/A-konform)"
 
 #: ../src/main.cpp:425
 msgid "PDF_VERSION"
@@ -11918,17 +11922,17 @@ msgid ""
 "exported, putting the text on top of the PDF/PS/EPS file. Include the result "
 "in LaTeX like: \\input{latexfile.tex}"
 msgstr ""
-"Exportiere PDF/PS/EPS ohne Text. Neben PDF/PS/EPS wird eine LaTeX-Datei "
-"exportiert, die den Text oben auf die PDF/PS/EPS-Datei legt. Einbinden des "
+"Exportiert als PDF/PS/EPS ohne Text. Neben PDF/PS/EPS wird eine LaTeX-Datei "
+"exportiert, die den Text über die PDF/PS/EPS-Datei legt. Einbinden des "
 "Ergebnisses in Latex mit: \\input{latexfile.tex}"
 
 #: ../src/main.cpp:434
 msgid "Export document to an Enhanced Metafile (EMF) File"
-msgstr "Dokument in eine Erweiterte Metadatei (EMF) exportieren"
+msgstr "Dokument als Erweiterte Metadatei (EMF) exportieren"
 
 #: ../src/main.cpp:439
 msgid "Export document to a Windows Metafile (WMF) File"
-msgstr "Dokument in eine Windows-Metadatei (WMF) exportieren"
+msgstr "Dokument als Windows-Metadatei (WMF) exportieren"
 
 #: ../src/main.cpp:444
 msgid "Convert text object to paths on export (PS, EPS, PDF, SVG)"
@@ -11981,7 +11985,7 @@ msgstr "id, x, y, w und h für alle Objekte auflisten"
 
 #: ../src/main.cpp:483
 msgid "The ID of the object whose dimensions are queried"
-msgstr "Objekt-ID-Kennung, dessen Abmessungen abgefragt werden"
+msgstr "ID des Objektes, dessen Abmessungen abgefragt werden"
 
 #. TRANSLATORS: this option makes Inkscape print the name (path) of the extension directory
 #: ../src/main.cpp:489
@@ -11994,14 +11998,14 @@ msgstr "Unbenutzte Elemente aus den &lt;defs&gt; des Dokuments entfernen"
 
 #: ../src/main.cpp:500
 msgid "Enter a listening loop for D-Bus messages in console mode"
-msgstr "Warteschleife für D-Bus Nachrichten im Konsolen-Modus eingeben"
+msgstr "Warteschleife für D-Bus-Nachrichten im Konsolen-Modus eingeben"
 
 #: ../src/main.cpp:505
 msgid ""
 "Specify the D-Bus bus name to listen for messages on (default is org."
 "inkscape)"
 msgstr ""
-"D-Bus Namen angeben, von welchem Nachrichten angezeigt werden sollen "
+"D-Bus-Namen angeben, dessen Nachrichten angezeigt werden sollen "
 "(Vorgabe ist org.inkscape)"
 
 #: ../src/main.cpp:506
@@ -12010,11 +12014,11 @@ msgstr "BUS-NAME"
 
 #: ../src/main.cpp:511
 msgid "List the IDs of all the verbs in Inkscape"
-msgstr "Liste die Kennungen von allen Verben in Inkscape"
+msgstr "Listet die ID aller Verben in Inkscape"
 
 #: ../src/main.cpp:516
 msgid "Verb to call when Inkscape opens."
-msgstr "Aufzurufendes Verb wenn Inkscape startet."
+msgstr "Aufzurufendes Verb wenn Inkscape startet"
 
 #: ../src/main.cpp:517
 msgid "VERB-ID"
@@ -12022,7 +12026,7 @@ msgstr "VERB-ID"
 
 #: ../src/main.cpp:521
 msgid "Object ID to select when Inkscape opens."
-msgstr "Auszuwählende Objekt-Kennung wenn Inkscape startet."
+msgstr "ID des Objektes, das beim Start von Inkscape ausgewählt werden soll"
 
 #: ../src/main.cpp:522
 msgid "OBJECT-ID"
@@ -12211,7 +12215,7 @@ msgstr "Fluchtpunkt umschalten"
 
 #: ../src/persp3d.cpp:334
 msgid "Toggle multiple vanishing points"
-msgstr "Multiple Fluchtpunkte umschalten"
+msgstr "Mehrere Fluchtpunkte umschalten"
 
 # not sure here -cm-
 #: ../src/preferences-skeleton.h:102
@@ -12277,7 +12281,7 @@ msgstr "Die Einstellungsdatei %s ist keine reguläre Datei."
 #: ../src/preferences.cpp:226
 #, c-format
 msgid "The preferences file %s could not be read."
-msgstr "Datei Einstellungsdatei %s konnte nicht gelesen werden."
+msgstr "Die Einstellungsdatei %s konnte nicht gelesen werden."
 
 #: ../src/preferences.cpp:237
 #, c-format
@@ -12335,7 +12339,7 @@ msgstr "Titel:"
 
 #: ../src/rdf.cpp:236
 msgid "A name given to the resource"
-msgstr "Gegebener Name der Ressource"
+msgstr "Frei wählbarer Name des Dokuments"
 
 #: ../src/rdf.cpp:238
 msgid "Date:"
@@ -12345,9 +12349,7 @@ msgstr "Datum:"
 msgid ""
 "A point or period of time associated with an event in the lifecycle of the "
 "resource"
-msgstr ""
-"Ein Zeitpunkt oder eine Zeitdauer, die mit einem Ereignis innerhalb dessen "
-"Lebenszeit verbunden ist"
+msgstr "Ein für das Dokument wichtiger Zeitpunkt oder Zeitraum"
 
 #: ../src/rdf.cpp:241 ../share/extensions/webslicer_create_rect.inx.h:3
 msgid "Format:"
@@ -12355,16 +12357,17 @@ msgstr "Format:"
 
 #: ../src/rdf.cpp:242
 msgid "The file format, physical medium, or dimensions of the resource"
-msgstr "Das Dateiformat, physikalische Medium oder Dimension der Quelle"
+msgstr ""
+"Das Dateiformat, physikalische Medium oder die Abmessungen des Dokuments"
 
 #: ../src/rdf.cpp:245
 msgid "The nature or genre of the resource"
-msgstr "Die Art oder Gattung der Ressource"
+msgstr "Die Art oder Gattung des Dokuments"
 
 # !!! Urheber?
 #: ../src/rdf.cpp:248
 msgid "Creator:"
-msgstr "Ersteller:"
+msgstr "Urheber:"
 
 #: ../src/rdf.cpp:249
 msgid "An entity primarily responsible for making the resource"
@@ -12378,7 +12381,7 @@ msgstr "Rechte:"
 
 #: ../src/rdf.cpp:252
 msgid "Information about rights held in and over the resource"
-msgstr "Informationen über die an der Ressource gehaltenen Rechte"
+msgstr "Informationen über die am Dokument gehaltenen Rechte"
 
 #: ../src/rdf.cpp:254
 msgid "Publisher:"
@@ -12388,7 +12391,7 @@ msgstr "Herausgeber:"
 msgid "An entity responsible for making the resource available"
 msgstr ""
 "Name der Person oder Organisation, die für die Verfügbarmachung des "
-"Dokuments verantwortlich ist."
+"Dokuments verantwortlich ist"
 
 #: ../src/rdf.cpp:258
 msgid "Identifier:"
@@ -12396,11 +12399,11 @@ msgstr "Identifikator:"
 
 #: ../src/rdf.cpp:259
 msgid "An unambiguous reference to the resource within a given context"
-msgstr "Eine eindeutige Referenz auf die Quelle im angegebenen Kontext"
+msgstr "Eine eindeutige Referenz auf das Dokument in einem bestimmten Kontext"
 
 #: ../src/rdf.cpp:262
 msgid "A related resource from which the described resource is derived"
-msgstr "Die ürsprüngliche Quelle aus welcher der Inhalt entnommen ist"
+msgstr "Die ursprüngliche Quelle, aus welcher der Inhalt entnommen ist"
 
 #: ../src/rdf.cpp:264
 msgid "Relation:"
@@ -12408,7 +12411,7 @@ msgstr "Beziehung:"
 
 #: ../src/rdf.cpp:265
 msgid "A related resource"
-msgstr "Zugehörige Ressource"
+msgstr "Zugehöriges Dokument"
 
 #: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1925
 msgid "Language:"
@@ -12416,7 +12419,7 @@ msgstr "Sprache:"
 
 #: ../src/rdf.cpp:268
 msgid "A language of the resource"
-msgstr "Sprache der Ressource"
+msgstr "Sprache des Dokuments"
 
 #: ../src/rdf.cpp:270
 msgid "Keywords:"
@@ -12424,7 +12427,7 @@ msgstr "Schlüsselwörter:"
 
 #: ../src/rdf.cpp:271
 msgid "The topic of the resource"
-msgstr "Thema der Ressource"
+msgstr "Thema des Dokuments"
 
 # !!! not the best translation
 #. TRANSLATORS: "Coverage": the spatial or temporal characteristics of the content.
@@ -12438,8 +12441,8 @@ msgid ""
 "The spatial or temporal topic of the resource, the spatial applicability of "
 "the resource, or the jurisdiction under which the resource is relevant"
 msgstr ""
-"Der zeitliche oder räumliche Hintergrund der Ressource, die räumliche "
-"Verfügbarkeit oder die Gerichtsbarkeit unter welcher die Quelle steht"
+"Der zeitliche oder räumliche Hintergrund des Dokuments, der räumliche "
+"Geltungsbereich oder die Gerichtsbarkeit, für die das Dokument relevant ist"
 
 #: ../src/rdf.cpp:279
 msgid "Description:"
@@ -12447,7 +12450,7 @@ msgstr "Beschreibung:"
 
 #: ../src/rdf.cpp:280
 msgid "An account of the resource"
-msgstr "Bericht über die Ressource"
+msgstr "Eine Beschreibung des Dokuments"
 
 #. FIXME: need to handle 1 agent per line of input
 #: ../src/rdf.cpp:284
@@ -12555,7 +12558,7 @@ msgstr "Gruppierung aufheben"
 
 #: ../src/selection-chemistry.cpp:988
 msgid "Select <b>object(s)</b> to raise."
-msgstr "<b>Objekte</b> zum Heraufsetzen auswählen."
+msgstr "<b>Objekte</b> zum Anheben auswählen."
 
 #: ../src/selection-chemistry.cpp:994 ../src/selection-chemistry.cpp:1047
 #: ../src/selection-chemistry.cpp:1073 ../src/selection-chemistry.cpp:1131
@@ -12563,43 +12566,43 @@ msgid ""
 "You cannot raise/lower objects from <b>different groups</b> or <b>layers</b>."
 msgstr ""
 "Objekte aus <b>verschiedenen Gruppen</b> oder <b>Ebenen</b> können nicht "
-"herauf- oder herabgesetzt werden."
+"gleichzeitig angehoben/abgesenkt werden."
 
 #. TRANSLATORS: "Raise" means "to raise an object" in the undo history
 #: ../src/selection-chemistry.cpp:1031
 msgctxt "Undo action"
 msgid "Raise"
-msgstr "Heraufsetzen"
+msgstr "Anheben"
 
 #: ../src/selection-chemistry.cpp:1039
 msgid "Select <b>object(s)</b> to raise to top."
 msgstr ""
-"<b>Objekt(e)</b> auswählen, die in den Vordergrund heraufgesetzt werden "
+"<b>Objekt(e)</b> auswählen, die nach oben angehoben werden "
 "sollen."
 
 #: ../src/selection-chemistry.cpp:1060
 msgid "Raise to top"
-msgstr "Nach ganz oben heraufsetzen"
+msgstr "Nach ganz oben anheben"
 
 #: ../src/selection-chemistry.cpp:1067
 msgid "Select <b>object(s)</b> to lower."
-msgstr "<b>Objekt(e)</b> zum Herabsetzen auswählen."
+msgstr "<b>Objekt(e)</b> zum Absenken auswählen."
 
 #. TRANSLATORS: "Lower" means "to lower an object" in the undo history
 #: ../src/selection-chemistry.cpp:1115
 msgctxt "Undo action"
 msgid "Lower"
-msgstr "Herabsetzen"
+msgstr "Absenken"
 
 #: ../src/selection-chemistry.cpp:1123
 msgid "Select <b>object(s)</b> to lower to bottom."
 msgstr ""
-"<b>Objekt(e)</b> auswählen, die ganz in den Hintergrund herabgesetzt werden "
+"<b>Objekt(e)</b> auswählen, die nach ganz unten abgesenkt werden "
 "sollen."
 
 #: ../src/selection-chemistry.cpp:1154
 msgid "Lower to bottom"
-msgstr "Nach ganz unten herabsetzen"
+msgstr "Nach ganz unten absenken"
 
 # !!! just make the menu item insensitive
 #: ../src/selection-chemistry.cpp:1164
@@ -12617,15 +12620,15 @@ msgstr "Einfügen"
 
 #: ../src/selection-chemistry.cpp:1255
 msgid "Paste style"
-msgstr "Stil anwenden"
+msgstr "Stil übertragen"
 
 #: ../src/selection-chemistry.cpp:1265
 msgid "Paste live path effect"
-msgstr "Pfadeffekt einfügen"
+msgstr "Pfadeffekt übertragen"
 
 #: ../src/selection-chemistry.cpp:1287
 msgid "Select <b>object(s)</b> to remove live path effects from."
-msgstr "<b>Objekt(e)</b> auswählen, um den Pfadeffekt zu entfernen."
+msgstr "<b>Objekt(e)</b> auswählen, deren Pfadeffekte entfernt werden sollen."
 
 #: ../src/selection-chemistry.cpp:1299
 msgid "Remove live path effect"
@@ -12633,7 +12636,7 @@ msgstr "Pfadeffekt entfernen"
 
 #: ../src/selection-chemistry.cpp:1310
 msgid "Select <b>object(s)</b> to remove filters from."
-msgstr "<b>Text</b> auswählen, um Filter zu entfernen."
+msgstr "<b>Objekte</b> auswählen, deren Filter entfernt werden sollen."
 
 #: ../src/selection-chemistry.cpp:1320
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1695
@@ -12651,12 +12654,12 @@ msgstr "Größe getrennt einfügen"
 #: ../src/selection-chemistry.cpp:1367
 msgid "Select <b>object(s)</b> to move to the layer above."
 msgstr ""
-"<b>Objekt(e)</b> auswählen, welche eine Ebene weiter nach oben verschoben "
+"<b>Objekt(e)</b> auswählen, welche in die Ebene darüber verschoben "
 "werden sollen."
 
 #: ../src/selection-chemistry.cpp:1393
 msgid "Raise to next layer"
-msgstr "Auf nächste Ebene anheben"
+msgstr "In darüberliegende Ebene verschieben"
 
 #: ../src/selection-chemistry.cpp:1400
 msgid "No more layers above."
@@ -12670,7 +12673,7 @@ msgstr ""
 
 #: ../src/selection-chemistry.cpp:1437
 msgid "Lower to previous layer"
-msgstr "Zur nächsten Ebene absenken"
+msgstr "Zur darunterliegenden Ebene absenken"
 
 #: ../src/selection-chemistry.cpp:1444
 msgid "No more layers below."
@@ -12688,7 +12691,7 @@ msgstr "Auswahl zur Ebene verschieben"
 #. to a translation... but leave that for another day.
 #: ../src/selection-chemistry.cpp:1561 ../src/seltrans.cpp:391
 msgid "Cannot transform an embedded SVG."
-msgstr "Kann ein eingebettetes SVG nicht verändern."
+msgstr "Kann ein eingebettetes SVG nicht transformieren."
 
 #: ../src/selection-chemistry.cpp:1731
 msgid "Remove transform"
@@ -12709,7 +12712,7 @@ msgstr "Drehen"
 
 #: ../src/selection-chemistry.cpp:2208
 msgid "Rotate by pixels"
-msgstr "Um Pixel rotieren"
+msgstr "Pixelweise drehen"
 
 #: ../src/selection-chemistry.cpp:2238 ../src/seltrans.cpp:481
 #: ../src/ui/dialog/transformation.cpp:864 ../src/ui/widget/page-sizer.cpp:450
@@ -12744,7 +12747,7 @@ msgstr "Horizontal um einzelne Pixel verschieben"
 
 #: ../src/selection-chemistry.cpp:2510
 msgid "The selection has no applied path effect."
-msgstr "Auf die Selektion ist kein Pfadeffekt angewandt."
+msgstr "Die Auswahl enthält keine Objekte mit Pfadeffekt."
 
 #: ../src/selection-chemistry.cpp:2602 ../src/ui/dialog/clonetiler.cpp:2238
 msgid "Select an <b>object</b> to clone."
@@ -12757,11 +12760,13 @@ msgstr "Klonen"
 
 #: ../src/selection-chemistry.cpp:2651
 msgid "Select <b>clones</b> to relink."
-msgstr "<b>Klon</b> auswählen, um wieder zu verknüpfen"
+msgstr "<b>Klone</b> auswählen, die neu verknüpft werden sollen"
 
 #: ../src/selection-chemistry.cpp:2658
 msgid "Copy an <b>object</b> to clipboard to relink clones to."
-msgstr "Kopiert ein <b>Objekt</b> in die Ablage als Elter für Klone."
+msgstr ""
+"<b>Objekt</b>, mit dem die Klone neu verknüpft werden sollen, in die "
+"Zwischenablage kopieren."
 
 #: ../src/selection-chemistry.cpp:2679
 msgid "<b>No clones to relink</b> in the selection."
@@ -12771,7 +12776,7 @@ msgstr ""
 
 #: ../src/selection-chemistry.cpp:2682
 msgid "Relink clone"
-msgstr "Klon wiederverbinden"
+msgstr "Klon neu verknüpfen"
 
 #: ../src/selection-chemistry.cpp:2696
 msgid "Select <b>clones</b> to unlink."
@@ -12793,9 +12798,9 @@ msgid ""
 "a <b>flowed text</b> to go to its frame."
 msgstr ""
 "<b>Klon</b> auswählen, um das Original zu finden. <b>Verbundenen Versatz</b> "
-"auswählen, um das Ausgangsobjekt zu finden. <b>Textpfad</b> auswählen, um "
-"den Ausgangspfad zu finden. <b>Fließtextpfad</b> auswählen, um seinen Rahmen "
-"zu finden."
+"auswählen, um das Ausgangsobjekt zu finden. <b>Textpfad</b> auswählen, um den "
+"Ausgangspfad zu finden. <b>Fließtextpfad</b> auswählen, um seinen Rahmen zu "
+"finden."
 
 #: ../src/selection-chemistry.cpp:2816
 msgid ""
@@ -12811,7 +12816,7 @@ msgid ""
 "defs&gt;)"
 msgstr ""
 "Dieses Objekt kann nicht ausgewählt werden - es ist <b>unsichtbar</b> und "
-"befindet sich in &lt;defs&gt;"
+"befindet sich in &lt;defs&gt;."
 
 #: ../src/selection-chemistry.cpp:2912
 msgid "Select path(s) to fill."
@@ -12855,7 +12860,7 @@ msgstr ""
 
 #: ../src/selection-chemistry.cpp:3272
 msgid "Group from symbol"
-msgstr "Gruppieren vom Symbol"
+msgstr "Symbol zu Gruppe"
 
 #: ../src/selection-chemistry.cpp:3290
 msgid "Select <b>object(s)</b> to convert to pattern."
@@ -12917,7 +12922,7 @@ msgstr "Maske setzen"
 #: ../src/selection-chemistry.cpp:4043
 msgid "Select <b>object(s)</b> to remove clippath or mask from."
 msgstr ""
-"<b>Objekt(e)</b> auswählen deren Ausschneidepfad oder Maske entfernt werden "
+"<b>Objekt(e)</b> auswählen, deren Ausschneidepfad oder Maske entfernt werden "
 "soll."
 
 #: ../src/selection-chemistry.cpp:4159
@@ -12928,10 +12933,11 @@ msgstr "Ausschneidepfad freigeben"
 msgid "Release mask"
 msgstr "Maske freigeben"
 
+# While it's canvas in English, the page size is what is intended (according to cpp file).
 #: ../src/selection-chemistry.cpp:4180
 msgid "Select <b>object(s)</b> to fit canvas to."
 msgstr ""
-"<b>Objekt(e)</b> auswählen, auf die die Arbeitsfläche angepasst werden soll."
+"<b>Objekt(e)</b> auswählen, an die die Seitengröße angepasst werden soll."
 
 #. Fit Page
 #: ../src/selection-chemistry.cpp:4200 ../src/verbs.cpp:3004
@@ -12995,8 +13001,8 @@ msgstr " in unbenannter Gruppe (%s)"
 #, c-format
 msgid " in <b>%i</b> parent (%s)"
 msgid_plural " in <b>%i</b> parents (%s)"
-msgstr[0] " in <b>%i</b> Abstammung (%s)"
-msgstr[1] " in <b>%i</b> Abstammungen (%s)"
+msgstr[0] " in <b>%i</b> Elternelement (%s)"
+msgstr[1] " in <b>%i</b> Elternelementen (%s)"
 
 #: ../src/selection-describer.cpp:186
 #, c-format
@@ -13060,8 +13066,8 @@ msgid ""
 "<b>Skew</b> selection; with <b>Ctrl</b> to snap angle; with <b>Shift</b> to "
 "skew around the opposite side"
 msgstr ""
-"<b>Scheren</b> der Auswahl; Winkel mit <b>Strg</b> einrasten; <b>Umschalt</"
-"b> schert entlang der gegenüberliegenden Seite"
+"<b>Scheren</b> der Auswahl; Winkel mit <b>Strg</b> einrasten; <b>Umschalt</b> "
+"schert entlang der gegenüberliegenden Seite"
 
 #: ../src/seltrans-handles.cpp:12
 msgid ""
@@ -13069,7 +13075,7 @@ msgid ""
 "to rotate around the opposite corner"
 msgstr ""
 "<b>Drehen</b> der Auswahl; Winkel mit <b>Strg</b> einrasten; <b>Umschalt</b> "
-"dreht entlang der gegenüberliegenden Seite"
+"dreht um die gegenüberliegende Ecke"
 
 #: ../src/seltrans-handles.cpp:13
 msgid ""
@@ -13099,8 +13105,8 @@ msgstr "Mittelpunkt zurücksetzen"
 #, c-format
 msgid "<b>Scale</b>: %0.2f%% x %0.2f%%; with <b>Ctrl</b> to lock ratio"
 msgstr ""
-"<b>Skalierung</b>: %0.2f%% × %0.2f%%; Höhen-/Breitenverhältnis mit <b>Strg</"
-"b> beibehalten"
+"<b>Skalierung</b>: %0.2f%% × %0.2f%%; Seitenverhältnis mit <b>Strg</b> "
+"beibehalten"
 
 #. TRANSLATORS: don't modify the first ";"
 #. (it will NOT be displayed as ";" - only the second one will be)
@@ -13130,11 +13136,10 @@ msgstr ""
 "<b>Verschieben</b> um %s, %s; mit <b>Strg</b> auf horizontale/vertikale "
 "Verschiebung beschränken; <b>Umschalt</b> deaktiviert das Einrasten"
 
-# !!! palettes, not swatches?
 #: ../src/shortcuts.cpp:226
 #, c-format
 msgid "Keyboard directory (%s) is unavailable."
-msgstr "Tastatur-verzeichnis (%s) nicht verfügbar."
+msgstr "Tastaturkürzelverzeichnis (%s) nicht verfügbar."
 
 #: ../src/shortcuts.cpp:337 ../src/ui/dialog/export.cpp:1305
 #: ../src/ui/dialog/export.cpp:1339
@@ -13197,7 +13202,7 @@ msgstr "Verknüpfter Fließtext"
 #: ../src/sp-flowtext.cpp:290 ../src/sp-text.cpp:380
 #: ../src/ui/tools/text-tool.cpp:1556
 msgid " [truncated]"
-msgstr "[abgestumpft}"
+msgstr "[abgeschnitten]"
 
 #: ../src/sp-flowtext.cpp:292
 #, c-format
@@ -13224,8 +13229,8 @@ msgid ""
 "<b>Shift+drag</b> to rotate, <b>Ctrl+drag</b> to move origin, <b>Del</b> to "
 "delete"
 msgstr ""
-"<b>Umschalt+Ziehen</b> rotiert, <b>Strg+Ziehen</b> bewegt Ursprung, <b>Entf</"
-"b> löscht."
+"<b>Umschalt+Ziehen</b> rotiert, <b>Strg+Ziehen</b> bewegt Ursprung, <b>Entf<"
+"/b> löscht."
 
 #: ../src/sp-guide.cpp:498
 #, c-format
@@ -13260,6 +13265,7 @@ msgstr "%d &#215; %d: %s"
 msgid "Group"
 msgstr "Gruppe"
 
+# Or 'von'? 'Eine Gruppe von Objekten' sounds more natural.
 #: ../src/sp-item-group.cpp:313 ../src/sp-switch.cpp:69
 #, c-format
 msgid "of <b>%d</b> object"
@@ -13300,7 +13306,7 @@ msgstr "Linie"
 
 #: ../src/sp-lpe-item.cpp:258 ../src/sp-lpe-item.cpp:705
 msgid "An exception occurred during execution of the Path Effect."
-msgstr "Beim ausführen des Pfadeffektes ist ein Fehler aufgetreten."
+msgstr "Beim Anwenden des Pfadeffektes ist ein Fehler aufgetreten."
 
 #: ../src/sp-offset.cpp:331
 msgid "Linked Offset"
@@ -13314,7 +13320,7 @@ msgstr "Dynamischer Versatz"
 #: ../src/sp-offset.cpp:339
 #, c-format
 msgid "%s by %f pt"
-msgstr "%s von %f Pkt."
+msgstr "%s von %f pt"
 
 #: ../src/sp-offset.cpp:340
 msgid "outset"
@@ -13477,7 +13483,7 @@ msgstr "Überschneidung"
 
 #: ../src/splivarot.cpp:106 ../src/splivarot.cpp:112
 msgid "Division"
-msgstr "Aufteilung"
+msgstr "Division"
 
 #: ../src/splivarot.cpp:118
 msgid "Cut path"
@@ -13500,8 +13506,9 @@ msgid ""
 "Unable to determine the <b>z-order</b> of the objects selected for "
 "difference, XOR, division, or path cut."
 msgstr ""
-"Die <b>Z-Tiefe</b> der ausgewählten Objekte konnte nicht für die Differenz-, "
-"XOR-, Division- oder Pfadzuschneideoperation ermittelt werden."
+"Die <b>Stapelhöhe</b> der ausgewählten Objekte konnte nicht für die "
+"Differenz-, "
+"XOR-, Divisions- oder Pfad-Zerschneiden-Operation ermittelt werden."
 
 #: ../src/splivarot.cpp:408
 msgid ""
@@ -13583,7 +13590,8 @@ msgstr "Die Auswahl enthält <b>keine Pfade</b> zum Vereinfachen."
 
 #: ../src/text-chemistry.cpp:91
 msgid "Select <b>a text and a path</b> to put text on path."
-msgstr "Einen <b>Text und Pfad</b> auswählen, um Text an Pfad auszurichten."
+msgstr ""
+"Einen <b>Text und einen Pfad</b> auswählen, um Text an Pfad auszurichten."
 
 #: ../src/text-chemistry.cpp:96
 msgid ""
@@ -13599,7 +13607,7 @@ msgid ""
 "You cannot put text on a rectangle in this version. Convert rectangle to "
 "path first."
 msgstr ""
-"Fließtext auf einem Rechteck in dieser Version noch nicht unterstützt. "
+"Fließtext in einem Rechteck in dieser Version noch nicht unterstützt. "
 "Rechteck vorerst in einen Pfad umwandeln."
 
 #: ../src/text-chemistry.cpp:112
@@ -13613,15 +13621,15 @@ msgstr "Text an Pfad ausrichten"
 
 #: ../src/text-chemistry.cpp:194
 msgid "Select <b>a text on path</b> to remove it from path."
-msgstr "Einen <b>Text-Pfad</b> zum Trennen vom Pfad auswählen."
+msgstr "Einen <b>Text</b> zum Trennen von einem Pfad auswählen."
 
 #: ../src/text-chemistry.cpp:213
 msgid "<b>No texts-on-paths</b> in the selection."
-msgstr "<b>Kein Text-Pfad</b> in der Auswahl vorhanden."
+msgstr "<b>Kein Text an Pfad</b> in der Auswahl vorhanden."
 
 #: ../src/text-chemistry.cpp:216 ../src/verbs.cpp:2571
 msgid "Remove text from path"
-msgstr "Text wird von Pfad getrennt"
+msgstr "Text von Pfad trennen"
 
 #: ../src/text-chemistry.cpp:257 ../src/text-chemistry.cpp:277
 msgid "Select <b>text(s)</b> to remove kerns from."
@@ -13636,7 +13644,7 @@ msgid ""
 "Select <b>a text</b> and one or more <b>paths or shapes</b> to flow text "
 "into frame."
 msgstr ""
-"Einen <b>Text</b> und <b>Pfad</b> oder <b>Form</b> zum Erzeugen eines "
+"Einen <b>Text</b> und <b>Pfad(e)</b> oder <b>Form(en)</b> zum Erzeugen eines "
 "Fließtextes auswählen."
 
 #: ../src/text-chemistry.cpp:369
@@ -13817,7 +13825,9 @@ msgstr ""
 "Stefan Graubner (pflaumenmus92@gmx.net)\n"
 "Stefan von Halenbach (vonHalenbach@users.sourceforge.net)\n"
 "Uwe Schöler (uschoeler@yahoo.de)\n"
-"Wolfram Strempfer (wolfram@strempfer.de)"
+"Wolfram Strempfer (wolfram@strempfer.de)\n"
+"Eduard Braun (Eduard.Braun2@gmx.de)\n"
+"Maren Hachmann (marenhachmann@yahoo.com)"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:206
 #: ../src/ui/dialog/align-and-distribute.cpp:937
@@ -13862,7 +13872,7 @@ msgstr "Netzwerk von Objektverbindern anordnen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:632
 msgid "Exchange Positions"
-msgstr "Positionen verändern"
+msgstr "Positionen tauschen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:666
 msgid "Unclump"
@@ -14004,16 +14014,16 @@ msgstr "Das gewählte Netzwerk von Objektverbindern gefällig anordnen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1044
 msgid "Exchange positions of selected objects - selection order"
-msgstr "Ändern der Position der ausgewählten Objekte - Auswahlanordnung"
+msgstr "Vertauschen der Position der ausgewählten Objekte - Auswahlanordnung"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1047
 msgid "Exchange positions of selected objects - stacking order"
-msgstr "Ändern der Position der ausgewählten Objekte - Stapelanordnung"
+msgstr "Vertauschen der Position der ausgewählten Objekte - Stapelanordnung"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1050
 msgid "Exchange positions of selected objects - clockwise rotate"
 msgstr ""
-"Ändern der Position der ausgewählten Objekte - im Uhrzeigersinn rotierend"
+"Vertauschen der Position der ausgewählten Objekte - im Uhrzeigersinn rotierend"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:1055
 msgid "Randomize centers in both dimensions"
@@ -14114,33 +14124,33 @@ msgstr "<b>P2</b>: 180&#176; Drehung"
 
 #: ../src/ui/dialog/clonetiler.cpp:124
 msgid "<b>PM</b>: reflection"
-msgstr "<b>PM</b>: Reflektion"
+msgstr "<b>PM</b>: Reflexion"
 
 #. TRANSLATORS: "glide reflection" is a reflection and a translation combined.
 #. For more info, see http://mathforum.org/sum95/suzanne/symsusan.html
 #: ../src/ui/dialog/clonetiler.cpp:127
 msgid "<b>PG</b>: glide reflection"
-msgstr "<b>PG</b>: gleitende Reflektion"
+msgstr "<b>PG</b>: gleitende Reflexion"
 
 #: ../src/ui/dialog/clonetiler.cpp:128
 msgid "<b>CM</b>: reflection + glide reflection"
-msgstr "<b>CM</b>: Reflektion + gleitende Reflektion"
+msgstr "<b>CM</b>: Reflexion + gleitende Reflexion"
 
 #: ../src/ui/dialog/clonetiler.cpp:129
 msgid "<b>PMM</b>: reflection + reflection"
-msgstr "<b>PMM</b>: Reflektion + Reflektion"
+msgstr "<b>PMM</b>: Reflexion + Reflexion"
 
 #: ../src/ui/dialog/clonetiler.cpp:130
 msgid "<b>PMG</b>: reflection + 180&#176; rotation"
-msgstr "<b>PMG</b>: Reflektion + 180&#176; Drehung"
+msgstr "<b>PMG</b>: Reflexion + 180&#176; Drehung"
 
 #: ../src/ui/dialog/clonetiler.cpp:131
 msgid "<b>PGG</b>: glide reflection + 180&#176; rotation"
-msgstr "<b>PGG</b>: gleitende Reflektion + 180&#176; Drehung"
+msgstr "<b>PGG</b>: gleitende Reflexion + 180&#176; Drehung"
 
 #: ../src/ui/dialog/clonetiler.cpp:132
 msgid "<b>CMM</b>: reflection + reflection + 180&#176; rotation"
-msgstr "<b>CMM</b>: Reflektion + Reflektion + 180&#176; Drehung"
+msgstr "<b>CMM</b>: Reflexion + Reflexion + 180&#176; Drehung"
 
 #: ../src/ui/dialog/clonetiler.cpp:133
 msgid "<b>P4</b>: 90&#176; rotation"
@@ -14148,11 +14158,11 @@ msgstr "<b>P4</b>: 90&#176; Drehung"
 
 #: ../src/ui/dialog/clonetiler.cpp:134
 msgid "<b>P4M</b>: 90&#176; rotation + 45&#176; reflection"
-msgstr "<b>P4M</b>: 90&#176; Drehung + 45&#176; Reflektion"
+msgstr "<b>P4M</b>: 90&#176; Drehung + 45&#176; Reflexion"
 
 #: ../src/ui/dialog/clonetiler.cpp:135
 msgid "<b>P4G</b>: 90&#176; rotation + 90&#176; reflection"
-msgstr "<b>P4G</b>: 90&#176; Drehung + 90&#176; Reflektion"
+msgstr "<b>P4G</b>: 90&#176; Drehung + 90&#176; Reflexion"
 
 #: ../src/ui/dialog/clonetiler.cpp:136
 msgid "<b>P3</b>: 120&#176; rotation"
@@ -14160,11 +14170,11 @@ msgstr "<b>P3</b>: 120&#176; Drehung"
 
 #: ../src/ui/dialog/clonetiler.cpp:137
 msgid "<b>P31M</b>: reflection + 120&#176; rotation, dense"
-msgstr "<b>P31M</b>: Reflektion + 120&#176; Drehung, dicht"
+msgstr "<b>P31M</b>: Reflexion + 120&#176; Drehung, dicht"
 
 #: ../src/ui/dialog/clonetiler.cpp:138
 msgid "<b>P3M1</b>: reflection + 120&#176; rotation, sparse"
-msgstr "<b>P3M1</b>: Reflektion + 120&#176; Drehung, dünn"
+msgstr "<b>P3M1</b>: Reflexion + 120&#176; Drehung, dünn"
 
 #: ../src/ui/dialog/clonetiler.cpp:139
 msgid "<b>P6</b>: 60&#176; rotation"
@@ -14172,7 +14182,7 @@ msgstr "<b>P6</b>: 60&#176; Drehung"
 
 #: ../src/ui/dialog/clonetiler.cpp:140
 msgid "<b>P6M</b>: reflection + 60&#176; rotation"
-msgstr "<b>P6M</b>: Reflektion + 60&#176; Drehung"
+msgstr "<b>P6M</b>: Reflexion + 60&#176; Drehung"
 
 #: ../src/ui/dialog/clonetiler.cpp:160
 msgid "Select one of the 17 symmetry groups for the tiling"
@@ -14467,7 +14477,7 @@ msgid ""
 "Initial color for clones (works only if the original has unset fill or "
 "stroke or on spray tool in copy mode)"
 msgstr ""
-"Ursprüngliche Farbe der Klone (Füllung und Konturfarbe des Originals dürfen "
+"Ursprüngliche Farbe der Klone (Füllung oder Konturfarbe des Originals dürfen "
 "nicht gesetzt sein; Ausnahme: Sprühwerkzeug im Kopiermodus)"
 
 #: ../src/ui/dialog/clonetiler.cpp:680
@@ -14541,8 +14551,8 @@ msgid ""
 "For each clone/sprayed item, pick a value from the drawing in its location "
 "and apply it"
 msgstr ""
-"Für jeden Klon / jedes gesprühte Objekt den Wert an dessen Stelle aus der "
-"Zeichnung übernehnmen"
+"Für jeden Klon / jedes gesprühte Objekt den Wert an dessen Position aus der "
+"Zeichnung übernehmen"
 
 #: ../src/ui/dialog/clonetiler.cpp:811
 msgid "1. Pick from the drawing:"
@@ -14639,11 +14649,11 @@ msgstr "Übernommenen Wert invertieren"
 
 #: ../src/ui/dialog/clonetiler.cpp:944
 msgid "3. Apply the value to the clones':"
-msgstr "3. Wert auf die Klone anwenden:"
+msgstr "3. Wert auf diese Kloneigenschaft anwenden:"
 
 #: ../src/ui/dialog/clonetiler.cpp:959
 msgid "Presence"
-msgstr "Anwesenheit"
+msgstr "Vorhandensein"
 
 #: ../src/ui/dialog/clonetiler.cpp:962
 msgid ""
@@ -14708,7 +14718,7 @@ msgstr "Breite, Höhe: "
 
 #: ../src/ui/dialog/clonetiler.cpp:1196
 msgid "Fill the specified width and height with the tiling"
-msgstr "Durch Höhe und Breite festgelegte Fläche mit Füllmuster versehen"
+msgstr "Durch Höhe und Breite festgelegte Fläche mit Klonen ausfüllen"
 
 #: ../src/ui/dialog/clonetiler.cpp:1217
 msgid "Use saved size and position of the tile"
@@ -14719,8 +14729,8 @@ msgid ""
 "Pretend that the size and position of the tile are the same as the last time "
 "you tiled it (if any), instead of using the current size"
 msgstr ""
-"Anstelle der aktuellen Größe die letzte Position und Größe der Kachel/"
-"Musterfüllung vorgeben"
+"Anstelle der aktuellen Größe die beim letzten Kachelvorgang verwendete "
+"Position und Größe der Kachel als Startposition/-größe verwenden"
 
 #: ../src/ui/dialog/clonetiler.cpp:1254
 msgid " <b>_Create</b> "
@@ -14787,7 +14797,8 @@ msgstr "<small>Das Objekt hat keine gekachelten Klone.</small>"
 
 #: ../src/ui/dialog/clonetiler.cpp:2117
 msgid "Select <b>one object</b> whose tiled clones to unclump."
-msgstr "<b>Ein Objekt</b> auswählen, dessen gekachelte Klone entklumpt werden."
+msgstr ""
+"<b>Ein Objekt</b> auswählen, dessen gekachelte Klone entklumpt werden sollen."
 
 #: ../src/ui/dialog/clonetiler.cpp:2137
 msgid "Unclump tiled clones"
@@ -14795,7 +14806,8 @@ msgstr "Gekachelte Klone entklumpen"
 
 #: ../src/ui/dialog/clonetiler.cpp:2166
 msgid "Select <b>one object</b> whose tiled clones to remove."
-msgstr "<b>Ein Objekt</b> auswählen, dessen gekachelte Klone entfernt werden."
+msgstr ""
+"<b>Ein Objekt</b> auswählen, dessen gekachelte Klone entfernt werden sollen."
 
 #: ../src/ui/dialog/clonetiler.cpp:2191
 msgid "Delete tiled clones"
@@ -14811,7 +14823,7 @@ msgstr ""
 
 #: ../src/ui/dialog/clonetiler.cpp:2253
 msgid "<small>Creating tiled clones...</small>"
-msgstr "<small>Geschachtelte Klone erstellen...</small>"
+msgstr "<small>Gekachelte Klone erstellen...</small>"
 
 #: ../src/ui/dialog/clonetiler.cpp:2669
 msgid "Create tiled clones"
@@ -14835,7 +14847,7 @@ msgid ""
 "Color: <b>%s</b>; <b>Click</b> to set fill, <b>Shift+click</b> to set stroke"
 msgstr ""
 "Farbe: <b>%s</b>; <b>Klick</b> legt die Füllung fest, <b>Umschalt+Klick</b> "
-"legt die Konturfarbe fest"
+"die Konturfarbe"
 
 #: ../src/ui/dialog/color-item.cpp:505
 msgid "Change color definition"
@@ -14909,7 +14921,7 @@ msgstr "Kantenglättung verwenden"
 
 #: ../src/ui/dialog/document-properties.cpp:118
 msgid "If unset, no antialiasing will be done on the drawing"
-msgstr "Wenn abgewählt, erfolgt keine Kantenglättung"
+msgstr "Wenn nicht gewählt, erfolgt keine Kantenglättung"
 
 #: ../src/ui/dialog/document-properties.cpp:119
 msgid "Checkerboard background"
@@ -14920,7 +14932,7 @@ msgid ""
 "If set, use checkerboard for background, otherwise use background color at "
 "full opacity."
 msgstr ""
-"Wenn aktiviert wird ein Schachbrettmuster als Hintergrund verwendet, "
+"Wenn aktiviert, wird ein Schachbrettmuster als Hintergrund verwendet, "
 "andernfalls die Hintergrundfarbe mit voller Deckkraft."
 
 #: ../src/ui/dialog/document-properties.cpp:120
