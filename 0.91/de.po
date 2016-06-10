@@ -9129,7 +9129,7 @@ msgstr "Zum übergeordneten Objekt gehen"
 #. TRANSLATORS: #%1 is the id of the group e.g. <g id="#g7">, not a number.
 #: ../src/interface.cpp:1505
 msgid "Enter group #%1"
-msgstr "Gruppe #%1 beitreten"
+msgstr "Gruppe #%1 betreten"
 
 #. Item dialog
 #: ../src/interface.cpp:1641 ../src/verbs.cpp:2849
