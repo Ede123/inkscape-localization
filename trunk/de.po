@@ -32961,7 +32961,7 @@ msgstr ""
 "Unter Windows: Laden Sie die Software von \n"
 "http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
 "herunter und installieren Sie diese in das Python-Verzeichnis Ihrer "
-"Inkscape-Installation."
+"Inkscape-Installation.\n"
 
 #: ../share/extensions/voronoi2svg.py:205
 msgid "Please select objects!"
