@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-05-30 08:43+0200\n"
-"PO-Revision-Date: 2016-06-11 00:50+0200\n"
+"PO-Revision-Date: 2016-06-12 00:42+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -12623,7 +12623,7 @@ msgstr "Stil übertragen"
 
 #: ../src/selection-chemistry.cpp:1265
 msgid "Paste live path effect"
-msgstr "Pfadeffekt übertragen"
+msgstr "Pfadeffekt einfügen"
 
 #: ../src/selection-chemistry.cpp:1287
 msgid "Select <b>object(s)</b> to remove live path effects from."
@@ -12658,7 +12658,7 @@ msgstr ""
 
 #: ../src/selection-chemistry.cpp:1393
 msgid "Raise to next layer"
-msgstr "In darüberliegende Ebene verschieben"
+msgstr "In darüberliegende Ebene anheben"
 
 #: ../src/selection-chemistry.cpp:1400
 msgid "No more layers above."
@@ -15726,7 +15726,7 @@ msgstr "Zielhöhe"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1507
 msgid "Resolution (dots per inch)"
-msgstr "Auflösung (Punkte pro Zoll, dpi)"
+msgstr "Auflösung (dpi)"
 
 #. #########################################
 #. ## EXTRA WIDGET -- SOURCE SIDE
@@ -16412,7 +16412,7 @@ msgid ""
 "effects."
 msgstr ""
 "Der Filterbaustein <b>Versatzkarte</b> verschiebt die Pixel des ersten "
-"Eingangs, wobei der zweite Eingangs als Versatzkarte verwendet wird. Letztere "
+"Eingangs, wobei der zweite Eingang als Versatzkarte verwendet wird. Letztere "
 "definiert, woher die Pixel kommen sollen. Klassische Beispiele sind Wirbel- "
 "und Quetscheffekte."
 
@@ -17017,7 +17017,7 @@ msgstr "Tibetisch"
 
 #: ../src/ui/dialog/glyphs.cpp:101
 msgid "Canadian Aboriginal"
-msgstr "Kanadische Ureinwohner"
+msgstr "Kanadisch Indigen"
 
 #: ../src/ui/dialog/glyphs.cpp:102
 msgid "Yi"
@@ -17221,7 +17221,7 @@ msgstr "Hangeul-Jamo"
 
 #: ../src/ui/dialog/glyphs.cpp:188
 msgid "Ethiopic Supplement"
-msgstr "Äthiopisch, Zusatz"
+msgstr "Äthiopisch, Ergänzung"
 
 #: ../src/ui/dialog/glyphs.cpp:190
 msgid "Unified Canadian Aboriginal Syllabics"
@@ -24036,7 +24036,7 @@ msgstr "Stil auf Objekte anwenden"
 #: ../src/ui/tools/flood-tool.cpp:1139
 msgid "<b>Draw over</b> areas to add to fill, hold <b>Alt</b> for touch fill"
 msgstr ""
-"<b>Zeichnen über</b> Flächen füllt zur Füllung hinzu; <b>Alt</b> für "
+"<b>Zeichnen über</b> Flächen fügt zur Füllung hinzu; <b>Alt</b> für "
 "Füllen durch Berührung"
 
 #. We hit green anchor, closing Green-Blue-Red
@@ -34348,11 +34348,11 @@ msgstr "Fläche"
 
 #: ../share/extensions/gcodetools_area.inx.h:2
 msgid "Maximum area cutting curves:"
-msgstr "Maximale Flächenschnittkurven:"
+msgstr "Maximale Anzahl Flächenschnittkurven:"
 
 #: ../share/extensions/gcodetools_area.inx.h:3
 msgid "Area width:"
-msgstr "Bereichsbreite:"
+msgstr "Breite der Fläche:"
 
 #: ../share/extensions/gcodetools_area.inx.h:4
 msgid "Area tool overlap (0..0.9):"
@@ -34366,24 +34366,25 @@ msgid ""
 "the nearest tool definition (\"Tool diameter\" value). Only one offset will "
 "be created if the \"Area width\" is equal to \"1/2 D\"."
 msgstr ""
-"\"Erstelle Flächenversatz\": Erstellt verschiedene Inkscape-Pfadversätze, um "
-"die originale Pfadfläche bis zum \"Flächenradius\"-Wert zu füllen. Umrisse "
-"starten von \"1/2 D\" bis zur \"Flächenbreite\" totale Breite mit \"D\" "
-"Schritten, wobei D von der nähestenis Werkzeugdefinition genommen wird "
-"(\"Werkzeugdurchmesser\" Wert). Nur ein Versatz wird erstellt, wenn die "
-"\"Flächenbreite\" gleich \"1/2 D\" ist."
+"\"Erstelle Flächenversatz\": Erstellt verschiedene Inkscape-Versatzobjekte, "
+"um die originale Pfadfläche bis zur maximalen \"Breite der Fläche\" zu "
+"füllen. Die dabei erstellten Umrisse "
+"reichen von \"1/2 D\" bis zur gesamten \"Breite der Fläche\" in \"D\" breiten"
+"Schritten, wobei D von der nächsten Werkzeugdefinition genommen wird (Wert "
+"für \"Werkzeugdurchmesser\"). Es wird nur ein einziger Versatz erstellt, wenn "
+"die \"Bereichsbreite\" gleich \"1/2 D\" ist."
 
 #: ../share/extensions/gcodetools_area.inx.h:6
 msgid "Fill area"
-msgstr "Füllbereich"
+msgstr "Bereich füllen"
 
 #: ../share/extensions/gcodetools_area.inx.h:7
 msgid "Area fill angle"
-msgstr "Bereichsfüllwinkel"
+msgstr "Winkel der Flächenfüllung"
 
 #: ../share/extensions/gcodetools_area.inx.h:8
 msgid "Area fill shift"
-msgstr "Flächenfüllung verschieben"
+msgstr "Verschiebung der Flächenfüllung"
 
 #: ../share/extensions/gcodetools_area.inx.h:9
 msgid "Filling method"
@@ -34395,11 +34396,11 @@ msgstr "Zickzack"
 
 #: ../share/extensions/gcodetools_area.inx.h:12
 msgid "Area artifacts"
-msgstr "Bereichsstörungen"
+msgstr "Flächenartefakte"
 
 #: ../share/extensions/gcodetools_area.inx.h:13
 msgid "Artifact diameter:"
-msgstr "Durchmesser des Gegenstandes:"
+msgstr "Durchmesser des Artefakts:"
 
 #: ../share/extensions/gcodetools_area.inx.h:14
 msgid "Action:"
@@ -34423,9 +34424,9 @@ msgid ""
 "+Ctrl+G) 3. Press Apply Suspected small objects will be marked out by "
 "colored arrows."
 msgstr ""
-"Nutzung: 1. Wählen Sie alle Flächen Verschiebungen (graue Umrandung) 2. "
-"Objekt/Gruppierung aufheben (Umschalt+Strg+G) 3. Klicken Sie auf Übernehmen "
-"und kleine Objekte werden durch farbige Pfeile markiert."
+"Nutzung: 1. Wählen Sie alle Versatzobjekte aus (graue Umrandung) 2. "
+"Objekt/Gruppierung aufheben (Umschalt+Strg+G) 3. Klicken Sie auf Anwenden. "
+"(Vermutlich) zu kleine Objekte werden dann z.B. mit farbigen Pfeilen markiert."
 
 #: ../share/extensions/gcodetools_area.inx.h:19
 #: ../share/extensions/gcodetools_lathe.inx.h:12
@@ -34437,19 +34438,19 @@ msgstr "Pfad zu GCode"
 #: ../share/extensions/gcodetools_lathe.inx.h:13
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:2
 msgid "Biarc interpolation tolerance:"
-msgstr "Biarc Interpolationstoleranz"
+msgstr "Biarc-Interpolationstoleranz:"
 
 #: ../share/extensions/gcodetools_area.inx.h:21
 #: ../share/extensions/gcodetools_lathe.inx.h:14
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:3
 msgid "Maximum splitting depth:"
-msgstr "Maximale Teilingstiefe:"
+msgstr "Maximale Teilungstiefe:"
 
 #: ../share/extensions/gcodetools_area.inx.h:22
 #: ../share/extensions/gcodetools_lathe.inx.h:15
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:4
 msgid "Cutting order:"
-msgstr "Schnittreihenfolge"
+msgstr "Schnittreihenfolge:"
 
 #: ../share/extensions/gcodetools_area.inx.h:23
 #: ../share/extensions/gcodetools_lathe.inx.h:16
@@ -34461,25 +34462,25 @@ msgstr "Tiefenfunktion:"
 #: ../share/extensions/gcodetools_lathe.inx.h:17
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:6
 msgid "Sort paths to reduse rapid distance"
-msgstr "Sortiere Pfade um schnelle Entfernung zu reduzieren"
+msgstr "Sortiere Pfade, um schnelle Entfernung zu reduzieren"
 
 #: ../share/extensions/gcodetools_area.inx.h:25
 #: ../share/extensions/gcodetools_lathe.inx.h:18
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:7
 msgid "Subpath by subpath"
-msgstr "Unterpfad nach Unterpfad"
+msgstr "Unterpfad für Unterpfad"
 
 #: ../share/extensions/gcodetools_area.inx.h:26
 #: ../share/extensions/gcodetools_lathe.inx.h:19
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:8
 msgid "Path by path"
-msgstr "Pfad um Pfad"
+msgstr "Pfad für Pfad"
 
 #: ../share/extensions/gcodetools_area.inx.h:27
 #: ../share/extensions/gcodetools_lathe.inx.h:20
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:9
 msgid "Pass by Pass"
-msgstr "Durchlauf nach Durchlauf"
+msgstr "Durchlauf für Durchlauf"
 
 #: ../share/extensions/gcodetools_area.inx.h:28
 #: ../share/extensions/gcodetools_lathe.inx.h:21
@@ -34492,12 +34493,13 @@ msgid ""
 "(black), d is the depth defined by orientation points, s - surface defined "
 "by orientation points."
 msgstr ""
-"Biarc Interpolationstoleranz ist der maximale Abstand zwischen dem Pfad und "
-"seiner Annäherung. Das Segment wird in zwei Segmente aufgeteilt, wenn der "
-"Abstand zwischen Pfad-Segment und dessen Angleichung die Biarc "
-"Interpolationstoleranz überschreitet. Für Tiefe c=Farbintensität von 0.0 "
+"Biarc-Interpolationstoleranz ist der maximale Abstand zwischen dem Pfad und "
+"seiner Annäherung. Ein Segment wird in zwei Segmente aufgeteilt, wenn der "
+"Abstand zwischen Pfad-Segment und dessen Angleichung die "
+"Biarc-Interpolationstoleranz überschreitet. In der Tiefenfunktion ist "
+"c=Farbintensität von 0.0 "
 "(weiß) bis 1.0 (schwarz), d ist die Tiefe, definiert durch "
-"Orientierungspunkte - Oberfläche definiert durch Orientierungspunkte."
+"Orientierungspunkte, s ist die Oberfläche definiert durch Orientierungspunkte."
 
 #: ../share/extensions/gcodetools_area.inx.h:30
 #: ../share/extensions/gcodetools_engraving.inx.h:8
@@ -34521,7 +34523,7 @@ msgstr "Versatz entlang Z-Achse:"
 #: ../share/extensions/gcodetools_lathe.inx.h:25
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:14
 msgid "Select all paths if nothing is selected"
-msgstr "Pfad auswählen, wenn nichts gewählt wurde"
+msgstr "Alle Pfade auswählen, wenn nichts gewählt wurde"
 
 #: ../share/extensions/gcodetools_area.inx.h:33
 #: ../share/extensions/gcodetools_engraving.inx.h:11
@@ -34545,7 +34547,7 @@ msgstr "Kommentar GCode:"
 #: ../share/extensions/gcodetools_lathe.inx.h:28
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:17
 msgid "Get additional comments from object's properties"
-msgstr "Weitere Kommentare von Objekteigenschaften"
+msgstr "Weitere Kommentare aus Objekteigenschaften holen"
 
 #: ../share/extensions/gcodetools_area.inx.h:36
 #: ../share/extensions/gcodetools_dxf_points.inx.h:8
@@ -34573,7 +34575,7 @@ msgstr "Datei:"
 #: ../share/extensions/gcodetools_lathe.inx.h:31
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:20
 msgid "Add numeric suffix to filename"
-msgstr "Hinzufügen eines numerischen Anhangs an den Dateinamen"
+msgstr "Zahl an den Dateinamen anhängen"
 
 #: ../share/extensions/gcodetools_area.inx.h:39
 #: ../share/extensions/gcodetools_dxf_points.inx.h:11
@@ -34665,7 +34667,7 @@ msgstr "GCode parametrisieren"
 #: ../share/extensions/gcodetools_lathe.inx.h:43
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:32
 msgid "Flip y axis and parameterize Gcode"
-msgstr "Y-Achse kippen und GCode parametrisieren"
+msgstr "Y-Achse umkehren und GCode parametrisieren"
 
 #: ../share/extensions/gcodetools_area.inx.h:51
 #: ../share/extensions/gcodetools_dxf_points.inx.h:23
@@ -34693,7 +34695,7 @@ msgstr "Nach Aktualisierungen suchen"
 msgid "Check for Gcodetools latest stable version and try to get the updates."
 msgstr ""
 "Prüfen Sie die letzte stabile Version der GCode-Werkzeuge und versuchen Sie "
-"die Aktualisierungen."
+"die Aktualisierungen herunterzuladen."
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:1
 msgid "DXF Points"
@@ -34714,11 +34716,11 @@ msgid ""
 "used. Also you can manually select object, open XML editor (Shift+Ctrl+X) "
 "and add or remove XML tag 'dxfpoint' with any value."
 msgstr ""
-"Konvertiert ausgewählte Objekte an Bohr-Punkten (wie dxf_import plugin). Sie "
+"Konvertiert ausgewählte Objekte zu Bohr-Punkten (wie dxf_import plugin). Sie "
 "können auch die ursprüngliche Form speichern. Nur der Startpunkt jeder Kurve "
 "wird verwendet. Sie können auch manuell ein Objekt auswählen, öffnen den XML-"
-"Editor (Umschalt+Strg+X) und den XML-Tag \"dxfpoint 'mit einem beliebigen "
-"Wert hinzufügen oder entfernen."
+"Editor (Umschalt+Strg+X) und den XML-Tag 'dxfpoint' mit einem beliebigen Wert "
+"hinzufügen oder entfernen."
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:5
 msgid "set as dxfpoint and save shape"
@@ -34726,11 +34728,11 @@ msgstr "Als DXF-Punkt setzen und Form abspeichern"
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:6
 msgid "set as dxfpoint and draw arrow"
-msgstr "Als DXF-Punkt setzen und Bogen zeichnen"
+msgstr "Als DXF-Punkt setzen und Pfeil zeichnen"
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:7
 msgid "clear dxfpoint sign"
-msgstr "DXF-Zeichen bereinigen"
+msgstr "DXF-Punkt-Zeichen bereinigen"
 
 #: ../share/extensions/gcodetools_engraving.inx.h:1
 msgid "Engraving"
@@ -34761,11 +34763,11 @@ msgid ""
 "sphere..(radius r)...........................: math.sqrt(max(0,r**2-w**2)) "
 "ellipse.(minor axis r, major 4r).....: math.sqrt(max(0,r**2-w**2))*4"
 msgstr ""
-"Diese Funktion erzeugt einen Pfad um Buchstaben zu gravieren oder eine "
+"Diese Funktion erzeugt einen Pfad, um Buchstaben zu gravieren oder eine "
 "beliebige Form mit scharfen Winkeln. Die Schnitt-Tiefe als eine Funktion des "
 "Radius wird durch das Werkzeug definiert. Die Tiefe kann jeder Python-"
 "Ausdruck sein. Zum Beispiel: Kegel....(45 Grad) ......................: w "
-"Kegel....(Höhe / Durchmesser = 10/3) ..: 10*m/3 Kugel..(Radius "
+"Kegel....(Höhe / Durchmesser=10/3) ..: 10*w/3 Kugel..(Radius "
 "r) ...........................: math.sqrt(max(0,r**2-w**2)) Ellipse."
 "(Nebenachse r, Hauptachse 4r).....: math.sqrt(max (0,r-w**2**2))*4"
 
@@ -34787,7 +34789,7 @@ msgstr "Startposition (x;y):"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:5
 msgid "Create preview"
-msgstr "Vorschau ersellen"
+msgstr "Vorschau erstellen"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:6
 msgid "Create linearization preview"
@@ -34799,7 +34801,7 @@ msgstr "Vorschaugröße (px):"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:8
 msgid "Preview's paint emmit (pts/s):"
-msgstr "Farbemmission für Vorschau (pts/s)"
+msgstr "Farbemission für Vorschau (pts/s)"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:10
 #: ../share/extensions/gcodetools_orientation_points.inx.h:3
@@ -34809,25 +34811,24 @@ msgstr "Ausrichtungstyp:"
 #: ../share/extensions/gcodetools_graffiti.inx.h:11
 #: ../share/extensions/gcodetools_orientation_points.inx.h:4
 msgid "Z surface:"
-msgstr "Z Fläche:"
+msgstr "Z-Oberfläche:"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:12
 #: ../share/extensions/gcodetools_orientation_points.inx.h:5
 msgid "Z depth:"
-msgstr "Z Tiefe:"
+msgstr "Z-Tiefe:"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:14
 #: ../share/extensions/gcodetools_orientation_points.inx.h:7
 msgid "2-points mode (move and rotate, maintained aspect ratio X/Y)"
-msgstr ""
-"2-Punkt-Modus (verschieben und drehen, gehaltenes Aspektverhältnis X/Y)"
+msgstr "2-Punkt-Modus (verschieben und drehen, behält X/Y-Verhältnis bei)"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:15
 #: ../share/extensions/gcodetools_orientation_points.inx.h:8
 msgid "3-points mode (move, rotate and mirror, different X/Y scale)"
 msgstr ""
-"3-Punkt-Modus (verschieben, drehen und spiegeln, unterschiedliche X/Y "
-"Einteilung)"
+"3-Punkt-Modus (verschieben, drehen und spiegeln, unterschiedliche Skalen für "
+"X und Y)"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:16
 #: ../share/extensions/gcodetools_orientation_points.inx.h:9
@@ -34852,14 +34853,15 @@ msgid ""
 "(independent set for each layer)."
 msgstr ""
 "Orientierungspunkte werden zum Berechnen von Transformationen (Versatz, "
-"Skalierung, Spiegel, eine Drehung in XY-Ebene) des Pfades benutzt. 3-Punkt-"
-"Modus: Lege nicht alle drei in einer Linie an (Einsatz 2-Punkt-Modus "
-"stattdessen nehmen). Sie können die Z-Oberfläche modifizieren, die Z-Tiefen-"
-"Werte später mit Text-Werkzeug (3. Koordinaten). Wenn es keine "
-"Orientierungspunkte in der aktuellen Ebene gibt, werden sie von der oberen "
-"Schicht genommen. Die Gruppierung von Orientierungspunkten nicht aufheben! "
-"Sie können diese mit Doppelklick auf die Gruppe auswählen oder durch Strg"
-"+Eingabe-Taste. Jetzt drücken Sie Anwenden, um die Kontrollpunkte "
+"Skalierung, Spiegel, eine Drehung in XY-Ebene) des Pfades benutzt. Nur "
+"3-Punkt-"
+"Modus: Nicht alle drei auf einer Linie anlegen (stattdessen 2-Punkt-Modus "
+"verwenden). Sie können die Z-Oberflächen und Z-Tiefen-"
+"Werte später mit dem Text-Werkzeug verändern (3. Koordinaten). Wenn es keine "
+"Orientierungspunkte in der aktuellen Ebene gibt, werden die von der Ebene "
+"darüber verwendet. Die Gruppierung von Orientierungspunkten nicht aufheben! "
+"Sie können die Gruppe mit Doppelklick oder Strg"
+"+Eingabetaste betreten. Klicken Sie auf Anwenden, um die Kontrollpunkte "
 "(unabhängiger Satz für jede Ebene) zu erstellen."
 
 #: ../share/extensions/gcodetools_lathe.inx.h:1
@@ -34901,7 +34903,7 @@ msgstr "Pfadversatz"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:10
 msgid "Lathe modify path"
-msgstr "Pfad drehend modifizieren"
+msgstr "Drehpfad modifizieren"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:11
 msgid ""
@@ -34933,7 +34935,7 @@ msgstr "Innen-Außen-Pfadlänge:"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:5
 msgid "In-out path max distance to reference point:"
-msgstr "Innen-Außen max. Pfaddistanz zum Referenzpunkt"
+msgstr "max. Distanz des Innen-Außen-Pfades zum Referenzpunkt"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:6
 msgid "In-out path type:"
@@ -34965,7 +34967,7 @@ msgstr "Maximaler Winkel für Ecke (0-180 Grad):"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:14
 msgid "Perpendicular"
-msgstr "Senkrechte Winkelhalbierende"
+msgstr "Senkrechte"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:15
 msgid "Tangent"
@@ -35002,7 +35004,7 @@ msgstr "Plasma"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:7
 msgid "tangent knife"
-msgstr "Tangentialer Versatz"
+msgstr "Tangentiales Messer"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:8
 msgid "lathe cutter"
@@ -35023,19 +35025,19 @@ msgid ""
 "active layer is used. If there is no tool inside the current layer it is "
 "taken from the upper layer. Press Apply to create new tool."
 msgstr ""
-"Der ausgewählte Werkzeugtyp füllt entsprechende Standardwerte. Sie können "
-"diese Werte mit dem Textwerkzeug später ändern. Es wird das oberste Werkzeug "
+"Der ausgewählte Werkzeugtyp gibt passende Standardwerte vor. Sie können "
+"diese Werte später mit dem Textwerkzeug ändern. Es wird das oberste Werkzeug "
 "(Z-Ordnung) in der aktiven Ebene verwendet. Wenn kein Werkzeug innerhalb der "
-"aktuellen Ebene vorhanden ist, wird es von der oberen Ebene genommen. "
-"Drücken Sie auf Übernehmen, um das neue Werkzeug zu erstellen."
+"aktuellen Ebene vorhanden ist, wird eines von der Ebene darüber verwendet. "
+"Anwenden erstellt ein neues Werkzeug."
 
 #: ../share/extensions/generate_voronoi.inx.h:1
 msgid "Voronoi Pattern"
-msgstr "Voronoi Muster"
+msgstr "Voronoi-Muster"
 
 #: ../share/extensions/generate_voronoi.inx.h:3
 msgid "Average size of cell (px):"
-msgstr "Durchschnittliche Größe der Zelle (px)"
+msgstr "Durchschnittliche Zellengröße (px)"
 
 #: ../share/extensions/generate_voronoi.inx.h:4
 msgid "Size of Border (px):"
@@ -35055,10 +35057,12 @@ msgstr ""
 "Füllungs- und Kontur-Dialog verfügbar sein. Sie müssen dazu ein Objekt oder "
 "ein Gruppe auswählen.\n"
 "\n"
-" Ist der Rand null, wird das Muster an den Kanten unterbrochen. Nehmen Sie "
-"einen positiven Wert, größer als die Zellgröße, um einen weichen Übergang "
-"zwischen Zellen und Rand zu schaffen. Nehmen Sie einen negativen Wert, um "
-"die Mustergröße zu reduzieren und einen lehren Rand zu erzeugen."
+"Ist der Rand null, wird das Muster an den Kanten unterbrochen. Nehmen Sie "
+"einen positiven Wert, am besten größer als die Zellgröße, um einen fließenden "
+"Übergang "
+"zwischen den einzelnen Musterkacheln zu erhalten. Nehmen Sie einen negativen "
+"Wert, um "
+"die Mustergröße zu reduzieren und einen leeren Rand zu erzeugen."
 
 #: ../share/extensions/gimp_xcf.inx.h:1
 msgid "GIMP XCF"
@@ -35106,7 +35110,7 @@ msgstr ""
 "konvertierte Ebene ein.\n"
 "\n"
 "Jede erste Ebene wird in eine Gimp-Ebene umgewandelt. Unterebenen werden mit "
-"ihrer ersten übergeordnete Ebene in einer einzigen Gimp-Ebene verkettet und "
+"ihrer ersten übergeordneten Ebene in einer einzigen Gimp-Ebene verkettet und "
 "konvertiert."
 
 #: ../share/extensions/gimp_xcf.inx.h:15
@@ -35120,7 +35124,7 @@ msgstr "Kartesisches Gitter"
 #: ../share/extensions/grid_cartesian.inx.h:2
 #: ../share/extensions/grid_isometric.inx.h:10
 msgid "Border Thickness (px):"
-msgstr "Randdicke [px]"
+msgstr "Randkonturbreite (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:3
 msgid "X Axis"
@@ -35132,7 +35136,7 @@ msgstr "Haupt-X-Teilungen:"
 
 #: ../share/extensions/grid_cartesian.inx.h:5
 msgid "Major X Division Spacing (px):"
-msgstr "Haupt-X-Teilung Abstand (px):"
+msgstr "Abstand Haupt-X-Teilungen (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:6
 msgid "Subdivisions per Major X Division:"
@@ -35144,25 +35148,25 @@ msgstr "Logarithmische X-Unterteilung (Basis wie oben gegeben)"
 
 #: ../share/extensions/grid_cartesian.inx.h:8
 msgid "Subsubdivs. per X Subdivision:"
-msgstr "Unter-Unterteilungen pro X-Unterteilung"
+msgstr "Unter-Unterteilungen pro X-Unterteilung:"
 
 #: ../share/extensions/grid_cartesian.inx.h:9
 msgid "Halve X Subsubdiv. Frequency after 'n' Subdivs. (log only):"
 msgstr ""
 "Halbiert X-Unter-Unterteilungsfrequenz nach n Unterteilungen. (nur "
-"Logarithmus)"
+"Logarithmus):"
 
 #: ../share/extensions/grid_cartesian.inx.h:10
 msgid "Major X Division Thickness (px):"
-msgstr "Haupt-X-Teilung Dicke (px):"
+msgstr "Konturbreite der Haupt-X-Teilung (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:11
 msgid "Minor X Division Thickness (px):"
-msgstr "Nebenteilung X Dicke (px):"
+msgstr "Konturbreite der X-Nebenteilung (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:12
 msgid "Subminor X Division Thickness (px):"
-msgstr "Strichstärke untergeordnete X-Teilung [px]"
+msgstr "Konturbreite untergeordnete X-Teilung (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:13
 msgid "Y Axis"
@@ -35174,7 +35178,7 @@ msgstr "Haupt-Y-Teilungen:"
 
 #: ../share/extensions/grid_cartesian.inx.h:15
 msgid "Major Y Division Spacing (px):"
-msgstr "Haupt-Y-Teilung Abstand (px):"
+msgstr "Abstand Haupt-Y-Teilung (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:16
 msgid "Subdivisions per Major Y Division:"
@@ -35186,25 +35190,25 @@ msgstr "Logarithmische Y-Unterteilung (Basis wie oben gegeben)"
 
 #: ../share/extensions/grid_cartesian.inx.h:18
 msgid "Subsubdivs. per Y Subdivision:"
-msgstr "Unter-Unterteilungen pro Y-Unterteilung"
+msgstr "Unter-Unterteilungen pro Y-Unterteilung:"
 
 #: ../share/extensions/grid_cartesian.inx.h:19
 msgid "Halve Y Subsubdiv. Frequency after 'n' Subdivs. (log only):"
 msgstr ""
 "Halbiert Y-Unter-Unterteilungsfrequenz nach n Unterteilungen. (nur "
-"Logarithmus)"
+"Logarithmus):"
 
 #: ../share/extensions/grid_cartesian.inx.h:20
 msgid "Major Y Division Thickness (px):"
-msgstr "Haupt-Y-Teilung Dicke (px):"
+msgstr "Konturbreite der Haupt-Y-Teilung (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:21
 msgid "Minor Y Division Thickness (px):"
-msgstr "Nebenteilung Y Dicke (px):"
+msgstr "Konturbreite der Nebenteilung Y (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:22
 msgid "Subminor Y Division Thickness (px):"
-msgstr "Strichstärke untergeordnete Y-Teilung [px]"
+msgstr "Konturbreite untergeordnete Y-Teilung (px):"
 
 #: ../share/extensions/grid_isometric.inx.h:1
 msgid "Isometric Grid"
@@ -35212,11 +35216,11 @@ msgstr "Isometrisches Gitter"
 
 #: ../share/extensions/grid_isometric.inx.h:2
 msgid "X Divisions [x2]:"
-msgstr "X-Teilungen [x2]:"
+msgstr "X-Teilungen (x2):"
 
 #: ../share/extensions/grid_isometric.inx.h:3
 msgid "Y Divisions [x2] [> 1/2 X Div]:"
-msgstr "Y-Teilung [x2] [> 1/2 X Div]:"
+msgstr "Y-Teilung (x2) (> 1/2 X Div):"
 
 #: ../share/extensions/grid_isometric.inx.h:4
 msgid "Division Spacing (px):"
@@ -35240,7 +35244,7 @@ msgstr "Nebenteilungsdicke (px):"
 
 #: ../share/extensions/grid_isometric.inx.h:9
 msgid "Subminor Division Thickness (px):"
-msgstr "Strichstärke untergeordneteTeilung (px):"
+msgstr "Konturbreite untergeordnete Teilung (px):"
 
 #: ../share/extensions/grid_polar.inx.h:1
 msgid "Polar Grid"
@@ -35248,11 +35252,11 @@ msgstr "Polargitter"
 
 #: ../share/extensions/grid_polar.inx.h:2
 msgid "Centre Dot Diameter (px):"
-msgstr "Durchmesser Mittelpunkt [px]"
+msgstr "Durchmesser Mittelpunkt (px):"
 
 #: ../share/extensions/grid_polar.inx.h:3
 msgid "Circumferential Labels:"
-msgstr "Umlaufende Bezeichner"
+msgstr "Umlaufende Bezeichner:"
 
 #: ../share/extensions/grid_polar.inx.h:5
 msgid "Degrees"
@@ -35260,11 +35264,11 @@ msgstr "Grad"
 
 #: ../share/extensions/grid_polar.inx.h:6
 msgid "Circumferential Label Size (px):"
-msgstr "Größe des umlaufenden Bezeichners [px]"
+msgstr "Größe des umlaufenden Bezeichners (px):"
 
 #: ../share/extensions/grid_polar.inx.h:7
 msgid "Circumferential Label Outset (px):"
-msgstr "Beginn des umlaufenden Bezeichners [px]"
+msgstr "Abstand des umlaufenden Bezeichners (px):"
 
 #: ../share/extensions/grid_polar.inx.h:8
 msgid "Circular Divisions"
@@ -35276,11 +35280,11 @@ msgstr "Hauptkreisteilung:"
 
 #: ../share/extensions/grid_polar.inx.h:10
 msgid "Major Circular Division Spacing (px):"
-msgstr "Haupt-Kreis-Teilung Abstand [px]"
+msgstr "Haupt-Kreis-Teilung Abstand (px):"
 
 #: ../share/extensions/grid_polar.inx.h:11
 msgid "Subdivisions per Major Circular Division:"
-msgstr "Nebenteilungen pro Kreishauptteilung"
+msgstr "Nebenteilungen pro Kreishauptteilung:"
 
 #: ../share/extensions/grid_polar.inx.h:12
 msgid "Logarithmic Subdiv. (Base given by entry above)"
@@ -35288,11 +35292,11 @@ msgstr "Logarithmische Unterteilung (Basis wie oben gegeben)"
 
 #: ../share/extensions/grid_polar.inx.h:13
 msgid "Major Circular Division Thickness (px):"
-msgstr "Strichstärke Kreisteilung [px]"
+msgstr "Konturbreite Kreisteilung (px):"
 
 #: ../share/extensions/grid_polar.inx.h:14
 msgid "Minor Circular Division Thickness (px):"
-msgstr "Strichstärke Kreisnebenteilung (px):"
+msgstr "Konturbreite Kreisnebenteilung (px):"
 
 #: ../share/extensions/grid_polar.inx.h:15
 msgid "Angular Divisions"
@@ -35300,27 +35304,27 @@ msgstr "Winkelteilung"
 
 #: ../share/extensions/grid_polar.inx.h:16
 msgid "Angle Divisions:"
-msgstr "Winkelteilung"
+msgstr "Winkelteilung:"
 
 #: ../share/extensions/grid_polar.inx.h:17
 msgid "Angle Divisions at Centre:"
-msgstr "Winkelteilung im Zentrum"
+msgstr "Winkelteilung im Zentrum:"
 
 #: ../share/extensions/grid_polar.inx.h:18
 msgid "Subdivisions per Major Angular Division:"
-msgstr "Nebenteilungen pro Winkelhauptteilung"
+msgstr "Nebenteilungen pro Winkelhauptteilung:"
 
 #: ../share/extensions/grid_polar.inx.h:19
 msgid "Minor Angle Division End 'n' Divs. Before Centre:"
-msgstr "Winkel-Nebenteilung endet 'n' Teilstriche vor dem Zentrum"
+msgstr "Winkel-Nebenteilung endet n Teilstriche vor dem Zentrum:"
 
 #: ../share/extensions/grid_polar.inx.h:20
 msgid "Major Angular Division Thickness (px):"
-msgstr "Strichstärke Winkelteilung [px]"
+msgstr "Konturbreite Winkelteilung (px)"
 
 #: ../share/extensions/grid_polar.inx.h:21
 msgid "Minor Angular Division Thickness (px):"
-msgstr "Strichstärke Winkelnebenteilung (px):"
+msgstr "Konturbreite Winkelnebenteilung (px):"
 
 #: ../share/extensions/guides_creator.inx.h:1
 msgid "Guides creator"
@@ -35368,11 +35372,11 @@ msgstr "Obere rechte Ecke"
 
 #: ../share/extensions/guides_creator.inx.h:14
 msgid "Lower left corner"
-msgstr "untere linke Ecke"
+msgstr "Untere linke Ecke"
 
 #: ../share/extensions/guides_creator.inx.h:15
 msgid "Lower right corner"
-msgstr "untere rechte Ecke"
+msgstr "Untere rechte Ecke"
 
 #: ../share/extensions/guides_creator.inx.h:16
 msgid "Margins"
@@ -35434,7 +35438,7 @@ msgstr "Anfasser zeichnen"
 
 #: ../share/extensions/hershey.inx.h:1
 msgid "Hershey Text"
-msgstr "Hershey Text"
+msgstr "Hershey-Text"
 
 #: ../share/extensions/hershey.inx.h:2
 msgid "Render Text"
@@ -35489,15 +35493,15 @@ msgstr "Serifenschrift fett"
 
 #: ../share/extensions/hershey.inx.h:14
 msgid "Script 1-stroke"
-msgstr "Skript 1 Strich"
+msgstr "Kurrent 1 Strich"
 
 #: ../share/extensions/hershey.inx.h:15
 msgid "Script 1-stroke (alt)"
-msgstr "Skript 1 Strich (alt)"
+msgstr "Kurrent 1 Strich (alt)"
 
 #: ../share/extensions/hershey.inx.h:16
 msgid "Script medium"
-msgstr "Skript mittel"
+msgstr "Kurrent mittel"
 
 #: ../share/extensions/hershey.inx.h:17
 msgid "Gothic English"
@@ -35582,17 +35586,18 @@ msgid ""
 "  www.evilmadscientist.com/go/hershey"
 msgstr ""
 "\n"
-"Diese Erweiterung erstellt eine Liniengrafik aus Text durch\n"
-"\"Hershey\" fonts for plotters, derived from \n"
+"Diese Erweiterung erstellt eine Liniengrafik\n "
+"aus Text unter Verwendung von \"Hershey\"\n"
+"Schriftarten für Plotter, abgeleitet von\n"
 "NBS SP-424 1976-04, \"A contribution to \n"
 "computer typesetting techniques: Tables of\n"
 "Coordinates for Hershey's Repertory of\n"
 "Occidental Type Fonts and Graphic Symbols.\"\n"
 "\n"
-"Es handelt sich nicht um traditionelle \"outline\" Schriften, \n"
-"sondern um \"Ein-Strich-\" Schriften, oder\n"
-"\"Gravur\" Schriften, bei welchen der Buchstabe aus\n"
-"Linien anstelle einer Füllung besteht.\n"
+"Es handelt sich nicht um traditionelle \"outline\"-\n"
+"Schriften, sondern um \"Ein-Strich\"-Schriften,\n "
+"oder \"Gravur\"-Schriften, bei welchen der Buch-\n"
+"stabe aus Linien anstelle einer Füllung besteht.\n"
 "\n"
 "Weitere Informationen sind hier verfügbar:\n"
 "  www.evilmadscientist.com/go/hershey"
@@ -35607,7 +35612,7 @@ msgid ""
 "other HPGL files please change their file extension to .plt, make sure you "
 "have UniConverter installed and open them again."
 msgstr ""
-"Bitte beachten Sie, das nur HPGL-Dateien geöffnet werden können, welche mit "
+"Bitte beachten Sie, dass nur HPGL-Dateien geöffnet werden können, welche mit "
 "Inkscape erstellt wurden. Um andere HPGL-Dateien zu öffnen, ändern Sie die "
 "Dateiendung zu .plt, stellen Sie sicher das UniConverter installiert ist und "
 "öffnen Sie die Datei erneut."
@@ -35623,8 +35628,8 @@ msgid ""
 "The amount of steps the plotter moves if it moves for 1 inch on the X axis "
 "(Default: 1016.0)"
 msgstr ""
-"Die Anzahl der Schritte, die sich der Plotter für 1 Zoll auf der X-Achse "
-"bewegt (Standard: '1016')"
+"Die Anzahl der Schritte, um die sich der Plotter für 1 Zoll auf der X-Achse "
+"bewegt (Standard: 1016)"
 
 #: ../share/extensions/hpgl_input.inx.h:5
 #: ../share/extensions/hpgl_output.inx.h:6 ../share/extensions/plotter.inx.h:34
@@ -35637,7 +35642,7 @@ msgid ""
 "The amount of steps the plotter moves if it moves for 1 inch on the Y axis "
 "(Default: 1016.0)"
 msgstr ""
-"Die Anzahl der Schritte, die sich der Plotter für 1 Zoll auf der Y-Achse "
+"Die Anzahl der Schritte, um die sich der Plotter für 1 Zoll auf der Y-Achse "
 "bewegt (Standard: '1016')"
 
 #: ../share/extensions/hpgl_input.inx.h:7
@@ -35647,8 +35652,8 @@ msgstr "Bewegung zwischen den Pfaden anzeigen"
 #: ../share/extensions/hpgl_input.inx.h:8
 msgid "Check this to show movements between paths (Default: Unchecked)"
 msgstr ""
-"Dies auswählen um die Bewegung zwischen den Pfaden anzuzeigen (Standard: "
-"nicht aktiviert)"
+"Aktivieren, um die Bewegung zwischen den Pfaden anzuzeigen (Standard: nicht "
+"aktiviert)"
 
 #: ../share/extensions/hpgl_input.inx.h:9
 #: ../share/extensions/hpgl_output.inx.h:35
@@ -35679,7 +35684,7 @@ msgstr "Plottereinstellungen "
 
 #: ../share/extensions/hpgl_output.inx.h:8 ../share/extensions/plotter.inx.h:36
 msgid "Pen number:"
-msgstr "Stiftanzahl:"
+msgstr "Stiftnummer:"
 
 #: ../share/extensions/hpgl_output.inx.h:9 ../share/extensions/plotter.inx.h:37
 msgid "The number of the pen (tool) to use (Standard: '1')"
@@ -35720,27 +35725,27 @@ msgstr "Drehung (°, im Uhrzeigersinn):"
 #: ../share/extensions/hpgl_output.inx.h:15
 #: ../share/extensions/plotter.inx.h:43
 msgid "Rotation of the drawing (Default: 0°)"
-msgstr "Drehung der Zeichnung in Grad (Standard 0°)"
+msgstr "Drehung der Zeichnung in Grad (Standard: 0°)"
 
 #: ../share/extensions/hpgl_output.inx.h:16
 #: ../share/extensions/plotter.inx.h:44
 msgid "Mirror X axis"
-msgstr "X-Spiegelachse"
+msgstr "Um X-Achse spiegeln"
 
 #: ../share/extensions/hpgl_output.inx.h:17
 #: ../share/extensions/plotter.inx.h:45
 msgid "Check this to mirror the X axis (Default: Unchecked)"
-msgstr "X-Achse spiegeln"
+msgstr "Aktivieren zum Spiegeln um die X-Achse (Standard: deaktiviert)"
 
 #: ../share/extensions/hpgl_output.inx.h:18
 #: ../share/extensions/plotter.inx.h:46
 msgid "Mirror Y axis"
-msgstr "Y-Spiegelachse"
+msgstr "Um Y-Achse spiegeln"
 
 #: ../share/extensions/hpgl_output.inx.h:19
 #: ../share/extensions/plotter.inx.h:47
 msgid "Check this to mirror the Y axis (Default: Unchecked)"
-msgstr "Y-Achse spiegeln"
+msgstr "Aktivieren zum Spiegeln um die Y-Achse (Standard: deaktiviert)"
 
 #: ../share/extensions/hpgl_output.inx.h:20
 #: ../share/extensions/plotter.inx.h:48
@@ -35751,7 +35756,9 @@ msgstr "Zentrierter Nullpunkt"
 #: ../share/extensions/plotter.inx.h:49
 msgid ""
 "Check this if your plotter uses a centered zero point (Default: Unchecked)"
-msgstr "Wählen wenn der verwendete Plotter seinen 0-Punkt in der Mitte hat."
+msgstr ""
+"Aktivieren, wenn der verwendete Plotter seinen 0-Punkt in der Mitte hat "
+"(Standard: deaktiviert)"
 
 #: ../share/extensions/hpgl_output.inx.h:22
 #: ../share/extensions/plotter.inx.h:50
@@ -35763,7 +35770,7 @@ msgstr ""
 "Möchten Sie mehrere Stifte in Ihrem Stiftplotter verwenden, so erstellen Sie "
 "für jeden Stift eine eigene Ebene, benennen diese nach dem Schema „Pen 1“, "
 "„Pen 2“ usw. und erstellen Sie Ihre Zeichnung in der entsprechenden Ebene. "
-"Dies hat Vorrang vor der obigen Stiftanzahl-Einstellung."
+"Dies hat Vorrang vor der obigen Stiftnummer-Einstellung."
 
 #: ../share/extensions/hpgl_output.inx.h:23
 #: ../share/extensions/plotter.inx.h:51
@@ -35782,7 +35789,8 @@ msgid ""
 "prevent open paths, set to 0.0 to omit command (Default: 1.00)"
 msgstr ""
 "Der Abstand in mm, mit dem über den Ausgangspunkt des Pfades geschnitten "
-"wird, um offene Pfade zu schützen (Standard: '1.00')"
+"wird, um offene Pfade zu verhindern. Bei 0,0 wird der Befehl weggelassen "
+"(Standard: 1,00)"
 
 #: ../share/extensions/hpgl_output.inx.h:26
 #: ../share/extensions/plotter.inx.h:54
@@ -35796,7 +35804,7 @@ msgid ""
 "command (Default: 0.25)"
 msgstr ""
 "Der Versatz zwischen Werkzeugspitze und -achse in mm. Auf 0 setzen um Befehl "
-"zu übergehen (Standard: '0.25')"
+"zu übergehen (Standard: 0,25)"
 
 #: ../share/extensions/hpgl_output.inx.h:28
 #: ../share/extensions/plotter.inx.h:56
@@ -35809,7 +35817,8 @@ msgid ""
 "Check this to cut a small line before the real drawing starts to correctly "
 "align the tool orientation. (Default: Checked)"
 msgstr ""
-"Wählen um eine kurzen Schnitt vor dem Beginn der Zeichnung zu setzen, um das "
+"Aktivieren, um eine kurzen Schnitt vor dem Beginn der Zeichnung zu setzen, um "
+"das "
 "Werkzeug richtig auszurichten."
 
 #: ../share/extensions/hpgl_output.inx.h:30
@@ -35824,7 +35833,7 @@ msgid ""
 "be reproduced, the smaller the finer (Default: '1.2')"
 msgstr ""
 "Kurven werden in Linien aufgeteilt. Diese Zahl regelt wie fein die Kurven "
-"reproduziert werden; Je kleiner desto feiner (Standard: '1.2')"
+"reproduziert werden, je kleiner desto feiner (Standard: 1,2)"
 
 #: ../share/extensions/hpgl_output.inx.h:32
 #: ../share/extensions/plotter.inx.h:60
@@ -35838,9 +35847,11 @@ msgid ""
 "if used). If unchecked you have to make sure that all parts of your drawing "
 "are within the document border! (Default: Checked)"
 msgstr ""
-"Wählen um die Zeichnung automatisch am 0-Punkt auszurichten (+ Abstand wenn "
-"dieser eingestellt ist). Wenn nicht gewählt, selbst prüfen ob alle Teile der "
-"Zeichnung innerhalb der Dokumentengrenzen sind. (Standard: ausgewählt)"
+"Aktivieren, um die Zeichnung automatisch am Nullpunkt auszurichten (zuzüglich "
+"Werkzeugabstand, sofern"
+"dieser eingestellt ist). Wenn nicht aktiviert, bitte selbst prüfen ob alle "
+"Teile der "
+"Zeichnung innerhalb der Dokumentengrenzen sind! (Standard: ausgewählt)"
 
 #: ../share/extensions/hpgl_output.inx.h:34
 #: ../share/extensions/plotter.inx.h:64
@@ -35849,7 +35860,8 @@ msgid ""
 "please consult the manual or homepage for your plotter."
 msgstr ""
 "Alle Einstellungen hängen vom verwendeten Plotter ab. Für mehr Informationen "
-"beachten Sie dessen Bedienungsanleitung oder die Homepage des Plotters."
+"beachten Sie dessen Bedienungsanleitung oder die Informationen auf der "
+"Webseite des Plotterherstellers."
 
 #: ../share/extensions/hpgl_output.inx.h:36
 msgid "Export an HP Graphics Language file"
@@ -35890,7 +35902,7 @@ msgstr "Seitenverhältnis der Rastergrafik"
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:13
 msgid "preserveAspectRatio attribute:"
-msgstr "Attribut „preserveAspectRatio“:"
+msgstr "Attribut 'preserveAspectRatio':"
 
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:15
@@ -35975,10 +35987,11 @@ msgstr "FAQ"
 msgid "Keys and Mouse Reference"
 msgstr "Referenz der Tasten- und Maus-Befehle"
 
+# page exists. !!! Please un-fuzzy after next update.
 #. i18n. Please don't translate it unless a page exists in your language
 #: ../share/extensions/inkscape_help_keys.inx.h:3
 msgid "http://inkscape.org/doc/keys091.html"
-msgstr "http://inkscape.org/doc/keys091.de.html"
+msgstr "http://inkscape.org/doc/keys092.de.html"
 
 #: ../share/extensions/inkscape_help_manual.inx.h:1
 msgid "Inkscape Manual"
@@ -35993,10 +36006,11 @@ msgstr "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/index.php"
 msgid "New in This Version"
 msgstr "Neu in dieser Version"
 
+# !!! Please un-fuzzy after po file update
 #. i18n. Please don't translate it unless a page exists in your language
 #: ../share/extensions/inkscape_help_relnotes.inx.h:3
 msgid "http://wiki.inkscape.org/wiki/index.php/Release_notes/0.91"
-msgstr "http://wiki.inkscape.org/wiki/index.php/Release_notes/0.91"
+msgstr "http://wiki.inkscape.org/wiki/index.php/Release_notes/0.92"
 
 #: ../share/extensions/inkscape_help_reportabug.inx.h:1
 msgid "Report a Bug"
@@ -36012,11 +36026,11 @@ msgstr "Interpolieren"
 
 #: ../share/extensions/interp.inx.h:3
 msgid "Interpolation steps:"
-msgstr "Interpolationsschritte"
+msgstr "Interpolationsschritte:"
 
 #: ../share/extensions/interp.inx.h:4
 msgid "Interpolation method:"
-msgstr "Interpolationsmethode"
+msgstr "Interpolationsmethode:"
 
 #: ../share/extensions/interp.inx.h:5
 msgid "Duplicate endpaths"
@@ -36024,7 +36038,7 @@ msgstr "Endpfade duplizieren"
 
 #: ../share/extensions/interp.inx.h:6
 msgid "Interpolate style"
-msgstr "Stil Interpolieren"
+msgstr "Stil interpolieren"
 
 #: ../share/extensions/interp.inx.h:7 ../share/extensions/interp_att_g.inx.h:10
 msgid "Use Z-order"
@@ -36041,15 +36055,15 @@ msgstr "Attribut innerhalb einer Gruppe interpolieren"
 
 #: ../share/extensions/interp_att_g.inx.h:3
 msgid "Attribute to Interpolate:"
-msgstr "Attribut für Interpolation"
+msgstr "Attribut für Interpolation:"
 
 #: ../share/extensions/interp_att_g.inx.h:4
 msgid "Other Attribute:"
-msgstr "Anderes Attribut"
+msgstr "Anderes Attribut:"
 
 #: ../share/extensions/interp_att_g.inx.h:5
 msgid "Other Attribute type:"
-msgstr "Anderer Attributtyp"
+msgstr "Anderer Attributtyp:"
 
 #: ../share/extensions/interp_att_g.inx.h:6
 msgid "Apply to:"
@@ -36057,11 +36071,11 @@ msgstr "Anwenden auf:"
 
 #: ../share/extensions/interp_att_g.inx.h:7
 msgid "Start Value:"
-msgstr "Startwert"
+msgstr "Startwert:"
 
 #: ../share/extensions/interp_att_g.inx.h:8
 msgid "End Value:"
-msgstr "Endwert"
+msgstr "Endwert:"
 
 #: ../share/extensions/interp_att_g.inx.h:15
 msgid "Translate X"
@@ -36120,7 +36134,7 @@ msgid ""
 "selection."
 msgstr ""
 "Dieser Effekt setzt ein beliebiges interpolierbares Attribut für jedes "
-"Element innerhalb einer Gruppe oder einer mehrteiligen Auswahl"
+"Element innerhalb einer Gruppe oder einer Mehrfachauswahl"
 
 #: ../share/extensions/jessyInk_autoTexts.inx.h:1
 msgid "Auto-texts"
@@ -36155,15 +36169,16 @@ msgstr "Foliennummer"
 msgid "Number of slides"
 msgstr "Anzahl der Folien"
 
+# !!! link is dead, reported as a bug. Should we remove that sentence from German?
 #: ../share/extensions/jessyInk_autoTexts.inx.h:9
 msgid ""
 "This extension allows you to install, update and remove auto-texts for a "
 "JessyInk presentation. Please see code.google.com/p/jessyink for more "
 "details."
 msgstr ""
-"Diese Erweiterung erlaubt Ihnen Autotexte für eine JessyInk-Präsentation zu "
-"installieren, aktualisieren und zu löschen. Bitte schauen Sie auf code."
-"google.com/p/jessyink für weitere Details."
+"Diese Erweiterung erlaubt Ihnen, Autotexte in eine JessyInk-Präsentation "
+"einzufügen, zu aktualisieren und zu löschen. Bitte schauen Sie auf "
+"code.google.com/p/jessyink für weitere Details."
 
 #: ../share/extensions/jessyInk_autoTexts.inx.h:10
 #: ../share/extensions/jessyInk_effects.inx.h:15
@@ -36190,6 +36205,7 @@ msgstr "Effekte"
 msgid "Duration in seconds:"
 msgstr "Dauer in Sekunden:"
 
+# Is this the general term fo an effect that is to be applied at the 'start' of a slide?
 #: ../share/extensions/jessyInk_effects.inx.h:6
 msgid "Build-in effect"
 msgstr "Anzeigen"
@@ -36212,8 +36228,9 @@ msgstr "Einblenden"
 #: ../share/extensions/jessyInk_effects.inx.h:10
 #: ../share/extensions/jessyInk_transitions.inx.h:10
 msgid "Pop"
-msgstr "aufpoppen"
+msgstr "Aufpoppen"
 
+# This is then probably the effect that is to be used at the end of a slide's displaying time.
 #: ../share/extensions/jessyInk_effects.inx.h:11
 msgid "Build-out effect"
 msgstr "Ausblenden"
@@ -36228,13 +36245,13 @@ msgid ""
 "JessyInk presentation. Please see code.google.com/p/jessyink for more "
 "details."
 msgstr ""
-"Diese Erweiterung erlaubt Ihnen Objekteffekte für eine JessyInk-Präsentation "
-"zu installieren, aktualisieren und zu löschen. Bitte schauen Sie auf code."
+"Diese Erweiterung erlaubt Ihnen, Objekteffekte für eine JessyInk-Präsentation "
+"einzufügen, zu aktualisieren und zu löschen. Bitte schauen Sie auf code."
 "google.com/p/jessyink für weitere Details."
 
 #: ../share/extensions/jessyInk_export.inx.h:1
 msgid "JessyInk zipped pdf or png output"
-msgstr "JessyInk gepackte PDF- oder PNG-Ausgabe"
+msgstr "JessyInk, gepackte PDF- oder PNG-Ausgabe"
 
 #: ../share/extensions/jessyInk_export.inx.h:4
 msgid "Resolution:"
@@ -36260,29 +36277,31 @@ msgstr ""
 
 #: ../share/extensions/jessyInk_export.inx.h:9
 msgid "JessyInk zipped pdf or png output (*.zip)"
-msgstr "JessyInk gepackte PDF- oder PNG-Ausgabe (*.zip)"
+msgstr "JessyInk, gepackte PDF- oder PNG-Ausgabe (*.zip)"
 
 #: ../share/extensions/jessyInk_export.inx.h:10
 msgid ""
 "Creates a zip file containing pdfs or pngs of all slides of a JessyInk "
 "presentation."
 msgstr ""
-"Erstellt eine Zip-Datei, in der die PDF's oder PNG's aller Folien der "
+"Erstellt eine Zip-Datei, in der die PDFs oder PNGs aller Folien der "
 "JessyInk-Präsentation enthalten sind."
 
 #: ../share/extensions/jessyInk_install.inx.h:1
 msgid "Install/update"
 msgstr "Installation/Aktualisierung"
 
+# !!! Link outdated
 #: ../share/extensions/jessyInk_install.inx.h:3
 msgid ""
 "This extension allows you to install or update the JessyInk script in order "
 "to turn your SVG file into a presentation. Please see code.google.com/p/"
 "jessyink for more details."
 msgstr ""
-"Diese Erweiterung erlaubt Ihnen JessyInk-Scripte zu installieren oder zu "
-"aktualisieren, wenn Sie Ihre SVG-Datei in eine Präsentation umwandeln "
-"möchten. Bitte schauen Sie auf code.google.com/p/jessyink für weitere "
+"Diese Erweiterung erlaubt Ihnen, ein JessyInk-Skript in Ihre SVG-Datei "
+"einzufügen, wenn Sie Ihre SVG-Datei in eine Präsentation umwandeln möchten "
+"oder Ihre Präsentation zu "
+"aktualisieren. Bitte schauen Sie auf code.google.com/p/jessyink für weitere "
 "Details."
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:1
@@ -36299,7 +36318,7 @@ msgstr "Zurück (mit Effekten):"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:4
 msgid "Next (with effects):"
-msgstr "Nächste (mit Effekten):"
+msgstr "Weiter (mit Effekten):"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:5
 msgid "Back (without effects):"
@@ -36307,7 +36326,7 @@ msgstr "Zurück (Ohne Effekte):"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:6
 msgid "Next (without effects):"
-msgstr "Nächste (ohne Effekte):"
+msgstr "Weiter (ohne Effekte):"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:7
 msgid "First slide:"
@@ -36327,7 +36346,7 @@ msgstr "In den Zeichnenmodus wechseln:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:11
 msgid "Set duration:"
-msgstr "Sättigung setzen:"
+msgstr "Dauer wählen:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:12
 msgid "Add slide:"
@@ -36335,11 +36354,11 @@ msgstr "Folie hinzufügen:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:13
 msgid "Toggle progress bar:"
-msgstr "Fortschrittsbalken umschalten:"
+msgstr "Fortschrittsbalken de-/aktivieren:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:14
 msgid "Reset timer:"
-msgstr "Zeitgeber zurücksetzen"
+msgstr "Zeitgeber zurücksetzen:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:15
 msgid "Export presentation:"
@@ -36351,7 +36370,7 @@ msgstr "In den Folienmodus wechseln:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:18
 msgid "Set path width to default:"
-msgstr "Setze Pfadbreite als Vorgabe:"
+msgstr "Setze Pfadbreite auf Vorgabewert:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:19
 msgid "Set path width to 1:"
@@ -36419,12 +36438,12 @@ msgstr "Indexmodus"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:35
 msgid "Select the slide to the left:"
-msgstr "Wähle die Folien nach Links aus:"
+msgstr "Wähle die linke Folie:"
 
 # !!!
 #: ../share/extensions/jessyInk_keyBindings.inx.h:36
 msgid "Select the slide to the right:"
-msgstr "Wähle die Folien nach Rechts aus:"
+msgstr "Wähle die rechte Folie:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:37
 msgid "Select the slide above:"
@@ -36452,15 +36471,16 @@ msgstr "Anzahl der Spalten erhöhen:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:43
 msgid "Set number of columns to default:"
-msgstr "Anzahl der Spalten zur Vorgabe machen:"
+msgstr "Anzahl der Spalten auf Standard setzen:"
 
+# !!! Dead link
 #: ../share/extensions/jessyInk_keyBindings.inx.h:45
 msgid ""
 "This extension allows you customise the key bindings JessyInk uses. Please "
 "see code.google.com/p/jessyink for more details."
 msgstr ""
 "Diese Erweiterung erlaubt Ihnen, die Tastenkombinationen zu verändern, die "
-"JessyInk benutzt. Bite schauen Sie auf code.google.com/p/jessyink für "
+"JessyInk benutzt. Bitte schauen Sie auf code.google.com/p/jessyink für "
 "weitere Details."
 
 #: ../share/extensions/jessyInk_masterSlide.inx.h:1
@@ -36474,19 +36494,20 @@ msgstr "Name der Ebene:"
 
 #: ../share/extensions/jessyInk_masterSlide.inx.h:4
 msgid "If no layer name is supplied, the master slide is unset."
-msgstr "Wird kein Ebenen-Name angegeben, wird der Foleinmaster nicht gesetzt."
+msgstr "Wird kein Ebenen-Name angegeben, wird der Folienmaster nicht gesetzt."
 
+# !!! Dead link
 #: ../share/extensions/jessyInk_masterSlide.inx.h:6
 msgid ""
 "This extension allows you to change the master slide JessyInk uses. Please "
 "see code.google.com/p/jessyink for more details."
 msgstr ""
 "Diese Erweiterung erlaubt Ihnen, den Folienmaster zu verändern, den JessyInk "
-"benutzt. Bite schauen Sie auf code.google.com/p/jessyink für weitere Details."
+"benutzt. Bitte schauen Sie auf code.google.com/p/jessyink für weitere Details."
 
 #: ../share/extensions/jessyInk_mouseHandler.inx.h:1
 msgid "Mouse handler"
-msgstr "Maus-Anfasser"
+msgstr "Mausbedienung"
 
 #: ../share/extensions/jessyInk_mouseHandler.inx.h:2
 msgid "Mouse settings:"
@@ -36501,27 +36522,29 @@ msgstr "Kein Klick"
 msgid "Dragging/zoom"
 msgstr "Ziehen/Zoom"
 
+# !!! Dead link
 #: ../share/extensions/jessyInk_mouseHandler.inx.h:7
 msgid ""
 "This extension allows you customise the mouse handler JessyInk uses. Please "
 "see code.google.com/p/jessyink for more details."
 msgstr ""
-"Diese Erweiterung erlaubt Ihnen, die Maus-Andasser zu verändern, die "
-"JessyInk benutzt. Bite schauen Sie auf code.google.com/p/jessyink für "
+"Diese Erweiterung erlaubt Ihnen, die Mausbedienung in JessyInk zu verändern. "
+"Bitte schauen Sie auf code.google.com/p/jessyink für "
 "weitere Details."
 
 #: ../share/extensions/jessyInk_summary.inx.h:1
 msgid "Summary"
-msgstr "Ergebnis"
+msgstr "Übersicht"
 
+# !!! Dead link
 #: ../share/extensions/jessyInk_summary.inx.h:3
 msgid ""
 "This extension allows you to obtain information about the JessyInk script, "
 "effects and transitions contained in this SVG file. Please see code.google."
 "com/p/jessyink for more details."
 msgstr ""
-"Diese Erweiterung erlaubt Ihnen, Informationen über das JessyInk-Script, "
-"Effekte und Übergänge zu erhalten, die zu dieser SVG-Datei gehören. Bite "
+"Diese Erweiterung erlaubt Ihnen, Informationen über das JessyInk-Skript, "
+"Effekte und Übergänge zu erhalten, die zu dieser SVG-Datei gehören. Bitte "
 "schauen Sie auf code.google.com/p/jessyink für weitere Details."
 
 #: ../share/extensions/jessyInk_transitions.inx.h:1
@@ -36530,17 +36553,18 @@ msgstr "Übergänge"
 
 #: ../share/extensions/jessyInk_transitions.inx.h:6
 msgid "Transition in effect"
-msgstr "Übergang im Effekt"
+msgstr "Effekt beim Einblenden"
 
 # !!!
 #: ../share/extensions/jessyInk_transitions.inx.h:9
 msgid "Fade"
-msgstr "Ausblendung"
+msgstr "Langsames Einblenden"
 
 #: ../share/extensions/jessyInk_transitions.inx.h:11
 msgid "Transition out effect"
-msgstr "Übergang aus dem Effekt"
+msgstr "Effekt beim Ausblenden"
 
+# !!! Dead Link
 #: ../share/extensions/jessyInk_transitions.inx.h:13
 msgid ""
 "This extension allows you to change the transition JessyInk uses for the "
@@ -36556,7 +36580,7 @@ msgstr "Deinstallieren/Entfernen"
 
 #: ../share/extensions/jessyInk_uninstall.inx.h:3
 msgid "Remove script"
-msgstr "Script entfernen"
+msgstr "Skript entfernen"
 
 #: ../share/extensions/jessyInk_uninstall.inx.h:4
 msgid "Remove effects"
@@ -36581,7 +36605,7 @@ msgstr "Ansichten entfernen"
 #: ../share/extensions/jessyInk_uninstall.inx.h:9
 msgid "Please select the parts of JessyInk you want to uninstall/remove."
 msgstr ""
-"Bitte wählen Sie die Teile von JessyInk aus, die Sie deinstallieren oder "
+"Bitte wählen Sie die Teile von JessyInk aus, die Sie aus der Präsentation "
 "löschen möchten."
 
 #: ../share/extensions/jessyInk_uninstall.inx.h:11
@@ -36589,7 +36613,7 @@ msgid ""
 "This extension allows you to uninstall the JessyInk script. Please see code."
 "google.com/p/jessyink for more details."
 msgstr ""
-"Diese Erweiterung erlaubt Ihnen das JessyInk-Script zu deinstallieren. Bitte "
+"Diese Erweiterung erlaubt Ihnen das JessyInk-Skript zu entfernen. Bitte "
 "schauen Sie auf code.google.com/p/jessyink für weitere Details."
 
 #: ../share/extensions/jessyInk_video.inx.h:1
@@ -36602,8 +36626,9 @@ msgid ""
 "This element allows you to integrate a video into your JessyInk "
 "presentation. Please see code.google.com/p/jessyink for more details."
 msgstr ""
-"Diese Erweiterung fügt ein JessyInk Video Element der derzeitigen Folie "
-"(Ebene) hinzu. Dieses Element erlaubt Ihnen ein Video in Ihre JessyInk-"
+"Diese Erweiterung fügt der derzeitigen Folie "
+"(Ebene) ein JessyInk-Video-Element hinzu. Dieses Element erlaubt Ihnen, ein "
+"Video in Ihre JessyInk-"
 "Präsentation zu integrieren. Bitte schauen Sie auf code.google.com/p/"
 "jessyink für weitere Details."
 
@@ -36616,13 +36641,14 @@ msgid "Choose order number 0 to set the initial view of a slide."
 msgstr ""
 "Wählen Sie die Nummer 0, um die initiale Ansicht einer Folie zu setzen."
 
+# Is a view = slide?... !!! Dead Link
 #: ../share/extensions/jessyInk_view.inx.h:8
 msgid ""
 "This extension allows you to set, update and remove views for a JessyInk "
 "presentation. Please see code.google.com/p/jessyink for more details."
 msgstr ""
 "Diese Erweiterung erlaubt Ihnen, Ansichten für eine JessyInk-Präsentation zu "
-"aktualisieren und zu löschen. Bite schauen Sie auf code.google.com/p/"
+"aktualisieren und zu löschen. Bitte schauen Sie auf code.google.com/p/"
 "jessyink für weitere Details."
 
 #: ../share/extensions/jitternodes.inx.h:1
@@ -36684,11 +36710,11 @@ msgstr "Typografie"
 
 #: ../share/extensions/layout_nup.inx.h:1
 msgid "N-up layout"
-msgstr "N-up layout"
+msgstr "N-Up-Layout"
 
 #: ../share/extensions/layout_nup.inx.h:2
 msgid "Page dimensions"
-msgstr "Seitendimensionen"
+msgstr "Seitengröße"
 
 #: ../share/extensions/layout_nup.inx.h:4
 msgid "Size X:"
@@ -36720,7 +36746,7 @@ msgstr "Rechts:"
 
 #: ../share/extensions/layout_nup.inx.h:10
 msgid "Page margins"
-msgstr "Seitenrand"
+msgstr "Seitenränder"
 
 #: ../share/extensions/layout_nup.inx.h:11
 msgid "Layout dimensions"
@@ -36732,11 +36758,11 @@ msgstr "Spalten:"
 
 #: ../share/extensions/layout_nup.inx.h:14
 msgid "Auto calculate layout size"
-msgstr "Kalkuliere Entwurfgröße automatisch"
+msgstr "Kalkuliere Layoutgröße automatisch"
 
 #: ../share/extensions/layout_nup.inx.h:15
 msgid "Layout padding"
-msgstr "Layout-Füllung"
+msgstr "Layout-Innenabstand"
 
 #: ../share/extensions/layout_nup.inx.h:16
 msgid "Layout margins"
@@ -36757,7 +36783,7 @@ msgstr "Schnittmarken"
 
 #: ../share/extensions/layout_nup.inx.h:20
 msgid "Padding guide"
-msgstr "Umrandungslinie"
+msgstr "Innenabstandslinie"
 
 #: ../share/extensions/layout_nup.inx.h:21
 msgid "Margin guide"
@@ -36788,19 +36814,20 @@ msgstr ""
 "Parameter:\n"
 "     * Seitengröße: Breite und Höhe\n"
 "     * Seitenränder: Zusätzlicher Platz um jede Seite.\n"
-"     * Anordnung Zeilen und Spalten:\n"
-"     * Anordnung: Breite und Höhe automatisch berechnen, wenn eins 0 ist.\n"
-"     * Layoutgröße automatisch berechnen: Verwenden Sie nicht die "
-"Layoutgrößen-Werte.\n"
-"     * Layout-Margin: Weißer Fläche um jeden Teil des Layouts.\n"
-"     * Layout Padding: Innere Füllung für jeden Teil des Layouts."
+"     * Layout: Zeilen und Spalten.\n"
+"     * Layout: Breite und Höhe automatisch berechnen, wenn eines davon 0 "
+"ist.\n"
+"     * Layoutgröße automatisch berechnen: Verwendet nicht nicht die "
+"Werte für Layout-Abmessungen.\n"
+"     * Layout-Ränder: Leerraum um jeden Teil des Layouts.\n"
+"     * Layout-Innenabstand:  Abstand zum Inhalt jedes Layoutteils."
 
 #: ../share/extensions/layout_nup.inx.h:36
 #: ../share/extensions/perfectboundcover.inx.h:20
 #: ../share/extensions/printing_marks.inx.h:21
 #: ../share/extensions/svgcalendar.inx.h:13
 msgid "Layout"
-msgstr "Ausrichtung"
+msgstr "Layout"
 
 #: ../share/extensions/lindenmayer.inx.h:1
 msgid "L-system"
