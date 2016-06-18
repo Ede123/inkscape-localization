@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-05-30 08:43+0200\n"
-"PO-Revision-Date: 2016-06-12 00:42+0200\n"
+"PO-Revision-Date: 2016-06-18 03:02+0200\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -36169,7 +36169,6 @@ msgstr "Foliennummer"
 msgid "Number of slides"
 msgstr "Anzahl der Folien"
 
-# !!! link is dead, reported as a bug. Should we remove that sentence from German?
 #: ../share/extensions/jessyInk_autoTexts.inx.h:9
 msgid ""
 "This extension allows you to install, update and remove auto-texts for a "
@@ -36291,7 +36290,6 @@ msgstr ""
 msgid "Install/update"
 msgstr "Installation/Aktualisierung"
 
-# !!! Link outdated
 #: ../share/extensions/jessyInk_install.inx.h:3
 msgid ""
 "This extension allows you to install or update the JessyInk script in order "
@@ -36473,7 +36471,6 @@ msgstr "Anzahl der Spalten erhöhen:"
 msgid "Set number of columns to default:"
 msgstr "Anzahl der Spalten auf Standard setzen:"
 
-# !!! Dead link
 #: ../share/extensions/jessyInk_keyBindings.inx.h:45
 msgid ""
 "This extension allows you customise the key bindings JessyInk uses. Please "
@@ -36496,7 +36493,6 @@ msgstr "Name der Ebene:"
 msgid "If no layer name is supplied, the master slide is unset."
 msgstr "Wird kein Ebenen-Name angegeben, wird der Folienmaster nicht gesetzt."
 
-# !!! Dead link
 #: ../share/extensions/jessyInk_masterSlide.inx.h:6
 msgid ""
 "This extension allows you to change the master slide JessyInk uses. Please "
@@ -36522,7 +36518,6 @@ msgstr "Kein Klick"
 msgid "Dragging/zoom"
 msgstr "Ziehen/Zoom"
 
-# !!! Dead link
 #: ../share/extensions/jessyInk_mouseHandler.inx.h:7
 msgid ""
 "This extension allows you customise the mouse handler JessyInk uses. Please "
@@ -36536,7 +36531,6 @@ msgstr ""
 msgid "Summary"
 msgstr "Übersicht"
 
-# !!! Dead link
 #: ../share/extensions/jessyInk_summary.inx.h:3
 msgid ""
 "This extension allows you to obtain information about the JessyInk script, "
@@ -36564,7 +36558,6 @@ msgstr "Langsames Einblenden"
 msgid "Transition out effect"
 msgstr "Effekt beim Ausblenden"
 
-# !!! Dead Link
 #: ../share/extensions/jessyInk_transitions.inx.h:13
 msgid ""
 "This extension allows you to change the transition JessyInk uses for the "
@@ -36641,7 +36634,7 @@ msgid "Choose order number 0 to set the initial view of a slide."
 msgstr ""
 "Wählen Sie die Nummer 0, um die initiale Ansicht einer Folie zu setzen."
 
-# Is a view = slide?... !!! Dead Link
+# Is a view = slide?...
 #: ../share/extensions/jessyInk_view.inx.h:8
 msgid ""
 "This extension allows you to set, update and remove views for a JessyInk "
@@ -36822,6 +36815,7 @@ msgstr ""
 "     * Layout-Ränder: Leerraum um jeden Teil des Layouts.\n"
 "     * Layout-Innenabstand:  Abstand zum Inhalt jedes Layoutteils."
 
+# !!! used for too many different things, translation difficult...
 #: ../share/extensions/layout_nup.inx.h:36
 #: ../share/extensions/perfectboundcover.inx.h:20
 #: ../share/extensions/printing_marks.inx.h:21
