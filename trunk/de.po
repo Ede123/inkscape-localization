@@ -11594,6 +11594,8 @@ msgid ""
 "<b>Chamfer</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open "
 "dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
+"<b>Fasen</b>: <b>Strg+Klick</b> Typ ändern, <b>Umschalt+Klick</b> Dialog "
+"öffnen, <b>Strg+Alt+Klick</b> zurücksetzen"
 
 #: ../src/live_effects/parameter/filletchamferpointarray.cpp:782
 #: ../src/live_effects/parameter/filletchamferpointarray.cpp:843
@@ -11601,6 +11603,8 @@ msgid ""
 "<b>Inverse Chamfer</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> "
 "open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
+"<b>Invertierte Fasung</b>: <b>Strg+Klick</b> Typ ändern, <b>Umschalt+Klick</"
+"b> Dialog öffnen, <b>Strg+Alt+Klick</b> zurücksetzen"
 
 #: ../src/live_effects/parameter/filletchamferpointarray.cpp:786
 #: ../src/live_effects/parameter/filletchamferpointarray.cpp:847
@@ -11608,6 +11612,8 @@ msgid ""
 "<b>Inverse Fillet</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> "
 "open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
+"<b>Invertierte Abrundung</b>: <b>Strg+Klick</b> Typ ändern, <b>Umschalt"
+"+Klick</b> Dialog öffnen, <b>Strg+Alt+Klick</b> zurücksetzen"
 
 #: ../src/live_effects/parameter/filletchamferpointarray.cpp:790
 #: ../src/live_effects/parameter/filletchamferpointarray.cpp:851
@@ -11615,6 +11621,8 @@ msgid ""
 "<b>Fillet</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open "
 "dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
+"<b>Abrunden</b>: <b>Strg+Klick</b> Typ ändern, <b>Umschalt+Klick</b> Dialog "
+"öffnen, <b>Strg+Alt+Klick</b> zurücksetzen"
 
 #: ../src/live_effects/parameter/originalpath.cpp:67
 #: ../src/live_effects/parameter/originalpatharray.cpp:155
@@ -24174,7 +24182,7 @@ msgstr "Hilflinien aus Messwerkzeug hinzufügen"
 
 #: ../src/ui/tools/measure-tool.cpp:781
 msgid "Keep last measure on the canvas, for reference"
-msgstr ""
+msgstr "Letzte Messung als Referenz auf der Leinwand behalten"
 
 #: ../src/ui/tools/measure-tool.cpp:801
 msgid "Convert measure to items"
@@ -35975,10 +35983,8 @@ msgstr "FAQ"
 msgid "Keys and Mouse Reference"
 msgstr "Referenz der Tasten- und Maus-Befehle"
 
-# page exists. !!! Please un-fuzzy after next update.
 #. i18n. Please don't translate it unless a page exists in your language
 #: ../share/extensions/inkscape_help_keys.inx.h:3
-#, fuzzy
 msgid "http://inkscape.org/doc/keys092.html"
 msgstr "http://inkscape.org/doc/keys092.de.html"
 
@@ -35995,10 +36001,8 @@ msgstr "http://tavmjong.free.fr/INKSCAPE/MANUAL/html/index.php"
 msgid "New in This Version"
 msgstr "Neu in dieser Version"
 
-# !!! Please un-fuzzy after po file update
 #. i18n. Please don't translate it unless a page exists in your language
 #: ../share/extensions/inkscape_help_relnotes.inx.h:3
-#, fuzzy
 msgid "http://wiki.inkscape.org/wiki/index.php/Release_notes/0.92"
 msgstr "http://wiki.inkscape.org/wiki/index.php/Release_notes/0.92"
 
@@ -38631,9 +38635,8 @@ msgid "Custom Height (px):"
 msgstr "Benutzerdefinierte Höhe (px):"
 
 #: ../share/extensions/seamless_pattern.inx.h:4
-#, fuzzy
 msgid "This extension overwrites the current document"
-msgstr "Diese Erweiterung ersetzt den Inhalt des aktuellen Dokuments."
+msgstr "Diese Erweiterung überschreibt das aktuelle Dokument"
 
 #: ../share/extensions/seamless_pattern_procedural.inx.h:1
 msgid "Seamless Pattern Procedural"
