@@ -10034,13 +10034,12 @@ msgid ""
 msgstr "Zahnflankenwinkel (typ. 20-25°)."
 
 #: ../src/live_effects/lpe-gears.cpp:216
-#, fuzzy
 msgid "Min Radius:"
-msgstr "Radius:"
+msgstr "Minimaler Radius:"
 
 #: ../src/live_effects/lpe-gears.cpp:216
-msgid "Minimun radius, low balues can slow"
-msgstr ""
+msgid "Minimun radius, low values can be slow"
+msgstr "Minimaler Radius, kleine Werte können langsam sein"
 
 #: ../src/live_effects/lpe-interpolate.cpp:30
 msgid "Trajectory:"
@@ -23103,26 +23102,22 @@ msgid "Adjust ellipse <b>height</b>, with <b>Ctrl</b> to make circle"
 msgstr "<b>Höhe</b> der Ellipse anpassen; <b>Strg</b> erzeugt einen Kreis"
 
 #: ../src/ui/object-edit.cpp:1004
-#, fuzzy
 msgid ""
 "Position the <b>start point</b> of the arc or segment; with <b>Shift</b> to "
 "move with <b>end point</b>; with <b>Ctrl</b> to snap angle; drag <b>inside</"
 "b> the ellipse for arc, <b>outside</b> for segment"
 msgstr ""
-"<b>Anfangspunkt</b> des Bogens oder Kreissegments setzen; <b>Strg</b> rastet "
-"den Winkel ein; ziehen <b>innerhalb</b> der Ellipse erzeugt einen Kreisbogen "
-"- <b>außerhalb</b> ein Kreissegment"
+"<b>Anfangspunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b> verschiebt mit <b>Endpunkt</b>; <b>Strg</b> rastet "
+"Winkel ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b>außerhalb</b> erzeugt Kreissegment"
 
 #: ../src/ui/object-edit.cpp:1010
-#, fuzzy
 msgid ""
 "Position the <b>end point</b> of the arc or segment; with <b>Shift</b> to "
 "move with <b>start point</b>; with <b>Ctrl</b> to snap angle; drag "
 "<b>inside</b> the ellipse for arc, <b>outside</b> for segment"
 msgstr ""
-"<b>Endpunkt</b> des Bogens/Kreissegments setzen; <b>Strg</b> rastet Winkel "
-"ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt einen Kreisbogen - "
-"<b>außerhalb</b> ein Kreissegment"
+"<b>Endpunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b> verschiebt mit <b>Endpunkt</b>; <b>Strg</b> rastet "
+"Winkel ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b>außerhalb</b> erzeugt Kreissegment"
 
 #: ../src/ui/object-edit.cpp:1157
 msgid ""
@@ -31965,40 +31960,38 @@ msgstr ""
 "umzuwandeln."
 
 #: ../share/extensions/draw_from_triangle.py:179
-#, fuzzy
 msgid "Side Length 'a' ("
-msgstr "Seitenlänge 'a' (px):"
+msgstr "Seitenlänge 'a' ("
 
 #: ../share/extensions/draw_from_triangle.py:180
-#, fuzzy
 msgid "Side Length 'b' ("
-msgstr "Seitenlänge 'b' (px):"
+msgstr "Seitenlänge 'b' ("
 
 #: ../share/extensions/draw_from_triangle.py:181
-#, fuzzy
 msgid "Side Length 'c' ("
-msgstr "Seitenlänge 'c' (px):"
+msgstr "Seitenlänge 'c' ("
 
+# Spaces important!
+# Maybe rewrite draw_from_triangle.py in future to exclude spaces from localizable string
 #: ../share/extensions/draw_from_triangle.py:182
 msgid "Angle 'A' (radians): "
-msgstr "Winkel A in Radiant:"
+msgstr "Winkel A in Radiant: "
 
 #: ../share/extensions/draw_from_triangle.py:183
 msgid "Angle 'B' (radians): "
-msgstr "Winkel B in Radiant:"
+msgstr "Winkel B in Radiant: "
 
 #: ../share/extensions/draw_from_triangle.py:184
 msgid "Angle 'C' (radians): "
-msgstr "Winkel C in Radiant:"
+msgstr "Winkel C in Radiant: "
 
 #: ../share/extensions/draw_from_triangle.py:185
 msgid "Semiperimeter (px): "
-msgstr "Halbdurchmesser in px:"
+msgstr "Halbdurchmesser in px: "
 
 #: ../share/extensions/draw_from_triangle.py:186
-#, fuzzy
 msgid "Area ("
-msgstr "Fläche"
+msgstr "Fläche ("
 
 #: ../share/extensions/dxf_input.py:530
 #, python-format
@@ -35967,10 +35960,10 @@ msgstr "Verknüpfung folgen"
 msgid "Ask Us a Question"
 msgstr "Fragen Sie uns"
 
+# do we have a German link here? (Redirects to English Launchpad anyway so doesn't really matter, though)
 #: ../share/extensions/inkscape_help_askaquestion.inx.h:2
-#, fuzzy
 msgid "https://inkscape.org/en/ask/"
-msgstr "http://inkscape.org/doc/keys092.de.html"
+msgstr "https://inkscape.org/en/ask/"
 
 #: ../share/extensions/inkscape_help_commandline.inx.h:1
 msgid "Command Line Options"
