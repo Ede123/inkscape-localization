@@ -2,6 +2,7 @@
 # This file is distributed under the same license as the Inkscape package.
 # Copyright (C) 2000-2003, 2006, 2007 Free Software Foundation, Inc.
 #
+#: ../src/ui/dialog/clonetiler.cpp:1010
 # Kai Lahmann <kailahmann@01019freenet.de>, 2000.
 # Benedikt Roth <Benedikt.Roth@gmx.net>, 2000.
 # Christian Meyer <chrisime@gnome.org>, 2000-2002.
@@ -18,13 +19,12 @@
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
 # Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015-2016.
-#: ../src/ui/dialog/clonetiler.cpp:1010
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-10-21 22:04+0200\n"
-"PO-Revision-Date: 2016-10-20 22:55+0100\n"
+"PO-Revision-Date: 2016-10-23 03:58+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -1388,7 +1388,7 @@ msgstr "Struktur von dicker Acrylfarbe mit stark unebener Oberfläche"
 
 #: ../share/filters/filters.svg.h:514
 msgid "Alpha Engraving B"
-msgstr "Alphagravur B"
+msgstr "Alpha-Gravur B"
 
 #: ../share/filters/filters.svg.h:516
 msgid ""
@@ -1597,7 +1597,7 @@ msgstr "Leinwand"
 
 #: ../share/filters/filters.svg.h:608 ../share/filters/filters.svg.h:616
 msgid "Painting canvas emboss effect"
-msgstr "Malerei Leinwand-Prägeeffekt"
+msgstr "Malereileinwand-Prägeeffekt"
 
 #: ../share/filters/filters.svg.h:610
 msgid "Plasticine"
@@ -6974,7 +6974,7 @@ msgstr ""
 
 #: ../src/extension/internal/filter/color.h:1377
 msgid "Nudge CMY"
-msgstr "Präzisionsausrichtung RGB"
+msgstr "Präzisionsausrichtung CMY"
 
 #: ../src/extension/internal/filter/color.h:1381
 msgid "Cyan offset"
@@ -12858,7 +12858,7 @@ msgstr "Wählen Sie <b>Objekte</b> zum Konvertieren in ein Symbol aus."
 
 #: ../src/selection-chemistry.cpp:3188
 msgid "Group to symbol"
-msgstr "Gruppieren zum Symbol"
+msgstr "Gruppe zu Symbol"
 
 #: ../src/selection-chemistry.cpp:3207
 msgid "Select a <b>symbol</b> to extract objects from."
@@ -20122,7 +20122,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1321
 msgid "Compass-like display of angles"
-msgstr "Anzeige von Winkeln wie bei einem Kompaß"
+msgstr "Anzeige von Winkeln wie bei einem Kompass"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1323
 msgid ""
@@ -20851,7 +20851,7 @@ msgstr "Anzahl Tasten:"
 
 #: ../src/ui/dialog/input.cpp:1010
 msgid "Tablet"
-msgstr "Grafiktablet"
+msgstr "Grafiktablett"
 
 #: ../src/ui/dialog/input.cpp:1039 ../src/ui/dialog/input.cpp:1928
 msgid "pad"
@@ -23107,8 +23107,10 @@ msgid ""
 "move with <b>end point</b>; with <b>Ctrl</b> to snap angle; drag <b>inside</"
 "b> the ellipse for arc, <b>outside</b> for segment"
 msgstr ""
-"<b>Anfangspunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b> verschiebt mit <b>Endpunkt</b>; <b>Strg</b> rastet "
-"Winkel ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b>außerhalb</b> erzeugt Kreissegment"
+"<b>Anfangspunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b>"
+" verschiebt mit <b>Endpunkt</b>; <b>Strg</b> rastet "
+"Winkel ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b"
+">außerhalb</b> erzeugt Kreissegment"
 
 #: ../src/ui/object-edit.cpp:1010
 msgid ""
@@ -23116,8 +23118,10 @@ msgid ""
 "move with <b>start point</b>; with <b>Ctrl</b> to snap angle; drag "
 "<b>inside</b> the ellipse for arc, <b>outside</b> for segment"
 msgstr ""
-"<b>Endpunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b> verschiebt mit <b>Endpunkt</b>; <b>Strg</b> rastet "
-"Winkel ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b>außerhalb</b> erzeugt Kreissegment"
+"<b>Endpunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b> verschiebt"
+" mit <b>Endpunkt</b>; <b>Strg</b> rastet "
+"Winkel ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b"
+">außerhalb</b> erzeugt Kreissegment"
 
 #: ../src/ui/object-edit.cpp:1157
 msgid ""
@@ -26449,7 +26453,7 @@ msgid ""
 "Remove unused definitions (such as gradients or clipping paths) from the &lt;"
 "defs&gt; of the document"
 msgstr ""
-"Unbenutzte Definitionen (z.B. Farbverläufe oder Ausschneidepfade) aus den "
+"Unbenutzte Definitionen (z. B. Farbverläufe oder Ausschneidepfade) aus den "
 "&lt;defs&gt; des Dokuments entfernen"
 
 #: ../src/verbs.cpp:2443
@@ -27125,7 +27129,8 @@ msgstr ""
 
 #: ../src/verbs.cpp:2629
 msgid "Create one or more paths from a bitmap by tracing it"
-msgstr "Erzeuge einen oder mehrere Pfade durch das Nachzeichnen eines Bitmaps"
+msgstr ""
+"Erzeuge einen oder mehrere Pfade durch das Nachzeichnen einer Rastergrafik"
 
 #: ../src/verbs.cpp:2632
 msgid "Trace Pixel Art..."
@@ -27327,7 +27332,7 @@ msgstr "Aktuelle Ebene sperren/entsperren"
 
 #: ../src/verbs.cpp:2684
 msgid "Toggle lock on current layer"
-msgstr "Sperre auf aktuellen Layer umschalten"
+msgstr "Aktuelle Ebene sperren oder entsperren"
 
 #: ../src/verbs.cpp:2685
 msgid "_Show/hide Current Layer"
@@ -27384,7 +27389,7 @@ msgid ""
 "Put text into a frame (path or shape), creating a flowed text linked to the "
 "frame object"
 msgstr ""
-"Text in einen Rahmen setzen (Pfad oder Form), so daß ein mit seinem Rahmen "
+"Text in einen Rahmen setzen (Pfad oder Form), so dass ein mit seinem Rahmen "
 "verbundener Fließtext erzeugt wird"
 
 #: ../src/verbs.cpp:2703
@@ -28271,7 +28276,7 @@ msgstr "_Eingabegeräte..."
 
 #: ../src/verbs.cpp:2943
 msgid "Configure extended input devices, such as a graphics tablet"
-msgstr "Erweiterte Eingabegeräte konfigurieren, wie z.B. Grafiktabletts"
+msgstr "Erweiterte Eingabegeräte konfigurieren, wie z. B. Grafiktabletts"
 
 #: ../src/verbs.cpp:2944
 msgid "_Extensions..."
@@ -28307,7 +28312,7 @@ msgstr "Tags anzeigen"
 
 #: ../src/verbs.cpp:2952
 msgid "Path E_ffects ..."
-msgstr "Pfade_ffekte ..."
+msgstr "Pfade_ffekte..."
 
 #: ../src/verbs.cpp:2953
 msgid "Manage, edit, and apply path effects"
@@ -34363,7 +34368,7 @@ msgstr ""
 "\"Erstelle Flächenversatz\": Erstellt verschiedene Inkscape-Versatzobjekte, "
 "um die originale Pfadfläche bis zur maximalen \"Breite der Fläche\" zu "
 "füllen. Die dabei erstellten Umrisse reichen von \"1/2 D\" bis zur gesamten "
-"\"Breite der Fläche\" in \"D\" breitenSchritten, wobei D von der nächsten "
+"\"Breite der Fläche\" in \"D\" breiten Schritten, wobei D von der nächsten "
 "Werkzeugdefinition genommen wird (Wert für \"Werkzeugdurchmesser\"). Es wird "
 "nur ein einziger Versatz erstellt, wenn die \"Bereichsbreite\" gleich \"1/2 D"
 "\" ist."
