@@ -2,7 +2,6 @@
 # This file is distributed under the same license as the Inkscape package.
 # Copyright (C) 2000-2003, 2006, 2007 Free Software Foundation, Inc.
 #
-#: ../src/ui/dialog/clonetiler.cpp:1010
 # Kai Lahmann <kailahmann@01019freenet.de>, 2000.
 # Benedikt Roth <Benedikt.Roth@gmx.net>, 2000.
 # Christian Meyer <chrisime@gnome.org>, 2000-2002.
@@ -19,11 +18,12 @@
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
 # Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015-2016.
+#: ../src/ui/dialog/clonetiler.cpp:1010
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2016-10-21 22:04+0200\n"
+"POT-Creation-Date: 2016-11-13 16:11+0100\n"
 "PO-Revision-Date: 2016-11-04 17:53+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -5564,7 +5564,7 @@ msgstr "Deckkraft"
 
 #: ../src/extension/internal/bitmap/opacity.cpp:40
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2924
-#: ../src/ui/dialog/objects.cpp:1629 ../src/widgets/dropper-toolbar.cpp:83
+#: ../src/ui/dialog/objects.cpp:1636 ../src/widgets/dropper-toolbar.cpp:83
 msgid "Opacity:"
 msgstr "Deckkraft:"
 
@@ -6073,7 +6073,7 @@ msgstr "Hervorhebungsfarbe"
 #: ../src/extension/internal/filter/distort.h:95
 #: ../src/extension/internal/filter/distort.h:204
 #: ../src/extension/internal/filter/filter-file.cpp:151
-#: ../src/extension/internal/filter/filter.cpp:211
+#: ../src/extension/internal/filter/filter.cpp:212
 #: ../src/extension/internal/filter/image.h:61
 #: ../src/extension/internal/filter/morphology.h:75
 #: ../src/extension/internal/filter/morphology.h:202
@@ -7992,7 +7992,7 @@ msgstr "Rendern"
 #: ../src/extension/internal/grid.cpp:210
 #: ../src/ui/dialog/document-properties.cpp:163
 #: ../src/ui/dialog/inkscape-preferences.cpp:832
-#: ../src/widgets/toolbox.cpp:1894
+#: ../src/widgets/toolbox.cpp:1896
 msgid "Grids"
 msgstr "Gitter"
 
@@ -8650,7 +8650,7 @@ msgid "Arithmetic"
 msgstr "Arithmetisch"
 
 #: ../src/filter-enums.cpp:120 ../src/selection-chemistry.cpp:545
-#: ../src/ui/dialog/objects.cpp:1893
+#: ../src/ui/dialog/objects.cpp:1900
 msgid "Duplicate"
 msgstr "Duplizieren"
 
@@ -8688,15 +8688,15 @@ msgstr "Punktförmige Lichtquelle"
 msgid "Spot Light"
 msgstr "Spotlight"
 
-#: ../src/gradient-chemistry.cpp:1586
+#: ../src/gradient-chemistry.cpp:1617
 msgid "Invert gradient colors"
 msgstr "Farbverlauf invertieren"
 
-#: ../src/gradient-chemistry.cpp:1613
+#: ../src/gradient-chemistry.cpp:1644
 msgid "Reverse gradient"
 msgstr "Farbverlauf umkehren"
 
-#: ../src/gradient-chemistry.cpp:1627 ../src/widgets/gradient-selector.cpp:222
+#: ../src/gradient-chemistry.cpp:1658 ../src/widgets/gradient-selector.cpp:222
 msgid "Delete swatch"
 msgstr "Zwischenfarbe löschen"
 
@@ -8732,15 +8732,15 @@ msgstr "<b>Fokus</b> des radialen Farbverlaufs"
 msgid "Radial gradient <b>mid stop</b>"
 msgstr "<b>Zwischenfarbe</b> des radialen Farbverlaufs"
 
-#: ../src/gradient-drag.cpp:104 ../src/ui/tools/mesh-tool.cpp:93
+#: ../src/gradient-drag.cpp:104 ../src/ui/tools/mesh-tool.cpp:97
 msgid "Mesh gradient <b>corner</b>"
 msgstr "Verlaufsgitter <b>Ecke</b>"
 
-#: ../src/gradient-drag.cpp:105 ../src/ui/tools/mesh-tool.cpp:94
+#: ../src/gradient-drag.cpp:105 ../src/ui/tools/mesh-tool.cpp:98
 msgid "Mesh gradient <b>handle</b>"
 msgstr "Verlaufsgitter <b>Anfasser</b>"
 
-#: ../src/gradient-drag.cpp:106 ../src/ui/tools/mesh-tool.cpp:95
+#: ../src/gradient-drag.cpp:106 ../src/ui/tools/mesh-tool.cpp:99
 msgid "Mesh gradient <b>tensor</b>"
 msgstr "Verlaufsgitter <b>Tensor</b>"
 
@@ -9739,6 +9739,66 @@ msgstr "Größe _Y:"
 msgid "The size of the grid in Y direction."
 msgstr "Die Größe des Gitters in Y-Richtung"
 
+#: ../src/live_effects/lpe-copy_rotate.cpp:65
+msgid "Origin"
+msgstr "Ursprung"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:65
+msgid "Origin of the rotation"
+msgstr "Rotationszentrum"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:66
+#, fuzzy
+msgid "Starting:"
+msgstr "Anfang:"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:66
+msgid "Angle of the first copy"
+msgstr "Winkel der ersten Kopie"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:67
+#, fuzzy
+msgid "Rotation angle:"
+msgstr "Startwinkel"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:67
+msgid "Angle between two successive copies"
+msgstr "Winkel zwischen zwei aufeinander folgenden Kopien"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:68
+msgid "Number of copies:"
+msgstr "Anzahl der Kopien"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:68
+msgid "Number of copies of the original path"
+msgstr "Anzahl der Kopien des Originalpfades"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:69
+msgid "360º Copies"
+msgstr ""
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:69
+msgid "No rotation angle, fixed to 360º"
+msgstr ""
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:70
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:73
+#, fuzzy
+msgid "Fuse paths"
+msgstr "Pfad erweitern"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:70
+msgid "Fuse paths by helper line, use fill-rule: evenodd for best result"
+msgstr ""
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:431
+msgid "Adjust the starting angle"
+msgstr "Anpassen des Startwinkels"
+
+#: ../src/live_effects/lpe-copy_rotate.cpp:437
+msgid "Adjust the rotation angle"
+msgstr "Anpassen des Rotationswinkels"
+
 #: ../src/live_effects/lpe-curvestitch.cpp:41
 msgid "Stitch path:"
 msgstr "Stich-Pfad"
@@ -10556,6 +10616,75 @@ msgstr "Punkte anzeigen"
 #: ../src/live_effects/lpe-lattice2.cpp:283
 msgid "Hide Points"
 msgstr "Punkte ausblenden"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:35
+#, fuzzy
+msgid "Vertical Page Center"
+msgstr "Erkennung vertikaler Kanten"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:36
+#, fuzzy
+msgid "Horizontal Page Center"
+msgstr "Horizontale Kantenerkennung"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:37
+#, fuzzy
+msgid "Free from reflection line"
+msgstr "Aus Auswahlgruppe entfernen"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:38
+msgid "X from middle knot"
+msgstr ""
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:39
+msgid "Y from middle knot"
+msgstr ""
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:71
+#: ../src/widgets/spray-toolbar.cpp:388 ../src/widgets/tweak-toolbar.cpp:253
+msgid "Mode"
+msgstr "Modus"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:71
+#, fuzzy
+msgid "Symmetry move mode"
+msgstr "symmetrischer Knoten"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:72
+msgid "Discard original path?"
+msgstr "Originalpfad ersetzen"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:72
+msgid "Check this to only keep the mirrored part of the path"
+msgstr "Aktivieren um den gespiegelten Teil des Pfades zu behalten"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:73
+msgid "Fuse original and the reflection into a single path"
+msgstr ""
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:74
+#, fuzzy
+msgid "Opposite fuse"
+msgstr "Gegensätze mischen"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:74
+#, fuzzy
+msgid "Picks the other side of the mirror as the original"
+msgstr "Klone werden mit demselben Vektor wie das Original verschoben."
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:75
+#, fuzzy
+msgid "Start mirror line"
+msgstr "Anfangspunkt"
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:76
+msgid "End mirror line"
+msgstr ""
+
+#: ../src/live_effects/lpe-mirror_symmetry.cpp:353
+#, fuzzy
+msgid "Adjust the center"
+msgstr "<b>Versatz-Abstand</b> anpassen"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:53
 #: ../share/extensions/pathalongpath.inx.h:10
@@ -11653,12 +11782,12 @@ msgid "Remove Path"
 msgstr "Pfad entfernen"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:179
-#: ../src/ui/dialog/objects.cpp:1854
+#: ../src/ui/dialog/objects.cpp:1861
 msgid "Move Down"
 msgstr "Nach unten"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:191
-#: ../src/ui/dialog/objects.cpp:1862
+#: ../src/ui/dialog/objects.cpp:1869
 msgid "Move Up"
 msgstr "Nach oben"
 
@@ -12566,7 +12695,7 @@ msgid "<b>No groups</b> to ungroup in the selection."
 msgstr "<b>Keine Gruppe</b> zum Aufheben in dieser Auswahl."
 
 #: ../src/selection-chemistry.cpp:901 ../src/sp-item-group.cpp:659
-#: ../src/ui/dialog/objects.cpp:1916
+#: ../src/ui/dialog/objects.cpp:1923
 msgid "Ungroup"
 msgstr "Gruppierung aufheben"
 
@@ -12912,7 +13041,7 @@ msgid "Select <b>object(s)</b> to create clippath or mask from."
 msgstr ""
 "<b>Objekt(e)</b> auswählen, um Ausschneidepfad oder Maske daraus zu erzeugen."
 
-#: ../src/selection-chemistry.cpp:3850 ../src/ui/dialog/objects.cpp:1922
+#: ../src/selection-chemistry.cpp:3850 ../src/ui/dialog/objects.cpp:1929
 msgid "Create Clip Group"
 msgstr "Ausschneidemaske erzeugen"
 
@@ -13170,22 +13299,22 @@ msgstr "zu %s"
 msgid "without URI"
 msgstr "ohne URI"
 
-#: ../src/sp-ellipse.cpp:356
+#: ../src/sp-ellipse.cpp:357
 msgid "Segment"
 msgstr "Segment"
 
-#: ../src/sp-ellipse.cpp:358
+#: ../src/sp-ellipse.cpp:359
 msgid "Arc"
 msgstr "Bogen"
 
 #. Ellipse
-#: ../src/sp-ellipse.cpp:361 ../src/sp-ellipse.cpp:368
+#: ../src/sp-ellipse.cpp:362 ../src/sp-ellipse.cpp:369
 #: ../src/ui/dialog/inkscape-preferences.cpp:421
 #: ../src/widgets/pencil-toolbar.cpp:178
 msgid "Ellipse"
 msgstr "Ellipse"
 
-#: ../src/sp-ellipse.cpp:365
+#: ../src/sp-ellipse.cpp:366
 msgid "Circle"
 msgstr "Kreis"
 
@@ -13272,7 +13401,7 @@ msgstr "[falsche Referenz]: %s"
 msgid "%d &#215; %d: %s"
 msgstr "%d &#215; %d: %s"
 
-#: ../src/sp-item-group.cpp:318 ../src/ui/dialog/objects.cpp:1915
+#: ../src/sp-item-group.cpp:318 ../src/ui/dialog/objects.cpp:1922
 msgid "Group"
 msgstr "Gruppe"
 
@@ -13742,41 +13871,41 @@ msgid "Trace: Done. %ld nodes created"
 msgstr "Nachzeichnen: Abgeschlossen. %ld Knoten erstellt"
 
 #. check whether something is selected
-#: ../src/ui/clipboard.cpp:261
+#: ../src/ui/clipboard.cpp:262
 msgid "Nothing was copied."
 msgstr "Es wurde nichts kopiert."
 
-#: ../src/ui/clipboard.cpp:392 ../src/ui/clipboard.cpp:606
-#: ../src/ui/clipboard.cpp:635
+#: ../src/ui/clipboard.cpp:393 ../src/ui/clipboard.cpp:607
+#: ../src/ui/clipboard.cpp:636
 msgid "Nothing on the clipboard."
 msgstr "Es ist nichts in der Zwischenablage."
 
-#: ../src/ui/clipboard.cpp:450
+#: ../src/ui/clipboard.cpp:451
 msgid "Select <b>object(s)</b> to paste style to."
 msgstr "Objekt(e) auswählen, um Stil darauf anzuwenden."
 
-#: ../src/ui/clipboard.cpp:461 ../src/ui/clipboard.cpp:478
+#: ../src/ui/clipboard.cpp:462 ../src/ui/clipboard.cpp:479
 msgid "No style on the clipboard."
 msgstr "Kein Stil in der Zwischenablage."
 
-#: ../src/ui/clipboard.cpp:503
+#: ../src/ui/clipboard.cpp:504
 msgid "Select <b>object(s)</b> to paste size to."
 msgstr "<b>Objekt(e)</b> auswählen, um Größe einzufügen."
 
-#: ../src/ui/clipboard.cpp:510
+#: ../src/ui/clipboard.cpp:511
 msgid "No size on the clipboard."
 msgstr "Keine Größe in der Zwischenablage."
 
-#: ../src/ui/clipboard.cpp:567
+#: ../src/ui/clipboard.cpp:568
 msgid "Select <b>object(s)</b> to paste live path effect to."
 msgstr "<b>Objekt(e)</b> auswählen, um den Pfadeffekt einzufügen."
 
 #. no_effect:
-#: ../src/ui/clipboard.cpp:593
+#: ../src/ui/clipboard.cpp:594
 msgid "No effect on the clipboard."
 msgstr "Kein Effekt in der Zwischenablage."
 
-#: ../src/ui/clipboard.cpp:612 ../src/ui/clipboard.cpp:649
+#: ../src/ui/clipboard.cpp:613 ../src/ui/clipboard.cpp:650
 msgid "Clipboard does not contain a path."
 msgstr "Die Zwischenablage enthält keinen Pfad."
 
@@ -13906,7 +14035,7 @@ msgid "Rearrange"
 msgstr "Anordnen"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:941
-#: ../src/widgets/toolbox.cpp:1796
+#: ../src/widgets/toolbox.cpp:1798
 msgid "Nodes"
 msgstr "Knoten"
 
@@ -15181,7 +15310,7 @@ msgstr "_Entfernen"
 msgid "Remove selected grid."
 msgstr "Ausgewähltes Gitter entfernen."
 
-#: ../src/ui/dialog/document-properties.cpp:162 ../src/widgets/toolbox.cpp:1903
+#: ../src/ui/dialog/document-properties.cpp:162 ../src/widgets/toolbox.cpp:1905
 msgid "Guides"
 msgstr "Hilfslinien"
 
@@ -15297,7 +15426,7 @@ msgid "<b>Embedded script files:</b>"
 msgstr "<b>Eingebettete Skriptdateien:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:885
-#: ../src/ui/dialog/objects.cpp:1894
+#: ../src/ui/dialog/objects.cpp:1901
 msgid "New"
 msgstr "Neu"
 
@@ -16709,7 +16838,7 @@ msgstr "Spiralen"
 msgid "Search spirals"
 msgstr "Spiralen suchen"
 
-#: ../src/ui/dialog/find.cpp:103 ../src/widgets/toolbox.cpp:1804
+#: ../src/ui/dialog/find.cpp:103 ../src/widgets/toolbox.cpp:1806
 msgid "Paths"
 msgstr "Pfade"
 
@@ -20174,7 +20303,7 @@ msgid "_Zoom in/out by:"
 msgstr "Zoomfaktor vergrößern/verkleinern um:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1335
-#: ../src/ui/dialog/objects.cpp:1630
+#: ../src/ui/dialog/objects.cpp:1637
 #: ../src/ui/widget/filter-effect-chooser.cpp:27
 msgid "%"
 msgstr "%"
@@ -21423,52 +21552,52 @@ msgstr "Deckkraft des Objekts festlegen"
 msgid "Set object blend mode"
 msgstr "Mischmodus des Objekts festlegen"
 
-#: ../src/ui/dialog/objects.cpp:1558
+#: ../src/ui/dialog/objects.cpp:1565
 msgid "Set object blur"
 msgstr "Unschärfe des Objekts festlegen"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: visible
-#: ../src/ui/dialog/objects.cpp:1621
+#: ../src/ui/dialog/objects.cpp:1628
 msgctxt "Visibility"
 msgid "V"
 msgstr "S"
 
-#: ../src/ui/dialog/objects.cpp:1622
+#: ../src/ui/dialog/objects.cpp:1629
 msgctxt "Lock"
 msgid "L"
 msgstr "L"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: type (layer, group or object)
-#: ../src/ui/dialog/objects.cpp:1623
+#: ../src/ui/dialog/objects.cpp:1630
 msgctxt "Type"
 msgid "T"
 msgstr "T"
 
-#: ../src/ui/dialog/objects.cpp:1624
+#: ../src/ui/dialog/objects.cpp:1631
 msgctxt "Clip and mask"
 msgid "CM"
 msgstr "M"
 
 # New objects dialog from ponyscape: single letter to describe state of the object in header of the table: color of path outline in node tool (de: Pfadfarbe)
-#: ../src/ui/dialog/objects.cpp:1625
+#: ../src/ui/dialog/objects.cpp:1632
 msgctxt "Highlight"
 msgid "HL"
 msgstr "F"
 
-#: ../src/ui/dialog/objects.cpp:1626
+#: ../src/ui/dialog/objects.cpp:1633
 msgid "Label"
 msgstr "Name"
 
 #. In order to get tooltips on header, we must create our own label.
-#: ../src/ui/dialog/objects.cpp:1668
+#: ../src/ui/dialog/objects.cpp:1675
 msgid "Toggle visibility of Layer, Group, or Object."
 msgstr "Sichtbarkeit von Ebene, Gruppe oder Objekt umschalten."
 
-#: ../src/ui/dialog/objects.cpp:1681
+#: ../src/ui/dialog/objects.cpp:1688
 msgid "Toggle lock of Layer, Group, or Object."
 msgstr "Sperre von Ebene, Gruppe oder Objekt umschalten."
 
-#: ../src/ui/dialog/objects.cpp:1693
+#: ../src/ui/dialog/objects.cpp:1700
 msgid ""
 "Type: Layer, Group, or Object. Clicking on Layer or Group icon, toggles "
 "between the two types."
@@ -21476,11 +21605,11 @@ msgstr ""
 "Typ: Ebene, Gruppe oder Objekt. Mit einem Klick auf das Symbol für Ebene "
 "oder Gruppe zwischen beiden Typen umschalten"
 
-#: ../src/ui/dialog/objects.cpp:1712
+#: ../src/ui/dialog/objects.cpp:1719
 msgid "Is object clipped and/or masked?"
 msgstr "Ist das Objekt ausgeschnitten oder maskiert?"
 
-#: ../src/ui/dialog/objects.cpp:1723
+#: ../src/ui/dialog/objects.cpp:1730
 msgid ""
 "Highlight color of outline in Node tool. Click to set. If alpha is zero, use "
 "inherited color."
@@ -21488,7 +21617,7 @@ msgstr ""
 "Farbe des Pfades beim Bearbeiten mit dem Knotenwerkzeug. Klicken zum Ändern. "
 "Bei einem Alpha-Wert von Null wird die Farbe geerbt."
 
-#: ../src/ui/dialog/objects.cpp:1734
+#: ../src/ui/dialog/objects.cpp:1741
 msgid ""
 "Layer/Group/Object label (inkscape:label). Double-click to set. Default "
 "value is object 'id'."
@@ -21496,87 +21625,87 @@ msgstr ""
 "Name für Ebene/Gruppe/Objekt (inkscape:label). Doppelklicken zum Ändern. "
 "Standardwert ist die ID des Objektes."
 
-#: ../src/ui/dialog/objects.cpp:1831
+#: ../src/ui/dialog/objects.cpp:1838
 msgid "Add layer..."
 msgstr "Ebe_ne hinzufügen..."
 
-#: ../src/ui/dialog/objects.cpp:1838
+#: ../src/ui/dialog/objects.cpp:1845
 msgid "Remove object"
 msgstr "Objekt entfernen"
 
-#: ../src/ui/dialog/objects.cpp:1846
+#: ../src/ui/dialog/objects.cpp:1853
 msgid "Move To Bottom"
 msgstr "Nach ganz unten absenken"
 
-#: ../src/ui/dialog/objects.cpp:1870
+#: ../src/ui/dialog/objects.cpp:1877
 msgid "Move To Top"
 msgstr "Nach ganz oben anheben"
 
-#: ../src/ui/dialog/objects.cpp:1878
+#: ../src/ui/dialog/objects.cpp:1885
 msgid "Collapse All"
 msgstr "Alle zusammenklappen"
 
-#: ../src/ui/dialog/objects.cpp:1892
+#: ../src/ui/dialog/objects.cpp:1899
 msgid "Rename"
 msgstr "Umbenennen"
 
 # Make selected layer the only visible one.
-#: ../src/ui/dialog/objects.cpp:1898
+#: ../src/ui/dialog/objects.cpp:1905
 msgid "Solo"
 msgstr "Nur diese Ebene anzeigen"
 
-#: ../src/ui/dialog/objects.cpp:1899
+#: ../src/ui/dialog/objects.cpp:1906
 msgid "Show All"
 msgstr "Alle anzeigen"
 
 # !!! mnemonics
-#: ../src/ui/dialog/objects.cpp:1900
+#: ../src/ui/dialog/objects.cpp:1907
 msgid "Hide All"
 msgstr "Alle ausblenden"
 
-#: ../src/ui/dialog/objects.cpp:1904
+#: ../src/ui/dialog/objects.cpp:1911
 msgid "Lock Others"
 msgstr "Andere sperren"
 
 # !!! mnemonics
-#: ../src/ui/dialog/objects.cpp:1905
+#: ../src/ui/dialog/objects.cpp:1912
 msgid "Lock All"
 msgstr "Alle sperren"
 
 # !!! mnemonics
 #. LockAndHide
-#: ../src/ui/dialog/objects.cpp:1906 ../src/verbs.cpp:3011
+#: ../src/ui/dialog/objects.cpp:1913 ../src/verbs.cpp:3011
 msgid "Unlock All"
 msgstr "Alle entsperren"
 
-#: ../src/ui/dialog/objects.cpp:1910
+#: ../src/ui/dialog/objects.cpp:1917
 msgid "Up"
 msgstr "Nach oben"
 
-#: ../src/ui/dialog/objects.cpp:1911
+#: ../src/ui/dialog/objects.cpp:1918
 msgid "Down"
 msgstr "Nach unten"
 
-#: ../src/ui/dialog/objects.cpp:1920
+#: ../src/ui/dialog/objects.cpp:1927
 msgid "Set Clip"
 msgstr "Ausschneidemaske setzen"
 
 #. will never be implemented
 #. _watching.push_back( &_addPopupItem( targetDesktop, SP_VERB_OBJECT_SET_INVERSE_CLIPPATH, 0, "Set Inverse Clip", (int)BUTTON_SETINVCLIP ) );
-#: ../src/ui/dialog/objects.cpp:1926
+#: ../src/ui/dialog/objects.cpp:1933
 msgid "Unset Clip"
 msgstr "Ausschneidemaske freigeben"
 
 #. Set mask
-#: ../src/ui/dialog/objects.cpp:1930 ../src/ui/interface.cpp:1754
+#: ../src/ui/dialog/objects.cpp:1937 ../src/ui/interface.cpp:1754
 msgid "Set Mask"
 msgstr "Maske setzen"
 
-#: ../src/ui/dialog/objects.cpp:1931
+#: ../src/ui/dialog/objects.cpp:1938
 msgid "Unset Mask"
 msgstr "Maske freigeben"
 
-#: ../src/ui/dialog/objects.cpp:1953
+#: ../src/ui/dialog/objects.cpp:1960
 msgid "Select Highlight Color"
 msgstr "Hervorhebungsfarbe:"
 
@@ -23107,10 +23236,10 @@ msgid ""
 "move with <b>end point</b>; with <b>Ctrl</b> to snap angle; drag <b>inside</"
 "b> the ellipse for arc, <b>outside</b> for segment"
 msgstr ""
-"<b>Anfangspunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b>"
-" verschiebt mit <b>Endpunkt</b>; <b>Strg</b> rastet "
-"Winkel ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b"
-">außerhalb</b> erzeugt Kreissegment"
+"<b>Anfangspunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b> "
+"verschiebt mit <b>Endpunkt</b>; <b>Strg</b> rastet Winkel ein; Ziehen "
+"<b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b>außerhalb</b> erzeugt "
+"Kreissegment"
 
 #: ../src/ui/object-edit.cpp:1010
 msgid ""
@@ -23118,10 +23247,9 @@ msgid ""
 "move with <b>start point</b>; with <b>Ctrl</b> to snap angle; drag "
 "<b>inside</b> the ellipse for arc, <b>outside</b> for segment"
 msgstr ""
-"<b>Endpunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b> verschiebt"
-" mit <b>Endpunkt</b>; <b>Strg</b> rastet "
-"Winkel ein; Ziehen <b>innerhalb</b> der Ellipse erzeugt Kreisbogen, <b"
-">außerhalb</b> erzeugt Kreissegment"
+"<b>Endpunkt</b> des Kreisbogens/-segments setzen; <b>Umschalt</b> verschiebt "
+"mit <b>Endpunkt</b>; <b>Strg</b> rastet Winkel ein; Ziehen <b>innerhalb</b> "
+"der Ellipse erzeugt Kreisbogen, <b>außerhalb</b> erzeugt Kreissegment"
 
 #: ../src/ui/object-edit.cpp:1157
 msgid ""
@@ -24046,29 +24174,29 @@ msgstr ""
 "durch Berührung"
 
 #. We hit green anchor, closing Green-Blue-Red
-#: ../src/ui/tools/freehand-base.cpp:661
+#: ../src/ui/tools/freehand-base.cpp:674 ../src/ui/tools/freehand-base.cpp:756
 msgid "Path is closed."
 msgstr "Pfad ist geschlossen."
 
 #. We hit bot start and end of single curve, closing paths
-#: ../src/ui/tools/freehand-base.cpp:676
+#: ../src/ui/tools/freehand-base.cpp:689
 msgid "Closing path."
 msgstr "Pfad schließen"
 
-#: ../src/ui/tools/freehand-base.cpp:825
+#: ../src/ui/tools/freehand-base.cpp:833
 msgid "Draw path"
 msgstr "Pfad zeichnen"
 
-#: ../src/ui/tools/freehand-base.cpp:978
+#: ../src/ui/tools/freehand-base.cpp:986
 msgid "Creating single dot"
 msgstr "Erzeuge einzelnen Punkt"
 
-#: ../src/ui/tools/freehand-base.cpp:979
+#: ../src/ui/tools/freehand-base.cpp:987
 msgid "Create single dot"
 msgstr "Einen einzelnen Punkt erzeugen"
 
 #. TRANSLATORS: %s will be substituted with the point name (see previous messages); This is part of a compound message
-#: ../src/ui/tools/gradient-tool.cpp:121 ../src/ui/tools/mesh-tool.cpp:120
+#: ../src/ui/tools/gradient-tool.cpp:121 ../src/ui/tools/mesh-tool.cpp:124
 #, c-format
 msgid "%s selected"
 msgstr "%s ausgewählt"
@@ -24083,8 +24211,8 @@ msgstr[1] " von %d Farbverlaufs-Anfassern"
 
 #. TRANSLATORS: Mind the space in front. (Refers to gradient handles selected). This is part of a compound message
 #: ../src/ui/tools/gradient-tool.cpp:124 ../src/ui/tools/gradient-tool.cpp:133
-#: ../src/ui/tools/gradient-tool.cpp:140 ../src/ui/tools/mesh-tool.cpp:123
-#: ../src/ui/tools/mesh-tool.cpp:134 ../src/ui/tools/mesh-tool.cpp:142
+#: ../src/ui/tools/gradient-tool.cpp:140 ../src/ui/tools/mesh-tool.cpp:127
+#: ../src/ui/tools/mesh-tool.cpp:138 ../src/ui/tools/mesh-tool.cpp:146
 #, c-format
 msgid " on %d selected object"
 msgid_plural " on %d selected objects"
@@ -24092,7 +24220,7 @@ msgstr[0] " auf %d ausgewählten Objekt"
 msgstr[1] " auf %d ausgewählten Objekten"
 
 #. TRANSLATORS: This is a part of a compound message (out of two more indicating: grandint handle count & object count)
-#: ../src/ui/tools/gradient-tool.cpp:130 ../src/ui/tools/mesh-tool.cpp:130
+#: ../src/ui/tools/gradient-tool.cpp:130 ../src/ui/tools/mesh-tool.cpp:134
 #, c-format
 msgid ""
 "One handle merging %d stop (drag with <b>Shift</b> to separate) selected"
@@ -24131,7 +24259,7 @@ msgstr "Farbverlauf vereinfachen"
 msgid "Create default gradient"
 msgstr "Standard-Farbverlauf erzeugen"
 
-#: ../src/ui/tools/gradient-tool.cpp:569 ../src/ui/tools/mesh-tool.cpp:564
+#: ../src/ui/tools/gradient-tool.cpp:569 ../src/ui/tools/mesh-tool.cpp:628
 msgid "<b>Draw around</b> handles to select them"
 msgstr "<b>Zeichne um</b> Anfasser um diese auszuwählen"
 
@@ -24143,14 +24271,14 @@ msgstr "<b>Strg</b>: Winkel des Farbverlaufs einrasten"
 msgid "<b>Shift</b>: draw gradient around the starting point"
 msgstr "<b>Umschalt</b>: Farbverlauf ausgehend vom Mittelpunkt zeichnen"
 
-#: ../src/ui/tools/gradient-tool.cpp:946 ../src/ui/tools/mesh-tool.cpp:980
+#: ../src/ui/tools/gradient-tool.cpp:946 ../src/ui/tools/mesh-tool.cpp:1055
 #, c-format
 msgid "<b>Gradient</b> for %d object; with <b>Ctrl</b> to snap angle"
 msgid_plural "<b>Gradient</b> for %d objects; with <b>Ctrl</b> to snap angle"
 msgstr[0] "<b>Farbverlauf</b> für %d Objekte; mit <b>Strg</b> Winkel einrasten"
 msgstr[1] "<b>Farbverlauf</b> für %d Objekte; mit <b>Strg</b> Winkel einrasten"
 
-#: ../src/ui/tools/gradient-tool.cpp:950 ../src/ui/tools/mesh-tool.cpp:984
+#: ../src/ui/tools/gradient-tool.cpp:950 ../src/ui/tools/mesh-tool.cpp:1059
 msgid "Select <b>objects</b> on which to create gradient."
 msgstr "<b>Objekte</b> auswählen, für die ein Farbverlauf erzeugt werden soll."
 
@@ -24198,14 +24326,14 @@ msgid "Crossing %lu"
 msgstr "Schnittpunkt %lu"
 
 #. TRANSLATORS: Mind the space in front. This is part of a compound message
-#: ../src/ui/tools/mesh-tool.cpp:122 ../src/ui/tools/mesh-tool.cpp:133
+#: ../src/ui/tools/mesh-tool.cpp:126 ../src/ui/tools/mesh-tool.cpp:137
 #, c-format
 msgid " out of %d mesh handle"
 msgid_plural " out of %d mesh handles"
 msgstr[0] " von %d Gitter-Anfasser"
 msgstr[1] " von %d Gitter-Anfassern"
 
-#: ../src/ui/tools/mesh-tool.cpp:140
+#: ../src/ui/tools/mesh-tool.cpp:144
 #, c-format
 msgid "<b>%d</b> mesh handle selected out of %d"
 msgid_plural "<b>%d</b> mesh handles selected out of %d"
@@ -24213,7 +24341,7 @@ msgstr[0] "<b>%d</b> Gitter-Anfasser von %d ausgewählt"
 msgstr[1] "<b>%d</b> Gitter-Anfasser von %d ausgewählt"
 
 #. TRANSLATORS: The plural refers to number of selected objects
-#: ../src/ui/tools/mesh-tool.cpp:147
+#: ../src/ui/tools/mesh-tool.cpp:151
 #, c-format
 msgid "<b>No</b> mesh handles selected out of %d on %d selected object"
 msgid_plural "<b>No</b> mesh handles selected out of %d on %d selected objects"
@@ -24222,43 +24350,44 @@ msgstr[0] ""
 msgstr[1] ""
 "Von %d Gitter-Anfassern <b>keiner</b> ausgewählt bei %d ausgewählten Objekten"
 
-#: ../src/ui/tools/mesh-tool.cpp:315
+#: ../src/ui/tools/mesh-tool.cpp:319
 msgid "Split mesh row/column"
 msgstr "Teile Gitter Reihe/Spalte"
 
-#: ../src/ui/tools/mesh-tool.cpp:401
+#: ../src/ui/tools/mesh-tool.cpp:405
 msgid "Toggled mesh path type."
 msgstr "Verlaufsgittertyp ändern"
 
-#: ../src/ui/tools/mesh-tool.cpp:405
+#: ../src/ui/tools/mesh-tool.cpp:409
 msgid "Approximated arc for mesh side."
 msgstr "Angenäherter Kreisbogen für Gitterseite"
 
-#: ../src/ui/tools/mesh-tool.cpp:409
+#: ../src/ui/tools/mesh-tool.cpp:413
 msgid "Toggled mesh tensors."
 msgstr "Gittertensoren umschalten"
 
-#: ../src/ui/tools/mesh-tool.cpp:413
+#: ../src/ui/tools/mesh-tool.cpp:417
 msgid "Smoothed mesh corner color."
 msgstr "Farbe einer Gitterecke glätten"
 
-#: ../src/ui/tools/mesh-tool.cpp:417
+#: ../src/ui/tools/mesh-tool.cpp:421
 msgid "Picked mesh corner color."
 msgstr "Farbe für Gitterecke wählen"
 
-#: ../src/ui/tools/mesh-tool.cpp:492
-msgid "Create default mesh"
-msgstr "Standardgitter erstellen"
+#: ../src/ui/tools/mesh-tool.cpp:489
+#, fuzzy
+msgid "Fit mesh inside bounding box."
+msgstr "Verwendet den visuellen Objektrahmen"
 
-#: ../src/ui/tools/mesh-tool.cpp:715
+#: ../src/ui/tools/mesh-tool.cpp:779
 msgid "FIXME<b>Ctrl</b>: snap mesh angle"
 msgstr "FIXME<b>Strg</b>: Gitterwinkel einrasten"
 
-#: ../src/ui/tools/mesh-tool.cpp:716
+#: ../src/ui/tools/mesh-tool.cpp:780
 msgid "FIXME<b>Shift</b>: draw mesh around the starting point"
 msgstr "FIXME<b>Umschalt</b>: Gitter um den Startpunkt zeichnen"
 
-#: ../src/ui/tools/mesh-tool.cpp:974
+#: ../src/ui/tools/mesh-tool.cpp:1049
 msgid "Create mesh"
 msgstr "Verlaufsgitter erstellen"
 
@@ -25438,8 +25567,8 @@ msgid "Document license updated"
 msgstr "Lizenz des Dokuments geändert"
 
 #: ../src/ui/widget/object-composite-settings.cpp:47
-#: ../src/ui/widget/selected-style.cpp:1118
-#: ../src/ui/widget/selected-style.cpp:1119
+#: ../src/ui/widget/selected-style.cpp:1124
+#: ../src/ui/widget/selected-style.cpp:1125
 msgid "Opacity (%)"
 msgstr "Deckkraft (%)"
 
@@ -25448,8 +25577,8 @@ msgid "Change blur"
 msgstr "Weichzeichner ändern"
 
 #: ../src/ui/widget/object-composite-settings.cpp:200
-#: ../src/ui/widget/selected-style.cpp:942
-#: ../src/ui/widget/selected-style.cpp:1244
+#: ../src/ui/widget/selected-style.cpp:948
+#: ../src/ui/widget/selected-style.cpp:1250
 msgid "Change opacity"
 msgstr "Deckkraft ändern"
 
@@ -25739,8 +25868,8 @@ msgid "N/A"
 msgstr "N/V"
 
 #: ../src/ui/widget/selected-style.cpp:182
-#: ../src/ui/widget/selected-style.cpp:1111
-#: ../src/ui/widget/selected-style.cpp:1112
+#: ../src/ui/widget/selected-style.cpp:1117
+#: ../src/ui/widget/selected-style.cpp:1118
 #: ../src/widgets/gradient-toolbar.cpp:162
 msgid "Nothing selected"
 msgstr "Nichts ausgewählt"
@@ -25770,7 +25899,7 @@ msgid "No stroke"
 msgstr "Keine Kontur"
 
 #: ../src/ui/widget/selected-style.cpp:193
-#: ../src/ui/widget/style-swatch.cpp:302 ../src/widgets/paint-selector.cpp:231
+#: ../src/ui/widget/style-swatch.cpp:302 ../src/widgets/paint-selector.cpp:233
 msgid "Pattern"
 msgstr "Muster"
 
@@ -25850,14 +25979,14 @@ msgstr "<b>Ungesetzt</b>"
 #: ../src/ui/widget/selected-style.cpp:238
 #: ../src/ui/widget/selected-style.cpp:296
 #: ../src/ui/widget/selected-style.cpp:574
-#: ../src/ui/widget/style-swatch.cpp:328 ../src/widgets/fill-style.cpp:703
+#: ../src/ui/widget/style-swatch.cpp:328 ../src/widgets/fill-style.cpp:815
 msgid "Unset fill"
 msgstr "Füllung aufheben"
 
 #: ../src/ui/widget/selected-style.cpp:238
 #: ../src/ui/widget/selected-style.cpp:296
 #: ../src/ui/widget/selected-style.cpp:590
-#: ../src/ui/widget/style-swatch.cpp:328 ../src/widgets/fill-style.cpp:703
+#: ../src/ui/widget/style-swatch.cpp:328 ../src/widgets/fill-style.cpp:815
 msgid "Unset stroke"
 msgstr "Kontur aufheben"
 
@@ -25922,7 +26051,7 @@ msgid "Paste color"
 msgstr "Farbe einfügen"
 
 #: ../src/ui/widget/selected-style.cpp:287
-#: ../src/ui/widget/selected-style.cpp:867
+#: ../src/ui/widget/selected-style.cpp:873
 msgid "Swap fill and stroke"
 msgstr "Füllung und Linie vertauschen"
 
@@ -25937,12 +26066,12 @@ msgid "Make stroke opaque"
 msgstr "Kontur undurchsichtig machen"
 
 #: ../src/ui/widget/selected-style.cpp:300
-#: ../src/ui/widget/selected-style.cpp:556 ../src/widgets/fill-style.cpp:503
+#: ../src/ui/widget/selected-style.cpp:556 ../src/widgets/fill-style.cpp:514
 msgid "Remove fill"
 msgstr "Füllung entfernen"
 
 #: ../src/ui/widget/selected-style.cpp:300
-#: ../src/ui/widget/selected-style.cpp:565 ../src/widgets/fill-style.cpp:503
+#: ../src/ui/widget/selected-style.cpp:565 ../src/widgets/fill-style.cpp:514
 msgid "Remove stroke"
 msgstr "Kontur entfernen"
 
@@ -25994,37 +26123,37 @@ msgstr "Füllmuster einfügen"
 msgid "Paste stroke"
 msgstr "Kontur einfügen"
 
-#: ../src/ui/widget/selected-style.cpp:969
+#: ../src/ui/widget/selected-style.cpp:975
 msgid "Change stroke width"
 msgstr "Breite der Kontur ändern"
 
-#: ../src/ui/widget/selected-style.cpp:1072
+#: ../src/ui/widget/selected-style.cpp:1078
 msgid ", drag to adjust"
 msgstr ", Ziehen stellt ein"
 
-#: ../src/ui/widget/selected-style.cpp:1157
+#: ../src/ui/widget/selected-style.cpp:1163
 #, c-format
 msgid "Stroke width: %.5g%s%s"
 msgstr "Breite der Kontur: %.5g%s%s"
 
 # !!! not the best translation
-#: ../src/ui/widget/selected-style.cpp:1161
+#: ../src/ui/widget/selected-style.cpp:1167
 msgid " (averaged)"
 msgstr " (gemittelt)"
 
-#: ../src/ui/widget/selected-style.cpp:1187
+#: ../src/ui/widget/selected-style.cpp:1193
 msgid "0 (transparent)"
 msgstr "0 (durchsichtig)"
 
-#: ../src/ui/widget/selected-style.cpp:1211
+#: ../src/ui/widget/selected-style.cpp:1217
 msgid "100% (opaque)"
 msgstr "100% (undurchsichtig)"
 
-#: ../src/ui/widget/selected-style.cpp:1385
+#: ../src/ui/widget/selected-style.cpp:1391
 msgid "Adjust alpha"
 msgstr "Alpha anpassen"
 
-#: ../src/ui/widget/selected-style.cpp:1387
+#: ../src/ui/widget/selected-style.cpp:1393
 #, c-format
 msgid ""
 "Adjusting <b>alpha</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Ctrl</"
@@ -26035,11 +26164,11 @@ msgstr ""
 "mit <b>Strg</b> wird Sättigung, mit <b>Umschalt</b> die Sättigung "
 "eingestellt, ohne Zusatztaste für Farbtom"
 
-#: ../src/ui/widget/selected-style.cpp:1391
+#: ../src/ui/widget/selected-style.cpp:1397
 msgid "Adjust saturation"
 msgstr "Sättigung anpassen"
 
-#: ../src/ui/widget/selected-style.cpp:1393
+#: ../src/ui/widget/selected-style.cpp:1399
 #, c-format
 msgid ""
 "Adjusting <b>saturation</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with "
@@ -26050,11 +26179,11 @@ msgstr ""
 "mit <b>Strg</b> wird Helligkeit, mit <b>Alt</b> der Alphawert angepasst, "
 "ohne Zusatztaste für Farbton"
 
-#: ../src/ui/widget/selected-style.cpp:1397
+#: ../src/ui/widget/selected-style.cpp:1403
 msgid "Adjust lightness"
 msgstr "Helligkeit anpassen"
 
-#: ../src/ui/widget/selected-style.cpp:1399
+#: ../src/ui/widget/selected-style.cpp:1405
 #, c-format
 msgid ""
 "Adjusting <b>lightness</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with "
@@ -26065,11 +26194,11 @@ msgstr ""
 "mit <b>Umschalt</b> wird Sättigung, mit <b>Alt</b> der Alphawert angepasst, "
 "ohne Zusatztaste für Farbwert."
 
-#: ../src/ui/widget/selected-style.cpp:1403
+#: ../src/ui/widget/selected-style.cpp:1409
 msgid "Adjust hue"
 msgstr "Farbton anpassen"
 
-#: ../src/ui/widget/selected-style.cpp:1405
+#: ../src/ui/widget/selected-style.cpp:1411
 #, c-format
 msgid ""
 "Adjusting <b>hue</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Shift</"
@@ -26080,12 +26209,12 @@ msgstr ""
 "<b>Umschalt</b> wird Sättigung, mit <b>Alt</b> wird Alphawert und mit "
 "<b>Strg</b> Helligkeit angepasst"
 
-#: ../src/ui/widget/selected-style.cpp:1523
-#: ../src/ui/widget/selected-style.cpp:1537
+#: ../src/ui/widget/selected-style.cpp:1529
+#: ../src/ui/widget/selected-style.cpp:1543
 msgid "Adjust stroke width"
 msgstr "Breite der Konturlinie"
 
-#: ../src/ui/widget/selected-style.cpp:1524
+#: ../src/ui/widget/selected-style.cpp:1530
 #, c-format
 msgid "Adjusting <b>stroke width</b>: was %.3g, now <b>%.3g</b> (diff %.3g)"
 msgstr ""
@@ -29297,31 +29426,41 @@ msgstr ""
 msgid "Break apart cut items"
 msgstr "Aufgetrennte Objekte zerlegen"
 
-#: ../src/widgets/fill-style.cpp:356
+#: ../src/widgets/fill-style.cpp:367
 msgid "Change fill rule"
 msgstr "Füllungsregel ändern"
 
-#: ../src/widgets/fill-style.cpp:440 ../src/widgets/fill-style.cpp:518
+#: ../src/widgets/fill-style.cpp:451 ../src/widgets/fill-style.cpp:529
 msgid "Set fill color"
 msgstr "Füllungsfarbe setzen"
 
-#: ../src/widgets/fill-style.cpp:440 ../src/widgets/fill-style.cpp:518
+#: ../src/widgets/fill-style.cpp:451 ../src/widgets/fill-style.cpp:529
 msgid "Set stroke color"
 msgstr "Farbe der Kontur setzen"
 
-#: ../src/widgets/fill-style.cpp:616
+#: ../src/widgets/fill-style.cpp:627
 msgid "Set gradient on fill"
 msgstr "Farbverlauf für die Füllung setzen"
 
-#: ../src/widgets/fill-style.cpp:616
+#: ../src/widgets/fill-style.cpp:627
 msgid "Set gradient on stroke"
 msgstr "Farbverlauf für die Kontur setzen"
 
-#: ../src/widgets/fill-style.cpp:676
+#: ../src/widgets/fill-style.cpp:727
+#, fuzzy
+msgid "Set mesh on fill"
+msgstr "Muster für die Füllung setzen"
+
+#: ../src/widgets/fill-style.cpp:727
+#, fuzzy
+msgid "Set mesh on stroke"
+msgstr "Muster für die Kontur setzen"
+
+#: ../src/widgets/fill-style.cpp:788
 msgid "Set pattern on fill"
 msgstr "Muster für die Füllung setzen"
 
-#: ../src/widgets/fill-style.cpp:677
+#: ../src/widgets/fill-style.cpp:789
 msgid "Set pattern on stroke"
 msgstr "Muster für die Kontur setzen"
 
@@ -29360,7 +29499,7 @@ msgid "Edit gradient"
 msgstr "Farbverlauf bearbeiten"
 
 #: ../src/widgets/gradient-selector.cpp:281
-#: ../src/widgets/paint-selector.cpp:233
+#: ../src/widgets/paint-selector.cpp:235
 msgid "Swatch"
 msgstr "Farbmuster"
 
@@ -29417,28 +29556,28 @@ msgstr "radial"
 msgid "Create radial (elliptic or circular) gradient"
 msgstr "Radialen (elliptischen oder kreisförmigen) Farbverlauf erzeugen"
 
-#: ../src/widgets/gradient-toolbar.cpp:1044 ../src/widgets/mesh-toolbar.cpp:387
+#: ../src/widgets/gradient-toolbar.cpp:1044 ../src/widgets/mesh-toolbar.cpp:411
 msgid "New:"
 msgstr "Neu:"
 
-#: ../src/widgets/gradient-toolbar.cpp:1067 ../src/widgets/mesh-toolbar.cpp:410
+#: ../src/widgets/gradient-toolbar.cpp:1067 ../src/widgets/mesh-toolbar.cpp:434
 msgid "fill"
 msgstr "füllen"
 
-#: ../src/widgets/gradient-toolbar.cpp:1067 ../src/widgets/mesh-toolbar.cpp:410
+#: ../src/widgets/gradient-toolbar.cpp:1067 ../src/widgets/mesh-toolbar.cpp:434
 msgid "Create gradient in the fill"
 msgstr "Farbverlauf für die Füllung erzeugen"
 
-#: ../src/widgets/gradient-toolbar.cpp:1071 ../src/widgets/mesh-toolbar.cpp:414
+#: ../src/widgets/gradient-toolbar.cpp:1071 ../src/widgets/mesh-toolbar.cpp:438
 msgid "stroke"
 msgstr "Kontur"
 
-#: ../src/widgets/gradient-toolbar.cpp:1071 ../src/widgets/mesh-toolbar.cpp:414
+#: ../src/widgets/gradient-toolbar.cpp:1071 ../src/widgets/mesh-toolbar.cpp:438
 msgid "Create gradient in the stroke"
 msgstr "Farbverlauf für die Kontur erzeugen"
 
 # CHECK
-#: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:417
+#: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:441
 msgid "on:"
 msgstr "auf:"
 
@@ -29539,7 +29678,8 @@ msgstr "Verknüpfe Farbverläufe"
 msgid "Link gradients to change all related gradients"
 msgstr "Verknüpfe Farbverläufe, um alle verbundenen Farbverläufe zu ändern"
 
-#: ../src/widgets/gradient-vector.cpp:317 ../src/widgets/paint-selector.cpp:965
+#: ../src/widgets/gradient-vector.cpp:317 ../src/widgets/paint-selector.cpp:947
+#: ../src/widgets/paint-selector.cpp:1311
 #: ../src/widgets/stroke-marker-selector.cpp:154
 msgid "No document selected"
 msgstr "Kein Dokument gewählt"
@@ -29800,119 +29940,129 @@ msgstr "Bemaßung erstellen"
 msgid "Convert to item"
 msgstr "In Zeichenobjekte umwandeln"
 
-#: ../src/widgets/mesh-toolbar.cpp:318
+#: ../src/widgets/mesh-toolbar.cpp:320
 msgid "Set mesh type"
 msgstr "Gittertyp festlegen"
 
-#: ../src/widgets/mesh-toolbar.cpp:380
+#: ../src/widgets/mesh-toolbar.cpp:372
+msgid ""
+"Mesh gradients are part of SVG 2:\n"
+"* Syntax may change.\n"
+"* Web browser implementation is not guaranteed.\n"
+"\n"
+"For web: convert to bitmap (Edit->Make bitmap copy).\n"
+"For print: export to PDF."
+msgstr ""
+
+#: ../src/widgets/mesh-toolbar.cpp:404
 msgid "normal"
 msgstr "Normal"
 
-#: ../src/widgets/mesh-toolbar.cpp:380
+#: ../src/widgets/mesh-toolbar.cpp:404
 msgid "Create mesh gradient"
 msgstr "Verlaufsgitter erzeugen"
 
-#: ../src/widgets/mesh-toolbar.cpp:384
+#: ../src/widgets/mesh-toolbar.cpp:408
 msgid "conical"
 msgstr "konisch"
 
-#: ../src/widgets/mesh-toolbar.cpp:384
+#: ../src/widgets/mesh-toolbar.cpp:408
 msgid "Create conical gradient"
 msgstr "Konischen Farbverlauf erzeugen"
 
-#: ../src/widgets/mesh-toolbar.cpp:439
+#: ../src/widgets/mesh-toolbar.cpp:463
 msgid "Rows"
 msgstr "Reihen"
 
-#: ../src/widgets/mesh-toolbar.cpp:439
+#: ../src/widgets/mesh-toolbar.cpp:463
 #: ../share/extensions/guides_creator.inx.h:5
 #: ../share/extensions/layout_nup.inx.h:12
 msgid "Rows:"
 msgstr "Reihen:"
 
-#: ../src/widgets/mesh-toolbar.cpp:439
+#: ../src/widgets/mesh-toolbar.cpp:463
 msgid "Number of rows in new mesh"
 msgstr "Anzahl der Zeilen im neuen Gitter"
 
-#: ../src/widgets/mesh-toolbar.cpp:455
+#: ../src/widgets/mesh-toolbar.cpp:479
 msgid "Columns"
 msgstr "Spalten"
 
-#: ../src/widgets/mesh-toolbar.cpp:455
+#: ../src/widgets/mesh-toolbar.cpp:479
 #: ../share/extensions/guides_creator.inx.h:4
 msgid "Columns:"
 msgstr "Spalten:"
 
-#: ../src/widgets/mesh-toolbar.cpp:455
+#: ../src/widgets/mesh-toolbar.cpp:479
 msgid "Number of columns in new mesh"
 msgstr "Anzahl der Spalten im neuen Gitter"
 
-#: ../src/widgets/mesh-toolbar.cpp:469
+#: ../src/widgets/mesh-toolbar.cpp:493
 msgid "Edit Fill"
 msgstr "Füllung bearbeiten"
 
-#: ../src/widgets/mesh-toolbar.cpp:470
+#: ../src/widgets/mesh-toolbar.cpp:494
 msgid "Edit fill mesh"
 msgstr "Füllungsgitter bearbeiten"
 
-#: ../src/widgets/mesh-toolbar.cpp:481
+#: ../src/widgets/mesh-toolbar.cpp:505
 msgid "Edit Stroke"
 msgstr "Kontur bearbeiten"
 
-#: ../src/widgets/mesh-toolbar.cpp:482
+#: ../src/widgets/mesh-toolbar.cpp:506
 msgid "Edit stroke mesh"
 msgstr "Konturgitter bearbeiten"
 
-#: ../src/widgets/mesh-toolbar.cpp:493 ../src/widgets/node-toolbar.cpp:521
+#: ../src/widgets/mesh-toolbar.cpp:517 ../src/widgets/node-toolbar.cpp:521
 msgid "Show Handles"
 msgstr "Anfasser zeigen"
 
-#: ../src/widgets/mesh-toolbar.cpp:494
+#: ../src/widgets/mesh-toolbar.cpp:518
 msgid "Show side and tensor handles"
 msgstr "Anzeigen der seitlichen und Tensor-Anfasser"
 
-#: ../src/widgets/mesh-toolbar.cpp:509
+#: ../src/widgets/mesh-toolbar.cpp:533 ../src/widgets/mesh-toolbar.cpp:534
 msgid "WARNING: Mesh SVG Syntax Subject to Change"
 msgstr "WARNUNG: SVG Syntax zu Verlaufsgittern noch im Entwurfsstadium"
 
-#: ../src/widgets/mesh-toolbar.cpp:519
+#: ../src/widgets/mesh-toolbar.cpp:548
 msgctxt "Type"
 msgid "Coons"
 msgstr "Coons"
 
-#: ../src/widgets/mesh-toolbar.cpp:522
+#: ../src/widgets/mesh-toolbar.cpp:551
 msgid "Bicubic"
 msgstr "Bikubisch"
 
-#: ../src/widgets/mesh-toolbar.cpp:524
+#: ../src/widgets/mesh-toolbar.cpp:553
 msgid "Coons"
 msgstr "Coons"
 
-#: ../src/widgets/mesh-toolbar.cpp:525
+#: ../src/widgets/mesh-toolbar.cpp:554
 msgid "Coons: no smoothing. Bicubic: smoothing across patch boundaries."
 msgstr "Coons: Keine Glättung. Bikubisch: Glättung über Feldgrenzen hinweg."
 
-#: ../src/widgets/mesh-toolbar.cpp:527 ../src/widgets/pencil-toolbar.cpp:381
+#: ../src/widgets/mesh-toolbar.cpp:556 ../src/widgets/pencil-toolbar.cpp:381
 msgid "Smoothing:"
 msgstr "Glättung:"
 
-#: ../src/widgets/mesh-toolbar.cpp:537
+#: ../src/widgets/mesh-toolbar.cpp:566
 msgid "Toggle Sides"
 msgstr "Seiten umschalten"
 
-#: ../src/widgets/mesh-toolbar.cpp:538
+#: ../src/widgets/mesh-toolbar.cpp:567
 msgid "Toggle selected sides between Beziers and lines."
 msgstr "Ausgewählte Seiten zu Bézierkurven oder Linien machen"
 
-#: ../src/widgets/mesh-toolbar.cpp:541
+#: ../src/widgets/mesh-toolbar.cpp:570
 msgid "Toggle side:"
 msgstr "Seite umschalten:"
 
-#: ../src/widgets/mesh-toolbar.cpp:548
+#: ../src/widgets/mesh-toolbar.cpp:577
 msgid "Make elliptical"
 msgstr "Elliptisch machen"
 
-#: ../src/widgets/mesh-toolbar.cpp:549
+#: ../src/widgets/mesh-toolbar.cpp:578
 msgid ""
 "Make selected sides elliptical by changing length of handles. Works best if "
 "handles already approximate ellipse."
@@ -29921,23 +30071,38 @@ msgstr ""
 "Funktioniert am besten, wenn die Anfasser bereits annäherungsweise eine "
 "Ellipsenform bilden."
 
-#: ../src/widgets/mesh-toolbar.cpp:552
+#: ../src/widgets/mesh-toolbar.cpp:581
 msgid "Make elliptical:"
 msgstr "Elliptisch machen:"
 
-#: ../src/widgets/mesh-toolbar.cpp:559
+#: ../src/widgets/mesh-toolbar.cpp:588
 msgid "Pick colors:"
 msgstr "Farben übernehmen:"
 
-#: ../src/widgets/mesh-toolbar.cpp:560
+#: ../src/widgets/mesh-toolbar.cpp:589
 msgid "Pick colors for selected corner nodes from underneath mesh."
 msgstr ""
 "Farben der ausgewählten Knoten an Hand der Objekte unterhalb des Gitters "
 "übernehmen."
 
-#: ../src/widgets/mesh-toolbar.cpp:563
+#: ../src/widgets/mesh-toolbar.cpp:592
 msgid "Pick Color"
 msgstr "Farbe übernehmen"
+
+#: ../src/widgets/mesh-toolbar.cpp:600
+#, fuzzy
+msgid "Scale mesh to bounding box:"
+msgstr "Objektrahmen anzeigen"
+
+#: ../src/widgets/mesh-toolbar.cpp:601
+#, fuzzy
+msgid "Scale mesh to fit inside bounding box."
+msgstr "Objektrahmen anzeigen"
+
+#: ../src/widgets/mesh-toolbar.cpp:604
+#, fuzzy
+msgid "Fit mesh"
+msgstr "Füllungsgitter bearbeiten"
 
 #: ../src/widgets/node-toolbar.cpp:341
 msgid "Insert node"
@@ -30132,32 +30297,32 @@ msgstr "Y-Koordinate:"
 msgid "Y coordinate of selected node(s)"
 msgstr "Y-Koordinate der Auswahl"
 
-#: ../src/widgets/paint-selector.cpp:219
+#: ../src/widgets/paint-selector.cpp:221
 msgid "No paint"
 msgstr "Keine Farbe"
 
-#: ../src/widgets/paint-selector.cpp:221
+#: ../src/widgets/paint-selector.cpp:223
 msgid "Flat color"
 msgstr "Einfache Farbe"
 
-#: ../src/widgets/paint-selector.cpp:223
+#: ../src/widgets/paint-selector.cpp:225
 msgid "Linear gradient"
 msgstr "Linearer Farbverlauf"
 
-#: ../src/widgets/paint-selector.cpp:225
+#: ../src/widgets/paint-selector.cpp:227
 msgid "Radial gradient"
 msgstr "Radialer Farbverlauf"
 
-#: ../src/widgets/paint-selector.cpp:228
+#: ../src/widgets/paint-selector.cpp:230
 msgid "Mesh gradient"
 msgstr "Verlaufsgitter"
 
-#: ../src/widgets/paint-selector.cpp:235
+#: ../src/widgets/paint-selector.cpp:237
 msgid "Unset paint (make it undefined so it can be inherited)"
 msgstr "Farbe nicht setzen (damit sie geerbt werden kann)"
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
-#: ../src/widgets/paint-selector.cpp:252
+#: ../src/widgets/paint-selector.cpp:254
 msgid ""
 "Any path self-intersections or subpaths create holes in the fill (fill-rule: "
 "evenodd)"
@@ -30166,47 +30331,52 @@ msgstr ""
 "Füllung (Füllregel: evenodd)"
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
-#: ../src/widgets/paint-selector.cpp:263
+#: ../src/widgets/paint-selector.cpp:265
 msgid ""
 "Fill is solid unless a subpath is counterdirectional (fill-rule: nonzero)"
 msgstr ""
 "Vollständige Füllung, solange kein Pfadabschnitt in entgegengesetzter "
 "Richtung verläuft (Füllregel: nonzero)"
 
-#: ../src/widgets/paint-selector.cpp:605
+#: ../src/widgets/paint-selector.cpp:615
 msgid "<b>No objects</b>"
 msgstr "<b>Keine Objekte</b>"
 
-#: ../src/widgets/paint-selector.cpp:616
+#: ../src/widgets/paint-selector.cpp:626
 msgid "<b>Multiple styles</b>"
 msgstr "<b>Mehrfachstile</b>"
 
-#: ../src/widgets/paint-selector.cpp:627
+#: ../src/widgets/paint-selector.cpp:637
 msgid "<b>Paint is undefined</b>"
 msgstr "<b>Farbe ist undefiniert</b>"
 
-#: ../src/widgets/paint-selector.cpp:638
+#: ../src/widgets/paint-selector.cpp:648
 msgid "<b>No paint</b>"
 msgstr "<b>Keine Farbe</b>"
 
-#: ../src/widgets/paint-selector.cpp:722
+#: ../src/widgets/paint-selector.cpp:732
 msgid "<b>Flat color</b>"
 msgstr "<b>Einfache Farbe</b>"
 
 #. sp_gradient_selector_set_mode(SP_GRADIENT_SELECTOR(gsel), SP_GRADIENT_SELECTOR_MODE_LINEAR);
-#: ../src/widgets/paint-selector.cpp:791
+#: ../src/widgets/paint-selector.cpp:796
 msgid "<b>Linear gradient</b>"
 msgstr "<b>Linearer Farbverlauf</b>"
 
-#: ../src/widgets/paint-selector.cpp:794
+#: ../src/widgets/paint-selector.cpp:799
 msgid "<b>Radial gradient</b>"
 msgstr "<b>Radialer Farbverlauf</b>"
 
-#: ../src/widgets/paint-selector.cpp:799
-msgid "<b>Mesh gradient</b>"
-msgstr "<b>Verlaufsgitter</b>"
+#: ../src/widgets/paint-selector.cpp:1080
+msgid "Use the <b>Mesh tool</b> to modify the mesh."
+msgstr ""
 
-#: ../src/widgets/paint-selector.cpp:1098
+#: ../src/widgets/paint-selector.cpp:1093
+#, fuzzy
+msgid "<b>Mesh fill</b>"
+msgstr "<b>Farbmuster</b>"
+
+#: ../src/widgets/paint-selector.cpp:1444
 msgid ""
 "Use the <b>Node tool</b> to adjust position, scale, and rotation of the "
 "pattern on canvas. Use <b>Object &gt; Pattern &gt; Objects to Pattern</b> to "
@@ -30217,11 +30387,11 @@ msgstr ""
 "„ Objekte in Füllmuster umwandeln</b> lassen sich neue Füllmuster von "
 "ausgewählten Objekten erzeugen."
 
-#: ../src/widgets/paint-selector.cpp:1111
+#: ../src/widgets/paint-selector.cpp:1457
 msgid "<b>Pattern fill</b>"
 msgstr "<b>Füllmuster</b>"
 
-#: ../src/widgets/paint-selector.cpp:1205
+#: ../src/widgets/paint-selector.cpp:1551
 msgid "<b>Swatch fill</b>"
 msgstr "<b>Farbmuster</b>"
 
@@ -30822,10 +30992,6 @@ msgstr "Gesprühte Objekte löschen"
 #: ../src/widgets/spray-toolbar.cpp:384
 msgid "Delete sprayed items from selection"
 msgstr "Gesprühte Objekte aus der Auswahl löschen"
-
-#: ../src/widgets/spray-toolbar.cpp:388 ../src/widgets/tweak-toolbar.cpp:253
-msgid "Mode"
-msgstr "Modus"
 
 #. Population
 #: ../src/widgets/spray-toolbar.cpp:408
@@ -31606,133 +31772,133 @@ msgstr "\"Beschreibung fehlt noch!\""
 msgid "Style of Paint Bucket fill objects"
 msgstr "Stil von neuen Farbeimer-Objekten"
 
-#: ../src/widgets/toolbox.cpp:1750
+#: ../src/widgets/toolbox.cpp:1752
 msgid "Bounding box"
 msgstr "Objektrahmen"
 
-#: ../src/widgets/toolbox.cpp:1750
+#: ../src/widgets/toolbox.cpp:1752
 msgid "Snap bounding boxes"
 msgstr "Objektrahmen einrasten"
 
-#: ../src/widgets/toolbox.cpp:1759
+#: ../src/widgets/toolbox.cpp:1761
 msgid "Bounding box edges"
 msgstr "Kanten des Objektrahmens"
 
-#: ../src/widgets/toolbox.cpp:1759
+#: ../src/widgets/toolbox.cpp:1761
 msgid "Snap to edges of a bounding box"
 msgstr "An Kanten eines Objektrahmens einrasten"
 
-#: ../src/widgets/toolbox.cpp:1768
+#: ../src/widgets/toolbox.cpp:1770
 msgid "Bounding box corners"
 msgstr "Ecken des Objektrahmens"
 
-#: ../src/widgets/toolbox.cpp:1768
+#: ../src/widgets/toolbox.cpp:1770
 msgid "Snap bounding box corners"
 msgstr "Ecken des Objektrahmens einrasten"
 
-#: ../src/widgets/toolbox.cpp:1777
+#: ../src/widgets/toolbox.cpp:1779
 msgid "BBox Edge Midpoints"
 msgstr "Mittelpunkte von Objektrahmenlinien"
 
-#: ../src/widgets/toolbox.cpp:1777
+#: ../src/widgets/toolbox.cpp:1779
 msgid "Snap midpoints of bounding box edges"
 msgstr "Mittelpunkte von Objektrahmenlinien einrasten"
 
-#: ../src/widgets/toolbox.cpp:1787
+#: ../src/widgets/toolbox.cpp:1789
 msgid "BBox Centers"
 msgstr "Mittelpunkte von Objektrahmen"
 
-#: ../src/widgets/toolbox.cpp:1787
+#: ../src/widgets/toolbox.cpp:1789
 msgid "Snapping centers of bounding boxes"
 msgstr "Mittelpunkte von Objektrahmen einrasten"
 
-#: ../src/widgets/toolbox.cpp:1796
+#: ../src/widgets/toolbox.cpp:1798
 msgid "Snap nodes, paths, and handles"
 msgstr "Knoten, Pfade und Anfasser einrasten"
 
-#: ../src/widgets/toolbox.cpp:1804
+#: ../src/widgets/toolbox.cpp:1806
 msgid "Snap to paths"
 msgstr "An Pfaden einrasten"
 
-#: ../src/widgets/toolbox.cpp:1813
+#: ../src/widgets/toolbox.cpp:1815
 msgid "Path intersections"
 msgstr "Pfadüberschneidungen"
 
-#: ../src/widgets/toolbox.cpp:1813
+#: ../src/widgets/toolbox.cpp:1815
 msgid "Snap to path intersections"
 msgstr "An Pfadüberschneidungen einrasten"
 
-#: ../src/widgets/toolbox.cpp:1822
+#: ../src/widgets/toolbox.cpp:1824
 msgid "To nodes"
 msgstr "An Knoten"
 
-#: ../src/widgets/toolbox.cpp:1822
+#: ../src/widgets/toolbox.cpp:1824
 msgid "Snap cusp nodes, incl. rectangle corners"
 msgstr "Spitze Knoten einrasten, inkl. Ecken von Rechtecken"
 
-#: ../src/widgets/toolbox.cpp:1831
+#: ../src/widgets/toolbox.cpp:1833
 msgid "Smooth nodes"
 msgstr "Glatte Knoten"
 
-#: ../src/widgets/toolbox.cpp:1831
+#: ../src/widgets/toolbox.cpp:1833
 msgid "Snap smooth nodes, incl. quadrant points of ellipses"
 msgstr "Glatte Knoten einrasten, inkl. Quadrantenpunkte von Ellipsen"
 
-#: ../src/widgets/toolbox.cpp:1840
+#: ../src/widgets/toolbox.cpp:1842
 msgid "Line Midpoints"
 msgstr "Linien-Mittelpunkte"
 
-#: ../src/widgets/toolbox.cpp:1840
+#: ../src/widgets/toolbox.cpp:1842
 msgid "Snap midpoints of line segments"
 msgstr "Mittelpunkte von Liniensegmenten einrasten"
 
-#: ../src/widgets/toolbox.cpp:1849
+#: ../src/widgets/toolbox.cpp:1851
 msgid "Others"
 msgstr "Andere"
 
-#: ../src/widgets/toolbox.cpp:1849
+#: ../src/widgets/toolbox.cpp:1851
 msgid "Snap other points (centers, guide origins, gradient handles, etc.)"
 msgstr ""
 "Andere Punkte einrasten (Mittelpunkte, Ursprünge von Hilfslinien, Anfasser "
 "von Farbverläufen, usw.)"
 
-#: ../src/widgets/toolbox.cpp:1857
+#: ../src/widgets/toolbox.cpp:1859
 msgid "Object Centers"
 msgstr "Objektmittelpunkte"
 
-#: ../src/widgets/toolbox.cpp:1857
+#: ../src/widgets/toolbox.cpp:1859
 msgid "Snap centers of objects"
 msgstr "Objektmittelpunkte einrasten"
 
-#: ../src/widgets/toolbox.cpp:1866
+#: ../src/widgets/toolbox.cpp:1868
 msgid "Rotation Centers"
 msgstr "Drehpunkte"
 
-#: ../src/widgets/toolbox.cpp:1866
+#: ../src/widgets/toolbox.cpp:1868
 msgid "Snap an item's rotation center"
 msgstr "Drehpunkte von Objekten einrasten"
 
-#: ../src/widgets/toolbox.cpp:1875
+#: ../src/widgets/toolbox.cpp:1877
 msgid "Text baseline"
 msgstr "Text-Grundlinie"
 
-#: ../src/widgets/toolbox.cpp:1875
+#: ../src/widgets/toolbox.cpp:1877
 msgid "Snap text anchors and baselines"
 msgstr "Textanker und Grundlinien einrasten"
 
-#: ../src/widgets/toolbox.cpp:1885
+#: ../src/widgets/toolbox.cpp:1887
 msgid "Page border"
 msgstr "Seitenrand"
 
-#: ../src/widgets/toolbox.cpp:1885
+#: ../src/widgets/toolbox.cpp:1887
 msgid "Snap to the page border"
 msgstr "Am Seitenrand einrasten"
 
-#: ../src/widgets/toolbox.cpp:1894
+#: ../src/widgets/toolbox.cpp:1896
 msgid "Snap to grids"
 msgstr "Am Gitter einrasten"
 
-#: ../src/widgets/toolbox.cpp:1903
+#: ../src/widgets/toolbox.cpp:1905
 msgid "Snap guides"
 msgstr "Hilfslinien einrasten"
 
@@ -39659,6 +39825,12 @@ msgstr "Ein beliebtes Dateiformat für Clipart"
 msgid "XAML Input"
 msgstr "XAML einlesen"
 
+#~ msgid "Create default mesh"
+#~ msgstr "Standardgitter erstellen"
+
+#~ msgid "<b>Mesh gradient</b>"
+#~ msgstr "<b>Verlaufsgitter</b>"
+
 #~ msgid "Spacing between baselines (percent of font size)"
 #~ msgstr "Abstand zwischen Grundlinien (Prozent der Schriftgröße)"
 
@@ -40248,30 +40420,6 @@ msgstr "XAML einlesen"
 #~ msgstr ""
 #~ "Legt die Art der Bool'schen Operation fest, die angewendet werden soll."
 
-#~ msgid "Angle of the first copy"
-#~ msgstr "Winkel der ersten Kopie"
-
-#~ msgid "Angle between two successive copies"
-#~ msgstr "Winkel zwischen zwei aufeinander folgenden Kopien"
-
-#~ msgid "Number of copies:"
-#~ msgstr "Anzahl der Kopien"
-
-#~ msgid "Number of copies of the original path"
-#~ msgstr "Anzahl der Kopien des Originalpfades"
-
-#~ msgid "Origin"
-#~ msgstr "Ursprung"
-
-#~ msgid "Origin of the rotation"
-#~ msgstr "Rotationszentrum"
-
-#~ msgid "Adjust the starting angle"
-#~ msgstr "Anpassen des Startwinkels"
-
-#~ msgid "Adjust the rotation angle"
-#~ msgstr "Anpassen des Rotationswinkels"
-
 #~ msgid "Elliptic Pen"
 #~ msgstr "Elliptischer Stift"
 
@@ -40389,12 +40537,6 @@ msgstr "XAML einlesen"
 #~ msgid "Determines on which side the line or line segment is infinite."
 #~ msgstr "Bestimmt, welche Seite der Linie oder des Segments unendlich ist."
 
-#~ msgid "Discard original path?"
-#~ msgstr "Originalpfad ersetzen"
-
-#~ msgid "Check this to only keep the mirrored part of the path"
-#~ msgstr "Aktivieren um den gespiegelten Teil des Pfades zu behalten"
-
 #~ msgid "Reflection line:"
 #~ msgstr "Auswahl"
 
@@ -40403,9 +40545,6 @@ msgstr "XAML einlesen"
 
 #~ msgid "Handle to control the distance of the offset from the curve"
 #~ msgstr "Anfasser zum Einstellen der Entfernung des Offset der Kurve"
-
-#~ msgid "Adjust the offset"
-#~ msgstr "<b>Versatz-Abstand</b> anpassen"
 
 #~ msgid "Specifies the left end of the parallel"
 #~ msgstr "Legt das linke Ende der Parallele fest"
@@ -41605,14 +41744,8 @@ msgstr "XAML einlesen"
 #~ msgid "Edge detect"
 #~ msgstr "Kantenerkennung"
 
-#~ msgid "Horizontal edge detect"
-#~ msgstr "Horizontale Kantenerkennung"
-
 #~ msgid "Detect horizontal color edges in object"
 #~ msgstr "Erkennt horizontale Farbkanten im Objekt"
-
-#~ msgid "Vertical edge detect"
-#~ msgstr "Erkennung vertikaler Kanten"
 
 #~ msgid "Detect vertical color edges in object"
 #~ msgstr "Vertikale Farbkanten im Objekt erkennen"
