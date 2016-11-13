@@ -2,7 +2,6 @@
 # This file is distributed under the same license as the Inkscape package.
 # Copyright (C) 2000-2003, 2006, 2007 Free Software Foundation, Inc.
 #
-#: ../src/ui/dialog/clonetiler.cpp:1010
 # Kai Lahmann <kailahmann@01019freenet.de>, 2000.
 # Benedikt Roth <Benedikt.Roth@gmx.net>, 2000.
 # Christian Meyer <chrisime@gnome.org>, 2000-2002.
@@ -19,6 +18,7 @@
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
 # Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015-2016.
+#: ../src/ui/dialog/clonetiler.cpp:1010
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
@@ -9787,8 +9787,8 @@ msgstr "Pfade verschmelzen"
 #: ../src/live_effects/lpe-copy_rotate.cpp:70
 msgid "Fuse paths by helper line, use fill-rule: evenodd for best result"
 msgstr ""
-"Pfade werden miteinander verschmolzen, für Ergebnisse Füllregel 'evenodd'"
-" verwenden"
+"Pfade werden miteinander verschmolzen, für Ergebnisse Füllregel 'evenodd' "
+"verwenden"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:431
 msgid "Adjust the starting angle"
@@ -10097,7 +10097,7 @@ msgid "Min Radius:"
 msgstr "Minimaler Radius:"
 
 #: ../src/live_effects/lpe-gears.cpp:216
-msgid "Minimun radius, low values can be slow"
+msgid "Minimum radius, low values can be slow"
 msgstr "Minimaler Radius, kleine Werte können langsam sein"
 
 #: ../src/live_effects/lpe-interpolate.cpp:30
@@ -29946,8 +29946,8 @@ msgstr ""
 "* Syntax ändert sich möglicherweise.\n"
 "* Unterstützung im Webbrowser kann nicht garantiert werden\n"
 "\n"
-"Für Verwendung im Web: Zu Bitmap konvertieren (Bearbeiten -> Bitmap-Kopie"
-" erstellen).\n"
+"Für Verwendung im Web: Zu Bitmap konvertieren (Bearbeiten -> Bitmap-Kopie "
+"erstellen).\n"
 "Zum Drucken: als PDF exportieren."
 
 #: ../src/widgets/mesh-toolbar.cpp:404
@@ -30364,8 +30364,8 @@ msgstr "<b>Radialer Farbverlauf</b>"
 #: ../src/widgets/paint-selector.cpp:1080
 msgid "Use the <b>Mesh tool</b> to modify the mesh."
 msgstr ""
-"Das Verlaufsgitter kann mit dem <b>Verlaufsgitterwerkzeug</b> bearbeitet"
-" werden."
+"Das Verlaufsgitter kann mit dem <b>Verlaufsgitterwerkzeug</b> bearbeitet "
+"werden."
 
 #: ../src/widgets/paint-selector.cpp:1093
 msgid "<b>Mesh fill</b>"
