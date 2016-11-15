@@ -2,6 +2,7 @@
 # This file is distributed under the same license as the Inkscape package.
 # Copyright (C) 2000-2003, 2006, 2007 Free Software Foundation, Inc.
 #
+#: ../src/ui/dialog/clonetiler.cpp:1010
 # Kai Lahmann <kailahmann@01019freenet.de>, 2000.
 # Benedikt Roth <Benedikt.Roth@gmx.net>, 2000.
 # Christian Meyer <chrisime@gnome.org>, 2000-2002.
@@ -18,13 +19,12 @@
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
 # Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015-2016.
-#: ../src/ui/dialog/clonetiler.cpp:1010
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-11-13 16:11+0100\n"
-"PO-Revision-Date: 2016-11-13 22:28+0100\n"
+"PO-Revision-Date: 2016-11-15 03:07+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -9787,7 +9787,8 @@ msgstr "Pfade verschmelzen"
 #: ../src/live_effects/lpe-copy_rotate.cpp:70
 msgid "Fuse paths by helper line, use fill-rule: evenodd for best result"
 msgstr ""
-"Pfade werden miteinander verschmolzen, für Ergebnisse Füllregel 'evenodd' "
+"Pfade werden miteinander verschmolzen, für optimale Ergebnisse Füllregel"
+" 'evenodd' "
 "verwenden"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:431
@@ -10626,7 +10627,7 @@ msgstr "Horizontaler Mittelpunkt der Seite"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:37
 msgid "Free from reflection line"
-msgstr "Spiegelachse frei verschiebbar"
+msgstr "Spiegellinie frei verschiebbar"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:38
 msgid "X from middle knot"
@@ -10668,11 +10669,11 @@ msgstr "Das Spiegelbild wird beim Verschmelzen als Originalpfad angesehen."
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:75
 msgid "Start mirror line"
-msgstr "Anfang der Spiegelachse"
+msgstr "Anfang der Spiegellinie"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:76
 msgid "End mirror line"
-msgstr "Ende der Spiegelachse"
+msgstr "Ende der Spiegellinie"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:353
 msgid "Adjust the center"

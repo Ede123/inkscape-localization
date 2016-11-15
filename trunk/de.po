@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-11-12 10:50+0100\n"
-"PO-Revision-Date: 2016-11-04 17:56+0100\n"
+"PO-Revision-Date: 2016-11-15 03:12+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -9334,18 +9334,16 @@ msgid "Origin of the rotation"
 msgstr "Rotationszentrum"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:62
-#, fuzzy
 msgid "Starting:"
-msgstr "Anfang:"
+msgstr "Startwinkel:"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:62
 msgid "Angle of the first copy"
 msgstr "Winkel der ersten Kopie"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:63
-#, fuzzy
 msgid "Rotation angle:"
-msgstr "Startwinkel"
+msgstr "Drehwinkel:"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:63
 msgid "Angle between two successive copies"
@@ -9361,21 +9359,22 @@ msgstr "Anzahl der Kopien des Originalpfades"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:65
 msgid "360º Copies"
-msgstr ""
+msgstr "Vollständiger Kreis"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:65
 msgid "No rotation angle, fixed to 360º"
-msgstr ""
+msgstr "Kein Drehwinkel, immer 360°."
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:66
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:66
-#, fuzzy
 msgid "Fuse paths"
-msgstr "Pfad erweitern"
+msgstr "Pfade verschmelzen"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:66
 msgid "Fuse paths by helper line, use fill-rule: evenodd for best result"
 msgstr ""
+"Pfade werden miteinander verschmolzen, für optimale Ergebnisse Füllregel"
+" 'evenodd' verwenden"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:427
 msgid "Adjust the starting angle"
@@ -10221,27 +10220,24 @@ msgid "Hide Points"
 msgstr "Punkte ausblenden"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:28
-#, fuzzy
 msgid "Vertical Page Center"
-msgstr "Erkennung vertikaler Kanten"
+msgstr "Vertikaler Mittelpunkt der Seite"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:29
-#, fuzzy
 msgid "Horizontal Page Center"
-msgstr "Horizontale Kantenerkennung"
+msgstr "Horizontaler Mittelpunkt der Seite"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:30
-#, fuzzy
 msgid "Free from reflection line"
-msgstr "Aus Auswahlgruppe entfernen"
+msgstr "Spiegelachse frei verschiebbar"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:31
 msgid "X from middle knot"
-msgstr ""
+msgstr "Objektrahmenmitte X"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:32
 msgid "Y from middle knot"
-msgstr ""
+msgstr "Objektrahmenmitte Y"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:64
 #: ../src/widgets/spray-toolbar.cpp:388 ../src/widgets/tweak-toolbar.cpp:253
@@ -10249,9 +10245,8 @@ msgid "Mode"
 msgstr "Modus"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:64
-#, fuzzy
 msgid "Symmetry move mode"
-msgstr "symmetrischer Knoten"
+msgstr "Symmetriemodus beim Verschieben"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:65
 msgid "Discard original path?"
@@ -10264,30 +10259,27 @@ msgstr "Aktivieren um den gespiegelten Teil des Pfades zu behalten"
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:66
 msgid "Fuse original and the reflection into a single path"
 msgstr ""
+"Verschmilzt den Originalpfad und sein Spiegelbild zu einem einzigen Pfad"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:67
-#, fuzzy
 msgid "Opposite fuse"
-msgstr "Gegensätze mischen"
+msgstr "Umgekehrte Verschmelzung"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:67
-#, fuzzy
 msgid "Picks the other side of the mirror as the original"
-msgstr "Klone werden mit demselben Vektor wie das Original verschoben."
+msgstr "Das Spiegelbild wird beim Verschmelzen als Originalpfad angesehen."
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:68
-#, fuzzy
 msgid "Start mirror line"
-msgstr "Anfangspunkt"
+msgstr "Anfang der Spiegellinie"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:69
 msgid "End mirror line"
-msgstr ""
+msgstr "Ende der Spiegellinie"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:342
-#, fuzzy
 msgid "Adjust the center"
-msgstr "<b>Versatz-Abstand</b> anpassen"
+msgstr "Spiegellinie verschieben"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:54
 #: ../share/extensions/pathalongpath.inx.h:10
@@ -24343,9 +24335,8 @@ msgid "Picked mesh corner color."
 msgstr "Farbe für Gitterecke wählen"
 
 #: ../src/ui/tools/mesh-tool.cpp:489
-#, fuzzy
 msgid "Fit mesh inside bounding box."
-msgstr "Verwendet den visuellen Objektrahmen"
+msgstr "Verlaufsgitter in Objektrahmen einpassen."
 
 #: ../src/ui/tools/mesh-tool.cpp:779
 msgid "FIXME<b>Ctrl</b>: snap mesh angle"
@@ -27762,7 +27753,7 @@ msgstr "Farbverläufe erstellen und bearbeiten"
 #: ../src/verbs.cpp:2811
 msgctxt "ContextVerb"
 msgid "Mesh"
-msgstr "Gitterverlauf"
+msgstr "Verlaufsgitter"
 
 #: ../src/verbs.cpp:2812
 msgid "Create and edit meshes"
@@ -29543,14 +29534,12 @@ msgid "Set gradient on stroke"
 msgstr "Farbverlauf für die Kontur setzen"
 
 #: ../src/widgets/fill-style.cpp:723
-#, fuzzy
 msgid "Set mesh on fill"
-msgstr "Muster für die Füllung setzen"
+msgstr "Verlaufsgitter für die Füllung setzen"
 
 #: ../src/widgets/fill-style.cpp:723
-#, fuzzy
 msgid "Set mesh on stroke"
-msgstr "Muster für die Kontur setzen"
+msgstr "Verlaufsgitter für die Kontur setzen"
 
 #: ../src/widgets/fill-style.cpp:784
 msgid "Set pattern on fill"
@@ -30051,6 +30040,13 @@ msgid ""
 "For web: convert to bitmap (Edit->Make bitmap copy).\n"
 "For print: export to PDF."
 msgstr ""
+"Verlaufsgitter sind Teil der SVG2-Spezifikation:\n"
+"* Syntax ändert sich möglicherweise.\n"
+"* Unterstützung im Webbrowser kann nicht garantiert werden\n"
+"\n"
+"Für Verwendung im Web: Zu Bitmap konvertieren (Bearbeiten -> Bitmap-Kopie"
+" erstellen).\n"
+"Zum Drucken: als PDF exportieren."
 
 #: ../src/widgets/mesh-toolbar.cpp:394
 msgid "normal"
@@ -30188,19 +30184,17 @@ msgid "Pick Color"
 msgstr "Farbe übernehmen"
 
 #: ../src/widgets/mesh-toolbar.cpp:590
-#, fuzzy
 msgid "Scale mesh to bounding box:"
-msgstr "Objektrahmen anzeigen"
+msgstr "Verlaufsgitter auf Größe des Objektrahmens skalieren:"
 
 #: ../src/widgets/mesh-toolbar.cpp:591
-#, fuzzy
 msgid "Scale mesh to fit inside bounding box."
-msgstr "Objektrahmen anzeigen"
+msgstr ""
+"Größe des Verlaufsgitters so ändern, dass es in den Objektrahmen passt."
 
 #: ../src/widgets/mesh-toolbar.cpp:594
-#, fuzzy
 msgid "Fit mesh"
-msgstr "Füllungsgitter bearbeiten"
+msgstr "Verlaufsgitter einpassen"
 
 #: ../src/widgets/node-toolbar.cpp:339
 msgid "Insert node"
@@ -30468,11 +30462,12 @@ msgstr "<b>Radialer Farbverlauf</b>"
 #: ../src/widgets/paint-selector.cpp:1039
 msgid "Use the <b>Mesh tool</b> to modify the mesh."
 msgstr ""
+"Das Verlaufsgitter kann mit dem <b>Verlaufsgitterwerkzeug</b> bearbeitet"
+" werden."
 
 #: ../src/widgets/paint-selector.cpp:1052
-#, fuzzy
 msgid "<b>Mesh fill</b>"
-msgstr "<b>Farbmuster</b>"
+msgstr "<b>Füllung mit Verlaufsgitter</b>"
 
 #: ../src/widgets/paint-selector.cpp:1391
 msgid ""
