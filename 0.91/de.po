@@ -25363,11 +25363,11 @@ msgstr "Farbverläufe erstellen und bearbeiten"
 #: ../src/verbs.cpp:2674
 msgctxt "ContextVerb"
 msgid "Mesh"
-msgstr "Gitterverlauf"
+msgstr "Verlaufsgitter"
 
 #: ../src/verbs.cpp:2675
 msgid "Create and edit meshes"
-msgstr "Gitter erstellen und bearbeiten"
+msgstr "Verlaufsgitter erstellen und bearbeiten"
 
 #: ../src/verbs.cpp:2676
 msgctxt "ContextVerb"

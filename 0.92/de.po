@@ -27713,7 +27713,7 @@ msgstr "Verlaufsgitter"
 
 #: ../src/verbs.cpp:2760
 msgid "Create and edit meshes"
-msgstr "Gitter erstellen und bearbeiten"
+msgstr "Verlaufsgitter erstellen und bearbeiten"
 
 #: ../src/verbs.cpp:2761
 msgctxt "ContextVerb"
