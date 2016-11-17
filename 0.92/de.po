@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-11-13 16:11+0100\n"
-"PO-Revision-Date: 2016-11-15 03:07+0100\n"
+"PO-Revision-Date: 2016-11-17 02:08+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -10627,7 +10627,7 @@ msgstr "Horizontaler Mittelpunkt der Seite"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:37
 msgid "Free from reflection line"
-msgstr "Spiegellinie frei verschiebbar"
+msgstr "Spiegelachse frei verschiebbar"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:38
 msgid "X from middle knot"
@@ -10669,11 +10669,11 @@ msgstr "Das Spiegelbild wird beim Verschmelzen als Originalpfad angesehen."
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:75
 msgid "Start mirror line"
-msgstr "Anfang der Spiegellinie"
+msgstr "Spiegelachse Punkt 1"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:76
 msgid "End mirror line"
-msgstr "Ende der Spiegellinie"
+msgstr "Spiegelachse Punkt 2"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:353
 msgid "Adjust the center"
