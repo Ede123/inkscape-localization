@@ -7857,7 +7857,7 @@ msgstr "Verknüpfen"
 #: ../src/extension/internal/gdkpixbuf-input.cpp:200
 #, c-format
 msgid "Image DPI:"
-msgstr "Auflösung des Bildes (DPI):"
+msgstr "Auflösung des Bildes (dpi):"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:200
 #, c-format
@@ -8383,7 +8383,7 @@ msgstr ""
 
 #: ../src/file.cpp:425 ../src/file.cpp:523
 msgid "Old Inkscape file detected (90 DPI)"
-msgstr "Alte Inkscape-Datei mit Auflösung von 90dpi erkannt"
+msgstr "Alte Inkscape-Datei mit Auflösung von 90 dpi erkannt"
 
 #: ../src/file.cpp:437 ../src/file.cpp:535
 msgid "Create backup file (in same directory)."
@@ -24449,7 +24449,7 @@ msgstr "Farbe für Gitterecke wählen"
 
 #: ../src/ui/tools/mesh-tool.cpp:478
 msgid "Inserted new row or column."
-msgstr "Neuer Reihe oder Spalte hinzugefügt."
+msgstr "Neue Reihe oder Spalte hinzugefügt."
 
 #: ../src/ui/tools/mesh-tool.cpp:548
 msgid "Fit mesh inside bounding box."
