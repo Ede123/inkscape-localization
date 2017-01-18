@@ -18628,7 +18628,7 @@ msgstr "Valencianisches Katalan (ca@valencia)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:528
 msgid "Chinese/China (zh_CN)"
-msgstr "Chinesisch/china (zh_CN)"
+msgstr "Chinesisch/China (zh_CN)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:528
 msgid "Chinese/Taiwan (zh_TW)"

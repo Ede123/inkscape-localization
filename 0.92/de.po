@@ -18614,7 +18614,7 @@ msgstr "Valencianisches Katalan (ca@valencia)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:540
 msgid "Chinese/China (zh_CN)"
-msgstr "Chinesisch/china (zh_CN)"
+msgstr "Chinesisch/China (zh_CN)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:540
 msgid "Chinese/Taiwan (zh_TW)"
@@ -29949,7 +29949,6 @@ msgid "Scale the results"
 msgstr "Skalierung der Maße (in Prozent)"
 
 #: ../src/widgets/measure-toolbar.cpp:329
-#, fuzzy
 msgid "Mark dimension offset"
 msgstr "Bemaßung erstellen"
 
@@ -32223,46 +32222,42 @@ msgstr ""
 "umzuwandeln."
 
 #: ../share/extensions/draw_from_triangle.py:180
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Side Length 'a' ({0}): {1}"
-msgstr "Seitenlänge 'a' ("
+msgstr "Seitenlänge 'a' ({0}): {1}"
 
 #: ../share/extensions/draw_from_triangle.py:181
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Side Length 'b' ({0}): {1}"
-msgstr "Seitenlänge 'b' ("
+msgstr "Seitenlänge 'b' ({0}): {1}"
 
 #: ../share/extensions/draw_from_triangle.py:182
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Side Length 'c' ({0}): {1}"
-msgstr "Seitenlänge 'c' ("
+msgstr "Seitenlänge 'c' ({0}): {1}"
 
 # Spaces important!
 # Maybe rewrite draw_from_triangle.py in future to exclude spaces from localizable string
 #: ../share/extensions/draw_from_triangle.py:183
-#, fuzzy
 msgid "Angle 'A' (radians): {}"
-msgstr "Winkel A in Radiant: "
+msgstr "Winkel 'A' (Radiant): {}"
 
 #: ../share/extensions/draw_from_triangle.py:184
-#, fuzzy
 msgid "Angle 'B' (radians): {}"
-msgstr "Winkel B in Radiant: "
+msgstr "Winkel 'B' (Radiant): {}"
 
 #: ../share/extensions/draw_from_triangle.py:185
-#, fuzzy
 msgid "Angle 'C' (radians): {}"
-msgstr "Winkel C in Radiant: "
+msgstr "Winkel 'C' (Radiant): {}"
 
 #: ../share/extensions/draw_from_triangle.py:186
-#, fuzzy
 msgid "Semiperimeter (px): {}"
-msgstr "Halbdurchmesser in px: "
+msgstr "Halbdurchmesser (px): {}"
 
 #: ../share/extensions/draw_from_triangle.py:187
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Area ({0}^2): {1}"
-msgstr "Fläche (px^2):"
+msgstr "Fläche ({0}^2): {1}"
 
 #: ../share/extensions/dxf_input.py:530
 #, python-format
