@@ -16,14 +16,14 @@
 # Benjamin Weis <benjamin.weis@gmx.com>, 2014.
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
-# Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016.
+# Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016, 2017.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015-2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-01-10 09:57+0100\n"
-"PO-Revision-Date: 2016-11-17 02:08+0100\n"
+"PO-Revision-Date: 2017-01-19 00:08+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -30451,7 +30451,7 @@ msgstr "Die gewählten Knoten löschen"
 
 #: ../src/widgets/node-toolbar.cpp:407
 msgid "Join selected nodes"
-msgstr "Gewählte Endknoten verbinden"
+msgstr "Gewählte Knoten vereinigen"
 
 #: ../src/widgets/node-toolbar.cpp:410
 msgid "Join"
