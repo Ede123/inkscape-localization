@@ -17,14 +17,14 @@
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
 # Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016, 2017.
-# Eduard Braun <eduard.braun2@gmx.de>, 2015-2016.
+# Eduard Braun <eduard.braun2@gmx.de>, 2015-2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-02-02 22:02+0100\n"
-"PO-Revision-Date: 2017-01-19 00:07+0100\n"
-"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
+"PO-Revision-Date: 2017-02-02 22:31+0100\n"
+"Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,6 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Language: de_DE\n"
 "X-Source-Language: C\n"
-"X-Generator: Lokalize 2.0\n"
 
 #: ../inkscape.appdata.xml.in.h:1 ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -12260,6 +12259,8 @@ msgstr "Inkscape in interaktivem Konsolenmodus starten."
 #: ../src/main.cpp:532
 msgid "Do not fix legacy (pre-0.92) files' text baseline spacing on opening."
 msgstr ""
+"Linienabstand von Dokumenten die in älteren Inkscape-Versionen (0.91 und "
+"früher) erstellt wurden beim Öffnen nicht automatisch korrigieren."
 
 #: ../src/main.cpp:882 ../src/main.cpp:1355
 msgid ""
@@ -21972,16 +21973,14 @@ msgid "Anchor point:"
 msgstr "Ankerpunkt:"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:52
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "Objects' bounding boxes:"
-msgstr "Objektrahmen des Objekts:"
+msgstr "Objektrahmen der Objekte:"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:59
-#, fuzzy
 msgctxt "Polar arrange tab"
 msgid "Objects' rotational centers"
-msgstr "Objekt-Drehmittelpunkt"
+msgstr "Drehmittelpunkte der Objekte"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:64
 msgctxt "Polar arrange tab"
@@ -33217,7 +33216,6 @@ msgstr "Sie müssen eine korrekte Systemkodierung auswählen."
 
 #: ../share/extensions/uniconv-ext.py:55
 #: ../share/extensions/uniconv_output.py:122
-#, fuzzy
 msgid ""
 "You need to install the UniConvertor software.\n"
 "For GNU/Linux: install the package python-uniconvertor.\n"
@@ -33229,7 +33227,8 @@ msgstr ""
 "Sie benötigen die Software „UniConvertor“.\n"
 "Unter GNU/Linux: Installieren Sie das Paket „python-uniconvertor“.\n"
 "Unter Windows: Laden Sie die Software von \n"
-"http://sk1project.org/modules.php?name=Products&product=uniconvertor\n"
+"https://sk1project.net/modules.php?"
+"name=Products&product=uniconvertor&op=download\n"
 "herunter und installieren Sie diese in das Python-Verzeichnis Ihrer Inkscape-"
 "Installation.\n"
 
