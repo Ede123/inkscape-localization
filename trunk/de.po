@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-02-02 22:17+0100\n"
-"PO-Revision-Date: 2017-01-19 00:08+0100\n"
+"PO-Revision-Date: 2017-02-03 21:46+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -5902,9 +5902,8 @@ msgstr "_Abbrechen"
 #: ../src/extension/internal/vsd-input.cpp:122
 #: ../src/extension/prefdialog.cpp:74 ../src/ui/dialog/guides.cpp:159
 #: ../src/ui/dialog/pixelartdialog.cpp:298 ../src/ui/dialog/tracedialog.cpp:820
-#, fuzzy
 msgid "_OK"
-msgstr "_K:"
+msgstr "_OK"
 
 #. Labels
 #: ../src/extension/internal/cdr-input.cpp:123
@@ -8401,9 +8400,8 @@ msgstr "S_chließen"
 
 #: ../src/extension/prefdialog.cpp:74 ../src/ui/dialog/text-edit.cpp:67
 #: ../src/ui/dialog/transformation.cpp:143
-#, fuzzy
 msgid "_Apply"
-msgstr "Anwenden auf:"
+msgstr "An_wenden"
 
 #: ../src/extension/prefdialog.cpp:247
 msgid "Live preview"
@@ -8430,24 +8428,28 @@ msgid ""
 "either setting the SVG 'viewBox' to compensate or by scaling\n"
 "all the elements in the drawing."
 msgstr ""
+"In älteren Inkscape-Dateien entspricht 1 Zoll = 90 px. Der\n"
+"CSS-Standard fordert ein Verhältnis von 1 Zoll = 96 px. Elemente in der\n"
+"Zeichnung werden möglicherweise zu klein dargestellt. Dies\n"
+"kann korrigiert werden, indem entweder das 'viewBox'-Attribut\n"
+"so gesetzt wird, dass es das Missverhältnis ausgleicht oder \n"
+"indem die Größe aller Elemente in der Zeichnung angepasst wird."
 
 #: ../src/file.cpp:420 ../src/file.cpp:560
 msgid "Old Inkscape file detected (90 DPI)"
-msgstr ""
+msgstr "Alte Inkscape-Datei mit Auflösung von 90 dpi erkannt"
 
 #: ../src/file.cpp:427 ../src/file.cpp:567
-#, fuzzy
 msgid "Create backup file (in same directory)."
-msgstr "Kann Profilverzeichnis %s nicht erstellen."
+msgstr "Erstelle Sicherheitskopie (im selben Verzeichnis)"
 
 #: ../src/file.cpp:433 ../src/file.cpp:573 ../src/ui/widget/page-sizer.cpp:898
 msgid "Set 'viewBox'"
 msgstr "'viewBox' festlegen"
 
 #: ../src/file.cpp:434 ../src/file.cpp:574
-#, fuzzy
 msgid "Scale elements"
-msgstr "Skalierungsmodus"
+msgstr "Größe der Elemente ändern"
 
 # Related to 'Make connectors ignore selected objects'
 #: ../src/file.cpp:435 ../src/file.cpp:575
@@ -8463,13 +8465,20 @@ msgid ""
 "Internal scaling can be handled either by setting the SVG 'viewBox'\n"
 "attribute to compensate or by scaling all objects in the drawing."
 msgstr ""
+"In älteren Inkscape-Dateien entspricht 1 Zoll = 90 px. Der\n"
+"CSS-Standard fordert ein Verhältnis von 1 Zoll = 96 px. Zeichnungen, die in\n"
+"einer physischen Größe dargestellt werden sollen (z.B. Letter\n"
+"oder A4), werden zu klein aussehen. Dies kann korrigiert\n"
+"werden, indem die Größe der Zeichnung angepasst wird.\n"
+"Die interne Größe kann entweder durch das Festlegen eines\n"
+"ausgleichenden 'viewBox'-Attributes oder durch das Anpassen\n"
+"der Größe aller Elemente in der Zeichnung korrigiert werden."
 
 #. Look for SPNamedView and SPDefs loop
 #. desktop->getDocument()->ensureUpToDate();  // Does not update box3d!
 #: ../src/file.cpp:833
-#, fuzzy
 msgid "Update Document"
-msgstr "Das Dokument speichern"
+msgstr "Dokument aktualisieren"
 
 #: ../src/file.cpp:849 ../src/main-cmdlinexact.cpp:177
 msgid "Broken links have been changed to point to existing files."
@@ -8891,7 +8900,7 @@ msgstr " (Kontur)"
 #: ../src/gradient-drag.cpp:1482
 #, c-format
 msgid "%s for: %s%s"
-msgstr ""
+msgstr "%s für: %s%s"
 
 #: ../src/gradient-drag.cpp:1489
 #, c-format
@@ -8991,14 +9000,12 @@ msgstr ""
 "fehlgeschlagen:\n"
 
 #: ../src/inkview.cpp:225
-#, fuzzy
 msgid "Inkscape Options"
-msgstr "Inkscape-Erweiterungen: "
+msgstr "Inkscape-Optionen"
 
 #: ../src/inkview.cpp:226
-#, fuzzy
 msgid "Default program options"
-msgstr "Standard-Brüche"
+msgstr "Standardoptionen des Programms"
 
 #: ../src/inkview.cpp:233
 msgid "NUM"
@@ -9006,12 +9013,11 @@ msgstr ""
 
 #: ../src/inkview.cpp:239
 msgid "FILES..."
-msgstr ""
+msgstr "DATEIEN..."
 
 #: ../src/inkview.cpp:251
-#, fuzzy
 msgid "Open SVG files"
-msgstr "Öffne neue Datei"
+msgstr "SVG-Dateien öffnen"
 
 # !!!
 #: ../src/knot.cpp:327
@@ -9171,9 +9177,8 @@ msgid "Power stroke"
 msgstr "Power Stroke (variable Konturbreite)"
 
 #: ../src/live_effects/effect.cpp:121
-#, fuzzy
 msgid "Clone original"
-msgstr "Originalpfad klonen"
+msgstr "Original klonen"
 
 #: ../src/live_effects/effect.cpp:124
 msgid "Lattice Deformation 2"
@@ -9238,7 +9243,6 @@ msgstr "Ellipse durch 5 Punkte"
 msgid "Bounding Box"
 msgstr "Objektrahmen"
 
-# Is this meant to be translatable?
 #. 9.93
 #: ../src/live_effects/effect.cpp:142
 #, fuzzy
@@ -9464,14 +9468,12 @@ msgid "Change scalar parameter"
 msgstr "Skalarparameter ändern"
 
 #: ../src/live_effects/lpe-clone-original.cpp:24
-#, fuzzy
 msgid "Linked Item:"
-msgstr "Verknüpfter Pfad:"
+msgstr "Verknüpftes Objekt:"
 
 #: ../src/live_effects/lpe-clone-original.cpp:24
-#, fuzzy
 msgid "Item from which to take the original data"
-msgstr "Pfad, von dem die Orginal-Pfaddaten genommen werden"
+msgstr "Objekt, von dem die Orginaldaten übernommen werden sollen"
 
 #: ../src/live_effects/lpe-clone-original.cpp:25
 #: ../src/widgets/measure-toolbar.cpp:315
@@ -9484,9 +9486,8 @@ msgid "Scale item %"
 msgstr "Skalierung"
 
 #: ../src/live_effects/lpe-clone-original.cpp:26
-#, fuzzy
 msgid "Preserve position"
-msgstr "Originaltext erhalten"
+msgstr "Position beibehalten"
 
 #: ../src/live_effects/lpe-clone-original.cpp:27
 #, fuzzy
@@ -9563,9 +9564,8 @@ msgid "Origin"
 msgstr "Ursprung"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:50
-#, fuzzy
 msgid "Adjust origin of the rotation"
-msgstr "Rotationszentrum"
+msgstr "Rotationszentrum verschieben"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:51
 #: ../src/live_effects/lpe-transform_2pts.cpp:35
@@ -9573,17 +9573,14 @@ msgid "Start point"
 msgstr "Anfangspunkt"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:51
-#, fuzzy
 msgid "Starting point to define start angle"
-msgstr "Startpunkt der Verjüngung"
+msgstr "Anfangspunkt für den Anfangswinkel"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:51
-#, fuzzy
 msgid "Adjust starting point to define start angle"
-msgstr "Anpassen des Startwinkels"
+msgstr "Anfangspunkt verschieben, um den Anfangswinkel zu bestimmen"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:52
-#, fuzzy
 msgid "Starting angle"
 msgstr "Startwinkel"
 
@@ -9592,16 +9589,14 @@ msgid "Angle of the first copy"
 msgstr "Winkel der ersten Kopie"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:53
-#, fuzzy
 msgid "Rotation angle"
-msgstr "Drehwinkel:"
+msgstr "Drehwinkel"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:53
 msgid "Angle between two successive copies"
 msgstr "Winkel zwischen zwei aufeinander folgenden Kopien"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:54
-#, fuzzy
 msgid "Number of copies"
 msgstr "Anzahl der Kopien"
 
@@ -9624,25 +9619,22 @@ msgstr "Kein Drehwinkel, immer 360°."
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:57
 msgid "Kaleidoskope"
-msgstr ""
+msgstr "Kaleidoskop"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:57
-#, fuzzy
 msgid "Kaleidoskope by helper line, use fill-rule: evenodd for best result"
 msgstr ""
-"Pfade werden miteinander verschmolzen, für optimale Ergebnisse Füllregel "
-"'evenodd' verwenden"
+"Kaleidoskop mit Hilfspfad, für optimale Ergebnisse Füllregel 'evenodd'"
+" verwenden"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:58
-#, fuzzy
 msgid "Join paths"
-msgstr "Pfad schließen"
+msgstr "Pfade verbinden"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:58
-#, fuzzy
 msgid "Join paths, use fill-rule: evenodd for best result"
 msgstr ""
-"Pfade werden miteinander verschmolzen, für optimale Ergebnisse Füllregel "
+"Pfade werden miteinander verbunden, für optimale Ergebnisse Füllregel "
 "'evenodd' verwenden"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:59
@@ -9657,9 +9649,8 @@ msgid "Split elements, this allow gradients and other paints."
 msgstr ""
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:304
-#, fuzzy
 msgid "Reset styles"
-msgstr "Stil behalten"
+msgstr "Stile zurücksetzen"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:34
 msgid "Stitch path:"
@@ -9956,13 +9947,12 @@ msgid ""
 msgstr "Zahnflankenwinkel (typ. 20-25°)."
 
 #: ../src/live_effects/lpe-gears.cpp:210
-#, fuzzy
 msgid "Min Radius:"
-msgstr "Radius:"
+msgstr "Min Radius:"
 
 #: ../src/live_effects/lpe-gears.cpp:210
 msgid "Minimum radius, low values can be slow"
-msgstr ""
+msgstr "Minimaler Radius, kleine Werte verlangsamen die Darstellung"
 
 #: ../src/live_effects/lpe-interpolate.cpp:27
 msgid "Trajectory:"
@@ -10486,14 +10476,12 @@ msgid "Horizontal"
 msgstr "Horizontal"
 
 #: ../src/live_effects/lpe-measure-line.cpp:45
-#, fuzzy
 msgid "Vertical"
-msgstr "Vertikal:"
+msgstr "Vertikal"
 
 #: ../src/live_effects/lpe-measure-line.cpp:52
-#, fuzzy
 msgid "Unit*"
-msgstr "Einheit"
+msgstr "Einheit*"
 
 #: ../src/live_effects/lpe-measure-line.cpp:52
 #: ../src/live_effects/lpe-ruler.cpp:39 ../src/widgets/gimp/ruler.cpp:195
@@ -10501,9 +10489,8 @@ msgid "Unit"
 msgstr "Einheit"
 
 #: ../src/live_effects/lpe-measure-line.cpp:53
-#, fuzzy
 msgid "Font*"
-msgstr "Schrift"
+msgstr "Schriftart*"
 
 #: ../src/live_effects/lpe-measure-line.cpp:53
 #, fuzzy
