@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-07-24 23:11+0200\n"
-"PO-Revision-Date: 2017-02-03 21:40+0100\n"
+"PO-Revision-Date: 2017-08-03 23:09+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -317,7 +317,6 @@ msgid "Sharpen edges and boundaries within the object, force=0.3"
 msgstr "Kanten und Grenzen schärfen, Stärke = 0,3"
 
 #: ../share/filters/filters.svg.h:74
-#, fuzzy
 msgid "Oil Painting"
 msgstr "Ölgemälde"
 
@@ -1190,7 +1189,6 @@ msgstr "Comic sahnig"
 #: ../share/filters/filters.svg.h:779 ../share/filters/filters.svg.h:783
 #: ../share/filters/filters.svg.h:787 ../share/filters/filters.svg.h:791
 #: ../share/filters/filters.svg.h:795
-#, fuzzy
 msgid "Non-realistic 3D Shaders"
 msgstr "Übersteigerte Schattierungen"
 
@@ -1209,7 +1207,6 @@ msgid ""
 msgstr "Erzeugt farbige Kleckse, die weich über innere Strukturen fließen"
 
 #: ../share/filters/filters.svg.h:434
-#, fuzzy
 msgid "Dark and Glow"
 msgstr "Licht und Schatten"
 
@@ -1562,9 +1559,8 @@ msgid "Pixellize"
 msgstr "Verpixeln"
 
 #: ../share/filters/filters.svg.h:591
-#, fuzzy
 msgid "Pixel Tools"
-msgstr "Pixelwerkzeug"
+msgstr "Pixelwerkzeuge"
 
 #: ../share/filters/filters.svg.h:592
 msgid "Reduce or remove antialiasing around shapes"
@@ -2032,9 +2028,8 @@ msgstr ""
 "Cyan-, Magenta- und Gelb-Kanäle mit einem einfärbbaren Hintergrund rendern"
 
 #: ../share/filters/filters.svg.h:834
-#, fuzzy
 msgid "Contouring Table"
-msgstr "Formgebender Tisch"
+msgstr "Multiple Konturen (weich)"
 
 #: ../share/filters/filters.svg.h:836
 msgid "Blurred multiple contours for objects"
@@ -2049,9 +2044,8 @@ msgid "Converts blurred contour to posterized steps"
 msgstr "Erzeugt eine verschwommene Kontur aus posterisierten Teilschritten"
 
 #: ../share/filters/filters.svg.h:842
-#, fuzzy
 msgid "Contouring Discrete"
-msgstr "Multiple Konturen"
+msgstr "Multiple Konturen (hart)"
 
 #: ../share/filters/filters.svg.h:844
 msgid "Sharp multiple contour for objects"
@@ -7009,7 +7003,6 @@ msgstr ""
 "Typen von Hintergründen"
 
 #: ../src/extension/internal/filter/color.h:1483
-#, fuzzy
 msgid "Quadritone Fantasy"
 msgstr "Vierfarben-Fantasie"
 
@@ -7662,7 +7655,6 @@ msgid "Simple posterizing effect"
 msgstr "Einfacher Posterisationseffekt"
 
 #: ../src/extension/internal/filter/protrusions.h:48
-#, fuzzy
 msgid "Snow Crest"
 msgstr "Schneekrone"
 
@@ -8379,46 +8371,58 @@ msgstr ""
 "als SVG-Dokument geöffnet."
 
 #: ../src/file-update.cpp:314
-#, fuzzy
 msgid "Convert legacy Inkscape file"
-msgstr "Umwandeln in invertierte Abrundung"
+msgstr "Ältere Inkscape-Datei aktualisieren"
 
 #: ../src/file-update.cpp:319
 msgid ""
 "was created in an older version of Inkscape (90 DPI) and we need to make it "
 "compatible with newer versions (96 DPI). Tell us about this file:\n"
 msgstr ""
+"wurde mit einer älteren Inkscape-Version (mit einer Auflösung von 90 dpi) "
+"erstellt, und wir müssen die Datei mit neueren Versionen (96 dpi) kompatibel "
+"machen. Bitte wähle eine Option:\n"
 
 #: ../src/file-update.cpp:327
 msgid ""
 "This file contains digital artwork for screen display. <b>(Choose if "
 "unsure.)</b>"
 msgstr ""
+"Diese Datei enthält digitales Bildmaterial, das nur auf einem Bildschirm "
+"dargestellt werden soll. <b>(Wählen Sie dies aus, wenn Sie sich nicht sicher "
+"sind.)</b>"
 
 #: ../src/file-update.cpp:330
 msgid "This file is intended for physical output, such as paper or 3D prints."
 msgstr ""
+"Diese Datei ist für die physikalische Ausgabe vorgesehen, z.B. als Ausdruck "
+"auf Papier oder in einem 3D-Drucker."
 
 #: ../src/file-update.cpp:332
 msgid ""
 "The appearance of elements such as clips, masks, filters, and clones\n"
 "is most important. <b>(Choose if unsure.)</b>"
 msgstr ""
+"Das Erscheinungsbild von Elementen, wie z.B. ausgeschnittenen oder "
+"maskierten Objekten, Filtern, Klonen,\n"
+"ist am wichtigsten. <b>(Auswählen, wenn unsicher.)</b>"
 
 #: ../src/file-update.cpp:336
 msgid ""
 "The accuracy of the physical unit size and position values of objects\n"
 "in the file is most important. (Experimental.)"
 msgstr ""
+"Die präzise Wiedergabe physikalischer Einheitsgrößen und der Positionen von "
+"Objekten\n"
+"in der Datei sind besonders wichtig (experimentell)."
 
 #: ../src/file-update.cpp:338
-#, fuzzy
 msgid "Create a backup file in same directory."
-msgstr "Erstelle Sicherheitskopie (im selben Verzeichnis)"
+msgstr "Erstelle Sicherheitskopie im selben Verzeichnis."
 
 #: ../src/file-update.cpp:339
 msgid "More details..."
-msgstr ""
+msgstr "Nähere Informationen..."
 
 #: ../src/file-update.cpp:342
 msgid ""
@@ -8442,11 +8446,32 @@ msgid ""
 "More information about this change are available in the <a href='https://"
 "inkscape.org/en/learn/faq#todo-todo-todo'>Inkscape FAQ</a></small>"
 msgstr ""
+"<small>Wir haben Inkscape aktualisiert, um den CSS-Standard von 96 dpi "
+"Auflösung für bessere Kompatibilität mit Webbrowsern zu erfüllen. Früher "
+"haben wir 90 dpi verwendet. Digitales Bildmaterial, das auf einem Bildschirm "
+"dargestellt werden sollen, werden ohne Größenänderung zu 96 dpi konvertiert "
+"und sollten nicht betroffen sein. Kunstwerke, die mit 90 dpi für eine "
+"bestimmte physische Größe erstellt worden sind, werden zu klein sein, wenn "
+"sie ohne Größenänderung zu 96 dpi konvertiert werden. Es gibt zwei Methoden "
+"zur Anpassung der Größe:\n"
+"\n"
+"<b>Die Größe des ganzen Dokuments ändern:</b> Dies ist die am wenigsten "
+"fehleranfällige Methode. Sie erhält das Erscheinungsbild der Zeichnung, und "
+"lässt Filter und die Position von Masken usw. unverändert. Die Größe der "
+"Zeichnung im Verhältnis zur Dokumentgröße ist jedoch möglicherweise nicht "
+"korrekt.\n"
+"\n"
+"<b>Die Größe der einzelnen Elemente der Zeichnung ändern:</b> Diese Methode "
+"ist weniger zuverlässig und kann ein verändertes Erscheinungsbild bewirken. "
+"Sie eignet sich jedoch besser für die Ausgabe auf physischen Medien, wenn "
+"eine korrekte Größe und Position wichtig sind (z.B. für den 3D-Druck).\n"
+"\n"
+"Mehr Informationen zu dieser Änderung gibt es in der <a href='https://"
+"inkscape.org/de/learn/faq#todo-todo-todo'>Inkscape-FAQ</a></small>"
 
 #: ../src/file-update.cpp:386
-#, fuzzy
 msgid "OK"
-msgstr "O"
+msgstr "OK"
 
 #. Look for SPNamedView and SPDefs loop
 #. desktop->getDocument()->ensureUpToDate();  // Does not update box3d!
@@ -12297,7 +12322,7 @@ msgstr ""
 
 #: ../src/main.cpp:540
 msgid "Method used to convert pre-.92 document dpi, if needed."
-msgstr ""
+msgstr "Methode zur DPI-Konvertierung von pre-0.92-Dokumenten"
 
 #: ../src/main.cpp:890 ../src/main.cpp:1363
 msgid ""
@@ -12855,38 +12880,32 @@ msgid "Lower"
 msgstr "Absenken"
 
 #: ../src/selection-chemistry.cpp:1124
-#, fuzzy
 msgid "Select <b>object(s)</b> to stack down."
-msgstr "<b>Objekte</b> zum Kombinieren auswählen."
+msgstr "<b>Objekte</b> zum Absenken auswählen."
 
 #: ../src/selection-chemistry.cpp:1136
-#, fuzzy
 msgid "We hit bottom."
-msgstr "Nach ganz unten absenken"
+msgstr "Das Objekt ist bereits ganz unten."
 
 #. TRANSLATORS: "Lower" means "to lower an object" in the undo history
 #: ../src/selection-chemistry.cpp:1143
-#, fuzzy
 msgctxt "Undo action"
 msgid "stack down"
-msgstr "Umschichten-Modus"
+msgstr "Objekt absenken"
 
 #: ../src/selection-chemistry.cpp:1152
-#, fuzzy
 msgid "Select <b>object(s)</b> to stack up."
-msgstr "<b>Objekt(e)</b> auswählen, die nach oben angehoben werden sollen."
+msgstr "<b>Objekt(e)</b> zum Anheben auswählen."
 
 #: ../src/selection-chemistry.cpp:1165
-#, fuzzy
 msgid "We hit top."
-msgstr "Nach ganz oben anheben"
+msgstr "Das Objekt ist bereits ganz oben."
 
 #. TRANSLATORS: "Lower" means "to lower an object" in the undo history
 #: ../src/selection-chemistry.cpp:1172
-#, fuzzy
 msgctxt "Undo action"
 msgid "stack up"
-msgstr "Umschichten"
+msgstr "Objekt anheben"
 
 #: ../src/selection-chemistry.cpp:1180
 msgid "Select <b>object(s)</b> to lower to bottom."
@@ -13440,9 +13459,8 @@ msgid "Select a filename for exporting"
 msgstr "Wählen Sie einen Namen für die zu exportierende Datei"
 
 #: ../src/shortcuts.cpp:348
-#, fuzzy
 msgid "Inkscape shortcuts (*.xml)"
-msgstr "Inkscape-SVG (*.svg)"
+msgstr "Inkscape-Tastaturkürzel (*.xml)"
 
 #: ../src/shortcuts.cpp:377
 msgid "Select a file to import"
@@ -23340,9 +23358,8 @@ msgstr ""
 "bei zu behalten oder nur in eine Richtung zu strecken"
 
 #: ../src/ui/object-edit.cpp:504
-#, fuzzy
 msgid "Drag to move the rectangle"
-msgstr "Rechteck entfernen"
+msgstr "Ziehen verschiebt das Rechteck"
 
 #: ../src/ui/object-edit.cpp:751 ../src/ui/object-edit.cpp:755
 #: ../src/ui/object-edit.cpp:759 ../src/ui/object-edit.cpp:763
@@ -23397,9 +23414,8 @@ msgstr ""
 "der Ellipse erzeugt Kreisbogen, <b>außerhalb</b> erzeugt Kreissegment"
 
 #: ../src/ui/object-edit.cpp:1086
-#, fuzzy
 msgid "Drag to move the ellipse"
-msgstr "Ellipse erzeugen"
+msgstr "Ziehen verschiebt die Ellipse"
 
 #: ../src/ui/object-edit.cpp:1260
 msgid ""
@@ -23420,9 +23436,8 @@ msgstr ""
 "zufällig"
 
 #: ../src/ui/object-edit.cpp:1275
-#, fuzzy
 msgid "Drag to move the star"
-msgstr "Ziehen, um die Knoten neu zu sortieren"
+msgstr "Ziehen verschiebt den Stern"
 
 #: ../src/ui/object-edit.cpp:1469
 msgid ""
@@ -27223,24 +27238,20 @@ msgid "Lower selection one step"
 msgstr "Die gewählten Objekte eine Stufe nach unten absenken"
 
 #: ../src/verbs.cpp:2569
-#, fuzzy
 msgid "_Stack up"
-msgstr "Abtastungen stapeln"
+msgstr "Objekt anheben"
 
 #: ../src/verbs.cpp:2570
-#, fuzzy
 msgid "Stack selection one step up"
-msgstr "Die gewählten Objekte eine Stufe nach oben anheben"
+msgstr "Die gewählten Objekte eine Stufe weiter nach oben anheben"
 
 #: ../src/verbs.cpp:2571
-#, fuzzy
 msgid "_Stack down"
-msgstr "Übereinander"
+msgstr "Objekt absenken"
 
 #: ../src/verbs.cpp:2572
-#, fuzzy
 msgid "Stack selection one step down"
-msgstr "Die gewählten Objekte eine Stufe nach oben anheben"
+msgstr "Die gewählten Objekte eine Stufe weiter nach unten absenken"
 
 #: ../src/verbs.cpp:2576
 msgid "Group selected objects"
@@ -34686,7 +34697,6 @@ msgid "About"
 msgstr "Über"
 
 #: ../share/extensions/gcodetools_about.inx.h:2
-#, fuzzy
 msgid ""
 "Gcodetools was developed to make simple Gcode from Inkscape's paths. Gcode "
 "is a special format which is used in most of CNC machines. So Gcodetools "
@@ -34702,13 +34712,21 @@ msgid ""
 "\t\n"
 "To get more info visit developers page at http://www.cnc-club.ru/gcodetools"
 msgstr ""
-"Das Gcode-Werkzeug wurde entwickelt, um einfachen Gcode von Inkscape-Pfaden "
+"Das Gcode-Werkzeug wurde entwickelt, um einfachen Gcode aus Inkscape-Pfaden "
 "zu erzeugen. Gcode ist ein spezielles Format, das in den meisten CNC-"
 "Maschinen verwendet wird. So erlauben die Gcodewerkzeuge Inkscape als CAM-"
-"Programm zu verwenden. Es kann mit einer Menge von Maschinentypen verwendet "
-"werden: Mills Drehmaschinen Laser-und Plasma-Schneider und Gravur Mühle "
-"Gravur Plotter usw. Für weitere Informationen besuchen Sie die Entwickler-"
-"Seite unter http://www.cnc-club.ru/gcodetools"
+"Programm zu verwenden.\n"
+"\n"
+"Es kann mit einer Menge von Maschinentypen verwendet werden:   \n"
+"\tFräsen \n"
+"\tDrehmaschinen\n"
+"\tLaser- und Plasma-Schneider und Graviergeräte \n"
+"\tGravurfräsen\n"
+"\tPlotter\n"
+"\tusw.\n"
+"\t\n"
+"Weitere Informationen erhalten Sie auf der Entwickler-Seite unter http://www."
+"cnc-club.ru/gcodetools"
 
 #: ../share/extensions/gcodetools_about.inx.h:14
 #: ../share/extensions/gcodetools_area.inx.h:70
@@ -34721,7 +34739,6 @@ msgstr ""
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:40
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:18
 #: ../share/extensions/gcodetools_tools_library.inx.h:19
-#, fuzzy
 msgid ""
 "\n"
 "Gcodetools plug-in: converts paths to Gcode (using circular interpolation), "
@@ -34741,14 +34758,24 @@ msgid ""
 "\n"
 "Gcodetools ver. 1.7\n"
 msgstr ""
+"\n"
 "Gcode-Werkzeug Plug-in: Wandelt Pfade zu Gcode (mit Kreisinterpolation), "
-"erstellt versetzte Pfade und graviert scharfe Ecken mittels Kegelschneider. "
+"erstellt versetzte Pfade und graviert scharfe Ecken mittels "
+"Kegelschneider. \n"
 "Dieses Plug-In berechnet Gcode für Pfade mittels Kreisinterpolation oder "
-"lineare Bewegung, wenn nötig. Einführungen, Handbücher und Unterstützung "
-"finden Sie im Englischen Support-Forum http://www.cnc-club.ru/gcodetools und "
-"im russischen Support-Forum: http://www.cnc-club.ru/gcodetoolsru Danksagung: "
-"Nick Drobchenko, Vladimir Kalyaev, John Brooker, Henry Nicolas, Chris Lusby "
-"Taylor. Gcode-Werkzeug Ver. 1.7"
+"linearer Bewegung, wenn nötig.\n"
+"\n"
+"Einführungen, Handbücher und Unterstützung finden Sie\n"
+"im Englischen Support-Forum:\n"
+"\thttp://www.cnc-club.ru/gcodetools\n"
+"\t\n"
+"und im russischen Support-Forum:\n"
+"\thttp://www.cnc-club.ru/gcodetoolsru\n"
+"\n"
+"Danksagung: Nick Drobchenko, Vladimir Kalyaev, John Brooker, Henry Nicolas, "
+"Chris Lusby Taylor.\n"
+"\n"
+"Gcode-Werkzeug Ver. 1.7\n"
 
 #: ../share/extensions/gcodetools_about.inx.h:29
 #: ../share/extensions/gcodetools_area.inx.h:85
@@ -34781,7 +34808,6 @@ msgid "Area tool overlap (0..0.9):"
 msgstr "Flächen-Werkzeugüberlappung (0 bis 0,9):"
 
 #: ../share/extensions/gcodetools_area.inx.h:5
-#, fuzzy
 msgid ""
 "\n"
 "\"Create area offset\": creates several Inkscape path offsets to fill "
@@ -34794,13 +34820,17 @@ msgid ""
 "\".\n"
 "\t\t\t"
 msgstr ""
+"\n"
 "\"Erstelle Flächenversatz\": Erstellt verschiedene Inkscape-Versatzobjekte, "
 "um die originale Pfadfläche bis zur maximalen \"Breite der Fläche\" zu "
-"füllen. Die dabei erstellten Umrisse reichen von \"1/2 D\" bis zur gesamten "
-"\"Breite der Fläche\" in \"D\" breiten Schritten, wobei D von der nächsten "
-"Werkzeugdefinition genommen wird (Wert für \"Werkzeugdurchmesser\"). Es wird "
-"nur ein einziger Versatz erstellt, wenn die \"Bereichsbreite\" gleich \"1/2 D"
-"\" ist."
+"füllen. \n"
+"\n"
+"Die dabei erstellten Umrisse reichen von \"1/2 D\" bis zur gesamten \"Breite "
+"der Fläche\" in \"D\" breiten Schritten, wobei D von der nächsten "
+"Werkzeugdefinition genommen wird (Wert für \"Werkzeugdurchmesser\").\n"
+"Es wird nur ein einziger Versatz erstellt, wenn die \"Bereichsbreite\" "
+"gleich \"1/2 D\" ist.\n"
+"\t\t\t"
 
 #: ../share/extensions/gcodetools_area.inx.h:11
 msgid "Fill area"
@@ -34847,7 +34877,6 @@ msgid "delete"
 msgstr "Löschen"
 
 #: ../share/extensions/gcodetools_area.inx.h:23
-#, fuzzy
 msgid ""
 "\n"
 "Usage: \n"
@@ -34858,10 +34887,15 @@ msgid ""
 "Suspected small objects will be marked out by colored arrows.\n"
 "\t\t\t"
 msgstr ""
-"Nutzung: 1. Wählen Sie alle Versatzobjekte aus (graue Umrandung) 2. Objekt/"
-"Gruppierung aufheben (Umschalt+Strg+G) 3. Klicken Sie auf Anwenden. "
+"\n"
+"Nutzung: \n"
+"1. Wählen Sie alle Versatzobjekte aus (graue Umrandung)\n"
+"2. Objekt/Gruppierung aufheben (Umschalt+Strg+G)\n"
+"3. Klicken Sie auf Anwenden.\n"
+"\n"
 "(Vermutlich) zu kleine Objekte werden dann z.B. mit farbigen Pfeilen "
-"markiert."
+"markiert.\n"
+"\t\t\t"
 
 #: ../share/extensions/gcodetools_area.inx.h:31
 #: ../share/extensions/gcodetools_lathe.inx.h:14
@@ -34920,7 +34954,6 @@ msgstr "Durchlauf für Durchlauf"
 #: ../share/extensions/gcodetools_area.inx.h:40
 #: ../share/extensions/gcodetools_lathe.inx.h:23
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:10
-#, fuzzy
 msgid ""
 "\n"
 "Biarc interpolation tolerance is the maximum distance between path and its "
@@ -34931,13 +34964,15 @@ msgid ""
 "the depth defined by orientation points, s - surface defined by orientation "
 "points. \n"
 msgstr ""
+"\n"
 "Biarc-Interpolationstoleranz ist der maximale Abstand zwischen dem Pfad und "
-"seiner Annäherung. Ein Segment wird in zwei Segmente aufgeteilt, wenn der "
-"Abstand zwischen Pfad-Segment und dessen Angleichung die Biarc-"
-"Interpolationstoleranz überschreitet. In der Tiefenfunktion ist "
-"c=Farbintensität von 0.0 (weiß) bis 1.0 (schwarz), d ist die Tiefe, "
-"definiert durch Orientierungspunkte, s ist die Oberfläche definiert durch "
-"Orientierungspunkte."
+"seiner Annäherung.\n"
+"Ein Segment wird in zwei Segmente aufgeteilt, wenn der Abstand zwischen Pfad-"
+"Segment und dessen Angleichung die Biarc-Interpolationstoleranz "
+"überschreitet.\n"
+"In der Tiefenfunktion ist c=Farbintensität von 0.0 (weiß) bis 1.0 (schwarz), "
+"d ist die Tiefe, definiert durch Orientierungspunkte, s ist die Oberfläche "
+"definiert durch Orientierungspunkte.\n"
 
 #: ../share/extensions/gcodetools_area.inx.h:46
 #: ../share/extensions/gcodetools_engraving.inx.h:16
@@ -35148,7 +35183,6 @@ msgid "Convert selection:"
 msgstr "Auswahl konvertieren:"
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:4
-#, fuzzy
 msgid ""
 "\n"
 "\n"
@@ -35160,11 +35194,16 @@ msgid ""
 "or remove XML tag 'dxfpoint' with any value.\n"
 "\t\t  "
 msgstr ""
+"\n"
+"\n"
 "Konvertiert ausgewählte Objekte zu Bohr-Punkten (wie dxf_import plugin). Sie "
 "können auch die ursprüngliche Form speichern. Nur der Startpunkt jeder Kurve "
-"wird verwendet. Sie können auch manuell ein Objekt auswählen, öffnen den XML-"
-"Editor (Umschalt+Strg+X) und den XML-Tag 'dxfpoint' mit einem beliebigen "
-"Wert hinzufügen oder entfernen."
+"wird verwendet.\n"
+"\n"
+"Sie können auch manuell ein Objekt auswählen, öffnen den XML-Editor (Umschalt"
+"+Strg+X) und den XML-Tag 'dxfpoint' mit einem beliebigen Wert hinzufügen "
+"oder entfernen.\n"
+"\t\t  "
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:10
 msgid "set as dxfpoint and save shape"
@@ -35199,7 +35238,6 @@ msgid "Draw additional graphics to see engraving path"
 msgstr "Zeichne zusätzliche Grafiken, um den Garvurpfad zu sehen"
 
 #: ../share/extensions/gcodetools_engraving.inx.h:6
-#, fuzzy
 msgid ""
 "\n"
 "This function creates path to engrave letters or any shape with sharp "
@@ -35212,13 +35250,18 @@ msgid ""
 "sphere..(radius r)...........................: math.sqrt(max(0,r**2-w**2))\n"
 "ellipse.(minor axis r, major 4r).....: math.sqrt(max(0,r**2-w**2))*4"
 msgstr ""
+"\n"
 "Diese Funktion erzeugt einen Pfad, um Buchstaben zu gravieren oder eine "
-"beliebige Form mit scharfen Winkeln. Die Schnitt-Tiefe als eine Funktion des "
-"Radius wird durch das Werkzeug definiert. Die Tiefe kann jeder Python-"
-"Ausdruck sein. Zum Beispiel: Kegel....(45 Grad) ......................: w "
-"Kegel....(Höhe / Durchmesser=10/3) ..: 10*w/3 Kugel..(Radius "
-"r) ...........................: math.sqrt(max(0,r**2-w**2)) Ellipse."
-"(Nebenachse r, Hauptachse 4r).....: math.sqrt(max (0,r-w**2**2))*4"
+"beliebige Form mit scharfen Winkeln.\n"
+"Die Schnitt-Tiefe als eine Funktion des  Radius wird durch das Werkzeug "
+"definiert.\n"
+"Die Tiefe kann jeder Python-Ausdruck sein. Zum Beispiel:\n"
+"\n"
+"Kegel....(45 Grad) ......................: w\n"
+" Kegel....(Höhe / Durchmesser=10/3) ..: 10*w/3\n"
+"Kugel....(Radius r) ...........................: math.sqrt(max(0,r**2-"
+"w**2))\n"
+"Ellipse..(Nebenachse r, Hauptachse 4r).....: math.sqrt(max (0,r-w**2**2))*4"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:1
 msgid "Graffiti"
@@ -35291,7 +35334,6 @@ msgstr "Innen-Außen-Referenzpunkt"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:20
 #: ../share/extensions/gcodetools_orientation_points.inx.h:13
-#, fuzzy
 msgid ""
 "\n"
 "Orientation points are used to calculate transformation (offset,scale,mirror,"
@@ -35311,16 +35353,24 @@ msgid ""
 "Now press apply to create control points (independent set for each layer).\n"
 "\t\t\t"
 msgstr ""
+"\n"
 "Orientierungspunkte werden zum Berechnen von Transformationen (Versatz, "
-"Skalierung, Spiegel, eine Drehung in XY-Ebene) des Pfades benutzt. Nur 3-"
-"Punkt-Modus: Nicht alle drei auf einer Linie anlegen (stattdessen 2-Punkt-"
-"Modus verwenden). Sie können die Z-Oberflächen und Z-Tiefen-Werte später mit "
-"dem Text-Werkzeug verändern (3. Koordinaten). Wenn es keine "
-"Orientierungspunkte in der aktuellen Ebene gibt, werden die von der Ebene "
-"darüber verwendet. Die Gruppierung von Orientierungspunkten nicht aufheben! "
-"Sie können die Gruppe mit Doppelklick oder Strg+Eingabetaste betreten. "
-"Klicken Sie auf Anwenden, um die Kontrollpunkte (unabhängiger Satz für jede "
-"Ebene) zu erstellen."
+"Skalierung, Spiegel, eine Drehung in XY-Ebene) des Pfades benutzt.\n"
+"Nur 3-Punkt-Modus: Nicht alle drei auf einer Linie anlegen (stattdessen 2-"
+"Punkt-Modus verwenden).\n"
+"\n"
+"Sie können die Z-Oberflächen und Z-Tiefen-Werte später mit dem Text-Werkzeug "
+"verändern (3. Koordinaten).\n"
+"\n"
+"Wenn es keine Orientierungspunkte in der aktuellen Ebene gibt, werden die "
+"von der Ebene darüber verwendet.\n"
+"\n"
+"Die Gruppierung von Orientierungspunkten nicht aufheben! Sie können die "
+"Gruppe mit Doppelklick oder Strg+Eingabetaste betreten.\n"
+"\n"
+" Klicken Sie auf Anwenden, um die Kontrollpunkte (unabhängiger Satz für jede "
+"Ebene) zu erstellen.\n"
+"\t\t\t"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:1
 msgid "Lathe"
@@ -35364,15 +35414,16 @@ msgid "Lathe modify path"
 msgstr "Drehpfad modifizieren"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:11
-#, fuzzy
 msgid ""
 "\t\n"
 "\t\t\tThis function modifies path so it will be able to be cut with the "
 "rectangular cutter.\n"
 "\t\t"
 msgstr ""
-"Diese Funktion verändert den Pfad, damit er mit dem Rechteck-Schneider "
-"geschnitten werden kann."
+"\t\n"
+"\t\t\tDiese Funktion verändert den Pfad, damit er mit dem Rechteck-Schneider "
+"geschnitten werden kann.\n"
+"\t\t"
 
 #: ../share/extensions/gcodetools_orientation_points.inx.h:1
 msgid "Orientation points"
@@ -35480,7 +35531,6 @@ msgid "Just check tools"
 msgstr "Nur Werkzeuge überprüfen"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:11
-#, fuzzy
 msgid ""
 "\n"
 "Selected tool type fills appropriate default values. You can change these "
@@ -35492,11 +35542,16 @@ msgid ""
 "Press Apply to create new tool.\n"
 "\t\t\t"
 msgstr ""
+"\n"
 "Der ausgewählte Werkzeugtyp gibt passende Standardwerte vor. Sie können "
-"diese Werte später mit dem Textwerkzeug ändern. Es wird das oberste Werkzeug "
-"(Z-Ordnung) in der aktiven Ebene verwendet. Wenn kein Werkzeug innerhalb der "
-"aktuellen Ebene vorhanden ist, wird eines von der Ebene darüber verwendet. "
-"Anwenden erstellt ein neues Werkzeug."
+"diese Werte später mit dem Textwerkzeug ändern.\n"
+"\n"
+"Es wird das oberste Werkzeug (Z-Ordnung) in der aktiven Ebene verwendet. "
+"Wenn kein Werkzeug innerhalb der aktuellen Ebene vorhanden ist, wird eines "
+"von der Ebene darüber verwendet.\n"
+"\n"
+" Anwenden erstellt ein neues Werkzeug.\n"
+"\t\t\t"
 
 #: ../share/extensions/generate_voronoi.inx.h:1
 msgid "Voronoi Pattern"
