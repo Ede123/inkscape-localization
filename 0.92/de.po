@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-07-24 23:11+0200\n"
-"PO-Revision-Date: 2017-08-03 23:09+0100\n"
-"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
+"PO-Revision-Date: 2017-08-05 00:39+0100\n"
+"Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -12048,7 +12048,7 @@ msgid ""
 "EPS/PDF (default 96)"
 msgstr ""
 "Auflösung beim Exportieren von Bitmaps und für Rasterisierung von Filtern in "
-"PS/EPS/PDF (Vorgabe ist 96)"
+"PS/EPS/PDF (Standard ist 96)"
 
 #: ../src/main.cpp:335 ../src/ui/widget/rendering-options.cpp:37
 msgid "DPI"
@@ -12059,8 +12059,8 @@ msgid ""
 "Exported area in SVG user units (default is the page; 0,0 is lower-left "
 "corner)"
 msgstr ""
-"Exportierter Bereich in SVG-Benutzereinheiten (Vorgabe: gesamte Seite, „0,0“ "
-"ist die untere linke Ecke)"
+"Exportierter Bereich in SVG-Benutzereinheiten (Standard: gesamte Seite, "
+"„0,0“ ist die untere linke Ecke)"
 
 #: ../src/main.cpp:340
 msgid "x0:y0:x1:y1"
@@ -12272,7 +12272,7 @@ msgstr "Erweiterungsverzeichnis ausgeben und beenden"
 
 #: ../src/main.cpp:498
 msgid "Remove unused definitions from the defs section(s) of the document"
-msgstr "Unbenutzte Elemente aus den &lt;defs&gt; des Dokuments entfernen"
+msgstr "Unbenutzte Elemente aus den <defs> des Dokuments entfernen"
 
 #: ../src/main.cpp:504
 msgid "Enter a listening loop for D-Bus messages in console mode"
@@ -12283,8 +12283,8 @@ msgid ""
 "Specify the D-Bus bus name to listen for messages on (default is org."
 "inkscape)"
 msgstr ""
-"D-Bus-Namen angeben, dessen Nachrichten angezeigt werden sollen (Vorgabe ist "
-"org.inkscape)"
+"D-Bus-Namen angeben, dessen Nachrichten angezeigt werden sollen (Standard "
+"ist org.inkscape)"
 
 #: ../src/main.cpp:510
 msgid "BUS-NAME"
@@ -12533,7 +12533,7 @@ msgstr "Nachzeichnen"
 msgid ""
 "Inkscape will run with default settings, and new settings will not be saved. "
 msgstr ""
-"Inkscape läuft mit den Vorgabeeinstellungen.\n"
+"Inkscape läuft mit den Standardeinstellungen.\n"
 "Neue Einstellungen werden nicht gespeichert."
 
 #. the creation failed
@@ -15613,15 +15613,15 @@ msgstr "<b>Inhalt:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:1075
 msgid "_Save as default"
-msgstr "Zur Vorgabe machen"
+msgstr "Als Standardeinstellung _speichern"
 
 #: ../src/ui/dialog/document-properties.cpp:1076
 msgid "Save this metadata as the default metadata"
-msgstr "Metadaten als Standard abspeichern"
+msgstr "Aktuelle Metadaten als Standard abspeichern"
 
 #: ../src/ui/dialog/document-properties.cpp:1077
 msgid "Use _default"
-msgstr "Standardeinstellungen benutzen"
+msgstr "Standardeinstellungen _benutzen"
 
 #: ../src/ui/dialog/document-properties.cpp:1078
 msgid "Use the previously saved default metadata here"
@@ -18153,7 +18153,7 @@ msgstr "Stilvorgaben für dieses Werkzeug für neue Objekte"
 #: ../src/ui/dialog/inkscape-preferences.cpp:307
 msgid "Remember the style of the (first) selected object as this tool's style"
 msgstr ""
-"Stil des (ersten) ausgewählten Objektes zur Vorgabe für dieses Werkzeug "
+"Stil des (ersten) ausgewählten Objektes zur Stilvorgabe für dieses Werkzeug "
 "machen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:312
@@ -19343,8 +19343,9 @@ msgid ""
 "above the right scrollbar)"
 msgstr ""
 "Darstellungsgröße des Dokuments anpassen, wenn sich die Fenstergröße ändert, "
-"damit der selbe Bereich sichtbar bleibt (Vorgabe, die in jedem Fenster mit "
-"der Schaltfläche über dem rechten Rollbalken geändert werden kann)"
+"damit der selbe Bereich sichtbar bleibt (Standardeinstellung, die in jedem "
+"Fenster mit der Schaltfläche über dem rechten Rollbalken geändert werden "
+"kann)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:762
 msgid ""
@@ -19378,7 +19379,7 @@ msgstr "Die Gitterlinien werden in der Hauptgitterlinienfarbe angezeigt"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:775
 msgid "Default grid settings"
-msgstr "Vorgabe Gittereinstellungen"
+msgstr "Standard-Gittereinstellungen"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:781
 #: ../src/ui/dialog/inkscape-preferences.cpp:806
@@ -20016,7 +20017,7 @@ msgid ""
 "this command several times in quick succession, it will act more and more "
 "aggressively; invoking it again after a pause restores the default threshold."
 msgstr ""
-"Vorgabeschwelle der Vereinfachung im Knotenwerkzeug. Wird diese Operation "
+"Standardschwelle der Vereinfachung im Knotenwerkzeug. Wird diese Operation "
 "mehrmals schnell hintereinander ausgeführt, erhöht sich die Stärke; kurze "
 "Pause dazwischen setzt den Schwellwert zurück."
 
@@ -21549,7 +21550,7 @@ msgstr "_Titel:"
 
 #: ../src/ui/dialog/object-properties.cpp:61
 msgid "_Image Rendering:"
-msgstr "B_ildrendering:"
+msgstr "B_ilddarstellung:"
 
 #: ../src/ui/dialog/object-properties.cpp:62
 msgid "_Hide"
@@ -21586,11 +21587,11 @@ msgid ""
 "Note that this behaviour is not defined in the SVG 1.1 specification and not "
 "all browsers follow this interpretation."
 msgstr ""
-"Die 'Bild-Darstellung' Eigenschaft kann die Vergrößerung von Bitmaps "
+"Die 'image-rendering' Eigenschaft kann die Skalierung von Rastergrafiken "
 "beeinflussen: \n"
-"\t'auto' keine Vorgabe;\n"
-"\t'Qualität optimieren' glatter;\n"
-"\t'Geschwindigkeit optimieren' pixeliger.\n"
+"\t'auto' keine Präferenz;\n"
+"\t'optimizeQuality' geglättet;\n"
+"\t'optimizeSpeed' pixelig.\n"
 "Beachte, dass dieses Verhalten nicht in der SVG 1.1 Spezifikation definiert "
 "ist und nicht von allen Browsern unterstützt wird."
 
@@ -22954,7 +22955,7 @@ msgstr "Matri_x"
 
 #: ../src/ui/dialog/transformation.cpp:143
 msgid "Reset the values on the current tab to defaults"
-msgstr "Die Werte des aktuellen Reiters auf die Vorgabewerte setzen"
+msgstr "Die Werte des aktuellen Reiters auf Standardwerte zurücksetzen"
 
 #: ../src/ui/dialog/transformation.cpp:150
 msgid "Apply transformation to selection"
@@ -29073,7 +29074,7 @@ msgstr "(konstante Breite)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(slight thinning, default)"
-msgstr "(schwache Ausdünnung, Vorgabe)"
+msgstr "(schwache Ausdünnung, Standard)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(speed deflates stroke)"
@@ -29132,7 +29133,7 @@ msgstr "(senkrecht zum Strich, \"Pinsel\")"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:478
 msgid "(almost fixed, default)"
-msgstr "(fast fixiert, Vorgabe)"
+msgstr "(fast fixiert, Standard)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:478
 msgid "(fixed by Angle, \"pen\")"
@@ -29157,7 +29158,7 @@ msgstr ""
 #. Cap Rounding
 #: ../src/widgets/calligraphy-toolbar.cpp:494
 msgid "(blunt caps, default)"
-msgstr "(stumpfe Enden, Vorgabe)"
+msgstr "(stumpfe Enden, Standard)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:494
 msgid "(slightly bulging)"
@@ -29251,7 +29252,7 @@ msgstr "(keine Trägheit)"
 #: ../src/widgets/calligraphy-toolbar.cpp:546
 #: ../src/widgets/eraser-toolbar.cpp:168
 msgid "(slight smoothing, default)"
-msgstr "(leichte Glättung, Vorgabe)"
+msgstr "(leichte Glättung, Standard)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:546
 #: ../src/widgets/eraser-toolbar.cpp:168
@@ -30569,8 +30570,8 @@ msgid ""
 "create a new pattern from selection."
 msgstr ""
 "Benutzen Sie das <b>Knotenwerkzeug</b>, um Position Winkel und Größe des "
-"Musters auf der Arbeitsfläche anzupassen. Mit <b>Objekt „ Füllmuster "
-"„ Objekte in Füllmuster umwandeln</b> lassen sich neue Füllmuster von "
+"Musters auf der Arbeitsfläche anzupassen. Mit <b>Objekt > Füllmuster > "
+"Objekte in Füllmuster umwandeln</b> lassen sich neue Füllmuster von "
 "ausgewählten Objekten erzeugen."
 
 #: ../src/widgets/paint-selector.cpp:1457
@@ -30635,8 +30636,8 @@ msgid ""
 "Reset paint bucket parameters to defaults (use Inkscape Preferences > Tools "
 "to change defaults)"
 msgstr ""
-"Die Parameter des Farbeimers auf Vorgabewerte zurücksetzen (Menü Datei "
-"„ Inkscape-Einstellungen „ Werkzeuge, um die Vorgabeeinstellungen zu ändern)"
+"Die Parameter des Farbeimers auf Standardwerte zurücksetzen (Menü Datei > "
+"Inkscape-Einstellungen > Werkzeuge, um die Standardeinstellungen zu ändern)"
 
 #: ../src/widgets/pencil-toolbar.cpp:104
 msgid "Bezier"
@@ -30729,8 +30730,8 @@ msgid ""
 "Reset pencil parameters to defaults (use Inkscape Preferences > Tools to "
 "change defaults)"
 msgstr ""
-"Die Parameter des Stiftes auf Vorgabewerte zurücksetzen (Menü Datei "
-"„ Inkscape-Einstellungen „ Werkzeuge, um die Grundeinstellungen zu ändern)"
+"Die Parameter des Stiftes auf Standardwerte zurücksetzen (Menü Datei > "
+"Inkscape-Einstellungen > Werkzeuge, um die Grundeinstellungen zu ändern)"
 
 #: ../src/widgets/pencil-toolbar.cpp:413 ../src/widgets/pencil-toolbar.cpp:414
 msgid "LPE based interactive simplify"
@@ -31093,8 +31094,8 @@ msgid ""
 "Reset shape parameters to defaults (use Inkscape Preferences > Tools to "
 "change defaults)"
 msgstr ""
-"Die Parameter der Formen auf Vorgabewerte zurücksetzen (Menü Datei "
-"„ Inkscape-Einstellungen „ Werkzeuge, um die Vorgabeeinstellungen zu ändern)"
+"Die Parameter der Formen auf Standardwerte zurücksetzen (Menü Datei > "
+"Inkscape-Einstellungen > Werkzeuge, um die Standardeinstellungen zu ändern)"
 
 # (swatches)
 #. Width
@@ -36888,7 +36889,7 @@ msgstr "In den Folienmodus wechseln:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:18
 msgid "Set path width to default:"
-msgstr "Setze Pfadbreite auf Vorgabewert:"
+msgstr "Setze Pfadbreite auf Standard:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:19
 msgid "Set path width to 1:"
@@ -38691,7 +38692,7 @@ msgstr "Positionsabhängig"
 
 #: ../share/extensions/restack.inx.h:3
 msgid "Presets"
-msgstr "Vorgabewerte"
+msgstr "Standard"
 
 #: ../share/extensions/restack.inx.h:6
 msgid "Horizontal:"
@@ -42658,10 +42659,6 @@ msgstr "XAML einlesen"
 #~ msgstr "Vorgegebener Titel"
 
 #~ msgctxt "Palette"
-#~ msgid "default block"
-#~ msgstr "(Vorgabe)"
-
-#~ msgctxt "Palette"
 #~ msgid "default covered text"
 #~ msgstr "Fließtext erstellen"
 
@@ -43912,13 +43909,6 @@ msgstr "XAML einlesen"
 #~ "%s ist keine gültige Menübeschreibungsdatei.\n"
 #~ "%s"
 
-#~ msgid ""
-#~ "Inkscape will run with default menus.\n"
-#~ "New menus will not be saved."
-#~ msgstr ""
-#~ "Inkscape läuft mit den Vorgabemenüs.\n"
-#~ "Neue Menüs werden nicht gespeichert."
-
 #~ msgid "Deactivate knotholder?"
 #~ msgstr "Deaktiviert"
 
@@ -43939,7 +43929,7 @@ msgstr "XAML einlesen"
 
 #~ msgid "The resolution used for exporting SVG into bitmap (default 90)"
 #~ msgstr ""
-#~ "Verwendete Auflösung beim Umwandeln von SVG nach Bitmap (Vorgabe: 90)"
+#~ "Verwendete Auflösung beim Umwandeln von SVG nach Bitmap (Standard: 90)"
 
 #~ msgid "Embed fonts on export (Type 1 only) (EPS)"
 #~ msgstr "Fonts beim Exportieren einbetten (nur Type 1) (EPS)"
