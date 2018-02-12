@@ -16,15 +16,15 @@
 # Benjamin Weis <benjamin.weis@gmx.com>, 2014.
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
-# Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016, 2017.
+# Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016, 2017, 2018.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015-2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2018-01-29 21:05+0100\n"
-"PO-Revision-Date: 2017-08-05 00:39+0100\n"
-"Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
+"PO-Revision-Date: 2018-02-12 23:56+0100\n"
+"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -398,7 +398,7 @@ msgstr "Stacheldraht"
 
 #: ../share/filters/filters.svg.h:96
 msgid "Gray bevelled wires with drop shadows"
-msgstr "Graue verworrene Drähte mit abgesetztem Schatten"
+msgstr "Graue verworrene Drähte mit Schlagschatten"
 
 #: ../share/filters/filters.svg.h:98
 msgid "Swiss Cheese"
@@ -7706,7 +7706,7 @@ msgstr "Schnee liegt auf dem Objekt"
 
 #: ../src/extension/internal/filter/shadows.h:57
 msgid "Drop Shadow"
-msgstr "Abgesetzter Schatten"
+msgstr "Schlagschatten"
 
 #: ../src/extension/internal/filter/shadows.h:61
 msgid "Blur radius (px)"
@@ -8483,6 +8483,29 @@ msgid ""
 "More information about this change are available in the <a href='https://"
 "inkscape.org/en/learn/faq#dpi_change'>Inkscape FAQ</a></small>"
 msgstr ""
+"<small>Wir haben Inkscape aktualisiert, um den CSS-Standard von 96 dpi "
+"Auflösung für bessere Kompatibilität mit Webbrowsern zu erfüllen. Früher "
+"haben wir 90 dpi verwendet. Digitales Bildmaterial, das auf einem Bildschirm "
+"dargestellt werden soll, wird ohne Größenänderung zu 96 dpi konvertiert "
+"und sollte nicht betroffen sein. Kunstwerke, die mit 90 dpi für eine "
+"bestimmte physische Größe erstellt worden sind, werden zu klein sein, wenn "
+"sie ohne Größenänderung zu 96 dpi konvertiert werden. Es gibt zwei Methoden "
+"zur Anpassung der Größe:\n"
+"\n"
+"<b>Die Größe des ganzen Dokuments ändern:</b> Dies ist die am wenigsten "
+"fehleranfällige Methode. Sie erhält das Erscheinungsbild der Zeichnung, und "
+"lässt Filter und die Position von Masken usw. unverändert. Die Größe der "
+"Zeichnung im Verhältnis zur Dokumentgröße ist jedoch möglicherweise nicht "
+"korrekt.\n"
+"\n"
+"<b>Die Größe der einzelnen Elemente der Zeichnung ändern:</b> Diese Methode "
+"ist weniger zuverlässig und kann ein verändertes Erscheinungsbild bewirken. "
+"Sie eignet sich jedoch besser für die Ausgabe auf physischen Medien, wenn "
+"eine korrekte Größe und Position wichtig sind (z.B. für den 3D-Druck).\n"
+"\n"
+"Mehr Informationen zu dieser Änderung gibt es in der <a href='https:// "
+"inkscape.org/de/lernen/haufig-gestellte-fragen/#dpi_change'>Inkscape-FAQ</a><"
+"/small>."
 
 #: ../src/file-update.cpp:392
 #, fuzzy
@@ -9774,9 +9797,8 @@ msgstr "ihre Verbindung zum Original verlieren"
 #: ../src/live_effects/lpe-clone-original.cpp:39
 #: ../src/live_effects/lpe-fill-between-many.cpp:36
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:24
-#, fuzzy
 msgid "Allow transforms"
-msgstr "Transformationen zurücksetzen"
+msgstr "Transformationen erlauben"
 
 #: ../src/live_effects/lpe-constructgrid.cpp:24
 msgid "Size _X:"
@@ -12591,6 +12613,8 @@ msgid ""
 "Sets margin around exported area (default 0) in units of page size for SVG "
 "and mm for PS/EPS/PDF"
 msgstr ""
+"Fügt einen Rand um den exportierten Bereich ein. Die Einheit ist für SVG die"
+" Einheit der Seitengröße, für PS/EPS/PDF mm (Standardwert 0)."
 
 #: ../src/main.cpp:359 ../src/main.cpp:401
 msgid "VALUE"
@@ -12843,6 +12867,8 @@ msgid ""
 "Method used to convert pre-.92 document dpi, if needed. ([none|scale-viewbox|"
 "scale-document])"
 msgstr ""
+"Methode, die zur DPI-Konvertierung von pre-0.92-Dokumenten verwendet werden"
+" soll, falls nötig ([none|scale-viewbox|scale-document])"
 
 #: ../src/main.cpp:837 ../src/main.cpp:1185
 msgid ""
@@ -17433,7 +17459,7 @@ msgid ""
 msgstr ""
 "Der Filterbaustein <b>Gaußscher Weichzeichner</b> zeichnet die Quelle weich. "
 "Er wird normalerweise zusammen mit dem Filterbaustein Versatz benutzt, um "
-"abgesetzte Schatten zu erzeugen."
+"Schlagschatten zu erzeugen."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2911
 msgid ""
@@ -17472,7 +17498,7 @@ msgid ""
 "a slightly different position than the actual object."
 msgstr ""
 "Der Filterbaustein <b>Versatz</b> verschiebt das Bild um einen "
-"benutzerdefinierten Betrag. Dies ist z. B. für abgesetzte Schatten nützlich, "
+"benutzerdefinierten Betrag. Dies ist z. B. für Schlagschatten nützlich, "
 "die sich an einer leicht anderen Position als das eigentliche Objekt "
 "befinden."
 
@@ -21459,7 +21485,7 @@ msgstr "Anzahl der Threads:"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1464
 #: ../src/ui/dialog/inkscape-preferences.cpp:1992
 msgid "(requires restart)"
-msgstr "(erfordert Neustart)"
+msgstr "erfordert Neustart"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1465
 msgid "Configure number of processors/threads to use when rendering filters"
@@ -21486,15 +21512,17 @@ msgstr ""
 "Null setzen, um Cachen zu deaktivieren"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1473
-#, fuzzy
 msgid "Rendering tile multiplier:"
-msgstr "Rendering-Cachegröße:"
+msgstr "Renderkachel-Multiplikator:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1474
 msgid ""
 "Set the relative size of tiles used to render the canvas. The larger the "
 "value, the bigger the tile size."
 msgstr ""
+"Bestimmt die Größe der Kacheln für die Darstellung der Zeichnung "
+"im Verhältnis zur Zeichenfläche. Je größer der Wert, desto größer sind "
+"die einzelnen Kacheln."
 
 #. blur quality
 #. filter quality
@@ -29907,9 +29935,8 @@ msgid "Center on horizontal and vertical axis"
 msgstr "An horizontalen und vertikalen Achsen ausrichten"
 
 #: ../src/widgets/arc-toolbar.cpp:140
-#, fuzzy
 msgid "Change arc"
-msgstr "Weichzeichner ändern"
+msgstr "Bogen ändern"
 
 #: ../src/widgets/arc-toolbar.cpp:206
 msgid "Arc: Change start/end"
@@ -29947,9 +29974,8 @@ msgid "Rx:"
 msgstr "Rx:"
 
 #: ../src/widgets/arc-toolbar.cpp:459
-#, fuzzy
 msgid "Horizontal radius of the circle, ellipse, or arc"
-msgstr "Horizontaler Radius einer abgerundeten Ecke"
+msgstr "Horizontaler Radius des Kreises, der Ellipse oder des Bogens"
 
 #: ../src/widgets/arc-toolbar.cpp:476 ../src/widgets/rect-toolbar.cpp:368
 msgid "Vertical radius"
@@ -29960,9 +29986,8 @@ msgid "Ry:"
 msgstr "Ry:"
 
 #: ../src/widgets/arc-toolbar.cpp:476
-#, fuzzy
 msgid "Vertical radius of the circle, ellipse, or arc"
-msgstr "Kreise, Ellipsen und Bögen erstellen"
+msgstr "Vertikaler Radius des Kreises, der Ellipse oder des Bogens"
 
 #. Add the units menu.
 #: ../src/widgets/arc-toolbar.cpp:490 ../src/widgets/lpe-toolbar.cpp:380
@@ -32761,9 +32786,8 @@ msgid "Text: Change orientation"
 msgstr "Textausrichtung ändern"
 
 #: ../src/widgets/text-toolbar.cpp:1392
-#, fuzzy
 msgid "Text: Change direction"
-msgstr "Textausrichtung ändern"
+msgstr "Text: Schreibrichtung ändern"
 
 #: ../src/widgets/text-toolbar.cpp:1992
 msgid "Font Family"
@@ -32886,32 +32910,29 @@ msgstr "Zeichenausrichtung in vertikalem Text"
 
 #: ../src/widgets/text-toolbar.cpp:2251
 msgid "LTR"
-msgstr ""
+msgstr "LTR"
 
 #: ../src/widgets/text-toolbar.cpp:2252
-#, fuzzy
 msgid "Left to right text"
-msgstr "Links nach Rechts"
+msgstr "Text von links nach rechts"
 
 #: ../src/widgets/text-toolbar.cpp:2257
 msgid "RTL"
-msgstr ""
+msgstr "RTL"
 
 #: ../src/widgets/text-toolbar.cpp:2258
-#, fuzzy
 msgid "Right to left text"
-msgstr "Rechts nach Links"
+msgstr "Text von rechts nach links"
 
 #. Name
 #: ../src/widgets/text-toolbar.cpp:2264
-#, fuzzy
 msgid "Text direction"
-msgstr "Textrichtung:"
+msgstr "Schreibrichtung"
 
 #. Label
 #: ../src/widgets/text-toolbar.cpp:2265
 msgid "Text direction for normally horizontal text."
-msgstr ""
+msgstr "Schreibrichtung für normalerweise horizontal geschriebenen Text"
 
 #. Drop down menu
 #: ../src/widgets/text-toolbar.cpp:2291

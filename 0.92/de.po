@@ -16,15 +16,15 @@
 # Benjamin Weis <benjamin.weis@gmx.com>, 2014.
 # Heiko Wöhrle <mail@heikowoehrle.de>, 2014.
 # Sönke Roggatz <s.roggatz@mailing-werkstatt.de>, 2015.
-# Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016, 2017.
+# Maren Hachmann <marenhachmann@yahoo.com>, 2015, 2016, 2017, 2018.
 # Eduard Braun <eduard.braun2@gmx.de>, 2015-2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2018-02-03 23:41+0100\n"
-"PO-Revision-Date: 2017-08-05 00:39+0100\n"
-"Last-Translator: Eduard Braun <eduard.braun2@gmx.de>\n"
+"PO-Revision-Date: 2018-02-12 23:56+0100\n"
+"Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -397,7 +397,7 @@ msgstr "Stacheldraht"
 
 #: ../share/filters/filters.svg.h:96
 msgid "Gray bevelled wires with drop shadows"
-msgstr "Graue verworrene Drähte mit abgesetztem Schatten"
+msgstr "Graue verworrene Drähte mit Schlagschatten"
 
 #: ../share/filters/filters.svg.h:98
 msgid "Swiss Cheese"
@@ -7668,7 +7668,7 @@ msgstr "Schnee liegt auf dem Objekt"
 
 #: ../src/extension/internal/filter/shadows.h:57
 msgid "Drop Shadow"
-msgstr "Abgesetzter Schatten"
+msgstr "Schlagschatten"
 
 #: ../src/extension/internal/filter/shadows.h:61
 msgid "Blur radius (px)"
@@ -8425,7 +8425,6 @@ msgid "More details..."
 msgstr "Nähere Informationen..."
 
 #: ../src/file-update.cpp:343
-#, fuzzy
 msgid ""
 "<small>We've updated Inkscape to follow the CSS standard of 96 DPI for "
 "better browser compatibility; we used to use 90 DPI. Digital artwork for "
@@ -8450,8 +8449,8 @@ msgstr ""
 "<small>Wir haben Inkscape aktualisiert, um den CSS-Standard von 96 dpi "
 "Auflösung für bessere Kompatibilität mit Webbrowsern zu erfüllen. Früher "
 "haben wir 90 dpi verwendet. Digitales Bildmaterial, das auf einem Bildschirm "
-"dargestellt werden sollen, werden ohne Größenänderung zu 96 dpi konvertiert "
-"und sollten nicht betroffen sein. Kunstwerke, die mit 90 dpi für eine "
+"dargestellt werden soll, wird ohne Größenänderung zu 96 dpi konvertiert "
+"und sollte nicht betroffen sein. Kunstwerke, die mit 90 dpi für eine "
 "bestimmte physische Größe erstellt worden sind, werden zu klein sein, wenn "
 "sie ohne Größenänderung zu 96 dpi konvertiert werden. Es gibt zwei Methoden "
 "zur Anpassung der Größe:\n"
@@ -8467,8 +8466,9 @@ msgstr ""
 "Sie eignet sich jedoch besser für die Ausgabe auf physischen Medien, wenn "
 "eine korrekte Größe und Position wichtig sind (z.B. für den 3D-Druck).\n"
 "\n"
-"Mehr Informationen zu dieser Änderung gibt es in der <a href='https://"
-"inkscape.org/de/learn/faq#todo-todo-todo'>Inkscape-FAQ</a></small>"
+"Mehr Informationen zu dieser Änderung gibt es in der <a href='https:// "
+"inkscape.org/de/lernen/haufig-gestellte-fragen/#dpi_change'>Inkscape-FAQ</a><"
+"/small>."
 
 #: ../src/file-update.cpp:387
 msgid "OK"
@@ -10089,9 +10089,8 @@ msgid "Paths from which to take the original path data"
 msgstr "Pfade, von denen die Orginal-Pfaddaten genommen werden"
 
 #: ../src/live_effects/lpe-fill-between-many.cpp:26
-#, fuzzy
 msgid "Allow transforms"
-msgstr "Transformationen"
+msgstr "Transformationen erlauben"
 
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:24
 msgid "Second path:"
@@ -12085,6 +12084,8 @@ msgid ""
 "Sets margin around exported area (default 0) in units of page size for SVG "
 "and mm for PS/EPS/PDF"
 msgstr ""
+"Fügt einen Rand um den exportierten Bereich ein. Die Einheit ist für SVG die"
+" Einheit der Seitengröße, für PS/EPS/PDF mm (Standardwert 0)."
 
 #: ../src/main.cpp:356 ../src/main.cpp:398
 msgid "VALUE"
@@ -12327,11 +12328,12 @@ msgstr ""
 "früher) erstellt wurden beim Öffnen nicht automatisch korrigieren."
 
 #: ../src/main.cpp:541
-#, fuzzy
 msgid ""
 "Method used to convert pre-.92 document dpi, if needed. ([none|scale-viewbox|"
 "scale-document])"
-msgstr "Methode zur DPI-Konvertierung von pre-0.92-Dokumenten"
+msgstr ""
+"Methode, die zur DPI-Konvertierung von pre-0.92-Dokumenten verwendet werden"
+" soll, falls nötig ([none|scale-viewbox|scale-document])"
 
 #: ../src/main.cpp:891 ../src/main.cpp:1379
 msgid ""
@@ -16752,7 +16754,7 @@ msgid ""
 msgstr ""
 "Der Filterbaustein <b>Gaußscher Weichzeichner</b> zeichnet die Quelle weich. "
 "Er wird normalerweise zusammen mit dem Filterbaustein Versatz benutzt, um "
-"abgesetzte Schatten zu erzeugen."
+"Schlagschatten zu erzeugen."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3022
 msgid ""
@@ -16791,7 +16793,7 @@ msgid ""
 "a slightly different position than the actual object."
 msgstr ""
 "Der Filterbaustein <b>Versatz</b> verschiebt das Bild um einen "
-"benutzerdefinierten Betrag. Dies ist z. B. für abgesetzte Schatten nützlich, "
+"benutzerdefinierten Betrag. Dies ist z. B. für Schlagschatten nützlich, "
 "die sich an einer leicht anderen Position als das eigentliche Objekt "
 "befinden."
 
@@ -20708,20 +20710,21 @@ msgstr ""
 "Null setzen, um Cachen zu deaktivieren"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1450
-#, fuzzy
 msgid "Rendering tile multiplier:"
-msgstr "Rendering-Cachegröße:"
+msgstr "Renderkachel-Multiplikator:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1450
-#, fuzzy
 msgid "requires restart"
-msgstr "(erfordert Neustart)"
+msgstr "erfordert Neustart"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1450
 msgid ""
 "Set the relative size of tiles used to render the canvas. The larger the "
 "value, the bigger the tile size."
 msgstr ""
+"Bestimmt die Größe der Kacheln für die Darstellung der Zeichnung "
+"im Verhältnis zur Zeichenfläche. Je größer der Wert, desto größer sind "
+"die einzelnen Kacheln."
 
 #. blur quality
 #. filter quality
@@ -28903,9 +28906,8 @@ msgid "Center on horizontal and vertical axis"
 msgstr "An horizontalen und vertikalen Achsen ausrichten"
 
 #: ../src/widgets/arc-toolbar.cpp:143
-#, fuzzy
 msgid "Change arc"
-msgstr "Weichzeichner ändern"
+msgstr "Bogen ändern"
 
 #: ../src/widgets/arc-toolbar.cpp:209
 msgid "Arc: Change start/end"
@@ -28942,9 +28944,8 @@ msgid "Rx:"
 msgstr "Rx:"
 
 #: ../src/widgets/arc-toolbar.cpp:435
-#, fuzzy
 msgid "Horizontal radius of the circle, ellipse, or arc"
-msgstr "Horizontaler Radius einer abgerundeten Ecke"
+msgstr "Horizontaler Radius des Kreises, der Ellipse oder des Bogens"
 
 #: ../src/widgets/arc-toolbar.cpp:452 ../src/widgets/rect-toolbar.cpp:366
 msgid "Vertical radius"
@@ -28955,9 +28956,8 @@ msgid "Ry:"
 msgstr "Ry:"
 
 #: ../src/widgets/arc-toolbar.cpp:452
-#, fuzzy
 msgid "Vertical radius of the circle, ellipse, or arc"
-msgstr "Kreise, Ellipsen und Bögen erstellen"
+msgstr "Vertikaler Radius des Kreises, der Ellipse oder des Bogens"
 
 #. Add the units menu.
 #: ../src/widgets/arc-toolbar.cpp:466 ../src/widgets/lpe-toolbar.cpp:387
@@ -31720,9 +31720,8 @@ msgid "Text: Change orientation"
 msgstr "Textausrichtung ändern"
 
 #: ../src/widgets/text-toolbar.cpp:1188
-#, fuzzy
 msgid "Text: Change direction"
-msgstr "Textausrichtung ändern"
+msgstr "Text: Schreibrichtung ändern"
 
 #: ../src/widgets/text-toolbar.cpp:1725
 msgid "Font Family"
@@ -31849,32 +31848,29 @@ msgstr "Zeichenausrichtung in vertikalem Text"
 
 #: ../src/widgets/text-toolbar.cpp:2028
 msgid "LTR"
-msgstr ""
+msgstr "LTR"
 
 #: ../src/widgets/text-toolbar.cpp:2029
-#, fuzzy
 msgid "Left to right text"
-msgstr "Links nach Rechts"
+msgstr "Text von links nach rechts"
 
 #: ../src/widgets/text-toolbar.cpp:2036
 msgid "RTL"
-msgstr ""
+msgstr "RTL"
 
 #: ../src/widgets/text-toolbar.cpp:2037
-#, fuzzy
 msgid "Right to left text"
-msgstr "Rechts nach Links"
+msgstr "Text von rechts nach links"
 
 #. Name
 #: ../src/widgets/text-toolbar.cpp:2043
-#, fuzzy
 msgid "Text direction"
-msgstr "Textrichtung:"
+msgstr "Schreibrichtung"
 
 #. Label
 #: ../src/widgets/text-toolbar.cpp:2044
 msgid "Text direction for normally horizontal text."
-msgstr ""
+msgstr "Schreibrichtung für normalerweise horizontal geschriebenen Text"
 
 #. Drop down menu
 #: ../src/widgets/text-toolbar.cpp:2077
