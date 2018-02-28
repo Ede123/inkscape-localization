@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2018-02-03 23:41+0100\n"
-"PO-Revision-Date: 2018-02-12 23:56+0100\n"
+"PO-Revision-Date: 2018-02-28 01:19+0100\n"
 "Last-Translator: Maren Hachmann <marenhachmann@yahoo.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -20711,7 +20711,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1450
 msgid "Rendering tile multiplier:"
-msgstr "Renderkachel-Multiplikator:"
+msgstr "Kachelgröße für Renderer:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1450
 msgid "requires restart"
@@ -28907,7 +28907,7 @@ msgstr "An horizontalen und vertikalen Achsen ausrichten"
 
 #: ../src/widgets/arc-toolbar.cpp:143
 msgid "Change arc"
-msgstr "Bogen ändern"
+msgstr "Kreisbogen ändern"
 
 #: ../src/widgets/arc-toolbar.cpp:209
 msgid "Arc: Change start/end"
