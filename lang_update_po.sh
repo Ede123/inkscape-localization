@@ -15,3 +15,4 @@ if msgmerge --version > /dev/null; then
 		cd ..
 	done
 fi
+done
